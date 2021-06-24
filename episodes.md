@@ -15,7 +15,7 @@ title: Episódios
 
 {% endfor %}
 </ul>
-
+<!-- 
 <h2> Episódios extras </h2>
 <ul>
 {% for post in site.posts %}    
@@ -26,5 +26,5 @@ title: Episódios
     {% endif %}
 
 {% endfor %}
-</ul>
+</ul> -->
 </div> 
