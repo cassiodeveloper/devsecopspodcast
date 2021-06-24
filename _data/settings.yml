@@ -4,30 +4,23 @@ pages:
   - {name: 'Episodes', link: 'episodes.html'}
   - {name: 'Patreon', link: '#'}
   - {name: 'Shop', link: '#'}
-  - {name: 'GitHub', link: 'https://github.com/PandaSekh'}
-  - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
-  - {icon: 'instagram', type: "brand", link: '#'}
-  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
-  - {icon: 'facebook', type: "brand", link: '#'}
-  - {icon: 'youtube', type: "brand", link: '#'}  
-  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
-  - {icon: 'rss', type: "solid", link: "#"}
+  - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/cassiodeveloper'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/cassiodeveloper'}
+  - {icon: 'facebook', type: "brand", link: 'https://facebook.com/cassiodeveloper'}
+  - {icon: 'youtube', type: "brand", link: 'https://youtube.com/CassioBatistaPereira'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:cassio@cassiobp.com.br'}
+  - {icon: 'rss', type: "solid", link: "https://www.spreaker.com/show/4179006/episodes/feed"}
 
 websites-podcast:
-  - {name: 'Apple Podcast', link: '#'}
-  - {name: 'Spotify', link: '#'}
-  - {name: 'YouTube', link: '#'}
-  - {name: 'Android', link: '#'}
-  - {name: 'Spreaker', link: '#'}
-  - {name: 'Google Podcast', link: '#'}
-  - {name: 'Anchor', link: '#'}
-  - {name: 'Castbox', link: '#'}
-  - {name: 'Overcast', link: '#'}
-  - {name: 'RadioPublic', link: '#'}
-  - {name: 'Breaker', link: '#'}  
-  - {name: 'RSS', link: '#'}
+  - {name: 'Apple Podcast', link: 'https://podcasts.apple.com/br/podcast/devsecops-podcast/id1493409525'}
+  - {name: 'Spotify', link: 'https://open.spotify.com/show/25oDz3pL4HYy4wotJvVHDg?si=DvYstYoBSciyFxAn6pTDOg&nd=1https://open.spotify.com/show/25oDz3pL4HYy4wotJvVHDg?si=DvYstYoBSciyFxAn6pTDOg&nd=1'}
+  - {name: 'YouTube', link: 'https://www.youtube.com/playlist?list=PLC2UsZBhySmJU0EYM6kzgchnXikYXZzmi'}
+  - {name: 'Spreaker', link: 'https://www.spreaker.com/show/devsecops-podcast'}
+  - {name: 'Google Podcast', link: 'https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDE3OTAwNi9lcGlzb2Rlcy9mZWVk'}
+  - {name: 'Castbox', link: 'https://castbox.fm/channel/id2535704'}
+  - {name: 'RSS', link: 'https://www.spreaker.com/show/4179006/episodes/feed'}
 
 translate-date: true #See _includes/date.html to translate the months' name
 shownotes: true
