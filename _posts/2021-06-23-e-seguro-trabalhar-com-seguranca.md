@@ -7,6 +7,7 @@ description: Será que trabalhar com segurança, é seguro de fato? O que isso i
 file: https://api.spreaker.com/v2/episodes/45405533/download.mp3
 length: "58:46"
 videoid: rldqPVHQ9Ck
+cover: "../assets/img/25.png"
 ---
 
 Será que trabalhar com segurança, é seguro de fato? O que isso implica em nossas carreiras e até mesmo nos clientes e na sociedade?
