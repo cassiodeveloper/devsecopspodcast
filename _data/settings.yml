@@ -2,8 +2,6 @@ analytics-id:
 #Pages
 pages:
   - {name: 'Episodes', link: 'episodes.html'}
-  - {name: 'Patreon', link: '#'}
-  - {name: 'Shop', link: '#'}
 
 social:
   - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/cassiodeveloper'}
