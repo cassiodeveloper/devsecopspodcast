@@ -1,5 +1,5 @@
 ---
-title: 27 - O papel do arquiteto ainda � relevante?
+title: 27 - O papel do arquiteto ainda é relevante?
 layout: post
 type: main
 description: Seja que o Arquiteto de Software vai morrer? será que vale a pena investir nessa carreira? será? será? será? Pra responder a essas questáes, um convidado maaaaaaara.
