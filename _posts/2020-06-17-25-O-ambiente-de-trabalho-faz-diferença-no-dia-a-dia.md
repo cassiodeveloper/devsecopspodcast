@@ -2,11 +2,11 @@
 title: 25 - O ambiente de trabalho faz diferen�a no dia a dia?
 layout: post
 type: main
-description: Ser� que limpeza, organiza��o e até o cheiro do ambiente afeta o desempenho das pessoas? Nesse episódio pol�mico e meio maluco discutimos sobre isso.
+description: será que limpeza, organiza��o e até o cheiro do ambiente afeta o desempenho das pessoas? Nesse episódio pol�mico e meio maluco discutimos sobre isso.
 file: https://api.spreaker.com/download/episode/31352607/ep25.mp3
 length: 57:28
 videoid: Udmbtyazh78
 cover: "../assets/img/25-1.png"
 ---
 
-Ser� que limpeza, organiza��o e até o cheiro do ambiente afeta o desempenho das pessoas? Nesse episódio pol�mico e meio maluco discutimos sobre isso.
+será que limpeza, organiza��o e até o cheiro do ambiente afeta o desempenho das pessoas? Nesse episódio pol�mico e meio maluco discutimos sobre isso.
