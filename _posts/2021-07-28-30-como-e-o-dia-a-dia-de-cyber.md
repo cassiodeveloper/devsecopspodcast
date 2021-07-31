@@ -1,5 +1,5 @@
 ---
-title: 29 - Security Hygiene, mais segurança para você
+title: 30 - Como é o dia a dia de Cyber
 layout: post
 type: main
 description: Com um convidado que inspirou o Cássio na jornada de segurança, vamos entender como é o dia a dia no mundo cyber, ainda mais numa empresa com 500 mil funcionários.
