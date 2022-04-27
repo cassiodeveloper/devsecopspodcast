@@ -1,5 +1,5 @@
 ---
-title: 14 - SDL PT1 - PROVIDE TRAINING | #DEVSECOPS​​​​ PODCAST #15
+title: 15 - SDL PT1 - PROVIDE TRAINING | #DEVSECOPS​​​​ PODCAST #15
 layout: post
 type: main
 description: No primeiro episódio da série SDL, você acompanha sobre treinamentos. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
