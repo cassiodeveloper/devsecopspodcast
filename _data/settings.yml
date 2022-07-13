@@ -21,7 +21,7 @@ websites-podcast:
   - {name: 'RSS', link: 'https://www.spreaker.com/show/4179006/episodes/feed'}
 
 translate-date: true #See _includes/date.html to translate the months' name
-shownotes: false
+shownotes: true
 
 #Disqus
 disqus:
