@@ -9,4 +9,4 @@ videoid: LTbxhYpze4c
 cover: "../assets/img/325.png"
 ---
 
-No décimo primeiro episódio da série SDL, você acompanha sobre Penetration Testing Testing DAST. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
+No décimo primeiro episódio da série SDL, você acompanha sobre Penetration Testing Testing DAST. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa
