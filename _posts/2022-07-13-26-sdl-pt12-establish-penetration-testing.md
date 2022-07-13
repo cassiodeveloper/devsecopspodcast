@@ -1,12 +1,12 @@
 ---
-title: 25 - SDL PT11 - Perform Penetration Testing
+title: 26 - SDL PT12 - Establish a Standard Incident Response Process 
 layout: post
 type: main
-description: No décimo primeiro episódio da série SDL, você acompanha sobre Penetration Testing Testing DAST. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
-file: https://api.spreaker.com/v2/episodes/50485958/download.mp3
-length: 46:56
-videoid: LTbxhYpze4c
-cover: "../assets/img/325.png"
+description: No décimo segundo e último episódio da série SDL, você acompanha sobre Perform Penetration Testing. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
+file: https://api.spreaker.com/v2/episodes/50558757/download.mp3
+length: 62:45
+videoid: qz1cz8wNV70
+cover: "../assets/img/326.png"
 ---
 
-No décimo primeiro episódio da série SDL, você acompanha sobre Penetration Testing Testing DAST. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
+No décimo segundo e último episódio da série SDL, você acompanha sobre Perform Penetration Testing. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
