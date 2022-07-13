@@ -10,3 +10,6 @@ cover: "../assets/img/326.png"
 ---
 
 No décimo segundo e último episódio da série SDL, você acompanha sobre Perform Penetration Testing. O quê? Como? Onde? Quando? E principalmente, para quem? Vamos mergulhar no tema para te ajudar a desenvolver software seguro, da maneira certa.
+
+[Nova8](https://nova8.com.br)
+[Checkmarx](https://checkmarx.com)
