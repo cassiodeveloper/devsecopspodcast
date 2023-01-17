@@ -43,7 +43,9 @@ layout: default
                         {% include shownotes.html %}
                 {% endif %}
         {% endif %}
-
+        {% if page.guest %}
+                {% include guest.html guest = page.guest %}
+        {% endif %}
         
 </div>
 {% if site.settings.disqus-shortname %}
