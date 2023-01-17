@@ -37,7 +37,11 @@ layout: default
         <!-- {{ content }} -->
 
         {% if site.data.settings.shownotes == true %}
-                {% include shownotes.html %}
+                {% if page.extralink %}
+                        {% include shownotes.html extralink = page.extralink %}
+                {% else %}
+                        {% include shownotes.html %}
+                {% endif %}
         {% endif %}
 
         
