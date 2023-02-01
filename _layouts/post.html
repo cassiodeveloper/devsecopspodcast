@@ -28,7 +28,7 @@ layout: default
                 {{- page.title -}}
         {% endcapture %}
 
-        {% include player.html file = file title = title %}
+        {% include player.html file = file title = title transcription = page.transcription %}
 
         {% if page.videoid %}
                 {% include video.html videoid = page.videoid %}
