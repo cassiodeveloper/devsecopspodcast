@@ -1,0 +1,1108 @@
+00:02.66
+Marcos Santos
+I said I said.
+
+00:16.41
+Marcos Santos
+As your top place.
+
+00:20.42
+cassiodeveloper
+Um, hello. Everyone nice to meet you nice to see you nice to have you. It's awesome to have another episode in english and despite the whole portuguese that we have here for the fourth season already thousands of episodes for you to listen actually not thousands but hundreds of episodes for you to listen. I'm cassippedata and thank you to have you all of you here I'm very pleasure to announce that we have a very nice guest today to talk about some devops stuff and some secrets some best practice and we will discover this devops word because so far we didn't have any episode about.
+
+00:39.90
+Marcos Santos
+I'm micro santos.
+
+00:41.50
+balbino
+I'm a hoerrigo bobin.
+
+00:58.23
+cassiodeveloper
+Dev ops especially but today we finally have someone who understand this because Marcus and Rodrigo doesn't understand shit. So finally finally we can have some specialties about this? Yeah, just before we introduce our episode in our guest I want to talk that Dev Seops Podcast has the support from checkmarks and novi 8
+
+01:05.33
+Marcos Santos
+Ah.
+
+01:17.21
+cassiodeveloper
+Specialized and secure of systems and safe code all the links and so on from novi 8 distributed from checkmarks in Brazil it's on the description of this episode on our website and also on the Youtube video now I need to talk in portuguese because it's focused on the Brazil. But guys contab dalympia especially adding improve so nice star these subsid this sweet pre o migalach contaably dash a conta compicor da cont li da limp impact list onmp prones prachaingdi. Then move parir to make ta com mesan Q o a specificica image o inclusiveumma live vigil samment to La Lu can outu to be daily scara allurra arcan non coinesing daura tap pergi duosavid maalurrato pareria k ja gar ne seos paji kessh it was setting days percent. It's school to no school Sua Allura Ape Manu linked the may pack in thats of theso you learn also such e just packing the game Nasa live which you wish that lu leonal sun do as Sco Pos Grada song parelia Coa Fia Don was a pooe no postte keepon to Fia people pointo to bay whose links the based on lets be. So. Want to setting Cru Suji space as soji pause song don to Reg Bo so is both me to do the my na good and poke my I Levan Pla chiki do course su zunji de facey benetka unji offensive security Tom Car scott ofton shaganmerad moving to for Chanoma Perce with baca it a fiapia lura.
+
+02:41.74
+cassiodeveloper
+The meso paredos noaki duing and to remind you that the gold security specialize in application security if you want to develop secure software talk to the gold security. Okay, guys done with sponsorship. Yeah, we still will be reach one day we'll be reach one day. Let's see.
+
+02:53.65
+Marcos Santos
+Oh my god.
+
+02:55.24
+balbino
+I Will just.
+
+02:58.58
+cassiodeveloper
+But today guys I want to introduce you to Manuela Manchone our first let's say italian guest. We already have venezuelan we have polish we had the americans brazilians of course now 1 from italy manuela nice to nice to meet you nice to have you.
+
+03:07.86
+Marcos Santos
+Yeah, yeah.
+
+03:14.30
+Marcos Santos
+And feel.
+
+03:16.24
+cassiodeveloper
+Ah, thank you for joining. Thank you for our time please introduce yourself talk a bit be feel free. Oh this stage is yours.
+
+03:22.43
+Manuela
+So thank you for the introduction Hello everyone and it's my first podcast So I'm quite embarrassed I'm a very shri person. Let's see how this goes.
+
+03:33.44
+cassiodeveloper
+Um, you're not shy. It's fine. It's fine.
+
+03:34.90
+Manuela
+And so something about myself. My name is Manuela and I work with casio and we have explored certain new topics regarding devops and what we can automate and how we can do things in an easier way for our teams. So that's something I'm very passionate about and another thing that I want that I want to say about myself is that I manage a lot of change and change is different. So for example, you can see today. We are in February my son still wants to have his little Christmas tree and other decorations there. So this is one topic we are going to talk about.
+
+04:07.10
+cassiodeveloper
+I.
+
+04:07.41
+Marcos Santos
+Perfect.
+
+04:12.34
+Manuela
+Later when we talk about devops culture teams and what happens in real life and something else about myself. Ah, okay I'm in Italy I'm in geneva which is a beautiful city come to visit the City If you ever come to Italy. It's becoming quite a popular tourist destination and. You need always to have an anchor to keep your sanity So This is my sanity this this is a hardcore engineering project that I'm doing. It's It's a sweater. Yeah and you're a true engineer if you can learn how to make anything and this is another skill that you need in.
+
+04:33.80
+cassiodeveloper
+Are.
+
+04:40.17
+Marcos Santos
+Violence.
+
+04:41.26
+cassiodeveloper
+Um, ah, that's also.
+
+04:48.60
+balbino
+If what if.
+
+04:49.11
+cassiodeveloper
+Actually this excuse this high hockey mindset. Yeah, you need to be good at anything. Very interesting, very interesting.
+
+04:50.51
+Marcos Santos
+Tells good.
+
+04:51.10
+Manuela
+Devops. Yes, absolutely absolutely. There's no limit to the technologies you can use to achieve what you need.
+
+04:58.70
+balbino
+So.
+
+05:01.80
+cassiodeveloper
+Exactly very good very good introduction Manuela thank you for the ones who are just listening to us on on Spotify or any platform go to Youtube you need to see this awesome sweater and understand how is this shelter behind Manuela with books and so on. So okay, guys. Let's start with the conversation. Yeah I would start with the first question which is the best brazilian food or italian food ah have tried manu I haven't tried brazilian food. no no I'm kidding guys I'm kidding but I would say.
+
+05:24.60
+balbino
+I.
+
+05:25.47
+Manuela
+I I'm not knowledgeable enough to understand this.
+
+05:36.57
+cassiodeveloper
+The first thing that we always not the first thing that we always but we have been discussing doing the podcast we doing the four years that we are here already something about future especially hodrigo has this word for the podcast future is the most difficult thing to change in a company.
+
+05:53.51
+Manuela
+Um, yes.
+
+05:53.72
+cassiodeveloper
+And we've we have been working your customers to other few colleagues and so on and we feel that the most difficult part is the future. So Manuela. What do you think What do you think that we can do to change future or to introduce a new a new future to a company to a team How do you see? This is a real challenge. We are wrong and it's easy for you. How? How do you see this.
+
+06:13.80
+Manuela
+Um I Believe it's difficult for everyone. Culture is a very powerful component of everything we do. It's at our core we have our own personal culture. We have our family culture. We are typically ah immersed in ah in the culture of our country or the countries where we have lived and the same is valid also for our teams our companies so there might be some teams that are more open to change other teams that are more worried about it. And I think all of these things are very natural and whenever we need to introduce something and ah try to get to a certain goal or targets that we have we need to respect that and to find a way to work with it. So if someone is ah having some doubts or some. Ah issues or Worries. We cannot just ignore it and say hey no what we're doing is good. We Want to do it Anyway. Now we have to work with. Okay, why is it worried Why are you worried? Why do you see a concern here with this.. How can we work with it. How can we give you what you need to succeed in this change. It's extremely difficult and I struggle a lot with it every time in different ways I have learned a few tricks. But yeah, there are more tricks to learn I'm sure.
+
+07:31.60
+cassiodeveloper
+This interesting interesting hotrigo. You have some comments around future because we like this topic and.
+
+07:37.56
+Marcos Santos
+And.
+
+07:38.84
+balbino
+Yeah, yeah, I like so I like ah very much and about the the dev ops too I I see the the the biggest chalk of the Kutor I see in the companies come from the dev ops all the time I see in that company. They they make the things for the way and when the come dev ops in the ah further the the project at all the change. How they think changes and dev ops is this aji? Yeah ah agent for transformation.
+
+08:12.67
+Manuela
+Through yes.
+
+08:15.20
+balbino
+Of the the company you know because you know, ah exactly how to the the process running and you make you need to programming the people's for to follow the the process. So I see the the devops is is the.
+
+08:34.49
+balbino
+Is the most important for the changing ah Qterin accomp.
+
+08:38.47
+Manuela
+I Think this is through sometimes I like to visualize this as when we are setting up a production line in a factory where you can imagine the source code as raw materials and then we make this assembly line with. Lots of automation and things and people may have the idea that okay before that we were used to do things by hand and maybe there were some operations that were more difficult or more chaotic and now a machine is doing that. So what? what is the value of other people in that context. Okay I don't need to click here anymore. What else can I do. Ah, can I do fun things. Ah can I do things that interest me can I do strategic things and that empowers an organization.
+
+09:25.22
+cassiodeveloper
+Very good point Marcus you have some some subject around this because you don't have future. Yeah.
+
+09:26.16
+balbino
+So when.
+
+09:30.70
+Marcos Santos
+No, but good or no because no no I have a future but we talk about a lot of these in the past we talk with um, ah P psychologist about future.
+
+09:32.66
+balbino
+I I Just follow orders.
+
+09:47.89
+Marcos Santos
+Bought everything and the manual explain very well I don't have a more to a crescent. Yeah.
+
+09:53.80
+cassiodeveloper
+Um, not that you add. Okay, okay.
+
+09:54.34
+balbino
+Yeah, what when you talk about the the production when you when you get and the manufacturey for example and put some some process ah week week you have ah, kind of the the devops from the the factors. No and the bigger bigger change in. Arc culture a cultureture in in the world come when the the oh the industrial evolution so they they just put some ah process like the like ah the ops. Ah the biggest change in the our world in the modern world. Come from the vobs for the the for the factors. No yeah.
+
+10:33.31
+cassiodeveloper
+Um, in introduce, a revolution interesting point. Very philosophical today. Hoo. Thank you think for our collaboration I would yeah I would I would add to the discussion something like this like.
+
+10:34.45
+Manuela
+Yes, in a way. Yes.
+
+10:41.10
+balbino
+I think.
+
+10:41.18
+Marcos Santos
+Hope.
+
+10:43.49
+Manuela
+It's my influence.
+
+10:48.99
+cassiodeveloper
+About specific this future because we already ah agreed that it's hard to change because of many factors like Manuuela said okay, we have our country family stuff that we already attached to it and the problem we face Here. We are 3 from Security Manellala. So imagine we are trying to get into. Company's futures and usually those company futures. Do not have security at all of course where we you Work. We already have something but these companies they don't have secure Arrow. So imagine we need to step in with new processes New tools, new practices, etc. Etc etc. So.
+
+11:12.86
+Manuela
+So.
+
+11:28.28
+cassiodeveloper
+All this new in stuff in the process. It kind of bothers them, especially developers. Especially these companies who has the mentality of we need to deliver as fast as I as we can because business cannot stop. We need to sell more sell more so more and they. You know they struggle with these new things. Even if these new things and not from security we are talking from security because it's how we come there but usually even for new devops processes I was working with hodri guina in a tourism company biggest in not in America actually and they were struggle to have devops processes. Because they were waterfa style and then they move it to aggio and all these changing was kind of very painful and what do you feel that that it's like smoothly or easy or I don't know techniques tips that we can do to start introducing this new future.
+
+12:23.99
+Manuela
+This reminds me of when I started as a configuration manager there was no configuration Manager role and people didn't really know what it was I didn't really even know what it was I mean it was the first time I had that kind of role and I started to look.
+
+12:24.50
+cassiodeveloper
+This new stuff. For example.
+
+12:30.93
+cassiodeveloper
+Um, yeah.
+
+12:42.80
+Manuela
+How I could help people what was difficult for them and what part of my role could help them and I focused more and more on that so you may find out that people are struggling with something and they have a higher motivation to do something in that area so that is something where you can. Ah, start a trust relationship say you have this Problem. You are ah aware of this Problem. You want to change you have motivation I'm here to help you I can help you this way and this is the benefit that you will have trying maybe with more things. Maybe it's more things that.
+
+13:14.40
+Marcos Santos
+Landscape.
+
+13:15.15
+cassiodeveloper
+Um, how interesting interesting.
+
+13:20.13
+Manuela
+Bring value to them and they realize okay this is a collaboration that is giving me something good.
+
+13:24.78
+Marcos Santos
+And good one. No no is a very hard. Yeah, the.
+
+13:26.86
+cassiodeveloper
+Um, the point Easy easy, Very easy. The radically is very easy.
+
+13:28.26
+balbino
+So yeah, but when you think.
+
+13:30.18
+Manuela
+It's not easy if not not at all and some people can test. You can't even talk with these people because they will say No no no I don't have time for this. They will have time once they trust you.
+
+13:38.96
+balbino
+You Yeah I yeah you you showed that the the the great the great game in when will you put some process automation in process.
+
+13:40.40
+cassiodeveloper
+Um, yes, exactly yeah.
+
+13:42.28
+Marcos Santos
+Of.
+
+13:54.40
+balbino
+But people don'tt understand about this Nancy I don't have time to make this but I will I will ah I will give time for you when I automat is this for you this process so before that the devops all the things is painful for for do this.
+
+13:57.93
+Manuela
+This.
+
+14:06.45
+Manuela
+Must.
+
+14:08.31
+cassiodeveloper
+Um, ah.
+
+14:13.40
+balbino
+When you when you compile it that codes when you build you need to send for for server. Now you don't don't think about this, you don't don't have to to think you have the tools for do this you You just think of all the products and the your code but the the point and.
+
+14:22.90
+Manuela
+Um, and not not yes.
+
+14:32.99
+balbino
+So don't think about this just think about the now now I I will lost 1 minute for do this.
+
+14:42.41
+Manuela
+Ah.
+
+14:43.28
+cassiodeveloper
+Um, interesting point. Also I would I would ask you another question or put the discussion in another direction kind of okay we have ah. I would say I heard as actually once that devops is not the position. It's kind of a mindset.. Do you agree with this.
+
+15:00.21
+Manuela
+Um, yes I think so ah as a configuration manager for me. Devops is like a style. Okay, we do configuration managers. We are a control freaks. We want to.
+
+15:10.81
+Marcos Santos
+It's good. So.
+
+15:14.45
+Manuela
+Control and track everything but devops is a style that makes things very lightweight with lots of tools to do the tracking to do the complex stuff and we have all the data We don't need to worry about writing a long document that describes the Baseline with versions and get it approved reviewed blah Blah Blah no. It's there click done and that's very makes me feel very good because I don't have to sweat the small stuff and I can focus on strategy instead. Um so I like to see as as a style maybe in a few years. There would be.
+
+15:40.82
+cassiodeveloper
+Um.
+
+15:50.30
+Manuela
+Yet another style which is different even faster. Even I don't know ah more with better user experience. Ah more like hey this is a creative service and we're all experiencing it in a very nice way like going to a shop I don't know what's going to happen in the future and.
+
+16:08.17
+cassiodeveloper
+Um.
+
+16:08.40
+Manuela
+Those concepts that are at the core of what I do are configuration management. Those are very logical, very deeply rooted in the nature of what we do then the style could be called Devops could be called shop Software Blah Blah Blah anything.
+
+16:24.60
+cassiodeveloper
+Interesting. Another point is like we need to rely because as I mentioned like wood is a style but we need to rely a lot on tools on tooling. Yeah, which means we are not pushing buttons all day.
+
+16:36.80
+Manuela
+Yes, definitely.
+
+16:42.12
+cassiodeveloper
+Instead as you mentioned like we're thinking in a strategy of creating an automation or creating a process or automating a process itself to make this happen in ah, a job more Agy or efficient efficient way. Yeah, so around tooling. Do you rely on tooling.
+
+16:52.40
+Manuela
+Um, yes.
+
+17:00.56
+cassiodeveloper
+Do you create your own scripts or tools I would say how how is it for you. How's your daily stuff.
+
+17:07.50
+Manuela
+Okay, anything goes I rely and a lot on tools. Ah and we have those basic tools in place. Ah for the organization to work and track activities and track. Everything.
+
+17:09.16
+Marcos Santos
+In.
+
+17:21.46
+Manuela
+But on top of that there are extensions. There are discoveries. There are custom scripts and and tools especially when working with pipelines so that build the software. It's very easy and very natural to add your own things. Add your own powershells script here and there. Ah, few rest Apis ah blah blah blah customize the behavior I do all kinds of things. So I showed you earlier my other project I I don't spare any technology anything that helps me get where I want to go I will use it of course I always in an ethical correct and safe way. But I mean any possible.
+
+17:47.50
+cassiodeveloper
+Are no.
+
+17:57.92
+Manuela
+Thing that we can use and is good to use. Yes, that's valid. Any ideas are are that can be developed are good.
+
+18:02.76
+cassiodeveloper
+Interesting and it's one of the principles of security which I forgot the number but it's exactly about not rely on technology to have security like I heard already some teams discussing like oh I cannot encrypt this kind of data because we don't have encryption on our framework. So.
+
+18:03.30
+Marcos Santos
+And smooth.
+
+18:12.21
+Manuela
+Mamma.
+
+18:22.72
+cassiodeveloper
+So what? the hell we are not encrypting because you don't have on their framework so find another framework find a library or something but you need encryption. That's the point. Yeah, and this is it's interesting point Marcus I remember once we were working with some partner I would say ah and then they were kind of ah.
+
+18:27.54
+Manuela
+Allan ahha.
+
+18:35.98
+Marcos Santos
+C.
+
+18:41.86
+cassiodeveloper
+Struggling that they do not have any kind of programmers I mean any kind of automated guys. They they cannot run anything so they were looking for a tool that we are selling this tool back then that they're looking for a tool like okay I just want to integrate this tool and push a button and don't do anything more.
+
+18:51.00
+Marcos Santos
+So no.
+
+18:59.68
+cassiodeveloper
+But they had all the pipelines we need to integrate you need to do this scanning strategy and so on remember this case of them.
+
+19:06.76
+Marcos Santos
+Yes, or remember this case where in the past I don't say the name me or now but in the past the peoples asking me about ah I don't have anything inside my company but I needs to.
+
+19:13.20
+cassiodeveloper
+Um, hello.
+
+19:22.19
+Marcos Santos
+I Need to Scan I need to compile it I need to put security to put it and everything inside my company but I I have a low bridge and I don't have a tools find it a tool for me and the implant for inside my company. Now who there no very is and the most problem is people thinks subsecurity or ah tooling is a free or don't have a complexity and people think oh no complexity is easy.
+
+19:45.30
+cassiodeveloper
+Um, easy very easy.
+
+19:59.81
+Marcos Santos
+Is only more more 2 and you imp plenty is you need two days for this and indeed is not good as terrible.
+
+20:06.87
+cassiodeveloper
+Um, exactly exactly and the manula you mentioned the interesting point now that you have kind of coding skews because you mentioned powershells and scripting there scripting here. It. Do you think this is kind of a mandatory for this. Style as you described that as Dev Opbs or configuration manager or do you think or do believe that no no, no, no, it's not mandatory for this desire. Yeah, you can you can succeed without any scripting. Let's say.
+
+20:36.60
+Manuela
+Mm It's mandatory for me I wouldn't be happy without it I would feel very limited if you can just use what has already been done by others Sometimes you also lose the the ability to imagine what is feasible. What. Can be done and that's very empowering that can give you that extra strength that you know that good idea that inspiration to do things better if you don't know how to make things you can just buy them. Basically.
+
+21:03.97
+cassiodeveloper
+Um, you know, interesting. No interesting. So hadri go you are back already ready.
+
+21:05.10
+Marcos Santos
+This is a good.
+
+21:11.88
+balbino
+Yeah, yeah, in case, maybe you can hear a lot of cry here and on background I mean so.
+
+21:12.70
+Marcos Santos
+Yeah, look this.
+
+21:16.61
+cassiodeveloper
+Um I have a question but no, that's fine that's fine I have a question for you. Do you believe like Manuela just mentioned that it's mandatory for her to have scripting and excuse. Let's say not developing skills but scripting skills which is different there. Do you believe the same for application security like we need to do code reviews daily. We need to out to tune some Sas scans for the customer and so on. Do you think codeding s excuse or understand the code. It's mandatory.
+
+21:42.85
+balbino
+Yeah, yeah, you, you need to to know script for.. For example I I make a troubleshoot for hezutov the that the desk is this can and the the tool. Week I can I can see what happened because the the a lot of the the time for now and I use so new scripts in the the shell show scripts to make the the the for for finding the ah ah the kind I'm.
+
+22:05.73
+cassiodeveloper
+Um, Logs and so on.
+
+22:18.87
+cassiodeveloper
+Are ah.
+
+22:20.50
+balbino
+I lost maybe 30 minutes for for do this using script. So I lost a lot of hours in the the tools for to try to find the same the same thing. So the the the show script is is a powerful to when you see the the black.
+
+22:32.26
+cassiodeveloper
+Um.
+
+22:39.40
+balbino
+The black screen. Maybe you you have some Hardy things in them. So for automating all the things you use Scripts or I don't know to together in some some some data or crawling. So.
+
+22:42.46
+cassiodeveloper
+Are.
+
+22:57.85
+cassiodeveloper
+Um, ah.
+
+22:58.35
+balbino
+It's is mandatory. He no scripts for for do this and and maybe out did all the areas and in nineteeno.
+
+23:00.33
+cassiodeveloper
+Yeah.
+
+23:06.22
+cassiodeveloper
+Yeah, as I would argue that especially for application security as we're mentioning like I see a lot of customers. A lot of developers I mean not developers especially but a lot of general people involved in vulnerabilities. They are.
+
+23:09.97
+Marcos Santos
+You know.
+
+23:22.62
+cassiodeveloper
+Marking some outputs from the tools from saas solutions from data solutions on as a false positives and in 2 minutes discussion with the same people around this vulnerability I was I was proving them that it was not false positive. It was a real vulnerability which makes miscarry. Because I I was developer for 15 years and c sharp Java Python whatever and when I see code and I see a vulnerabilit not a bit I know if it's vulnerable or not I know it's false positive or not but I don't believe that all the developers without the security excuse and all the security guys without the developing excuse. Has the same approach when you find a vulnerability is' the same you go to a doctor and one doctor say oh you know you? Unfortunately you have a cancer and you go to other ten doctors and no, you don't have nothing then but you're going to stay with that one in mind because that one is more dangerous. You know. Then you're going to find another option another opinion, another opinion and opinion then what who are you going to believe and I think we have the same problem in when we talk about application security and because a lot of security guys. Don't know code and a lot of developers don't know security so they need to trust on the tools. And they do produce also false positives. It's normal. It's mathematically proven that it's impossible to not have any false positiveivism kind of scanning tools and so on but micros go on you need to make some common sense or.
+
+24:44.21
+Marcos Santos
+Know as a no, that's okay and I have a comment because and nowadays I'm working more hard. We fee eacc if free inffi to is a code and I see so many vulnerabilities and the people's ah.
+
+25:00.70
+cassiodeveloper
+Are.
+
+25:01.18
+Marcos Santos
+Ignore these vulnerabilities as more activities because so many scans when I try to find and okay, let's Coach C and the guys I see the see the the secrets inside the codes password and don't put the version of for example in p.
+
+25:19.11
+cassiodeveloper
+Um, I know I know how it is I know it is.
+
+25:20.92
+Marcos Santos
+Um, I find the and no security group is I find so many wound are bits in I Sayque Oh my God you you are you think is corrected. Your secret is inside here. So ah of ah.
+
+25:21.52
+Manuela
+I.
+
+25:36.57
+cassiodeveloper
+Manuela I have a question for you. Do you have secrets on your power show scripts hopefully hopefully not yet. Ah oh awesome. Awesome! Awesome! awesome.
+
+25:39.95
+Marcos Santos
+Yeah, if you.
+
+25:43.59
+Manuela
+I have secrets in places that vanage secrets properly and I have 1 item in my backlog to run scan to find out if somebody without realizing has stored secrets somewhere but I have.
+
+25:48.95
+Marcos Santos
+I Ah some perfect. So.
+
+25:59.50
+cassiodeveloper
+Um, very good, Very good. Ah no, but that's the point. Yeah when you talk about security itself because we have application security. Yeah, we're gonna take care of the application itself and we have Dev saops.
+
+26:01.23
+Manuela
+Cyber security people in my organization and and I talk with them and I work with them I'm learning slowly slowly I'm learning.
+
+26:04.41
+balbino
+The effect.
+
+26:07.70
+Marcos Santos
+Ah, with.
+
+26:14.86
+Manuela
+Absolutely.
+
+26:17.21
+cassiodeveloper
+That we gonna look for the secrets on the codes or who watches the watcher who can give permissions e cetera we are discussing a project similar with this time ago and that's the point. Yeah that's we understand the need of this and we grow we give them 1 step forward and a step forward and this is coming back to the future. As we are discussing like we are kind of open you are open to understand what's the need from the security perspective I am open to understand what is the need to run with the scripts and so on and we match these 2 ideas. Let's say to have a better solution.
+
+26:39.57
+Manuela
+I.
+
+26:46.64
+Manuela
+Yes, for me as devops when when I find the problem I like to have someone whom I can trust to say Okay I have this thing I don't know what to manage because this is not my idea of Expertise help me.
+
+27:03.33
+cassiodeveloper
+Um.
+
+27:04.26
+Manuela
+When there is this contact then I can come to you if I find a vulnerability I can come to you I can talk. Okay I found this now What before there was I can believe that tendency to say no this is not a problem because I don't know what to do with it if it's a problem.
+
+27:17.17
+cassiodeveloper
+Not very good. So this advice all the developers listening to us should take oh I found a one not a bit what I have to do with this. Do not suppress the warning is do not gardic code and so on because as I always say when we need to defend our company. We need to know about all our problems.
+
+27:25.00
+Marcos Santos
+Yeah.
+
+27:37.40
+cassiodeveloper
+When the hacker needs to attack. He just need to know about 1 problem they just need 1 breach 1 door only one and we need to know all of them to defend so it's it's much more harder for us and usually we we work with the avengers and when some screw up they call the avengers the security. Oh come here. We have a breach. We have some problem.
+
+27:40.88
+Marcos Santos
+Yeah.
+
+27:47.63
+Manuela
+Um.
+
+27:52.20
+Marcos Santos
+Yeah, the Prevas probably.
+
+27:56.54
+cassiodeveloper
+So call the avengers. But it's already done guys. So sorry then sometimes you don' not have to do okay so coming back to to our main topic. Let's say Manuela? what do you think what do you believe actually that are the challenge. Not I mean not for you. But for the IReEngine or challenge. Ah, in this devops devissecop security stuff. Even best practices. What do you feel that it's the most hard part for you.
+
+28:25.63
+Manuela
+Okay, the worst part for me is when we have many tools and they don't really talk to each other like we do scanning for ah open source and we have the results in 1 place.
+
+28:30.63
+cassiodeveloper
+Are.
+
+28:39.69
+Manuela
+We do static code analysis and we have results in another place and our results of the pipelines are are deliverables in another place and they're not maybe related to each other.. That's the kind of spaghetti Dev ops where you don't know anything and it's ah it's. Crazy. You know you have lots of Data. You don't really know what to do with it How to relate one the result of a tool with the result of another and how to really process and have ah a meaningful process around it.
+
+29:08.81
+Marcos Santos
+And this is wood.
+
+29:09.50
+cassiodeveloper
+Um, interesting interesting. Do do you Also believe that lack of documentation is a problem also in some companies or I don't know.
+
+29:15.69
+Manuela
+Ah, it's a risk for companies, especially when people keep changing that for sure but I would see it as a general risk not specific to the to devops or devstep cops. That's a risk for everything around the what. That company does may Yes, Yes, if that person um decides to go on vacation or retire. Ah, okay, maybe that's not a conscious decision Hopefully but yeah I mean.
+
+29:35.17
+cassiodeveloper
+Um, you know if it are a business ah business rules or whatever if if only 1 per you rely on 1 person this person died or anything.
+
+29:44.95
+Marcos Santos
+Or die. Ah, ah ah, ah.
+
+29:46.43
+cassiodeveloper
+Ah, but yeah, it can happen but it happened.
+
+29:53.48
+Manuela
+People can find a better job at our um maybe rival company in a day and disappear because they really want that person. These things can happen and we'd better be prepared.
+
+29:59.32
+cassiodeveloper
+Um, yeah.
+
+30:08.50
+cassiodeveloper
+Um, okay, okay, you someone even mentioned something hadudrigo work with them. They cut you off. So.
+
+30:11.13
+balbino
+I know I think about that that this question I know what did the the the the the I don't know. Yeah, the the must challenge it in the the to implement something is just the future and the people always don't don't hoping for the.
+
+30:11.57
+Marcos Santos
+Ever.
+
+30:20.30
+cassiodeveloper
+Um, challenges.
+
+30:28.98
+Manuela
+Like my son who doesn't want to remove the Christmas tree in February yeah, okay in in this case, he is a 4 year old so he will do it when he's ready.
+
+30:30.88
+balbino
+For the changes there. Yeah went.
+
+30:31.77
+Marcos Santos
+So yeah, the point.
+
+30:33.71
+cassiodeveloper
+Um, if for example, how you come how you convince him? yeah.
+
+30:41.44
+cassiodeveloper
+Um, exactly exactly exactly. So for example, a few days ago I had a discussion with a team around hardening hardening stuff and this team will say no, we are using containers.
+
+30:42.68
+balbino
+Are.
+
+30:44.25
+Manuela
+With companies. Maybe we can do other things because we're dealing with adults.
+
+30:49.60
+Marcos Santos
+There's other the.
+
+31:00.40
+cassiodeveloper
+We don't need to care about hiring and that was okay, but you use the container you have a base image you open ports to this application. How do you store? How do your file file system configurrated. You can access anything in the file system you have read permissions write permissions and so you have some.
+
+31:08.18
+Manuela
+Um.
+
+31:20.48
+cassiodeveloper
+Hardening to take care. But that's was the point they didn't know and theyre just avoiding to do the requirement there and I was discussing like okay guys you need to take care of this because it's this and they were open to listen. Ah okay, we didn't see this perspective. Okay, so we need to handle. We know how to handle you're gonna implement this.
+
+31:25.28
+Manuela
+Cool.
+
+31:38.67
+cassiodeveloper
+But you know it was just 5 minutes talk and everybody understand what I most face during the day or daily basis even with partners and customers and so on is this problem some of them don't want to talk as Manuela was mentioned like I don't have time. And you can even talk to so to these people and ah this is the problem how to reach this guys how to and 1 interesting case company that I worked we had the kind of workshop monthly and this workshop was around the vulnerabilities. Best practice security and so on and it was not working. But started working when I was presenting incidents on the on the workshop in random incidents but in the end of the workshop I was standing look guys for this specific thing. This incident happened in your system last week we had a breach and some something this imaginary fear. To the real to the reality of them like oh this is happening and already happened and we had an impact it was making them move the managers and so on they were going to the chairs and okay now we need to do a course we need to start scanning. We need to start this this that but you know this reaction. Instead of being proactive on this protecting it. What I still struggle and and I'm kind of how do we make it better. How can we do it better. Somehow.
+
+33:01.88
+Manuela
+It sounds to me like there is one component of fear that arouses interest but it's also about storytelling when you tell a story whether it's better. Good. We humans are good at processing it if you just present data where less good at so if you. Have this kind of story. This thing happened. Ah okay, this interest and the same goes sometimes when when I do meetings or what I'm engaging with communities people. Want to say that they they like success stories. Whenever we ask. Okay, what kind of topics would you like to include in our next meeting Success stories. They want to know what has happened what people have done good or bad. Okay sometimes but mostly they like to hear good news and I think that this could be this. Ah, could help us with communication and with having more interests or openness to listen to us.
+
+33:59.27
+cassiodeveloper
+Um, as a good bra Brazilia I would say that Brazil is like this sa operaras you know a lot of dramas and so on. So maybe the bad parts would be gooding once upon a time there was a database with a credit card information and was leaked. Oh good.
+
+34:00.69
+Marcos Santos
+It.
+
+34:03.54
+Manuela
+I.
+
+34:11.32
+Manuela
+Um, oh it was yours. Ah.
+
+34:12.40
+balbino
+The.
+
+34:13.96
+cassiodeveloper
+In the door your screw our credit card was there. No interesting interesting about this start tell you? What do you think? march.
+
+34:14.30
+Marcos Santos
+And the is this the ah how very stressing but because of this history I remember 1 our other history and a long time ago. Um. My boss and have yeah a good idea. No no have a good idea Andy I asked my help oh my I need to turn off the logs because we have a a lost space.
+
+34:33.51
+cassiodeveloper
+But not me hopefully so.
+
+34:49.74
+Marcos Santos
+And we don't have more spac inside the servers and you need to turn off the logs to ah because no noise space. Okay, yeah, so say says okay I turn off the log but advice. Okay, but if I have some problems during this priority.
+
+34:58.80
+cassiodeveloper
+Save space just save space and. And.
+
+35:09.15
+Marcos Santos
+I don't have any chance to find the problem. Okay, okay, that's okay, sometime a little time after I turn off the logs. We have a a leak of of information. So many information of 1 of this employee was leaked. And my boss okay, markx find the person ones leaked they the date okay turn on the logs because I don't have logs to fight thepress was leaked. Ah the to? yeah yeah.
+
+35:35.19
+Manuela
+Oh no I would remember this story.
+
+35:41.00
+cassiodeveloper
+Um, Thisy story is is not new for us. We already know this and it's this is true. Actually.
+
+35:47.55
+Marcos Santos
+Yeah, you know? Yeah yeah, terrible with the.
+
+35:49.67
+cassiodeveloper
+And it's it's funny. You know turn off the logs to save some space is the best 1 ah is the is the same one is the same the opposite would be like something that I heard a lot is give ami access because you need to do something on Ami Access sometimes you don't need fool me as you.
+
+36:02.48
+Manuela
+And.
+
+36:09.50
+cassiodeveloper
+Just need specific permission. But that means easier on this case for example to save space here turn off the log instead of doing kind of rotation or deleting old data and so on. But anyway anyway, okay.
+
+36:13.33
+Marcos Santos
+I Yes, so face to so ah, turn off the logs. The best idea when I see my life.
+
+36:26.44
+cassiodeveloper
+Ah, manuella another point that ah I would like to discuss is like around education. Ah, what do you think like for listeners either for security people developers. Um, what it's good for them to learn about what you do for example on devops or config management and so on.
+
+36:26.72
+Manuela
+Um.
+
+36:46.35
+cassiodeveloper
+What it's good to for them to learn if they want to be more more collaborative for you or either for who wants to work as you do what they need to learn what they need to study. What do you recommend.
+
+36:58.39
+Manuela
+Ah, okay, um, regarding configuration management. It's quite difficult to learn about it I think there are only a couple of university courses specifically on it one is in Sweden one could be Brazil maybe I'm not sure.
+
+37:12.84
+cassiodeveloper
+Are.
+
+37:16.11
+Manuela
+Um, not sure and so there are of course books there are people who write about it. There are some communities but that's ah, quite so difficult to digest I like to read a lot devops Devops Blogs. There's a lot about. Communicating What? what they do? How they do it. What are the results. That's very practical, very Understandable. So I would look for resources for blogs like devops something or devsecops something and I would search for ah the kind of tools and how they can be integrated.
+
+37:52.30
+Manuela
+Regarding learning. Okay depends a lot on what tools you use, but some common technologies some common things that you may want to learn are yaml for managing pipelines. This is valid for aszure devops for github um. I don't know where else it is used but I use that a lot on a daily basis and some script. Whatever you like nowadays I think most systems allow us to write scripts ah and use code from any kind of scripting language. Ah executable zels. Whatever so what? what feels comfortable to you keep using it. I have studied Java at university I use a lot of c sharp when I need to use Powershell I'm curious about learning more web orientented stuff because I see many things happening in pipelines or extensions being developed like that. Um.
+
+38:47.50
+cassiodeveloper
+Um, you know good. Very good good point in your tree we will add something to this list.
+
+38:47.62
+Manuela
+Be curious.
+
+38:48.21
+Marcos Santos
+Oh good. Oh.
+
+38:53.86
+balbino
+I now maybe when I let talk about the alled out the tools but and the 1 thing. Yeah I ah one thing I I thought I think now is you? you need to be to be careers. You need to to. Want to to learn more and more all the days now that the new new stuffs come all the days so you you will be to to manage some some new 2 or you need to learn you need to to to.
+
+39:18.96
+cassiodeveloper
+All.
+
+39:31.23
+cassiodeveloper
+I mean yeah, that's the point because I mean I don't want I don't want to say my age but from the past we were like oh I am the backend developer don't bother me with Css and javascript I am the c sharp guy fuck you then it starts.
+
+39:31.95
+balbino
+Being thirsting for for the technology now.
+
+39:33.84
+Manuela
+Me.
+
+39:33.92
+Marcos Santos
+And.
+
+39:47.23
+Marcos Santos
+Well I'm the same.
+
+39:48.70
+Manuela
+Um.
+
+39:50.70
+cassiodeveloper
+Yeah, it start moving to now you need to do to start dealing with the interface which I hate. Ah now you need to document then you need to ah know about database and then you need now you have full full stack. Ah whatever now you need to do devops because you need to from the code to Production. Ah, but you don't and don't forget about security. And you need to do testing and you need to make coffee and clean your desk and and I mean it's It's being more hard and you need to of course I mean you need to know a lot of things and it's maybe this is also hard to keep.
+
+40:17.98
+Manuela
+And do stretching please. Ah because you are already stressed.
+
+40:23.30
+Marcos Santos
+Yeah, this. Ah.
+
+40:28.92
+cassiodeveloper
+Important things. So for example, security is 1 of them quality in general I would say it one of them because if you're a focus on the coding performanceing and best practice of the code itself today today and tomorrow you're going to think about security and tomorrow understand better integration on their pipeline and testing live for the q and a team. And about configuration in production. You don't care and maybe all these things that you need I mean market is forcing us to know from 1 perspective. It's good I don't complain about it. But from the other one we may let other things be less important for us. And so for example, I would say Manuela. She has her focus. Yeah, my focus is this part of the job I will not care about best coding practices. For example I need my script to run I need to get data from here and put there. That's all. You understand the point that maybe I should not be worried about modeling the scripts or creating a real program to read be being reused and so on just some some examples. Ah.
+
+41:26.62
+Manuela
+But there is some kind of point of contact between these roles. For example I don't care about the details of coding guidelines but I am aware of it and if someone in my teams needs to work with them I can point them to a way to embed The. Ah, Pull request checklist automatically in their rappo in order to use this so that there is a kind of process or flow around these things and we we need maybe at least a minimum amount of understanding of the other topics. How they're relevant and how they're tied together it my teams. Ah so. I'm supporting multiple teams and I mean there's a lot of work to do so I cannot do it all and that's something very common that happens to everyone so there are some people in my teams that are more interested. There's wang guy who is very curious about yaml pipelines and.
+
+42:08.48
+cassiodeveloper
+Something.
+
+42:23.25
+Manuela
+The moment he showed interest I was very happy to talk with Him. He's a tester I was very happy to talk with him to share some tips and tricks and now he's doing quite advanced stuff on his own. So I am have less workload. He is Happy. He's getting what he wants and he has also learned something fun that something that he enjoys doing which is not 100% his Core business. But we have this ah this ah collaboration.
+
+42:46.69
+Marcos Santos
+The was good good and when I was talking remember when Daniela Talkqui us and Daniel is is a Vp of engineering and this studio a lot and she is and she's needs to to code in nowadays.
+
+42:48.20
+cassiodeveloper
+Um, no good.
+
+43:02.60
+cassiodeveloper
+Um, yeah, very good this episode with Daniella was ah actually was one more future because she's from portugal. Yeah, we are muci cuttu now and it was about sast.
+
+43:05.77
+Marcos Santos
+And that's good. Good point. Yes, yeah, fat. Yeah yeah, and and now these real working program. Yeah.
+
+43:19.00
+cassiodeveloper
+Specifically yeah because she is the Vp of engineer from checkmarks so she knows everything about cold scanning and so on so and she's still coding imagine interesting interesting guys.
+
+43:28.86
+Marcos Santos
+And.
+
+43:32.17
+cassiodeveloper
+Very nice talk but time flies. We all have babies 4 years kids sweater to finish I need to eat and so very good. Talk any final considerations Manuela I want to put something else something that you would like to talk. We didn't ask just put.
+
+43:33.17
+Marcos Santos
+Of.
+
+43:38.24
+Manuela
+Oh yes, if.
+
+43:38.36
+Marcos Santos
+Left left.
+
+43:49.57
+Manuela
+Maybe next time we'll think about it anyway I had fun was a fun experience. Oh already I need to check my emails.
+
+43:50.80
+cassiodeveloper
+Put on the table ah are already invited already invited for the next step appeal. Good good Marcus odriib any comments final considerations.
+
+43:54.45
+Marcos Santos
+I Not good. Yeah, ah okay, no, that's good there I have one said it to comment to people.
+
+43:58.45
+balbino
+And.
+
+44:11.30
+Marcos Santos
+Ah, watching is a scorpion is a cybersec security setting about a lot of tremors. But that's good and the the main topic is Cyber security.
+
+44:23.90
+balbino
+Now I like to to talk about this top key but my English is a very limited so but maybe another another day in Portugueo my talents very good.
+
+44:24.00
+cassiodeveloper
+Um, good good one to don't forget about this? Yeah, how how how is your Italian if even worse even worse.
+
+44:26.62
+Marcos Santos
+But.
+
+44:38.93
+Marcos Santos
+Only I hate with. Do.
+
+44:41.44
+cassiodeveloper
+A very good. Oh my God Yeah so we are sorry yeah, we do like this with hands and to refer to Italian exactly.
+
+44:41.60
+balbino
+Is that sp though this is a very stereot but is is studio.
+
+44:45.70
+Manuela
+Ah.
+
+44:51.50
+Manuela
+E Yes, that's the American way to we do that but it actually has a meaning so we didn't do it if we don't mean it. It's It's typically what it's like what is this or what are you doing.
+
+44:57.97
+Marcos Santos
+Yeah, ah yeah, ah you.
+
+45:01.90
+balbino
+Are.
+
+45:01.78
+cassiodeveloper
+Um.
+
+45:07.73
+cassiodeveloper
+In ah.
+
+45:09.77
+Manuela
+But if we're just saying I don't like this thing we we wouldn't say it. It's not a rodle gesture. Let's say I'm Italian No it means what.
+
+45:16.75
+Marcos Santos
+I was good.
+
+45:18.16
+cassiodeveloper
+Um, ah, very good. So I can use this from security with some developer do shit I can say what the hell is this and do it like this with the hands ah see so I start using this okay guys.
+
+45:18.60
+balbino
+Um.
+
+45:23.30
+Manuela
+Correct.
+
+45:26.50
+balbino
+Um.
+
+45:30.69
+cassiodeveloper
+Thank you for the episode was a very nice talk again time flies. It was very quick. We have thousands of things to go deeper but you know we don't have time Manuela again. Thank you for your time. Thank you for joining you already invited for the next episode you propose the topics. Whatever you want. The podcast is all yours. Ah Marcus again. Thank you Rodrigo guys following us, please on the Discord channel comment the video like do everything on the social media I don't want to repeat myself but like commented share. That's the point that.
+
+45:58.71
+Manuela
+I do stretching.
+
+46:00.44
+Marcos Santos
+And the put him ah good and put the manuism and I forgot. Yeah yeah I forgot the word. Sorry yeah.
+
+46:07.48
+cassiodeveloper
+Um, linkety profile and so on. Yeah, yeah, yeah for sure for sure I will send anything that she wants to share I will put in the and the episode. Yeah and don't forget that.
+
+46:15.98
+Marcos Santos
+And.
+
+46:17.19
+cassiodeveloper
+Today actually today episode. Um, the air is 8 of February. So today we have the live on the allura channel so don't miss the life of the launching from the cybersec security postcuduation course. Yeah, you can see a bottle of good information there.
+
+46:20.75
+Marcos Santos
+Yeah, was a.
+
+46:33.63
+cassiodeveloper
+So this was the episode I'm casso perator and our guest. Thank you see you next week hey bye
+
+46:33.88
+Marcos Santos
+And Micro centers.
+
+46:35.45
+balbino
+And I'm Hodrigo barbino.
+
+46:40.77
+Manuela
+Manuelavan Tune it I bye.
+
+46:41.29
+Marcos Santos
+Thank you guys for you. Light is.
+
+46:43.34
+balbino
+Thank you.
+
