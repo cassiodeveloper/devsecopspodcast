@@ -2,11 +2,12 @@
 title: 10 - Serie OWASP SCP PT 2
 layout: post
 type: main
-description: 
-file: 
-length: 48:17
-videoid: rgDK42fRKq0
+description: Quem manda neste podcast são os ouvintes, e com base na sugestão do ouvinte Humberto Marinho hoje a série do OWASP Source Code Practices ganha seu segundo episódio para falarmos de boas práticas de codificação segura, afinal, é sobre isso.
+file: https://api.spreaker.com/v2/episodes/53132244/download.mp3
+length: 
+videoid: 
 cover: "../assets/img/410.png"
 transcription: "../assets/transcriptions/4/10/10.srt"
 ---
 
+Quem manda neste podcast são os ouvintes, e com base na sugestão do ouvinte Humberto Marinho hoje a série do OWASP Source Code Practices ganha seu segundo episódio para falarmos de boas práticas de codificação segura, afinal, é sobre isso.
