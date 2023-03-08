@@ -1,0 +1,1802 @@
+Inovação segura.
+
+Começa aqui leve o seu
+
+podcast de segurança em tecnologia.
+
+Fala como vocês estão acontecendo saco tomo eu estou
+
+tomando isso que hoje vocês estou roubando minha fala.
+
+Quero dizer que do mano Não
+
+vai essa bagaça que casca bêbado.
+
+Um dia mas não é hoje.
+
+Olá pessoal sejam muito bemvindos a mais episódio
+
+da você podcast eu sou castro Pereira, São
+
+Marcos Santos e eu o Ba.
+
+Hoje seguindo nossa série do Asp né, seu escuto
+
+Pra falaremos da parte dois vamos abordar três categorias
+
+hoje são elas, gerenciamento de sessões, controle de acessos
+
+e práticas de criptografia gente vai amar.
+
+Pincelada aqui lá no cheque Que tem da, com
+
+relação a essas essas três categorias tem bastante coisa
+
+pra gente ir pra gente comentar hoje alguns exemplos
+
+inclusive, antes de começar o episódio, obrigado pelo Gabriel
+
+Não ter vindo só atrapalha Graças a deus irmão.
+
+É e um pouquinho mais importante falar dos nossos parceiros
+
+que nos ajudam né o podcast e e promover conteúdo
+
+e tudo mais Marcos está mostrando aí pra quem está
+
+no youtube tem um brinde aí pra ele da já
+
+ganhou, mas vale lembrar que o deve você podcast o
+
+apoio da Chuck e da nova oito que são especializadas
+
+em segurança de software, né que cai a minha cola
+
+aqui, temas e códigos seguro.
+
+O link da nova oito que é servidor da
+
+Chuck No Brasil, está baixa na descrição do episódio
+
+o nosso site também no link do Youtube.
+
+Lembrar que a contabilidade olímpica é especializada em
+
+profissionais da área de ti, você precisar abrir
+
+sua empresa obrigado de contabilidade, entre em contato
+
+com o pessoal da contabilidade ou que eles
+
+estão prontos para te atender.
+
+E também a bolsa especializada em aplique que é
+
+desenvolver código do seguro, fale com gol de security.
+
+Antes ainda lembrar que temos a imersão Java
+
+né do time da, eles estão promovendo lá
+
+a imersão Java, que acontece de eu pegar
+
+as datas aqui agora em março, aqui olha.
+
+A live de abertura vai ser no dia vinte e quatro
+
+inscrições do dia oito ao dia vinte e seis então começam
+
+hoje as inscrições né tinha oito de março, até dia vinte
+
+e seis, período as aulas dia vinte e sete ao dia
+
+trinta e um de três, aconteceu agora em março né, e
+
+imersão Java está link aqui também na descrição, o ponto é,
+
+é gratuito, então você vai aprender uma linguagem vai criar projetos
+
+gratuitamente com o pessoal da tá, vale destacar, você de segurança
+
+você que trabalha com a política civil que é o que
+
+a gente fala aqui no podcast de uma geral, e nunca
+
+teve contato com programação é uma ótima oportunidade você vê um
+
+projeto pra você ter o código, né, ver as coisas funcionando
+
+de uma maneira geral e lidar um pouquinho melhor que o
+
+time de desenvolvimento que é o trabalho do que o trabalho
+
+deve ser cóccix de na maioria dos dos dos casos no
+
+dia a dia então uma ótima oportunidade pra você participar e
+
+lembrar ainda que você tem teste de desconto, nos links nos
+
+cursos desculpa lá da nos planos de assinatura deles usando o
+
+nosso link que também está na descrição aqui do vídeo no
+
+nosso site. Beleza?
+
+Eu tenho rápido porque eu já recebi uns hate
+
+aqui nossa podcast agora podcast quarenta cinco minutos, e
+
+os cara falaram metade episódio é patrocínio.
+
+Eu falei em três minutos foi a abertura introdução e
+
+as parte e os parceiros né Episódio tem quarenta e
+
+cinco minutos e os caras reclamando, e as brincadeira ainda
+
+não Sem falar que quarta temporada né, então já já
+
+esse aqui é o episódio cento e vinte e dois,
+
+você tem pelo menos as cento e vinte e duas
+
+horas de conteúdo Quase uma pósgraduação pósgraduação já você parar
+
+de encher richard de merda então vai.
+
+Beba mais pode Caso o.
+
+E até mais um gole que não eu estou acelerado.
+
+Vocês quer começar quer começar Amanhã hoje a
+
+gente tem que ser acelerado porque no último
+
+lá cara tanta coisa tanta coisa que cara.
+
+É ideia acho que a ideia nem pra pessoal né, a gente
+
+comentou lá, o vasco Sp né o seu, ele é o guia
+
+né, o chefe um um monte de coisa muitas coisas.
+
+E a gente vai falar de cada categoria que são
+
+quatorze doze quatorze de categorias, a gente vai falar de
+
+alguns itens, né tipo de dentro dessas categorias ao alguns
+
+a gente dividiu em falar três por episódio mais ou
+
+menos assim, mas cara só de gestão de acesso que
+
+eu estou vendo aqui na página, são um cara muitos
+
+trinta, vinte e poucos trinta checklist então é muita coisa
+
+mesmo pra vocês aprenderem.
+
+A ideia do podcast essa luz, né, te dar essa essa
+
+ascensão aí do que você tem que olhar, que você estudar
+
+e e seguir como boas práticas então vai lá abaixo tem
+
+em português inclusive o documento Pdf baixo começa a utilizar começa
+
+a seguir no seu dia a dia definir boas prática do
+
+seu time no link lá está no link da da estação
+
+ah boa a questão do vídeo da descrição do vídeo episódio
+
+que mais o vídeo estão assim.
+
+Vou reforçar, top caralho, como requisito de segurança.
+
+Foi requisito de segurança não tenho
+
+nada agora mano checklist né??
+
+Partir de hoje tem alguma coisa
+
+Olha só alguma coisa não?
+
+O senhor não estava passado infelizmente né.
+
+O primeiro item, Oitenta por cento dos
+
+da dos problemas de obras durabilidade.
+
+Aliás o você falou de requisito de segurança o
+
+pessoal que o ouvintes aí de uma maneira geral
+
+aguardem um projeto fantástico pra ser anunciado aqui a
+
+gente está acertando alguns detalhes ainda, mas tem um
+
+projeto fantástico pra a gente anunciar aqui você acostuma
+
+podcast em primeira mão, de uma ferramenta relacionada à
+
+escola falou de requisito e segurança então, aguardo nos
+
+próximos certeza requisito de segurança.
+
+É tudo que eu posso falar mas daqui
+
+a pouco durante o episódio eu falo de
+
+mais uma coisa legal que que surgiu também.
+
+Bom vamos lá começa aí você querer
+
+eu comecei a sinceramente sessões, não queria,
+
+não queria mais vou bora se vira.
+
+Sessão, sessão são é uma coisa extremamente importante, tudo que
+
+sempre que você faz uma autenticação, sempre que você no
+
+sorte você precisa identificar quem é que está usando, é
+
+um sistema ser um usuário, quando você está fazendo compra
+
+lá você está colocando carrinho de compra você está numa
+
+sessão, então a prioridade geralmente de um site é identificar
+
+quem está acessando, Isso é um prato cheio pra um
+
+pra um hacker porque assim que você faz o seu
+
+login, assim que você estabelece uma sessão, você já está
+
+autenticado, você já é como se você tivesse a chave
+
+do cofre.
+
+Então Tudo que a gente vê aqui vai ser respeito a,
+
+como você protege essa sua chave, então A gente vê coisas
+
+aqui por exemplo lá no logo do primeiro item que é
+
+você criar, estabelecer um um acaba, o controle de sessão é
+
+uma seção que ele vai reconhecer quem é tipo ele vai
+
+identificar quem são os quem quem ele gerou aquela seção, é
+
+um difícil é um usuário uma pessoa né e ele vai
+
+usar as propriedades que ele quer, Então pode ser que ele
+
+tenha seu email pode ser aquilo que ele tenha sua armadilha
+
+então essa informação.
+
+Porque você vai tra quem está usando, dá onde
+
+ele está ano, por que que ele está usando
+
+quanto tempo ele usou então são os dados básicos
+
+pra você começar a manter esse controle de acesso
+
+né, então cara coisa fundamental na aplicação você começar
+
+a gerenciar isso e de forma certa né?
+
+Sim, Eu vou aproveitar essa sua se seu engasgo aí
+
+pra pra destacar um pouquinho do do que a gente
+
+faz aqui né, acho que deve ser podcast como um
+
+projeto pessoal, nosso aqui, o Rodrigo mesmo acho que já
+
+falou alguns episódios atrás uma duas vezes, que um dos
+
+objetivos dele com o podcast além de aprender, compartilhar pro
+
+pessoal é melhorar a dicção enrosca que de vez quando
+
+cara faz parte da comunidade.
+
+Quatro complicações nós Quatro anos de podcast estou nessa demais é
+
+assim eu estou aqui, eu estou aqui um ano e meio
+
+paula eu não sei falar bom dia polonês não não tinha
+
+bom dia eu já sei bom dia já sei.
+
+Pô, eu queria comentar de um item, que é
+
+que está aqui no no dia né no no
+
+checklist ele fala o seguinte olha gerar mundo gente
+
+com de sessão, quando houver uma nova autenticação?
+
+Simples assim, o que que isso quer dizer,
+
+né, o Rodrigo comentou agora sessão né você
+
+gera uma sessão pra identificar algum usuário, algum
+
+serviço alguma coisa estava usando pra aquela aplicação,
+
+tem uma sessão gerada pra ele.
+
+E ele fala cara, já identificar normalmente as sessões
+
+tem um Haiti a vamos chamar de G mas
+
+não imagina o número inteiro tá se você usa
+
+o número inteiro pra gerenciar sessão, já está fazendo
+
+errado que é um número inteiro é incorreto.
+
+Redondo com aquela coisa toda.
+
+Então esse identificador você precisa têlo, que é justamente falar cara,
+
+o vou rodrigo ele meu site agora esse o ele estava
+
+na sessão, seção são Dna um dois e quatrocentos seiscentos sete
+
+nove dez Abc, essa essa é a sessão que identifico o
+
+E o que ele fala que é gerar um novo indicador
+
+de sessão, quando houver uma nova autenticação, ou seja, toda vez
+
+que o mesmo usuário se fala um pouquinho do Logo pra
+
+falar desse login então se você antecipou e dê e fez
+
+um logo você mata aquela sessão, você garante que tudo que
+
+aquele usuário poderia fazer né, ou está ali na naquele controle,
+
+né está em validado.
+
+E a cada novo login você gera uma sessão nova
+
+pra garantir que é um nova sessão de fato não
+
+que ele está tem até um item falando sobre isso,
+
+né, você precisa finalidade de saída quando você dá um
+
+logo é você encerrar a sessão.
+
+Aquela sessão com aquele morreu acabou, lá invalidar.
+
+Como Não não eu ia falar que também tem
+
+um item que fala que todas as funcionalidades né
+
+de Legal têm que estar disponível ali e protegidos
+
+em todas as páginas, sem autorização né.
+
+Exato, porque o cara pode fazer o lobo
+
+office sem estar de não vai sentir.
+
+Até pra você não conduzir que alguém vai lhe dar
+
+uma sessão existente por exemplo, Mas isso comentou dessa desse
+
+cheque né, a funcionalidade saída ou local que não chama
+
+assim, deve encerrar completamente a sessão ou conexão associada porque
+
+eu já cara eu já peguei vários sistemas são vários
+
+em empresas grandes que você o lou o botão lobo,
+
+ele só fecha a página.
+
+Era isso que o botão logo a fazer.
+
+Aí tinha uma sessão válida o cara um
+
+cookie na máquina lá no Braço rodando, que
+
+fosse de ser abriu o cláudio de novo
+
+sessão que estava funcionando o cara estava lotado.
+
+É pra você mantinha então você fala isso aí problema é
+
+mais crítico e tem até o item que fala disso, né?
+
+Se uma sessão foi estabelecida antes do login, essas têm
+
+que ser fechada sessão e feito um novo Look sucedida.
+
+Sim eles sou justamente pra evitar isso.
+
+É sessão sou recuperar né que
+
+exatamente Não quer recuperar ela.
+
+Pegando em pausa que estão falando, tem um item aqui que
+
+fala que é pra você armazenar em locais específico os seus
+
+dados de de de exceção, pra não acontecer exatamente isso daí
+
+o você fecha a sessão, quando você abre e está lá,
+
+eu já vi casas de você abrir outras sessões entre aspas
+
+né, porque sonhos me chama de seção, e você consegue você
+
+estava lá alugado então você abriu uma outra instância do Browser,
+
+você já estava ligado.
+
+Não ele isso é perigoso perigosíssimo porque você sai abrindo um
+
+monte de sessão, e daí o cara só só precisa pegar
+
+eu já vi isso só que há algum tempo atrás, o
+
+pessoal entrava em lan coisas, e o 0 próximo que que
+
+na Não né, mas esses computadores de acesso à internet tipo.
+
+Tem, processo ali né acesso público.
+
+E daí o cara sentou chamou de monte de
+
+sessão aberta com o login monte de coisa o
+
+cara só abriu o Braço estava lá.
+
+Então olha o perigo disso, você acessa em
+
+local público, deixa suas credenciais lá Esquece.
+
+Inclusive não lembro você tem no guia completo aqui, não
+
+vou não vou ler ele agora a gente está pegando
+
+aqui na íntegra mas é uma boa prática inclusive ao
+
+fechar o navegador, você identificar isso na sua aplicação ali
+
+no Frontend e encerrar essa por si só.
+
+Como se fosse um lugar de de fato, né mesmo que o usuário
+
+não clicou no Lugar mas que é o que os bancos fazem.
+
+Você logo no seu fecha o browser ele abre de novo
+
+ele não vai estar logado, você tem que autenticação de novo
+
+do essa refresh no barco ombro brown ali ele diz.
+
+Então tem cara isso é um controle absurdo
+
+assim que evita oitocentos milhões de problemas relacionados
+
+concessão está galera isso é muito crítico cara. Falei.
+
+Não inclusive tem muita aplicação inclusive o
+
+que a gente conhece, que permite login
+
+simultaneamente né com mesmo gente de pessoa.
+
+O meu cinco tem vai cinco em dez máquinas
+
+diferentes, ricardo Isso pelo forma aqui não né?
+
+Não projeto burrice em mudança com.
+
+Uhum uma coisa que ajuda a evitar esse
+
+tipo de coisa, que é mais um item
+
+aqui quer estabelecer tempo de inspiração da sessão.
+
+Então e sendo o mais curto possível isso é bem
+
+interessante, é chato pronto às vezes né porque às vezes
+
+você está usando lá e de repente caiu a sessão
+
+você tem que lugar de novo, mas é é seguro
+
+porque se você esquecem, aberto em algum lugar, se você
+
+deixou de um dia pro outro, morreu sessão.
+
+Tipo ninguém vai entrar lá na na sua sessão,
+
+porque ela vai correr sozinha sozinho então, se esqueceram
+
+de implementar knowhow, se você esqueceu de fazer o
+
+lugar de quando de da marca alguma coisa do
+
+tipo, você se você se passar o tempo de
+
+inspiração você está sempre ali, né?
+
+Boa, inclusive esse esse em específico não sei se tem
+
+aqui nesse De guia, mas eu já li este mesmo
+
+item, tanto na iso uma das iso da vida aí
+
+talvez vinte sete e dois não me recordo, e no
+
+Pic, eles são requisitos desses dois standard né desses dois
+
+padrões que ali você tem um tempo de sessão e
+
+lá existe por um tempo, que em média dependendo do
+
+contexto da aplicação é de quinze a vinte minutos.
+
+Era era vinte depois bacana pra quinze, é um nome monta
+
+isso tempo mas e se eu sei tem isso, e na
+
+iso sete alguma coisa, talvez em sete mil e dois tenha
+
+isso também, não sei se outro lugar tem, mas tem requisito
+
+quesito lá suas sessões têm um tempo de inspiração desse esse
+
+caso Rodrigo falou a máquina estava ligada, deixou o navegador aberto,
+
+literalmente não só deixou aberto mas é parado né, naquele de
+
+ido, negócio lá né você deixa um perto a aba lá
+
+por exemplo estava vegano não está mexendo está fazendo nada, por
+
+quinze minutos ou vinte minutos minutos enfim, ele vai inspirar a
+
+sessão e vai vai deslocar literalmente o uso lá ou é
+
+vai ficar lá parado quando você faz uma ação passou esse
+
+tempo ele vai alguém de novo tal, vai ficar que você
+
+inspirou você e pede se você realmente pra validar o que
+
+te passou.
+
+Aquele protegeu você estava com aquela você
+
+sair vem alguém utilize sucessão, né?
+
+É é quase com proteção física é isso. Loucura.
+
+Outro Que é bem interessante que que
+
+é proteger os dados você no servem.
+
+Então se você controla a sessão.
+
+Parece essa é óbvia né, nem falado não
+
+mas eu já vi acontecer de ter sessões
+
+controlada pelo pela aplicação Já esquece.
+
+Que o que que é isso daí o que que
+
+isso quer dizer é, Vocês estão ouvir Barulho da chuva
+
+aqui só pra é um barulho do in inferno aqui
+
+grande Mas segue mais é um barulhão um ontem.
+
+Que que isso quer dizer, que quando você faz autenticação,
+
+alguém tem está responsável por gerenciar isso não tem inspiração
+
+tese está ou não como ele gera e tudo mais,
+
+se você colocar isso, no seu front, o cara tem
+
+acesso a como você gerencia essa seção.
+
+Ou seus dados onde que está armazenado e daí ele
+
+começa a brincar com aquilo então quando ele faz isso,
+
+ele pode começar a assumir sessões de outros usuários.
+
+Se você faz isso service side, ele
+
+não tem mais acesso a isso.
+
+A única coisa que o servidor vai responder
+
+pra ele é você está criticado ou não.
+
+E e ele não tem, tem como ele ficava mas
+
+como que é o cu como que é o Login
+
+como que é não sei o quê acabou o cara
+
+não vai ter essa é uma é bem extrema importância
+
+e impressionante porque eu já vi e aconteceu várias vezes.
+
+Inclusive quando a gente está falando de seção de
+
+uma maneira geral, eles fazem fazem parte disso né,
+
+porque onde normalmente os dados de de sucessão estão
+
+tão estão associados a ali e tal mas normalmente
+
+cookies porque é talvez a forma mais simples ou
+
+mais fácil de de diferenciar isso.
+
+Então vale vale lembrar que tem uma boa
+
+prática e também entender um pouquinho sobre com
+
+e essa questão de gestantes aí.
+
+Beleza próximo tópico?
+
+Bom pro próximo que vocês contam aqui no que
+
+não falta coisa pra falar aqui controle de acesso
+
+né ou o Marcos aí que vocês conto.
+
+Quer falar mais você até pegar a primeiro aí não.
+
+Ah, eu quero pegar porque tem um aqui
+
+que eu gosto bastante, matei ele rapaz.
+
+Ele segurança tecnologia deve sequei.
+
+Tem aqui cara que assim eu gosto bastante, esse que se
+
+encontrou, e tem um ponto aqui em específico que é um
+
+problema que eu tinha muito Php, que é pra restringir o
+
+acesso o Rf com a pena pra Autorizado.
+
+Eu estava pensando a gente não tem roteiro, eu não
+
+o roteiro pode gente eu define o tema segue.
+
+Eu estava olhando pra aqui falei Fala
+
+isso isso aí era prática né.
+
+Sozinho Três 0.
+
+Então esse item e me pega toda
+
+vez que eu dou risada cara. Boa.
+
+E aí assim é essa questão de restringir o acesso
+
+a Rn protegidos somente aos atualizados, eu cansei de quando
+
+eu comecei a desenvolvimento desenvolver o Asp mas logo depois
+
+eu já fui com o Lá no nas primeiras versões.
+
+E eu lembro que o Pei lá do Spin tinha lá
+
+no O is, Love, né é isso alguma coisa assim, cara
+
+ela pagar tinha que ter o acidente mas já tinha oculto
+
+o cara já está já está autenticado tal Se você não
+
+colocava essa na página e geralmente você consegue navegar você está
+
+lá na parte não sabe, Você cair na página.
+
+E eu cansei mano cansei.
+
+De ver eu trabalha em cinco ou
+
+seis agências de publicidade diferente né.
+
+O cara tipo uma vez esquece Já era. Estava fazendo.
+
+Cara pessoa testar o E lá
+
+e me passado até a curiosidade.
+
+Bro Contra hoje é top papo tem, por causa disso também.
+
+E você esteve na lista também né agora só
+
+foi pro Top um, além disso a gente teve
+
+uma de enumeração de usuários que é a parte
+
+de lógica né, Des Várias vulnerabilidades voltados pra esse
+
+carinha aqui, que ninguém se preocupa.
+
+E olha só E olha só aí, olha
+
+que olha que isso é foda cara.
+
+Olha você que está ouvindo o podcast.
+
+Você tinha que pagar com podcast olha olha esse olha
+
+esse conteúdo mano, um item a está lendo pra você
+
+um, um item de quinhentos e quinze que tem.
+
+E olha o tempo de problema que a gente resolve com
+
+um item, Marcos colocou aqui olha, restringir o acesso a Rn
+
+protegidos somente aos olhos televisão anos Eu até falei olha isso
+
+é óbvio, mas a galera não faz cara tem de fazer
+
+é fábio alguém está acessando a sua página o seu recurso
+
+eu só tenho sei lá o que for, garante que o
+
+cara der acesso a fazer aquilo, então tem de novo pede
+
+um tolkien, sei lá como é que você faz mas faça,
+
+esse o bocado.
+
+Eu acho que a gente usou o
+
+tom errado pra falar desse bagulho.
+
+Então A gente devia falar igual o alguém.
+
+Cara óbvio é óbvio é ótimo não tem acesso quem
+
+autorizar pesado Mano o cara falou o a porra da
+
+pra segurar o pessoal de entrar, só que tipo a
+
+não para ela ela é a mais bacana porque o
+
+tas achar passa mas o sempre também paz né cara.
+
+E você tem um exemplo legal esse item
+
+ideia você colocar essa catraca no seu site.
+
+Suas páginas os recursos né, enfim, gente está falar de falando
+
+de site mas, também né está praticamente direcionada a mesma coisa
+
+pra pena o cara bate na sua pele ele tal dedicada
+
+a fazer isso gente pode fazer isso né? Enfim. É.
+
+De tudo né aqui tem exemplos de pro tem.
+
+Foi aquilo que eu falei Também, que é o 0 k for.
+
+Lembra quest forte.
+
+Então você vai ter um porrada de
+
+cara só falando de Uísque aqui.
+
+E uns aspas, pra quem não sabe te dar
+
+um pouquinho de detalhe do Sessenta cc Rf.
+
+O que que é o crossfit Ford É quando imagine
+
+que você tem um formulário no seu site, e esse
+
+formulário ele faz um post pra lá barra de mim.
+
+E esse seu pai de mim ele vai receber um
+
+post for da sua própria página, desse formulário está numa
+
+outra página por exemplo, na página de novo por exemplo
+
+né, faz lá e vai estar página de de mim.
+
+Imagina que esse par está recebendo
+
+um post de um outro domínio.
+
+Né, de fora do seu domínio domingo isso um sete.
+
+Então às vezes acontece muito isso
+
+a sua aplicação não trata isso.
+
+Cara você uma barra de mim, alugar na aplicação
+
+por exemplo a página administrativo você você vai?
+
+Ninguém me vai mentir foco, o recorte pra chegar não
+
+vai vim fora, pra mim do seu próprio domingo.
+
+Então coisas desse tipo que você tem que
+
+ter ter um pouquinho de atenção pra validar.
+
+Mano, eu teve um tempo que eu eu estava ali no papers
+
+lá do do Raquel 1, que eu fiquei curioso falava mano.
+
+Como que os caras conseguem raquel o uber uber
+
+aqui a Facebook Raquel os caras pica que que
+
+tem programa de de Tudo mais falando.
+
+É impossível, como que os caras conseguem chegar eike,
+
+e daí uma das coisas que eu vi que
+
+era frequente acontecia muito era o seguinte, Imagine eu
+
+vi um específico da acho que era da Bri
+
+eu acho, era uma produtora de game.
+
+Que os caras invadir dessa
+
+forma encontrar na vulnerabilidade.
+
+O 0 site principal ele era seguro,
+
+os caras não conseguia bater mais.
+
+O que que eles fizeram eles começaram a procurar jogos
+
+antigos daquela produtora, e daí eles viram que tinha um
+
+um um holding que ainda conversava com o outro.
+
+Então ele tinha autorização, só que
+
+era um site totalmente diferente.
+
+E era esquecido era jogo antigo, então os
+
+caras pegavam autenticação deste site entrava por lá
+
+e e aí ele conseguia fazer um um
+
+pro porque ele enfiava através do seus.
+
+A partir do outro site que o pessoal meio
+
+que deixou de lado assim era a coisa antiga.
+
+Que fica caralho famoso legado né?
+
+Isso isso também está ligado diretamente com o Cor. Né?
+
+Pessoal já mas desenvolvedores sabe que o famoso cor,
+
+problema de corte é isso, mas o é mete
+
+no borges você de qualquer coisa parada.
+
+Isso daí é outra coisa que que que.
+
+Leve é cara porra do Ele ele é ativado por default.
+
+O isso pra quê?
+
+Pra só pra evitar que isso aconteça O cara
+
+e tira a desativa coloca pra no bagulho.
+
+Sem pensar tipo você que que é isso vai porque que
+
+quando ele está fazendo e isso eu já vi, eu já
+
+vi acontecer porque eu já acompanhei monte de jeito o cara
+
+quer fazer um teste na hora e ele bate local rosto,
+
+porque ele está fazendo não né via ok Time ali.
+
+E daí ele quer fazer teste bater num sai de produção.
+
+Aí o site não responde porque ele está batendo o post.
+
+Esse forte pra fazer.
+
+Nossa senhora.
+
+Eu corta um bagulho acalma fica calmo tudo
+
+bem está tudo bem, já passou essa fase
+
+de desenvolvimento de passou o cara fica tranquilo
+
+a gente explica o pessoal como faz, educadamente
+
+né os nossos ouvintes ouvintes merecem nossa.
+
+Mas faz essa porra.
+
+Quer ver um tem um outro ponto também
+
+que fala essa parte que se encontrou, que
+
+é pra restringir o acesso a arquivos e
+
+outros recursos incluídos aqui fora né, do do
+
+controle direto aplicativo apenas pra usuários autorizados.
+
+Ou seja, pô não deixa a pôr do mapa de
+
+ligados no no Iss da vida pra negros poder vasculhar.
+
+Então você isso aí um puta saco,
+
+você gera uma outra vulnerabilidade também com
+
+isso justamente pra deixar essa habilidade.
+
+Então você pode ter até algum tipo de
+
+gesto, você pode ter um problema de criptografia,
+
+são tantas vulnerabilidades pós de uma funcionalidade ligada.
+
+É complicado.
+
+Esse item mais cinquenta que tem
+
+um monte que é parecido ou
+
+basicamente restringir acesso a usuários autorizados.
+
+Né acesso de Não de referência de melhor tecla
+
+de cara de de tudo que tem um milhão
+
+de coisa tem um denominador item que que é
+
+legal, Restringir o acesso aos arquivos e outros recursos.
+
+Incluindo aqueles que estão fora
+
+do controle direto da aplicação.
+
+Somente aos usuários autorizados.
+
+Oi conforme falei é acaba de falar
+
+está o cara está bem está sujo.
+
+Você faço.
+
+Mas esse é porque esse cara é é aquela história.
+
+O cara ele fala assim ah eu estou lendo, e ele
+
+está ligado com o que a gente falou no episódio de
+
+passado lá, validar os inputs, validar ao puta né?
+
+Foi a mesma coisa só mas o seguinte Cara
+
+falava minha aplicação valeu ler um arquivo ali servidor
+
+naquilo de comparação sei lá o quê, Esse arquivo
+
+ele não é o seu controle de aplicação.
+
+Você lê ele, você imagina que ele vai
+
+estar lá ele tem alguns parâmetros que você
+
+vai tratar ali na sua aplicação.
+
+Mas a sua aplicação não sabe quem tem acesso àquilo.
+
+Quem pode por exemplo manipular aquilo pra injetar uma
+
+coisa valiosa sua aplicação crachá né, ter um uma
+
+um pelos malicioso ou coisas do tipo Então, essa
+
+questão de gestão de acesso ela vai além do
+
+código, A gente está forma de uma maneira geral
+
+contexto da aplicação, servidor em infraestrutura Mais.
+
+Você tem lá por exemplo com os servidores, quem pode
+
+mexer naquele servidor quem pode colocar arquivos lá que a
+
+sua aplicação lê por exemplo, eu eu tenho feito muito
+
+acesso de aplicação em Kubernetes agora container, e os caras
+
+falam ah não o 0 Fixando filesystem do Contêiner é
+
+só a aplicação tem sua aplicação tem acesso a ali.
+
+Eu fala beleza quem tem acesso a gravar?
+
+Ah vá de mim, já está mano, alguém tem
+
+uma sensação grava coisa lá, a aplicação pode ler,
+
+a aplicação da está ali deve não?
+
+Você tem um problema porque só de mim, colocou mesmo de
+
+mim, colocou alguma coisa maravilhosa lá, a aplicação vai ler sem
+
+tratamento, você tem que ter o tratamento do lado da aplicação,
+
+que eu estou lendo que eu espero que vale ao putz
+
+que eu que falou no episódio passado, e quem tem acesso
+
+a colocar arquivos lá, ela de mim é um serviço conta,
+
+por que que tem que colocar aqui lado deve colocar que
+
+produção faz sentido isso então essa gestão né de acesso uma
+
+maneira geral, ela parada eu diria que é um dos problemas
+
+que mais gera incidente de uma maneira geral em em em
+
+empresas né, aplicações Você lembra do ano passado há dois anos
+
+atrás quando o Ifood todos os restaurantes do Ifood lá isso
+
+em caso é público né, tu não é um problema fala.
+
+Todos os Ifood estava lá bolsonaro vinte e dois lembro.
+
+Oito né dois dezoito né, cara vinte e dois oito.
+
+E aí o ifood ele falou saiu na mídia né,
+
+Ah foi o problema do do terceiro, né terceira empresa
+
+Terceira tinha acesso, a pra e alguma coisa um serviço
+
+que faz atualização do vamos restaurante e conseguiu fazer isso.
+
+Então olha a falha de controle de acesso,
+
+a aplicação por si só podia estar protegida.
+
+Tenta usar Api você não ia conseguir.
+
+Mais alguém tinha o acesso de epi na na restaurantes
+
+sei lá, e ou serviço a tela faz lá e
+
+fez, de fato trouxe um problema à imagem da empresa
+
+aquela coisa toda então, controle de acesso a gente está
+
+falando aqui de de seu escuto Pra óbvio você aplica
+
+isso ao seu código numa maneira geral, mas isso vai
+
+além, é muita coisa que você tem que controlar a
+
+gestão de acesso porque você não pode confiar nessa parada.
+
+E aí a gente está falando o Program insider né quem
+
+audi o 0 Quem é audi auditor, quem é auditor de
+
+mim esses caras também têm acesso a eles pode ter mais
+
+intencionado, e Podem não compromete de maneira da Está até linkando
+
+com isso que você está falando caça, tem outro ponto lá,
+
+que esse é o melhor, o Rodrigo já passou por isso
+
+você eu acho que todo mundo passa por isso, conta de
+
+serviços ou contas que suportam conexões de rede ou para sistemas
+
+de deve ter o mínimo de possível.
+
+Inclusive e isso são um dos
+
+princípios de segurança né Liz exatamente.
+
+Só que quantas conexões com o banco você não vê lá
+
+que o cara está usando o Sa está usando time.
+
+Mete ou esse mas ru útil já era acabou Maravilha É
+
+que assim a gente enche dá risada porque pra gente que
+
+é de segurança hoje não óbvio, é uma parada óbvia.
+
+Talvez quando a gente era deve, eu quando ela
+
+deve alguma dessas coisas eram óbvias, outras não.
+
+Então a gente tinha um saco a gente gente
+
+brinca mas pessoal, a mensagem é, leu, implementa essas
+
+questões entende por que elas estão lá.
+
+Tem pode ser uma coisa, quiser falar mano não
+
+faz sentido isso aqui pra mim pro meu contexto
+
+aplicação eu preciso usar o de ou mas você
+
+entendeu que você precisa daquele por qualquer motivo que
+
+seja, mas você fez prestou atenção cara será que
+
+eu preciso muito do hoo, do Sa Falou agora.
+
+Então de acesso uma palavra muito.
+
+Ou pensado mais simples né, por exemplo, desenvolvi um api sua
+
+consulta, tipo faz sentido o cara está escrita não, né de
+
+mim ou não Não só consulta mano, não não precisa fazer
+
+nada né consulta acabou até é mais simples.
+
+Está cortando aí pra você continuar, hoje dita a gente
+
+tem faz integração com tudo, gira integrando com trinta temas
+
+git lado que de Ou a todo dali ali, Cara
+
+quantas contas você você não cria pra sair e você
+
+não dá privilégio de escrita quando presidente leitura tudo.
+
+Gostar falando da Casa.
+
+Isso aí está expandido hoje pra repositório, cara,
+
+hoje Git você precisa conectar só ferramenta segurança
+
+com, você vai dar acesso ao fu negócio.
+
+Entendeu vários casos.
+
+Pois uma whisky com o gelo de de coco da vai ser
+
+muito Logo na boca não pode cantar a gente tem que pagar
+
+processo se fodeu até cantar Você achou o podcast kant.
+
+Um aqui tem um item gay o primeiro aqui do
+
+controle de acesso que eu acho que até link com
+
+isso que você falou, que é utilizar apenas objetos de
+
+sistemas que sejam confiáveis né como ocorre do meu objeto
+
+de sessão não olha que que é isso quer dizer?
+
+Não sai pegando qualquer coisa pra fazer sua autenticação,
+
+não sair desenvolvendo sua própria biblioteca de autenticação sabe
+
+cara no, pega algo confiável algo que já foi
+
+testado, álcool que tem a atualização constante, algo dor
+
+normalmente o seu próprio framework já te dá isso
+
+Isso que falar agora, se já tem isso pra
+
+você lá, não vem nova.
+
+Vai pegar eu acho que o caso contou de
+
+um de um caso aí em algum podcast de
+
+baixar o bagulho direto do stock mt apanhar não
+
+sei como funciona peguei pulei e está funcionando, está
+
+fazendo, cara, você não sabe fazer produção.
+
+Só fazer controle de, busca ajuda?
+
+Vai por algum com não tem medo.
+
+Não tenha medo de errar errar Busca ajuda é a frase de.
+
+Busque conhecimento nesse momento olha
+
+fazer emprego fala falar.
+
+Falar trinta minutos bora pra pular pra próxima linha.
+
+Bora Segurança. Tecnologia.
+
+Deve ser copa.
+
+Antes de falar do próximo episódio próxima episódio no próximo
+
+tópico, queria destacar um novo serviço que eu desenvolvi, Sete
+
+ponto jobs acesse Você se agora ponto jogos a ideia
+
+é criar um um serviço literalmente de vagas só de
+
+adquirir um civil focada pra ter.
+
+Então não vai ter vaga atendente de liso de não.
+
+Vaga de application, você jobs, projeto pessoal acabei de
+
+de lançar, ainda tão rústico ainda temos processos manuais
+
+mas o site celular ar está funcionando acabou que
+
+a gente vai ter algumas vagas já publicados, preciso
+
+de fazer um um apetite aqui mais começa a
+
+utilizar, comece a divulgar compartilhem feedback sobre funcionalidades mas
+
+é super super bemvindo também então Ponto horas está
+
+no ar aí pra comunidade maneira geral pessoa começar
+
+a usar.
+
+Mesmo Boa estou Que também estou aqui.
+
+Pô, gera gera já certo pra mim deu
+
+acesso caça um vácuo já caça vaga. Ai caramba.
+
+Bom, o próximo tópico, Práticas de
+
+criptografia, essa treta tem mano. Então vocês começam?
+
+É trader hein.
+
+Ortografia, eu vou ler um.
+
+Vou lembrar de você ler acho que eu vou trazer
+
+um um questionamento aqui fraca tem reflexão uma reflexão.
+
+Também obrigado trazer um.
+
+Criptografia é uma coisa extremamente cara é importante e
+
+é difícil de lidar, isso daqui lidar com questões
+
+matemáticas ba, aqui aí vale mesmo mesmo, A mesma
+
+coisa que eu falei antes, não inventa.
+
+Puta criei uma criptografia que cara,
+
+criptografia fotografia coisa séria não brinca
+
+com essa esse negócio pro.
+
+Eu já vi casos do cara meteu um tem
+
+um o base meia e falar que estava criptografada
+
+o negócio Isso é claro mas é clássico.
+
+M cinco gordo cara, vá atrás.
+
+Se não sabe e é de verdade
+
+mesmo, eu não anjo de criptografia no.
+
+Que eu precisei eu atrás juntos os
+
+então não brinque com isso daqui.
+
+Esse daqui é coisa séria isso e você pode
+
+acabar com com a empresa com essa brincadeira hein.
+
+É inclusive lá no Microsoft ponto com barra S,
+
+tem lá né, é uma das etapas do St
+
+etapas né um dos práticas que que eles colocam
+
+lá que é você estabelecer padrões de criptografia.
+
+Então beleza que informações caramba, que informação você precisa criptografia,
+
+é um dado sensível é um estímulo não conecte da
+
+vida né, então isso vai definir qual nível de chave
+
+de cultura via, algoritmo você tem que utilizar Você vai
+
+eu utilizo o algoritmo já pronto.
+
+Uma vez eu fiz um curso e o cara fala lá no
+
+curso ele fala assim olha, você que está aqui fazendo esse curso.
+
+É ou assim noventa e nove nove por cento de chance
+
+de você não ser um cre matemático criou esta parada.
+
+Então não inventa moda, eu eu acionar seu ar.
+
+Porque você vai entrar problema pra família não
+
+inventa legal o que o Rodrigo falou.
+
+Ele fala muito bem cara, se você não tem, você
+
+vai reutilizar uma parada que que pra você, ponto final.
+
+Vai informação em trânsito ou em descanso
+
+mas eu utilizo alguma coisa pronta Olha
+
+vou definida né, não é como um.
+
+Quero só complementar, que a gente o Mudou muito
+
+de dois mil e dezessete pra vinte um, antigamente
+
+tinha a categoria do incentivo data expo hoje a
+
+top dois, depois da do bro Exatamente.
+
+Está subindo aí cara.
+
+Então se liga, um item que que é
+
+exatamente isso que a gente está falando.
+
+Inclusive antes você falava esse que
+
+tem seis seis itens lá né?
+
+Seis cheque é bem simples do pessoal ler aí
+
+mas é é simples e é é perigoso.
+
+Tem que tem que ser a risca mesmo aqui.
+
+Olha todos os números, nomes de arquivos, joia
+
+de string ale, E olha olha que foda
+
+mano aleatório deve ser gerado usando o módulo
+
+feito ou gerador de números aleatórios.
+
+Somente se os valores aleatórios gerados
+
+fossem impossíveis de serem deduz.
+
+Por que isso é foda porque é o seguinte,
+
+você imagine que está gerando lá o Gel.
+
+Falar ninguém vai identificar porque é é um ra,
+
+blábláblá é só que a a definição de aleatório
+
+é terrível mano por é muito aleatória, Esse caso
+
+contrário minha muito específica porque tipo tudo hoje você
+
+consegue fazer um reverte dele, você consegue identificar, você
+
+consegue colocar coisas de cutucar o crack daquilo.
+
+Mas você ainda consegue deduzir o aleatório.
+
+Então tá existe um milhão de livros falando
+
+só sobre isso sobre a aleatoriedade, então não
+
+vai achando que, só porque é aleatório tipo
+
+acabou o cara não vai ter acesso.
+
+Às vezes é às vezes é cruzamento de que o cara
+
+coloca lá a data com o servidor mais um número aleatório.
+
+Cara está fácil cara o cara faz o Reverte.
+
+Eu vi uma vez os caras começou a a ganhar em
+
+casa de aposta lá nos Estados Unidos lá, em Cassino, porque
+
+eles fizeram reverte do código do de um de uma máquina,
+
+e descobriram como que era gerado esse número aleatório.
+
+E daí o cara ficava com um tipo lá
+
+que dava um um dava um impulso pra ele
+
+né na hora que ele aperta ele tinha que
+
+esperar tantos segundos exatamente, ia apertar de novo.
+
+E daí os caras são arregaçar de ganhar dinheiro.
+
+É eu eu depois eu vou eu trago em outro
+
+episódio, vou cobrir o nome desse ficou bem famoso nesse
+
+caso aí e o pessoal teve que mudar o esquema
+
+das marcas mano foi muito interessante você negócio.
+
+Mas é isso Não não tem aleatoriedade mas não existe.
+
+Eu tenho aliás, existe né, os
+
+alguns algoritmos complementam isso né?
+
+Nessa seguro.
+
+O que ele vai fazer é, ele vai vai faz uma
+
+combinação a mesma civil Por quê, porque ele vai enfiar tanta
+
+variável ali no meio, e tipo você não vai ter acesso
+
+a isso e vai ficar é um segredo eu acho dá
+
+sete chaves lá né Isso isso pô.
+
+Teve vi um uma empresa que trabalhamos juntos, que um dos
+
+desenvolvedores uma vez ali foi falei não era eu era deve
+
+também na época não não era de segurança e eu lembro
+
+que eu falei puta, cara o pessoal falou que você fez
+
+aí tem umas você fez não né falou que você tem
+
+uma função de criptografia, mas eu estou precisando usar.
+
+É ah não um método aqui que eu
+
+que fiz mano foda não só que sessenta.
+
+Eu não é eu era deve só peguei usei segue bonita
+
+e tal, hoje eu fiquei pensando caralho que porra que será
+
+que ele fez por Trás de jogar mais string e voltava
+
+que estou ok, mas o que você falou, O que que
+
+está dentro o que está lá dentro daquele algoritmo que ele
+
+criou a menos talvez tenha utilizado um algoritmo padrão uma coisa
+
+segura ok mas não se sabe.
+
+Por mais que isso seja difícil quando a gente fala
+
+de alguns livros são difíceis de você estar ser atacado,
+
+E tal, mas dependendo onde de você trabalha o sistema
+
+que você está lidando, isso se torna alvo fácil.
+
+Faça assim é um é um bagulho o ativo você
+
+está protegendo com essa sua criptografia entre aspas, se ele
+
+é tão valioso assim, alguém vai tentar burlar lá o
+
+quebrado é mais um vetor de ataque né, é um
+
+já ataque é a superfície de ataque está deixando uma
+
+brecha mais, Então mais difícil seja, é uma coisa não.
+
+Tão é importante não deixar.
+
+Tem um Item aqui que ele fala né, a senha
+
+mestre deve ser protegida com, Você mas que vocês encontrem.
+
+E exato você está ligando as duas coisas né?
+
+Assim autor exato uma chave mestra aqui no de na chave
+
+privada coisas do tipo então pra toda sete chaves né?
+
+Tem que estar guardado eu lembro que trabalho uma empresa,
+
+que você tinha lá de usar o workshop e volte
+
+lá pra fazer alguma gerenciamento de simples e tal, E
+
+quando você instala o volte, ele gera as as que
+
+as chaves de abrir o cofre.
+
+Então tem cinco chaves lá mais uma chave padrão Lembro
+
+quando a gente foi instalar em Produção essa parada estava
+
+eu que estava aprendendo uma época de insegurança mais um
+
+cara de di infra, e o 0 gerente de segurança,
+
+uma coisa assim, só as três pessoas na sala, instalou,
+
+a gente pegou essa página, tirou um print e imprimiu
+
+ali na hora, só gente com o acesso ao estudos
+
+totalmente toma de offline, esse print a gente pôs nem
+
+envelope fechou esse envelope e ficava não cofre físico, literalmente
+
+aí subiu ambiente de produção, acabou boa parte, ou seja,
+
+achar as chaves por é difícil de você memorizar né
+
+Sou muito grande O tony memorizou, mas ficava lá subindo
+
+em produção era um ambiente tinha alta disponibilidade justamente pra
+
+ficar pra não cair mas e essas ficaram um dia
+
+sair se magno precisa precisa pela chave.
+
+Ele ficava naquele cofre e aquele e o cofre específico
+
+só acho que o diretor de ti na época de
+
+segurança sabiam a combinação de cofre pra colocar tempo.
+
+Então é esse livro está Uma fala
+
+chave né pode deixar fazer cercado.
+
+Já fácil um episódio do Valem, você lembra o
+
+cabeção aqueles estão tentando acessar o Ssh da outra
+
+companhia e o cabeção tipo eles perdem a chave
+
+e tudo mais ninguém consegue acessar mais.
+
+Só que o cabeça ficava brincando lá com
+
+o falando a chave nossa verdade cara verdade
+
+inclusive você quer o ouvinte do podcast que
+
+não assistiu Sil valley Está não tem cara.
+
+Ali para agora o episódio.
+
+Vá assistir de como inteiro, depois volte pra cá.
+
+Exatamente é obrigatória primeiro que mister uma por exemplo deve ter
+
+na frase né Tem hbo max é de Max está.
+
+Quero até trazer um ponto aqui que
+
+quando motivo último o último ponto beleza.
+
+Que normalmente vou fato de desenvolvimento, um moderno de
+
+aplicação aqui a porra toda, tem um dos itens
+
+lá inclusive bate com esse aqui nosso que é
+
+o quê, os módulos criptografia devem falhar com segurança.
+
+Era isso que é que também
+
+é um princípio de segurança feio. Exatamente.
+
+Se alguma coisa vai dar merda, de
+
+merda seguro você sabe que assim.
+
+Inclusive space já está está até atrelada ao próximo
+
+boa prática né de de log, porque se não
+
+adianta nada você proteger e colocar um negócio criptografia,
+
+e daí quando gerar o erro, estoura na terra
+
+falar o biblioteca Xpto de criptografia falhou quando você
+
+passou barbara pro x. Aham.
+
+Aí aí você já deu me andado pro cara.
+
+Esse esse feio safe, acho que é melhor
+
+cara, o melhor exemplo pra isso é, pra
+
+quem nunca assistiu provavelmente ela nisso é impossível.
+
+O simplesmente impossível normalmente quando ele mata então
+
+atacar ou invadiu um lugar, ele perceba nas
+
+falas, o pessoal você fala assim ah vamos
+
+fazer cair a energia porque vai ligar o
+
+gerador vai ligar o sistema reserva.
+
+O sistema reserva, não tem as medidas de
+
+proteção ou de segurança que o sistema principal.
+
+Então quando a gente está falando de feio sei Fe,
+
+você garantir que vá falha também vai ser segura.
+
+Saca o seu backup seu grau de quantidade
+
+de negócios, seu sistemas de eles também estão
+
+imagina, se tem uma sistema de servidor de
+
+backup, caiu de produção o backup sobe.
+
+Só que eu de produção você
+
+faz câncer faz harley tanto bonitinho.
+
+Aí caiu backup cá o do backup você fez uma vez há
+
+oitenta e sete anos atrás pra deixar ele pronto pra subir.
+
+Mas você nunca vai nunca mais
+
+né fez pet coisas do tipo.
+
+E aí quando ele soube está cheio de vulnerabilidade outro
+
+o cara consegue explorar e acessar de alguma forma, e
+
+pior vulnerabilidade já conhecida porque Sim existe É quando quando
+
+você tem a atualização de software e geralmente sai sai
+
+um dizendo o que que eles estão prevenindo ah está
+
+prevenir da falha Xpto O Netflix né.
+
+É então tem público, a galera já explorou
+
+já tem já tem ferramentas pra explorar aquilo
+
+Então cara, voltou a versão, ferrou né?
+
+Exato é interessante mesmo fez pro conta disso, né.
+
+Assista isso é impossível, todos que você vai um pouquinho sobre
+
+o que que é feio sei ou como atacam né sistema
+
+de maneira sistema outra protegido da indústria lá eu cara desativa
+
+a energia subiu o Backup, está lá só isso cara só
+
+um reboot lá, já tornou por invasão.
+
+Eu sei que o Tópico está bom, mas carro, a
+
+gente se vê no próximo episódio enquanto isso você vai
+
+ler o guia que tinha pressão passado nesse episódio que
+
+bastante coisa pra você entender, defina lá os seus checklist
+
+de boas práticas de código, e é vale lembrar né?
+
+É a agnóstico a tecnologia isso isso aqui né é pra
+
+ser pra java papai isso quer é pra qualquer aplicação de
+
+uma maneira geral tá, não tem nada a ver com linguagem
+
+ou tecnologia que a está falando do um coach tecnologia então
+
+Vou até me falar um pouco aqui também não é só
+
+deve aqui na só pra né.
+
+É tem você pode falar com kyoto,
+
+eu sou cara dono do do.
+
+Lu da volta quem é the Tem bastante coisa
+
+com Inter infra que pode resolver aqui Cara.
+
+E vou seguir o fala assim distribua a palavra.
+
+Eu me você do Rodrigo estou todo
+
+episódio agora vou vir mais bêbado. Boa.
+
+Eu mais não vou tentar fazer isso também.
+
+Bom isso que tem hoje de estava
+
+gostoso mas estava precisando de cansado.
+
+Bom foi cansado já terçafeira uma morrendo já.
+
+Enfim, terçafeira que dia está gravando pessoal
+
+Nos vemos no próximo episódio, eu sou
+
+Ka Pereira, Mark Santos Rodrigo Ba.
+
+E a gente vê parte três hein mano é uma
+
+série, não se esqueça partir um ano passada a parte
+
+dois hoje estou que parte três, Acho que é beijo. Beijo.
+
+Termina aqui deve ser desce o seu
+
+podcast de segurança e e tecnologia. Ele fala com
+
