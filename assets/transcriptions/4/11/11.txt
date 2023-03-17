@@ -1,0 +1,1742 @@
+Inovação assim segurança Começa aqui deve o
+
+seu podcast de segurança em tecnologia.
+
+Fala Jovem, sejam muito bemvindos a mais um
+
+episódio do Devese ser, podcast o Pereira.
+
+Eu sou Marcos Santos.
+
+E graças deus um episódio deus sem Gabriel esses romperam
+
+o saco também né bom, episódio mais calmos sim.
+
+Hoje só doente está mais tranquilo mais boa, Boa
+
+boa inclusive lembra do episódio dos ouvintes que o
+
+cara falou, gosto do Marcos ele não hoje Que
+
+triste não gosto essa parte inclusive ouvinte que seu
+
+xará né Marcos também Marques também.
+
+Boa é um pouquinho né? Boa.
+
+Bom pessoal episódio de hoje a gente está seguindo a nossa
+
+série do Aspas seu escudo Pre né, ou aspas E hoje
+
+a gente está no terceiro episódio dessa série, que deve ter
+
+uns cinco seis episódios de pra mesma mano bom vamos vamos
+
+fazendo aqui vamos ver o que que dá?
+
+Mas hoje a terceira parte né da dessa série que
+
+a gente está fazendo aí com base na sugestão de
+
+ouvintes também, e é isso né Série de hoje.
+
+Antes de falar antes de começar episódio de hoje
+
+falar patrocínio meu final do mês aí como é
+
+que falava na tv vamos vamos faturar né? Vou faturar.
+
+Vai uma do então que eu deve ser que
+
+podcast tempo o apoio E da nova oito que
+
+são especializadas em segurança de sistemas e códigos seguro.
+
+O link da nova oito de distribuidora da Chuck
+
+no Brasil está abaixo na descrição do episódio do
+
+nosso site também devese podcast ponto ponto ponto b,
+
+a contabilidade oli que é especializada em profissionais área
+
+adi ti, se precisa empresa almejado rentabilidade entre em
+
+contato com a pessoa da com olímpica eles estão
+
+prontos pra te atender.
+
+E a putz gilbert que é especializada em
+
+application quer desenvolver software seguro, fale com gol.
+
+E ainda pegar a minha colinha aqui pensa aqui dá mais
+
+trabalho, que é a imersão java que vai rolar, e vai
+
+barra rolando preciso lembrar datas aqui mas vai rolar na né,
+
+imersão Java, que tem essas inscrições já estão abertas né desde
+
+o Dia três dia vinte e seis do três, vai haverá
+
+uma live de abertura no dia vinte e quatro do três
+
+e as aulas começam objetivo dia sétimo três e trinta e
+
+um Doutrina três tá.
+
+Então aí vai Java vale destacar que são cinco
+
+aulas im online e gratuitas, com desafios fiz prático
+
+pra construir seu primeiro projeto em java, adicionar o
+
+seu portfólio e dar uma igreja na sua carreira.
+
+E eu ainda incluo que pra você aprender sobre desenvolvimento você
+
+tem área de segurança porque enfim, e só tem contato com
+
+o código à distância né, só ver código só que critica,
+
+só fala que tem vulnerabilidade, acho que é legal você entrar
+
+na menção java pra aprender ali uma como é que funciona
+
+como é que é o dia a dia do, pra você
+
+está muito mais próximo do ter então, lembrando aí também que
+
+da tem de conto né, você usando nosso você tem dez
+
+pedidos com nos planos lá da, beleza então, dados dos recado
+
+quer fala marcos uma coisa.
+
+Não, estou pisando cara só aí sei se de Java,
+
+importante pra caramba, eu me me inscrevi, não sei se
+
+eu vou conseguir participar devido ao fuso horário e tudo
+
+mais, mas eu gostaria porque eu não.
+
+Eu sou c Php ali mais um pouquinho de
+
+python então só com essa parte já vai é
+
+uma linguagem que ainda é bem grande né?
+
+A deixa olha ali está até as top cinco
+
+de iguais mais utilizadas, importante ir pra galera que
+
+quiser entender um pouco mais se profissionalizar Boa curiosidade
+
+inclusive eu quando eu comecei a trabalhar com desenvolvimento,
+
+meu primeiro estágio era Weber seis, então já estava
+
+ali no mundo Microsoft bebe B seis depois fui
+
+pra com ponto um lá no fernando net e
+
+tal pra segui mas mas essa área, e a
+
+faculdade quando curso sem faculdade era todo java.
+
+Já hora com então, eu meio que tive bom contato
+
+aí com os dois mundos né, era muito mais esses
+
+dois muito, a coisa que foi chegando um pai com
+
+né, mais popular assim, obviamente são tão velhas quanto mas,
+
+formando mais popularidade, mas eu sempre fui do mundo depois
+
+acabei aprendendo java que comparado com você dá na mesma
+
+né nossa tudo mais só?
+
+Por passou do java foi a ideia. Nunca.
+
+Eu tinha um professor disse que me faz muito.
+
+Denúncia, denúncia você come, Podcast, leve c, Vice sex e
+
+um professor isso que ele fazia ele obrigava na faculdade,
+
+obrigava assim né era aqueles fla está ligado.
+
+E ele falou que a galático abatido
+
+nossa programa em java eu lembro deus.
+
+Eu já não gostava de java porque pra quem programa uma
+
+o estúdio que era uma né a viu que era feio
+
+caralho e tal enfim, ele fazia a galera programa em mete.
+
+Então tá muita gente eu o java da minha
+
+pelo menos estudou lá por só que eu coloco
+
+com netflix ativista então uma ideia horrível.
+
+Existe ainda não sei.
+
+Não fui atrás Bom, Olha isso aí. Vamos lá.
+
+Vamos voltar pro tema.
+
+Então, aula de hoje aula de hoje um episódio
+
+hoje a gente vai falar sobre três tópicos né,
+
+três toques três, três toques, tratamento de erros e
+
+log, no da, proteção de dados, Segurança essa nas
+
+comunicações está bebendo produto segurança de.
+
+Seguindo na ordem aqui tratamento de erros e loki quer
+
+começar marcos tem falar quero começar, quero trazer um um
+
+ponto muito importante e pra mim especialmente como se fala
+
+de logo e é o mais importante ainda.
+
+Você já ouvindo a história não vou contar novamente
+
+boa rua, mas tem uma das coisas aqui que
+
+pra mim pesa bastante que assim o controle de
+
+log deve dar suporte tanto pra casos de sucesso,
+
+como casos de falha relacionados.
+
+Então não é só log pro tem você no sucesso e na falha.
+
+E juntamente com isso também tem que garantir que
+
+o log seja armazenados em lugares seguros né?
+
+Também é um dos itens aí.
+
+Muito pelos picasso, aliás essa esse esse primeiro ponto aí,
+
+a galera era uma falha má inclusive eu sempre logo
+
+quando eu programava do caminho feliz da parada. Né?
+
+Ou ou dos erros em geral.
+
+Mas quando a gente está falando de de segurança e
+
+aplicações de uma tal a gente quer log às vezes
+
+um audi por exemplo, o cara tentou fazer login, aí
+
+você logo o sucesso, mas a falha é não ioga,
+
+E quando você fala de insegurança de aplicação, é mais
+
+importante a falha você consegue identificar se seu cara está
+
+fazendo um blue forte por exemplo né, várias falhas seguidas
+
+e coisas do tipo o mesmo usuário, então, a combinação
+
+de informações dentro do próprio logo ajuda você a identificar
+
+esse tipo de coisa né.
+
+Eu tive um pro.
+
+Nesse num desses problemas enfim, eu tive
+
+um problema de embasamento de dados.
+
+E eu não tinha log aí pra consultar pra
+
+saber quem foi que eles o vazamento né?
+
+Então pra mim logo tem um eu eu levo com
+
+carinho justamente com esses problemas sei o quanto é importante
+
+quando você precisa, você não tem um log adequado.
+
+Complicado Qual falou outro ponto junto né,
+
+Armazenar os móveis Em locais seguros né? São.
+
+É importantíssimo também cara bota um log no email,
+
+manda num arquivo não sei onde banco que que
+
+não ter acesso acaba sendo um problema que lindo
+
+exatamente top que eu queria falar quer é restringir
+
+o acesso aos lotes apenas ao pessoal autorizado.
+
+Então assim às vezes o desenvolvedor está na na
+
+código ele bota lá nove ponto in lá.
+
+Aí ele configurou pra esse log
+
+e com arquivo de no servidor. Beleza.
+
+Né, tem aspas beleza.
+
+Mas quem tem acesso servidor?
+
+No time né, ou Arquitetura da pegação como
+
+ela está definida Quem tem acesso a esse
+
+filesystem pra ter acesso esse log de fato.
+
+Muitas vezes ele imagina que é só time de in,
+
+então vezes imagina que é só ele sei lá como
+
+a aquela empresa enfim, mas na verdade é que você
+
+não tem esse controle você você não tem controle.
+
+A menos que você ser né ter o digamos a administração
+
+do ambiente produtivo Aí isso vai saber quem, Mas é muito
+
+difícil cara um contexto corporativo é muito difícil ter quem tem
+
+acesso a servidores pastas mental, e garantir que vai ter acesso
+
+a esse Por quê, o log por si só, ele é
+
+amazônia dependendo dependendo do tipo de log, ele informações sensíveis né
+
+a gente quer saber coisa sem servir do comportamento da aplicação
+
+até o git e tal.
+
+Então garantir que, e olha isso aqui
+
+está ligado com o tópico anterior né?
+
+Menos gente, né, Então ninguém quem tem acesso
+
+a esse log né enfim, acho que é
+
+não tópico importante no pessoal ter, tem mente.
+
+Até trazer um um uma coisinha aí eu eu trabalhei
+
+numa empresa onde tinha um sistema do samba de Rh,
+
+e o todos os vlogs eram salvos folder.
+
+Só que folder todo mundo da empresa de acesso.
+
+Falta. Então.
+
+Então e isso aí ac muitos problemas e
+
+eu queria até aproveitar e alencar com o
+
+outro tópico também, que é registrar todas as
+
+falhas que ocorreram nos modos de criptografia.
+
+Bom, porque já tivemos problemas hoje falhou a criptografia, não
+
+tínhamos logo pra passear mais uma vez isso ocasiona um
+
+problema lá que a gente chegou a perder e uma
+
+base de dados não era tão importante, Graças a deus,
+
+mas chegamos a perder uma base ali Você lembra do
+
+da Hp que é não sei é verdade mas rola
+
+que os caras criaram o nome da banda porque eles
+
+trabalhava mesmo né na Hp e saíram tudo puta não
+
+gostava sei lá e meter o nome de Inimigos da.
+
+É empresa você trabalhava você podia pegar galera
+
+lá e abriu inimigos montar inimigos do logo.
+
+Cara logo você for o problema.
+
+A época de entrega fiscal então o Europeu cantava
+
+o update na base de produção, e tinha logo
+
+disso não tinha a quem como diz ditado.
+
+Boa.
+
+Queria pegar o tópico aqui esse esse assunto está falando
+
+tratamento de erros e loki né, então logo entender o
+
+que é importante, inclusive, então ditado aí no na área
+
+de info que quer é no log no crime.
+
+Né, sem o modo sem crime.
+
+Eu não sabe que aconteceu não
+
+tem como simplesmente não aconteceu nada.
+
+Então, mas o tópico tratamento de erros também, eu
+
+queria pegar um tópico específico sobre quer é usar
+
+mensagens giro, e páginas de erros personalizados.
+
+E tudo isso.
+
+Que que isso interfere na verdade?
+
+Quando você bota lá né para alugar e inclusive
+
+tem outro tópico aqui que está ligado diretamente com
+
+isso ele fala aqui olha, usar mecanismos de tratamento
+
+de erros que não mostram informações depuração apuração.
+
+Ou the né, ou informações da pilha de execução.
+
+Então os dois estão meio conectados porque o cara está lá
+
+produção dá um erro na explicação, explode a página amarela lá
+
+do aspirante com um calote de servidor, nome de pasta nome
+
+de arquivos técnico versão instalar lá no banco de data e
+
+p, então assim, a página padrão de erros né, de de
+
+de estojo de erro é é muita informação, obviamente pra quem
+
+né quer tratar que é ótimo mas o Ra também é
+
+um parto cheio pra quem está fazendo a maldade ali cara
+
+a prática está dando pra ele praticamente o só falta estamos
+
+olho sem assim de acesso né?
+
+É que que e ter queria falar.
+
+Não armazenar informações ou Redes de log,
+
+como detalhes necessários do sistema, liquidificador de
+
+seção, sem e acrescenta mais, no certo. Exatamente.
+
+Hoje é quartafeira sexta passada, estava numa
+
+reunião é o cliente, parceiro x e
+
+um desenvolvedor chegou pra mim falou mano?
+
+Olha a linha setenta e cinco tenho lembra falou assim,
+
+hoje que faz pouco cozido, olha a linha setenta e
+
+cinco aqui, isso é um problema, aí a linha é
+
+log ponto, dentre algumas informações úteis e ok, uma era
+
+um j w ter tolkien da autenticação do parada.
+
+Ou seja, qualquer um acesso aquele log, exatamente o
+
+que gente falou aqui agora, cara é real juro
+
+pela alma querida mãe que está no céu.
+
+O cara basicamente você consegue aquele tolkien que qualquer um
+
+tem acesso log com esse que você praticamente faz um
+
+pessoalmente de qualquer usuário porque o estou ele está vale,
+
+é o log da transação da palavra é um um
+
+serviço inclusive é de autenticação, ou seja autêntico, logo o
+
+tolkien que você está dando acesso, Enfim, cara esse está
+
+de chorar Faz parte Mas vamos lá. Quer falar pra falar?
+
+Eu eu queria trazer mais um também que.
+
+Isso aqui eu achei engraçado e acontece muito, que
+
+é o tratamento de erros lógicos associados com os
+
+controles e seguranças devem pro padrão, negar o acesso.
+
+Que acontece, muitas vezes a gente está lá gente
+
+tem os que cima vai dar no durante uma
+
+programação hora que está que tem a medo hora
+
+que está acontecendo, só que o pessoal acaba alugando
+
+ali, informações são importantes do sistema, como chave de
+
+acesso, às vezes um todo alguma algum resto alguma
+
+coisa, e não nega por padrão acesso. Deixa lá perdão.
+
+Link Está falando até agora.
+
+Princípio de segurança né tem by ter fogo Exatamente, depois
+
+libera cis Não podia estar aqui não isso aí deveria
+
+ser padrão todo mundo aqui porque muita gente faz.
+
+Bom, esse tópico tratamento de erros logo ele tem sei lá
+
+uns que também é muita coisa né, até muito né?
+
+Então inclusive ele fala ele fala de um aqui né, de
+
+de na verdade eu queria dar uma dica, não está aqui
+
+nessa nessa parada aqui mas eu queria dar uma dica.
+
+Quando deixa eu falando de logo gente, especialmente segurança, segue
+
+o cinco w lá né Ou What we an Boy,
+
+basicamente isso vai te dar informações suficientes de whats vocês
+
+por exemplo, né, quem está acessando sua aplicação tal já
+
+te já é basicamente faz um vídeo pra você entender
+
+o comportamento da sua aplicação.
+
+Então esse tipo de log é bemvindo né?
+
+Aliás ele é crucial eu diria, um pouco do que eu
+
+falo aí na na internet no meus cursos e tal, inclusive
+
+tem começado a usar um pouco mais o Twitter com relação
+
+algumas algumas coisas mais mais rápidas assim né, então alguns insights
+
+lá que quiser segue aí caça de.
+
+Até tem um tópico que também não está aí, mas
+
+é uma coisa que a gente pega bastante, somente o
+
+pessoal que está desenvolvendo ali, que normalmente como você era
+
+um louco logo que você ela com uma memória ali
+
+pra salvar os dados pra ele cuspir ainda do arquivo.
+
+Cara importantíssimo limpar pra essa memória depois a
+
+gente tem várias vulnerabilidades aí com o próprio
+
+rick, que você pega de no.
+
+Então terminou de Cuspir logo 0 memória
+
+pelo longe deus Não palavra né.
+
+Exatamente.
+
+Boa, Então o nome de top fulano segurança. Tecnologia.
+
+Deve c.
+
+Proteção de dados né o próximo tópico aqui,
+
+ele é até pequeno eu diria gostoso sim.
+
+Mas nós razoavelmente tem tem
+
+algumas informações legais aqui.
+
+Eu queria começar esse, ele começar esse,
+
+ele fala aqui olha, não incluído informações
+
+sensíveis, Dos parâmetros de requisição.
+
+Galera.
+
+Mais Parece besteira né mas não incluía
+
+formações sensíveis nos parâmetros de aquisição.
+
+Não, né?
+
+É Eu não diria aqui Óbvio vai, pode ser
+
+até complexo você pra refletir um pouco sobre isso.
+
+Mas o fato é muita caro.
+
+Não vou dizer cem por cento
+
+eu já peguei aplicação protegida mas.
+
+Muita obrigado que eu já vi, está lá, senha
+
+sei lá coisas sempre literalmente no no no Rn,
+
+não é ele, ele por padrão já está aberto,
+
+qualquer meio inimiga né, qualquer cash de braço de
+
+que você está usando rede público lá.
+
+Assim, a a informação está lá esse é o tempo.
+
+Então é o que ele fala,
+
+não inclui informações sensíveis nos parâmetros.
+
+Pode usar o médico pra fazer bilhões de coisas
+
+trezentos milhões de aplicações de bilhões infinitas no mundo
+
+uso que deve, mas não com como informação sim.
+
+Eu vou botar a culpa aqui que quando bota um bota
+
+Eu comecei a desenvolver eu pega a prisão da massa.
+
+Legal quatro na época asp da massa.
+
+Usava muito post, e uma das coisas que eu trabalhei pra
+
+caceta no sei pra poder buscar do outro lado na base.
+
+Então dava poxa Pra pra dar um lá
+
+com os dados dele pra poder carregar aprende
+
+então não vou falar que não trabalhava seguro.
+
+Não é realizando não saco de saco de vacilo saco assim.
+
+Mas foi no começo dez anos atrás eu sei mas.
+
+Cara fazia muito muito cara É ridículo. Bom.
+
+Vai passar, vai passar do nosso passado, passado
+
+que, não precisa se expor não precisamos e
+
+tem posso botar um outro ponto aqui tá
+
+você pode botar tudo, bota tudo mais.
+
+Esse aqui está muito também com a
+
+gente dia a dia que já.
+
+Mas assim proteger o código fonte presente no servidor
+
+pra que não seja acessado por algum usuário.
+
+Está ali né?
+
+Sabe que Web da vida aqui teoria em teoria ele está
+
+só o servidor não em ele né, mas cara já vi
+
+nega abrir o próprio arquivo de configuração deixa caras joga.
+
+Vai no Google causa só Palm.
+
+Sai no Google, bota lá uma dor, né, só que é doc
+
+vai no Google pesquisa sobre Dor você foi o maior adoro lá
+
+no Google, em é né, deixa em Password, Só isso.
+
+Deixa melhor coloca em rn Gov.br ponto b. Bota isso no.
+
+Porque os caras sobe Ter com anotações né, normais da de
+
+mim então e ter banco senha e jogamos no servidor Web
+
+mano e aí o Google essa parada está público lá. Sim.
+
+Dá toda.
+
+E assim.
+
+Acontece está caramba parece parece que não mas
+
+tinha uma falhas que na a ferramenta Tre
+
+também, só salvar fala muito pé também indexado
+
+tudo no mundo pode querer lembra ficaria aí. Pode crer.
+
+Não só três Mas treino chão essas porra tudo que
+
+é noite da vida e agora uma febre também de
+
+de ferramentas então mas tu também indexado cara, então toma
+
+muito cuidado ali, com vai proteger, tentar separar, deixar aquele
+
+servidor web pelo menos o 0 mais o máximo possível
+
+sem exposição né, só com aquilo que realmente deve. Sim.
+
+Explica é de fato pra né?
+
+Não é o que não é país por mas pra lá.
+
+Exceto arquivos de configuração sei lá,
+
+web como da vida coisas relacionadas.
+
+Fora isso pra está lá Sim tem e
+
+aqui que parece besteira, parece realmente besteira, só
+
+que mas é Não ferramenta de darkside, a
+
+gente consegue pegar muitas vezes isso aqui.
+
+Remover comentários do código de produção, que
+
+podem ser acessados pros usuários e podem
+
+revelar detalhes internos sistemas e formações sensíveis.
+
+Boa. Parece besteira.
+
+Papo um comentário no código cara, vezes você está falando
+
+sua regra de negócios às vezes você está falando aonde
+
+que está o arquivo x onde você está dando um
+
+import, no próprio ml né que está sendo servido mesmo
+
+às vezes tem coisa lá que sei lá, enfim.
+
+Parece besteira mas qualquer ferramenta de baixo
+
+xuxa hoje pegue esses momentos de código
+
+ali e acabou trazendo é óbvios né?
+
+Sim que se é não tem nada a ver com
+
+Exatamente pode deixar claro daqui a pouco os haters tem
+
+aí dá pega código vou está exposto importante deixar claro
+
+aí Tem um item que eu queria comentar aqui é
+
+o seguinte olha, a aplicação deve dar suporte, a remoção
+
+de dados sensíveis quando estes não forem mais necessários.
+
+Por exemplo, informação pessoal ou dados financeiros.
+
+Isso aí.
+
+Exato que tem tem não sou especialidade de Inclusive gente
+
+gravou um episódio que já segunda temporada com a mara
+
+Ferreira, sobre E tudo mais, talvez a gente tenha comentado
+
+sobre isso lá, mas tem um item que é o
+
+direito esquecimento aquela do usuário usuário poder pedir a remoção
+
+dos dados e tal, então é o que ele fala
+
+que, a aplicação deve dar esse esporte, de remover os
+
+dados né colocaram, quero que apaga nos dados aí como
+
+usuário ou mesmo você como administrador da da aplicação do
+
+produto da empresa, por qualquer motivo seja, você precisa remover
+
+os dados lá por ser um incidente, sei lá cara
+
+vou pagar essa foto que é melhor pagar do que
+
+vazar, depois você manda mensagem pros os usuários da pedindo
+
+sei lá, à medida que deve ser tomada.
+
+Mas a aplicação é uma boa prática né, que
+
+a aplicação tem essa esse tipo de de funcionalidade.
+
+E vou além além, Imagina vamos imaginar o seguinte cenário,
+
+você tem lá uma aplicação qualquer, que tem o cpf
+
+das pessoas, vou é um exemplo bem bem esdrúxula tá.
+
+Essa sua aplicação qualquer, ela é gigante, então tem
+
+arquitetura, tem vários servidores, vários bancos citados, né, high
+
+Raiz high Vila Bee Ray o tala porra.
+
+E aí sua aplicação por ser né, nesse contexto
+
+crítico, ela tem Backup, você faz backup você salva
+
+esse backup frio numa fita, backup e você tem
+
+e quente também pra fazer espelhamento de banco, enfim,
+
+todo vamos você imaginar de de tecnologia.
+
+Esse tipo de esse tipo de funcionalidade é apagar os dados
+
+não é só do quente, é de tudo, Por quê?
+
+Apagou o lado banco organizacional, lindo maravilhoso.
+
+Deu merda na empresa senhor restava o backup.
+
+O dado está lá não está pagando.
+
+Então a dificuldade da Lp em geral vai desse
+
+item específico né, de de esquecimento cara, Quantas empresas
+
+têm, buriti e definida um processo de backup.
+
+De de backup então o usuário falou na paga, aí ele
+
+apaga o sistema atual mas iso de os backup, quantos backup
+
+ele tem de um ano dois cinco anos, de repente né,
+
+ele quer manter história, e você tem que ir lá nesses
+
+backup a pagar as informações de lá também bem, Então olha
+
+o nível de arquitetura e estratégia que você precisa ter ter
+
+esse nível de maturidade Esse item específico ele ele acaba indo
+
+longe né, nessa na nível de escritos, quando você pensa a
+
+aplicação dá suporte da o botão da vai na na linha
+
+do banco lá de.
+
+Mas isso quando você pensa nesse nível de
+
+estrutura, eu não sei se a galera está
+
+pronta a galera que eu digo né?
+
+Empresas geral empresas em geral, pra não já está pronto pra
+
+isso, não Posso até usar um caso isso aí foram casa
+
+que gerou muitos problemas numa das empresas que eu passei, a
+
+a gente tinha o sistema de rh lá da empresa era
+
+bem bem né né época entrei lá e pra consertar ele
+
+tentar modular, e a gente tinha um problema grave porque assim
+
+o pessoal podia pra pagar dados, sou uma a pessoa era
+
+demitida, a gente eles usavam sistema de flex então foi demitido
+
+tinha um pra demitir.
+
+Quando passava um certo tempo eu tenho que
+
+excluir o dado dessa pessoa de lá.
+
+Pessoal manter o histórico lá pro código um regra eu trabalhei
+
+às vezes o cara vai pro inss e tudo mais.
+
+Aí entrou lgbt.
+
+Tá a gente está em pra, Cara tu tinha
+
+funcionário que a gente pegou que recebia salário cinco
+
+anos e o cara já tinha sido desligado.
+
+A gente mesmo cara morava pra bahia
+
+lagoa água de coco, E salário.
+
+É.
+
+É muito crítico isso aí de remoção de dados.
+
+Muito crítico.
+
+Portanto o pessoal tem ido tem em
+
+mente aí essa essas questões né.
+
+Pô E depois puxar chamar um outro tópico
+
+aqui também, isso isso aqui também fazia muito
+
+e me arrependo hoje, mas é desativar a
+
+funcionalidades de auto formulários que contêm informações sensíveis.
+
+Inclusive no formulário de autenticação.
+
+Mano já essa velho puta está que planejamento s.
+
+Mas confesso que lancei trava é legal que facilita mas
+
+também está espuma eu vou exatamente qualquer algo que chegar
+
+lá no pessoalmente você pega essas barreiras na época né,
+
+o causa da vida e tudo mais, cara lá pega
+
+o Cpf com moedas mano mediar essa direto.
+
+Nossa já estava.
+
+Metia essa aliás metia bastante você também mais.
+
+Pra caramba com você.
+
+Amigo muitos desses problemas por aí viu
+
+cara importante destacar né tipo de As
+
+pessoas não cometem os mesmos erros né? Sim.
+
+Sendo pro sentido.
+
+Foi isso que a gente falam esses você tem
+
+um guilherme problema de exposição de dados aí. Dez.
+
+Somente se o cara se sai de uma rede pública
+
+hoje em dia mais difícil mas, o pessoal que não
+
+tinha computador na época sabe de das aquelas séries né
+
+comunitárias e tudo mais cara posição de dados aí rodo.
+
+Hoje digo isso muito maior né?
+
+Até eu fico pensando até de sei
+
+lá computadores de hotel, Tá ligado.
+
+Também aquela menina A gente tem um
+
+hotel escolas né, a galera re sei.
+
+Ainda a gente fala muito uma house porque mas vem na
+
+cabeça da galera, mas ainda temos cenários com hoje e que
+
+computadores públicos ainda são utilizados hoje já vi academia que tem
+
+meio aqui no camisinha, ou alguns laptop ela você pode usar
+
+tal loja, né, você vai em loja tem tablet lá pode
+
+navegar e tal e vezes o cara tem eu faz uma
+
+coisa ali enfim, é importante porque que aquela história né, mano
+
+as pessoas as elas não vão estar educadas o suficiente pra
+
+se proteger com relação a isso.
+
+Então a aplicação em si deve evitar alguns problemas como esse
+
+caso no então faz sentido essa essa visão é passada pelos
+
+inovadoras né, que é um pouco que a gente está fazendo
+
+um pouco não né, É o que a gente está fazendo
+
+nessa série aqui né terceiro episódio já, dessas boas práticas né,
+
+porque, é quase que você não não é aquela história né,
+
+você tem a criança pequena vai pro o dedo numa tomada
+
+você vai ficar visando toda hora e a hora que você
+
+não estiver perto pra avisar Não nem mais fácil você botar
+
+um protetor lá na tomada né uma fantástica botar o pac
+
+que e não é meter o dedo tomada enfim.
+
+Eu e particularmente fiz meus dois eu não
+
+sou choque com o clipe da tomada.
+
+Boa aí olha aí ensinei médico. Boa pra coragem.
+
+Faça isso por Começo menos duas vezes mas vale a pena.
+
+Boa.
+
+Eu não estava nem não falava segurar na tomada
+
+agora cinco minutos só Cara Bom eu acho que
+
+não precisava falar do ci mas eu acho que
+
+é obrigatório professor entender, então para para estou zoando
+
+imitar o João implementar uma política de privilégio mínimo,
+
+esses usuários, apenas funcionalidades dadas e informações dos temas
+
+que são necessários por executar suas tarefas.
+
+Toma cuidado com a inúmeras com
+
+painel de outras coisas aí.
+
+Inclusive, esse toque de específico proteção de dados
+
+e ligado com isso que você falou é
+
+um específico de segurança na lista privilégio essa
+
+segregação de funções, e tal então, Mano?
+
+Tudo, olha olha olha só hein, filosofia
+
+não deve ser come de agora.
+
+Outros você greve sequei.
+
+Tudo o que a gente faz, em application security.
+
+É para proteger os dados.
+
+O está cagando pro seu código ele está
+
+aqui Cagando pra sua api pro seu amigo
+
+serviço faz que vocês ele está cagando.
+
+O que ele quer os dados que essa stack, toda
+
+pra, pra pra que que sua aplicação existe pra pegar
+
+uma informação daqui e passar pra lá processar você aqui
+
+você sei lá, é o dado que importa pra.
+
+A aplicação é a sua aplicação é só um
+
+meio que ele vai utilizar pra fazer isso, Então
+
+se tem vulnerabilidade é culpa sua, você está fornecendo
+
+os mesmo aquele acesso os dados.
+
+Então esse item aqui é a proteção
+
+de dados é tudo sobre isso, gente.
+
+Tudo o que a gente fala, dá você com podcast de ape
+
+todo o nosso trabalho é, proteção de dados, application tipo que é
+
+a aplicação que tra os ela é apenas o meio não é
+
+o fim, o fio é um dado de de fato.
+
+Olha você tem dado Marcos Tenho dado
+
+tenho dado bastante aí, dado bastante rolê,
+
+dado bastante Boa voltas aí pra tudo.
+
+Por isso que eu não por que eu gosto
+
+quando tem Rodrigo biel, porque essas piadas encaixam, os
+
+caras está brincando está falando mal entendeu eu amiga.
+
+Quem é mais presente sou eu Vou fazer o quê, né?
+
+Os caras não estão aí olha, cadê eles.
+
+Se fizer chamada aqui do do umas quatro temporada
+
+o Marketing tem que sei lá duas, três faltas.
+
+Fala temporada não é você
+
+chegou nessa segunda terceira segunda. Segunda.
+
+Então você tem uma você chegou duas três
+
+voltas né, Rodrigo, foram inteiro que vacinou.
+
+Gabriela se fala enfim então enfim né?
+
+Continuando, quer falar mais um
+
+sobre reprodução de dados?
+
+Quero eu quero falar um acho que o último
+
+aí pra gente pular, além é informações altamente sensíveis
+
+quando armazenadas, como dados de verificação de autenticação, mesmo
+
+que estejam no lado servidor uhum usando sempre algoritmos
+
+conhecidos, padronizar e bem testados.
+
+Nada de pegar o algoritmo que o
+
+carinha seu vizinho criou de biografia amor
+
+de deus isso consulte a seção que
+
+trata sobre prática de criptografia, orientação adicional.
+
+Aqui a gente falou um top na no podcast passado né?
+
+Boa, inclusive, sobre sobre esse item
+
+específico né informações altamente sensíveis, quando
+
+armazenadas eu acrescentaria um trânsito ainda.
+
+Tem, talvez tenha um outro tópico aqui né?
+
+Mas veja, informações altamente sensíveis. Por quê?
+
+Existe um ditado em Você que é, só cripto salva.
+
+Hum toda informação for, usam chave quinhentos de
+
+idosas acabou não tem mais rápido não tem
+
+mano Acabou está tudo que eu estou?
+
+Em com, você faz um request, vai demorar um uma
+
+avenida né, então não dá pra fazer criptografia em tudo.
+
+Então é só que altamente sensível porque se na
+
+sua aplicação ela vai sentar, ou você vai gastar
+
+um bilhão pra subir um um micro serviço.
+
+Exemplo máquina pra processar aquela coisa toda.
+
+Então é meio que um balanço né
+
+entre entre o saco como usar etcétera
+
+Inclusive alguém é especialista em filho fala.
+
+Queremos você aqui porque também eu imagino usar e consumir mas
+
+É outro é um outro nível de discussão Mas enfim, toca
+
+aí foi falei foi muito fechou achou proteção de dados fechou
+
+bastante já Quase todos os talk praticamente lendo aqui o 0
+
+aspas pra lei assim porra aí galera baixo, vai lá no
+
+eu contei o link aqui no no no episódio do vídeo,
+
+nosso site, vocês estou colocando link lá mas no episódio aqui
+
+do do do Youtube sempre tem o link, leia, baixo esse
+
+guia, faz um uma listinha ali lê, apresenta pessoas evoluída isso
+
+aqui tem que ser a bíblia vocês tem que ter isso
+
+em mente, por quê, Quando na sua mente você programa pensando
+
+nisso.
+
+Você vai fazer um método da Roupa espera
+
+aí lá no guia fala um negócio que
+
+esse espanta não deveria ser usado assim eu
+
+engraçado você, você nem mata vulnerabilidade na verdade.
+
+Ela não nasce, Esse é o ponto ela não nasce o
+
+problema não vai nascer, sabe Então leia, bate de olho, cara,
+
+bate olho fala pelo menos a leitura de metrô, na no
+
+metrô está no Busão, dando ou famoso Calote, vai dar um
+
+calote ali de quinze minutos silêncio aqui rapidinho.
+
+Só assim você pegar ali vinte páginas gente pode
+
+você ajuda mas meia ali, são tópicos então facilita
+
+ainda mais leitura é texto só bem tranquilo.
+
+Bom, o último tópico de hoje então segurança nas comunicações,
+
+acho que é uma algo quando a gente estava falas
+
+do mundo de micro e e tudo mais é algo
+
+que pinga nossa mente, acho que eu quase que automaticamente
+
+né, como é se comunica com outro, como é que
+
+as coisas assim em integra, e é importante de destacar.
+
+Quer ficar começar que tem um tema print já precisa?
+
+Tem termo aqui que você vai gostar, especificar
+
+a codificação dos caracteres para todos as conexões
+
+Porra, essa é é clássica né porque.
+
+O coaching pode cagar com tudo mano. É simples assim.
+
+Conte pode calhar tudo.
+
+Cara e.
+
+Até pessoal saber a gente tem tanto problema com Com ali
+
+Rege e outras coisas que depende da linguagem, você tem que
+
+fazer um puta trampo pra poder ser esc em em algumas
+
+soluções como baixo sa sim fazer é uma puta configuração principalmente
+
+coisas às vezes o imposto cara botou sei o não iso
+
+tudo, não está tranquilo chato cara.
+
+E esse é o tipo de coisa que assim, usa o padrão
+
+mano não fique nem mexe quando quando essas coisas dá problema que
+
+alguém foi lá cut De não era pra cutucar sabe?
+
+Uma vez um tive meu problema até nessa parte de qualificação,
+
+eu não lembro qual foi a continuação que cara usou lá
+
+mas eu lembro que eu precisava que fosse barra barra N
+
+B pra poder fazer a leitura de de algumas coisas, causa
+
+a codificação do arquivo está vindo só barra n.
+
+Cara, pra pegar essa porra é um saco.
+
+É ver.
+
+Porque o tipo de erro também não trabalhei é muito
+
+complicado né puta negócio chato por que eu quis começar
+
+por esse você ficar fazendo claro cuidado padrão.
+
+Tá lá, abriu uma planejamento, usa aquilo mundo.
+
+Eu queria falar de uma que, utilizar
+
+o Ls para conexões com sistemas externos.
+
+Que envolvam funções por informações sensíveis.
+
+Então veja, ele destaca muito bem, o
+
+Usar o Tas em conexões com sistemas
+
+externos, que envolvam funções ou informações sensíveis.
+
+Eu eu meu ponto de vista
+
+você está comunicando externamente, o Ps. Poxa criminal.
+
+Sensível não, não não não vai ficar assim.
+
+Uma dá resposta Não dá só causa bem colocar fiozinho.
+
+Por quê?
+
+Já é externo já está fora do
+
+seu controle, ou você está expondo alguma
+
+coisa ou buscando informação em algum lugar.
+
+Usa a conexão, garante que né ali não vai
+
+ter nenhum bem ouvindo, e está tudo bem.
+
+Por mais sensível que não seja às vezes pra
+
+você, Pra quem está escutando amazonas só pro cara
+
+é, sensível assim, ou o pelo não é sensível
+
+pra você mas é de valor pra ele.
+
+Né do ponto de vista ali do do atacante ou
+
+do fraudador e tal então às você pode classificar o
+
+coluna não sensível, deixa lá goiano, faz pro cara opa
+
+espera isso aqui valor pra mim né?
+
+Que um pouco falou adrenalina página de erro,
+
+mas pra você pode dia pode Pro cara
+
+só é o usuário Ciência praticamente.
+
+Tem muita informação lá pra ele.
+
+Eu próprio é Olha está aproveitando essa falando time dar
+
+um problema com esse tópico que eu vou falar agora.
+
+Como certificado tls ls devem ser
+
+válido possuem nome de domínio correto
+
+e não estarem inspirados e serem
+
+instalados com certificados intermediários quando necessário.
+
+Por que que eu time esse problema tal
+
+só só pra exemplificar pra pessoa saber.
+
+Ser em geral é um problema.
+
+É tenho certeza.
+
+Quando começou a Lgbt, pra você poder fazer
+
+a transferência de dados por ter uma empresa
+
+tem que mandar esses dados pro governo.
+
+Você precisar de um certificado no no certificado válido, e
+
+o Tls era registrado o nome da empresa, na razão
+
+social, não sei se foi estagiário se foi o Alguém
+
+da, eles inverter o certificado a empresa era num grupo
+
+de quarenta empresas, e a gente que verte lá empresa
+
+a maior empresa que tinha cerca de cinquenta mil funcionários,
+
+com a menor empresa que tinha Quinze dezesseis, cara, a
+
+mandou pra A menor empresa com cinquenta mil funcionários então
+
+o Tomou uma multa fodida, pra pagar da base do
+
+governo um saco você não consegue apagar você ter que
+
+mandar pra um registro você tem que mandar cinco pra
+
+pagar. Você que.
+
+Dou cuidado mais Você pra maior ainda não vou ter
+
+pra ganhar sabe porque era tudo sobre demanda então a
+
+gente mandava com dois dias antes, pra pagar o registro
+
+de uma sequência de pô tinha que pagar a primeira
+
+cidades, depois aqui processo demorar muito dias ele só tinha
+
+dois, tomou uma luta perdida.
+
+Inclusive ele fala que não são deve ser válidos.
+
+Ele vai mundo domínio correto não estarem expirado.
+
+Cara só que o fato de de
+
+ficar está inspirado, se já foi.
+
+Então assim eu não não tenho a prática disso, mas
+
+já é uma brecha pra que a não funcione corretamente.
+
+Sim.
+
+Então você está lá que quer que seja que deveria
+
+ser, e o fato estar virado qualificado ou está com
+
+o domínio errado não você falou e é exemplo ou
+
+instalado de uma forma incorreta, se você usar o fígado
+
+da vida um corpo pró aí você já consegue captar
+
+a informação que eu não está trazendo.
+
+Ou mesmo que ela esteja se consegue
+
+quebrar por algum motivo lá do então
+
+utilização sensação de cada errado, então.
+
+Aliás tem várias ferramentas automatizados que já invalida esse tipo
+
+de problemas né, nas aplicações e já vai já faz
+
+o já pega as informações ali que precisa né é.
+
+Isso é importante, inclusive o próximo é quando
+
+correr falhas na conexões Glass, por motivo seja
+
+inválido, seja o que não está conseguindo chegar
+
+na alta ponto, que quer que seja, o
+
+sistema não deve fornecer uma conexão insegura.
+
+Ou seja, para quebra página.
+
+Melhor inclusive a o a maioria de Do Josué web
+
+agora tem meio uma função lá, em for Tipo s.
+
+Então assim a comunicação vai sempre forçada
+
+no usando anos pra passar na.
+
+Se falhou ele ele vai dar erro. Sim.
+
+A ideia é se falhar por algum
+
+motivo Tls, você não sirva o conteúdo.
+
+Em aberto né, e assim por, então, quando quando isso
+
+acontece que você for aí e forçou o, você falou
+
+e tirou né, a opção específica tudo mas.
+
+E antes que o pessoal mande a mensagem pra mim, o
+
+Web ponto security, aliás ponto jobs né que é o 0
+
+serviço que eu criei pra muitos de vaca ainda está.
+
+Sim breve estraga Que programa servidor então mas começou
+
+uma informação estática e pública que está não tem
+
+transação nenhuma de quatro informação ela é public.
+
+Então o risco está fodase.
+
+Mas aproveitando o embalo né, usem mal ponto de esse
+
+esse é o site domínio perfect jobs, posso sua vaga,
+
+tem tem vagas anunciado lá é cara foco pra vagas
+
+já que a serviço está saltando ainda.
+
+E falta isso no mercado né, entendeu você vai no
+
+linkedin você não tem um foco específico numa busca, exato
+
+bom se você quiser postar vaga, usa o código, deve
+
+ser o podcast tem desconto, pra você que é o
+
+ouvinte aí, beleza muito bom show, Mano.
+
+Queria um recado que é o seguinte, além desse conteúdo
+
+que a está produzindo aqui especialmente aí porque eu todo
+
+trabalho que eu comecei e depois chegou o Marco Rodrigo
+
+e vim, tem eu estou começando a engajar muito mais
+
+o Twitter também eu tenho visto que lá ainda é
+
+um um conteúdo lugar quando você consegue focar um conteúdo
+
+bem específico e especializado porque é um negócio bem bem
+
+fantástico de vir fazer.
+
+Ter produzido muito mais inglês lá
+
+pro conta de estar fora, tudo.
+
+Então eu produziu um conteúdo que
+
+chama o guia definitivo de.
+
+Em breve em breve de hoje amanhã devo botar lá
+
+no twitter pra conseguir mais engajamento e tal então ajuda
+
+aí clica compartilhando lá fazendo a bola toda e vai
+
+ter esse guia lá né um link pra você ter
+
+acesso é público gratuito não paga nada, mas já está
+
+lá no twitter exclusivamente no Twitter tá, não vai estar
+
+mandando que vai trabalhar vou encostar só lá, enfim, engaja
+
+essa essa mensagem.
+
+Top cara, estou mesmo.
+
+E Vou dar um spoiler aula que vem não né
+
+ia falar olha que vem episódio que vem a falar
+
+sobre configuração do sistema, segurança em banco de dados.
+
+Pop, e era muito o gerenciamento de arquivos.
+
+Muito bom, episódio quatro da nossa série.
+
+E depois gerenciamento de memória,
+
+práticas gerais de qualificação. Aí acabou.
+
+Seis episódios quarto precisam Nossa ator perdida.
+
+Não terceiro é hoje é o terceiro vai
+
+ter o quarto cinco você precisar vizinha.
+
+Então cada cada parte tem três tópicos que
+
+a gente comenta o último terão apenas dois.
+
+Porque é isso acontece, Fodase todos.
+
+A gente não pensou em se publicar. É isso aí.
+
+Importante é que você tem aí o nosso do Guia,
+
+basicamente a gente está lendo do guia né, os hospital
+
+explicando em casos que que já acontecia tem se prevenir,
+
+como evitar como implementar na prática então, é de novo,
+
+sugestão do nosso ouvinte um alguma coisa eu fui jogando
+
+nome completo dele agora tinha mandado mas esses interior já
+
+tem os créditos da pra de qualquer forma participe da
+
+nossa comunidade de discord é lá que está rolando todas
+
+as discussões, todo esses debates o pessoal tem interagindo cada
+
+vez mais obviamente né, mais um link tem mais uma
+
+parada mas a ideia é que é uma comunidade focada,
+
+não é pra ficar falando de política de futebol, carro
+
+de caralho pra falar de, especialmente eu né, e eu
+
+tinha que produzir um conteúdo pra vocês pra ajudar vocês
+
+e aumentar ainda mais a capacitação como relação a de
+
+porque não tem profissional no mercado.
+
+Eu acho que o nosso objetivo indireto é formar
+
+pessoas né que vão proteger os software mas o
+
+objetivo direto que obviamente os software que cuidam da
+
+nossa vida e sejam mais seguros né?
+
+Não não quero morrer porque pisei
+
+no no meu carro com certeza.
+
+E bu que o Marcos virou log cito foto comunicação
+
+demorou duas horas pra pra frear meu carro coisas.
+
+Chama até abriu um adendo aí já está feliz, Abre
+
+o que você quiser mas abre pro o pessoal.
+
+Sobre você então, peraí nunca Cara saiu uma notícia
+
+recente, e essa parte sistêmica nos carros estão estão
+
+tão crescendo, sabe você mais só frente vai ser
+
+ideia mas todo mundo autônomo, e a ford lançou
+
+sua primeira dele ser automotiva.
+
+Não seja você ficou sabendo, mas você não sei
+
+quando vai ser aplicado tá em desenvolvimento, mas vai
+
+ter o módulo que você financiou o carro.
+
+Você atrasou a parcela, o carro vai se
+
+dirigir sozinha sozinho até com cenário, ou parar
+
+num lugar mais fácil para ser re.
+
+Ou seja você pode parar o carro frente de casa
+
+e vai pra a esquina falei bom buscar ele, Rola
+
+você muito bom, por outro lado conta aqui pariu né?
+
+Bom então só são razão. Gostei entre.
+
+Gostei Gostei ideia acho ter aplicar bem
+
+com bem com mal né Sim.
+
+Ai do seu carro, compra vista. Compromisso.
+
+Você ficar dependendo de prestação e
+
+atrasar, já sabe que vai perder.
+
+Como por vista é fácil??
+
+Faço comprar carro vista até fa assim
+
+barato, kiwi setenta e cinco paulo clima.
+
+Bom, Pessoal, agradecer a Audiência os ouvintes, dois três aí
+
+que tem que ter a copa da gente ao longo
+
+das temporadas Cada vez mais pessoas portão né, e chegando
+
+gente compartilhando de verdade mesmo trabalhar pra vocês e é
+
+muito importante que vocês tenham, estejam colaborando mesmo, inclusive nos
+
+bastidores aqui, teve a indicação de um profissional da área
+
+que também fala que psique, uma das é outra música
+
+branca, eu sou a gente é uma né, e a
+
+outra mosca branca que fala de Você na internet e
+
+tal, Não vou dar nome não vou dar spoiler, mas
+
+já conversei com o cara, monstro sagrado estar conosco da
+
+psicanálise.
+
+Vai você foda gravar porque o cara está canadá É Ásia
+
+eu estou na europa pra os caras do Brasil achei o
+
+horário que cabe pra todo mundo vai ser foda mas já
+
+está no lugar gatilho, então acabando a série aqui, do do
+
+Sp Sp, teremos um episódio com monstro sagrado de aplique.
+
+Que inverso vocês sabiam quem? Não falar.
+
+Boa boa deixei show off.
+
+Boa, pra trazer audiência né, pra galera
+
+quem é que tal aham bom.
+
+É tipo certeza saber. Tática. Isso aí.
+
+Bom pessoal, eu sou carlos Pereira.
+
+Marcos Santos, e a gente se
+
+vê no próxima episódio valeu. Beijos.
+
+Termina aqui deve sequei f o
+
+seu podcast de segurança em tecnologia.
+
