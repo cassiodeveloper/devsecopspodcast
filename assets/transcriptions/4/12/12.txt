@@ -1,0 +1,1930 @@
+Inovação assim segurança começa aqui o
+
+seu podcast de segurança em tecnologia.
+
+Olá pessoal tudo bem com vocês e sejam muito bemvindos
+
+a mais um episódio deve ser podcast eu sou caso
+
+Pereira, solo, episódio solo hoje porque está difícil gravar.
+
+Verdade é que a gente está assumido né, gente praticamente
+
+uma mês aí cem episódios, eu tive uma viagem pra
+
+Índia trabalho enfim está doente depois antes depois durante caos,
+
+mas está tudo bem, com elenco comigo está tudo em
+
+Paz então estamos voltando aqui, estamos voltando né, as gravações
+
+e aos dias normais do Deve podcast beleza então uma
+
+podcast acabou quando contrário, a gente só não está conseguindo
+
+gravar mas aí não sai de férias, ou outro no
+
+manda mensagem o outro morreu enfim Vocês não descobrir morreu
+
+em breve.
+
+Pessoal, o negócio é o seguinte estamos de volta
+
+vamos continuar na sua série do Golden Ou Sp,
+
+episódio número quatro hoje pra a gente continuar falando
+
+ali sobre boas práticas da da da Do Sp,
+
+que a gente já vem falando aí durante três
+
+episódios né, três partes vamos chamar assim, dessa dessa
+
+série né, que a gente resolveu fazer que foi
+
+a sugestão de um ouvinte aqui inclusive que a
+
+gente já mencionou ou ouvinte aqui nos episódios anteriores.
+
+Beleza então, tá começar episódio de hoje né antes começar
+
+o episódio hoje, falar um pouquinho aqui nossos parceiros né
+
+o primeiro deles o deve ser próprio podcast que tem
+
+o apoio da cheque Mark e da nova oito que
+
+são especializadas em segurança de sistemas e códigos seguro.
+
+O link da nova oito que é a distribuidora
+
+da Champions oficial no Brasil, está abaixo aqui na
+
+descrição do episódio está no Youtube tanto também no
+
+site deve ser podcast com ponto b, a contabilidade
+
+link, é especializada em profissionais da ti.
+
+Se você precisa sua empresa, uma contabilidade, entre
+
+em contato com o pessoa da contabilidade oli,
+
+que eles estão prontos pra te atender.
+
+Tá e a gol que é especializado em
+
+apliquei você o foco dos caras é, beleza,
+
+quer desenvolver software seguro, fale com a Hold.
+
+Que tá, Lembrar também do nosso parceiro a Alura né, a
+
+alura que tem ali diversos cursos, uma plataforma fantástica tática de
+
+cursos ali online então a lula que é nosso parceiro também
+
+você tem dez por cento de desconto em qualquer plano da
+
+lua com o nosso link então o link também está aqui
+
+abaixo na descrição do episódio no Youtube ou no nosso site
+
+deve ser Podcast ponto com ponto b, beleza e por último
+
+o Web ponto jobs você quer anunciar sua vaga de Fc
+
+ou né buscar o emprego novo, Perfect jobs é o seu
+
+lugar, beleza bom chega de de anúncio porque queria ficar rico
+
+com esse mão de alunos, mas ainda não é não é
+
+o foco, Beleza, pessoal, episódio solo tentar fazer um episódio aqui
+
+um pouco descontraído descontraído, né um pouco mais leve pra gente
+
+no maçante ali no aspas ic, de qualquer modo sozinha mais
+
+da já começou a difícil fazer sozinho né é um episódio
+
+de quarenta e cinco minutos, até as minhas lives eu faço
+
+aulas mais reduzidas, mas de novo, né de como esse episódio
+
+lembrar da Podcast não acabou, o Marcos tem a agenda dele,
+
+o Rodrigo tem a agenda dele o abel tem a ajuda
+
+dele está muito difícil a gente consolidar todos juntos, especialmente o
+
+gabriel a Rodrigo está no Brasil, eu e o Marcos que
+
+estamos na Europa, Marcos na Alemanha eu aqui na Polônia então
+
+é único complicado a gente consolidar as agendas sentar e gravar.
+
+E se um mês além de eu ter doente, ter tido
+
+a minha viagem de trabalho o vou rodrigo de férias está
+
+enfim, literalmente começou a ficar muito difícil a gente gravar tá,
+
+o podcast não acaba nem que eu gravo sozinha assim nem
+
+que gravida eu rodrigo o Marcos do seu Cabral de a
+
+dupla traz convidado a de um de vai rolar, Não precisa
+
+ficar preocupado com relações, mas entendo que esse pelo menos esse
+
+mês aí duas três semanas aí foi difícil gravar por conta
+
+desses percalços durante o caminho.
+
+Ah teve até um dia dois é que títulos gravar,
+
+aí deu erro na plataforma forma aí cai conexão não
+
+sei o que a gente falou meu deixa falar já
+
+estamos duas três semana fica mais uma, né, Então.
+
+Essa é a verdade mas pessoal, vamos lá, episódio de
+
+hoje, aspas Sp parte quatro então deixa eu pegar minha
+
+cola no do aspas Sp, que basicamente hoje a gente
+
+vai falar sobre três, temas, deixa pegar aqui olha.
+
+Gerenciamento de arquivos, segurança em banco
+
+de dados e configuração do sistema.
+
+Beleza é os três as três categorias os três tópicos ali
+
+que a gente vai estar falando hoje tá então eu estou
+
+indo pra outro tela aqui que está só escutando aí não
+
+vai perceber mas pra quem está no youtube não se sentir
+
+incomodado porque eu tenho uma uma duas telas aqui pra ficar
+
+mais fácil a minha minha minha logística tá, então vamos lá
+
+sobre configurações do sistema, o Aço Sp sugere aqui um um
+
+um uma série de checklist né?
+
+Tem um deles aqui que é o seguinte,
+
+Olha só que olha só que interessante, definir
+
+quais métodos, ge post, a aplicação irá suportar.
+
+E serão tratados de modo diferenciado
+
+nas diversas páginas da aplicação.
+
+Então esse é o chefe, Olha que legal.
+
+Isso aqui gente são poucos times que
+
+eu vejo de desenvolvimento pouquíssimos na verdade.
+
+Tanto Deve quanto o pessoal de e tal,
+
+que se preocupa com tipo de coisa.
+
+Por default por ter, a maioria dos web service tem
+
+habilitado se não todos os É métodos pelo menos post
+
+chiclete multi de elite, pelo menos esse tá.
+
+Mas às vezes sua aplicação não precisa do delírio e
+
+o put por exemplo, você só faz ou chiclete óbvios.
+
+Então tem que desabilitar, vai lá
+
+e tira o negócio dorme ar.
+
+Ah tem uma página que a Url específico
+
+que é só, então você abrir só gretchen
+
+naquele contexto facilita os outros métodos. Por quê?
+
+Quanto mais coisa debilitada mais coisa
+
+rodando mais coisa funcionando que você
+
+aumenta a superfície de ataque.
+
+Você formas de interagir do cara aqui do outro lado
+
+que quer destruir a sua aplicação, quer roubada dados quer
+
+fazer coisas do tipo Então, tudo que não é necessário,
+
+tira, desabilita, des, é simples assim, tá?
+
+Esse específico de tratar os métodos né de
+
+habilitar habilitar os métodos, É um dos cara
+
+é fundamentais, porque ninguém me preocupa com isso.
+
+Cara faz aplicação só você está
+
+funcionando fez poxa tá beleza.
+
+Eu já vi eu lembro eu trabalhei, acho que foi com
+
+próprio s uma aplicação que eu precisei trabalhar uma época, e
+
+a aplicação usava putin, né, eu lembro uma página você fazia
+
+ela aperta o botão, estava estava botão da e aí o
+
+erro era um quatrocentos e cinco metros de nota lá de
+
+alguma coisa assim, e eu falava mas cara, com o nota
+
+né, já está funcionando né pra funcionar tá aí eu fui
+
+lá e tal virei que estava desabilitado pro defunto era só
+
+o era o post e o augusto acho.
+
+Vai te desabilitar manualmente o ponte pra fazer funcionar,
+
+então, veja, tinha é um contexto muito mais protegido
+
+o cara que está tentando fazer um put qualquer
+
+motivo que seja pra um ataque, ele já seria
+
+barra a menos que eu explicitamente fosse lá e
+
+atualiza aquele método no servidor habilitar servidor beleza então,
+
+essa é a primeira checklist aqui.
+
+O segundo que eu queria comentar é o
+
+seguinte olha, remover código de teste ou qualquer
+
+funcionalidade desnecessário para o ambiente de produção.
+
+Antes de instalar o sistema do servidor
+
+de produção, vamos fazer o deploy enfim.
+
+Só que parece besta mas código de teste gente.
+
+Não é pra ter em produção.
+
+O código de teste por natureza ele já é vulnerável
+
+ele já tem um monte de coisa head por exemplo,
+
+você tiver um link no servidor o cara já consegue
+
+baixar, consegue executar esse código dependendo de como instalar um
+
+servidor de alguma forma se ele conseguir uma brecha né,
+
+por entrar pra algum lugar executar aquele código vai ter
+
+lá perto vai o efeito daquela dessa daquele código.
+
+Então você tem meta de por exemplo deletar
+
+todo mundo a base, e aí esse código
+
+está produção, por algum motivo lá ninguém vai
+
+Ser pode produção vai rodar, faz o deploy.
+
+E aí código está lá se alguém conseguir de alguma
+
+forma acesso a isso, vai executar e tem né, praticamente
+
+a permissão de delegada do mundo do banco de dados.
+
+É um exemplo tá hipotético aqui Então assim,
+
+funcionalidades código de teste tira, tira porque de
+
+novo você está mandando a superfície de ataque.
+
+Quando eu falo na superfície de ataque gente isso aqui
+
+tem muita a ver com isso é, imagina uma casa,
+
+e o cara vai ele quer entrar na sua casa
+
+ele olha pra sua casa de fora né, entrando na
+
+sua casa aqui de fora que que ele vê, além
+
+das paredes né, portas né quatro portas quatro janelas então
+
+ele tem oito possibilidades de entrar na sua casa.
+
+Se ele ele vê duas portas pelas janelas ele tem
+
+só quatro possibilidade de entrar na sua casa Se ele
+
+vê só uma porta, só tem uma possibilidade na casa,
+
+Obviamente falta da possibilidade é é a casa baixa, mas
+
+ele está entrando na casa da destruir pelo recurso?
+
+Mas veja a superfície de entrada na casa são as
+
+portas de janelas ou assim sei lá, nosso japão, não
+
+está porão, enfim, mas de uma forma mais simplista, portas
+
+e janelas, Então quanto menos portas menos janelas não menos
+
+possibilidades de entrar você sair da casa.
+
+Então o sistema ou aplicação é a mesma coisa.
+
+Você olha pra aplicação, ela tem dez, cada está
+
+todos os metas ter habilitado, tem código de produção
+
+de teste rodando em produção, de algum motivo, tem
+
+funcionalidade que não é pra estar lá e está
+
+lá aberto então, todas essas interações ou interações do
+
+usuário, esse usuário pode ser normalmente um cara mais
+
+especial, muito bom tens então são possibilidades pra ele.
+
+Percebe, você está praticamente dando
+
+novas formas dele te atacar.
+
+Então tira de lá, é simples assim, beleza?
+
+E um outro que eu queria comentar aqui sobre contra
+
+sistema tem um checklist bem bem bem extenso é desativar
+
+a listagem de diretores, Isso aqui pode parece antigo, né,
+
+desativar listagem geral o que que é isso?
+
+A listagem de diretórios por padrão nos
+
+web observadas hoje ela é desabilitar.
+
+Que significa se você bater numa Url, por exemplo você
+
+não vai listar os arquivos que estão no servidor.
+
+Você vai executar a página você contar o código
+
+aquela coisa não se habilita a lista direta é
+
+como estivesse navegando no Inglês Explorer por exemplo né?
+
+Navegador de arquivos então você está listando arquivos os
+
+tomates fazer acessar os arquivos acesso código de configuração
+
+é o etcétera etcétera ou 0 então, a listagem
+
+de diretores ela traz um problema absurdo.
+
+Absurdo porque é praticamente se o código
+
+que está lá, o código está exposto.
+
+Né toda a propriedade intelectual da empresa, toda
+
+a inteligência do seu negócio está no seu
+
+software praticamente está sendo exposto tá então em
+
+de hoje ela é des por defeito.
+
+Na maioria dos objetos eu não conheço todos mas a
+
+maioria deles isso é desabilitar por, se você quiser que
+
+isso funcione por algum motivo que lá pra ele manualmente
+
+tá então já tem medo essa proteção mas tem que
+
+tomar cuidado porque isso é possível.
+
+Então cuidado se você habilita isso, pra que que você
+
+está gritando isso, normalmente você baixar o arquivo sei lá
+
+sobe um Da vírgula do drive e algum outro caminho,
+
+que não seja a lista de novo servidor.
+
+Tá, no servidor você tem dados muito
+
+importantes lá que você não quer.
+
+Que as pessoas baixam, ou
+
+tenham acesso simplesmente beleza.
+
+Então configurações de sistema agora
+
+já pro segundo toca segurança. Tecnologia. C.
+
+Sou aí deve de ser O segundo tópico
+
+tem aqui olha segurança em banco de dados
+
+cara Esse tópico queria fazer um parênteses aqui
+
+pra explicar pra vocês o seguinte gente.
+
+Tudo tudo tudo tudo tudo tudo tudo.
+
+Praticamente aí noventa e nove vírgula nove por
+
+cento, das atividades Ra hoje atividade do mal
+
+o pessoal que está fazendo mal ali.
+
+É pra acessar os dados na sua aplicação.
+
+Ou roubar esses dados ou danificar esses dados,
+
+ou manipular esses dados ou sei lá, é
+
+alguma coisa com os dados em si.
+
+Não software não há tem não aplicação mobile, elas
+
+são apenas um meio que os dados as informações
+
+estão tra então é ali que ele vai atacar
+
+porque ali tá processando esses dados essas informações.
+
+Mas o alvo principal normalmente é os dados.
+
+Às vezes quando o Cara quer só derrubar a sua pregação
+
+da chapada do ar, o alvo não é o dado em
+
+si aí sim é uma infraestrutura, um mecanismo, meio tudo.
+
+Mas no geral não é, tá no geral o cara
+
+que o dado quer é informação ele quer vender esses
+
+dados, ele quer fazer uma fraude dia tá.
+
+Então segurança em banco dados é um dos
+
+tópicos mais críticos deste planeta, e a arredores,
+
+desde planeta tem a arredores tá?
+
+Então o que que eu diria pra você presta bem atenção
+
+uma é uma lista extensa aqui de dois quatro seis oito,
+
+dez doze, três itens eu não vou falar todos né paulo.
+
+Mas é importante você prestar atenção tá O
+
+primeiro item da lista o primeiro item da
+
+é usar consultas param, fortemente tipo podes.
+
+O que que isso quer dizer?
+
+Você tem consulta param então elas querem com uma
+
+série no banco relacional por exemplo, que vai ser
+
+executado com parâmetros que vem do usuário pra meio
+
+da tela inclusive do tipo esses parâmetros porque ele
+
+fala que é fortemente tipo, pra que esses parâmetros
+
+não possam causar esta por exemplo.
+
+Se é fortemente fato tal esperando não inteiro, o cara
+
+mas não string vai dar erro vai dar pau.
+
+O certo é você tratar, fazer toda uma validação
+
+é outros quinhentos, tá mas a segurança está falando.
+
+As consultas param fortemente tipo pra você garantir
+
+que a consulta vai ser executada da forma
+
+que você espera que seja executado. E não da forma que o
+
+Hardware está manipulando do outro lado.
+
+De novo, eu sempre falo aqui mas obviamente o conceito da
+
+palavra rápida, nesse sentido o crack tá o pra o cara
+
+que está fazendo a parte ruim né o black chamase.
+
+Beleza?
+
+Outro item importante aqui olha, presta atenção gente
+
+parece que isso aqui é muito crítico cara.
+
+A aplicação deve usar um menor nível possível
+
+de privilégios ao acessar a banco de dados.
+
+A aplicação deve usar o menor nível
+
+possível de privilégio de assessora banco de. Por quê?
+
+Imagina que você tem uma aplicação, né a sua
+
+api da vida está rodando e ela conecta pro
+
+banco de dados com o usuário, Sa.
+
+Super, né, então ela pode fazer tudo no
+
+banco dados ela é um um master.
+
+Se alguém consegue cheque nossa aplicação?
+
+Praticamente essa esse que ele tem os poderes já
+
+admin mim também, então ele consegue não só fazer
+
+mas como tru a tabela como deletar o banco,
+
+uma pagar dados, como dá fazer tudo.
+
+Porque ele está usando o mesmo
+
+usuário que a aplicação está usando.
+
+Então o que ele fala que a pitadinha está
+
+no menor nível possível de privilégio José, se a
+
+sua api, seu micro ele vai num banco de
+
+dados com muitas tabelas sei lá, quinhentas tabela aqui
+
+pros milhões de linhas de registro não sei.
+
+Mas se seu micro ele precisa alterar uma tabela é
+
+uma coluna, né anel vai só lei, pra que que
+
+ele está usando a conectando no banco com Sa.
+
+Você por um específico naquele serviço que vai conectar
+
+com o acesso específico daquela tabela, naquele coluna naquele
+
+dado naquele porque você reduz muito contexto de ataque,
+
+se alguém conseguir um gel nessa api ele vai
+
+conseguir no máximo ler aquela uma tabela, né umas
+
+quinhentos tabela que tem.
+
+No seu banco de dados.
+
+Tá então é muito crítico que você restringe o
+
+acesso da sua obrigação ao banco de dados.
+
+Ah mas tenho uma petição que que tem que
+
+fazer tudo no banco mesmo, um da vida.
+
+Aí você tem um problema, beleza, mas dá pra
+
+você se isso de alguma forma, se der faça,
+
+tá essa é a recomendação aqui, do asp Sp.
+
+Bom, Outro item é importante é não
+
+incluir streaming de conexão na aplicação, as
+
+streaming de conexão devem estar em um
+
+arquivo de configuração separado armazenados ao sistema
+
+confiável e as informações devem ser criadas.
+
+Eu reduziria isso daqui dó as de expressão
+
+devem bemestar estar um arquivo de configuração separa,
+
+eu tiraria a essa parte do arquivo configuração.
+
+Eu já irei direto causa streaming de seleção eleição
+
+da bemestar estar em um sistema confiável e aí
+
+você inclui por exemplo um médio, um ciclo de
+
+manager né um volte da vida.
+
+Por quê, a tem de conexão gente, ela é uma
+
+informação sem e vê assim absurda por quê, ela tem
+
+o usuário e senha como néctar banco de dados.
+
+Se você fez o item que eu falei anteriormente
+
+que de restringir o acesso né numa convidada especificamente,
+
+você isso aqui acaba sendo menos crítico, mas você
+
+está os anos usaram de mim.
+
+Sem restrição nenhuma, pra fazer tudo na aplicação, a esse
+
+vídeo como que se se torna ainda mais sensível.
+
+Porque quem tiver posse dessa inflamação terá praticamente a
+
+posse de banco dados também Então armazenar isso novo
+
+vou tinha mais mais fotografado né, num lugar seguro
+
+aplicações do net por exemplo a pessoal coloca ela
+
+no Web e consegue, ok ele está certamente protegido
+
+porque não está exposto mas qualquer um que tem
+
+acesso ao servidor, tem acesso ao banco também percebe
+
+certo, então você ela está no voo que aplicação
+
+enxerga está muito mais restrita então veja, você consegue
+
+restringir ainda dar mais as informações.
+
+Não necessariamente a arquivo de configuração
+
+é a solução pra tudo.
+
+Ele talvez seja jeito mais fácil, pro dec né de fazer.
+
+Mas do mesmo jeito que você tem que ler
+
+o arquivo salvar no arquivo você lê voo e
+
+pega o volte nada na mesma gente tá?
+
+Um nível de esforço de programação.
+
+Talvez um nível de arquitetura mude ali um pouco mas,
+
+gente, vamos lá vai isso aqui a coisa fácil de
+
+fazer tá então, O ponto aqui é, não inclui de
+
+na aplicação, não deixa chão no código não deixa lá,
+
+tire de lá coloca num lugar específico pra isso como
+
+ele fala aqui, informações sensíveis em sistemas confiáveis no caso
+
+o volts da vida tá E que pro obviamente obviamente
+
+Outro detalhe que ele fala aqui olha?
+
+Aqui, eliminar o conteúdo desnecessário incluído
+
+por padrão pelo fornecedor, como esquemas
+
+e bancos de dados de exemplo.
+
+Pra quem já usou a Querem service da vida por exemplo, ele
+
+tem a faz lá o sales né, ou seis da o Tem
+
+umas uma bases de de uma base de fala de teste lá
+
+de exemplo, você a brincar casa, apaga de lá. Por quê?
+
+Os caras te atacar eles já sabem disso isso
+
+já está lá, Então às vezes essa pasta configurações
+
+padrão de tem usuário padrão pra isso uma senha
+
+padrão, então te apaga tudo isso.
+
+Seu banco por exemplo já está no T não, é mais
+
+restrito ali mas, já tem uma porta padrão já tem um
+
+um banner padrão de acesso então todas as questões padrões os
+
+rankings já sabem os caras do mal já sabem.
+
+Então se você deixar todo instalado do convidado
+
+pro padrão, inclusive esses bancos e gamers né,
+
+que ele fala que de exemplo, está lá
+
+já é uma porta pro cara entrar também.
+
+E uma vez que ele está no banco com, ele está
+
+pra pro outro lado navegar ali, é mais fácil tá?
+
+Então reduza a sua superfície de ataque praticamente o
+
+Sa que estou falando aqui, não tudo mas algumas
+
+coisas é sobre redução de superfície atacante quente.
+
+E é muito crítico isso porque, você pessoal tem mania
+
+né só a aplicação estala faz com fingir jeito ela
+
+porta de fogo o diretório de falou senha padrão usuário
+
+padrão, tudo isso eu diria que o cara nem está
+
+atingido invadindo, ele o cara não está de fato fazendo
+
+um ataque ele está só.
+
+Ele está só testando coisas
+
+padrão que você deixa habilitado.
+
+Então ele está acessando, Você colocou lá o seu banco de
+
+está louca, porta padrão está com de mim senha de, um
+
+dois três, o cara está com acesso ao vale.
+
+Ele sabe seus velhos só senha?
+
+Percebe, não quebrou os outros senha ele não burla um
+
+sistema de segurança pra acessar o seu banco de.
+
+Ele já têm os seus usuário sem.
+
+Tem que ter um acesso legítimo, Eu
+
+diria que você cúmplice desse ataque.
+
+Vou faço uma série sobre isso, sendo cúmplices esses
+
+dos ataques a mim mesmo, porque né, e isso
+
+está ligado diretamente ao Tem, acho que é o
+
+Astro Tem sete ou oito, que fala de seguir
+
+de figura, é exatamente esses pontos gente.
+
+A falta de configuração ou configurações default fogo, acaba
+
+com está aí impacto no negativo, por conta dessas
+
+esses obviamente que está fácil de fazer tá então
+
+esse item fala um pouquinho nesse sentido outro item
+
+que eu queria falar sobre proteção de propriedades aqui
+
+é aqui olha, desativar todas as contas criadas por
+
+padrão e que não sejam necessárias para suportar os
+
+requisitos de negócio.
+
+São aqui está diretamente ligado com o
+
+item anterior, a diferença que é que
+
+está focada em contas especificamente.
+
+Os bar sa era de mim usuário
+
+em dois três tipo de coisa.
+
+Mano você está dados, subir um bagulho cuidados dados novo primeiro,
+
+você apaga tudo que está lá, tudo que é default fogo,
+
+toca a porta se você andré, bota um usuário específico tem
+
+que ter um usuário administrador né, mas troca o nome da
+
+não deixar de mim em dois três.
+
+Volto um usuário van, gera um usuário com o nome da
+
+tua empresa Gang no seu nome adorar seu haiti da empresa,
+
+sei lá, coisas que vão dificultar a eu adivinhar esse usuário
+
+brasil Bota uma senha random forte, gera aí um usa um
+
+gerador de senhas da vida, sei lá, então você já tem
+
+a sua conta de mim ali modificar.
+
+Aí enfim né, já falo portos diretórios tipo
+
+de coisa aqui está especificamente em contas, você
+
+vai lá e limpa tudo isso.
+
+Ah cria uma conta que teste a faca, criar uma
+
+conta que gente fica paga paga tempo, deixa só a
+
+sua contra você está instalando agora do 0 e aí
+
+você começa a criar as contas nas suas aplicações, serviço
+
+até que vão de fato precisar sessão banco no contexto
+
+específico com os acessos específicos.
+
+Que foi um item que a
+
+gente falou que anteriormente não?
+
+Então, esse hard, chama rápido tá gente.
+
+É assim, é é é fundamental.
+
+A maioria gente acreditem no que eu falo, a
+
+maioria dos problemas de segurança que acontecem hoje, é
+
+por falta de configuração falta de hardware.
+
+Falta de você mudar uma porta,
+
+mudar uma senha, coisas do tipo.
+
+Tá, então encarecidamente eu peço que faça, beleza Indo
+
+pra última categoria última categoria gerenciamento de arquivos, olha
+
+só, Olha só gerenciamento arquivos é o seguinte, tem
+
+algumas coisas aqui que que eu queria falar com
+
+vocês de uma forma de uma forma.
+
+Não agressiva sim da mesma forma
+
+vocês entendem, vamos lá, por quê?
+
+Muito sistema hoje em dia precisa ler arquivo, vou
+
+gravar arquivo, ler grava love enfim ou arquivos né
+
+é a própria defesa de negócio enfim.
+
+Então vamos lá uma informação aqui o primeiro item
+
+da lista tal, não repassar dados fornecidos pelos usuários,
+
+diretamente a uma função de inclusão dinâmica.
+
+Não repassar dados pra dia também uma função inclusive.
+
+Por quê?
+
+Isso aqui é o seguinte, quando você vai manipular
+
+o arquivo, gravar arquivos salário que aqui está praticamente
+
+usando recurso seu operacional né, na sua aplicação Você
+
+vai ter que ler diretório né, gravar arquivos de
+
+memória, coisas do tipo, né?
+
+Fala uma forma bem genérica da gente.
+
+Então, como o usuário você fala olha, vou ler o nome do
+
+Arquivo vai ser o 0 dado que o usuário me passar.
+
+Passa seja pega esse dado e joga direto lá
+
+pra gravar vou o número aqui pelo só que
+
+isso o usuário te passou ele não é confiável.
+
+Você não sabe quem é esse usuário.
+
+Mais o cara esteja logado, que que é que seja,
+
+não pode confiar você tem que tratar essa implantação.
+
+Então o que ele fala é não, passar dados
+
+fornecidos pelos usuários diretamente uma função de coisa dinâmica.
+
+Ou seja, pra que essa função não vai
+
+executar um um um comando jackson prazer.
+
+Invés do nome do arquivo o cara te passou comando
+
+que vai listar o diretório, vai de passar um comando
+
+que vai pagar os arquivos daquele diretor, coisas do tipo.
+
+Se a sua aplicação tem privilégio pra
+
+gravar o arquivo por exemplo, na clínica
+
+diretora, tem privilégio pra fazer outras coisas.
+
+Então o você está liberando como aqui de bem
+
+minas gerais tá Então ele está falando aqui é,
+
+proteja controle está filtros dados asa falta é um
+
+valida enfim Sobre esse outro item solicitar dedicação antes
+
+de permitir que seja feito o carregamento de arquivos.
+
+Cara é isso aqui é meio relativo por quê?
+
+Você está num portal de vagas, e tem uma
+
+tela um um cara que faz o de arquivo
+
+não necessariamente você estava tem pra fazer isso.
+
+Né, mas se fez mesmo né tem o seu nome
+
+e deu os dados ali mas o cara pode pousar
+
+dados dos falsos de uma maneira geral e fazer um
+
+piloto upload de um arquivo malicioso tá, Então Solicitar autenticação
+
+antes de permitir que você feito carregamento de arquivos é
+
+meio relativo e eu não sei se se aplicar todos
+
+os sistemas, mas faz parte do chefe.
+
+Tá, Você está num sistema contextual ou autenticidade que
+
+total, valida, né, pô beleza o cara está subindo
+
+um arquivo aquele está de é o casco que
+
+está lugar sistema ele pode fazer isso etcétera tá.
+
+Acho que é importante mencionar.
+
+Outro item legal, limitar os tipos de arquivos
+
+que podem ser enviados pra aceitar somente os
+
+necessários áreas a propósito do negócio.
+
+Então você tem uma tela lá por exemplo que você espera
+
+que o cara sobrou uma planilha, fizesse gel x, total.
+
+Aí o cara está subindo ex, dela, Pdf não, não é?
+
+Você não precisa se.
+
+Isso deve se barrar o forte direto né, já e
+
+melhorar até o do Cara mas você tu pode confiar,
+
+então você barra também no no mac quente.
+
+Mas isso aqui é é uma das coisas, porque você
+
+aceita qualquer coisa depois você filtro aí você não quer
+
+filtrar lá depois você vai ver que você está processando
+
+coisa que não processar, o cara subiu um executivo que
+
+é um mau, né um mauro alto executa então Não,
+
+filtro, tá, você se você precisa só de pdf é
+
+só pdf você precisa de qualquer coisa aí beleza não
+
+tem muito filtro eu tem que tratar de alguma forma.
+
+Mas é importante você limitar esse tipo
+
+de arquivo que você pode receber.
+
+Bom, é um gerenciamento de arquivos especialmente aí aplicações
+
+web, tal ali ele é meio crítico né, por
+
+conta dessas essas acaba sendo uma uma porta de
+
+entrada de ataque, a de arquivo né onde a
+
+galera vai subir coisas vai tentar manipular pai sa
+
+controles, etcétera é todo tomar há muito cuidado, que
+
+fica muito esperto nessa parte tá?
+
+Não salvar arquivos olha que interessante isso
+
+aqui olha não só arquivos no mesmo
+
+diretório de contexto da aplicação web. Por quê?
+
+Os arquivos devem ser armazenados no servidor
+
+de conteúdos ou no banco de dados.
+
+Não salvar os meus diretores com ter aplicação web daquilo
+
+das semanas de conteúdos ou no banco de idade.
+
+Isso aquele está basicamente uma boa prática né, Então
+
+você salvar arquivos você não salva no mesmo diretor
+
+da aplicação você só num servidor separado numa pasta
+
+separada, no banco de dados, aqui lucian né vai
+
+manipular não fica tendo aplicação essa a aplicação né
+
+aplicação né tem que ter arquivos da aplicação.
+
+É mesmo como contas de responsabilidades mas cheguei aqui
+
+até um pouco de proteção porque cara está subindo
+
+coisa maliciosa e você está salvando no mesmo jeito
+
+da aplicação, você pode causar disponibilidade da aplicação.
+
+Se você está salvando separadamente, O Problema vai acontecer lá
+
+no outro lugar Seja qualquer seja problema qual for, mas
+
+ele não vai danificar sua aplicação certo ela só foi
+
+um o meio ali pra fazer isso acontecer.
+
+Tá então, é importante essa separação mesmo?
+
+Eu ia, eu ia olha só, esticar esse episódio nesse
+
+contexto, né, pra pra gente obviamente usar o tempo aqui.
+
+Mas o próximo episódio seriam apenas duas categorias,
+
+que tem é o gerenciamento de memória e
+
+prática de e práticas gerais de conjugação.
+
+Então eu vou pegar essas duas
+
+categorias e falar agora né?
+
+Praticamente dez quinze minutos que ainda de de episódio um
+
+pouquinho mais, acho que dá pra gente encerrar a série
+
+do Aspas Sp Solo, olha que bonitinho né, esses vagabundo
+
+vem gravar aqui isso cara faz duas três categoria sozinho
+
+faço o cinco, eu sou foda.
+
+Então vamos lá, vamos vamos continuar com as
+
+categorias, pra ficar falando só de arquivos arquivos
+
+ou voltar em banco tudo Então outra categoria
+
+aqui gente, as duas últimas tá pra gente
+
+acabar sair do aspas, gerenciamento de memória.
+
+Gerenciamento de memória Isso aqui ele é depende da
+
+linguagem que está televisão na aplicação até um contexto
+
+muito mais específico, tá, muitas linguagens do dia fazem
+
+esse gerenciamento pra você você preocupar.
+
+Mas vale a pena a pressão pouquinho atenção só porque
+
+pode ter contexto aqui que faça sentido pra você.
+
+Neves c greve sex, Então eu queria falar primeiro
+
+aqui olha, e verificar se o Búfalos era tão
+
+grande quanto especificado, ele tão quanto especificar, já vi
+
+problemas em seis c mais mais por exemplo, o
+
+pessoal acabou me escrever na memória, conteúdo maior do
+
+que o buffett tinha.
+
+Então você vai causar um banco, que pode ser
+
+que pode não já é uma excepcional que pode
+
+gerar os problemas que pode ser vetor de ataque,
+
+Né, Então, basicamente aqui verificar o tamanho do banco
+
+falei com estudos acho que é é importante.
+
+Né Um outro item aqui olha.
+
+Evitar o uso de funções reconhecidamente vulnerável, como printf
+
+f stream Cat st Etcétera já que está muito
+
+específico pra ser eu c mais por quê?
+
+Teve uma época que essas funções praticamente todas elas
+
+foram identificada como problemáticas que tinham vulnerabilidades e aí
+
+criaram essas funções na própria professor da linguagem funções
+
+seguras, então tem lá o print o s é
+
+o F gel o Sei ou sei, então essas
+
+é que você usa mas as funções acabaram ficando
+
+lá e desempenham a melhor biblioteca.
+
+Então quem falando que não usa essas missões.
+
+Por isso que eu falei diferença de memória gente a
+
+gente não onde não controla muito né, quando a gente
+
+fala de C, e no linguagens aí padrões de hoje
+
+em dia você nem se preocupa com a memória.
+
+Precisa capela e vai que vai, né, mas tem
+
+problemas que acontecem de memória que de gente conhecer
+
+né, importante conhecer a sua própria linguagem pra ver
+
+quais são os seus limites tá.
+
+Um outro item aqui é, utilizar controle
+
+de entrada e saída para os dados
+
+que sejam que não sejam culpadas, confiáveis.
+
+Isso aqui não só pra memória pra qualquer lugar,
+
+né, tem lá no aspas artigo com lá, e
+
+tem cinco, né, vale day, all put, é simples
+
+assim, vale dente paulo, né seguida assim.
+
+Beleza então vamos pra última, a última ele
+
+fala que é práticas gerais de codificação.
+
+Leve c greve Ce, práticas gerais de codificação tem um
+
+monte aqui gente tem três seis nove dez uns doze
+
+itens também tá então eu vou falar de alguns aqui
+
+pra te encerrar a série do Com pre que acho
+
+que é uma série muito bacana, está previsto pra acabar
+
+no próximo episódio, mas de novo quando eu fazendo sozinho
+
+eu já falo mais rápido não tem tanta discussão e
+
+debate, acabou indo um pouquinho mais rápido as suas últimas
+
+categorias eu trouxe pro episódio de agora, a gente vai
+
+encerrar hoje essa série então. Beleza?
+
+Mas vamos lá, olha que legal isso
+
+aqui, práticas gerais de qualificação gerais tá?
+
+Boas práticas gerais Restringir a geração e
+
+alteração de código por parte dos lados.
+
+Restringir a geração.
+
+E a alteração de código parte dos usuários.
+
+O que que isso aqui está falando que
+
+que esse item em específico aqui está falando?
+
+Quem mexe no seu códigofonte fonte?
+
+Lá no seus, beleza.
+
+Quem tem acesso ao seu repositório, a
+
+empresa inteira só sua, duas, três sedes.
+
+Quem mexe naquele código for recebe do tipo de meu,
+
+então você mexe no código fonte do android, beleza do
+
+é um aplicativo da sua empresa Quem pode quem deveria
+
+poder acessar esse repositório só time de ano mobile.
+
+Tá só o time de da aquela quest específica.
+
+Beleza?
+
+Quem pode fazer pu, covid, boost, criar
+
+vinte tá, todo mundo é s.
+
+Na discussão, é normalmente é só, normalmente o só lide
+
+que faz essa questão de brancos, arquiteto, você que tem
+
+o teste não cria muita branch, o cara segurança ele
+
+tem acesso à leitura não fica cometendo código, percebe então,
+
+mesmo dentro da s ou das pessoas envolvidas naquele produto,
+
+no caso do Uma pai que eu estou dando exemplo
+
+aqui, o contexto ele é diferente pra cada.
+
+Então não é todo mundo que gera e altera código,
+
+né, que é o que ele fala que eu respondi
+
+ajuda na de coisa por parte dos usuários.
+
+Simples assim gente porque você garante quem está mexendo no
+
+seu código de fato quem deveria mexer no seu corpo,
+
+e não, qualquer que é uma empresa, Até a leitura,
+
+né o que está lá no código às vezes é
+
+muito restrito você intelectual, patente, às vezes tem ativo de
+
+configuração coisas lá no código não era pra estar lá
+
+né, que acaba fazendo, muito simplesmente porque gente demais dessas
+
+estou tem que tomar muito cuidado.
+
+E eu já vi muita a gente fala isso
+
+aqui pra mim, o seguinte falar mais fácil.
+
+O recurso para restrito interno, as pessoas da empresa
+
+têm acesso sim, ok, não quer dizer que tempo
+
+da sua empresa não tem pessoas mais intencionadas não
+
+quer dizer que tem doce empresa não tem pessoas
+
+que deveriam saber a circuitos do Que está permissão
+
+fazer qualquer coisa na sua conta da Por exemplo
+
+que está no código falso nós de configuração.
+
+Então não é porque só o interno que está seguro.
+
+Não, o acesso está tem que estar gerenciado quem é
+
+de fato que pode ver alterar etcétera atletas fazer covid,
+
+fazer puxa aquela coisa aquilo tá então é isso que
+
+ele está falando nesse em em específico aqui, beleza?
+
+Outro item aqui olha, do.
+
+Quando a aplicação tiver que ser executada com
+
+privilégios elevados, aumentar o privilégios mais tarde possível,
+
+e regulamentos logo que seja, possível.
+
+Que que isso quer dizer?
+
+Imagina que a sua aplicação determinado momento
+
+ela precisa fazer algo na máquina no
+
+servidor enfim, ela precisa de permissões maiores,
+
+ou seja, a admin mim por exemplo.
+
+Tá então um exemplo mais mais esdrúxula aqui.
+
+Então tem um momento lá que a
+
+sua aplicação vai usar os bar.
+
+Então você sobe esse de mim, vamos chamar assim
+
+entorno ele disponível, troca o da aplicação num momento
+
+exato que se você precisa fazer isso.
+
+Fez a sua operação você já cancela esse acesso e volta
+
+com acesso anteriormente É isso que ele está dizendo, Então é
+
+sempre pro clássico eu pessoal eu sou carlos sou time de
+
+segurança eu não tenho acesso a um banco de dados, eu
+
+preciso desse acesso pra fazer uma auditoria.
+
+Vai durar uma semana, ótimo time de banco das dá
+
+acesso por uma semana, eu começo a auditoria, teve auditoria
+
+não tem mais acesso, é mais ou menos essa analogia,
+
+pra garantir que aplicação vai ter acesso privilegiado ou elevado
+
+nesse caso aqui, no momento que ela precisa ou durante
+
+o tempo necessário e não admiro mim o tempo todo
+
+a vida inteira para nego Falar sua aplicação, acessar como
+
+de porra, toda e cagar com a sua empresa tá,
+
+Então, é isso?
+
+Outro item outro item importante olha.
+
+Restringir na vida eu falei, não transfere
+
+diretamente dados fornecidos pelo usuário para qualquer
+
+função de execução dinâmica, sem realizar o
+
+tratamento dos dados de modo adequado.
+
+Isso aqui é ele está falando pra você olha,
+
+pente, não caia como de, qualquer jeito da vida
+
+não caia, valida qualquer informação que vive do usuário.
+
+Mesmo api mesma forma uma, não interessa, falida, faz
+
+faz validação caralho que for, Pra você garantir que
+
+o cara não está manipulando a sua aplicação.
+
+Ou pior usando a sua aplicação como um meio
+
+ali pra pra burlar e fazer coisas do tipo.
+
+Tá então você valida, né é de novo lá no
+
+comprou e tem cinco, vale on plus, é isso jovens.
+
+Vale ao putz, vale ao impulso vai
+
+salvar oitenta por cento dos seus problemas.
+
+Eu garanto pra você.
+
+Oitenta por essas pessoas está curso
+
+que você não vai abrir tá?
+
+Então começa a cuidar.
+
+Olha outro o ouvinte legal aqui olha,
+
+revisar todas as aplicações secundárias, códigos e
+
+biblioteca de terceiros, para determinar necessidade do
+
+negócio e validar as funcionalidades de segurança.
+
+Uma vez que essas
+
+podem produzir novas vulnerabilidades.
+
+Revisar todas aplicações secundárias, códigos e bibliotecas
+
+de terceiros, vou parar aqui, por quê?
+
+Isso aqui gente é o seguinte.
+
+A biblioteca de terceiro hoje é setenta por
+
+do seus software, setenta por cento do seu
+
+software hoje é composto por limites de terceiros
+
+ou pensões fazendo muitas coisas pra você você.
+
+Trinta por cento você código ver a sua aplicação mesmo,
+
+você trabalhar no dados, grava, busca aquele guarda o resto
+
+é tudo framework que é tudo coisa que já está
+
+pronto você pegou dia eu penso isso que se pegou
+
+de comprou o home sei lá.
+
+Então validar que ele fala pra, revisar as
+
+aplicações secundárias códigos o que é esse revisar?
+
+É cara, eu estou usando aqui uma biblioteca x,
+
+tem vulnerabilidades, conhecidas públicas estou verso da última versão,
+
+eu estou usando uma versão muito antiga, eu estou
+
+usando uma biblioteca que já teve vulnerabilidade na verdade
+
+mesmo que não tem na versão atual, essa biblioteca
+
+estou usando tem uma licença que eu tenho que
+
+fazer alguma coisa que eu tenho que né a
+
+fazer um copywriting, anunciar, pagar sei lá, só que
+
+você pensei você precisa pagar né, mas no sentido
+
+dia eu tenho algumas obrigações legais com a noção
+
+licença daquela biblioteca então você está se cumprindo tudo
+
+isso, Não está, você não está ninguém lê licença
+
+sem de porra nenhuma, Você não está cumprindo a
+
+licença das bibliotecas que você usa.
+
+É que você faz dessa revisão é esse
+
+esse nesse trabalho como todo a gente já
+
+fez episódios aqui falando sobre isso.
+
+Mas você faz isso basicamente com software
+
+conclusão análises ou Sa, ferramentas que vão
+
+te razão inventar dos suas bibliotecas, riscos
+
+legais vulnerabilidades aquela coisa toda.
+
+Então isso aqui gente é muito crítico, isso aqui eu
+
+diria que cara, vale dente é um impulso e fazer
+
+isso aqui esses noventa e nove por cento da sua
+
+aplicação está protegidos o restante é configuração cagado.
+
+Ou seja, resolve formar na segurança Olha isso.
+
+Faz três coisas e resolve os grandes segurança
+
+vou fazer um episódio sobre isso também.
+
+Mas é isso, cara, né é muita gente não valida
+
+né, ele fala que, aplicações secundárias ou ocorre bibliotecas de
+
+terceiros, né, ou aquele código do que salva sua vida
+
+aí você vai ver lá na nas entrelinhas de lado
+
+post dos dados pro o site externo você nem se
+
+ligou, então é importante que tomar cuidado.
+
+Inclusive, hoje em dia que mais tem pegada no
+
+Mercado falo famoso o pai em ataques né, então
+
+idiotas de t etcétera trezentos da cadeia de software,
+
+praticamente pelo ter uma vulnerabilidade né, um ataque ali
+
+você está praticamente vulnerável também e tem ataques de
+
+que não são nem vulnerabilidades de fato, Você pode
+
+ter por exemplo uma biblioteca que tem lá um
+
+pro square, por exemplo pronto, olha palavra bonita pesquisa
+
+pesquisei o que que é isso.
+
+E essa biblioteca ela tem um
+
+comportamento an, ela não necessariamente tem
+
+uma vulnerabilidade, mas ela se compra.
+
+Pauta de uma forma anula
+
+uma forma suspeita vamos assim.
+
+Vamos sei lá está uma biblioteca que é pra arredondar
+
+o campo da tela do do do browser x.
+
+Mas essa biblioteca tem tanta linha de código
+
+então coisa lá quem especificamente um browser é
+
+muito específico numa data específica, ela faz um
+
+post pra algum lugar de informações.
+
+Fonte está no seu site está rolando não
+
+tem acesso a maioria das coisas que estão.
+
+Então veja um comportamento pouco estranho.
+
+Eu duvido eu duvido, eu tenho outros
+
+tempos eu diria eu dou meu se
+
+você os senhores, estão ouvindo esse episódio.
+
+Leem linha por linha do códigofonte Fonte que vocês
+
+uma fonte de terceiros que vocês baixam pra usar.
+
+Eu tu vida.
+
+Passou de dez linhas você já não lê.
+
+E qualquer biblioteca eu pensei você tem cem cinco mil
+
+dez mil cem mil linhas de cor faço eu duvido
+
+que vocês leem o quanto pra entender o que está
+
+acontecendo isso, eu não lê, você baixa usa a função
+
+que você precisa e acabou bom.
+
+Males massa ali é a própria função que você precisa.
+
+Mal você lê nome você só que faz
+
+isso faz então assim, não tem essa nossa
+
+essa avaliação dá é muito difícil você.
+
+Por isso que você precisa de ferramenta de acesso, tem
+
+ferramentas mas não tem deixar de falar do nosso par
+
+que tem a forma de Sa, absurdamente fantástica.
+
+Um clique você dá um dois cliques integrou o
+
+seu repositório, apertar o botão scan, você tem todas
+
+as meus carteira sempre estar no seu projeto todos
+
+os riscos legais todos os vulnerabilidades que estão naquelas
+
+naquela bibliotecas que está usando.
+
+Inclusive super, biblioteca como comportamento.
+
+Então é o tipo de ferramenta que
+
+você precisa não tem como fugir disso.
+
+Tem ferramenta caso tem, depende desse crack por exemplo,
+
+dependendo desse cheque da da Unesp, faça isso, o
+
+depois str é pra depende desse cheque, né, ele
+
+faz isso pra você está relacionada ele faz uma
+
+outra Então você precisa de gente, como fugir tá?
+
+Olha que legal também, utilizar mecanismos de
+
+verificação de integridade, com Cheque a verificar
+
+a integridade do código interpretar.
+
+Bibliotecas arquivos executivos seus
+
+arquivos de configuração.
+
+O que que isso que quer dizer?
+
+Imagina que você por exemplo, você
+
+executar veio da Microsoft, os estúdio.
+
+Esse este ex estudos você consegue validar pelo o
+
+cheque Alexander um gerado pela que ela sim digitalmente
+
+executado, olha aí Microsoft um certificado, que é um
+
+certo design por exemplo me deu, então ela garante
+
+que eu sou aquela idade, eu vá se executiva
+
+que você caso você pode verificar se eu fiz.
+
+Então essa é uma forma dos seus clientes usual
+
+enfim verificar aqueles software seu de fato, ou você
+
+verificar se mundo que você está executando, é de
+
+fato daquele daquela pessoa da primeira empresa aqui, disse
+
+que fez aqui, então hashtag cheque são são formas
+
+você vai dar integridade o que que é isso?
+
+A partir começa que ser compilado aqui em delivery
+
+né, Foi em técnico, não teve modificação no meio.
+
+Se tem foi que quebra a
+
+assinatura praticamente você não consegue validar.
+
+Né, Então no de que você vai baixar tem um
+
+resto um cheque o eu caso gerência esse dizer, o
+
+fecha é esse, se você baixou e verifica gera o
+
+resto dele de novo e o resto está diferente pra
+
+ver se aquilo está modificado melhor você não usar.
+
+Porque não foi isso o resto aqui
+
+o garantir quando eu finalizei meu processo
+
+de aqui no processo de de entrega.
+
+Então tem que tomar muito cuidado isso é uma forma
+
+de de que você validar da integridade das coisas você
+
+usa das coisas você entrega também tá, Fica aí como
+
+última dica da nossa série do Acc Pla Sp pra
+
+vocês de novo, esse documento Aspas Ser aqui gente estou
+
+com ele aqui minha corda em português tá tem português
+
+lá no site da Unesp.
+
+E a última versão dele aqui olha dezembro de dois
+
+mil e vinte e dois, ou seja a gente está
+
+em abril, então aquele vai quatro meses tá, considerar que
+
+foi no meio de dezembro é quatro cinco meses então
+
+está fresquinho em português novo tá, no novinho brasil, tem
+
+muita coisa pra ler essa série né, que a gente
+
+começou com os meninos gravando todo mundo o primeiro episódio,
+
+você foi Marcos e hoje está encerrando aqui sozinho porque
+
+a logística de gravação está absurda, é uma série que
+
+tenta estimular você a buscar mais esse tipo de coisa,
+
+Ao áspero professor já tem muita coisa gente, eu diria
+
+que ela tinha tudo que você precisa lá.
+
+Mas tem outras formas também de você conseguir
+
+frame práticas etcétera então, a gente fez essa
+
+série que de quatro episódios, era pra ser
+
+cinco mas acabou ficando quatro episódios.
+
+Onde a gente resumiu pra você mas muito resumida.
+
+Cada categoria que tem doze, vinte tinha categoria com trinta
+
+e vinte aqui, a gente leu dois três aqui no
+
+episódio Tá então, baixo o aspas Sp, Cria um dia
+
+nos com seus desenvolvedores, faz uma discussão ali em um
+
+pouco com a galera, o que que é legal implementar
+
+que legal não implementar tá o que que você já
+
+tem que que você não tem então faz muito sentido
+
+isso, começa a usar essas boas práticas eu garanto que
+
+você vai estar mais protegido seu software vai ter mais
+
+qualidade e mais segurança.
+
+Tá porque no fim das contas é isso.
+
+Eu sou o carlos Pereira, sozinho hoje gravando com vocês,
+
+desculpa audiência que a gente não gravou nos últimos dias
+
+estava muito difícil mesmo, eu fiquei doente fiquei de garganta
+
+aqui, praticamente me me parou cento duas, três semanas fácil,
+
+teve a viagem de trabalho que fui pra Índia aliás
+
+eu estive na Índia, na Silicon vale indiano que é
+
+a cidade da Bangu love, pesquisem e aí mas teremos
+
+um episódio exclusivo pra falar da Índia, Como foi a
+
+índia, minhas impressões que que eu vi lá de tecnologias
+
+tipo de coisa então aguardem.
+
+Não sei se já no próximo episódio a gente vai
+
+fazer isso, eu não quero fazer esse episódio sozinha sozinho,
+
+cara, quero gravar pros meninos, então depende pouco da agenda,
+
+mas teremos o episódio falar sobre tá Então continua acompanhando
+
+ser podcast no meu Instagram cássio developer por Instagram barra
+
+developer todos os cortes deve ser corda deve ser com
+
+os podcast estão lá, eu posso entrar no rio posto
+
+no meu no meu feed também, no próprio youtube tenho
+
+o da Misericórdia corte podcast então acompanham os cortes dos
+
+episódios passados, as outras temporadas que está muito bacana também
+
+beleza, compartilhe este episódio né, compartilha essa série, eu hoje,
+
+pega os quatro que recebe série, como teve do Swap
+
+como teve outras, individual o Excesso no St por exemplo,
+
+eu compartilha essa série, com quem vai trazer e você
+
+acha que vai gerar valor especialmente pra desenvolver daqui então
+
+você conhece alguém que precisa desse conteúdo que vai fazer
+
+sentido e compartilha, aquela pessoa manda na mensagem tal compartilhar
+
+no feed você vai falou dá um monte gente que
+
+o pessoal vai ficar bravo com você então, compartilha pra
+
+pra pro amiguinho que você sabe vai gerar valor tá,
+
+eu sei que você tem grupo de whatsapp bem, esses
+
+grupos são legais, porque é aquela pessoa o pessoal que
+
+está focada naquele conteúdo naquele tema do grupo.
+
+Pro que fica falando de boa política eu
+
+sei que tem o tema central do clube.
+
+Beleza, então compartilha, curte e
+
+comente, não deixe de comentar.
+
+Comente o que você achou dessa série, quais outras séries
+
+você quer ver que você podcast porque a gente faz
+
+isso pra vocês a gente gosta a gente trabalha, conheço
+
+isso mas a gente faz isso pra vocês.
+
+Manda o f feedback pra a
+
+gente comenta porque faz muito sentido.
+
+Não deixe de entrar também na nossa comunidade do
+
+discord, tá, tem comunidade de você podcast no outro
+
+discord que a pessoa interage muito Aliás esse essa
+
+série foi uma sugestão que vem por lá, né,
+
+tem convidado que a gente vai gravar aqui tem
+
+por lá também as sugestões então pessoal lá está
+
+interagindo bastante da comunidade vai ficando muito forte beleza?
+
+Mais uma vez obrigado ao sou caso pereira
+
+a gente se vê na próxima semana. Valeu.
+
+Termina aqui deve séculos.
+
+O seu podcast de segurança em tecnologia.
+
