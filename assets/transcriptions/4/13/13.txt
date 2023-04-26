@@ -1,0 +1,1720 @@
+Inovação segurança desse começa
+
+aqui escreve podcast segurança.
+
+Fala pessoal tudo bem com vocês.
+
+Sejam muito bemvindos vindos a mais um episódio deve ser cross
+
+podcast eu sou Caso Pereira no episódio de hoje a gente
+
+vai falar sobre a Índia o centro o polo, o miolo
+
+da tecnologia no mundo, Hoje em dia né, já passou os
+
+Estados Unidos, pra se nunca foi, china enfim né, vamos falar
+
+sobre a índia, que é um lugar fantástico é isso que
+
+eu tenho prazer dizer por enquanto.
+
+Mais um episódio solo já vou falar sobre isso Antes
+
+queria falar sobre os nossos apoiadores primeiro deles né a
+
+nova lua a chuck, lembrar que o c podcast tem
+
+o apoio da champions Da oito como é que são
+
+especializadas em segurança de sistemas de corte o seguro, o
+
+link da nova oito, distribuidora da Chuck, no brasil está
+
+abaixo na descrição do episódio, também lá no nosso site,
+
+devese cóccix Podcast ponto com, ponto b, tá, lembrar também
+
+que a contabilidade limpa é especializada em profissionais da área
+
+De, se você precisa abrir sua empresa ou migrar de
+
+contabilidade entre em contato com o pessoal da contabilidade, eu
+
+link aqui eles estão prontos pra te atender.
+
+Liga lá manda email está tudo aqui no
+
+detalhes do vídeo aqui embaixo fala pessoal, abra
+
+sua empresa Hoje, começa a faturar enfim, falou
+
+de empresa, falou de contabilidade hoje.
+
+Lembrar ainda que a o déficit de crédito tem parceria
+
+com a Gold Si, é especializada em application você.
+
+Quer desenvolver software seguro,
+
+fale igual gold security.
+
+E você está procurando emprego pra ou ainda quer
+
+postar sua vaga, vá lá no ponto jobs.
+
+Está barato, só que você que de graça, mas
+
+está parado, pra você estar procurando vaga de graça
+
+pra você ter posto na sua vaga, custa baratinho,
+
+um projeto pessoal, que está no ar que está
+
+funcionando, e eu espero que a cresça.
+
+Beleza, Bom esses são os nossos patrocinadores, nossos parceiros e
+
+é isso, o primeiro recado de hoje de negócio o
+
+seguinte Daí você gosta podcast, ele já tem aí quatro
+
+anos pessoal me me engano três quatro anos estou na
+
+quarta temporada o quarto ano deve ser Podcast começou lá
+
+atrás né, eu iniciativa a minha ideia sempre, aí eu
+
+juntei com Rodrigo, e com né, foi a formação inicial
+
+eu o Rodrigo Vini fazendo dança podcast aí eu vi
+
+se determinado o momento saiu ficou Rodrigo, determinado no momento
+
+Rodrigo saiu entrou Marcos né, e Até agora depois voltou
+
+ao Rodrigo depois entrou entrou o Gabriel, né, enfim Essa
+
+é a formação da bisavó podcast, o problema é, é
+
+muito complicado pra gente consolidar os nossos horários das nossas
+
+agendas. Né?
+
+O Rodrigo Gabriel estão no Brasil, eu e o Marcos
+
+na Europa eu aqui na Paula Marcos na na Alemanha.
+
+Até eu e Marcos que estamos no mesmo fuso horário já
+
+é complicado, né, ele tem o trabalho dele as coisas dele
+
+eu as minhas os vídeos do Brasil também então, é muito
+
+de casado então qual que é o a pegada aqui?
+
+Teremos cada vez mais episódios ou solo onde
+
+eu estarei sobrenome não né abordando aqui os
+
+temas como seis, ou ainda convidados né, como
+
+sempre for formado a podcast.
+
+Mas o time mesmo grupo vai ser cada vez menos frequente
+
+porque a verdade é, hoje a gente faz não faz episódio
+
+fica sem gravar, ou a gente grava jeito que dá.
+
+Às vezes daí eu e Marcos às vezes aí eu odeio
+
+rodrigo às vezes eles que dão não ou nada, o ponto
+
+é, é difícil a gente consolidar os, pessoal, tá, quando você
+
+colocar podcast que a gente não para porque conteúdo o que
+
+não falta, como eu falei a iniciativa sempre foi minha é
+
+o meu canal é o meu podcast, os números estão aqui
+
+como parte do grupo também mas acaba aqui foi uma iniciativa
+
+minha o podcast meu quem nessa Porra sou eu, Então conteúdo
+
+não vai parar pode questionar vai parar.
+
+A diferença é que cada vez mais polos são ter
+
+tanto o episódio mais inglês como eu falei pra vocês
+
+como convidados internacionais né que a gente é chique e
+
+ciências boston do Brasil que é o caso do Rodrigo,
+
+gabriel enfim né, estou daqui a pouco eu vou hater
+
+né, botei o Brasil meu não inclusive a episódio hoje
+
+vai falar sobre a Índia né puta país enfim, explicado
+
+sobre deve você, Podcast cada vez mais episódio solo com
+
+convidados e menos entre gente aqui, quando Deus aparecem quando
+
+não aparece esse é o fato beleza?
+
+Então vamos lá gente que que queria falar sobre
+
+que que ele falar sobre a por quê?
+
+Porque primeiro motivo da gente ter ficado aí quase um mês
+
+sem gravar episódio, foi porque eu tive uma viagem de trabalho,
+
+a Índia estive estando indo para Índia mês passado, e e
+
+fiquei lá exatamente cinco dias, eu cheguei eu viajei no domingo
+
+cheguei lá na segunda de manhã, e voltei de lá na
+
+sexta noite chegando aqui no sala.
+
+Então eu fiquei lá exatamente de
+
+segunda a sexta, praticamente cinco tá.
+
+Vamos viajar já trabalho falei pra
+
+trabalho pela empresa daqui etcétera etcétera
+
+tivemos um workshop lá enfim então.
+
+Esse o contexto aconteceu estive na Índia, um país
+
+que eu nunca imaginei visitar, né conteúdo continente às
+
+asiático, então agora posso falar que eu já conheço
+
+cinco continentes na américa do Sul, central, norte, além
+
+da Europa e Ásia então eu já conheço o
+
+cinco com olha que legal cara que legal Bom
+
+vai sentido tirando nessa parte legal.
+
+Por que que queria falar sobre a índia a
+
+Índia ela é conhecida né é um polo tecnológico.
+
+Quem nunca trabalhou com indiano né os indianos então
+
+tudo que é lugar em empresas como batata pro
+
+consulte por exemplo gigantesca né, atua em gostaria no
+
+mundo inteiro, o Alexandre atriz, esqueci sobrenome nome dele
+
+mas O alexandre alexander que gravou com a gente
+
+aqui no podcast pra falar sobre segurança também Foi
+
+inclusive, ele é ocupado trabalho em insegurança, ele é
+
+trabalha na tata com Silvio né, Então tem muito
+
+contato pessoal da deve também enfim.
+
+Mas o fato é fui pra Índia, um lugar que eu
+
+nunca imaginei etcétera e e por que que eu tenho fazer
+
+esse podcast desse episódio aqui hoje pra falar sobre a índia,
+
+por lugar gente que me surpreendeu assim absurdamente.
+
+Absurdamente.
+
+Eu estive uma cidade que é chamada de bh
+
+ou Bancada né mas isso chamada da pan.
+
+Que é a cidade que eles chamam hoje né
+
+a Assiste Vale indiano, é como se fosse se
+
+com Base lá nos Estados unidos unidos, exatamente a
+
+compara na Índia né, que é calor.
+
+Existem outras cidades mais conhecidas como mu by, por exemplo l
+
+né, o nova dele, mas quando ela é numa cidade popular
+
+é especialmente o nosso meio de tecnologia de segurança enfim por
+
+quê É de lá que é lá que estão as grandes
+
+empresas de tecnologia como Microsoft apple assim que diante, assim como
+
+é muita mão obra vem de lá e de um país
+
+absurdo muita gente né, onde tem muita gente, muito rica em
+
+cultura, mas o que eu queria trazer pra vocês aqui de
+
+de ponto que eles me surpreenderam né e fazer esse episódio
+
+aqui pra vocês.
+
+O primeiro ponto que ouvindo, foi as pessoas.
+
+Primeira coisa as pessoas.
+
+O índia já estava ali com dia tinha entrado com indiano
+
+antes esse trabalho com dia hoje no dia a dia mas
+
+eu nos nunca tinha estado lá né, sabe um negócio diferente
+
+então, a gente fala que brasileira é de etcétera até e
+
+sentir assim em casa, óbvio né, morando na Europa Vindo de
+
+São Paulo aí você vai com uma um país uma cidade
+
+que é o caos com essa paula então me senti em
+
+casa né, já eu vou falar sobre esses detalhes também.
+
+Mas a primeira ponta que eu queria
+
+destacar são as pessoas da noite.
+
+Pessoal muito receptivo, simpático, o pessoal assim, não não
+
+tem o calor que o brasileiro tem, né?
+
+Aquela brasileiro já leva pra casa né,
+
+aquela é uma camada muito grande.
+
+Em enquanto europeu já é muito
+
+mais frio né, muito mais distante.
+
+O indiano ele diria que nesse meio termo mais
+
+perto perto brasileira é o pessoal animado da risada
+
+e brinca faz piada e tal, e é o
+
+pessoal curioso professor é interessado estou querendo aprender você
+
+está lá pra fazer uma palestra eles vão te
+
+fazer perguntas, você está lá pra consumir com vamos
+
+passar tudo possível então, eu senti essa energia muito
+
+positiva do povo dia mas muito positiva mesmo.
+
+Mandar um abraço aí pro pessoal escuta o podcast de
+
+trabalho comigo cheque ga, dívida todo da índia que trabalha
+
+com meu time, obviamente envolve em português mas enfim tá
+
+está mencionando a pelo nome de alguns deles, mas cara
+
+assim e povo da é um absurdo.
+
+É pessoal as pessoas são muito legais.
+
+Não só pessoal só que eu conheço que trabalhando comigo
+
+mas as pessoas nas lojas nas ruas no táxi assim,
+
+muito receptivo, troca uma ideia no, e obviamente aquela ideia
+
+é bacana no inglês né, que que pra quem não
+
+sabe inglês é oficiais é índia né Por ser colônia
+
+na inglaterra, ter sido né Como é aquela coisa toda.
+
+Então todo mundo lá boa parte
+
+das pessoas lá falam inglês.
+
+Então assim, é muito fácil se comunicar, é
+
+difícil você entender o 0 sotaque, meu seu
+
+sotaque indiano ele tem um uma particularidade né?
+
+Eu por muito tempo ainda acho um pouco engraçado, sou
+
+engraçado e tal, mas assim é fácil de você entender,
+
+como com você trabalhando no dia a dia vai pegando
+
+você pega o jeito as palavras, né, então acaba ficando
+
+mais fácil né obviamente de primeira de bate pronto, você
+
+fala caramba mas como é que eu entendo assembleia galera
+
+estava está bastante muito difícil, mas no dia a dia
+
+as coisas facilita ou acreditem tá então o primeiro ponto
+
+que eu queria falar é, Pras as pessoas né as
+
+pessoas lá são fantásticas, e é a primeira coisa que
+
+eu queria deixar as recado no podcast não dá pra
+
+colocar podcast de queijo.
+
+Se você, em algum momento, teve um preconceito ou viu ar mas
+
+o dia é chato mas um dia isso mas um dia não
+
+aqui não é É aquela história que eu falo né, você tem
+
+que viver a verdade, o que é viver a verdade.
+
+A gente falou pra vocês um monte de coisa,
+
+mas você só ouviu sobre Você nunca viveu seu.
+
+Você nunca de fato experimentou, a Gil é in, ah
+
+mas coca faz isso ah, mas aquilo é ruim você
+
+tem tanta informação quer dizer você nunca testou de fato,
+
+você fica só com aquela sabe aquela ordem de eco
+
+de te falar alguma coisa, mas você não povo daquilo.
+
+Quando você prova daquilo você vive a verdade
+
+de fato, aí você vai ter suas próprias
+
+grupos homens e experiências assim por diante.
+
+Então em dia anos é o que eu estou falando.
+
+Eu sempre eu vi um monte de coisa
+
+sobre sobre os indianos enfim e depois de
+
+trabalhar com eles e estado lá, mudou completamente
+
+minha chance percepção especialmente sobre as pessoas.
+
+Tá?
+
+Então a primeira coisa, que eu queria falar é isso, as
+
+pessoas ainda sindicato são fantásticos absolutamente fantástica A segunda coisa que
+
+queria falar, sobre comida, né, a comida da Índia é um
+
+negócio, de novo tinha já tinha comido com dia em outros
+
+restaurantes né ao redor do Brasil aqui na Europa também, e
+
+e o pessoal eu que eu não sei se o chefe
+
+era em dia não mas era é simplesmente a comida apimentado,
+
+né, aquela pimenta que arde. Ponto né?
+
+A comida brasileira até aquela pimenta que arde
+
+que queima, comida lugares gastos tem esse.
+
+Na índia, na istambul lá, comendo vários restaurantes etcétera, Porque
+
+e conversamos com o que que eu entendi, E o
+
+que eu pude viver e experimentar de fato, o que
+
+ele chama de países né, o que pra gente no
+
+Brasil, você tem pelos, né, Então você têm que ter
+
+pelos esses pais, né, sei lá, a gente usa uma
+
+pimenta um cominho não sei o que não sua alguém.
+
+Eles têm vários desses com pimentão ou seja,
+
+o espécie da comida inhame ele não é
+
+uma pimenta só pra queimar só pra Herdeiro.
+
+É literalmente um sabor, então cara, comi um prato que
+
+o apimentado ficava sei lá um minuto na boca.
+
+E era apimentado médio, vale ardia queimava mas assim tinha
+
+um sabor diferente percebe, e gosta de usar sei Você
+
+que jogo pimenta rosa é uma pimenta doce, tem um
+
+sabor né, não nem nem e quando que pimenta Malagueta,
+
+ela arde enquanto pimenta biquinho, já doce comida dedo de
+
+moça é pimenta preta são sabores diferentes, Aí eu como
+
+o prato que eu falo meu isso aqui eu quero
+
+eu cem pimenta.
+
+E não tem que tudo água tem
+
+pelo é espécie de alguma forma.
+
+Então vem um comentário bem leve lá no
+
+fundo você por um segundo na boca.
+
+Aí eu pedi um falei só argumenta
+
+e padrão quando vocês como aqui padrão?
+
+Pra mim é assim, eu colocava
+
+na boca, já podia, queimava.
+
+Mas eu não queimasse de um minuto também é
+
+um negócio que você fica na boca queima pra
+
+pimenta eu já comi no braço você.
+
+Oi comida me na boca, ou você bebe
+
+leite você pulou num rio, você ficou uma
+
+hora que aquela porta queimando manda na boca.
+
+Então assim porra boca sou estranho, mas é isso Então fui
+
+sentir diferente na comida indiana, lá de novo já comi outros
+
+lugares não é a mesma coisa Tá, mas lá era isso
+
+é o sabor é um mix, muito absurdo.
+
+E não novo não apimentado que te faz sofrer, eu
+
+implementado querido literalmente que né, te traz aquele calor, mas
+
+que é uns na boca mesmo um sabor diferente.
+
+E isso me surpreendeu assim absurdamente que eu estava com
+
+medo eu não gosto de comida apimentado em geral você
+
+fica meio assim como é que eu vou comer eu
+
+vou passar mal, vou morrer abre meu deus.
+
+E não, na verdade falou assim, sabor experiências diferentes em
+
+casa pra comer costelinha eu comi frango eu comi coisas
+
+típicas de lá que não faço nem tempo seja só
+
+simplesmente falei me dá, existem assim de sabores absurdamente bons,
+
+no nada do tenha comido foi ruim.
+
+É uma coisa, talvez eu goste mais goste menos,
+
+mas nada que ter sido ruim de fato.
+
+Mas com relação ao apimentado a
+
+minha mensagem pra vocês essa.
+
+Precisa experimentar, você precisa viver isso pra você saber o que
+
+você o que que é de fato é muito bacana? Ah?
+
+Então, fica tinha no relato aqui sobre segundo ponto
+
+que a comida né queria ele fala muito especialmente
+
+sobre a comida porque é um negócio fantástico porque
+
+não gosta de comer comer bem.
+
+Um terceiro ponto que eu queria levantar aqui
+
+gente é o seguinte, é com relação a
+
+as próprias tecnologias, O que eu pude ver
+
+lá nada diferente né, inteligência artificial, linguagem frameworks
+
+assim nada dos diferente nada de diferente.
+
+Mas o que eu vi nas pessoas na empresa enfim,
+
+conversando com o pessoal foi, um foco muito grande.
+
+Uma dedicação grande aprender sobre essas coisas.
+
+E especificamente, sobre um um dia lá específico a
+
+gente teve eu tive a oportunidade, a gente quando
+
+eu fui sozinho, a gente foi no grupo lá
+
+e tal, mas tivemos a oportunidade de visitar uma
+
+universidade lá um instituto, uma universidade olha.
+
+E nessa universidade eu tive a de tivemos anos
+
+oportunidade né, de ter uma palestra lá um batepapo,
+
+praticamente umas três horas vamos dizer assim como um
+
+dos líderes um dos professores lá que é líder
+
+do programa de mestrado mestrado pós pósdoutorado doutorado, de
+
+computação lá, e a pesquisa dele basicamente é criar
+
+meios geográficos novos.
+
+Ou seja, inclusive ele falou assim, meu, tudo que fala
+
+de segurança é não usa o seu próprio algoritmo de
+
+criptografia né, Eu um algoritmo já pronta, é exatamente que
+
+ele faz um contrário está criando coisas novas de dentro,
+
+não algoritmo próprios e a pesquisa dele, ou pelo menos
+
+o centro a direção de linha de pesquisa dele era,
+
+criar métodos de criptografia de baixo custo baixo o custo
+
+com relação à energia, né, porque se pra você aplicar
+
+um processamento num processador num computador de uma geral, um
+
+processador eles quem teve processo ele gasta um tempo pra
+
+fazer isso.
+
+Então ele está aplicando algoritmos pra que você.
+
+O máximo da capacidade de processador pra fazer isso
+
+tudo de uma forma mais rápida pra mas gastando
+
+um pouca energia, porque tem a ver com o
+
+ambiente sustentável, toda essa parada toda, então tem trouxe
+
+mil cálculos lá de, quantos anos fotografando quanto tempo
+
+você gastou de energia gastei um bilhão de energia.
+
+E você fizesse assim esse das as mesmas coisas ao
+
+mesmo tempo que o nosso algoritmo aqui que tu, gastaria
+
+meio metade disso opa não vale a pena investir essa
+
+palavra está economizar metade da energia que você gastou, tá.
+
+Então isso nessa linha de pesquisa, eu não sei
+
+explicar em detalhes porque é um negócio muito avançado
+
+pra mim, mas é essa a minha de pesquisa.
+
+E assim, o cara tem ele não tinha trinta anos.
+
+Trinta tiveram estou ano oitenta trinta e dois
+
+anos e o cara assim super simpático, Super
+
+gente boa, abriu a pesquisa dele inteira pra
+
+gente que está um desenvolvimento ainda.
+
+Mostrou detalhes explicou a implementação, que eu entendi lá
+
+vinte por cento, literalmente vinte por cento, um negócio
+
+de coisa matemática, curva não o que mais sempre
+
+as coisas de fotografia, que eu conheço algumas teorias
+
+mas só, então essas coisas ali faziam.
+
+E aí assim, conversando num nível que eu pude
+
+entender um pouco mais com ele literalmente assim, o
+
+cara está lá, né, a galera está lá né
+
+o programa de doutorado ou o programa.
+
+Pensa o problema de doutorado deles, falou dez
+
+universidades basicamente tinha seis alunos, turma agora tem
+
+seis alunos inclusive o pessoal está fazendo uma
+
+prova lá no dia e ele estava lá
+
+fazendo a apresentação pra gente e tudo mais.
+
+E ele explicou lá falei cara, as pessoas aqui
+
+são muito dedicada, a gente tem que selecionar quem
+
+pode participar do programa doutorado, apesar de ter seis
+
+pessoas então porque é é muito específico, então gente
+
+não quer trazer uma pessoa que vai se frustrar
+
+o que não vai trazer resultado porque tem grana
+
+investido aquela coisa Então assim, o que eu vi
+
+foi o foco muito grande em dedicação coisas muito
+
+específicas pra resolver problemas sérios, como esse caso da
+
+energia prazo imagine, eu trabalho uma empresa hoje que
+
+lidar com praticamente estudo, Desde robótica sensores tudo já
+
+imagina, você tem uma informação que precisa passado robô
+
+pro outro né, a formação sensível precisa está.
+
+A aquilo não vai levar na nuvem
+
+faz, a informação sai da fábrica.
+
+Ela fica lá no robô, como é que você
+
+aplica essa criptografia lá no no no dispositivo que
+
+ele é naturalmente mais limitado de de de recursos
+
+como memória diz com esse tipo de coisa.
+
+Então você tem que ter otimizações pra fazer isso
+
+então é a linha pesquisa mais ou menos essa.
+
+Então assim o foco em resolver problemas sérios, é
+
+muito grande, depois que eu entendi dessa galera lá
+
+que a gente conheceu dessa turma desse professor, E
+
+de maneira geral universidade, ele foi falando como que
+
+a universidade trabalha, as linhas de pesquisa tudo, Então
+
+esse foco e as empresas lá né?
+
+Tanto a minha empresa que eu trabalho a
+
+gente pôde discutir sobre isso lá e o
+
+dos competidores e outras empresas também.
+
+Então tem um foco muito grande e vocês vão falar muito
+
+vocês vão começar lógico que é o foco lá é grande,
+
+as pessoas porque lá a mão de obra é barata.
+
+É, mão de está dia mais barato.
+
+Mas o salário, né, o salários em geral na área de
+
+ti da área segurança são os mesmos, Então o que eu
+
+ganho aqui na Europa por exemplo, em valores vamos vamos supor
+
+que eu ganhei dez mil dinheiros, dez mil dinheiro aqui, o
+
+cara lá ganha dez mil tiros lá também.
+
+Inclusive lá no moeda lá grupos, né Grupos,
+
+estamos exemplo empanar sei se o dia inteiro
+
+mas enfim Da Group e aliás curiosidade.
+
+O dinheiro lá é contado em em milhares né,
+
+centenas sei lá então por exemplo aqui quanto custa
+
+bagulho no Brasil custa cem, cem reais.
+
+Quando custa lá custa cinquenta mil, A mesma coisa pra cara,
+
+cinquenta mil anos né então igual era cruzeiro cruzado no Brasil
+
+então, você foge pouco a foi a cabeça venha a conta
+
+dos seu café da manhã mil e setecentos como fala calado,
+
+comigo que a tomar rock de ouro né?
+
+Então, o meu salário é
+
+equiparado, né quando gente fala.
+
+A mão mais barata não salário pelo, caso
+
+as pessoas começou o salário aqui parado então?
+
+Tem um foco muito grande lá nessa questão
+
+de tecnologia mais série de pessoas dedicadas nisso,
+
+né, A índia vai pra vocês terem ideia,
+
+é uma cidade com dez milhões de pessoas.
+
+São Paulo minha referência tem doze milhões de pessoas.
+
+E São paulo é maior um espaço físico do que bangu por.
+
+Então lá tem muita atenção causa
+
+muito maior na cidade, né?
+
+Gente bota do lado trânsito é um absurdo já
+
+vou falar sobre isso também mas o meu ponto
+
+aqui é, A tecnologia, a dedicação das pessoas resolveu
+
+uma série e tudo mais, e de novo, acho
+
+que foi uma experiência na Índia, tem todo lugar
+
+tá gente pesquisa desenvolvimento doutorado tal por exemplo, no
+
+Brasil, a experiência que eu tenho acadêmicos inclusive direcionar
+
+lecionar o brasil é que, a iniciativa de pesquisa
+
+e desenvolvimento um é muito, bolsas e tá ou
+
+até incentivo né, as pessoas seguirem essa carreira não
+
+é assim, praticamente que gente quiser, praticamente 0.
+
+Lá por outro lado não, molecada do curso de doutorado
+
+dele que ele já tinha seus trinta estourando anos, e
+
+eram ele geram ele é o Phd da parada.
+
+Olha, Olha só ele é o Phd do bagulho.
+
+Então ele estava coordenando o curso de doutorado, então os
+
+estudantes dele é o molecada da cara de vinte poucos,
+
+que já está doutora voltando e você aí fazendo hello
+
+de Python achando que estava fundo Então assim é isso
+
+me surpreendeu surpreendeu, sabe, de uma galera muito nova, focada
+
+já em resolver uma série que e a criptografia nova,
+
+economizar energia do processador do nosso parada assim que vai
+
+trazer benefício você nem imagina?
+
+Você não se não pra com aqui,
+
+não né, nem tema nossa por exemplo.
+
+Mas ver a dedicação da galera lá nessas coisas me incentiva
+
+saca me dá um caro tem então tem gente cada nessa.
+
+E quando o Brasil minha referência Brasil, de
+
+novo, a gente não tem essa influência e
+
+incentivo em pesquisa e de desenvolvimento.
+
+Se tem o tom muito errado, minha visão está torcida,
+
+e dos dois anos que eu moro aqui na Europa
+
+mudou tudo então porque não era assim, né?
+
+Então Essa parte tecnológica um pouco da coisa me surpreendeu,
+
+molecada é de vinte anos a vinte poucos usando anos,
+
+não sei qual é o nível de estudo lá como
+
+que é na escola fundamental essas coisas, mas eu acho
+
+que você não você pode fazer um doutorado de uma
+
+forma mais rápido, eu sei no Brasil você acho que
+
+você terminou ensino médio, você tem que ter graduação depois
+
+você pode aplicar direto com doutorado não precisa ter mestrado
+
+por exemplo, tá eu acho que o caça não engano.
+
+Você não mudou nada.
+
+Então você pode ir cedo pra essas, mas o Brasil não vejo
+
+tanto isso Pelo menos a ter rir área de de de computação
+
+de novo gente posso estar errado mas é o meu filho tá,
+
+não tem dado sobre isso é o meu feeling de trinta e
+
+cinco anos de idade vinte de carreira no brasil.
+
+Então, tecnologicamente eu pirei eu pirei um rei com a
+
+Índia, é isso que eu queria ser tecnologicamente de novo
+
+tem nada de diferente de lugar nenhum tem pesquisa e
+
+doutora lança estados Unidos na europa pra assim qualquer lugar,
+
+mas a dedicação da galera pelo que eu senti e
+
+idade da pessoa dedicada, isso eu não sei de outros
+
+lugares mas eu vivi lá.
+
+Aí no Brasil tem de ser as pessoas mais velhas, mas
+
+ele assim o cara está fazendo doutorado mesmo, lá pros seus
+
+quarenta anos aos trinta e quarenta anos né, então passou por
+
+mestrado estrada está fazendo seu quê é mais ou menos o
+
+que um chefe tá de novo, deixa que é só o
+
+feeling um batepapo papo sem informações oficiais de fato.
+
+Quarta coisa fod que eu achei na Índia,
+
+fod assim num nível vocês vocês vão duvidar
+
+Inclusive eu quero que vocês comentem, esse exatamente
+
+momento eu vou falar agora sobre isso, isso
+
+comentem já no vídeo aí no Youtube comenta.
+
+Ela caça não acredita essa é a mentira.
+
+Olha o cara a verdade de ouvir sobre isso tal tal tal.
+
+Que é o trânsito da índia.
+
+O trânsito da Índia é exatamente como vocês imaginam como
+
+você já viram algum vídeo algum filme é exatamente acredita,
+
+não tem farol, Não tem faixa de pedestre, não assim
+
+tem uma outra, não tem não tem nada disso, não
+
+tem guarda de trânsito porra, manter tem placa sinalização nada
+
+na cidade que eu estava e o trecho três Dei
+
+eu vi dois falam, dois, e um que ninguém respeitar
+
+estava lá piscando galera vai.
+
+E o outro aí eu não parava
+
+tá mas era um cruzamento muito grande.
+
+Fora isso seguinte, não tem, é literalmente entre aspas tá,
+
+quem está no youtube está apenas as aspas pra quem
+
+que está no podcast não, entre aspas por caos.
+
+Por que isso eu pirei e por
+
+que entre aspas no caos porque?
+
+Não tem acidente.
+
+Como é que um lugar entre aspas de novo sem regras,
+
+né que é o trânsito, sem farol, sem sem sinalização, como
+
+é que o cara vai pra um lado vai outro vem
+
+na contramão vida do lado vida que tudo isso funciona.
+
+Porque só existe uma regra básica gente só uma
+
+regra está aí eu estava conversando pessoal lá perguntando,
+
+você fica impressionado, de novo, eu sou de São
+
+Paulo, cachorro, senhor da quebrada a cuzão.
+
+Ligado, Zona leste, é São Paulo né, nomeou miolo
+
+B c só, sou bocado, só só o mais
+
+bonzinho colchão mais porque a gente mistura, obrigado.
+
+Então eu trânsito de salvar o caos, mas é um causo
+
+sentir de quantidade de carro mas tem farol você vai você
+
+vem no momento ali tal tal tal quando joga tudo, você
+
+tem alguns motivos, para na índia não tem nada disso.
+
+E funciona.
+
+Eu não sei acho que dez minutos
+
+em trans no no momento nenhum.
+
+E olha que eu não hein, mandei muito lá, né?
+
+Por que isso, porque a regra número um, e única
+
+é a regra seguinte, qualquer coisa que aconteça a culpa.
+
+E aí tem uma punição tem todo um né um um
+
+sistema de de de multas vamos chamar assim né, vamos falar
+
+muda mas punição tá, você atropelou alguém a culpa pessoa, Também
+
+a culpa de de sua que foi atropelado.
+
+Porque você não prestou atenção quando estava atravessando,
+
+e por que o cara está está prestando
+
+atenção porque por que te tranquilo.
+
+Então é próxima assim, não é que é cada um
+
+por cima, mas o cara que atrapalhou ele tem uma
+
+coleção grande, o cara que está atropelado por um ele
+
+não tem seguro da que se funde pra pagar.
+
+Eu tem uma série de coisinhas que
+
+deu merda, a responsabilidade é muito grande.
+
+Então as pessoas ela têm uma um uma
+
+educação, num nível que não precisa de sinal
+
+de falar diria guia nenhum nada.
+
+Porque todo mundo se respeita.
+
+Você ouve buzina lá, igual no Brasil igual São
+
+Paulo, mas exemplo você vê motor motoqueiro buzinando lá
+
+é o carro né em o carro, cara os
+
+caras está buscando o tempo todo, Por quê?
+
+Trezentos e sessenta mesmo mano.
+
+Sem de trás um no lado luta é
+
+assim uma loucura mesmo pra gente uma.
+
+Mas de novo, o cara está olhando vai o cara
+
+está entrando na frente dele, deixa entrar dá vozinha aqui
+
+deixou que não deixou, o cara está do lado veio,
+
+o cara segura o outro entra, o cara preso o
+
+gravei vem na contramão abre espaço o cara e está
+
+tudo certo, está tudo certo, e vinho chegar ninguém.
+
+Ah vai tomar, ah sua mãe, só mãe mais você seu pai
+
+seu pai que tinha esse tipo de coisa os zoeira aí.
+
+Então não tem isso, as pessoas uma paciência,
+
+uma educação surda a ponto de não precisar
+
+de regras pra elas porque ela se respeitam.
+
+Isso por si só é o isso é o
+
+máximo gente, isso é o máximo de qualquer metodologia
+
+de qualquer padrão processo que vocês entendam.
+
+Algumas empresas que eu já vi clientes você tem
+
+que ter lá uma política que obriga o cara
+
+fazer cansaço porque devendo querer que o cansaço.
+
+Então eu tem que ter uma polícia que eu
+
+obriga ele faz aquilo não vai pra fazer isso
+
+uma coisas do tipo regrinhas que vão fazer o
+
+cara seguir ou obrigado o quero seguir.
+
+Imagina o trânsito, lá imagina se tivesse que teu
+
+farol pra falar você tem que parar aqui porque
+
+eu vou ter que passar precisa, separa o cara
+
+passa o outro para você passa acabou?
+
+Olha, olha como esse assim como
+
+essa ideia coletiva de organização for.
+
+Mesmo no meio do lugar que parece o caos, Então,
+
+isso é uma das parada que mais nos surpreendeu surpreendeu.
+
+E talvez é isso, esse miolo essa cultura pegar esse
+
+esse pedaço aqui, que destacam o indiano no mercado, que
+
+tem de pra todo lado a gente fala né.
+
+Porque o cara quer fazer o cara quer aprender
+
+o cara te respeita, o cara é educado, temos
+
+um sotaque engraçado na minha opinião está tudo bem.
+
+Inclusive eu estava falando estava falar que está também
+
+engraçado então está tudo certo então como esse gente
+
+assim, o trânsito mostra o trânsito lá né?
+
+Mostra um pouco da sua organização Enquanto que em São
+
+Paulo, tem farol pra todo lado tem placa sinalização pra
+
+todo lado né, e muito bem estruturado muito bem que.
+
+Mas é um mandando um outro tomar naquele lugar,
+
+toda hora tem uma batida tipicamente em São Paulo
+
+morre o motoqueiro por dia durante um ano.
+
+Lá tinha três pessoas uma moto pai pilotando o
+
+bebê no meio a amanhã atrás fazendo um sanduíche
+
+de Bebê, eu vi quatro caras numa horta eu
+
+vi um adolescente pilotando pai na garupa.
+
+Eu vi de tudo, contexto ter sem capacetes
+
+e nada chinelo, só vai só vai.
+
+E assim, tudo funcionando.
+
+Um o cara do carro querendo xingar o cara que olha
+
+não em São Paulo, são paulo tem uma teoria que quanto
+
+mais caro o carro, mais e o cara é.
+
+Porque quanto mais rico mais estados ele tem, mais
+
+ele pensa que pode Né e eu de carro
+
+Paulo uma vida inteira um moto inclusive dos poucos
+
+anos então eu sei o que eu estou falando.
+
+Eu vocês me colocam nessa mulher nessa jogada quantas chama treta
+
+já arrumei, Então olha só, olha onde vai a cultura de
+
+um povo nesse nível e aí você pega essa mesma cultura
+
+que o cara tem no trânsito que é um lugar estressante,
+
+o cara sabe que carro alguém pode bater nele que ele
+
+tem que dar espaço de ter que olhar o cara atravessando,
+
+e aí você pega esse stress pro mundo profissional, por isso
+
+que a dinheiro se destaca, o 0 cara está lá com
+
+vinte anos de idade pensando em resolver plano de criptografia, No
+
+Brasil a ela com vinte anos de idade pensando qual é
+
+a nova moda do Funk com é a nova gíria legal
+
+pra ficar brincando um novo meme da onda.
+
+De novo, não estou generalizando.
+
+Mas a cultura é essa a nossa cultura brasileira essa.
+
+São poucos os que você o cara está estudando, cara é
+
+a minoria, e lá na Índia eu não ouvir isso, que
+
+muita gente des na índia que é país pobre que é
+
+sub desenvolvido, é só assim vamos, é um país sujo, eu
+
+eu sentiase como se estivesse no centro de São Paulo gigante.
+
+É suja desorganizado, papel bo né, assim no morador
+
+de rua tudo isso vá a vaca andando lá
+
+na rua, cachorro, Exatamente um centro de São Paulo.
+
+Feio assim né fachada das lojas feias e está total.
+
+Não é isso que eu estou falando,
+
+falando das pessoas que estão lá.
+
+Pra pai sempre me ensinou que quem faz o lugar quem
+
+faz o ambiente é você, você pode usar um lugar ruim
+
+eu ser uma pessoa né que está ali contaminando está aquele
+
+ambiente com o seu eu né com a sua energia tudo
+
+mais tal, e por de gente é sensacional.
+
+Por isso que o caos o trânsito funciona, que não é
+
+um caos, eles se respeitam e se organizam, então funciona?
+
+Por isso que eles se destacam no mercado por tem jan
+
+em todo lugar roubando a sua vaga, por isso que Ceo
+
+da Microsoft, fátima dela é um dia Olha isso, manda uma
+
+uma não ah se não há maior empresa do mundo né?
+
+A é pular lá nessa fodase Microsoft está aí há anos, Aí
+
+aí o Ceo indiano pô até uns anos já ele como Senhor.
+
+Né verdade está né?
+
+Você não só enfim.
+
+Então gente, eu queria trazer esse episódio hoje né
+
+pra falar da minha experiência lá e ainda lá
+
+né, desses episódios essas coisas curiosas, mas assim, esse
+
+esse ponto específico do trânsito é fascinante, pra atravessar,
+
+precisa atravessar rua por exemplo foi num baque era
+
+na frente do hotel.
+
+Pra jantar lá um dia na frente, literalmente
+
+na frente, só que tinha cruzar usar uma
+
+uma avenida de duas mãos por exemplo.
+
+E cara você não tem faixa de obedecer só, Ela parece
+
+assim está vindo quinhentos mil carro você não vai esperar pra
+
+não ter carro tem como precisa vai passar a vida inteira
+
+lá está lá até agora, esperando pra atravessar.
+
+Você dá um passo tal o outro o carro
+
+vai vai desviar outro vai frear água você faz
+
+ainda no meio, simplesmente você vai indo.
+
+Saca é sua responsabilidade atravessar segura assim como
+
+é dos casos não te atropelar, percebe, é
+
+simples a responsabilidade individual é muito simples de
+
+todo um respeita, porque de novo a faculdade
+
+de individual barra coletiva né?
+
+E hoje e aí eu queria pegar todo esse contexto e
+
+falar da Índia de obviamente mas trazer pro mundo real.
+
+Não, não opinar na voz mundo real, não mas às
+
+vezes pro o nosso dia a dia aqui, a gente
+
+não consegue se organizar em sedes a gente não consegue
+
+se organizar num time onde todo mundo tem que fazer
+
+um encanto de segurança, fazer um teste de segurança, pega
+
+o repórter, corrigir a vulnerabilidade.
+
+Por quê, Porque um não quer porque o outro não tem
+
+tempo porque eu foco dele é outro porque o pior deu
+
+pluralidade porque as pessoas vão consegue se organizar na na na
+
+escolha da linguagem pra fazer um projeto got chato já vá
+
+mas russell está na moda ah mas não sei o quê?
+
+Ele fica nessa?
+
+Nesse organismo nível bem comum, A responsabilidade
+
+coletiva, cada um que olhar pro seu.
+
+Então essa que eu aprendi lá índia né essa
+
+experiência de vida, com espécie de vida né, e
+
+cinco dias lá num país assim absurdamente rica em
+
+cultura música comida em cores em pessoas assim.
+
+Fantástico, fantástico mesmo, Mas esse ponto na trazer pra
+
+gestão trazer pro dia a dia, nossa aqui cara
+
+faz assim total diferença aprender essas coisas ver com
+
+outras coisas outras pessoas falam, e trazer pra nossa
+
+realidade né, refletir um pouco cargo, por exemplo aqui
+
+na polo, as pessoas dirigem pra mim dirige de
+
+um jeito esse absurdo, o cara vai vai entrar
+
+direita está daqui dez quilômetros ele já está lá
+
+na direita eles fica esperando mas esteja trânsito daquela
+
+faixa ele fica esperando.
+
+Bom vai pra faixa do meio anda mais depois você
+
+entra não o cara fica lá esperando um mindset de
+
+sete, lá na Índia o cara entre a direita e
+
+tal é o mesmo cara que vem trás não contramão
+
+mão que assim né, literalmente parece o caos, e funciona,
+
+então segundo num lugar funciona, que que o outro não?
+
+Porque as pessoas que estão lá tem um mindset
+
+de sete, um controle um ambiente de fé.
+
+Então esse é o ponto que eu queria trazer central.
+
+Não é a ferramenta que você usa metodologia você
+
+usa é você se num lugar é possível fazer
+
+o também é, a diferença de quem está fazendo,
+
+Não é nem como você está fazendo?
+
+É o quem mesmo?
+
+Porque de novo, dirigido não na não vou falar que
+
+é igual porque lá também dirige do lado direito né,
+
+então ele foi uma foi uma surpresa pra mim, Surpresa
+
+empresa não né, sabia que era ciência não tinha visto
+
+ainda na prática Então lá se dirige do lado direito.
+
+Então mas vamos lá, é toda alguma coisa
+
+né o câmbio o cara uma coisa.
+
+Então o eu né, que a gente aplica no dia
+
+a dia, o que eu queria trazer aqui pra vocês
+
+por que que a gente está fazendo errado que que
+
+a gente não está conseguindo se adequar, está pra necessidade
+
+do outro, ou se torna pra sua necessidade.
+
+Você quer fazer do jeito que você acha melhor você
+
+quer fazer do jeito que é o bem comum melhor,
+
+Como eu digo bem comum exemplo clássico, tá gente.
+
+Eu quero lá minha esposa que é b, mas
+
+nem nem d é o melhor que teu casamento.
+
+Por casamento melhor o c, por exemplo.
+
+Então no Vai ser nem d, nós dois temos que
+
+ter maturidade de entender que c é a direção correta.
+
+Então abri mão do meu ar que a minha opinião
+
+ela abrir mão do B que a opinião dela, por
+
+mais que esteja certo, né, todos saciedade certo errado mas
+
+o melhor pro casamento que a instituição maior neste contexto.
+
+C seria a melhor opção do
+
+melhor plano, então vamos pro.
+
+É essa esse entendimento, que temos que
+
+ter No dia a dia, cara, vou
+
+falar entregar o produto mesmo sem segurança.
+
+O time de segurança pode falar cara, tem que ter campo,
+
+tu deve falar no quero, deu a palavra depois eu vejo.
+
+Mas qual é o bem comum que é um produto seguro,
+
+beleza nesse nesse exemplo estava no produto de vista tem um
+
+mínimo segurança Então tem que ter não é vou não o
+
+cara segurança que quer fazer porque Porque gosta.
+
+Não deve quem não vai fazer que não quer que ter
+
+que entregar não pior que não, o produto tem que ter
+
+foi definir socialmente que tem que ter segurança, então vai ter,
+
+a gente precisa aprender a se organizar melhor.
+
+Uma das coisas que eu falo inclusive está no
+
+manifesto devese ser Deve, lá na ma da.
+
+É que, precisamos olhar né, ver como empresas fazem, né
+
+como outras pessoas fazem nem aplicar com copiar como é
+
+que a a startup fintech do momento faz.
+
+Como é que é a do lado está fazendo esse
+
+candidatos código como é que o cara está fazendo tem
+
+testa olha como os outros fazem aplica aquele processo.
+
+Mas a gente tem um ego muito grande.
+
+A gente que eu digo corporações pessoas enfim.
+
+Então a gente não quer olhar como muito faz, Eu
+
+acho que eu sou melhor eu vou vou pesquisar suas.
+
+E é onde um dos maiores erros da humanidade de dia.
+
+Que é não saber viver em sociedade, compartilhar ajuda espelhar o
+
+que é bom, da Feedback da da É uma das coisas
+
+mais importantes que a gente teve Não que a gente perdeu,
+
+a gente estava num chegou num nível protagonista, se essa palavra
+
+existe de querer pro não não vou dar um feedback nem
+
+ela vai se sentir mal ele vai se sentir mal ah
+
+não vou falar isso no que vai mágoa, não cara.
+
+Tem que dar feedback sim se tiver feedback no sentido negativo
+
+da palavra mano não só que está errado velho assim não
+
+gosto tem saber falar também pra chegar dando numa populações igual
+
+eu fazia né, já está na voadora nós fungos cem V
+
+cinco, então não é assim, Rodrigo se estivesse aqui hoje ele
+
+estaria a forma que era assim meu.
+
+Porque eu falava assim mesmo.
+
+O Feedback eu digo assim você chegar cara sua
+
+que isso está errado você está fazendo ah não.
+
+Né, o certo é assim acessar olha, você falou tal
+
+coisa não pode falar dessa forma você tem que falar
+
+assim não sei se o feedback é negativo ele ter
+
+que existir, romantizar a proteção das pessoas, ai porque não
+
+pode falar porque não, do contexto técnico das coisas, até
+
+até soft skills os raios skills né, tem que dar
+
+feedback negativo sim, faz parte da gestão, porque senão você
+
+chegar o momento que tem que mandar embora Aliás é
+
+outra coisa que ninguém vai faz ninguém manda embora.
+
+Primeiro que não tem ninguém falou
+
+mas essa é o outra discussão.
+
+O fato é, Feedback é muito importante.
+
+A gente perdeu isso, né de uma maneira geral.
+
+E lá na Índia é uma das coisas que
+
+eu vi pessoa fazer muito, comigo pessoal chegou fracasso
+
+isso aqui a gente não faz, e assim assado. Ah beleza.
+
+O caso tal coisa é muito bom
+
+que você fez em gostei isso daí.
+
+Então assim tanto sabe aquela comunicação boa
+
+e velha e simples comunicação está certo
+
+está errado está assim estacionado.
+
+A gente vive no momento hoje que se você fala que algo
+
+eu só fez algo errado eu ai meu deus Ai meu deus. Não?
+
+Qual é o problema?
+
+Está fazer um negócio errado, simples diz assim, a
+
+pessoa pode questionar por está errado aí você tem
+
+que ter normalmente momentos errado porque assim, assim assim,
+
+não porque sou chefe eu que mando nada aí
+
+aí não aí não faz sentido, mas no racional
+
+por trás, é é o mundo que se espera,
+
+de qualquer gestor para que tinha dirige qualquer um,
+
+dá Feedback, é seu colega é uma relação hein
+
+é um feedback, negativo inclusive, então é essa falta
+
+né prejudica pouco, mas, é isso, quase quarenta minutos
+
+de episódio aqui eu falando sozinho, sem nenhum, segurança.
+
+Tecnologia.
+
+Deve c.
+
+O fato é gente, foi uma experiência fantástica, poder conhecer
+
+a Índia, foi cansativo para um caralho a volta, aí
+
+deu um pouco mas a volta tive duas conexões né,
+
+de de voo, então pra quem sabe pouco contexto né
+
+eu saí da de Cara maíra né, foi pra Fran
+
+na Alemanha, e aí lá tirou uma conexão de quê.
+
+Duas horas, três horas, vamos das três horas.
+
+E aí depois vou direto pra valor.
+
+Então foi um voo de oito horas.
+
+A volta eu saí de bangu love fui pra mom by
+
+dentro da Índia mesmo um voo de uma hora, mas eu
+
+fiquei cinco horas em um bar esperando o próximo vídeo.
+
+Aí de eu voei oito horas pra Monique na Alemanha.
+
+Aí fiquei mais cinco horas esperando aí depois ruim
+
+pra ka então, essas esferas foram um pouquinho cansativo,
+
+né, foi bem agradava, voltei emails exausto de lá,
+
+eu foi uma parte chata tá vamos dizer assim.
+
+Do Brasil não sei se tem voo direto a não
+
+sei se tem conexão pessoa fala muito que vai pôr
+
+dubai pai e tal mas enfim, não importa.
+
+Conheça a índia, tem assim, ent falo não é um lugar
+
+absurdo tem muita coisa pra ver, talvez o banda da não
+
+seja um destino turístico, né, do ponto de vista quer ver,
+
+quer ver praia que que tem tem tudo isso lá cachoeira
+
+e tal, então talvez não seja esse lugar mas aí vai
+
+pra outros lugares como não vai por exemplo enfim.
+
+Mas Vocês que escuta da você podcast.
+
+Já ouvi falar sobre a índia natal tal, quebra qualquer
+
+preconceito, quer qualquer coisa é um lugar absurdo de fantástico,
+
+se você puder visitar visite, se você tem pergunta ou
+
+curiosidade alguma coisa que eu não falei aqui no episódio
+
+que tem muita coisa gente, que realmente é muita coisa
+
+peguei alguns que pra falar eu queria fazer esse episódio
+
+antes mas não deu antes e tinha que acabar a
+
+sendo do Sp enfim que inclusive acabou né na na
+
+manhã lá nos quatro episódios passados, mas conheça a índia,
+
+tá se você tiver curiosidade dados com coisa que eu
+
+não falei aqui, comenta.
+
+Nem nem acaba, já manda o comentário aí no
+
+vídeo, que a gente que eu respondo pra você
+
+tá, obviamente se eu souber né também não fiquei
+
+em vinte anos na índia não sei tudo tá,
+
+era isso que episódio de hoje que eu agradeço
+
+muito imensamente cada um vocês que disputou, cada de
+
+vocês três pessoas, manda perguntas, deus seu feedback entra
+
+a nossa comunidade no discord que está cada vez
+
+maior muita gente interagindo, curta esse vídeo, comenta, compartilha
+
+o episódios você escuta no no no spotify, compartilha
+
+você escutando no diesel, compartilha você escuta no qualquer
+
+caralho de plataforma e compartilhando me interessa compartilhe, Ah
+
+dá um joinha, dá um like aí nas plataformas
+
+que você custa, porque ajuda muito o crescimento do
+
+podcast, beleza aí do canal também obviamente.
+
+Ok, esse foi o episódio sobre a Índia, eu sou carlos
+
+Pereira, e a gente se vê na próxima semana com certeza.
+
+Eu fico por aqui, valeu
+
