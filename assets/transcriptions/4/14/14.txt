@@ -1,0 +1,1870 @@
+Inovação Escreve o seu podcast
+
+de segurança em tecnologia.
+
+Fala jovens, tudo bem com vocês sejam muito bemvindos
+
+a mais um episódio da Podcast eu sou carlos
+
+Pereira, mas o episódio do solo que é uma
+
+maravilha sem aquele bando de imbecil que fala besteira,
+
+bom eu mesmo ouço colegas de trabalho aqui que
+
+coisa impressionante né, eu fico às vezes impressionado com
+
+a minha capacidade dos próprios colegas.
+
+Bom pessoal episódio de hoje tinha falado sobre, que
+
+é o considero polêmico, né polêmico porque quando sempre
+
+que rola santos esse tipo de discussão, o pessoal
+
+se acalmou um pouco né, o pessoal mais do
+
+lado do desenvolvimento assim como o pessoal mais lado
+
+de segurança e tal, então o episódio que a
+
+gente fala hoje por isso que eu coloquei o
+
+nome do episódio como medo do deve, interrogação não?
+
+Deve may né, destruidor desenvolvedor deve chorar, então essa que
+
+essa que é a polêmica da Treta aqui beleza então
+
+é o episódio de teta que vocês gostam do projeto
+
+que vocês gostam estão vamos fazer episódio de trader.
+
+Antes de começar a apesar de hoje, né destacar que
+
+o deve cross podcast tem o apoio da E dá
+
+nova oito estabelecer as insegurança sistemas e código civil.
+
+O link da Nova oi De olho da Chuck no
+
+Brasil está abaixo na descrição do episódio aqui no Youtube
+
+ou no nosso site deve ser qual Podcast Ponto ponto
+
+ponto b beleza nas outras plataformas não tem link ok.
+
+A contabilidade olímpica é especializada em profissionais áreas ti,
+
+você precisar abrir sua empresa ou migrar de contabilidade,
+
+entrei em contato com o pessoal da contabilidade oli
+
+que eles estão prontos pra te atender.
+
+Aliás eu queria destacar o ponto aqui, de volta aí
+
+um twitter né, o pessoal entretanto ou discutir enfim, sobre
+
+o famoso Po Cnpq é certo é que é melhor
+
+que é pior, Eu não vou entrar.
+
+O ponto é, você empresário, você tem uma empresa
+
+ou quebra abrir uma empresa né, quer trabalha com,
+
+você acha que isso faz sentido pra você ser
+
+ou já Pgr quer mudar de contabilidade, não importa,
+
+fala que o contabilidade de são os melhores é
+
+especializados em profissionais áreas beleza então troca pros os
+
+caras questão vão te ajudar.
+
+Os caras com as meninas aí na verdade
+
+tem muito mais meninas ao trabalho beleza, equilibrar
+
+também da gol curte que é especializada em
+
+application civil quer desenvolver software foi seguro, fale
+
+com você beleza vão te ajudar também.
+
+E está procurando vago vaga vou uma
+
+vaga de trabalho ponto jobs office.
+
+Bate e gratuito ao mesmo tempo.
+
+Beleza, essa são os recados de hoje, pros nossos ouvintes
+
+aliás, eu queria destacar também gente que a gente está,
+
+em todas as plataformas, eu vou até pegar aqui de
+
+novo eu abrir a minha minha colinha aqui quer tanta
+
+plataforma que eu não lembro aqui.
+
+Todas as plataformas que o podcast você pode ouvir o
+
+podcast, não é por podcast um escritor que é onde
+
+a gente faz o 0 né do próprio podcast, no
+
+spotify obviamente no I high Meio na plataforma de de
+
+rádio e também podcast do Google podcast quem não sabe
+
+o Google ter uma plataforma podcast é muito bacana, no
+
+próprio youtube também né tem a playlist está separada na
+
+no clube de podcast, no Amazon News né, também estamos
+
+lá o ka no Mister, né, muita gente ainda o
+
+diesel gosta muito disso gosta do spotify.
+
+Podcast também a plataforma por dentista de podcast famosíssima aí
+
+no no no mundo do podcast, do pode uma plataforma
+
+muito bacana e no J Que é uma plataforma relativamente
+
+nova tá então, qualquer dessas plataformas você quer escutar ou
+
+da o podcast estamos lá tá na plataforma de sua
+
+preferência, às vezes o pessoal gosta muito Youtube e não
+
+se dá conta que que tem plataformas de áudio apenas
+
+né no youtube você tem o vídeo tem minha cara
+
+que maravilhosa, mas lá no do das plataforma deu alto
+
+né então você consegue acompanhar ali quantidade júnior na cuzão
+
+enfim né fica um jeito mais fácil de você.
+
+Acompanhado da você cortar podcast o conteúdo que
+
+gente te oferece aceito aqui pra você. Beleza?
+
+Bom pessoal vamos lá episódio de hoje, o que
+
+que eu queria falar queria desabafar pouco ele queria
+
+falar de uma treta que ter me construído aí
+
+algum tempo, e que eu não sei como resolver.
+
+Na verdade é ainda não tem um opinião formado
+
+de fato e não precisa resolver esse perguntando.
+
+Mas é algo que devemos discutir a gente começa a agora.
+
+Neves c escreve c.
+
+Qual é a treta gente o negócio é o seguinte, por que
+
+que eu comecei o episódio falando no medo do Dec né?
+
+Eu vejo que muitas empresas hoje
+
+têm caminhado hoje não né?
+
+Nos últimos dez anos outro eu diria.
+
+Elas têm caminhado pra esse modelo de squads,
+
+né, times mais autônomos né, ou times mais
+
+independentes então você até mais uma só.
+
+Dez pessoas novas pessoas.
+
+E ela tem lá os seus desenvolvedores o Card Dex,
+
+o cara de teste o cara de segurança enfim tem
+
+e as pessoas o pio pelas pessoas suficiente pra aquele
+
+time funcionar, né, Tive relativamente pequenos, suficiente no no dentro
+
+de uma do organizacional vamos coercitiva esse time ser responsável
+
+por pela entrega de um produto de um serviço do
+
+que que é que seja né pra compor todo às
+
+vezes outro produto como todo, mas ele é responsável por
+
+toda entrega desde a concepção ali né, no começo até
+
+o final é produção e tudo mais assim como e
+
+isso com relação à segurança coisas Só que segurança é
+
+muito difícil achar profissional.
+
+Então é muito raro, muito raro, as empresas que
+
+vocês veem um deve ou olhar desculpa um cara
+
+de segurança por s, é muito difícil, tá?
+
+Então o que que é que acaba acontecendo?
+
+Tem de segurança.
+
+Sei lá sim dez pessoas depende da mais empresa,
+
+não só psique mas não time de segurança, então
+
+algumas pessoas com tolkien, e essas pessoas acabam sendo
+
+um ponto central para todas as quests da empresa.
+
+Beleza em todas as quests que precisam
+
+de ajuda, pra precisam de uma restante
+
+de segurança fala essa galera centralizada.
+
+Que você pode até dividida ah o caso então cuida do Time a
+
+B c né time day F que cuida o 0 Joaquim Maria.
+
+Só pra ficar um pouquinho
+
+mais mais estruturado vamos chamar.
+
+E aí ok, tem muita coisa funciona muita outra
+
+coisa não funciona eu time de segurança não consegue
+
+participar de tudo, não consegue ter todas sessões.
+
+E aí entra o papel das políticas por exemplo.
+
+Né, você tem uma política de desenvolvimento seguro,
+
+a própria política de segurança, uma política de
+
+boas práticas de codificação, sei lá diversas políticas
+
+que vão guiar o desenvolvimento via desenvolvimento do
+
+produto tá gente está falando um do time
+
+de desenvolvimento em específico agora, mas guiar o
+
+desenvolvimento do software pra sua empresa, ou seja
+
+todo mundo envolvido no ciclo de desenvolvimento só.
+
+Então essa esse é esse é o cenário tá desenho aqui
+
+o cenário pra gente começar a a abordar o tema aqui,
+
+e aí dado esse cenário você tem também um outro contexto
+
+onde nesse mesmo lance mesmo modelo de equipe funciona, mas dentro
+
+de cada s, você tem ali um um por exemplo cara
+
+sênior, as vezes um arquiteto que ele acaba assumindo o papel
+
+de civil champions, é o que a gente chama o seguinte
+
+our, tá dentro do do do da Mas o secretário ele
+
+tem muito mais poder então muda um pouquinho.
+
+Mas teria seguinte que ele champions
+
+pelo day do inglês quest.
+
+O que que é esse esse título?
+
+Ele é o cara que distribui as tarefas as preocupações
+
+e etcétera com relação à segurança pro time, ajuda Time,
+
+auxilia da frente e faz a interface com o time
+
+de segurança, já lembra que a gente de segurança mais
+
+centralizada que não tem braço pra todo mundo ele faz
+
+essa ponte com esse cara.
+
+Ele recebe treinamentos e tudo mais dá muito
+
+mais faz quantidade de segurança escalar a segurança,
+
+focando no equipe champions do que focar em
+
+todos os debates ou todo mundo da.
+
+Beleza, apesar de ser necessário também.
+
+Mas acaba tendo essa estratégia são uma estratégia muito
+
+bem apresentada, muito bem recebida pelo mercado e é
+
+o que tem mais ou menos funcionado.
+
+Mas nem todo mundo faz assim
+
+né, tem outras estratégia justamente.
+
+Até aí mais ou menos ok que
+
+Porque que mais ou menos o ok?
+
+O fato desses times dessas espécies eles serem im
+
+né, a palavra da da fez eles seriam moderados,
+
+podem fazer tudo altos citados, aquela coisa toda?
+
+O conhecimento de segurança ele às vezes não chega até
+
+lá, e mais ter o secretária ali, o às vezes
+
+não tem mesmo, então o time de segurança faz essa
+
+interface e tal, aí você tem lá um scan de
+
+por exemplo os candidatos aí gostas das vulnerabilidades.
+
+O que que esse time faz, ele conta preciso
+
+corrigir, mas a probabilidade nunca é a segurança a
+
+propriedade a entrega do produto a prioridade fita pra
+
+de até um bug que está livre né, mas
+
+a funciona a vulnerabilidade de fato não.
+
+Depende da vulnerabilidade que claro tá gente falando de um
+
+modo bem bem genérico aqui, Acho que isso é algo
+
+mais crítico e tal o pessoal né, tende a corrigir
+
+etcétera Mas por que que eu coloquei medo do deve?
+
+Eu tenho visto nos últimos, doze meses vou
+
+considerar assim não no último ano especificamente pelos
+
+últimos doze meses Eu tenho interagindo com algumas
+
+empresas né outros profissionais da área e tal.
+
+E eu tenho visto o seguinte, a segurança, ls
+
+precisamos uma empresa está começando a fazer segurança agora,
+
+ou começando a fazer aprendizagem seguinte que agora.
+
+Queremos colocar uma ferramenta de de código.
+
+Perfeito, está aqui a ferramenta assim ela funciona, integra
+
+a nossa pipeline no cheque por exemplo, o integra
+
+na sua página online integra na integra pipeline integra
+
+no carla que você quiser, dá pra você fazer
+
+ide dá pra você fazer direto o cara fez
+
+um pull request você faz o tomate então isso
+
+está lá ferramenta ferramenta é menor dos problemas.
+
+Ah mas e os atributos da ferramenta, onde ela
+
+vai jogar essas tonalidades ah, você quer Teams você
+
+aqui é um slack, você quer no bicho você
+
+quer é no Rick tem importa, aí jogar algum
+
+lugar pra você, na melhor forma você beleza.
+
+Ah mas e os fatos positivos, né?
+
+Então, vai sempre vindo veja só, você tem
+
+uma solução, que que você quer fazer quer
+
+código legal Você tem uma solução perfeita, chuck.
+
+Aí ah mas e os atitudes.
+
+Ah mas e a integração.
+
+Ah mas Entre uma série de
+
+preocupações que não deveriam estar lá.
+
+Do ponto de vista de decidir ou
+
+não ter esse tipo de ferro.
+
+Depois ponto de vista operacional como é que você
+
+vai integrar como é que você vai ter, né?
+
+Não estou falando ah vai faz o
+
+conta com isso, mas no ponto vista
+
+operacional sempre ponto de vista estratégico Não.
+
+Você não pensa assim, putz, eu tenho
+
+que ir no médico quase um exame.
+
+Ah, mas vai ter que tirar sangue vai doer.
+
+Ah mas eu vou ter que pegar fila, ah, mas
+
+e você achar alguma coisa, ah sabe você não faz
+
+esse questionamentos você vai e faz design exame e quando
+
+acabou está com dor, está com problema, o médico pediu
+
+não importa você vai faz, né?
+
+Então a segurança essa vez uma coisa segurança gente,
+
+no caso do sa tá é um exame do
+
+código, você tem que questionar você precisa ou não
+
+precisa, é fato pesquisas mais pesquisas mais pesquisas e
+
+mais fatos, mostram que as vulnerabilidades de só de
+
+de segurança acontecem noventa dos dos softwares.
+
+Noventa e dois por cento das
+
+urnas segurança acontecem em software.
+
+Ou seja, software é o caos, essa é a verdade.
+
+Tá então software é a fonte de muitas vulnerabilidades.
+
+Beleza, própria bis ga né, enfim
+
+tem números, redor do mundo anos. Não sou eu.
+
+Então ok, diz aqui esse esse contexto todo,
+
+o medo do deve entra no seguinte contexto.
+
+As empresas ah não mas.
+
+Vou colocar essa ferramenta de sas, mas
+
+como deve vai reagir a isso?
+
+Será que o Deve vai gostar, Será que o Deve
+
+vai se sentir ah agora eu tenho um mil na
+
+pra corrigir uma ferramenta por exemplo, de novo, do ponto
+
+de vista estratégico, isso não tem que ter preocupação ponto
+
+de vista operacional sim, ao invés de sermos na hora
+
+das a do moleque, voltar da da Enfim, na na
+
+cara do desenvolvedor, você filtra né, cara eu vou fazer
+
+um escanteio só de vulnerabilidades altas por exemplo, capas e
+
+críticas, médias e baixos depois eu vejo.
+
+Bom, então em invés de mil a menos que pessoas
+
+mil sejam críticas né, mas lá já reduz um pouco
+
+esse número, e reduz meu número de fases positivas, as
+
+melhores mais críticas, elas tendem a ser bem menos né
+
+ser de mais de fato verdade positivos né, positivo.
+
+Então você reduz um pouquinho se nós
+
+e vamos chamar reduz um pouco esse
+
+barulho ganhou no nesse contexto cultural. Beleza.
+
+Mas aí, ah mas o deve ele está acostumado sabe
+
+ele aqui a gente usa o bit, então deve aqui
+
+ele está acostumado a receber eixos lá no git eixos.
+
+Ok a gente gosta eixos lá Ah mas tem
+
+um s aqui específica que eles usam gira.
+
+Então ferramenta tem que no gira também ah mas
+
+putz mas a ferramenta não manda o campo específico
+
+lá no jira, sabe, veja veja gente?
+
+Que eu estou colocando assim?
+
+Está todo mundo preocupado com o que o deve.
+
+Está todo mundo preocupado Deve, deve deve,
+
+está todo mundo com medo do dever. Essa é a verdade.
+
+No sentido de o ruído que vai gerar pro Deve, o
+
+desgaste que vai gerar que vai gerar mais trabalho né mais
+
+menor, mais bancos mais trabalho pro Dem não só que deve
+
+né pro pior costume time de quiabo todo mundo envolvido Não
+
+só bem entendeu ver o que comunica Ah mas vai gerar
+
+vai ter que ter agora pull Request tem que esperar um
+
+tchan, ah vai demorar, vai demorar quanto, tá, depende do tamanho
+
+do público request né, mas um minuto cinco minutos dez minutos
+
+depende perdi tamanho do código.
+
+Então ah vou esperar um minuto a mais vou aprovação
+
+request não dá gente a diariamente e não cara.
+
+Então assim, sabe esses argumentos eles vêm chegando de
+
+vários lados que eu começo a falar caralho velho.
+
+Sabe é gente?
+
+Vamos lá, você sentir uma dor.
+
+Sentir uma dor, ou você só que dor, né, você
+
+está só sentindo, ele quer fazer um checkup duro se
+
+chegar pelo é isso se você está tudo bem, fazer
+
+algum Vai no médico fala do doutor.
+
+Se fazer um checkup up aqui, Legal vitor
+
+então fala vamos lá, respira põe lá o,
+
+esqueci o nome, esse estetoscópio não era pra
+
+tal seu pulmão coração lindo ou maravilhoso.
+
+Respira fundo, você é importante é pra te respirar.
+
+E aí ele fala olha olha cara legal, né,
+
+fisicamente aqui se parece tudo bem, mais você está
+
+dormindo bem está comendo bem não dá Pra.
+
+Então mas vamos fazer uma posição vamos vou fazer um exame
+
+de sangue lá uma bateria de semente de sangue pra avaliar
+
+como é está, vamos fazer um uma é lá quer ver
+
+com estômago vamos fazer um sei lá exame de vista, né?
+
+Então passava uma série de anos.
+
+Aí você vai fala assim puta mas esse exame aqui
+
+dos, vou ter que ficar neste ter que dormir, ah
+
+mas vai enfiar um tubo na minha se já foi
+
+o coisa Pior que eu estou ligado.
+
+Tema da vinheta piada vezes segurança. Tecnologia.
+
+Neves c.
+
+Ah vou ter que Vou ter
+
+ficado acostumado pronto espera aí.
+
+Ai cara eu vou ter que ficado
+
+acordado, pra fazer e estava bola.
+
+Então você começa a colocar uma série de empecilhos,
+
+ah vamos achar alguma coisa passar pra cara, simplesmente
+
+fazer algo que é bom pra você.
+
+Fazer um exame ver se você não tem algum problema
+
+no estômago por exemplo né, ou checkup dezenove sangue enfim,
+
+você você consegue precisa ah mas esse o resultado da
+
+positivo você tiver doente aí ótimo você trata, se você
+
+não sabe o negócio se lastro fica pior.
+
+Com segurança de desenvolvimento de aplicar gente é a mesma
+
+coisa, time de segurança precisa fazer o quê, proativa fazer
+
+esses exames, cara como é que está corpo?
+
+Como é por sabe por quê gente Por
+
+que que a gente precisa fazer isso?
+
+Porque quê o cara que precisa atacar a
+
+empresa, ele só precisa conhecer um problema nosso
+
+som, uma bras uma porta aberta, só uma.
+
+Nós que precisamos nos defender, a gente
+
+precisa saber todos todos as nossas baixas.
+
+A gente precisa protege, até muito mais complicado.
+
+Percebe, lembra da história do do Jackson V motoboy
+
+ele fala a blusinha do motoqueiro irrita vocês né
+
+motorista, falei se rita você ouvem uma minha, imagina
+
+que ouço todas as minhas possíveis.
+
+Percebe, então eu tive de segurança precisa proteger todos os braços,
+
+e o time de de o cara que atacar o time
+
+não o carro que atacar cá, e ele só se.
+
+Então quando a gente quer fazer esse
+
+escândalos buscando criando aplicação, analisar exato tudo
+
+isso, buscar os altitudes entender se é
+
+um falso positivo não há beleza.
+
+Sei o que são problemas, fizemos os exames
+
+temos os resultados agora a gente trata eles? Por quê?
+
+Se tratar, pode se arrastar, pode virar uma ameaça
+
+de fato alguém vai explorar isso, tem um problema
+
+um pouco maior um impacto um pouco melhor.
+
+É simples assim, é simples assim.
+
+Agora a galera fica com essa está com medo do
+
+deve ai mais um Deve não vai gostar dessa integração
+
+porque não não gosta é uma mensagem no slack, O
+
+Slack é a a aluna do Belém.
+
+Custa trinta dólares dessa essa porra por luxúria as
+
+depois pagar a fortuna pro bagulho que manda mensagem,
+
+dá pra usar de graça qualquer outro aplicativo.
+
+Mas é enfim, nada contra o em si mas, contra
+
+pagar essas esse tipo de coisa, Enfim, ah, mas o
+
+deve aqui está acostumado com o eixo board então tem
+
+que jogar tudo lá no work Precisa criar um gordo,
+
+ok, Essas inteligências hoje de menos essas ferramentas de o
+
+chuck faz isso no olho fechado de cinco minutos, três
+
+minutos tem e cinco três mil.
+
+Então assim, o medo de déficit como ele
+
+vai reagir como vai colocar as coisas?
+
+Ah mas é mais trabalho pra ele
+
+ah mas pra aqui esse medo gente.
+
+É o contrário essa parada.
+
+Não é as empresas e eu vou dizer empresa
+
+como um todo time de segurança não é as
+
+empresas tem que ter medo do dever.
+
+Ele que tem que ter medo e na verdade não medo
+
+né, ele tem que ter respeito pelas políticas da empresa.
+
+Uma coisa é você não ter política nenhuma padrão
+
+de desenvolvimento nenhum eu falar de segurança o cara
+
+faz o que ele quer está tudo certo.
+
+Outra coisa é, ter uma política lá que você definiu, todo
+
+o código aqui antes de uma produção tem que ser feito
+
+em campo e vão na verdade críticas serão corrigidas.
+
+Qual conhece a sua política se definiu isso aí
+
+chega um lado ah cara, mas essa finalidade que
+
+é difícil demorar pra corrigir eu não vou corrigir
+
+é com que a si mesmo.
+
+A beleza não estou então está bom então deve
+
+estar incomodado não vamos fazer nada amanhã corrijam vê.
+
+Então a sua política não vale, então os seus valores como
+
+empresas de entrega segura ou de entrega qualidade, vai por água
+
+abaixo porque você está com medo do dez que eu deve
+
+falou demora um dia mais dois dia, Então demora dois dias
+
+a espere e faz, vai fazer mil.
+
+Aliás aquela vulnerabilidade está lá porque você criou,
+
+intencionalmente ou não, tá, estou discutindo isso Você
+
+está fazendo uma fraude coisa do tipo mas
+
+normalmente ele é é não intencional.
+
+Os bancos também estão lá não intencionais, a maioria
+
+deles, e aí time de guerra faz o teste,
+
+e identifico os bancos a gente corrige.
+
+Não é assim, como uma segurança é um problema?
+
+Por que que que o segurança é tudo carlos isso aí
+
+vai demorar o esc é falso tudo eu fácil positivo.
+
+Eu cheguei a fazer testes esses dias aí no no cliente,
+
+tudo, assim tudo, a ferramenta mostrou um monte de mão.
+
+Tinha lá Pelo que pude avaliar tá gente, mais
+
+ou menos uns treze por cento que faz positivo.
+
+Você até imagine, sem vulnerabilidades, treze
+
+positivos tem noventa e sete né
+
+oitenta e sete coisas pra corrigir.
+
+Né é oitenta e sete então vamos lá.
+
+Aí pro cara não era tudo falso positivo, falou cara
+
+você que você está me dizer não é você fez
+
+isso foi no médico, médico te fala olha, você está
+
+com uma uma sei lá está com uma lesão na
+
+ponta, você está com inflamada e sei lá.
+
+Aí você fala não não não é faço positiva. Porra?
+
+Você perdeu a confiança no médico, Pode acontecer
+
+você pedir uma segunda opinião, vai no outro
+
+médico, cara vai falar a mesma coisa talvez.
+
+Mas questionando a ponto de você não quer
+
+fazer aquele trampo que você não quer ter
+
+aquela demanda, você ridículo, isso beira infantil infantil
+
+otimismo e infantil enfim, subir a can.
+
+Ah eu não quero fazer mala ah é mais banco pra
+
+corrigir e vou na verdade está quem fazer calhar pra quê.
+
+Lembra do diálogo do talvez de ferro e
+
+o doutor Estranho né Como foi a pergunta
+
+qual que é o seu trabalho mesmo?
+
+E doutor Estranho responde, proteger a sua
+
+realidade seu, O time de segurança está
+
+literalmente fazendo isso no, protegendo pra que
+
+as metas não aconteçam nem empresa.
+
+Pra que literalmente impacto não aconteça no tem diminuir
+
+os riscos, diminuir os os né, Então aí o
+
+cara pra quê fazer isso com, a pra fazer
+
+isso pra aqui, Por que que eu preciso disso?
+
+Por que porque sim, e pronto acabou a política da empresa
+
+definiu que tem que ter esse candidatos código definir de teste
+
+uma vez um ano definiu que você vai rodar um link
+
+na ide por exemplo, fodase, ai e como é que o
+
+Deve vai reagir Ai e como é que deve vai que
+
+o time e vai aceitar isso, E tem que aceitar meu
+
+irmão, aceitar o camera, vai fazer segurança, vai fazer o standup
+
+e eu estou só falando de, eu estou nem falando de
+
+análise de requisitos de segurança, definição de quer dizer modelagem de
+
+ameaça também falam disso, falando de stand código, mas sabe por
+
+quê eu vou dizer por que por que que o cara
+
+não gosta conta que ele é calhar.
+
+Causa de uma parada chamada Ego Ai eu sou perfeito o
+
+cara do Java que é o meu já é lindo e
+
+maravilhoso eu amo Jeans, está aqui meu código, pode uma produção
+
+sabe testar, está cheio de neve assim que acha que é
+
+o, Jesus do do código né não é, Na verdade você
+
+não é, nem fazer direita Essa é é a grande realidade.
+
+Naturalmente você sabe usar poli enfim.
+
+E aí o que acontece, Esses caras ego essas
+
+ferramentas segurança, ou de review de segurança, eles batem
+
+direto com o ego porque o cara está falando
+
+meu pode é perfeito, entreguei, aí vem alguém de
+
+segurança fala cara o código tem mais que aqui.
+
+Meu code e, ou como um nove ford um information,
+
+não importa, Tem uma vulnerabilidade aqui, como assim, Eu sou
+
+um Jesus do código, e você queria você, você nem
+
+sabe fazer código você de segurança, como você fala que
+
+o meu código tem um problema.
+
+Sabe esse na minha visão não tem uma conclusão sobre
+
+isso gente, por experiência tá, essa é a linha de
+
+treta ainda que existe entre segurança e desenvolvimento.
+
+E por parte do desenvolvimento.
+
+Por parte da segurança é, ele fez o exame, identificou o
+
+problema e re o cara de deve fala é falso positivo.
+
+Tipo de segurança fala não é?
+
+Só que muita gente de segurança
+
+não sabe de fato o código. Não sabe.
+
+O que é um problema.
+
+Aí ele vai discutir o Dez daí vai falar
+
+duas três coisas ali que o cara segurança você
+
+perdeu argumento tem não falar ele beleza.
+
+Deve ganhou uma discussão.
+
+E sabe quem perdeu na verdade a empresa,
+
+é porque se for uma vulnerabilidade de fato,
+
+vai pra produção em empresa tem risco.
+
+E quando der problema aí o mesmo deve
+
+vai chamar os vingadores, né, chama o time
+
+de segurança que agora estamos com problema aqui.
+
+Então percebe, o que tu quero
+
+dizer aqui gente é igual casamento.
+
+Não adianta homem a mulher ficava brigando, discutindo
+
+o casamento a instituição maior tem que ser
+
+mantido e preservada, tá de acordo com as
+
+minhas espécie e minha visão.
+
+Então o ponto é, se o Deve fica brigando
+
+que o código dele lindo maravilhoso um time de
+
+segurança, achou um problema, tem confiança não é um
+
+problema de fato, às vezes por exemplo tem time
+
+que conhece código, caixa que é uma vulnerabilidade, fica
+
+essa, corrigir se corrige vai nenhum maravilhoso.
+
+Não corrigiu, vou um risco em promoção.
+
+E o grande falou que o risco, bem eu falei,
+
+o cara que precisa atacar ele só precisa desse assim,
+
+A gente você sabe todos e essas ferramentas de sas
+
+trazem é são parte do trabalho de segurança.
+
+Mesmo com tudo isso ainda é difícil mapear todas
+
+as maravilhosas ou brechas que a gente possa ter.
+
+Então essa é a primeira parte da treta aqui.
+
+Não tenho medo do Deve.
+
+Coloca uma política de segurança não tem política,
+
+coloca uma política de segurança sua empresa, ela
+
+fazer parte no board a pessoa foi contratada
+
+a pessoa sim ela leu e assinou.
+
+Então você vai criar código aqui então você
+
+tem que criar código de vulnerabilidade críticas e
+
+altas para de acordo com o custo da
+
+ferramenta se a gente definiu aqui ou com
+
+a ferramenta atual que estivermos dizendo sei lá.
+
+Define uma política porque se o cara falava tem lugar nenhum
+
+não é regra da empresa não enorme da empresa eu não
+
+seguir, eu faço isso porque, tá então dica pras empresas é,
+
+que a parte de medo do deve que é quer que
+
+tem respeito de fato aos produtos que você empresa, volto todo
+
+pra vender vai entregar aí etc?
+
+Cria uma política de segurança.
+
+Aqui inclua requisitos de segurança de
+
+desenvolvimento seguro, metodologia e desenvolvimento e
+
+etcétera, Mas escreva isso.
+
+Beleza, ah não tem já tenho a
+
+política que ele não tem isso.
+
+Atualiza publica hoje e comunica todo mundo, a
+
+partir de hoje é assim, pronto e acabou.
+
+Pronto e acabou.
+
+Isso você como empresa, tá, você como time,
+
+ou você toma consciência ou você obedece.
+
+É simples assim.
+
+Ah acho mas e a Ajo a caça, mas esse está
+
+contra o movimento deve a agile estelar, ah mas aí cadê
+
+aos times e autonomia, eu não vou nem responder.
+
+Não é opcional segurança.
+
+Não é o profissional se proteger.
+
+Não é, pra empresa por vista empresarial é, se você
+
+você como um indivíduo, fala putz tal na época do
+
+Covid por exemplo né, que estava treta lá.
+
+Vacina na vacina quer tomar vacina assim não
+
+quero tomar vacina, com o fio do confio,
+
+fodase opinião minha e de vocês não interessa.
+
+Você tomar decisão consciente se você quer tomar a
+
+vacina que você confia acha é válido, vai.
+
+Você acha que não é válido que não confia na
+
+vacina não quer pra, não falou, Isso é uma coisa
+
+como um indivíduo, aí o discordo de Covid de qualquer
+
+cara que quer forçar você a tomar vacina tá.
+
+Isso é minha minha visão.
+
+Em empresa privada, quem manda é o dono, O
+
+Dólar falou que vai entregar código mais seguro possível
+
+e pra isso ele quer fazer exame quer fazer
+
+outras estratégias você faz e acabou você me questiona,
+
+o que você pode questionar é a operação disso.
+
+Cara essa ferramenta que está é maravilhosa ela acha vários
+
+problemas foda, Só que, ela joga isso lá gira.
+
+Aí a gente tem que entrar no gira, verificar por
+
+lá depois volto, será que daria pra jogar direto aqui
+
+no no git a gente usa, por exemplo pô legal
+
+essas tinha operação da parada é a melhor forma de
+
+trabalhar lindo maravilhoso isso aqui pra isso que dos debates,
+
+e as pessoas envolvidas pra que a forma de trabalho
+
+seja mais produtivo, mais ágil etcétera Agora questionar, vou fazer
+
+isso que eu não vou, porque pra quem para, tá,
+
+discordo total, não tem que questionar.
+
+Ninguém fica questionando que que está usando oitocentos
+
+f, se você poder usar poli objeto resolvidos.
+
+Pra que que você está usando trezentas oitenta duas
+
+bibliotecas aqui se talvez você estão usando uma linha
+
+de código de cada uma delas, você poderia ter
+
+feito isso na mão por exemplo e um dia
+
+mais de trabalho, porque as tecnologias tornam mais por
+
+que fica questionando isso isso no seu código.
+
+Deveriam né, mas poucos que eu questionando é autonomia pra
+
+fazer brilho que você quer que você entende, a menos
+
+que tem ali padrão de arquitetura e pós então, medo
+
+de deve gente, bom, não tem que ter medo de
+
+deve, medo de medo do que há e o impacto,
+
+de novo, estrategicamente não, operacional, sim aí aí a gente
+
+discute a quatro, Oh deve negócio é o seguinte todo
+
+gordo vai ser encaminhado.
+
+Como que a gente faz da melhor forma, na Pipeline do
+
+pull request na sua ideia, como é que a gente faz?
+
+Opa opa vamos fazer assim você sabe.
+
+Agora, ah vamos fazer isso a que ah não quero.
+
+Eu já lembro da minha mãe estava jogando bola minha
+
+mãe chegava assim, cinco da tarde cavalo o futebol, ele
+
+vem pra casa já está tarde já vem pra Falou
+
+espera aí mãe, só mais um minuto.
+
+Ela já virava quê.
+
+A pra fora que está no Youtube vem aí
+
+né ela já virava aquela língua pra assim.
+
+Porque e que já atacava levar
+
+a na orelha, vem pra casa.
+
+Manda conta acabou tem discussão, Percebe, enfim nas empresas
+
+de hoje a pode atacar vai nas pessoas.
+
+Leve sex greve c.
+
+Por isso que gente, eu queria trazer esse episódio hoje
+
+né, inclusive a partir do, né, o os dez devem
+
+chorar, não é nesse sentido de que a gente quer
+
+tratar, Pelo contrário quero resolver a treta, toda a sua
+
+episódio de polêmica mesmo dá pra chamar a atenção da
+
+galera Que desculpe está seu queixo quatro anos já, tanto
+
+né se isso já mandaram mensagem de Whatsapp já elogiando
+
+aqui fico muito feliz com isso neves que eu conheço
+
+enfim a galera aí que já houve vinte time de
+
+segurança, de novo no objetivo não é causar treta.
+
+Mas é tentar resolver sua Então eu estou aqui um
+
+um pedaço de que eu tenho visto né no dia
+
+a dia, de empresas discutindo se precisa fazer isso cara.
+
+Se precisa avaliar o código, e e de novo, eu
+
+me con aqui só fazer esse campo pra me entrar
+
+em discussões maiores por exemplo, vai fazer pra modo.
+
+Pra modo, é o trabalho manual, você
+
+precisa sentar ganhar diagrama entender a arquitetura
+
+da aplicação leva tempo fazer.
+
+Então esse é o trabalho muito mais discutível.
+
+Percebe, qual momento fazer qual é melhor framework que
+
+utilizar quem faz em qual momento, se discutir se
+
+faz ou não, isso não tem discussão.
+
+Faz porque o benefício diz pra segurança
+
+é muito grande, Tem que ser feito.
+
+Não todos de faz ou não mas é
+
+muito mais operacional do que um cansaço acho
+
+que você integra em dois minutos e está
+
+fazendo isso quando código sem intervenção nenhuma.
+
+Deve até de fato pra o 0 desenvolvimento então
+
+Essas discussões né esse medo do deve que eu
+
+tenho visto nos últimos dias, últimos meses na verdade.
+
+Então se essa essa motivação fala carlos como
+
+é que a galera o podcast vídeos então
+
+que queria partir te pedir pra vocês.
+
+Comenta nesse episódio, tá na você está as plataformas
+
+de áudio aí não dá pra você comentar muito
+
+mas falar no youtube, né, nesse episódio comenta lá,
+
+Castro o meu cenário é esse, bom está aqui
+
+assim acessado aqui assim assim, porque eu quero entender
+
+as demandas como é que vocês estão fazendo? Né?
+
+De novo, vinte anos de mercado eu já
+
+vi de tudo, tem um monte de coisa,
+
+mas às vezes falta substância pra isso.
+
+Eu tenho um feeling de que é isso ter
+
+acontecido, né um filho de novo com base em
+
+experiências que eu vi que eu vivi.
+
+Em compensação já passei por
+
+empresas que eram contatos.
+
+Aquela s por exemplo, os caras foda
+
+foda assim de preocupado com o produto,
+
+então por exemplo as quests de Mobile.
+
+Os caras têm entregar o melhor aplicativo, por um
+
+negócio era um negócio que eu não tinha mobile
+
+era ecommerce então era um negócio novo tal tal
+
+querer entregar um aplicativo legal funcional né, usabilidade habilidade
+
+aquela coisa toda, e também com segurança os caras
+
+está preocupado em fazer esse quantitativo código e testar
+
+os De ap e só estava tudo certinho, os
+
+caras eles demandava time de segurança.
+
+Quando eu vi os caras na quando falava puta os me
+
+dá trampo de novo, mas era assim era um negócio bom,
+
+poucos agora vamos mapear esse aqui quais são as as ameaças.
+
+Então até que o projeto atrasou uns três
+
+meses por de diversas razões, uma delas coincidência.
+
+Né porque tinha alguns problemas na precisava
+
+resolver resolvidos porque o pessoal decidiu atrasar.
+
+Ô time a quais decidiu, não vamos entregar
+
+sem resolver isso aqui acaba sendo crítico, se
+
+algo aconteceu impacto é muito grande.
+
+Então vamos vamos nos preservar.
+
+Então você percebe que proativa ele pode acontecer.
+
+Aliás, isso deveria acontecer provavelmente.
+
+Eu não precisaria estar aqui como segurança
+
+e desenvolvedor que já fui por quinze
+
+anos falando Neves, analiso o come, Beleza?
+
+E de novo, e olha só eu estou uma
+
+discussão aqui é de testar o seu código.
+
+O, qual é o mundo ideal, que as
+
+empresas invista treinamentos, da capacitação etcétera A respeito
+
+de segurança, com o foco no, Por quê?
+
+Ele vai ele tente a criar menos vulnerabilidade A
+
+partir momento ele sabe como funciona o come g,
+
+ele falou opa então estou criando um método aqui
+
+espera aí, então eu não posso fazer isso, preciso
+
+validar com um parâmetro de retrato.
+
+Pouco preciso que tal coisa.
+
+Ele já faz isso a programação defensiva né,
+
+proativa, aí uma na frente é o standup
+
+rápido porque não vai chamar porque ele já
+
+programou pensando nessa segurança, percebe.
+
+O escândalo vai pegar coisa lá besta né, uma
+
+coisa que passou menos coisa um pouquinho mais mais
+
+avançada mas ele já está se preocupando com o
+
+desenvolvimento seguro, quando ele está contando, percebe gente.
+
+Então a ferramentas como o cheque point double
+
+cheque, então o mundo ideal, que esses caras,
+
+os dez, guerras tinham de todo envolvido no
+
+ciclo de já treinar as segurança.
+
+Cinco, eles tendem a criar menos vulnerabilidades.
+
+Consequentemente, trabalho posterior é menor retrabalho correção
+
+de melhor porque não vai ter, né,
+
+ou tende a ter bem menos.
+
+Beleza essa esse é o panorama que que eu queria passar
+
+pra vocês então Medo do Deve, não, vão ter que ter
+
+medo deve, eu acho que as empresas têm que impor aliás
+
+é onde eu mais vi funcionar, no começo é o né
+
+Ah agora vou atrasar nesse print porque agora tem que fazer
+
+isso do código mas um quando só eu A galera fala
+
+como se não nada né?
+
+Eu sabe falando na verdade não fosse importante.
+
+Como se a gente está falando cara fiz um exame
+
+aqui você está com tumor benigno, né, melhor tirar.
+
+Ah que poste mano, Pra quem vai fazer
+
+esse exame, Agora tem que tirar agora tu
+
+faz a cirurgia vamos agora está vendo. Porra aham?
+
+Que bom cachorro, agora você fala corrige, caralho, é é
+
+uma tão simples que pra mim, se alguém tem opinião
+
+diferente disso, me explica porque não entra na minha cabeça,
+
+reclamar ou achar ruim algo desse tipo.
+
+Claro que é ruim achava tumor é claro
+
+que a harmonia chamava vulnerabilidade na Eu queria
+
+que ela estivesse lá em primeiro lugar.
+
+Mas está achamos, agora a gente corrige, ah outro
+
+ponto crítico não sei como corrigir, calma deve.
+
+Aí aí pra isso é um time de segurança.
+
+Da vou corrigir com como de como é que
+
+a gente faz isso, ela valida parâmetros de entrada,
+
+fala tomar light nisso de tipo de coisa que
+
+você tem que receber de pardo de entrada, é
+
+válido os cortes que estou te mandando esses parâmetros
+
+então você consegue limitar luz fazer umas especificações percebe.
+
+Agora programa faz, depois vão pegar mesmo erro aí eu
+
+volto corrijo, esse mindset de sétimo não funciona mais.
+
+Aí entra essa questão né dessa treta aí
+
+deve ficar brigando com de segurança etcétera oitenta
+
+etcétera isso não funciona mais gente.
+
+Por isso que tem muita empresa que estou tomando
+
+ataque na cabeça por isso que ainda vai ter
+
+muitas peso porque o mais de sete no mundo.
+
+Ou a empresa tem medo do Deve porque é difícil
+
+edifício chá deve, eu pode se ficar sair estou fodida.
+
+Então deixa o cara faz o aquele, tem isso também né?
+
+Não tem que cão caçar com gato, ou
+
+cara, educa, empresas, usos eduque, botam numa ferramenta
+
+coach, usa o cheque podcast por exemplo pra
+
+treinar os de versão gratuita, treine nos caras.
+
+Cara parar de criar vulnerabilidade.
+
+Ainda estou criando de pra isso tem que ter
+
+isso marido esse quatro não tem problema, Faz exame,
+
+quatro no problema, o treino de novo galera é
+
+um ciclo, não ando do dia pra noite.
+
+Agora, esse mar, medo do deve.
+
+Aí o que que que que vai achar, Não
+
+mas a que está acostumada a isso não pode
+
+votar, está acostumado com caceta que vocês estão acostumado.
+
+Vai fazer isso vai achar os problemas e
+
+vai entrar vacinas Correção Estou falando tem que
+
+parar tudo e corrigir por segurança.
+
+Não, mas entendeu os problemas críticos, pra dentro
+
+de um planejamento correto dentro da sua metodologia
+
+que você usa J o Water for ou
+
+metodologia usa, hipótese isso lá pra fingir.
+
+De novo, porque eu tenho visto nesses últimos
+
+tempos é literalmente a negligência, a negligência de
+
+desenvolvedores de, de técnicas, de segurança.
+
+Ah conta essa ficha é bem legal mesmo né vai
+
+trazer mais grana pra gente ou é uma ficha de
+
+de regulamento de regulação regulamentação de mercado então simplesmente gente
+
+tem prazo, fodase só alguém, Ah mas o pode estar
+
+exposto sem autenticação com os dados dos nossos usuários, não
+
+importa, prazo prazo, amanhã de resolve.
+
+Com amanhã muitas vezes nem chega.
+
+Porque não chega então porque você não vai corrigir, vai ficar
+
+lá no esquecimento de fogo ou porque o amanhã já é
+
+tarde demais já tomou um resto na cabeça a sua empresa
+
+já está trinta dias parado, aí de semana no currículo Arrumou
+
+por outro lugar e tem peso clássico.
+
+Os acionistas outros funcionários ou tirando limpeza,
+
+as pessoas que dependem dessa empresa, fodase.
+
+Então você vê que quando eu falo de segurança aqui, eu
+
+não estou só preocupado com o software em si com a
+
+empresa em si tomando um prejuízo na cabeça, com a grana
+
+com risco à imagem, Isso sim só problemas está pegando do
+
+contexto da empresa assim, só que mas seja pra pensar aqui,
+
+uma empresa parada, ações caem, tem que demitir já está também
+
+demissão em massa aí depois tecnologia mas tem que demitir, você
+
+é parou pensar que você perdeu emprego você de tem perdeu
+
+emprego uma coisa.
+
+O dia da limpeza, tido café
+
+recepcionista, outros cargos é totalmente diferente.
+
+Pra você arrumar o do tranco é dois
+
+pra, pra eles talvez sim, talvez não.
+
+Ou pra você, talvez tenha mais recursos, ficar sem emprego
+
+um mês ok, pra essa galera talvez não, talvez sim
+
+talvez não depende, mas no pior cenário não eles não
+
+conseguem ficar no dia sem emprego porque vai perder o
+
+dia do salário que o salário é contado um mês.
+
+Sabe que ter salário contado só que aí no
+
+mercado fala putz queria comprar esse aqui, mas não.
+
+Essa comprar você vai faltar o dinheiro do frango
+
+que é do que é da mistura da semana.
+
+Tinha pra pensar nisso, eu já passei
+
+por isso, sei o que que é?
+
+Então assim, quando eu
+
+falo, que desenvolvimento seguro.
+
+É uma parada que vai além do seu ecommerce estar fora
+
+do lar, além do seu está fora do ar, além do
+
+seu site da, é porque vai no na vida das pessoas.
+
+Quando se lidar com infraestrutura crítica, por exemplo,
+
+como é o caso que Pensa que eu
+
+trabalho, você está tendo guerra, que emprego o
+
+país está atacando o outro a infraestrutura crítica
+
+desativa ao sistema de água da cidade de
+
+energia, da cidade, sistemas de defesa e telecomunicações.
+
+Tem software.
+
+É lá que os caras vão atacar.
+
+Um ataque muito mais pesado, e aí tem deve
+
+falar que eu quero fazer esse quando código.
+
+Esse é o tipo do cara que está
+
+cava, não tem muito como como argumentar.
+
+Então assim, se eu sua empresa hoje qual é a dela?
+
+Dá uma merda hoje, Eu quero você pensa nisso cara.
+
+Você deu uma merda hoje na surpresa empresa.
+
+Quem sofre papo, você sua surpresa, ah, uma
+
+empresa de ecommerce de ela vende comida de
+
+passarinho, né, então o impacto da sociedade é
+
+menor exceto as pessoas trabalha lá.
+
+Ah não eu trabalho numa empresa de
+
+que na verdade é meio de pagamento.
+
+Então se a gente caçar do ar praticamente que a
+
+toda transação no cartão de crédito daí não passa.
+
+Do braço sempre pra gente.
+
+E aí, Dá pra pensar o cara lá na conta
+
+que pariu só não tem dinheiro pra abastecer o carro
+
+está indo com hospital com alguém para que abastecer pra
+
+algum motivo sei lá quem abastecer no porque hospital tal
+
+só que as lula acaba tem fazer isso, você percebe,
+
+e aí o cara fazer o pagamento não consegue.
+
+Ah é fácil falar está bom amanhã eu pago tal
+
+ok, mas é um exemplo, imagina quanto tantos outros vai
+
+estar impactado que serviço está fora, eles tomou um na
+
+cabeça em empresa parada, porque os seus funcionários estão os
+
+dados sequestradores precisam h resgate arte.
+
+Então essa é reflexão que eu quero que vocês tenham.
+
+O software é de vocês, o código lindo, maravilhoso que
+
+vocês produzem que eu já produzi várias vezes né, por
+
+quinze anos, qual o impacto que ele traz, si da
+
+da do ponto de vista de segurança.
+
+Não adianta você ficar questionando vai fazer exame não vai Ai lá
+
+mas eu não gosto de walt da ferramenta é no jira Teams
+
+ou no slack aí não tem a mensagem do slack.
+
+Ramon slack aqui a olha meu, parece jorge né qual
+
+o jorginho, vou ter um personagem igual dele pra esse
+
+caso de ti, ah meia olha eu adoraria essa mas
+
+não gosto a mensagem no meu slack.
+
+Então meu não vai com leque meu quem não usa hoje
+
+em dia né ai olha aqui na empresa, na verdade a
+
+gente antes então a gente usa o sei lá signo, teams
+
+e é, ah não funcionou mandar mensagem que eu x eu
+
+não quero usar ferramenta pela serve pra mim.
+
+Sabe para para fosse aí, só essa essa fã como é
+
+que chama só boy de tecnologia de de de ferramenta lá.
+
+Tudo isso, tem software aí a torto direita, biblioteca a terceira
+
+tanta direita cheia de treta, que foi explorado que negro talvez
+
+desde de vezes nem sabe, vocês nem sabem, eu eu ouvi
+
+o caso esses dias de um colega, ele falou assim cara,
+
+ele ele é do da uma empresa.
+
+E ele falou assim, mano, a gente entrou numa
+
+das das filiais da empresa por fora, por fora,
+
+entrou na na rede tá ganham algumas máquinas dessas
+
+máquinas de conseguir espalhar pra todos as filiais.
+
+Eu não posso falar mais detalhes
+
+precisam sabemos mais ou menos bom. O clube que que é.
+
+Mas ele falou assim mano está tudo aberto
+
+tudo fácil, assim sabe está está tudo fácil.
+
+Então assim gente, lógico o software traz problema mas aí
+
+imagina, às vezes o desenvolvedor fala mas rick que vai
+
+chegar no servidor pra pegar os dados da memória?
+
+A primeiro momento ninguém.
+
+Mas quando alguém entrar na rede quando chegar
+
+e ganhar uma máquina vai precisar de credenciais.
+
+Primeira coisa que ele faz deve de memória,
+
+porque aplicativo voltando lá, ele vai te de
+
+na memória pegar esses strings que estão lá
+
+abertos, normalmente seus olhos cem.
+
+Então assim a sua vulnerabilidade no código as são
+
+no degrau da do ataque da sua do, Ele
+
+vai passar por ali pra continuar o ataque dele.
+
+Sem ela talvez ele paralelo ali, né, teria mais
+
+trabalho fazer outras coisas, mas esse é o ponto,
+
+vocês não pensam desse sujeito jeito, Por isso que
+
+precisam de segurança que pensa desse jeito.
+
+Então desenvolvedores, parem de desrespeitar
+
+as regras da surpresa. Para de achar que vocês são
+
+Deuses parem, parem, ninguém é.
+
+Tínhamos segurança, para de achar que vocês são
+
+Deuses, protegem o mundo se são os indicadores
+
+vocês não são, nem deveriam ser.
+
+Trabalha a quatro mãos, nós
+
+segurança, continua de desenvolvimento.
+
+Quatro mãos seis mãos francesas envolva outros
+
+fiquem, mas trabalhem de forma colaborativa.
+
+Parece que viver em sociedade pro ser humano é um
+
+negócio difícil né, Não consegue entender com outra pessoa como
+
+duas, três quatro pessoas em harmonia, precisa de treta por
+
+ter caos, enquanto no fundo no fundo no fogo, a
+
+boston está seu software sua empresa tomando porrada você manda
+
+uma coisa tá ao modo que está tudo.
+
+Minha empresa fica lá com Ramon na cabeça.
+
+Então essa a mensagem de hoje não devese ser contra
+
+podcast de ter uma aqui pra dar leve ce.
+
+Greve c, uma camada na minha voz eu estou meio gripado
+
+então desculpa as tenho opções do áudio, eu sou Carlos Pereira,
+
+muito bom esse episódio, eu acho que é legal falar um
+
+pouco de coisas que a galera tem medo de falar definem
+
+suas políticas e empresas, coloca lá uma política é uma norma
+
+na hora da empresa é assim que a gente faz, assim
+
+como eu já tem não pode usar email pra ficar mandando
+
+um corrente de gatinhos né o cara assinou.
+
+Mas desenvolvimento seguro?
+
+Seu carregador é desenvolvedor, estou Segundo seu código vai ser
+
+avaliado, pela ferramentas x e todas, é fundamental tem que
+
+ser vendidas por você ponto acabou, E é uma, faz
+
+parte, beleza, defina as melhores práticas trabalha a quatro mãos
+
+pra operar melhor o seu, ferramenta g ou deve que
+
+quer que seja trabalha quatro mãos pra isso, mas a
+
+imposição o top vai fazêlo vai fazer cara, isso pra
+
+mim não tem argumentação.
+
+Vai fazer assim, não tenho escolha.
+
+Se você pensa diferente, comenta no nosso vídeo
+
+pra gente debater o pouco ou se às
+
+vezes te ignorar também faz parte negócio.
+
+Beijos a gente se que bem, eu sou Carlos Pereira
+
+e a gente se vê brevemente vem com uma.
+
+Termina aqui deve sequei dez secar o
+
+seu podcast de segurança em tecnologia.
+
