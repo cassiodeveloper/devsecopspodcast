@@ -1,0 +1,3819 @@
+1
+00:00:01,574 --> 00:00:10,005
+Inovação assim começa aqui deve escreve o
+
+2
+00:00:10,006 --> 00:00:12,385
+seu podcast de segurança em tecnologia.
+
+3
+00:00:21,491 --> 00:00:24,246
+Fala pessoal tudo bem com vocês, sejam muito bemvindos a mais
+
+4
+00:00:24,247 --> 00:00:27,891
+um episódio deve ser podcast eu sou Caso Pereira episódio de
+
+5
+00:00:27,892 --> 00:00:29,644
+hoje a gente já fala um pouquinho sobre o mundo de
+
+6
+00:00:30,162 --> 00:00:33,349
+De maneira geral com um convidado fantástico, que a gente está
+
+7
+00:00:33,350 --> 00:00:37,948
+querendo trazer aqui no podcast tempo já enfim, agenda horários e
+
+8
+00:00:37,949 --> 00:00:40,938
+o cara está ser preocupado, mas ocupado do presidente, mas a
+
+9
+00:00:40,939 --> 00:00:43,131
+gente conseguiu hoje viajar já a gente vai você vai ouvir
+
+10
+00:00:43,132 --> 00:00:45,299
+sobre ele está no Youtube, já está vendo a carinha dele
+
+11
+00:00:45,300 --> 00:00:47,691
+aí né enfim, mas a gente já vai apresentar nossa convidado
+
+12
+00:00:47,692 --> 00:00:48,209
+de hoje.
+
+13
+00:00:48,210 --> 00:00:50,840
+Antes comunicar que, deve ser com um podcast tem
+
+14
+00:00:50,841 --> 00:00:53,447
+o apoio da cheque da nova oito, são especializados
+
+15
+00:00:53,448 --> 00:00:55,281
+em segurança sistemas de código seguro, né o link
+
+16
+00:00:55,282 --> 00:00:57,953
+do Nova oito que de no Brasil isso está
+
+17
+00:00:57,954 --> 00:00:59,987
+abaixo na descrição do episódio e também no no
+
+18
+00:00:59,988 --> 00:01:02,674
+site deve ser podcast ponto com ponto b.
+
+19
+00:01:02,675 --> 00:01:05,225
+A contabilidade olímpica que é especializada em profissionais de
+
+20
+00:01:05,226 --> 00:01:07,697
+ti, se você precisar abrir sua empresa ou me
+
+21
+00:01:07,698 --> 00:01:10,926
+contabilidade entre contato com pessoal dar de de contabilidade
+
+22
+00:01:10,927 --> 00:01:12,817
+olímpica que eles estão pronto pra te atender.
+
+23
+00:01:12,818 --> 00:01:15,693
+Ah eu fui cliente e rec super recomendo mesmo.
+
+24
+00:01:15,694 --> 00:01:19,143
+E também a gol quixote especializada em Quer
+
+25
+00:01:19,144 --> 00:01:21,618
+desenvolver software seguro, fale com a bolsa você.
+
+26
+00:01:21,619 --> 00:01:23,813
+E eu falei pra vocês o projeto pessoal que eu toquei,
+
+27
+00:01:24,332 --> 00:01:27,007
+que ideias não funcionou ainda mas daqui a pouco em em
+
+28
+00:01:27,008 --> 00:01:30,058
+gr que eu tenho certeza é o jobs office se você
+
+29
+00:01:30,059 --> 00:01:33,294
+está procurando né vagas nem nada de Ou que quer anunciar
+
+30
+00:01:33,295 --> 00:01:35,372
+a sua vaga né por ponto de outros.
+
+31
+00:01:35,373 --> 00:01:36,931
+Não custa um milhão de reais pra não ser
+
+32
+00:01:36,932 --> 00:01:39,745
+uma vaca, se paga na pra procurar tranco, está
+
+33
+00:01:39,746 --> 00:01:41,345
+aí o site acho que é uma iniciativa bacana
+
+34
+00:01:41,346 --> 00:01:43,545
+pra comunidade o pessoal poder desfrutar Beleza.
+
+35
+00:01:44,065 --> 00:01:46,994
+O Mark pediu desculpa filho ele é um imbecil não consegue
+
+36
+00:01:46,995 --> 00:01:49,785
+comunicar arrumar a máquina dele pra poder gravar com a gente
+
+37
+00:01:49,786 --> 00:01:51,699
+não tem problema mas ele era pra ele estar aqui hoje
+
+38
+00:01:51,700 --> 00:01:54,704
+também, o Rodrigo Gabriel eu já mandei embora, já não pago
+
+39
+00:01:54,705 --> 00:01:58,373
+salário esse já funciona mais, então vamos focar na no convidado
+
+40
+00:01:58,374 --> 00:02:00,766
+de hoje gente que é é um cara fantástico eu acompanho
+
+41
+00:02:00,767 --> 00:02:03,220
+ele aí um trabalho enfim é um tempo já dei história
+
+42
+00:02:03,916 --> 00:02:08,450
+de segurança, tweets, já palestra enfim né, porque tanta a gente
+
+43
+00:02:08,451 --> 00:02:11,330
+vê o conteúdo dele de alguma forma, que eu diria que
+
+44
+00:02:11,331 --> 00:02:14,785
+é quase um concorrente né porque está fazendo conteúdo de Né
+
+45
+00:02:14,786 --> 00:02:16,625
+uma das coisas que a gente faz aqui no Podcast no
+
+46
+00:02:16,626 --> 00:02:19,385
+canal então acho que é legal ter cada vez mais ter
+
+47
+00:02:19,386 --> 00:02:22,639
+esse tipo de conteúdo especialmente em português né difícil desse tipo
+
+48
+00:02:22,640 --> 00:02:24,517
+de conduta, a gente vai falar sobre isso também no tema
+
+49
+00:02:24,518 --> 00:02:27,354
+de hoje, mas queria receber aqui o magno love e o magno.
+
+50
+00:02:27,355 --> 00:02:29,871
+Obrigado aí pela tua participação pelo teu tempo, a gente
+
+51
+00:02:29,872 --> 00:02:32,959
+sabe que uma é foda Então só agradecer fique à
+
+52
+00:02:32,960 --> 00:02:35,232
+vontade pra se apresentar pra quem ainda não te conhece,
+
+53
+00:02:35,233 --> 00:02:36,787
+né, porque se o cara conhece que a gente gente
+
+54
+00:02:36,788 --> 00:02:39,658
+te conhece já está cometendo um crime né fique à
+
+55
+00:02:39,659 --> 00:02:43,464
+vontade, show de bola valeu o obrigado aí obrigado pessoal
+
+56
+00:02:43,465 --> 00:02:46,298
+Bom dia boa tarde boa noite, né, pra quem está
+
+57
+00:02:46,299 --> 00:02:51,383
+escutando aí, é um prazer estar aqui obrigada aí para
+
+58
+00:02:51,384 --> 00:02:53,202
+abordar essa oportunidade pra esse convite.
+
+59
+00:02:54,620 --> 00:02:56,298
+Vai falar um pouquinho sobre mim aí só eu dar
+
+60
+00:02:56,299 --> 00:02:59,390
+uma introdução rápida depois a gente vai conversar bastante mas
+
+61
+00:02:59,391 --> 00:03:02,070
+né, eu estou na área, já e há mais de
+
+62
+00:03:02,071 --> 00:03:07,110
+doze anos, né, seu desenvolvedor fui né hoje em dia
+
+63
+00:03:07,111 --> 00:03:10,000
+não me considero mais mas tem um passado negro que
+
+64
+00:03:10,001 --> 00:03:13,711
+foi desenhado Java, então assim né, tenho que já assumir
+
+65
+00:03:13,712 --> 00:03:17,835
+logo de cara, mas aí logo no começo da minha
+
+66
+00:03:17,836 --> 00:03:21,464
+carreira eu migrei pra área Pinterest teste e revisão de
+
+67
+00:03:21,465 --> 00:03:27,261
+código, o gerenciamento de de web Faro, né, e atualmente
+
+68
+00:03:27,262 --> 00:03:31,206
+eu trabalho no Canadá na parte de pesquisa em Cláudio
+
+69
+00:03:31,207 --> 00:03:33,996
+Contêiner né, na na Tem micro.
+
+70
+00:03:35,089 --> 00:03:35,728
+É é isso aí.
+
+71
+00:03:36,607 --> 00:03:39,084
+Boa, magno mano o prazer ter você aqui de novo,
+
+72
+00:03:39,085 --> 00:03:41,202
+a gente sempre falou né, de quer trazer cada vez
+
+73
+00:03:41,203 --> 00:03:43,972
+mais convidados que a pessoa está Hoje pela comunidade de
+
+74
+00:03:43,973 --> 00:03:46,646
+alguma forma produzindo conteúdo, e acho que só das palestras
+
+75
+00:03:46,647 --> 00:03:48,961
+que você entrega por aí mundo afora né, inclusive a
+
+76
+00:03:48,962 --> 00:03:50,797
+gente vai falar um pouquinho disso também também recentemente aí
+
+77
+00:03:50,798 --> 00:03:53,610
+fazendo umas palestras, deixou achando um passo bem bem valioso
+
+78
+00:03:53,611 --> 00:03:56,850
+e acaba sendo carente no Brasil a gente fala um
+
+79
+00:03:56,851 --> 00:04:00,410
+pouquinho também de mercado enfim, eu queria começar fazendo um
+
+80
+00:04:00,411 --> 00:04:02,124
+trazendo debate pro seguinte contexto.
+
+81
+00:04:02,783 --> 00:04:05,081
+O que que você acha qual que é a sua visão
+
+82
+00:04:06,060 --> 00:04:08,178
+desse mundo e acho que isso é um pouco legal né?
+
+83
+00:04:08,179 --> 00:04:11,055
+Você falou muito desenvolvedor, né, tive um passado negro
+
+84
+00:04:11,056 --> 00:04:13,586
+com eu também eu não comecei no java mas
+
+85
+00:04:13,587 --> 00:04:15,543
+eu não pisei lá né foi a hora do
+
+86
+00:04:15,544 --> 00:04:17,980
+Da net, era era do inimigo como caras dizer.
+
+87
+00:04:18,953 --> 00:04:20,390
+Mas você acha que é o pouco da
+
+88
+00:04:20,391 --> 00:04:22,265
+minha opinião e eu queria entender a sua.
+
+89
+00:04:22,266 --> 00:04:23,183
+Você acha que é o cara pra
+
+90
+00:04:23,184 --> 00:04:26,037
+ser um bom cara de segurança, em.
+
+91
+00:04:26,909 --> 00:04:30,860
+Ele precisa ter sido deve, ou é possível ser quando o
+
+92
+00:04:30,861 --> 00:04:32,895
+cara jeff Você que vai fazer code de review, vai brincar
+
+93
+00:04:32,896 --> 00:04:36,465
+de sem conhecer desenvolvimento, que o que que você acha não
+
+94
+00:04:36,466 --> 00:04:40,265
+tem Boa, Pô eu sou eu sou da máxima ali do
+
+95
+00:04:40,266 --> 00:04:43,680
+não sei se já viu do Dim Médico né, de Merkel
+
+96
+00:04:43,681 --> 00:04:47,280
+e da Unesp ele fala sobre isso, eu acho que assim,
+
+97
+00:04:49,320 --> 00:04:53,573
+é importante saber programar, né, é tecido sido deve vai ser
+
+98
+00:04:53,574 --> 00:04:56,050
+um plus vai ser um extra extra ali, mas se você
+
+99
+00:04:56,051 --> 00:04:58,567
+quer mexer com a Psique se você vai lidar com o
+
+100
+00:04:58,568 --> 00:05:03,496
+desenvolvedor se você vai tratar né, atrapalhar ou melhorar a vida
+
+101
+00:05:03,497 --> 00:05:05,933
+do você vai ter que ser ter que ter um um
+
+102
+00:05:05,934 --> 00:05:11,185
+um grande deve até pra você ter empatia na hora de
+
+103
+00:05:11,186 --> 00:05:15,839
+de aplicar as ferramentas de de estabelecer processos né, aquele que
+
+104
+00:05:15,840 --> 00:05:18,196
+a gente estava falando antes de iniciar a gravação lá de
+
+105
+00:05:18,197 --> 00:05:23,271
+de de remover os at né, os com desenvolvedores então se
+
+106
+00:05:23,272 --> 00:05:28,400
+você tem esse Se você entende, consegue se colocar né, num
+
+107
+00:05:28,401 --> 00:05:32,335
+no no no sapato do ali na na vida do desenvolvedor,
+
+108
+00:05:33,249 --> 00:05:37,804
+você entende melhor quando quando gera esses at e como evitar
+
+109
+00:05:37,805 --> 00:05:41,120
+eles, né, então eu acho que isso é muito importante.
+
+110
+00:05:41,121 --> 00:05:45,895
+E claro, não dá pra falar de Psique hoje falar
+
+111
+00:05:45,896 --> 00:05:50,588
+de devese, sem que falar de automação, né, então pra
+
+112
+00:05:50,589 --> 00:05:53,225
+você automatizar as coisas você vai precisar fazer um código,
+
+113
+00:05:53,226 --> 00:05:58,153
+nem que seja um inhame da vida um Então assim,
+
+114
+00:05:58,154 --> 00:06:01,389
+e isso é muito importante, né, Ah quer dizer que
+
+115
+00:06:01,390 --> 00:06:05,680
+não pode ser Se não souber programar não, você talvez
+
+116
+00:06:05,681 --> 00:06:10,080
+vai ter que escolher algumas outras atividades ou você vai
+
+117
+00:06:10,081 --> 00:06:11,720
+ter mais dificuldade, né?
+
+118
+00:06:12,374 --> 00:06:15,566
+Então assim a minha recomendação é que saiba
+
+119
+00:06:15,567 --> 00:06:18,479
+programar, pelo menos uma linguagem precisa saber todas.
+
+120
+00:06:18,480 --> 00:06:21,490
+Hoje se você me der um código de cara vale vai pra
+
+121
+00:06:21,491 --> 00:06:23,850
+lá que eu não não entendo mais nada disso daí, né?
+
+122
+00:06:24,370 --> 00:06:27,610
+Então hoje eu pego uma linguagem específica normalmente eu foco
+
+123
+00:06:27,611 --> 00:06:33,705
+mais em python então estou aprendendo cor, mas assim saber
+
+124
+00:06:33,706 --> 00:06:37,105
+código, né, saber qual o código e entender pelo menos
+
+125
+00:06:37,106 --> 00:06:40,440
+em alto nível, né, teve uma pesquisa que eu fiz
+
+126
+00:06:40,441 --> 00:06:43,820
+por exemplo do Kubitschek werneck, onde a gente estava analisando
+
+127
+00:06:45,720 --> 00:06:50,095
+uns atacantes abusando de um Api do Kubernetes que é
+
+128
+00:06:50,096 --> 00:06:52,775
+um api do pio, né que é um agente que
+
+129
+00:06:52,776 --> 00:06:54,995
+roda ali dentro de cada nó do Kubernetes.
+
+130
+00:06:55,827 --> 00:06:58,837
+Essa api não é documentada, não tinha documentação.
+
+131
+00:06:59,373 --> 00:07:01,563
+Eu tive que ir lá no código do Kubernetes lá no
+
+132
+00:07:01,564 --> 00:07:05,049
+Github, ler o código da Api e lá do que thiago
+
+133
+00:07:05,050 --> 00:07:08,680
+go, né, pra entender, mas eu não sabia gol ainda estava
+
+134
+00:07:08,681 --> 00:07:11,249
+aprendendo ainda não ainda não sei gol, né?
+
+135
+00:07:11,250 --> 00:07:14,840
+Mas eu consegui entender porque eu sei ler código, entendeu,
+
+136
+00:07:14,841 --> 00:07:18,111
+então isso facilita bastante na hora de dessas análises na
+
+137
+00:07:18,112 --> 00:07:22,045
+hora dessa pessoa do trabalho, e principalmente cara é o
+
+138
+00:07:22,046 --> 00:07:24,525
+atrito com um que você tem que evitar ao máximo,
+
+139
+00:07:25,125 --> 00:07:27,005
+né, e a gente vai falar mais sobre isso aí,
+
+140
+00:07:27,579 --> 00:07:31,455
+mas na minha opinião é tem que saber ajuda bastante
+
+141
+00:07:31,456 --> 00:07:33,113
+se não souber vai ter dificuldade.
+
+142
+00:07:33,812 --> 00:07:36,544
+Boa é costumo falar que eu não não que me
+
+143
+00:07:36,545 --> 00:07:38,862
+ajuda bastante na área, já pensei hoje acho que de
+
+144
+00:07:38,863 --> 00:07:41,499
+segurança me manda geral desde que eu comecei, é o
+
+145
+00:07:41,500 --> 00:07:44,176
+fato de ter sido deve e aí né, saber programar
+
+146
+00:07:44,177 --> 00:07:48,746
+como como se contexto porque é exatamente isso é você
+
+147
+00:07:48,747 --> 00:07:51,822
+saber falar a língua do desenvolvedor.
+
+148
+00:07:51,823 --> 00:07:54,590
+E o que eu vejo no dia a dia principais problemas
+
+149
+00:07:54,591 --> 00:07:58,537
+é assim por exemplo coisas relacionadas ao sas a tas teste
+
+150
+00:07:58,538 --> 00:08:02,659
+de segurança, obviamente tre em outras questões também mas O atrito
+
+151
+00:08:02,660 --> 00:08:05,295
+que acontece mais um, quando você quer dar trampo porque quero
+
+152
+00:08:05,296 --> 00:08:07,373
+né, ou tem que dar tampa por Deve.
+
+153
+00:08:07,374 --> 00:08:09,490
+Então mano está aqui uma lista de vulnerabilidade você corrigir,
+
+154
+00:08:10,024 --> 00:08:11,818
+onde veio isso sabe verdade lá do Chuck marcelo lá
+
+155
+00:08:11,819 --> 00:08:13,852
+do vera Coach velar lá do sei aonde.
+
+156
+00:08:13,853 --> 00:08:16,325
+Ah não isso aqui é falso positivo, porque o
+
+157
+00:08:16,326 --> 00:08:19,116
+Deve quer evitar mais trampo o backlog aquela coisa,
+
+158
+00:08:19,117 --> 00:08:22,360
+então, muitas vezes o cara já a primeira reação
+
+159
+00:08:22,361 --> 00:08:23,794
+é não, isso não é um problema.
+
+160
+00:08:24,392 --> 00:08:26,943
+O seu trabalho de servidor de É kátia que é
+
+161
+00:08:26,944 --> 00:08:30,715
+um problema, é um risco, por a mais b assim
+
+162
+00:08:30,716 --> 00:08:33,914
+assim está aqui no código precisa ser corrigido seja urgentes,
+
+163
+00:08:33,915 --> 00:08:36,409
+não seja urgente aí outras outras questões.
+
+164
+00:08:36,410 --> 00:08:39,725
+Mas essa conversa não não aula por nível, mas um
+
+165
+00:08:39,726 --> 00:08:42,601
+nível mais técnico, né, de você você falar pro Baby
+
+166
+00:08:42,602 --> 00:08:45,568
+cara o seu código estava vulnerabilidade e ir aceitar isso
+
+167
+00:08:45,569 --> 00:08:47,719
+porque o maior dificuldade é essa né, o deve neuro
+
+168
+00:08:47,720 --> 00:08:49,910
+foi deve, a gente tem um apple muito grande cara
+
+169
+00:08:49,911 --> 00:08:52,158
+você está falando mal do meu filho né, eu como
+
+170
+00:08:52,159 --> 00:08:55,274
+assim, meu código tão maravilhoso então, acho que esse de
+
+171
+00:08:55,275 --> 00:08:57,711
+ajuda bastante e o que você falou, não existe hoje
+
+172
+00:08:57,712 --> 00:09:01,161
+deve ser copa a de uma maneira geral sem automação.
+
+173
+00:09:01,761 --> 00:09:04,797
+Ainda mais quando a gente fala de Esse ice
+
+174
+00:09:04,798 --> 00:09:08,645
+né, continua com livre, até teste de maneira geral
+
+175
+00:09:08,646 --> 00:09:11,119
+e aí eu queria entrar no segundo contexto.
+
+176
+00:09:11,120 --> 00:09:14,191
+Uhum, Essa parte do dia a dia, né vou chamar de dia
+
+177
+00:09:14,192 --> 00:09:18,200
+a dia porque pra é o meu dia a dia, quanto do
+
+178
+00:09:18,201 --> 00:09:21,276
+seu dia o 0 Magno ou quanto você vê vamos vamos chamar
+
+179
+00:09:21,277 --> 00:09:27,402
+assim de Psique, o você está ali coisa construindo coisas putz eu
+
+180
+00:09:27,403 --> 00:09:30,813
+preciso pro lugar aqui a saída do meu saco lá no lucian,
+
+181
+00:09:30,814 --> 00:09:33,929
+eu preciso espetar aqui o a saída do meu tas pra gerar
+
+182
+00:09:33,930 --> 00:09:36,606
+uma regra lá no meu automático por exemplo mesmo.
+
+183
+00:09:36,607 --> 00:09:40,213
+Quanto do cirurgias dias está investimento investiu assim dedicando
+
+184
+00:09:40,214 --> 00:09:42,725
+mesmo né, de de automações, tudo mais tem tem
+
+185
+00:09:42,726 --> 00:09:45,971
+ter essa essa média na cabeça show, Vamos lá.
+
+186
+00:09:47,048 --> 00:09:48,922
+Bom hoje em dia como eu estou trabalhando
+
+187
+00:09:48,923 --> 00:09:51,195
+mais na área de pesquisa, né, eu não
+
+188
+00:09:51,196 --> 00:09:54,167
+foco mais nessa parte operacional em ufsc.
+
+189
+00:09:54,799 --> 00:09:58,072
+Mas justamente o meu primeiro emprego no canadá nadar
+
+190
+00:09:58,073 --> 00:10:00,546
+né, quando eu me mudei pra lá cinco anos
+
+191
+00:10:00,547 --> 00:10:05,590
+atrás, foi eu fui primeiros a secretária né Ana
+
+192
+00:10:05,591 --> 00:10:09,581
+tipo fecha da empresa de uma empresa de delivery
+
+193
+00:10:09,582 --> 00:10:12,575
+de comida no canadá Ifood, só que no Canadá.
+
+194
+00:10:13,308 --> 00:10:15,899
+Então eles já tinham trezentos desenvolvedores, mais
+
+195
+00:10:15,900 --> 00:10:17,255
+de trezentos servidores e eu fui o
+
+196
+00:10:17,256 --> 00:10:19,071
+primeiro cara de segurança de aplicações.
+
+197
+00:10:19,967 --> 00:10:22,574
+Né em dois mil e dezoito, não tinha ninguém.
+
+198
+00:10:22,575 --> 00:10:24,848
+Né, e de segurança só tinha um cara antes
+
+199
+00:10:24,849 --> 00:10:27,800
+que era mais de infra logo depois saiu, entendeu.
+
+200
+00:10:28,558 --> 00:10:31,248
+Então assim, putz como é que eu vou e e
+
+201
+00:10:31,249 --> 00:10:34,324
+eles queriam que eu né você vai ter que chegar
+
+202
+00:10:34,325 --> 00:10:37,361
+e revisar o código de todo mundo com produção, os
+
+203
+00:10:37,362 --> 00:10:41,963
+cara já era devops fazia né modificações de todo dia
+
+204
+00:10:41,964 --> 00:10:46,188
+toda hora né, slack tudo mais, cara não tem como,
+
+205
+00:10:46,189 --> 00:10:49,354
+não tem condições mesmo que eu saiba todas as linguagem
+
+206
+00:10:49,355 --> 00:10:52,568
+conheça a base ali que era java por cima.
+
+207
+00:10:53,704 --> 00:10:58,468
+Mas beleza tipo não tem como, não não não
+
+208
+00:10:58,469 --> 00:11:02,100
+escala isso Você preso ali vou ficar preso ali
+
+209
+00:11:02,101 --> 00:11:05,069
+revisando o código da E não vou conseguir evoluir.
+
+210
+00:11:05,070 --> 00:11:07,790
+Né o ambiente porque não tinha nenhuma nenhuma nenhuma
+
+211
+00:11:07,791 --> 00:11:09,829
+ferramenta de segurança não tinha um sas, não tinha
+
+212
+00:11:09,830 --> 00:11:13,589
+um duarte, entendeu tinha um f mal configurado lá
+
+213
+00:11:13,590 --> 00:11:16,837
+e muito muito errado aí uhum aham.
+
+214
+00:11:17,754 --> 00:11:22,418
+Então assim, aí vai dar questão nessa situação por
+
+215
+00:11:22,419 --> 00:11:25,790
+exemplo numa startup quando você é uma equipe né?
+
+216
+00:11:25,791 --> 00:11:27,170
+Uhum é muito da estratégia.
+
+217
+00:11:27,870 --> 00:11:30,470
+Do que que você quer começar primeiro Eu prefiro
+
+218
+00:11:30,471 --> 00:11:33,201
+conta destruir algo levar tempo um pouco mais de
+
+219
+00:11:33,202 --> 00:11:36,637
+tempo pra produzir resultado e construir algo que vá
+
+220
+00:11:36,638 --> 00:11:41,967
+trazer no futuro, mais benéfico vícios, então automatizar mais,
+
+221
+00:11:41,968 --> 00:11:44,964
+colocar algumas ferramentas ali pra tirar o alto né,
+
+222
+00:11:46,082 --> 00:11:49,054
+justamente detectar esses problemas mais simples que é uma
+
+223
+00:11:49,055 --> 00:11:53,369
+ferramenta, é feita pra isso, né, e depois focar
+
+224
+00:11:53,370 --> 00:11:57,059
+na parte mais difícil, né, falhas lógicas, falhas de
+
+225
+00:11:57,060 --> 00:12:00,734
+autorização que talvez precise mesmo de um podcast de
+
+226
+00:12:00,735 --> 00:12:04,784
+uma análise mais manual, beleza, deixa isso pro futuro
+
+227
+00:12:04,785 --> 00:12:06,656
+mas se você não tem nada cara não tem
+
+228
+00:12:06,657 --> 00:12:09,087
+nada não adianta querer pegar tudo entendeu?
+
+229
+00:12:09,605 --> 00:12:12,409
+Então ferramentas eu investiria mais na automação
+
+230
+00:12:12,410 --> 00:12:15,286
+ação em incluir ferramentas na Pipeline. Uhum.
+
+231
+00:12:15,287 --> 00:12:20,215
+Uhum e aí claro, me, falso positivo né, eu sou
+
+232
+00:12:20,216 --> 00:12:24,295
+eu sou bem cri em relação a isso em relação
+
+233
+00:12:24,296 --> 00:12:28,495
+a pegar resultado de ferramenta e passar pro desenvolvedor.
+
+234
+00:12:28,496 --> 00:12:31,590
+Vai gerar trip, né, esse que você fala, o cara vai
+
+235
+00:12:31,591 --> 00:12:34,750
+falar que é falso positivo e se for, né, se for
+
+236
+00:12:34,751 --> 00:12:38,825
+falso positivo, o desenvolvedor vai perder a confiança na ferramenta é
+
+237
+00:12:39,365 --> 00:12:42,285
+Então assim tem que passar por um crivo do do do
+
+238
+00:12:42,286 --> 00:12:46,445
+analista de segurança nem que seja um estagiário ali alguma coisa,
+
+239
+00:12:46,446 --> 00:12:49,611
+né, um túnel pra fazer uma validação mínima.
+
+240
+00:12:50,129 --> 00:12:53,080
+O que que foi que a ferramenta testou, né, E
+
+241
+00:12:53,081 --> 00:12:56,684
+o que que está refletido no no repositório na aplicação,
+
+242
+00:12:56,685 --> 00:13:00,559
+é isso mesmo, é realmente crítico isso, né, às vezes
+
+243
+00:13:00,560 --> 00:13:02,596
+não é nem que é um falso positivo.
+
+244
+00:13:02,597 --> 00:13:04,367
+Às vezes é que a ferramenta está dizendo ah
+
+245
+00:13:04,368 --> 00:13:06,363
+isso aqui é um crítico mas não é, né,
+
+246
+00:13:07,200 --> 00:13:11,292
+então eu eu sempre recomendo fazer essa avaliação.
+
+247
+00:13:12,245 --> 00:13:14,565
+E aí a gente entra num numa
+
+248
+00:13:14,566 --> 00:13:16,805
+questão de por onde começar, né?
+
+249
+00:13:17,365 --> 00:13:19,125
+Por onde que começa, eu não tenho nada no
+
+250
+00:13:19,126 --> 00:13:22,776
+meu pipeline Estão chegando na empresa agora ou né,
+
+251
+00:13:22,777 --> 00:13:25,771
+a empresa né, está querendo montar um programa de
+
+252
+00:13:25,772 --> 00:13:28,325
+segurança de, por onde eu começo.
+
+253
+00:13:29,305 --> 00:13:33,825
+A minha abordagem hoje e que eu im na na empresa
+
+254
+00:13:33,826 --> 00:13:40,399
+anterior, de começar pela pelo Sa, pela análise de de né
+
+255
+00:13:40,400 --> 00:13:44,040
+o software a com né, análise composição de software ali.
+
+256
+00:13:44,041 --> 00:13:44,480
+Por quê?
+
+257
+00:13:45,214 --> 00:13:47,288
+Porque o Sa ele vai olhar o okay ele
+
+258
+00:13:47,289 --> 00:13:50,000
+vai olhar as bibliotecas ele vai olhar as dependências
+
+259
+00:13:50,001 --> 00:13:52,070
+que você tem no seu software nas suas aplicação
+
+260
+00:13:53,046 --> 00:13:55,717
+e vai apontar problemas nelas né, vai apontar se
+
+261
+00:13:55,718 --> 00:14:01,355
+elas estão des, elas têm vulnerabilidade publicamente conhecidas, problema
+
+262
+00:14:01,356 --> 00:14:02,954
+de licença é essas coisas mais.
+
+263
+00:14:03,555 --> 00:14:06,315
+E o que que isso faz, né, esses
+
+264
+00:14:06,316 --> 00:14:08,954
+problemas não foram seus desenvolvedores que criaram.
+
+265
+00:14:09,488 --> 00:14:12,595
+Entendeu não foi o seu né o seu ali então
+
+266
+00:14:12,596 --> 00:14:14,587
+você não vai estar apontando o dedo, você não vai
+
+267
+00:14:14,588 --> 00:14:17,032
+estar dizendo você não sabe programar, uhum uhum.
+
+268
+00:14:17,033 --> 00:14:18,267
+Você vai dizer dizendo assim, a gente está
+
+269
+00:14:18,268 --> 00:14:21,176
+utilizando uma biblioteca aqui, que está vulnerável.
+
+270
+00:14:21,177 --> 00:14:23,408
+Será que a gente consegue atualizar muitas vezes
+
+271
+00:14:23,409 --> 00:14:26,300
+a correção pra esse problemas é atualizar uma
+
+272
+00:14:26,301 --> 00:14:29,740
+da biblioteca que se tiver um pet né? Beleza.
+
+273
+00:14:29,741 --> 00:14:32,475
+Cara ah beleza eu consigo atualizar aqui com testar
+
+274
+00:14:32,476 --> 00:14:34,634
+a validar vai ter que ter aquela questão do
+
+275
+00:14:34,635 --> 00:14:38,954
+teste re pra ver se a aplicação continua funcionando
+
+276
+00:14:38,955 --> 00:14:40,555
+mas você não está apontando desse você não está
+
+277
+00:14:40,556 --> 00:14:44,040
+dizendo seu filho feio né, está errado.
+
+278
+00:14:44,041 --> 00:14:46,670
+Uhum então eu gosto sempre de começar com
+
+279
+00:14:46,671 --> 00:14:50,034
+essa abordagem de análise de composição de software.
+
+280
+00:14:50,035 --> 00:14:52,990
+E daí seguir pro sas pro baixo no futuro.
+
+281
+00:14:53,550 --> 00:14:58,717
+Boa inclusive eu pegando essa salinha que você entrou, eu
+
+282
+00:14:58,718 --> 00:15:02,388
+sempre falo pra galera você não você não escolhe sas
+
+283
+00:15:02,389 --> 00:15:07,112
+ou Sa, ou da, é meio que são camadas de
+
+284
+00:15:07,113 --> 00:15:09,906
+segurança e testes diferentes, eles vão ser compor ali no
+
+285
+00:15:09,907 --> 00:15:11,462
+seu civil de desenvolvimento segundo né?
+
+286
+00:15:11,463 --> 00:15:14,136
+Você você vai colocar isso pra decidir qual é a melhor
+
+287
+00:15:14,137 --> 00:15:17,430
+pra ir primeiro Mas eu sempre falei também no sentido do
+
+288
+00:15:17,431 --> 00:15:20,790
+So primeiro por um motivo muito simples né, o Marcos tem
+
+289
+00:15:20,791 --> 00:15:24,639
+essa informação mais frias mas é basicamente ter uma pesquisa que
+
+290
+00:15:24,640 --> 00:15:28,311
+mostra que setenta, até oitenta por cento do som de um
+
+291
+00:15:28,312 --> 00:15:32,119
+software hoje em dia ele é composto por de terceiros vício
+
+292
+00:15:32,120 --> 00:15:34,236
+né, então trinta vinte por cento do código que você faz,
+
+293
+00:15:34,237 --> 00:15:36,673
+se você quer olhar do ponto de segurança olha os terceiros
+
+294
+00:15:36,674 --> 00:15:38,351
+primeiro depois vinte um.
+
+295
+00:15:38,352 --> 00:15:43,124
+E isso tem tem várias nessa linha in, saiu no
+
+296
+00:15:43,125 --> 00:15:45,684
+pessoal da Unesp pessoal do defender desse cheque também já
+
+297
+00:15:45,685 --> 00:15:49,776
+publicou isso, e em problema o seguinte esse de dez
+
+298
+00:15:49,777 --> 00:15:54,641
+a trinta por cento é que código seu, isso depende
+
+299
+00:15:54,642 --> 00:15:57,792
+da linguagem, por exemplo eu já vi pesquisa no curso
+
+300
+00:15:57,793 --> 00:16:01,961
+da Science que eu fiz, um instrutor falou assim, quando
+
+301
+00:16:01,962 --> 00:16:06,256
+quando chega a ser uma linguagem por exemplo Javascript, cara
+
+302
+00:16:06,795 --> 00:16:12,359
+esse número customizado cai pra cima feito pode crer cheio
+
+303
+00:16:12,360 --> 00:16:15,513
+de framework cheio de biblioteca uhum então cai pra menos
+
+304
+00:16:15,514 --> 00:16:17,764
+ainda então ou seja noventa e cinco cento do seu
+
+305
+00:16:17,765 --> 00:16:21,364
+código é é de biblioteca de de terceiro, entendeu.
+
+306
+00:16:21,884 --> 00:16:24,684
+Então isso varia por linguagem também, né, então tem
+
+307
+00:16:24,685 --> 00:16:26,575
+que analisar isso qual é a linguagem que você
+
+308
+00:16:26,576 --> 00:16:29,962
+está utilizando, Boa inclusive eu estou está rolando um
+
+309
+00:16:29,963 --> 00:16:32,631
+evento aqui na Polônia hoje, hoje não né?
+
+310
+00:16:32,632 --> 00:16:33,963
+A gente que a gente está gravando
+
+311
+00:16:33,964 --> 00:16:35,482
+o dia que vale no ar episódio.
+
+312
+00:16:35,483 --> 00:16:39,398
+Mas vamos evento aqui na na Polônia dia vinte dois e
+
+313
+00:16:39,399 --> 00:16:42,889
+vinte e três de maio, né que chama coach You, e
+
+314
+00:16:42,890 --> 00:16:45,406
+eu pude participar, a empresa patrocínio acontecendo e tal uma das
+
+315
+00:16:45,407 --> 00:16:48,762
+palestras é o cara da pra software se não me engano
+
+316
+00:16:48,763 --> 00:16:50,720
+e estava falando exatamente sobre supla táxi.
+
+317
+00:16:51,375 --> 00:16:53,454
+E aí né, ele ele usou um número lá pra
+
+318
+00:16:53,455 --> 00:16:56,295
+assim Falou cara, tem uma pesquisa e tem os dados
+
+319
+00:16:56,296 --> 00:16:59,415
+posso trazer uma outra episódio setenta e seis por cento
+
+320
+00:16:59,416 --> 00:17:03,470
+dos desenvolvedores que usam o sobre de terceiros, depois que
+
+321
+00:17:03,471 --> 00:17:06,669
+ele adicionou a biblioteca, ele nunca mais olha, uhum uhum.
+
+322
+00:17:06,670 --> 00:17:09,149
+Ou seja, ele não está fazendo gerenciamento daquele Pacote
+
+323
+00:17:09,150 --> 00:17:11,325
+atualizando a menos que ter um um bug ele
+
+324
+00:17:11,326 --> 00:17:13,565
+precisa atualizar o pacote na mas ele jogou lá
+
+325
+00:17:13,566 --> 00:17:15,845
+acabou, tal ou seja a dorme não mexe.
+
+326
+00:17:15,846 --> 00:17:17,525
+Exato, vai ter vulnerabilidade vai ter um monte
+
+327
+00:17:17,526 --> 00:17:20,020
+de coisa daquilo que cara produção vai fica
+
+328
+00:17:20,021 --> 00:17:22,960
+lá e você acaba errando isso tua mesmo.
+
+329
+00:17:23,780 --> 00:17:27,580
+É dois relatórios bem interessantes aí só deixando referências aí depois
+
+330
+00:17:27,581 --> 00:17:31,027
+mando os links mas dois relatórios bem interessantes que eu gosto
+
+331
+00:17:31,028 --> 00:17:35,015
+de de citar aqui, é um é o da que eles
+
+332
+00:17:35,016 --> 00:17:39,177
+faz o Open source security lá ele faz o relatórios acho
+
+333
+00:17:39,178 --> 00:17:41,093
+que tem um de dois mil e dezenove se não me
+
+334
+00:17:41,094 --> 00:17:42,808
+engano tema de dois mil e vinte e dois o mais
+
+335
+00:17:42,809 --> 00:17:46,813
+novo, o Do Explique e tem um da science também né,
+
+336
+00:17:46,814 --> 00:17:49,523
+que é a quem é a banda do Black Agora se
+
+337
+00:17:49,524 --> 00:17:53,669
+eu não engano, e eles também publicaram um relatório também falando
+
+338
+00:17:53,670 --> 00:17:57,710
+sobre isso, por exemplo, tem uma parte do relatório que diz
+
+339
+00:17:57,711 --> 00:18:05,697
+o seguinte, quando eu adiciono uma biblioteca no meu código, vem
+
+340
+00:18:05,698 --> 00:18:09,044
+umas trinta a mais vem uns cinquenta a mais entendeu porque
+
+341
+00:18:09,045 --> 00:18:11,355
+tem as dependências das dependências entendeu.
+
+342
+00:18:11,969 --> 00:18:14,527
+Então eu já vi casos assim de você
+
+343
+00:18:14,528 --> 00:18:19,721
+estar importando trinta bibliotecas no seu código diretas,
+
+344
+00:18:19,722 --> 00:18:22,371
+né, as dependências diretas, e no final seu
+
+345
+00:18:22,372 --> 00:18:24,364
+código tem quinhentas depende disso.
+
+346
+00:18:25,599 --> 00:18:29,920
+Então cara complicado como é que você gerencia isso entendeu
+
+347
+00:18:29,921 --> 00:18:32,832
+bullying, tem esse problema e tem um que o Rodrigo
+
+348
+00:18:32,833 --> 00:18:34,947
+sempre está gravando aqui com a gente também de conta,
+
+349
+00:18:34,948 --> 00:18:36,782
+ele trabalhava numa empresa de como que a gente trabalhou
+
+350
+00:18:36,783 --> 00:18:39,153
+junto em também inclusive não dá pra falar mal mas
+
+351
+00:18:39,154 --> 00:18:41,271
+está morando linkedin antes você com deduz quem é?
+
+352
+00:18:42,669 --> 00:18:45,626
+Eles usavam o Framework lá que era isso, O site demorava
+
+353
+00:18:45,627 --> 00:18:49,952
+sei lá, dez quinze segundo pra carregar home, por causa de
+
+354
+00:18:49,953 --> 00:18:52,945
+loading de Javascript na aí o dia em saber. Porém mano.
+
+355
+00:18:52,946 --> 00:18:55,594
+Que porra resto errado, não pode dizer assim, e eu
+
+356
+00:18:55,595 --> 00:18:57,472
+lembro que o resultado final foi, Falou cara, Os caras
+
+357
+00:18:57,473 --> 00:19:00,308
+carregava um framework um javascript da vida fazer o upload
+
+358
+00:19:00,309 --> 00:19:03,680
+dia inteiro pra usar uma linha uma função que era
+
+359
+00:19:03,681 --> 00:19:06,240
+nada assim, era passar implementar aquela função na mão do
+
+360
+00:19:06,241 --> 00:19:09,560
+que pegado à biblioteca inteira né tal acho que tem
+
+361
+00:19:09,561 --> 00:19:12,933
+esse trabalho que você falou de né, de fazer o
+
+362
+00:19:12,934 --> 00:19:17,368
+0 gerenciamento das mas tem também aí talvez a gente
+
+363
+00:19:17,369 --> 00:19:19,605
+entre agora no no pedacinho de design e arquitetura né,
+
+364
+00:19:20,299 --> 00:19:22,217
+também um dedinho ali no de alguém olhar pra esse
+
+365
+00:19:22,218 --> 00:19:25,094
+projeto atrás que ele está sendo construída e falar cara.
+
+366
+00:19:25,095 --> 00:19:27,491
+Precisa mesmo trazer essa biblioteca, vamos fazer esse método na
+
+367
+00:19:27,492 --> 00:19:31,105
+mão, e aí aí é o outro tema né?
+
+368
+00:19:31,106 --> 00:19:33,545
+Uhum uhum as discussões de segurança e arquitetura
+
+369
+00:19:33,546 --> 00:19:35,065
+não sei se está vendo nas suas pesquisas
+
+370
+00:19:35,066 --> 00:19:37,105
+ou trabalhou isso na na época operacional.
+
+371
+00:19:37,720 --> 00:19:40,040
+Discussões sobre segurança e arquitetura né, que a gente
+
+372
+00:19:40,041 --> 00:19:42,240
+fala pra discutir o quanto antes, tal tal eu
+
+373
+00:19:42,241 --> 00:19:43,800
+inclusive tenho vou dar a minha abordagem né, eu
+
+374
+00:19:43,801 --> 00:19:45,480
+tenho falado vocês não precisa fazer tipo de leve
+
+375
+00:19:45,481 --> 00:19:47,575
+mais se você começar no leve você não precisa
+
+376
+00:19:47,576 --> 00:19:49,855
+mudar pra você já começa de direito?
+
+377
+00:19:50,495 --> 00:19:52,455
+E essa essa discussão em arquitetura ou amarelo você
+
+378
+00:19:52,456 --> 00:19:55,315
+tem visto isso como bons teve isso isso acontecer,
+
+379
+00:19:55,909 --> 00:19:57,503
+que que que você tem pra trazer pra gente
+
+380
+00:19:57,504 --> 00:20:00,690
+assim, escuta segurança lá atrás, Você você está pensando
+
+381
+00:20:00,691 --> 00:20:04,373
+num projeto, porque depois às vezes coisas desse tipo
+
+382
+00:20:04,374 --> 00:20:05,732
+vai dar mais trabalho pra você mudar.
+
+383
+00:20:05,733 --> 00:20:06,930
+Uhum uhum Vamos lá.
+
+384
+00:20:07,729 --> 00:20:13,696
+Beleza, eu também sou pra a favor do start né,
+
+385
+00:20:13,697 --> 00:20:17,531
+sair de começar a discutir segurança no começo, só que
+
+386
+00:20:17,532 --> 00:20:20,705
+infelizmente a realidade que eu vejo um vi no Brasil
+
+387
+00:20:20,706 --> 00:20:24,705
+e vejo no Canadá, Estados Unidos ali, não é não
+
+388
+00:20:24,706 --> 00:20:30,147
+é muito diferente né, pra colocar no começo é muito
+
+389
+00:20:30,148 --> 00:20:33,856
+difícil, não vejo, eu não vejo empresa onde o foco
+
+390
+00:20:33,857 --> 00:20:38,465
+não é segurança de aplicações, né, fazer essa abordagem né,
+
+391
+00:20:38,466 --> 00:20:42,705
+nem fazer o shift direito, fazer né, sei igual.
+
+392
+00:20:43,225 --> 00:20:46,200
+Então assim, Isso não acontece cara por quê?
+
+393
+00:20:46,720 --> 00:20:49,760
+Porque primeiro porque segurança no começo
+
+394
+00:20:49,761 --> 00:20:51,220
+de uma empresa não é prioridade.
+
+395
+00:20:51,814 --> 00:20:55,849
+Né numa startup ali a startup quer se sustentar, é
+
+396
+00:20:55,850 --> 00:20:58,965
+gerar lucro pra poder né se sustentar às vezes a
+
+397
+00:20:58,966 --> 00:21:02,020
+startup tem dinheiro pra manter a galera um ano dois
+
+398
+00:21:02,021 --> 00:21:05,460
+anos no máximo né, então ela tem que se sustentar.
+
+399
+00:21:05,461 --> 00:21:08,628
+Então se ela começa enfim insegurança vai ter um delay
+
+400
+00:21:08,629 --> 00:21:11,142
+vai ter um atraso né, e ela não vai conseguir
+
+401
+00:21:11,143 --> 00:21:14,908
+vai perder com pros concorrentes essas coisas eu entendo isso,
+
+402
+00:21:14,909 --> 00:21:17,505
+isso é importante a gente entender essa parte do negócio
+
+403
+00:21:17,506 --> 00:21:21,620
+também uhum uhum né então assim, eu vejo que as
+
+404
+00:21:21,621 --> 00:21:25,631
+pesquisas falam que há não fazer modelagem de ameaças, fazer
+
+405
+00:21:25,632 --> 00:21:29,746
+coisa no começo a discutir, né, realmente preciso trazer essa
+
+406
+00:21:29,747 --> 00:21:33,115
+biblioteca pra cá, mas olha só, quanto tempo que eu
+
+407
+00:21:33,116 --> 00:21:36,427
+vou levar nessa análise né, vamos supor a gente está
+
+408
+00:21:36,428 --> 00:21:40,434
+falando aqui né, de dependências diretas, vamos chutar aqui trinta
+
+409
+00:21:40,435 --> 00:21:41,513
+dependências diretas.
+
+410
+00:21:42,072 --> 00:21:44,949
+Eu vou ter que olhar o eu o desenvolvedor vai
+
+411
+00:21:44,950 --> 00:21:48,206
+ter que olhar casa dependência, é vou ter que ver
+
+412
+00:21:49,239 --> 00:21:51,796
+por exemplo, que qual é a parte do código da
+
+413
+00:21:51,797 --> 00:21:55,032
+dependência que eu vou utilizar na minha aplicação, né, e
+
+414
+00:21:55,033 --> 00:21:57,524
+saber se vai se vai valer a pena eu te
+
+415
+00:21:57,525 --> 00:22:01,734
+avisar a a biblioteca ou implementar na mão, beleza.
+
+416
+00:22:02,271 --> 00:22:03,587
+Olha o tempo que vai fazer que
+
+417
+00:22:03,588 --> 00:22:06,078
+eu vou levar pra essa trinta bibliotecas
+
+418
+00:22:06,079 --> 00:22:08,914
+né em falar das dependências indiretas ainda.
+
+419
+00:22:09,793 --> 00:22:12,350
+E aí mais o seguinte, mas aí sim no
+
+420
+00:22:12,351 --> 00:22:16,315
+futuro, eu quiser implementar uma outra funcionalidade né, vamos
+
+421
+00:22:16,316 --> 00:22:18,149
+supor que eu fiz na mão a minha biblioteca
+
+422
+00:22:18,150 --> 00:22:22,495
+não, não chamei a biblioteca pronta isso customizado aqui.
+
+423
+00:22:23,069 --> 00:22:24,029
+Mas aí eu preciso de uma
+
+424
+00:22:24,030 --> 00:22:26,749
+outra funcionalidade que tinha naquela biblioteca.
+
+425
+00:22:26,750 --> 00:22:27,909
+Aí eu vou ter que fazer na mão de
+
+426
+00:22:27,910 --> 00:22:30,989
+novo né, que não vou poder chamar ela agora
+
+427
+00:22:30,990 --> 00:22:32,309
+porque eu já não chamei no começo.
+
+428
+00:22:32,963 --> 00:22:34,757
+Trabalho que isso vai dar, né?
+
+429
+00:22:35,355 --> 00:22:39,700
+E aí eu acho que a a questão aqui é mais de
+
+430
+00:22:39,701 --> 00:22:43,702
+eficiência de de tipo, realmente eu não vou eu vou trazendo uma
+
+431
+00:22:43,703 --> 00:22:47,769
+bagagem muito grande pra usar uma linha, mas se no futuro eu
+
+432
+00:22:47,770 --> 00:22:50,400
+precisar usar uma outra linha eu já tenho ela aqui.
+
+433
+00:22:52,692 --> 00:22:56,447
+A a falta de avaliar realmente o impacto dessa
+
+434
+00:22:56,448 --> 00:22:58,919
+bagagem que pode ter no futuro pro meu código
+
+435
+00:22:59,538 --> 00:23:01,571
+é que eles olham o momento, eles olham o
+
+436
+00:23:01,572 --> 00:23:04,403
+presente, isso está resolvendo o meu problema, eu não
+
+437
+00:23:04,404 --> 00:23:08,670
+estou reinventando na roda, acabou o assunto ali fechou.
+
+438
+00:23:09,283 --> 00:23:12,596
+Eu eu sempre já tive algumas discussões acalorada
+
+439
+00:23:12,597 --> 00:23:15,789
+eu diria né dentro de empresa, quando galera
+
+440
+00:23:15,790 --> 00:23:18,679
+sempre queria evitar alguma coisa de segurança, porque
+
+441
+00:23:18,680 --> 00:23:20,320
+o negócio sempre fala pra.
+
+442
+00:23:20,321 --> 00:23:21,479
+Uhum uhum e aí o que você falou
+
+443
+00:23:21,480 --> 00:23:23,440
+agora eu cheguei hoje eu entendo mais.
+
+444
+00:23:23,441 --> 00:23:26,890
+Cara, a empresa precisa se pagar precisa vender, precisa
+
+445
+00:23:26,891 --> 00:23:30,239
+operar, segurança depois a gente vê, né ou normalmente
+
+446
+00:23:30,240 --> 00:23:32,033
+quando a gente fala no Brasil né, acaba vendo
+
+447
+00:23:32,034 --> 00:23:35,119
+reativo, né Tem merda agora eu vou começar pouco
+
+448
+00:23:35,120 --> 00:23:36,479
+mais, até então estava tudo bem.
+
+449
+00:23:37,239 --> 00:23:39,359
+Aí as discussão que eu já me envolvi foi tipo assim o
+
+450
+00:23:39,360 --> 00:23:41,799
+cara falou cara, você eu subir hoje e se eu não subir
+
+451
+00:23:41,800 --> 00:23:44,734
+hoje não vai faturar mas vai vender coisas do tipo.
+
+452
+00:23:44,735 --> 00:23:47,571
+A minha resposta foi bate pronto assim, se a gente for
+
+453
+00:23:47,572 --> 00:23:50,966
+invadido, por essa vulnerabilidade tomar o, a gente também não vai
+
+454
+00:23:50,967 --> 00:23:54,335
+vender também não vai faturar, e o pior a gente sabe
+
+455
+00:23:54,336 --> 00:23:57,169
+quando resolvo, né, no caso da Ficha a gente só que
+
+456
+00:23:57,170 --> 00:23:59,524
+um dia dois, atrás olha de resolve.
+
+457
+00:23:59,525 --> 00:24:01,320
+Mas se a gente tomar uma pancada na cabeça não,
+
+458
+00:24:02,054 --> 00:24:04,249
+aí eu acho que tem todo uma análise de risco,
+
+459
+00:24:04,250 --> 00:24:07,680
+probabilidade, qual a chance disso acontecer tal tal, e aí
+
+460
+00:24:07,681 --> 00:24:09,675
+onde eu acho que achar vizinha né?
+
+461
+00:24:10,408 --> 00:24:12,440
+Qual é qual é a a receita
+
+462
+00:24:12,441 --> 00:24:14,551
+de eu deu como segurança fala cara?
+
+463
+00:24:14,552 --> 00:24:16,783
+Não não vamos subir, nós vamos parar aqui e vão
+
+464
+00:24:16,784 --> 00:24:19,786
+resolver, seja uma discussão discussão de aventura, seja uma biblioteca
+
+465
+00:24:19,787 --> 00:24:23,651
+ou não, Não só e amanhã gente discute.
+
+466
+00:24:24,528 --> 00:24:26,856
+Qual é o ter uma chave mágica, ter
+
+467
+00:24:26,857 --> 00:24:29,129
+um uma receita, eu não consigo responder hoje.
+
+468
+00:24:29,130 --> 00:24:30,685
+A empresa que eu trabalho hoje é um slogan que
+
+469
+00:24:30,686 --> 00:24:35,408
+é, business for seguinte ou, Uhum mas você vê que
+
+470
+00:24:35,409 --> 00:24:37,842
+o Business é força até na definição da parada né?
+
+471
+00:24:38,361 --> 00:24:40,817
+E aí esse homem pra eu entendo como automação
+
+472
+00:24:41,728 --> 00:24:44,202
+esse ônibus entendo como processos eficazes, porque você não
+
+473
+00:24:44,203 --> 00:24:46,317
+vai ficar fazendo tratamento modo de cada linha de
+
+474
+00:24:46,318 --> 00:24:49,444
+córnea você vai fazer Um sistema como todo professor.
+
+475
+00:24:49,445 --> 00:24:51,044
+Começa é que você vê isso, marie Aquele cara
+
+476
+00:24:51,045 --> 00:24:52,764
+de segurança mano você não vai subir seu cartão
+
+477
+00:24:52,765 --> 00:24:55,564
+nascimento não na ninguém, resolver ele, pô mano sobe
+
+478
+00:24:55,565 --> 00:24:58,256
+e aí, toca o risco mais ou menos mal,
+
+479
+00:24:58,257 --> 00:25:00,051
+e vamos ver depois não mas se enxerga.
+
+480
+00:25:00,769 --> 00:25:03,562
+Boa, vamos lá, eu já fui né, eu já trabalhei
+
+481
+00:25:03,563 --> 00:25:07,725
+pra instituição financeiras no Brasil grandes empresas ali, onde o
+
+482
+00:25:07,726 --> 00:25:14,169
+pessoal era bem assim né, era bem é rígido, estilo
+
+483
+00:25:14,170 --> 00:25:19,169
+né bem assim tipo cara não corrigir não vai e
+
+484
+00:25:19,170 --> 00:25:22,221
+podia ser uma nível baixo, não sei o que não
+
+485
+00:25:22,222 --> 00:25:25,449
+tem não tem chance nenhuma de ser explorada não, não
+
+486
+00:25:25,450 --> 00:25:28,797
+tem corrigir um sobe, né, e já cheguei até a
+
+487
+00:25:28,798 --> 00:25:31,326
+tirar do ar aplicações porque subiram assim.
+
+488
+00:25:32,643 --> 00:25:34,558
+Eu tive vários problemas em relação a isso.
+
+489
+00:25:35,436 --> 00:25:39,283
+Mas hoje, né, enxergando o melhor o negócio principalmente
+
+490
+00:25:39,284 --> 00:25:43,074
+de de startups, de pequenas empresas aí você vê,
+
+491
+00:25:43,075 --> 00:25:46,306
+né, que o é o negócio fala mais alto,
+
+492
+00:25:46,307 --> 00:25:49,309
+né, o que você tem que fazer a segurança
+
+493
+00:25:49,310 --> 00:25:52,854
+não é não vai ser responsável caso algo aconteça.
+
+494
+00:25:52,855 --> 00:25:53,912
+A gente tem que orientar.
+
+495
+00:25:54,663 --> 00:25:58,394
+Avisar tem que avisar, vamos vamos dar todas as
+
+496
+00:25:59,051 --> 00:26:03,693
+as informações necessárias né, mas a segurança não vai
+
+497
+00:26:03,694 --> 00:26:06,366
+ser responsável, entendeu então o que que eu tiro
+
+498
+00:26:06,367 --> 00:26:07,204
+o que que eu falo assim?
+
+499
+00:26:08,082 --> 00:26:12,914
+Quer subir, beleza, você está ciente do problema, né, então
+
+500
+00:26:14,455 --> 00:26:16,894
+se acontecer alguma coisa vai ser em relação vai ser
+
+501
+00:26:16,895 --> 00:26:20,027
+o seu que vai ser ligar vai receber a ligação
+
+502
+00:26:20,028 --> 00:26:22,744
+né, a noite final de semana, vão ser eles que
+
+503
+00:26:22,745 --> 00:26:26,992
+vão resolver, né, então vai cair em é da equipe
+
+504
+00:26:26,993 --> 00:26:29,227
+responsável pra pela aplicação, né?
+
+505
+00:26:29,826 --> 00:26:33,018
+Muitas vezes nessas empresas maiores mais tradicionais a
+
+506
+00:26:33,019 --> 00:26:34,949
+gente tinha aquela carta de risco que né,
+
+507
+00:26:35,626 --> 00:26:38,336
+quer subir, não tem problema vacina assina aqui,
+
+508
+00:26:38,337 --> 00:26:42,894
+está aqui, né, Quantas quantas pessoas assinava, nenhuma
+
+509
+00:26:42,895 --> 00:26:45,810
+né, nenhuma, entendeu, cara não quer colocar o
+
+510
+00:26:45,811 --> 00:26:47,608
+demônio na reta, entendeu.
+
+511
+00:26:47,609 --> 00:26:50,499
+Nas startups o pessoal já é mais flexão si mas
+
+512
+00:26:50,500 --> 00:26:54,694
+startup tem um apetite de risco maior, né, porque precisa
+
+513
+00:26:54,695 --> 00:26:59,663
+gerar né, faturamento, então precisa gerar lucro né, então você
+
+514
+00:26:59,664 --> 00:27:03,136
+vai dizer assim olha, se eu não subir essa funcionalidade
+
+515
+00:27:03,137 --> 00:27:06,569
+eu vou estar perdendo milhões né, se a gente subir
+
+516
+00:27:06,570 --> 00:27:10,259
+e for atacado eu vou perder quinhentos mil, Acabou, não
+
+517
+00:27:10,260 --> 00:27:14,339
+tem é matemática simples, regra de ponta de padaria, vou
+
+518
+00:27:14,340 --> 00:27:18,153
+perder milhões e outro eu vou perder quinhentos mil, publica
+
+519
+00:27:18,154 --> 00:27:22,508
+né, leva sentir pra produção, né, até porque o cálculo
+
+520
+00:27:22,509 --> 00:27:25,266
+de quanto você vai ganhar ou deixar de ganhar, é
+
+521
+00:27:25,267 --> 00:27:29,389
+muitas vezes mais fácil de fazer do que a probabilidade
+
+522
+00:27:29,390 --> 00:27:33,694
+de eu ser atacado e acontecer do impacto a gente
+
+523
+00:27:33,695 --> 00:27:36,865
+essa nossa pelo pelo menos eu vejo na segurança essa
+
+524
+00:27:36,866 --> 00:27:42,199
+nossa medida de risco essa nossa conta é muito falha,
+
+525
+00:27:42,200 --> 00:27:45,508
+né, é muito fraca, não tem muito embasamento.
+
+526
+00:27:45,509 --> 00:27:49,616
+E se em se for atacado e se o pegar e em
+
+527
+00:27:49,617 --> 00:27:55,100
+si, cara então a gente precisa gerar dinheiro pra emprego né?
+
+528
+00:27:55,101 --> 00:27:56,978
+Vai ter que pagar o seu salário, o pessoal
+
+529
+00:27:56,979 --> 00:27:59,135
+de segurança também tem que receber sim né?
+
+530
+00:27:59,749 --> 00:28:01,907
+Se ele bloquear ele vai estar afetando o salário
+
+531
+00:28:01,908 --> 00:28:05,583
+de vai estar contando, o lucro sei lá, né?
+
+532
+00:28:05,584 --> 00:28:09,553
+Eu não tinha eu sou bem mais a favor de cara
+
+533
+00:28:09,554 --> 00:28:12,703
+joga pra produção não bloqueia os não não sou a favor
+
+534
+00:28:12,704 --> 00:28:17,128
+de bloquear build entendeu, eu sou bem mais já já fui
+
+535
+00:28:17,129 --> 00:28:20,417
+mas rígido mas hoje em dia eu sou bem mais aberto
+
+536
+00:28:20,418 --> 00:28:25,371
+a essas questões né focar no negócio do deixar a coisa
+
+537
+00:28:25,372 --> 00:28:29,435
+fluir, mas sempre orientar sempre notificar.
+
+538
+00:28:30,650 --> 00:28:34,558
+Leve c greve muito boa essa falou eu sou a
+
+539
+00:28:34,559 --> 00:28:37,365
+favor de quebrar build eu já fui, hoje eu sou
+
+540
+00:28:37,366 --> 00:28:41,354
+a favor assim mano, vamos fazer um scan, duzentas vulnerabilidades
+
+541
+00:28:41,355 --> 00:28:43,922
+beleza Vou quebrar abraço se duzentos e um, A gente
+
+542
+00:28:43,923 --> 00:28:46,594
+não vai piorar já tem, vamos deixar o jeito que
+
+543
+00:28:46,595 --> 00:28:49,386
+está pelo menos e me traduzir na cultura do time
+
+544
+00:28:49,387 --> 00:28:52,337
+tal total, não sei talvez talvez ainda seja uma abordagem
+
+545
+00:28:52,338 --> 00:28:55,504
+a trabalhar mas hoje já estou meio capitão nascimento não?
+
+546
+00:28:55,505 --> 00:28:59,535
+Mas aí aí você tem que pensar o seguinte, essa
+
+547
+00:28:59,536 --> 00:29:02,705
+duzentos e uma vulnerabilidade veio de onde é um novo
+
+548
+00:29:02,706 --> 00:29:05,945
+código, ou é uma atualização da ferramenta de segurança que
+
+549
+00:29:05,946 --> 00:29:09,465
+está detectando uma coisa antiga é ótima pergunta, ótima pergunta
+
+550
+00:29:09,466 --> 00:29:12,876
+músico costumo olhar o que é código novo Mesmo o
+
+551
+00:29:12,877 --> 00:29:15,114
+cara atualizar a ferramenta você começa a pegar duzentos e
+
+552
+00:29:15,115 --> 00:29:16,032
+tudo que já estava né.
+
+553
+00:29:16,033 --> 00:29:17,191
+Isso isso né?
+
+554
+00:29:17,192 --> 00:29:20,279
+Então ferramentas você sempre atualizando a base de vulnerabilidade
+
+555
+00:29:20,280 --> 00:29:23,509
+dela né, algo que não era a vulnerabilidade hoje
+
+556
+00:29:23,510 --> 00:29:26,580
+amanhã, né boa então isso também tem que se
+
+557
+00:29:26,581 --> 00:29:30,347
+pensar, né o problema o meu receio de quebrar
+
+558
+00:29:30,348 --> 00:29:32,545
+o bill é o seguinte cara, eu não gosto
+
+559
+00:29:32,546 --> 00:29:34,982
+de trabalhar fora do horário de trabalho.
+
+560
+00:29:34,983 --> 00:29:37,755
+Hoje em dia eu já né beleza, quando
+
+561
+00:29:37,756 --> 00:29:40,555
+você está começando, você está lá no gás
+
+562
+00:29:40,556 --> 00:29:43,315
+que vai já muito tempo nisso entendeu.
+
+563
+00:29:43,316 --> 00:29:45,235
+Então eu não gosto mais de trabalhar fora do
+
+564
+00:29:45,236 --> 00:29:48,682
+horário final de semana, à noite claro, quando tem
+
+565
+00:29:48,683 --> 00:29:51,594
+necessidade ou por causa de viagem de trabalho, outras
+
+566
+00:29:51,595 --> 00:29:53,685
+coisas tudo bem é outra situação.
+
+567
+00:29:53,686 --> 00:29:56,765
+Mas se a pessoa trabalha né, no Canadá nove as
+
+568
+00:29:56,766 --> 00:30:00,005
+cinco ali, acabou nove aí sim fica boa, a galera
+
+569
+00:30:00,006 --> 00:30:03,416
+não faz hora extra não ser que seja pago seja
+
+570
+00:30:03,417 --> 00:30:07,844
+contra é acordado, né, então eu não quero ser a
+
+571
+00:30:07,845 --> 00:30:10,850
+pessoa que vão me ligar né, final de semana a
+
+572
+00:30:10,851 --> 00:30:14,438
+sextafeira à noite né, depois das cinco ali porque alguém
+
+573
+00:30:14,439 --> 00:30:18,998
+quebrou a produção, entendeu lá e aí por exemplo, querendo
+
+574
+00:30:18,999 --> 00:30:21,870
+fazer um pet, está querendo fazer um hot ali pra
+
+575
+00:30:21,871 --> 00:30:26,233
+consertar produção não consegue fazer porque está quebrando build porque
+
+576
+00:30:26,234 --> 00:30:30,976
+a segurança está narrando Aí vão me ligar, né Segurança.
+
+577
+00:30:30,977 --> 00:30:31,814
+Eu não quero isso.
+
+578
+00:30:32,730 --> 00:30:35,854
+Inclusive essa essa cultura pegando um beijinho aí nessa
+
+579
+00:30:35,855 --> 00:30:38,604
+cultura de hora extra, digital o Brasil a gente
+
+580
+00:30:38,605 --> 00:30:40,398
+estava quando estava no Brasil achava que lá fora
+
+581
+00:30:40,399 --> 00:30:42,925
+tal cara aqui fora é caiu a caneta né?
+
+582
+00:30:42,926 --> 00:30:45,085
+Eu cinco quatro e meses assim vou aquela caneta cara
+
+583
+00:30:45,086 --> 00:30:49,285
+esquece, e isso hoje na minha empresa atual né, isso
+
+584
+00:30:49,286 --> 00:30:52,414
+eu sigo bem a Risca também mas assim na empresa
+
+585
+00:30:52,415 --> 00:30:56,836
+anterior na primeira, quando como você é imigrante, está chegando
+
+586
+00:30:56,837 --> 00:31:00,482
+no país dos casting fora sobre sua eu fiz muita
+
+587
+00:31:00,483 --> 00:31:04,039
+hora extra não recebia nada por isso, entendeu, pessoal dizia
+
+588
+00:31:04,040 --> 00:31:06,396
+não né, vai pro banco de horas depois você tira
+
+589
+00:31:06,397 --> 00:31:09,485
+um uma folga alguma coisa mas não é computada no
+
+590
+00:31:09,486 --> 00:31:12,593
+registrado e aí né, então tem que cuidar isso em
+
+591
+00:31:12,594 --> 00:31:15,183
+cuidar isso também, quem vai pro exterior, quem vai morar
+
+592
+00:31:15,184 --> 00:31:18,829
+em outro país né principalmente quando está naquele meio termo
+
+593
+00:31:18,830 --> 00:31:22,380
+num visto temporário, a galera vai querer explorar, e aí
+
+594
+00:31:22,381 --> 00:31:24,815
+você fica meio sem saber o que fazer, você vai
+
+595
+00:31:24,816 --> 00:31:28,177
+ter e desempenhar, você vai ter que entregar porque senão
+
+596
+00:31:28,178 --> 00:31:30,688
+vamos supor vence seu visto os caras não vão querer
+
+597
+00:31:30,689 --> 00:31:34,131
+inspirar não porque querer renovar, né, você tem que aplicar
+
+598
+00:31:34,132 --> 00:31:36,206
+pra um vista permanente, os cara não vou querer te
+
+599
+00:31:36,207 --> 00:31:39,756
+patrocinar, então chega a situações assim que você fica numa
+
+600
+00:31:39,757 --> 00:31:41,686
+sinuca de boa boa.
+
+601
+00:31:41,687 --> 00:31:43,640
+Bom isso mas tem muita gente que que
+
+602
+00:31:43,641 --> 00:31:46,711
+escuta a gente aqui, e isso falando.
+
+603
+00:31:46,712 --> 00:31:48,944
+É eu tenho um canal no telegram que eu ajudo
+
+604
+00:31:48,945 --> 00:31:52,872
+a galera a a a né me migrar pro exterior
+
+605
+00:31:52,873 --> 00:31:56,948
+aplicar pra vagas remotas né, então eu faço eu faço
+
+606
+00:31:56,949 --> 00:32:00,639
+revisão de currículo, eu faço revisão de de linkedin eu
+
+607
+00:32:00,640 --> 00:32:04,150
+faço até entrevista simulada pro pessoal, tudo gratuito né, é
+
+608
+00:32:04,151 --> 00:32:06,904
+um é uma coisa que eu faço pra comunidade mesmo,
+
+609
+00:32:07,463 --> 00:32:09,474
+e a gente vê muito disso, né o pessoal às
+
+610
+00:32:09,475 --> 00:32:12,430
+vezes consegue emprego consegue o trabalho lá e eu passei
+
+611
+00:32:12,431 --> 00:32:16,265
+por isso também, e e é explorado água, porque é
+
+612
+00:32:16,266 --> 00:32:20,640
+imigrante porque se se fizesse reclamar se se não fizer
+
+613
+00:32:20,641 --> 00:32:24,254
+hora extra sem receber o cara vai mandar embora entendeu
+
+614
+00:32:24,255 --> 00:32:28,604
+e complicado também então inclusive inclusive esse link esse projeto
+
+615
+00:32:28,605 --> 00:32:31,357
+tudo no final do episódio a gente deixa você boa
+
+616
+00:32:31,358 --> 00:32:36,319
+muito bom carro legal, estamos da metade final já estou
+
+617
+00:32:36,320 --> 00:32:38,752
+olhando pro tempo aqui é muita coisa não passa a
+
+618
+00:32:38,753 --> 00:32:42,279
+vida falando né, eu queria tocar outros outros temas de
+
+619
+00:32:42,280 --> 00:32:44,873
+sair um pouquinho do técnico e entrar na por exemplo.
+
+620
+00:32:44,874 --> 00:32:47,229
+Você você imagina que o mercado imagina, né, você acha
+
+621
+00:32:47,230 --> 00:32:52,353
+que o mercado ele tem um déficit de segurança treinamento
+
+622
+00:32:52,354 --> 00:32:55,686
+ou de educação vamos chamar assim de formação de segurança,
+
+623
+00:32:56,543 --> 00:33:00,632
+dos desenvolvedores, Ou você acha não não é o papel
+
+624
+00:33:00,633 --> 00:33:04,248
+deles, está certo, Tem que ter o cara de segurança,
+
+625
+00:33:04,947 --> 00:33:07,796
+como que você enxerga minha visão, uhum tem não tem
+
+626
+00:33:07,797 --> 00:33:09,412
+nada de segurança pra quem estuda desenvolvimento.
+
+627
+00:33:10,227 --> 00:33:13,496
+Tem um um tema ali professor eu fala uma coisa,
+
+628
+00:33:13,497 --> 00:33:15,544
+e eu acho que tem que ter um pouco mais.
+
+629
+00:33:15,545 --> 00:33:16,703
+B como é que você enxerga?
+
+630
+00:33:17,262 --> 00:33:19,339
+Bom a gente já está na metade do episódio
+
+631
+00:33:19,340 --> 00:33:21,457
+aí então eu já posso fazer mexeu né?
+
+632
+00:33:21,458 --> 00:33:24,990
+Já lá ah então eu sou né eu sou
+
+633
+00:33:24,991 --> 00:33:28,430
+instrutor ali da Gol, né, eu faço um treinamento
+
+634
+00:33:28,431 --> 00:33:31,390
+de desenvolvimento seguro e deve né, o security code
+
+635
+00:33:31,391 --> 00:33:36,319
+deve E o seguinte, né, duas primeira primeira questão
+
+636
+00:33:36,320 --> 00:33:41,410
+é, você conhece algum treinamento de segurança pra desenvolvedor
+
+637
+00:33:41,411 --> 00:33:45,650
+em português de qualidade, é difícil, né, difícil você
+
+638
+00:33:45,651 --> 00:33:48,338
+encontrar hoje em dia, voltado pra desenvolvimento.
+
+639
+00:33:48,339 --> 00:33:51,406
+Não é pra Teste de Que não é ótimo isso tem.
+
+640
+00:33:51,407 --> 00:33:54,018
+Nossa não é pra cumprir tabela de de.
+
+641
+00:33:54,569 --> 00:33:57,958
+Né, é pra desenvolvimento vamos analisar um código,
+
+642
+00:33:57,959 --> 00:33:59,455
+por que que esse código está vulnerável?
+
+643
+00:34:00,151 --> 00:34:01,546
+Vamos analisar um código vamos dizer
+
+644
+00:34:01,547 --> 00:34:02,684
+olha esse aqui tem um cross.
+
+645
+00:34:03,714 --> 00:34:06,309
+Porque o que que resolve isso por que que é
+
+646
+00:34:06,310 --> 00:34:11,179
+essa metodologia né sei lá, validação de entrada, codificação de
+
+647
+00:34:11,180 --> 00:34:14,510
+saída, por que que isso me o cross Crítica, né?
+
+648
+00:34:14,511 --> 00:34:16,490
+Eu não quero ensinar o a fazer.
+
+649
+00:34:17,150 --> 00:34:20,710
+Eu não quero ensinar o a explorar o top, né, tanto
+
+650
+00:34:20,711 --> 00:34:24,025
+é que eu eu eu falo primeiro dos controles pra.
+
+651
+00:34:25,525 --> 00:34:29,445
+Controles ali também, são muito mais a favor deles
+
+652
+00:34:29,446 --> 00:34:31,225
+do que falar do talk tem pra desenvolvimento.
+
+653
+00:34:32,299 --> 00:34:36,374
+Então assim, eu desconheço hoje um outro treinamento né de
+
+654
+00:34:36,375 --> 00:34:40,342
+em português né, que que fale sobre isso né, não
+
+655
+00:34:40,343 --> 00:34:43,332
+não não reconheça não conheço se sou se tiver me
+
+656
+00:34:43,333 --> 00:34:47,478
+avisa, né, e né, online que a gente possa fazer
+
+657
+00:34:47,479 --> 00:34:49,786
+ao vivo essas pois né não seja gravado.
+
+658
+00:34:50,482 --> 00:34:53,471
+E aí outra questão, eu falei eu fui desenvolvedor.
+
+659
+00:34:54,069 --> 00:34:56,083
+Na faculdade eu não aprendi segurança.
+
+660
+00:34:56,795 --> 00:34:59,071
+Segurança na faculdade era saber o que era um
+
+661
+00:34:59,072 --> 00:35:05,154
+vírus, e era isso, pra e eu fiz faculdade
+
+662
+00:35:05,155 --> 00:35:07,585
+de desenvolvimento uhum uhum então eu fiz faculdade de
+
+663
+00:35:07,586 --> 00:35:10,973
+programação, programação Web, era a tecnologia em sistemas pra
+
+664
+00:35:10,974 --> 00:35:13,225
+internet né no instituto federal da Paraíba.
+
+665
+00:35:13,226 --> 00:35:16,585
+Uhum então não aprendi na área de desenvolvimento
+
+666
+00:35:16,586 --> 00:35:18,825
+seguro não os projetos que a gente tinha
+
+667
+00:35:18,826 --> 00:35:21,198
+que entregar na faculdade era o quê, o
+
+668
+00:35:21,199 --> 00:35:23,055
+professor ia ver se o programa funcionava.
+
+669
+00:35:23,711 --> 00:35:25,387
+Ele não fazia validação de entrada.
+
+670
+00:35:25,905 --> 00:35:27,995
+Fazia ah assim o cara pediu aqui coloque
+
+671
+00:35:27,996 --> 00:35:30,515
+seu nome, aí eu estava colocado um número.
+
+672
+00:35:30,516 --> 00:35:32,955
+Não a pessoa não fazia isso entendeu.
+
+673
+00:35:32,956 --> 00:35:36,915
+Eu não tinha essa mentalidade, né, então é tem
+
+674
+00:35:36,916 --> 00:35:40,283
+dois problemas, né, realmente a gente tem um déficit
+
+675
+00:35:40,284 --> 00:35:44,033
+de de capacitação nessa área de desenvolvimento seguro, né,
+
+676
+00:35:44,591 --> 00:35:48,285
+mas hoje em dia claro já melhorou bastante, mas
+
+677
+00:35:48,286 --> 00:35:51,205
+nas faculdades eu ainda não vejo faculdade falando de
+
+678
+00:35:51,206 --> 00:35:55,178
+desenvolvimento seguro, principalmente faculdade de desenvolvimento, né se tiver
+
+679
+00:35:55,179 --> 00:35:57,214
+alguém aí se alguém souber me manda o link
+
+680
+00:35:57,215 --> 00:35:58,611
+não tem problema, né?
+
+681
+00:36:00,287 --> 00:36:03,521
+E quando o cara vai começar a trabalhar não tem
+
+682
+00:36:03,522 --> 00:36:07,930
+treinamento, as empresas não querem pagar, né é difícil empresa
+
+683
+00:36:07,931 --> 00:36:10,206
+isso não é só o Brasil está é no mundo
+
+684
+00:36:10,207 --> 00:36:13,578
+todo e principalmente na situação atual que a gente está
+
+685
+00:36:13,579 --> 00:36:16,894
+né econômica é mais difícil é uma das primeiras coisas
+
+686
+00:36:16,895 --> 00:36:22,105
+serem cortadas é que viagem essas coisas pra evento, então
+
+687
+00:36:22,106 --> 00:36:26,625
+vamos cortar, e não tem pra gente brasileiro em Português,
+
+688
+00:36:26,626 --> 00:36:29,825
+não tem treinamento de qualidade, entendeu, são poucos os que
+
+689
+00:36:29,826 --> 00:36:33,000
+existem hoje em dia, que falam realmente disso, fala de
+
+690
+00:36:33,001 --> 00:36:36,480
+desenvolvimento seguro né, né, no meu treinamento vai eu trago
+
+691
+00:36:36,481 --> 00:36:40,360
+git A gente vai programar em git Vai criar uma
+
+692
+00:36:40,361 --> 00:36:45,284
+automação um pipeline Integrar as ferramentas ali né, não tem
+
+693
+00:36:45,285 --> 00:36:48,117
+hoje eu desconheço hoje, entendeu eu tenho que criar os
+
+694
+00:36:48,118 --> 00:36:51,883
+meus treinamentos baseado no que na minha experiência baseada no
+
+695
+00:36:51,884 --> 00:36:55,995
+que eu já vi né no mercado e treinamentos fora,
+
+696
+00:36:55,996 --> 00:36:58,251
+né, então não tem referência brasileira.
+
+697
+00:36:58,964 --> 00:37:01,082
+Então é isso e eu acho que isso falta mesmo.
+
+698
+00:37:01,641 --> 00:37:04,757
+Assim, aí a gente tem que tem que entender
+
+699
+00:37:04,758 --> 00:37:06,675
+que é o seguinte, não é culpa do desenvolvedor.
+
+700
+00:37:07,369 --> 00:37:08,088
+Eu não acho que isso
+
+701
+00:37:08,089 --> 00:37:09,046
+é culpa desesperador desenvolvedor.
+
+702
+00:37:09,644 --> 00:37:12,898
+Desenvolvedor ele é ele é programado né, ele.
+
+703
+00:37:14,234 --> 00:37:16,030
+Literalmente programado o entregar
+
+704
+00:37:16,031 --> 00:37:17,665
+feature, no a funcionalidade.
+
+705
+00:37:18,685 --> 00:37:21,685
+Está aqui a funcionalidade está aqui o Tíquete do gira que
+
+706
+00:37:21,686 --> 00:37:24,657
+a sua estimativa me dá a às vezes quando ele tem
+
+707
+00:37:24,658 --> 00:37:28,887
+uma né, ele define quando não é está aqui olha tem
+
+708
+00:37:28,888 --> 00:37:32,733
+que fazer nesse tempo, e tem que entregar, né?
+
+709
+00:37:32,734 --> 00:37:36,080
+É isso, ele eles viraram né máquinas
+
+710
+00:37:36,081 --> 00:37:39,547
+ali né, na na fábrica mas, exato.
+
+711
+00:37:39,548 --> 00:37:42,717
+Então assim, aí você vai querer colocar segurança você vai
+
+712
+00:37:42,718 --> 00:37:46,872
+quero que eu colocar algo que me desconhece, realmente, vai
+
+713
+00:37:46,873 --> 00:37:50,204
+ter atrito vai ter resistência né, vai ter olha eu
+
+714
+00:37:50,205 --> 00:37:52,045
+não sei fazer isso, você vai me ensinar não não
+
+715
+00:37:52,046 --> 00:37:55,265
+vou ensinar aprende aí, vira então fica difícil.
+
+716
+00:37:56,005 --> 00:38:00,173
+Boa cara, muito boa você top o treinamento inclusive, exatamente
+
+717
+00:38:00,174 --> 00:38:02,408
+por esse, por esse tema sempre sempre ter trazer esse
+
+718
+00:38:02,409 --> 00:38:04,444
+tema aqui porque é muito fácil de falar ah os
+
+719
+00:38:04,445 --> 00:38:06,894
+caras no corrige verdade dá já não faz, estava, Estamos
+
+720
+00:38:06,895 --> 00:38:09,328
+treinando estou ensinando né Acho que tem esse esse lá
+
+721
+00:38:09,329 --> 00:38:11,682
+das empresas de fazer, sim por isso que comecei o
+
+722
+00:38:11,683 --> 00:38:15,087
+podcast de trazer na experiência para caras eu criei um
+
+723
+00:38:15,088 --> 00:38:17,916
+treinamento de sas pra explicar o que que é sa
+
+724
+00:38:17,917 --> 00:38:20,347
+pra galera, Como é que você testa o seu código,
+
+725
+00:38:20,348 --> 00:38:22,162
+e cria um de informação de.
+
+726
+00:38:23,192 --> 00:38:26,185
+Né fala de toda a parte Psique desde modo né
+
+727
+00:38:26,186 --> 00:38:29,137
+a a análise de ovos brasil de aplicação pra formar
+
+728
+00:38:29,138 --> 00:38:32,022
+o cara ali num na é in vamos.
+
+729
+00:38:32,023 --> 00:38:33,776
+Mas não tem escovar bit código por exemplo
+
+730
+00:38:33,777 --> 00:38:35,050
+como é que corrige eu vão porque não
+
+731
+00:38:35,051 --> 00:38:38,094
+é provérbio, né É uma informação separada.
+
+732
+00:38:38,095 --> 00:38:40,412
+Tem mas esse exatamente pro desenvolvedor acho que é um
+
+733
+00:38:40,413 --> 00:38:44,247
+negócio mas eu não tirei nem ka cara, não tem.
+
+734
+00:38:44,248 --> 00:38:46,086
+Não cara não tem Português né?
+
+735
+00:38:46,087 --> 00:38:49,333
+Falando de sim em Português é falando em português eu eu
+
+736
+00:38:49,334 --> 00:38:53,044
+quero dizer a seguinte, o que que corrige essa que é,
+
+737
+00:38:53,045 --> 00:38:58,215
+Ah beleza é prep com by, mas beleza você sabe decorar
+
+738
+00:38:58,216 --> 00:39:02,947
+o top tem, né, mas por que que isso previne sql,
+
+739
+00:39:02,948 --> 00:39:05,821
+qual é o motivo o que que faz isso prevenir, Isso
+
+740
+00:39:05,822 --> 00:39:08,654
+eu mostro no meu treinamento tem um, a gente vai ter
+
+741
+00:39:08,655 --> 00:39:12,825
+agora, primeiro você gera uma query, né, de uma vez só,
+
+742
+00:39:12,826 --> 00:39:14,065
+já inclui os parâmetros.
+
+743
+00:39:14,066 --> 00:39:17,385
+Agora você gera quase em duas etapas, você consegue
+
+744
+00:39:17,386 --> 00:39:19,839
+diferenciar o que é comando, né, o que é
+
+745
+00:39:19,840 --> 00:39:22,396
+comanda Si e o que é parâmetro.
+
+746
+00:39:22,397 --> 00:39:25,792
+Isso previne o, um Isso faz o interpretador
+
+747
+00:39:25,793 --> 00:39:28,524
+saber, bom, isso aqui é comando, beleza.
+
+748
+00:39:28,525 --> 00:39:29,920
+Isso aqui é parâmetro, se é
+
+749
+00:39:29,921 --> 00:39:31,675
+comando sql que eu vou ignorar.
+
+750
+00:39:32,752 --> 00:39:35,959
+Então essa explicação às vezes claro, com mais
+
+751
+00:39:35,960 --> 00:39:39,510
+detalhes, mostrando exemplos ali e falta, não não
+
+752
+00:39:39,511 --> 00:39:41,665
+tem isso, a pessoa não entende.
+
+753
+00:39:41,666 --> 00:39:44,313
+Então por isso que eu foco nos controles pró ativos
+
+754
+00:39:44,314 --> 00:39:48,735
+por quê Porque eu não quero ensinar a explorar pela
+
+755
+00:39:48,736 --> 00:39:51,148
+escrita, não quer ensinar de novidades explorar que ela é.
+
+756
+00:39:51,700 --> 00:39:55,060
+Né, Eu quero fazer com que ele tenha a mentalidade
+
+757
+00:39:55,061 --> 00:39:58,380
+de evitar que isso aconteça, ou seja não vai ter
+
+758
+00:39:58,381 --> 00:40:01,435
+esse que no meu código, se eu fizer dessa forma.
+
+759
+00:40:02,035 --> 00:40:04,675
+Inclusive viu que eu tenho tenho falado num treinamentos a
+
+760
+00:40:04,676 --> 00:40:09,325
+afora também Workshops que é, é legal sas de verificação
+
+761
+00:40:09,326 --> 00:40:12,956
+legal, tem que estar lá né testes, mas melhor do
+
+762
+00:40:12,957 --> 00:40:16,045
+que caixa nos problemas lá é pá de criálos, existe
+
+763
+00:40:16,046 --> 00:40:20,872
+vai parar de criar vulnerabilidade, a gente o desenvolvedor poder
+
+764
+00:40:20,873 --> 00:40:23,345
+entender o que é uma Por que que isso acontece
+
+765
+00:40:23,346 --> 00:40:24,878
+ah né que você falou bolsa da vida que o
+
+766
+00:40:24,879 --> 00:40:26,636
+parâmetro que eu não estou tratando jogo pra minha coelho
+
+767
+00:40:26,637 --> 00:40:28,694
+não calma então eu vou começar a tratar a validade
+
+768
+00:40:29,872 --> 00:40:32,962
+então esse esse mindset sete né, pra de parar de
+
+769
+00:40:32,963 --> 00:40:35,794
+criar os problemas, vai levar um tempo assim muito grande,
+
+770
+00:40:35,795 --> 00:40:38,348
+por isso que ferramentas mas ferramenta a segurança vende pra.
+
+771
+00:40:38,986 --> 00:40:40,796
+Que aquela com freud muito rápido,
+
+772
+00:40:40,797 --> 00:40:42,112
+agora preciso ficar analisando apenas se
+
+773
+00:40:42,113 --> 00:40:43,667
+tem problema vamos não ter problema.
+
+774
+00:40:43,668 --> 00:40:46,020
+Aí vira a máquina da máquina né, porque o cara já
+
+775
+00:40:46,021 --> 00:40:47,854
+é uma máquina você você usa uma palavra legal, né, o
+
+776
+00:40:47,855 --> 00:40:50,385
+cara já é uma máquina de feature, aí vira uma máquina
+
+777
+00:40:50,386 --> 00:40:54,345
+de corrigir, agora uma máquina corrigir uma, que vai ficar num
+
+778
+00:40:54,346 --> 00:40:57,625
+absurdo e vira numa podcast neve que o ideal separa as
+
+779
+00:40:57,626 --> 00:41:02,634
+criar problemas né, simples É então o ideal das ferramentas é
+
+780
+00:41:02,635 --> 00:41:06,763
+justamente isso, você quando você implementar as ferramentas é você parar
+
+781
+00:41:06,764 --> 00:41:09,636
+o sangramento né, eu falo em inglês top the né, ou
+
+782
+00:41:09,637 --> 00:41:14,039
+sei, você parar o sangramento além de de gerar novas falhas,
+
+783
+00:41:14,040 --> 00:41:15,872
+pra entender beleza a gente está aqui ó essa é a
+
+784
+00:41:15,873 --> 00:41:16,988
+situação atual da gente.
+
+785
+00:41:17,505 --> 00:41:21,371
+Então estamos na Merda estamos na, mas não vamos pio
+
+786
+00:41:21,372 --> 00:41:24,257
+vamos ter tentar diminuir o problema e não aumentar não
+
+787
+00:41:24,258 --> 00:41:26,929
+né Como é que a gente trabalha isso ah, beleza
+
+788
+00:41:26,930 --> 00:41:29,760
+você vai fazer um treinamento é é fato isso até
+
+789
+00:41:29,761 --> 00:41:33,410
+desde o Mbl da Microsoft lá né, fala treinamento pra
+
+790
+00:41:33,411 --> 00:41:36,410
+desenvolvimento pra desenvolvedores isso entendo inclusive.
+
+791
+00:41:36,411 --> 00:41:41,222
+É então é eu confio muito nisso é importante porque justamente
+
+792
+00:41:41,223 --> 00:41:43,054
+a gente ficar ficar de falar que que não tem.
+
+793
+00:41:44,609 --> 00:41:46,202
+Daí você fez o treinamento, mas como é que
+
+794
+00:41:46,203 --> 00:41:48,449
+você vai medir que o seu treinamento foi efetivo
+
+795
+00:41:48,450 --> 00:41:51,402
+né, a empresa investiu lá cem mil duzentos mil
+
+796
+00:41:51,403 --> 00:41:55,154
+no treinamento num num programa de geral ferramenta e
+
+797
+00:41:55,155 --> 00:41:57,044
+tudo mas como é que está sendo efetivo?
+
+798
+00:41:57,045 --> 00:41:57,961
+Você vai ter que medir.
+
+799
+00:41:59,117 --> 00:42:02,147
+Ô treinei o vamos pegar um tópico
+
+800
+00:42:02,148 --> 00:42:04,459
+bem específico, treinando dúvida em esse gel.
+
+801
+00:42:05,017 --> 00:42:09,380
+Então teoricamente essa equipe que eu tenho né, se entendeu
+
+802
+00:42:09,381 --> 00:42:11,774
+o assunto se entendeu o problema não é pra gerar
+
+803
+00:42:11,775 --> 00:42:14,225
+mais falhas desse come jackson, entendeu a não ser que
+
+804
+00:42:14,226 --> 00:42:16,945
+entrou um novo destruidor e tal alguma coisa assim.
+
+805
+00:42:16,946 --> 00:42:19,425
+Claro vai acontecer um erro alguma coisa é é
+
+806
+00:42:19,426 --> 00:42:22,960
+humano né, vai acontecer esses problemas mas né não
+
+807
+00:42:22,961 --> 00:42:25,000
+é algo que é pra dobrar o número né?
+
+808
+00:42:25,840 --> 00:42:28,334
+Então eu vou medir então está diminuindo me
+
+809
+00:42:28,335 --> 00:42:31,526
+falhas que é beleza está diminuindo, então você
+
+810
+00:42:31,527 --> 00:42:34,519
+pode ter assumir está sendo efetivo, né está
+
+811
+00:42:34,520 --> 00:42:37,648
+sendo neta com reduzir esse problema.
+
+812
+00:42:37,649 --> 00:42:40,405
+Inclusive eu tenho eu estou escrevendo um livro e lá
+
+813
+00:42:40,406 --> 00:42:43,162
+no livro eu tenho um tópico que são qui, uhum
+
+814
+00:42:43,163 --> 00:42:45,773
+e um dos tópicos é justamente isso, é que eu
+
+815
+00:42:45,774 --> 00:42:48,205
+como é que coisas eu tenho que medir no meu
+
+816
+00:42:48,206 --> 00:42:50,399
+programa de pensei que pra saber o que está acontecendo.
+
+817
+00:42:50,400 --> 00:42:51,914
+Você tem um exemplo muito bom cara Hoje
+
+818
+00:42:51,915 --> 00:42:54,148
+eu tenho sei lá, pegar um histórico de
+
+819
+00:42:54,149 --> 00:42:57,871
+commits de eu tenho sei lá, x querem.
+
+820
+00:42:57,872 --> 00:43:00,742
+Uhum uhum Fiz aqui um treinamento, agora eu né
+
+821
+00:43:00,743 --> 00:43:03,772
+faço uma análise depois um período quantos acredita eu
+
+822
+00:43:03,773 --> 00:43:05,623
+tenho, tem que ter x menos alguma coisa.
+
+823
+00:43:06,223 --> 00:43:08,180
+Né, você consegue que até medir o roe né, como
+
+824
+00:43:08,181 --> 00:43:10,497
+foi o os tópicos do twitter aí esses dias né,
+
+825
+00:43:10,498 --> 00:43:15,187
+enfim, pra você sair ter esse tipo de medição mais
+
+826
+00:43:15,188 --> 00:43:17,903
+sem essa própria análise de fato você fica a deriva
+
+827
+00:43:17,904 --> 00:43:20,315
+né, ah, eu tinha x agora eu tenho até então
+
+828
+00:43:20,316 --> 00:43:22,515
+até essas medições e você que é legal a galera
+
+829
+00:43:22,516 --> 00:43:24,875
+começar a se preocupar né, pra ver se está funcionando.
+
+830
+00:43:24,876 --> 00:43:26,955
+É são duas são duas coisas que a galera
+
+831
+00:43:26,956 --> 00:43:30,488
+odeia eu acho que segurança né, o primeiro é
+
+832
+00:43:30,489 --> 00:43:33,760
+relatório, não é medir as coisas né?
+
+833
+00:43:33,761 --> 00:43:37,112
+Porque às vezes você vai medir pode refletir mal
+
+834
+00:43:37,113 --> 00:43:40,125
+pra você ou seja seu trago seu trabalho não
+
+835
+00:43:40,126 --> 00:43:43,045
+está não está sendo esse não está funcionando né?
+
+836
+00:43:43,046 --> 00:43:45,485
+Mas aí você tem que ter trabalho, tem que ter a noção
+
+837
+00:43:45,486 --> 00:43:49,253
+de de trabalho numa empresa que tem essa cultura de né do
+
+838
+00:43:49,254 --> 00:43:53,123
+Pl que a gente chama Não culpar a pessoa e entender.
+
+839
+00:43:53,124 --> 00:43:54,535
+Por que que está dando errado raiva?
+
+840
+00:43:54,536 --> 00:43:57,411
+Tem que melhorar tem que mudar alguma coisa vamos ajustar,
+
+841
+00:43:57,412 --> 00:44:03,615
+né, A gente ter capacidade de é o 0 teste
+
+842
+00:44:03,616 --> 00:44:07,840
+her teste of ou seja, teste c teste sempre, e
+
+843
+00:44:07,841 --> 00:44:11,005
+se você falhar, você corrigir rápido essas falhas olha dando
+
+844
+00:44:11,006 --> 00:44:13,525
+está dando errado não está funcionando eu vamos ajustar, né?
+
+845
+00:44:14,085 --> 00:44:16,925
+Então essa possibilidade principalmente no começo de é um programa
+
+846
+00:44:16,926 --> 00:44:21,127
+de De explorar algumas coisas é normal né, tem que
+
+847
+00:44:21,128 --> 00:44:25,173
+ter essa abertura né, as que in, a primeira publicação
+
+848
+00:44:26,004 --> 00:44:29,234
+né primeiro o artigo público, do Sueli G é de
+
+849
+00:44:29,235 --> 00:44:31,308
+mil novecentos e noventa e oito, né?
+
+850
+00:44:31,309 --> 00:44:34,658
+A gente hoje ainda hoje tem né vinte e cinco anos depois
+
+851
+00:44:34,659 --> 00:44:38,937
+a gente hoje ainda tem aplicações o Web vulnerável G e até
+
+852
+00:44:38,938 --> 00:44:42,962
+mesmo às vezes até aquele ou um igual um mais simples e
+
+853
+00:44:42,963 --> 00:44:47,878
+não toa pô Beijou né, agora em in uma categoria geral pra
+
+854
+00:44:47,879 --> 00:44:52,318
+ver né mas ainda está no top três desde sempre, Sim sim
+
+855
+00:44:52,319 --> 00:44:57,392
+né como tem jeito colocou o cross de lá mas continua, né,
+
+856
+00:44:57,393 --> 00:45:01,881
+o que tem diminuído né e a explicação do é interessante, né,
+
+857
+00:45:01,882 --> 00:45:04,758
+O que que tem diminuído a, né?
+
+858
+00:45:04,759 --> 00:45:07,015
+Por que que caiu da primeira pra terceira posição
+
+859
+00:45:07,529 --> 00:45:11,237
+é porque o está mais né, está mais cuidadoso
+
+860
+00:45:11,238 --> 00:45:14,827
+com segurança, é porque as as ferramentas de segurança
+
+861
+00:45:14,828 --> 00:45:16,980
+melhoraram não não é nada disso.
+
+862
+00:45:17,635 --> 00:45:22,075
+É porque os frameworks né, de as linguagens novas
+
+863
+00:45:22,076 --> 00:45:26,690
+também de segurança já vêm com proteção por padrão.
+
+864
+00:45:26,691 --> 00:45:28,770
+É transparente pro.
+
+865
+00:45:28,771 --> 00:45:31,290
+O dúvida não tem que lembrar agora de fazer um prefere
+
+866
+00:45:31,291 --> 00:45:34,610
+de mente com by de verbo, ele chama lá uma função
+
+867
+00:45:34,611 --> 00:45:37,420
+já faz a ele Uhum uhum ele usa um framework que
+
+868
+00:45:37,421 --> 00:45:39,695
+por exemplo no Java tem um que eu lembro que a
+
+869
+00:45:39,696 --> 00:45:43,327
+gente utilizava na na empresa anterior que é o Juca j
+
+870
+00:45:43,328 --> 00:45:48,136
+quê, né, também já faz, ou seja, né, teoricamente a gente
+
+871
+00:45:48,137 --> 00:45:50,174
+não é pra ter que é energético no código e você
+
+872
+00:45:50,175 --> 00:45:51,892
+você usar o framework, né?
+
+873
+00:45:52,531 --> 00:45:57,585
+Inclusive bastante, eu costumava dizer que aplicações do Net
+
+874
+00:45:57,586 --> 00:45:59,985
+pra você ter cross você precisava forçar só pra
+
+875
+00:45:59,986 --> 00:46:02,876
+desativar lá o uma com da vida lá fala
+
+876
+00:46:02,877 --> 00:46:05,507
+acaso você deixou a aplicação que era seguro, vulnerável
+
+877
+00:46:05,508 --> 00:46:07,661
+você piorou o negócio né. E isso isso.
+
+878
+00:46:07,662 --> 00:46:10,611
+Mas enfim magno a gente está estourando o tempo aqui
+
+879
+00:46:10,612 --> 00:46:15,930
+já, agradecer só agradecer conteúdo pra caramba mas pra gente
+
+880
+00:46:15,931 --> 00:46:19,918
+falar, de novo, já está convidado com pro episódio dois,
+
+881
+00:46:19,919 --> 00:46:23,048
+três quatro a gente falar do que você quiser, deixa
+
+882
+00:46:23,049 --> 00:46:26,604
+aí os seus comentários, links projetos, eu vou na hora
+
+883
+00:46:26,605 --> 00:46:28,802
+que eu posto o conteúdo o pessoal vai acontecer ter
+
+884
+00:46:28,803 --> 00:46:30,335
+acesso lá nosso canal do Youtube.
+
+885
+00:46:30,336 --> 00:46:32,208
+Tem os links, não se você quiser comentar
+
+886
+00:46:32,209 --> 00:46:35,219
+aqui agora, divulgar fique à vontade não tranquilo.
+
+887
+00:46:36,752 --> 00:46:39,880
+Falar aqui o seguinte, eu comecei a ter escreveu um livro
+
+888
+00:46:39,881 --> 00:46:43,100
+sobre deve eclipse mas acabei não não tendo tempo pra finalizar,
+
+889
+00:46:43,840 --> 00:46:48,774
+né a gente pode conversar aí sobre seu livro Esse deve
+
+890
+00:46:48,775 --> 00:46:51,807
+alguma coisa, o material eu tenho todo ele ainda só não
+
+891
+00:46:51,808 --> 00:46:57,776
+está público, por causa de de prazo mesmo a editora né
+
+892
+00:46:58,449 --> 00:47:01,121
+com uma editora e fica no pé em cima ser é
+
+893
+00:47:01,122 --> 00:47:03,455
+mais independente é mais fica mais tranquilo.
+
+894
+00:47:04,112 --> 00:47:06,983
+Mas acabei não não conseguindo tocar muito esse projeto,
+
+895
+00:47:06,984 --> 00:47:09,155
+mas eu acho que é entre gente ter um
+
+896
+00:47:09,156 --> 00:47:12,036
+material de qualidade às vezes os os livros que
+
+897
+00:47:12,037 --> 00:47:15,968
+eu vejo diversos muitas vezes são muito superficiais ou
+
+898
+00:47:15,969 --> 00:47:18,263
+são não são pra pessoas técnicas.
+
+899
+00:47:18,920 --> 00:47:20,577
+Não eu acho que isso é interessante.
+
+900
+00:47:21,353 --> 00:47:24,163
+Aí tem aquele projeto que eu falei da mentoria ali
+
+901
+00:47:24,164 --> 00:47:27,918
+do do pessoal que vai aplicar não personagem não necessariamente
+
+902
+00:47:27,919 --> 00:47:31,288
+pro exterior mas que quer dá um Up no no
+
+903
+00:47:31,289 --> 00:47:34,285
+no resumir né no no currículo no linkedin e tal
+
+904
+00:47:34,286 --> 00:47:36,841
+pode entrar em contato vou deixar o link do telegram
+
+905
+00:47:36,842 --> 00:47:38,934
+aí que é uma é um grupo do telegram que
+
+906
+00:47:38,935 --> 00:47:43,569
+a gente compartilho vagas, as notícias de né mais coisa
+
+907
+00:47:43,570 --> 00:47:46,726
+do Canadá mas sempre tem uma coisa outra da Europa,
+
+908
+00:47:46,727 --> 00:47:52,614
+Estados Unidos também e e aí isso é só assim,
+
+909
+00:47:52,615 --> 00:47:57,223
+estou sempre à disposição né, já fui muito mais tive.
+
+910
+00:47:57,224 --> 00:48:00,536
+Já tive muito mais tempo pra participar de comunidades foi
+
+911
+00:48:00,537 --> 00:48:03,968
+software da Asp lá por cinco anos no Brasil organizei
+
+912
+00:48:03,969 --> 00:48:08,020
+eventos no Brasil, Hoje em dia estou mais contribuindo através
+
+913
+00:48:08,021 --> 00:48:10,380
+desses eventos de palestras e tudo mais mas estou sempre
+
+914
+00:48:10,381 --> 00:48:13,420
+à disposição sempre disponível aí pra quem precisar quem quiser
+
+915
+00:48:13,421 --> 00:48:17,948
+entrar em contato Principalmente pelo linkedin hoje em dia é
+
+916
+00:48:17,949 --> 00:48:20,343
+o meu meio mais fácil de entrar em contato aí
+
+917
+00:48:20,344 --> 00:48:25,428
+comigo primeiro, primeira conversa ali, E é isso quem tiver
+
+918
+00:48:25,429 --> 00:48:28,664
+interesse no meu curso da Gol lá de desenvolvimento seguro,
+
+919
+00:48:30,342 --> 00:48:33,875
+code df Né, a gente deve estar lançando a turma
+
+920
+00:48:33,876 --> 00:48:36,315
+no segundo semestre aí de dois mil e vinte e
+
+921
+00:48:36,316 --> 00:48:40,690
+três, e também estou pra lançar um curso que é
+
+922
+00:48:40,691 --> 00:48:43,770
+eu vou fazer um eu vou fazer esse treinamento em
+
+923
+00:48:43,771 --> 00:48:47,343
+las vegas, vou oferecer ele dois dias lá, mas a
+
+924
+00:48:47,344 --> 00:48:50,434
+gente quer lançar uma versão estendida dele e em Português
+
+925
+00:48:51,010 --> 00:48:54,638
+né um curso sobre contêineres e kubernetes em insegurança né,
+
+926
+00:48:54,639 --> 00:48:58,481
+nesses tópicos em português pela Gol Ranking também no segundo
+
+927
+00:48:58,482 --> 00:49:01,134
+semestre né, porque eu faço as coisas no segundo semestre.
+
+928
+00:49:01,951 --> 00:49:06,274
+Porque o nosso verão canadense é junho Júlia Agosto, né,
+
+929
+00:49:06,275 --> 00:49:08,110
+e a gente só tem esses três meses ali pra
+
+930
+00:49:08,111 --> 00:49:12,261
+aproveitar o som de agosto eu costumo né, sair mais
+
+931
+00:49:12,262 --> 00:49:15,988
+com a família passear fazer viagem ali né, dentro do
+
+932
+00:49:15,989 --> 00:49:19,178
+Canadá pra aproveitar, porque depois acabou depois é neve viu
+
+933
+00:49:19,179 --> 00:49:20,813
+jogo não tem mais nada.
+
+934
+00:49:21,411 --> 00:49:23,605
+Eu sempre deixo pro final do ano ali que já
+
+935
+00:49:23,606 --> 00:49:26,911
+vai estar muito frio mesmo, pra pra fazer esses treinamentos,
+
+936
+00:49:27,567 --> 00:49:30,356
+só pra explicar pro pessoal mas mas assim.
+
+937
+00:49:30,357 --> 00:49:33,560
+Obrigado pelo convite pela oportunidade e também.
+
+938
+00:49:33,561 --> 00:49:36,752
+Boa magno de novo agradecer pessoal todos esses links aí
+
+939
+00:49:36,753 --> 00:49:38,388
+que o magno Falou mandar da no offline online vai
+
+940
+00:49:38,389 --> 00:49:40,064
+estar lá no nosso canal Alex você está ouvindo o
+
+941
+00:49:40,065 --> 00:49:43,596
+episódio já está lá no nosso canal, enfim, tem o
+
+942
+00:49:43,597 --> 00:49:45,636
+nosso canal do discurso de lado da você com podcast
+
+943
+00:49:45,637 --> 00:49:48,596
+os convidados também que participam só o convidados a estar
+
+944
+00:49:48,597 --> 00:49:50,956
+lá, você pode tocar ideia com a aquela não obrigatório
+
+945
+00:49:50,957 --> 00:49:54,771
+mais podem estrear também, tem uma do youtube as plataformas
+
+946
+00:49:54,772 --> 00:49:57,931
+digitais spotify diesel você quiser disputar essa escuta, e tem
+
+947
+00:49:57,932 --> 00:50:01,505
+um infância também na brincadeira vocês ainda no mundo ainda
+
+948
+00:50:01,506 --> 00:50:02,645
+não lançamos normal.
+
+949
+00:50:03,225 --> 00:50:04,546
+Mas quem sabe lucas você sobe
+
+950
+00:50:04,547 --> 00:50:06,866
+mercado cara deu dinheiro enfim sim.
+
+951
+00:50:07,639 --> 00:50:09,153
+Realmente voto né tem que aumentar
+
+952
+00:50:09,154 --> 00:50:10,707
+o momento o roe, boa.
+
+953
+00:50:11,863 --> 00:50:13,816
+Pessoal, ficamos por aqui Magno obrigado mais uma vez
+
+954
+00:50:13,817 --> 00:50:15,494
+a gente vê na semana que vem pessoal.
+
+955
+00:50:15,495 --> 00:50:17,577
+Valeu valeu. Term

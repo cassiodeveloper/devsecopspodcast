@@ -1,0 +1,1910 @@
+Inovação assim começa aqui deve escreve o
+
+seu podcast de segurança em tecnologia.
+
+Fala pessoal tudo bem com vocês, sejam muito bemvindos a mais
+
+um episódio deve ser podcast eu sou Caso Pereira episódio de
+
+hoje a gente já fala um pouquinho sobre o mundo de
+
+De maneira geral com um convidado fantástico, que a gente está
+
+querendo trazer aqui no podcast tempo já enfim, agenda horários e
+
+o cara está ser preocupado, mas ocupado do presidente, mas a
+
+gente conseguiu hoje viajar já a gente vai você vai ouvir
+
+sobre ele está no Youtube, já está vendo a carinha dele
+
+aí né enfim, mas a gente já vai apresentar nossa convidado
+
+de hoje.
+
+Antes comunicar que, deve ser com um podcast tem
+
+o apoio da cheque da nova oito, são especializados
+
+em segurança sistemas de código seguro, né o link
+
+do Nova oito que de no Brasil isso está
+
+abaixo na descrição do episódio e também no no
+
+site deve ser podcast ponto com ponto b.
+
+A contabilidade olímpica que é especializada em profissionais de
+
+ti, se você precisar abrir sua empresa ou me
+
+contabilidade entre contato com pessoal dar de de contabilidade
+
+olímpica que eles estão pronto pra te atender.
+
+Ah eu fui cliente e rec super recomendo mesmo.
+
+E também a gol quixote especializada em Quer
+
+desenvolver software seguro, fale com a bolsa você.
+
+E eu falei pra vocês o projeto pessoal que eu toquei,
+
+que ideias não funcionou ainda mas daqui a pouco em em
+
+gr que eu tenho certeza é o jobs office se você
+
+está procurando né vagas nem nada de Ou que quer anunciar
+
+a sua vaga né por ponto de outros.
+
+Não custa um milhão de reais pra não ser
+
+uma vaca, se paga na pra procurar tranco, está
+
+aí o site acho que é uma iniciativa bacana
+
+pra comunidade o pessoal poder desfrutar Beleza.
+
+O Mark pediu desculpa filho ele é um imbecil não consegue
+
+comunicar arrumar a máquina dele pra poder gravar com a gente
+
+não tem problema mas ele era pra ele estar aqui hoje
+
+também, o Rodrigo Gabriel eu já mandei embora, já não pago
+
+salário esse já funciona mais, então vamos focar na no convidado
+
+de hoje gente que é é um cara fantástico eu acompanho
+
+ele aí um trabalho enfim é um tempo já dei história
+
+de segurança, tweets, já palestra enfim né, porque tanta a gente
+
+vê o conteúdo dele de alguma forma, que eu diria que
+
+é quase um concorrente né porque está fazendo conteúdo de Né
+
+uma das coisas que a gente faz aqui no Podcast no
+
+canal então acho que é legal ter cada vez mais ter
+
+esse tipo de conteúdo especialmente em português né difícil desse tipo
+
+de conduta, a gente vai falar sobre isso também no tema
+
+de hoje, mas queria receber aqui o magno love e o magno.
+
+Obrigado aí pela tua participação pelo teu tempo, a gente
+
+sabe que uma é foda Então só agradecer fique à
+
+vontade pra se apresentar pra quem ainda não te conhece,
+
+né, porque se o cara conhece que a gente gente
+
+te conhece já está cometendo um crime né fique à
+
+vontade, show de bola valeu o obrigado aí obrigado pessoal
+
+Bom dia boa tarde boa noite, né, pra quem está
+
+escutando aí, é um prazer estar aqui obrigada aí para
+
+abordar essa oportunidade pra esse convite.
+
+Vai falar um pouquinho sobre mim aí só eu dar
+
+uma introdução rápida depois a gente vai conversar bastante mas
+
+né, eu estou na área, já e há mais de
+
+doze anos, né, seu desenvolvedor fui né hoje em dia
+
+não me considero mais mas tem um passado negro que
+
+foi desenhado Java, então assim né, tenho que já assumir
+
+logo de cara, mas aí logo no começo da minha
+
+carreira eu migrei pra área Pinterest teste e revisão de
+
+código, o gerenciamento de de web Faro, né, e atualmente
+
+eu trabalho no Canadá na parte de pesquisa em Cláudio
+
+Contêiner né, na na Tem micro.
+
+É é isso aí.
+
+Boa, magno mano o prazer ter você aqui de novo,
+
+a gente sempre falou né, de quer trazer cada vez
+
+mais convidados que a pessoa está Hoje pela comunidade de
+
+alguma forma produzindo conteúdo, e acho que só das palestras
+
+que você entrega por aí mundo afora né, inclusive a
+
+gente vai falar um pouquinho disso também também recentemente aí
+
+fazendo umas palestras, deixou achando um passo bem bem valioso
+
+e acaba sendo carente no Brasil a gente fala um
+
+pouquinho também de mercado enfim, eu queria começar fazendo um
+
+trazendo debate pro seguinte contexto.
+
+O que que você acha qual que é a sua visão
+
+desse mundo e acho que isso é um pouco legal né?
+
+Você falou muito desenvolvedor, né, tive um passado negro
+
+com eu também eu não comecei no java mas
+
+eu não pisei lá né foi a hora do
+
+Da net, era era do inimigo como caras dizer.
+
+Mas você acha que é o pouco da
+
+minha opinião e eu queria entender a sua.
+
+Você acha que é o cara pra
+
+ser um bom cara de segurança, em.
+
+Ele precisa ter sido deve, ou é possível ser quando o
+
+cara jeff Você que vai fazer code de review, vai brincar
+
+de sem conhecer desenvolvimento, que o que que você acha não
+
+tem Boa, Pô eu sou eu sou da máxima ali do
+
+não sei se já viu do Dim Médico né, de Merkel
+
+e da Unesp ele fala sobre isso, eu acho que assim,
+
+é importante saber programar, né, é tecido sido deve vai ser
+
+um plus vai ser um extra extra ali, mas se você
+
+quer mexer com a Psique se você vai lidar com o
+
+desenvolvedor se você vai tratar né, atrapalhar ou melhorar a vida
+
+do você vai ter que ser ter que ter um um
+
+um grande deve até pra você ter empatia na hora de
+
+de aplicar as ferramentas de de estabelecer processos né, aquele que
+
+a gente estava falando antes de iniciar a gravação lá de
+
+de de remover os at né, os com desenvolvedores então se
+
+você tem esse Se você entende, consegue se colocar né, num
+
+no no no sapato do ali na na vida do desenvolvedor,
+
+você entende melhor quando quando gera esses at e como evitar
+
+eles, né, então eu acho que isso é muito importante.
+
+E claro, não dá pra falar de Psique hoje falar
+
+de devese, sem que falar de automação, né, então pra
+
+você automatizar as coisas você vai precisar fazer um código,
+
+nem que seja um inhame da vida um Então assim,
+
+e isso é muito importante, né, Ah quer dizer que
+
+não pode ser Se não souber programar não, você talvez
+
+vai ter que escolher algumas outras atividades ou você vai
+
+ter mais dificuldade, né?
+
+Então assim a minha recomendação é que saiba
+
+programar, pelo menos uma linguagem precisa saber todas.
+
+Hoje se você me der um código de cara vale vai pra
+
+lá que eu não não entendo mais nada disso daí, né?
+
+Então hoje eu pego uma linguagem específica normalmente eu foco
+
+mais em python então estou aprendendo cor, mas assim saber
+
+código, né, saber qual o código e entender pelo menos
+
+em alto nível, né, teve uma pesquisa que eu fiz
+
+por exemplo do Kubitschek werneck, onde a gente estava analisando
+
+uns atacantes abusando de um Api do Kubernetes que é
+
+um api do pio, né que é um agente que
+
+roda ali dentro de cada nó do Kubernetes.
+
+Essa api não é documentada, não tinha documentação.
+
+Eu tive que ir lá no código do Kubernetes lá no
+
+Github, ler o código da Api e lá do que thiago
+
+go, né, pra entender, mas eu não sabia gol ainda estava
+
+aprendendo ainda não ainda não sei gol, né?
+
+Mas eu consegui entender porque eu sei ler código, entendeu,
+
+então isso facilita bastante na hora de dessas análises na
+
+hora dessa pessoa do trabalho, e principalmente cara é o
+
+atrito com um que você tem que evitar ao máximo,
+
+né, e a gente vai falar mais sobre isso aí,
+
+mas na minha opinião é tem que saber ajuda bastante
+
+se não souber vai ter dificuldade.
+
+Boa é costumo falar que eu não não que me
+
+ajuda bastante na área, já pensei hoje acho que de
+
+segurança me manda geral desde que eu comecei, é o
+
+fato de ter sido deve e aí né, saber programar
+
+como como se contexto porque é exatamente isso é você
+
+saber falar a língua do desenvolvedor.
+
+E o que eu vejo no dia a dia principais problemas
+
+é assim por exemplo coisas relacionadas ao sas a tas teste
+
+de segurança, obviamente tre em outras questões também mas O atrito
+
+que acontece mais um, quando você quer dar trampo porque quero
+
+né, ou tem que dar tampa por Deve.
+
+Então mano está aqui uma lista de vulnerabilidade você corrigir,
+
+onde veio isso sabe verdade lá do Chuck marcelo lá
+
+do vera Coach velar lá do sei aonde.
+
+Ah não isso aqui é falso positivo, porque o
+
+Deve quer evitar mais trampo o backlog aquela coisa,
+
+então, muitas vezes o cara já a primeira reação
+
+é não, isso não é um problema.
+
+O seu trabalho de servidor de É kátia que é
+
+um problema, é um risco, por a mais b assim
+
+assim está aqui no código precisa ser corrigido seja urgentes,
+
+não seja urgente aí outras outras questões.
+
+Mas essa conversa não não aula por nível, mas um
+
+nível mais técnico, né, de você você falar pro Baby
+
+cara o seu código estava vulnerabilidade e ir aceitar isso
+
+porque o maior dificuldade é essa né, o deve neuro
+
+foi deve, a gente tem um apple muito grande cara
+
+você está falando mal do meu filho né, eu como
+
+assim, meu código tão maravilhoso então, acho que esse de
+
+ajuda bastante e o que você falou, não existe hoje
+
+deve ser copa a de uma maneira geral sem automação.
+
+Ainda mais quando a gente fala de Esse ice
+
+né, continua com livre, até teste de maneira geral
+
+e aí eu queria entrar no segundo contexto.
+
+Uhum, Essa parte do dia a dia, né vou chamar de dia
+
+a dia porque pra é o meu dia a dia, quanto do
+
+seu dia o 0 Magno ou quanto você vê vamos vamos chamar
+
+assim de Psique, o você está ali coisa construindo coisas putz eu
+
+preciso pro lugar aqui a saída do meu saco lá no lucian,
+
+eu preciso espetar aqui o a saída do meu tas pra gerar
+
+uma regra lá no meu automático por exemplo mesmo.
+
+Quanto do cirurgias dias está investimento investiu assim dedicando
+
+mesmo né, de de automações, tudo mais tem tem
+
+ter essa essa média na cabeça show, Vamos lá.
+
+Bom hoje em dia como eu estou trabalhando
+
+mais na área de pesquisa, né, eu não
+
+foco mais nessa parte operacional em ufsc.
+
+Mas justamente o meu primeiro emprego no canadá nadar
+
+né, quando eu me mudei pra lá cinco anos
+
+atrás, foi eu fui primeiros a secretária né Ana
+
+tipo fecha da empresa de uma empresa de delivery
+
+de comida no canadá Ifood, só que no Canadá.
+
+Então eles já tinham trezentos desenvolvedores, mais
+
+de trezentos servidores e eu fui o
+
+primeiro cara de segurança de aplicações.
+
+Né em dois mil e dezoito, não tinha ninguém.
+
+Né, e de segurança só tinha um cara antes
+
+que era mais de infra logo depois saiu, entendeu.
+
+Então assim, putz como é que eu vou e e
+
+eles queriam que eu né você vai ter que chegar
+
+e revisar o código de todo mundo com produção, os
+
+cara já era devops fazia né modificações de todo dia
+
+toda hora né, slack tudo mais, cara não tem como,
+
+não tem condições mesmo que eu saiba todas as linguagem
+
+conheça a base ali que era java por cima.
+
+Mas beleza tipo não tem como, não não não
+
+escala isso Você preso ali vou ficar preso ali
+
+revisando o código da E não vou conseguir evoluir.
+
+Né o ambiente porque não tinha nenhuma nenhuma nenhuma
+
+ferramenta de segurança não tinha um sas, não tinha
+
+um duarte, entendeu tinha um f mal configurado lá
+
+e muito muito errado aí uhum aham.
+
+Então assim, aí vai dar questão nessa situação por
+
+exemplo numa startup quando você é uma equipe né?
+
+Uhum é muito da estratégia.
+
+Do que que você quer começar primeiro Eu prefiro
+
+conta destruir algo levar tempo um pouco mais de
+
+tempo pra produzir resultado e construir algo que vá
+
+trazer no futuro, mais benéfico vícios, então automatizar mais,
+
+colocar algumas ferramentas ali pra tirar o alto né,
+
+justamente detectar esses problemas mais simples que é uma
+
+ferramenta, é feita pra isso, né, e depois focar
+
+na parte mais difícil, né, falhas lógicas, falhas de
+
+autorização que talvez precise mesmo de um podcast de
+
+uma análise mais manual, beleza, deixa isso pro futuro
+
+mas se você não tem nada cara não tem
+
+nada não adianta querer pegar tudo entendeu?
+
+Então ferramentas eu investiria mais na automação
+
+ação em incluir ferramentas na Pipeline. Uhum.
+
+Uhum e aí claro, me, falso positivo né, eu sou
+
+eu sou bem cri em relação a isso em relação
+
+a pegar resultado de ferramenta e passar pro desenvolvedor.
+
+Vai gerar trip, né, esse que você fala, o cara vai
+
+falar que é falso positivo e se for, né, se for
+
+falso positivo, o desenvolvedor vai perder a confiança na ferramenta é
+
+Então assim tem que passar por um crivo do do do
+
+analista de segurança nem que seja um estagiário ali alguma coisa,
+
+né, um túnel pra fazer uma validação mínima.
+
+O que que foi que a ferramenta testou, né, E
+
+o que que está refletido no no repositório na aplicação,
+
+é isso mesmo, é realmente crítico isso, né, às vezes
+
+não é nem que é um falso positivo.
+
+Às vezes é que a ferramenta está dizendo ah
+
+isso aqui é um crítico mas não é, né,
+
+então eu eu sempre recomendo fazer essa avaliação.
+
+E aí a gente entra num numa
+
+questão de por onde começar, né?
+
+Por onde que começa, eu não tenho nada no
+
+meu pipeline Estão chegando na empresa agora ou né,
+
+a empresa né, está querendo montar um programa de
+
+segurança de, por onde eu começo.
+
+A minha abordagem hoje e que eu im na na empresa
+
+anterior, de começar pela pelo Sa, pela análise de de né
+
+o software a com né, análise composição de software ali.
+
+Por quê?
+
+Porque o Sa ele vai olhar o okay ele
+
+vai olhar as bibliotecas ele vai olhar as dependências
+
+que você tem no seu software nas suas aplicação
+
+e vai apontar problemas nelas né, vai apontar se
+
+elas estão des, elas têm vulnerabilidade publicamente conhecidas, problema
+
+de licença é essas coisas mais.
+
+E o que que isso faz, né, esses
+
+problemas não foram seus desenvolvedores que criaram.
+
+Entendeu não foi o seu né o seu ali então
+
+você não vai estar apontando o dedo, você não vai
+
+estar dizendo você não sabe programar, uhum uhum.
+
+Você vai dizer dizendo assim, a gente está
+
+utilizando uma biblioteca aqui, que está vulnerável.
+
+Será que a gente consegue atualizar muitas vezes
+
+a correção pra esse problemas é atualizar uma
+
+da biblioteca que se tiver um pet né? Beleza.
+
+Cara ah beleza eu consigo atualizar aqui com testar
+
+a validar vai ter que ter aquela questão do
+
+teste re pra ver se a aplicação continua funcionando
+
+mas você não está apontando desse você não está
+
+dizendo seu filho feio né, está errado.
+
+Uhum então eu gosto sempre de começar com
+
+essa abordagem de análise de composição de software.
+
+E daí seguir pro sas pro baixo no futuro.
+
+Boa inclusive eu pegando essa salinha que você entrou, eu
+
+sempre falo pra galera você não você não escolhe sas
+
+ou Sa, ou da, é meio que são camadas de
+
+segurança e testes diferentes, eles vão ser compor ali no
+
+seu civil de desenvolvimento segundo né?
+
+Você você vai colocar isso pra decidir qual é a melhor
+
+pra ir primeiro Mas eu sempre falei também no sentido do
+
+So primeiro por um motivo muito simples né, o Marcos tem
+
+essa informação mais frias mas é basicamente ter uma pesquisa que
+
+mostra que setenta, até oitenta por cento do som de um
+
+software hoje em dia ele é composto por de terceiros vício
+
+né, então trinta vinte por cento do código que você faz,
+
+se você quer olhar do ponto de segurança olha os terceiros
+
+primeiro depois vinte um.
+
+E isso tem tem várias nessa linha in, saiu no
+
+pessoal da Unesp pessoal do defender desse cheque também já
+
+publicou isso, e em problema o seguinte esse de dez
+
+a trinta por cento é que código seu, isso depende
+
+da linguagem, por exemplo eu já vi pesquisa no curso
+
+da Science que eu fiz, um instrutor falou assim, quando
+
+quando chega a ser uma linguagem por exemplo Javascript, cara
+
+esse número customizado cai pra cima feito pode crer cheio
+
+de framework cheio de biblioteca uhum então cai pra menos
+
+ainda então ou seja noventa e cinco cento do seu
+
+código é é de biblioteca de de terceiro, entendeu.
+
+Então isso varia por linguagem também, né, então tem
+
+que analisar isso qual é a linguagem que você
+
+está utilizando, Boa inclusive eu estou está rolando um
+
+evento aqui na Polônia hoje, hoje não né?
+
+A gente que a gente está gravando
+
+o dia que vale no ar episódio.
+
+Mas vamos evento aqui na na Polônia dia vinte dois e
+
+vinte e três de maio, né que chama coach You, e
+
+eu pude participar, a empresa patrocínio acontecendo e tal uma das
+
+palestras é o cara da pra software se não me engano
+
+e estava falando exatamente sobre supla táxi.
+
+E aí né, ele ele usou um número lá pra
+
+assim Falou cara, tem uma pesquisa e tem os dados
+
+posso trazer uma outra episódio setenta e seis por cento
+
+dos desenvolvedores que usam o sobre de terceiros, depois que
+
+ele adicionou a biblioteca, ele nunca mais olha, uhum uhum.
+
+Ou seja, ele não está fazendo gerenciamento daquele Pacote
+
+atualizando a menos que ter um um bug ele
+
+precisa atualizar o pacote na mas ele jogou lá
+
+acabou, tal ou seja a dorme não mexe.
+
+Exato, vai ter vulnerabilidade vai ter um monte
+
+de coisa daquilo que cara produção vai fica
+
+lá e você acaba errando isso tua mesmo.
+
+É dois relatórios bem interessantes aí só deixando referências aí depois
+
+mando os links mas dois relatórios bem interessantes que eu gosto
+
+de de citar aqui, é um é o da que eles
+
+faz o Open source security lá ele faz o relatórios acho
+
+que tem um de dois mil e dezenove se não me
+
+engano tema de dois mil e vinte e dois o mais
+
+novo, o Do Explique e tem um da science também né,
+
+que é a quem é a banda do Black Agora se
+
+eu não engano, e eles também publicaram um relatório também falando
+
+sobre isso, por exemplo, tem uma parte do relatório que diz
+
+o seguinte, quando eu adiciono uma biblioteca no meu código, vem
+
+umas trinta a mais vem uns cinquenta a mais entendeu porque
+
+tem as dependências das dependências entendeu.
+
+Então eu já vi casos assim de você
+
+estar importando trinta bibliotecas no seu código diretas,
+
+né, as dependências diretas, e no final seu
+
+código tem quinhentas depende disso.
+
+Então cara complicado como é que você gerencia isso entendeu
+
+bullying, tem esse problema e tem um que o Rodrigo
+
+sempre está gravando aqui com a gente também de conta,
+
+ele trabalhava numa empresa de como que a gente trabalhou
+
+junto em também inclusive não dá pra falar mal mas
+
+está morando linkedin antes você com deduz quem é?
+
+Eles usavam o Framework lá que era isso, O site demorava
+
+sei lá, dez quinze segundo pra carregar home, por causa de
+
+loading de Javascript na aí o dia em saber. Porém mano.
+
+Que porra resto errado, não pode dizer assim, e eu
+
+lembro que o resultado final foi, Falou cara, Os caras
+
+carregava um framework um javascript da vida fazer o upload
+
+dia inteiro pra usar uma linha uma função que era
+
+nada assim, era passar implementar aquela função na mão do
+
+que pegado à biblioteca inteira né tal acho que tem
+
+esse trabalho que você falou de né, de fazer o
+
+0 gerenciamento das mas tem também aí talvez a gente
+
+entre agora no no pedacinho de design e arquitetura né,
+
+também um dedinho ali no de alguém olhar pra esse
+
+projeto atrás que ele está sendo construída e falar cara.
+
+Precisa mesmo trazer essa biblioteca, vamos fazer esse método na
+
+mão, e aí aí é o outro tema né?
+
+Uhum uhum as discussões de segurança e arquitetura
+
+não sei se está vendo nas suas pesquisas
+
+ou trabalhou isso na na época operacional.
+
+Discussões sobre segurança e arquitetura né, que a gente
+
+fala pra discutir o quanto antes, tal tal eu
+
+inclusive tenho vou dar a minha abordagem né, eu
+
+tenho falado vocês não precisa fazer tipo de leve
+
+mais se você começar no leve você não precisa
+
+mudar pra você já começa de direito?
+
+E essa essa discussão em arquitetura ou amarelo você
+
+tem visto isso como bons teve isso isso acontecer,
+
+que que que você tem pra trazer pra gente
+
+assim, escuta segurança lá atrás, Você você está pensando
+
+num projeto, porque depois às vezes coisas desse tipo
+
+vai dar mais trabalho pra você mudar.
+
+Uhum uhum Vamos lá.
+
+Beleza, eu também sou pra a favor do start né,
+
+sair de começar a discutir segurança no começo, só que
+
+infelizmente a realidade que eu vejo um vi no Brasil
+
+e vejo no Canadá, Estados Unidos ali, não é não
+
+é muito diferente né, pra colocar no começo é muito
+
+difícil, não vejo, eu não vejo empresa onde o foco
+
+não é segurança de aplicações, né, fazer essa abordagem né,
+
+nem fazer o shift direito, fazer né, sei igual.
+
+Então assim, Isso não acontece cara por quê?
+
+Porque primeiro porque segurança no começo
+
+de uma empresa não é prioridade.
+
+Né numa startup ali a startup quer se sustentar, é
+
+gerar lucro pra poder né se sustentar às vezes a
+
+startup tem dinheiro pra manter a galera um ano dois
+
+anos no máximo né, então ela tem que se sustentar.
+
+Então se ela começa enfim insegurança vai ter um delay
+
+vai ter um atraso né, e ela não vai conseguir
+
+vai perder com pros concorrentes essas coisas eu entendo isso,
+
+isso é importante a gente entender essa parte do negócio
+
+também uhum uhum né então assim, eu vejo que as
+
+pesquisas falam que há não fazer modelagem de ameaças, fazer
+
+coisa no começo a discutir, né, realmente preciso trazer essa
+
+biblioteca pra cá, mas olha só, quanto tempo que eu
+
+vou levar nessa análise né, vamos supor a gente está
+
+falando aqui né, de dependências diretas, vamos chutar aqui trinta
+
+dependências diretas.
+
+Eu vou ter que olhar o eu o desenvolvedor vai
+
+ter que olhar casa dependência, é vou ter que ver
+
+por exemplo, que qual é a parte do código da
+
+dependência que eu vou utilizar na minha aplicação, né, e
+
+saber se vai se vai valer a pena eu te
+
+avisar a a biblioteca ou implementar na mão, beleza.
+
+Olha o tempo que vai fazer que
+
+eu vou levar pra essa trinta bibliotecas
+
+né em falar das dependências indiretas ainda.
+
+E aí mais o seguinte, mas aí sim no
+
+futuro, eu quiser implementar uma outra funcionalidade né, vamos
+
+supor que eu fiz na mão a minha biblioteca
+
+não, não chamei a biblioteca pronta isso customizado aqui.
+
+Mas aí eu preciso de uma
+
+outra funcionalidade que tinha naquela biblioteca.
+
+Aí eu vou ter que fazer na mão de
+
+novo né, que não vou poder chamar ela agora
+
+porque eu já não chamei no começo.
+
+Trabalho que isso vai dar, né?
+
+E aí eu acho que a a questão aqui é mais de
+
+eficiência de de tipo, realmente eu não vou eu vou trazendo uma
+
+bagagem muito grande pra usar uma linha, mas se no futuro eu
+
+precisar usar uma outra linha eu já tenho ela aqui.
+
+A a falta de avaliar realmente o impacto dessa
+
+bagagem que pode ter no futuro pro meu código
+
+é que eles olham o momento, eles olham o
+
+presente, isso está resolvendo o meu problema, eu não
+
+estou reinventando na roda, acabou o assunto ali fechou.
+
+Eu eu sempre já tive algumas discussões acalorada
+
+eu diria né dentro de empresa, quando galera
+
+sempre queria evitar alguma coisa de segurança, porque
+
+o negócio sempre fala pra.
+
+Uhum uhum e aí o que você falou
+
+agora eu cheguei hoje eu entendo mais.
+
+Cara, a empresa precisa se pagar precisa vender, precisa
+
+operar, segurança depois a gente vê, né ou normalmente
+
+quando a gente fala no Brasil né, acaba vendo
+
+reativo, né Tem merda agora eu vou começar pouco
+
+mais, até então estava tudo bem.
+
+Aí as discussão que eu já me envolvi foi tipo assim o
+
+cara falou cara, você eu subir hoje e se eu não subir
+
+hoje não vai faturar mas vai vender coisas do tipo.
+
+A minha resposta foi bate pronto assim, se a gente for
+
+invadido, por essa vulnerabilidade tomar o, a gente também não vai
+
+vender também não vai faturar, e o pior a gente sabe
+
+quando resolvo, né, no caso da Ficha a gente só que
+
+um dia dois, atrás olha de resolve.
+
+Mas se a gente tomar uma pancada na cabeça não,
+
+aí eu acho que tem todo uma análise de risco,
+
+probabilidade, qual a chance disso acontecer tal tal, e aí
+
+onde eu acho que achar vizinha né?
+
+Qual é qual é a a receita
+
+de eu deu como segurança fala cara?
+
+Não não vamos subir, nós vamos parar aqui e vão
+
+resolver, seja uma discussão discussão de aventura, seja uma biblioteca
+
+ou não, Não só e amanhã gente discute.
+
+Qual é o ter uma chave mágica, ter
+
+um uma receita, eu não consigo responder hoje.
+
+A empresa que eu trabalho hoje é um slogan que
+
+é, business for seguinte ou, Uhum mas você vê que
+
+o Business é força até na definição da parada né?
+
+E aí esse homem pra eu entendo como automação
+
+esse ônibus entendo como processos eficazes, porque você não
+
+vai ficar fazendo tratamento modo de cada linha de
+
+córnea você vai fazer Um sistema como todo professor.
+
+Começa é que você vê isso, marie Aquele cara
+
+de segurança mano você não vai subir seu cartão
+
+nascimento não na ninguém, resolver ele, pô mano sobe
+
+e aí, toca o risco mais ou menos mal,
+
+e vamos ver depois não mas se enxerga.
+
+Boa, vamos lá, eu já fui né, eu já trabalhei
+
+pra instituição financeiras no Brasil grandes empresas ali, onde o
+
+pessoal era bem assim né, era bem é rígido, estilo
+
+né bem assim tipo cara não corrigir não vai e
+
+podia ser uma nível baixo, não sei o que não
+
+tem não tem chance nenhuma de ser explorada não, não
+
+tem corrigir um sobe, né, e já cheguei até a
+
+tirar do ar aplicações porque subiram assim.
+
+Eu tive vários problemas em relação a isso.
+
+Mas hoje, né, enxergando o melhor o negócio principalmente
+
+de de startups, de pequenas empresas aí você vê,
+
+né, que o é o negócio fala mais alto,
+
+né, o que você tem que fazer a segurança
+
+não é não vai ser responsável caso algo aconteça.
+
+A gente tem que orientar.
+
+Avisar tem que avisar, vamos vamos dar todas as
+
+as informações necessárias né, mas a segurança não vai
+
+ser responsável, entendeu então o que que eu tiro
+
+o que que eu falo assim?
+
+Quer subir, beleza, você está ciente do problema, né, então
+
+se acontecer alguma coisa vai ser em relação vai ser
+
+o seu que vai ser ligar vai receber a ligação
+
+né, a noite final de semana, vão ser eles que
+
+vão resolver, né, então vai cair em é da equipe
+
+responsável pra pela aplicação, né?
+
+Muitas vezes nessas empresas maiores mais tradicionais a
+
+gente tinha aquela carta de risco que né,
+
+quer subir, não tem problema vacina assina aqui,
+
+está aqui, né, Quantas quantas pessoas assinava, nenhuma
+
+né, nenhuma, entendeu, cara não quer colocar o
+
+demônio na reta, entendeu.
+
+Nas startups o pessoal já é mais flexão si mas
+
+startup tem um apetite de risco maior, né, porque precisa
+
+gerar né, faturamento, então precisa gerar lucro né, então você
+
+vai dizer assim olha, se eu não subir essa funcionalidade
+
+eu vou estar perdendo milhões né, se a gente subir
+
+e for atacado eu vou perder quinhentos mil, Acabou, não
+
+tem é matemática simples, regra de ponta de padaria, vou
+
+perder milhões e outro eu vou perder quinhentos mil, publica
+
+né, leva sentir pra produção, né, até porque o cálculo
+
+de quanto você vai ganhar ou deixar de ganhar, é
+
+muitas vezes mais fácil de fazer do que a probabilidade
+
+de eu ser atacado e acontecer do impacto a gente
+
+essa nossa pelo pelo menos eu vejo na segurança essa
+
+nossa medida de risco essa nossa conta é muito falha,
+
+né, é muito fraca, não tem muito embasamento.
+
+E se em se for atacado e se o pegar e em
+
+si, cara então a gente precisa gerar dinheiro pra emprego né?
+
+Vai ter que pagar o seu salário, o pessoal
+
+de segurança também tem que receber sim né?
+
+Se ele bloquear ele vai estar afetando o salário
+
+de vai estar contando, o lucro sei lá, né?
+
+Eu não tinha eu sou bem mais a favor de cara
+
+joga pra produção não bloqueia os não não sou a favor
+
+de bloquear build entendeu, eu sou bem mais já já fui
+
+mas rígido mas hoje em dia eu sou bem mais aberto
+
+a essas questões né focar no negócio do deixar a coisa
+
+fluir, mas sempre orientar sempre notificar.
+
+Leve c greve muito boa essa falou eu sou a
+
+favor de quebrar build eu já fui, hoje eu sou
+
+a favor assim mano, vamos fazer um scan, duzentas vulnerabilidades
+
+beleza Vou quebrar abraço se duzentos e um, A gente
+
+não vai piorar já tem, vamos deixar o jeito que
+
+está pelo menos e me traduzir na cultura do time
+
+tal total, não sei talvez talvez ainda seja uma abordagem
+
+a trabalhar mas hoje já estou meio capitão nascimento não?
+
+Mas aí aí você tem que pensar o seguinte, essa
+
+duzentos e uma vulnerabilidade veio de onde é um novo
+
+código, ou é uma atualização da ferramenta de segurança que
+
+está detectando uma coisa antiga é ótima pergunta, ótima pergunta
+
+músico costumo olhar o que é código novo Mesmo o
+
+cara atualizar a ferramenta você começa a pegar duzentos e
+
+tudo que já estava né.
+
+Isso isso né?
+
+Então ferramentas você sempre atualizando a base de vulnerabilidade
+
+dela né, algo que não era a vulnerabilidade hoje
+
+amanhã, né boa então isso também tem que se
+
+pensar, né o problema o meu receio de quebrar
+
+o bill é o seguinte cara, eu não gosto
+
+de trabalhar fora do horário de trabalho.
+
+Hoje em dia eu já né beleza, quando
+
+você está começando, você está lá no gás
+
+que vai já muito tempo nisso entendeu.
+
+Então eu não gosto mais de trabalhar fora do
+
+horário final de semana, à noite claro, quando tem
+
+necessidade ou por causa de viagem de trabalho, outras
+
+coisas tudo bem é outra situação.
+
+Mas se a pessoa trabalha né, no Canadá nove as
+
+cinco ali, acabou nove aí sim fica boa, a galera
+
+não faz hora extra não ser que seja pago seja
+
+contra é acordado, né, então eu não quero ser a
+
+pessoa que vão me ligar né, final de semana a
+
+sextafeira à noite né, depois das cinco ali porque alguém
+
+quebrou a produção, entendeu lá e aí por exemplo, querendo
+
+fazer um pet, está querendo fazer um hot ali pra
+
+consertar produção não consegue fazer porque está quebrando build porque
+
+a segurança está narrando Aí vão me ligar, né Segurança.
+
+Eu não quero isso.
+
+Inclusive essa essa cultura pegando um beijinho aí nessa
+
+cultura de hora extra, digital o Brasil a gente
+
+estava quando estava no Brasil achava que lá fora
+
+tal cara aqui fora é caiu a caneta né?
+
+Eu cinco quatro e meses assim vou aquela caneta cara
+
+esquece, e isso hoje na minha empresa atual né, isso
+
+eu sigo bem a Risca também mas assim na empresa
+
+anterior na primeira, quando como você é imigrante, está chegando
+
+no país dos casting fora sobre sua eu fiz muita
+
+hora extra não recebia nada por isso, entendeu, pessoal dizia
+
+não né, vai pro banco de horas depois você tira
+
+um uma folga alguma coisa mas não é computada no
+
+registrado e aí né, então tem que cuidar isso em
+
+cuidar isso também, quem vai pro exterior, quem vai morar
+
+em outro país né principalmente quando está naquele meio termo
+
+num visto temporário, a galera vai querer explorar, e aí
+
+você fica meio sem saber o que fazer, você vai
+
+ter e desempenhar, você vai ter que entregar porque senão
+
+vamos supor vence seu visto os caras não vão querer
+
+inspirar não porque querer renovar, né, você tem que aplicar
+
+pra um vista permanente, os cara não vou querer te
+
+patrocinar, então chega a situações assim que você fica numa
+
+sinuca de boa boa.
+
+Bom isso mas tem muita gente que que
+
+escuta a gente aqui, e isso falando.
+
+É eu tenho um canal no telegram que eu ajudo
+
+a galera a a a né me migrar pro exterior
+
+aplicar pra vagas remotas né, então eu faço eu faço
+
+revisão de currículo, eu faço revisão de de linkedin eu
+
+faço até entrevista simulada pro pessoal, tudo gratuito né, é
+
+um é uma coisa que eu faço pra comunidade mesmo,
+
+e a gente vê muito disso, né o pessoal às
+
+vezes consegue emprego consegue o trabalho lá e eu passei
+
+por isso também, e e é explorado água, porque é
+
+imigrante porque se se fizesse reclamar se se não fizer
+
+hora extra sem receber o cara vai mandar embora entendeu
+
+e complicado também então inclusive inclusive esse link esse projeto
+
+tudo no final do episódio a gente deixa você boa
+
+muito bom carro legal, estamos da metade final já estou
+
+olhando pro tempo aqui é muita coisa não passa a
+
+vida falando né, eu queria tocar outros outros temas de
+
+sair um pouquinho do técnico e entrar na por exemplo.
+
+Você você imagina que o mercado imagina, né, você acha
+
+que o mercado ele tem um déficit de segurança treinamento
+
+ou de educação vamos chamar assim de formação de segurança,
+
+dos desenvolvedores, Ou você acha não não é o papel
+
+deles, está certo, Tem que ter o cara de segurança,
+
+como que você enxerga minha visão, uhum tem não tem
+
+nada de segurança pra quem estuda desenvolvimento.
+
+Tem um um tema ali professor eu fala uma coisa,
+
+e eu acho que tem que ter um pouco mais.
+
+B como é que você enxerga?
+
+Bom a gente já está na metade do episódio
+
+aí então eu já posso fazer mexeu né?
+
+Já lá ah então eu sou né eu sou
+
+instrutor ali da Gol, né, eu faço um treinamento
+
+de desenvolvimento seguro e deve né, o security code
+
+deve E o seguinte, né, duas primeira primeira questão
+
+é, você conhece algum treinamento de segurança pra desenvolvedor
+
+em português de qualidade, é difícil, né, difícil você
+
+encontrar hoje em dia, voltado pra desenvolvimento.
+
+Não é pra Teste de Que não é ótimo isso tem.
+
+Nossa não é pra cumprir tabela de de.
+
+Né, é pra desenvolvimento vamos analisar um código,
+
+por que que esse código está vulnerável?
+
+Vamos analisar um código vamos dizer
+
+olha esse aqui tem um cross.
+
+Porque o que que resolve isso por que que é
+
+essa metodologia né sei lá, validação de entrada, codificação de
+
+saída, por que que isso me o cross Crítica, né?
+
+Eu não quero ensinar o a fazer.
+
+Eu não quero ensinar o a explorar o top, né, tanto
+
+é que eu eu eu falo primeiro dos controles pra.
+
+Controles ali também, são muito mais a favor deles
+
+do que falar do talk tem pra desenvolvimento.
+
+Então assim, eu desconheço hoje um outro treinamento né de
+
+em português né, que que fale sobre isso né, não
+
+não não reconheça não conheço se sou se tiver me
+
+avisa, né, e né, online que a gente possa fazer
+
+ao vivo essas pois né não seja gravado.
+
+E aí outra questão, eu falei eu fui desenvolvedor.
+
+Na faculdade eu não aprendi segurança.
+
+Segurança na faculdade era saber o que era um
+
+vírus, e era isso, pra e eu fiz faculdade
+
+de desenvolvimento uhum uhum então eu fiz faculdade de
+
+programação, programação Web, era a tecnologia em sistemas pra
+
+internet né no instituto federal da Paraíba.
+
+Uhum então não aprendi na área de desenvolvimento
+
+seguro não os projetos que a gente tinha
+
+que entregar na faculdade era o quê, o
+
+professor ia ver se o programa funcionava.
+
+Ele não fazia validação de entrada.
+
+Fazia ah assim o cara pediu aqui coloque
+
+seu nome, aí eu estava colocado um número.
+
+Não a pessoa não fazia isso entendeu.
+
+Eu não tinha essa mentalidade, né, então é tem
+
+dois problemas, né, realmente a gente tem um déficit
+
+de de capacitação nessa área de desenvolvimento seguro, né,
+
+mas hoje em dia claro já melhorou bastante, mas
+
+nas faculdades eu ainda não vejo faculdade falando de
+
+desenvolvimento seguro, principalmente faculdade de desenvolvimento, né se tiver
+
+alguém aí se alguém souber me manda o link
+
+não tem problema, né?
+
+E quando o cara vai começar a trabalhar não tem
+
+treinamento, as empresas não querem pagar, né é difícil empresa
+
+isso não é só o Brasil está é no mundo
+
+todo e principalmente na situação atual que a gente está
+
+né econômica é mais difícil é uma das primeiras coisas
+
+serem cortadas é que viagem essas coisas pra evento, então
+
+vamos cortar, e não tem pra gente brasileiro em Português,
+
+não tem treinamento de qualidade, entendeu, são poucos os que
+
+existem hoje em dia, que falam realmente disso, fala de
+
+desenvolvimento seguro né, né, no meu treinamento vai eu trago
+
+git A gente vai programar em git Vai criar uma
+
+automação um pipeline Integrar as ferramentas ali né, não tem
+
+hoje eu desconheço hoje, entendeu eu tenho que criar os
+
+meus treinamentos baseado no que na minha experiência baseada no
+
+que eu já vi né no mercado e treinamentos fora,
+
+né, então não tem referência brasileira.
+
+Então é isso e eu acho que isso falta mesmo.
+
+Assim, aí a gente tem que tem que entender
+
+que é o seguinte, não é culpa do desenvolvedor.
+
+Eu não acho que isso
+
+é culpa desesperador desenvolvedor.
+
+Desenvolvedor ele é ele é programado né, ele.
+
+Literalmente programado o entregar
+
+feature, no a funcionalidade.
+
+Está aqui a funcionalidade está aqui o Tíquete do gira que
+
+a sua estimativa me dá a às vezes quando ele tem
+
+uma né, ele define quando não é está aqui olha tem
+
+que fazer nesse tempo, e tem que entregar, né?
+
+É isso, ele eles viraram né máquinas
+
+ali né, na na fábrica mas, exato.
+
+Então assim, aí você vai querer colocar segurança você vai
+
+quero que eu colocar algo que me desconhece, realmente, vai
+
+ter atrito vai ter resistência né, vai ter olha eu
+
+não sei fazer isso, você vai me ensinar não não
+
+vou ensinar aprende aí, vira então fica difícil.
+
+Boa cara, muito boa você top o treinamento inclusive, exatamente
+
+por esse, por esse tema sempre sempre ter trazer esse
+
+tema aqui porque é muito fácil de falar ah os
+
+caras no corrige verdade dá já não faz, estava, Estamos
+
+treinando estou ensinando né Acho que tem esse esse lá
+
+das empresas de fazer, sim por isso que comecei o
+
+podcast de trazer na experiência para caras eu criei um
+
+treinamento de sas pra explicar o que que é sa
+
+pra galera, Como é que você testa o seu código,
+
+e cria um de informação de.
+
+Né fala de toda a parte Psique desde modo né
+
+a a análise de ovos brasil de aplicação pra formar
+
+o cara ali num na é in vamos.
+
+Mas não tem escovar bit código por exemplo
+
+como é que corrige eu vão porque não
+
+é provérbio, né É uma informação separada.
+
+Tem mas esse exatamente pro desenvolvedor acho que é um
+
+negócio mas eu não tirei nem ka cara, não tem.
+
+Não cara não tem Português né?
+
+Falando de sim em Português é falando em português eu eu
+
+quero dizer a seguinte, o que que corrige essa que é,
+
+Ah beleza é prep com by, mas beleza você sabe decorar
+
+o top tem, né, mas por que que isso previne sql,
+
+qual é o motivo o que que faz isso prevenir, Isso
+
+eu mostro no meu treinamento tem um, a gente vai ter
+
+agora, primeiro você gera uma query, né, de uma vez só,
+
+já inclui os parâmetros.
+
+Agora você gera quase em duas etapas, você consegue
+
+diferenciar o que é comando, né, o que é
+
+comanda Si e o que é parâmetro.
+
+Isso previne o, um Isso faz o interpretador
+
+saber, bom, isso aqui é comando, beleza.
+
+Isso aqui é parâmetro, se é
+
+comando sql que eu vou ignorar.
+
+Então essa explicação às vezes claro, com mais
+
+detalhes, mostrando exemplos ali e falta, não não
+
+tem isso, a pessoa não entende.
+
+Então por isso que eu foco nos controles pró ativos
+
+por quê Porque eu não quero ensinar a explorar pela
+
+escrita, não quer ensinar de novidades explorar que ela é.
+
+Né, Eu quero fazer com que ele tenha a mentalidade
+
+de evitar que isso aconteça, ou seja não vai ter
+
+esse que no meu código, se eu fizer dessa forma.
+
+Inclusive viu que eu tenho tenho falado num treinamentos a
+
+afora também Workshops que é, é legal sas de verificação
+
+legal, tem que estar lá né testes, mas melhor do
+
+que caixa nos problemas lá é pá de criálos, existe
+
+vai parar de criar vulnerabilidade, a gente o desenvolvedor poder
+
+entender o que é uma Por que que isso acontece
+
+ah né que você falou bolsa da vida que o
+
+parâmetro que eu não estou tratando jogo pra minha coelho
+
+não calma então eu vou começar a tratar a validade
+
+então esse esse mindset sete né, pra de parar de
+
+criar os problemas, vai levar um tempo assim muito grande,
+
+por isso que ferramentas mas ferramenta a segurança vende pra.
+
+Que aquela com freud muito rápido,
+
+agora preciso ficar analisando apenas se
+
+tem problema vamos não ter problema.
+
+Aí vira a máquina da máquina né, porque o cara já
+
+é uma máquina você você usa uma palavra legal, né, o
+
+cara já é uma máquina de feature, aí vira uma máquina
+
+de corrigir, agora uma máquina corrigir uma, que vai ficar num
+
+absurdo e vira numa podcast neve que o ideal separa as
+
+criar problemas né, simples É então o ideal das ferramentas é
+
+justamente isso, você quando você implementar as ferramentas é você parar
+
+o sangramento né, eu falo em inglês top the né, ou
+
+sei, você parar o sangramento além de de gerar novas falhas,
+
+pra entender beleza a gente está aqui ó essa é a
+
+situação atual da gente.
+
+Então estamos na Merda estamos na, mas não vamos pio
+
+vamos ter tentar diminuir o problema e não aumentar não
+
+né Como é que a gente trabalha isso ah, beleza
+
+você vai fazer um treinamento é é fato isso até
+
+desde o Mbl da Microsoft lá né, fala treinamento pra
+
+desenvolvimento pra desenvolvedores isso entendo inclusive.
+
+É então é eu confio muito nisso é importante porque justamente
+
+a gente ficar ficar de falar que que não tem.
+
+Daí você fez o treinamento, mas como é que
+
+você vai medir que o seu treinamento foi efetivo
+
+né, a empresa investiu lá cem mil duzentos mil
+
+no treinamento num num programa de geral ferramenta e
+
+tudo mas como é que está sendo efetivo?
+
+Você vai ter que medir.
+
+Ô treinei o vamos pegar um tópico
+
+bem específico, treinando dúvida em esse gel.
+
+Então teoricamente essa equipe que eu tenho né, se entendeu
+
+o assunto se entendeu o problema não é pra gerar
+
+mais falhas desse come jackson, entendeu a não ser que
+
+entrou um novo destruidor e tal alguma coisa assim.
+
+Claro vai acontecer um erro alguma coisa é é
+
+humano né, vai acontecer esses problemas mas né não
+
+é algo que é pra dobrar o número né?
+
+Então eu vou medir então está diminuindo me
+
+falhas que é beleza está diminuindo, então você
+
+pode ter assumir está sendo efetivo, né está
+
+sendo neta com reduzir esse problema.
+
+Inclusive eu tenho eu estou escrevendo um livro e lá
+
+no livro eu tenho um tópico que são qui, uhum
+
+e um dos tópicos é justamente isso, é que eu
+
+como é que coisas eu tenho que medir no meu
+
+programa de pensei que pra saber o que está acontecendo.
+
+Você tem um exemplo muito bom cara Hoje
+
+eu tenho sei lá, pegar um histórico de
+
+commits de eu tenho sei lá, x querem.
+
+Uhum uhum Fiz aqui um treinamento, agora eu né
+
+faço uma análise depois um período quantos acredita eu
+
+tenho, tem que ter x menos alguma coisa.
+
+Né, você consegue que até medir o roe né, como
+
+foi o os tópicos do twitter aí esses dias né,
+
+enfim, pra você sair ter esse tipo de medição mais
+
+sem essa própria análise de fato você fica a deriva
+
+né, ah, eu tinha x agora eu tenho até então
+
+até essas medições e você que é legal a galera
+
+começar a se preocupar né, pra ver se está funcionando.
+
+É são duas são duas coisas que a galera
+
+odeia eu acho que segurança né, o primeiro é
+
+relatório, não é medir as coisas né?
+
+Porque às vezes você vai medir pode refletir mal
+
+pra você ou seja seu trago seu trabalho não
+
+está não está sendo esse não está funcionando né?
+
+Mas aí você tem que ter trabalho, tem que ter a noção
+
+de de trabalho numa empresa que tem essa cultura de né do
+
+Pl que a gente chama Não culpar a pessoa e entender.
+
+Por que que está dando errado raiva?
+
+Tem que melhorar tem que mudar alguma coisa vamos ajustar,
+
+né, A gente ter capacidade de é o 0 teste
+
+her teste of ou seja, teste c teste sempre, e
+
+se você falhar, você corrigir rápido essas falhas olha dando
+
+está dando errado não está funcionando eu vamos ajustar, né?
+
+Então essa possibilidade principalmente no começo de é um programa
+
+de De explorar algumas coisas é normal né, tem que
+
+ter essa abertura né, as que in, a primeira publicação
+
+né primeiro o artigo público, do Sueli G é de
+
+mil novecentos e noventa e oito, né?
+
+A gente hoje ainda hoje tem né vinte e cinco anos depois
+
+a gente hoje ainda tem aplicações o Web vulnerável G e até
+
+mesmo às vezes até aquele ou um igual um mais simples e
+
+não toa pô Beijou né, agora em in uma categoria geral pra
+
+ver né mas ainda está no top três desde sempre, Sim sim
+
+né como tem jeito colocou o cross de lá mas continua, né,
+
+o que tem diminuído né e a explicação do é interessante, né,
+
+O que que tem diminuído a, né?
+
+Por que que caiu da primeira pra terceira posição
+
+é porque o está mais né, está mais cuidadoso
+
+com segurança, é porque as as ferramentas de segurança
+
+melhoraram não não é nada disso.
+
+É porque os frameworks né, de as linguagens novas
+
+também de segurança já vêm com proteção por padrão.
+
+É transparente pro.
+
+O dúvida não tem que lembrar agora de fazer um prefere
+
+de mente com by de verbo, ele chama lá uma função
+
+já faz a ele Uhum uhum ele usa um framework que
+
+por exemplo no Java tem um que eu lembro que a
+
+gente utilizava na na empresa anterior que é o Juca j
+
+quê, né, também já faz, ou seja, né, teoricamente a gente
+
+não é pra ter que é energético no código e você
+
+você usar o framework, né?
+
+Inclusive bastante, eu costumava dizer que aplicações do Net
+
+pra você ter cross você precisava forçar só pra
+
+desativar lá o uma com da vida lá fala
+
+acaso você deixou a aplicação que era seguro, vulnerável
+
+você piorou o negócio né. E isso isso.
+
+Mas enfim magno a gente está estourando o tempo aqui
+
+já, agradecer só agradecer conteúdo pra caramba mas pra gente
+
+falar, de novo, já está convidado com pro episódio dois,
+
+três quatro a gente falar do que você quiser, deixa
+
+aí os seus comentários, links projetos, eu vou na hora
+
+que eu posto o conteúdo o pessoal vai acontecer ter
+
+acesso lá nosso canal do Youtube.
+
+Tem os links, não se você quiser comentar
+
+aqui agora, divulgar fique à vontade não tranquilo.
+
+Falar aqui o seguinte, eu comecei a ter escreveu um livro
+
+sobre deve eclipse mas acabei não não tendo tempo pra finalizar,
+
+né a gente pode conversar aí sobre seu livro Esse deve
+
+alguma coisa, o material eu tenho todo ele ainda só não
+
+está público, por causa de de prazo mesmo a editora né
+
+com uma editora e fica no pé em cima ser é
+
+mais independente é mais fica mais tranquilo.
+
+Mas acabei não não conseguindo tocar muito esse projeto,
+
+mas eu acho que é entre gente ter um
+
+material de qualidade às vezes os os livros que
+
+eu vejo diversos muitas vezes são muito superficiais ou
+
+são não são pra pessoas técnicas.
+
+Não eu acho que isso é interessante.
+
+Aí tem aquele projeto que eu falei da mentoria ali
+
+do do pessoal que vai aplicar não personagem não necessariamente
+
+pro exterior mas que quer dá um Up no no
+
+no resumir né no no currículo no linkedin e tal
+
+pode entrar em contato vou deixar o link do telegram
+
+aí que é uma é um grupo do telegram que
+
+a gente compartilho vagas, as notícias de né mais coisa
+
+do Canadá mas sempre tem uma coisa outra da Europa,
+
+Estados Unidos também e e aí isso é só assim,
+
+estou sempre à disposição né, já fui muito mais tive.
+
+Já tive muito mais tempo pra participar de comunidades foi
+
+software da Asp lá por cinco anos no Brasil organizei
+
+eventos no Brasil, Hoje em dia estou mais contribuindo através
+
+desses eventos de palestras e tudo mais mas estou sempre
+
+à disposição sempre disponível aí pra quem precisar quem quiser
+
+entrar em contato Principalmente pelo linkedin hoje em dia é
+
+o meu meio mais fácil de entrar em contato aí
+
+comigo primeiro, primeira conversa ali, E é isso quem tiver
+
+interesse no meu curso da Gol lá de desenvolvimento seguro,
+
+code df Né, a gente deve estar lançando a turma
+
+no segundo semestre aí de dois mil e vinte e
+
+três, e também estou pra lançar um curso que é
+
+eu vou fazer um eu vou fazer esse treinamento em
+
+las vegas, vou oferecer ele dois dias lá, mas a
+
+gente quer lançar uma versão estendida dele e em Português
+
+né um curso sobre contêineres e kubernetes em insegurança né,
+
+nesses tópicos em português pela Gol Ranking também no segundo
+
+semestre né, porque eu faço as coisas no segundo semestre.
+
+Porque o nosso verão canadense é junho Júlia Agosto, né,
+
+e a gente só tem esses três meses ali pra
+
+aproveitar o som de agosto eu costumo né, sair mais
+
+com a família passear fazer viagem ali né, dentro do
+
+Canadá pra aproveitar, porque depois acabou depois é neve viu
+
+jogo não tem mais nada.
+
+Eu sempre deixo pro final do ano ali que já
+
+vai estar muito frio mesmo, pra pra fazer esses treinamentos,
+
+só pra explicar pro pessoal mas mas assim.
+
+Obrigado pelo convite pela oportunidade e também.
+
+Boa magno de novo agradecer pessoal todos esses links aí
+
+que o magno Falou mandar da no offline online vai
+
+estar lá no nosso canal Alex você está ouvindo o
+
+episódio já está lá no nosso canal, enfim, tem o
+
+nosso canal do discurso de lado da você com podcast
+
+os convidados também que participam só o convidados a estar
+
+lá, você pode tocar ideia com a aquela não obrigatório
+
+mais podem estrear também, tem uma do youtube as plataformas
+
+digitais spotify diesel você quiser disputar essa escuta, e tem
+
+um infância também na brincadeira vocês ainda no mundo ainda
+
+não lançamos normal.
+
+Mas quem sabe lucas você sobe
+
+mercado cara deu dinheiro enfim sim.
+
+Realmente voto né tem que aumentar
+
+o momento o roe, boa.
+
+Pessoal, ficamos por aqui Magno obrigado mais uma vez
+
+a gente vê na semana que vem pessoal.
+
+Valeu valeu. Term
+
