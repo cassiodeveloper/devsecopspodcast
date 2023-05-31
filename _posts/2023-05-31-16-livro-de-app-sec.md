@@ -9,8 +9,8 @@ Proteger seus dados pessoais e informações confidenciais.
 Mitigar riscos e lidar com ameaças emergentes.
 Se você é um desenvolvedor, profissional de TI ou alguém preocupado com a segurança digital, este livro é uma leitura obrigatória. Aumente sua compreensão sobre segurança de aplicações e adquira as habilidades necessárias para manter-se protegido no mundo virtual.🎁 E temos uma surpresa para nossos ouvintes! Durante esta semana, oferecemos um desconto especial na compra do livro 'Explicando, Application Security'. Basta acessar nosso site https://cassiodeveloper.com.br/livro e usar o código promocional 5OFF no checkout. Não perca esta oportunidade de aprimorar seus conhecimentos em segurança de aplicações. Faça parte da comunidade que está transformando a forma como encaramos a proteção digital. Acesse agora https://cassiodeveloper.com.br/livro e adquira seu exemplar de 'Explicando, Application Security'! Junte-se a nós nesta jornada de descoberta e fortaleça sua defesa contra as ameaças digitais. Ouça o episódio completo em https://devsecopspodcast.com.br e adquira seu livro hoje mesmo!🔒 Proteja-se. Mantenha-se seguro. 'Explicando, Application Security' 📖"
 file: https://api.spreaker.com/v2/episodes/54056140/download.mp3
-length: 
-videoid: 
+length: 41:37
+videoid: l7kGeT_xNB0
 cover: "../assets/img/416.png"
 transcription: "../assets/transcriptions/4/16/16.srt"
 ---
