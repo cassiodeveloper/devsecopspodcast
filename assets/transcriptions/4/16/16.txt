@@ -1,0 +1,1892 @@
+E inovação, segurança, tecnologia, desenvolvimento.
+
+Começa aqui.
+
+O seu podcast de segurança em tecnologia.
+
+Fala, meus jovens!
+
+Tudo bem com vocês?
+
+Eu espero que sim!
+
+Sejam muito bemvindos a mais um episódio ódio, do
+
+seu, do meu, do nosso, deve ser copy, podcast.
+
+O seu podcast de segurança e tecnologia Pessoal, vai passar
+
+o seguinte, eu sou o Cássio Pereira, no episódio de
+
+hoje a gente vai falar sobre o livro de upsank
+
+ou um livro de Existem vários, alguns aí bem famosos
+
+até no mercado, mas eu vou fazer a propaganda deles,
+
+vou fazer a propaganda minha do meu livro de epissexc,
+
+Então esse episódio é pra conversar com vocês, explicar pra
+
+vocês de fato o quê?
+
+Já teve live sobre livro, mas episódio que a gente
+
+vai abordar um pouquinho mais tecnicamente o que é o
+
+livro, como está funcionando e oferecer um desconto especial para
+
+você comprar hoje mesmo, agora já pausa, já compra, depois
+
+você volta para o episódio, beleza?
+
+Então, esse episódio de hoje, antes de começar o
+
+episódio, destacar que o DevSecalls Podcast e o apoio
+
+da Checkmarks e da nova Oi, que são especializadas
+
+em segurança dos sistemas de código seguro.
+
+O link da nova 8ª distribuidora da Checkmarks oficial
+
+no Brasil está abaixo da descrição do episódio.
+
+Ou no nosso site deve ser coffee podcast.com.br.
+
+A Contabilidade Olímpia que é especializada em
+
+profissionais da área de TI, se você
+
+abre de empresa imobiliária Contabilidade, entre em
+
+contato com o pessoal da Contabilidade Olímpica,
+
+que eles estão prontos para te atender.
+
+E ainda, a Gold Security, que
+
+é especializada em Aprendiz de Security.
+
+Quer desenvolver software seguro, fale com a Go.sect.
+
+Quer anunciar vagas, quer procurar
+
+tranco na área de apsect? Apsect.jobs.
+
+Pessoal, o negócio é o seguinte, eu tô
+
+feliz e deixo ao mesmo tempo, por quê?
+
+Muito feliz porque esse projeto do livro é um projeto pessoal,
+
+um projeto muito bacana, que eu copiei a ideia, já vou
+
+falar de quem eu copiei a ideia, então é importante dar
+
+os créditos, mas estou muito triste porque a cada pedaço que
+
+eu escrevo, vem mais ideias, mais coisas tão da pessoa que
+
+eu não vou acabar nunca esse livro.
+
+Eu fico triste por frustrar, mas eu tenho
+
+que criar um escopo na minha cabeça e
+
+fechar essas desculpas, que é a verdade.
+
+Mas ao mesmo tempo quem se beneficia disso é você que
+
+já comprou o livro, que já tem acesso, o livro já
+
+tem acesso Como é que funciona o projeto do livro?
+
+É só de uma maneira bem objetiva
+
+aqui pra gente começar o episódio.
+
+Se você acessar agora, agora, Cassio Developer, ponto
+
+com ponto br livro você vai cair no
+
+WhatsApp exclusivo do livro de Application Security.
+
+O livro chama Explicando Application Security.
+
+O livro é exatamente praticamente todo o meu
+
+conteúdo todo o meu a minha experiência toda
+
+a minha abordagem de aplicativos e títulos Tá?
+
+Tá lá no livro.
+
+O projeto do livro em si é um projeto que
+
+eu copiei de um cara chamado Peter Levels, ou se
+
+você ir lá no Twitter, LevelSeal, você vai conseguir seguir
+
+o Peter, é o Indie Hacker, ou um Solo Prenur,
+
+que não está na onda aí agora de falar.
+
+E basicamente ele explica como fazer projetos open e tudo mais
+
+etc etc enfim é uma seguida lá que vocês vão gostar
+
+mas a ideia veio dele ele tem um livro inclusive nesse
+
+formato que ele começou a fazer mais formato.
+
+Hoje o livro dele já tá fechado, né?
+
+Já tem uma versão fechada ali.
+
+Então como é que funciona esse projeto, gente?
+
+Basicamente, você compra o livro, né, tem
+
+lá, entrou no caso developer.com.br, barra livro.
+
+Hoje o livro tá custando 35 reais, tá baratíssimo.
+
+E se você usar o cupom cinco
+
+off, você tem um descontinho lá.
+
+Ah, então eu uso o cupom 5
+
+off, você vai ter um descontinho lá.
+
+Se você é cinco reais, é cinco
+
+porcento, mas tá tudo descontinho lá, tá?
+
+Mas custa só trinta e cinco reais do B.
+
+Assim que você compra o livro você vai receber no
+
+seu email que você usou para comprar o livro.
+
+O link do Google Docs, que é privado,
+
+onde eu estou escrevendo o livro, que é
+
+de fato o livro propriamente dito.
+
+Tem capa, tem prefácio, já tem todos
+
+os capítulos estruturados a tudo lá.
+
+Então você compra, você deve
+
+ter acesso imediato ao livro.
+
+Não é o livro final, mas é o processo de produção dele.
+
+Ou seja, eu tô escrevendo um capítulo, eu vou revisar,
+
+eu escrevo de novo, amanhã eu boto mais um pedaço,
+
+aí escrevo outro capítulo, aí tem um insight, eu vou
+
+lá e escrevo alguma coisa, ou seja, praticamente todo dia,
+
+toda semana tem um conteúdo novo lá no livro.
+
+Então você compra hoje por um preço, né?
+
+Começou com de 14 reais, enfim, já aumentou o preço
+
+tá no segundo, não, tá no segundo preço, segundo lote.
+
+Então quem comprou no começo?
+
+Acompanhou desde o processo de escrita do começo e agora
+
+já tem né aumentou aumentou preço porque já tem todos
+
+os capítulos estruturados já tem que prefácio escrito do nosso
+
+grande mestre sagrado que eu já vou falar quem é
+
+Então por isso que o preço aumentou.
+
+Mas você compra e já tem acesso imediato ao nível.
+
+Tudo que eu já escrevi já está lá,
+
+você já tem acesso imediato na hora. Tá?
+
+Acesso online lá no Google Docs, você pode baixar,
+
+pode copiar, enfim, não pode obviamente reproduzir ou distribuir
+
+isso, mas por questões de direito autorais, pra você
+
+ter acesso, você pode fazer download, ler offline, no
+
+jeito que você achou melhor.
+
+Então é esse o projeto.
+
+Basicamente, um projeto open, enquanto você comprou, você
+
+tem acesso ao projeto, ao fácil de escrita,
+
+as revisões, tudo que adicionar, enfim.
+
+Cássio depois, quando você acabar
+
+o livro, o que acontece?
+
+Quando acabar o livro, vou fechar o formato
+
+dele, PDF, INEPub, MOB, enfim, você poderia não
+
+ser os Kindle da vida e tudo mais.
+
+Eu preciso que seja um formato HTML também,
+
+mas ainda na certeza de qualquer jeito você
+
+vai ter um formato ali fechado pra poder
+
+fazer download, aquela que fazer tudo.
+
+Pede pra não compartilhar, né? Redes naturais.
+
+Até porque o preço é bem acessível.
+
+Então você vai ter um livro, um formato fechado e
+
+aí eu paro de analisar, paro de escrever, tá?
+
+Mas até lá você tem acesso a tudo, livre, né?
+
+A hora que você tiver escrevendo também, você
+
+tá lá, pode acompanhar junto com o Big
+
+Noite escrito porque é online, tá?
+
+Teve lives já no meu canal sobre o livro, sobre esse
+
+projeto, ele tá escrito mesmo, eu apresentei a tela do livro
+
+ali, mostrei, então acho que vale a pena vocês.
+
+Tá ali uma conferida lá no meu canal do
+
+Nerdcast de Batista Pereira lá com o Amilton, tá?
+
+Então vamos lá, o que eu queria
+
+falar sobre o livro pra vocês?
+
+O livro fala porque hoje no episódio de hoje, os
+
+capítulos, o que que já tem lá, um pouquinho do
+
+conteúdo, Por que eu quero que você compre?
+
+Por que eu quero que você compre?
+
+Eu vou ficar rico, vendendo um livro de 35
+
+reais, a menos que milhões de pessoas comprem? Não!
+
+E eu duvido que milhões de pessoas Então
+
+não vou ficar rico com isso, não vou
+
+andar de ferrado em todos os dias.
+
+Adoraria, mas não vou.
+
+O meu objetivo, gente, com o livro é, além
+
+de obviamente manter os meus projetos, as próprias ferramentas
+
+de gravação, domínio, um monte de coisa que a
+
+gente faz aqui no Background, é que você tenha,
+
+né, pague por algo, você vai dar valor naquilo,
+
+logo você vai ler você vai aprender o plano
+
+de absorver o que está lá de alguma forma.
+
+Então o meu objetivo é espalhar
+
+cada vez mais segurança e desenvolvimento.
+
+Quando você paga por algo, seja um real, seja um
+
+milhão, você dá valor para aquilo e você vai usar.
+
+Então, o objetivo do livro é que
+
+você pague por ele e leiam.
+
+De novo, o livro começou 9
+
+reais, 14 reais, eu não lembro.
+
+Já está 35 reais, é simbólico, gente.
+
+É simbólico, até porque é uma produção independente, deve
+
+publicar na Amazon, tem uma produção independente também, só
+
+poder baixar por lá também, mas enfim.
+
+Não é um livro impresso, tem uma editora,
+
+porque atrás, até perdoem os erros de português.
+
+Então assim, o que importa é o conteúdo que tá lá.
+
+Então o meu objetivo é esse, não é ficar rico.
+
+Igual o pessoal já tem uns haterings que falam que eu
+
+já eu quero ficar rico vender coisas e tudo mais.
+
+O objetivo de vender coisas é fazer lucro.
+
+Ou manter nada de errado com isso.
+
+Mas o fato é o livro, tem um único, exclusivo
+
+objetivo de fazer, você aprendeu alguma coisa sobre investir.
+
+E o Devese Corpho Podcast é parte disso.
+
+Aliás, eu tenho 4 anos e fiz de
+
+temporada de conteúdo gratuito, né, ser maratonada do
+
+seu próprio podcast, praticamente vira um analista de
+
+juros, é bem fácil de apseque.
+
+Fácil, não é fácil, eu convido o que a
+
+gente fala aqui, a gente abordou com os convidados
+
+e tudo mais, então tá aí tudo de graça
+
+pra você, o livro praticamente eu não.
+
+Uma atuação que você tá fazendo, né?
+
+De atuação não, você tem um não produto ali em troca.
+
+Enfim, vocês entenderam essa mensagem.
+
+Então gente, o que eu queria
+
+começar falando hoje pra vocês?
+
+Primeiro, o prefácio do livro
+
+foi escrito por ninguém menos.
+
+Que o Mestre Sagrado e o Idiotions.
+
+Para quem está me vendo no YouTube eu dou olhou
+
+total aqui para poder acompanhar, para ficar mais fácil.
+
+Mas que está só ouvindo e não está percebendo isso.
+
+Yuri Diógenes, ele era não ser o cargo exato dele
+
+hoje, mas ele trabalha na Microsoft ele lidera, vamos chamar
+
+assim, o TEA de cloud, de cloud security do Azure,
+
+produtos do Azure de segurança, e a própria segurança do
+
+Azure ele lidera o time de Israel, um time global
+
+na Microsoft com relação ao azul e o George Ogilson
+
+brasileiro que trabalha no Microsoft há anos já.
+
+Eu o conheci na internet, no mundo da vida
+
+aí, mas lá atrás quando eu comecei minha carreira.
+
+Ele já é um monstro sagrado.
+
+Ele escreve os livros de certificação
+
+da Microsoft e tudo mais.
+
+Yuri de hoje, que gravou aqui o episódio.
+
+Na segunda ou terceira temporada, não estou com os
+
+dados aqui agora, não vou conseguir pegar, mas na
+
+segunda ou terceira temporada eu acho que na segunda
+
+acho que uma segunda, ele gravou principalmente sobre Cloud
+
+High Jeans usando Azure e outras coisas.
+
+Tá fantástico com os olhos, trouxe um monte de conteúdo
+
+pra gente, um cara fantástico, manja muito da parada.
+
+E tá sempre colaborando com a comunidade, tem
+
+livros, tem podcast, tem um monte de coisas.
+
+E os Diógenes Mestre Sagrado escreveu
+
+o prefácio do meu livro.
+
+Isso por si só já deveria conhecer, só por
+
+isso já devia custar um Barão esse livro.
+
+Fácil, só por esse prefácio.
+
+Tá então comprou você vai ter acesso a isso
+
+já tá lá bonitinho e aí tem os capítulos
+
+do livro olha só vou ler para vocês os
+
+capítulos do livro que são Acho que 9 capítulos.
+
+Você não precisa de Shift.
+
+É o primeiro capítulo do livro.
+
+Você não precisa de Shift.
+
+É isso mesmo que você ouviu.
+
+Enquanto a onda do mercado é Shift, Shift, Shift,
+
+Shift, eu falo que você não precisa de Shift.
+
+Então é o primeiro capítulo do livro,
+
+já pra começar na treta já.
+
+No segundo capítulo é proteger aliás preparando o
+
+seu software preparando o seu software tá Terceiro
+
+capítulo, cuidados com o código enquanto ele nasce.
+
+Eu não achei um nome melhor pra esse
+
+capítulo mais por enquanto é cuidado com o
+
+Conde o Me encontrei, nasce, beleza?
+
+O quarto capítulo, aliás, esse terceiro
+
+capítulo é um dos maiores, tá?
+
+E os meus segredos?
+
+E os meus segredos?
+
+SSD com segurança, mas ainda não é deve ser cóccix.
+
+Se ESG com segurança, mas ainda não é deve ser cócegas.
+
+Muita gente com filmes, né?
+
+Só colocar uma ferramenta de escrita na esteira,
+
+você tá fazendo dessa Copy, não é?
+
+Sexta capítulo, fiz deploy e agora,
+
+fiz deploy e agora, tá?
+
+Conheça o comportamento da sua aplicação.
+
+Conheça o comportamento da sua obrigação.
+
+Não basta encontrar problemas. Tem que resolvêlos.
+
+Kipiais para onde vou o que faço kipiais para onde vou
+
+o que faço e o último capítulo deve ser copys agora
+
+sim deve ser copys agora sim é o capítulo 9 tá
+
+pessoal Cada capítulo, eu tô lendo aqui, eu tô com a
+
+tese da telinha aqui do livro aberto.
+
+Pra já ter uma capa, tá bem bacana, a capa
+
+você já consegue ver lá no site, tá aberto, tá?
+
+Cada capítulo do livro, eu tenho um desenho,
+
+basicamente uma figura ali, que nortei a gente
+
+naquele ciclo de desenvolvimento segura, aquela coisa também,
+
+qual fase a gente tá?
+
+Então tem uma dica aqui no começo de
+
+como é que você lê esse livro da
+
+melhor forma, explica ali um pouquinho, né?
+
+De uma sugestão de como você lê, eu
+
+tenho guia, tem um personagem ali que ajuda
+
+você durante alguns capítulos, durante alguns momentos, eu
+
+falo da introdução, dissertação e tudo mais, tá?
+
+Então isso ajuda bastante.
+
+Cada capítulo tem também uma frase
+
+de impacto, vamos chamar assim.
+
+O subtítulo seria uma frase de impacto minha.
+
+Do que eu acho daquele capítulo de uma maneira
+
+geral e como você se prepara para a lei.
+
+Essa frase normalmente impacta um pouquinho.
+
+Inclusive no capítulo 1, essa frase é o capítulo 1 é
+
+você não precisa de shift a frase é segurança é responsabilidade
+
+de todos então você entende um pouquinho ali e tá se
+
+tratando o contexto e tudo mais o capítulo 1 tipo o
+
+2 1 eu 2 um deles eu fiz uma live escrevendo
+
+o capítulo inteiro mas parte dele Na live dá pra você
+
+ver uma parte da escrita e tudo mais.
+
+Então você tem um teste drive gratuito aí do livro.
+
+Você não quer pagar agora, não quer comprar agora.
+
+Vai lá no meu canal, assiste a live, que foi
+
+falado do livro, tem modulas já lives ou três lives
+
+lendo, fiz bastante já ou poucas enfim, vamos lendo.
+
+Mas tem umas lives lá e você já
+
+consegue ver algum pouco de conteúdo, tá?
+
+Aí você vai ver, pô legal, gostei, vou comprar o livro.
+
+De novo, é um preço simbólico, já vale a pena.
+
+O que o primeiro capítulo trata,
+
+gente, de uma maneira geral?
+
+Por que você não precisa de shift shift?
+
+Por que você não precisa de shift shift?
+
+Se você parar para pensar, O shift e o mercado
+
+vem falando, todo mundo faz segurança errada, ou seja, faz
+
+segurança lá no final do processo de desenvolvimento.
+
+Então você precisa fazer um shift
+
+shift para poder fazer segurança direito.
+
+A abordagem desse episódio, desculpa, a
+
+abordagem desse capítulo é justamente isso.
+
+Você não precisa fazer shift shift shift você não precisa
+
+fazer shift shift é isso que eu afirmo nesse capítulo
+
+Eu não quero falar muito pra andar spoiler, né?
+
+Pra você ficar curioso e comprar.
+
+Então, compra o livro, você vai entender
+
+por que você vai precisar de estilete.
+
+E, aliás, já gravei episódio
+
+aqui, não deve ser capítulos.
+
+Falando, faça Shift.
+
+Mas num livro você não precisa de Shift.
+
+Vai entender porque quando você lê o primeiro capítulo.
+
+O segundo capítulo, gente, eu falo
+
+sobre preparando o seu software.
+
+E aí a frase Dá para encontrar
+
+os problemas antes do software existir.
+
+Pra quem acompanha meu canal já sabe que eu
+
+tô falando de modelagem ameaças, sabe que eu tô
+
+falando de planejamento, design, arquitetura, coisas desse tipo.
+
+Então preparando o seu software, é exatamente isso, o
+
+seu software não existe ainda, você está pensando nele
+
+de uma forma arquitetural, de requisito e tudo mais,
+
+aí você começa a criar algumas coisas de segurança.
+
+Que coisas são essas?
+
+Você vai ver lá no capítulo 2.
+
+No capítulo 3, 3, 3 Não, desculpa.
+
+O capítulo 2 é esse aqui.
+
+Cuidado com o código enquanto nasce.
+
+Aliás, acho que está errado o
+
+número do capítulo que precisa arrumar.
+
+Cuidado com o código enquanto nasce.
+
+E aí eu Quem cria as vulnerabilidades?
+
+É você, deve.
+
+Beleza?
+
+Esse capítulo obviamente está óbvio, né?
+
+Estou falando do códigofonte em si.
+
+Então a gente vai abordar lá técnicas
+
+de scan de códigofonte, técnicas de code
+
+review, por acesso de como implementar isso.
+
+O livro está muito bem completo.
+
+Esses capítulos que eu estou falando para
+
+vocês, exceto dois preparando o seu só,
+
+todos eles já são estruturados.
+
+O que significa estruturado?
+
+Já tem conteúdo no capítulo, tem introdução, tem dissertação
+
+sobre o tema, tem exemplo, tem caso de uso,
+
+tem ferramenta, tem dica, tem que piar de automação.
+
+Cada capítulo tá estruturado assim ó, esse
+
+é o esqueleto de cada capítulo, tá?
+
+Você tem o guia, o que a gente
+
+tá falando deve ser qualquer aqui no capítulo.
+
+Uma introdução sobre o tema.
+
+Automação, como é que a gente automatiza esse tema, esse
+
+tópico que a gente tá tratando num livro ali agora?
+
+Kipiais para a gente manter a saúde do
+
+nosso FSI como um todo sobre esse tema
+
+específico que a gente está tratando.
+
+Ferramentas a gente pode usar para esse tema
+
+em específico e a conclusão do capítulo.
+
+Então esse é o esqueleto de cada capítulo segue.
+
+Obviamente alguns capítulos não tem ferramentas, por exemplo, faz
+
+tira ou não tem a margem de KPIs, mas
+
+de uma maneira geral seguem esse esquema.
+
+O capítulo do qual que eu falei agora?
+
+4, 2, 3, o capítulo 3 e meus segredos.
+
+E os meus segredos.
+
+E a isso nunca vai acontecer comigo.
+
+E os meus segredos, isso nunca vai acontecer comigo.
+
+Esse capítulo, obviamente, estou falando de Secrets.
+
+Management de Secret Management, etc, etc, etc.
+
+Então, tem bastante coisa nesse capítulo.
+
+Eu não quero dar spoiler desse também.
+
+Vale a pena você ler.
+
+Se a ESG com segurança mas ainda
+
+não é deve ser copys, né?
+
+Se decidir com segurança, mas não vai ser copys.
+
+Porque muita gente acha que deve ser copys é
+
+você ter o seu jenkins e agora o seu
+
+jenkins dispara um scanner sácio no sonar.
+
+E você tá deve ser copo? Não, mano.
+
+Não tem nada a ver.
+
+Tem uma relação ou outra, mas não é isso.
+
+E aí a frase Automação é a chave para o sucesso.
+
+Eu até posso mudar essa frase.
+
+Para automação é fator crítico de
+
+sucesso, de ficarem mais bonito, tá?
+
+Então pode ser que eu mude essa frase.
+
+Esse capítulo, obviamente, tratando de pipeline, se
+
+a esse dia, um momento específico de
+
+grandes ciclos de movimento para que você
+
+tenha segurança ou inclua segurança na seta.
+
+Faz sentido também.
+
+Depois vem o capítulo fiz deploy e agora fiz
+
+deploy agora a frase de impacto a palavra de
+
+impacto que é uma simples pergunta subiu Você pode
+
+até ter um duplo sentido, né? Subiu.
+
+Nenhuma carinha de safadeza. Mas enfim.
+
+Vocês decolaram aí agora.
+
+E aí, obviamente, né, gente?
+
+Pra extrair aplicação em produção ou não
+
+produção necessariamente, mas é que você fez
+
+um deploy em um ambiente específico.
+
+O que você faz agora?
+
+Do Pollywise sempre quis seguir.
+
+O que você tem que cuidar?
+
+O que você tem que tomar conta, tá?
+
+É isso que a gente aborda nesse capítulo.
+
+Depois tem um capítulo aqui, Os 6
+
+conhecem o comportamento da sua aplicação.
+
+E se você não conhece o comportamento
+
+da sua aplicação, não saberá quando for
+
+atacado ou quando estiver sob ataque.
+
+Obviamente eu tô falando aqui de log, monitoramento,
+
+como é que você ainda entende a sua
+
+aplicação o que está acontecendo e tudo mais.
+
+Isso é crucial no ciclo de endividamento, seguro.
+
+Aliás, nem que você não faça
+
+o monitorar suas aplicações e obrigação.
+
+Não vale pra me indignar com isso nada.
+
+No capítulo 7 eu falo que não
+
+basta encontrar problemas tem que resolvêlos.
+
+É igual eu era um médico, fazer exame,
+
+fazer exame, fazer exame e não resolvidos problemas.
+
+Tá claro aqui o que eu tô tratando.
+
+Tá muito claro.
+
+Mas eu não vou falar porque você vai ter que ler.
+
+Capítulo 7, beleza?
+
+Esse capítulo também está muito legal e é
+
+um dos maiores eu diria que é um
+
+dos maiores erros de desenvolvimento seguro.
+
+Não existir, é o maior erro que as pessoas
+
+fazem, as empresas cometem quando elas implementam desenvolvimento ou
+
+quando elas querem implementar desenvolvimento desenvolvido, é não ter
+
+esse cara que que é o que eu tô
+
+tratando nesse capítulo certo, tá?
+
+Depois do capítulo que é o segundo maior erro, eu diria,
+
+o capítulo 8 é que piás pra um monte de voo
+
+que faço, E aí eu coloco a frase aqui.
+
+Ter indicadores é um fator crítico de sucesso
+
+para o seu projeto, já é possível.
+
+Basicamente, keep island, o título já destruiu de PMI
+
+indicadores você precisa saber o que tá acontecendo como
+
+está acontecendo e qual direção você seguir sem isso
+
+é andar no carro sem painel Simples assim.
+
+Ela dá tudo certo, volta pra terra.
+
+E quando a terra você não vai saber.
+
+E depois tem o capítulo que é, deve ser copys.
+
+Agora sim e aí eu coloco aqui automação não é
+
+tudo cultura é fundamental também e aí nesse capítulo eu
+
+vou tratar um pouco mais de deve ser copy escultura
+
+né deve ser copy na prática, né?
+
+Como é que você é um Enfim, como é que
+
+você faz umas coisas que eu ainda não falei nos
+
+canais, não falo numa forma pública, porque é uma parte
+
+muito crítica, é uma parte muito específica, e aí por
+
+isso resolveram fazer o livro, não é?
+
+Estava esperando esse capítulo 9 aqui, tá?
+
+Então é esse gente, vamos lá, esses capítulos são
+
+os que tem já no livro, já estão escritos,
+
+exceto o escrito todos os nomes, exceto o 9
+
+e o 2 não estão escritos dos capítulos ainda,
+
+eles são estruturados só lá, mas não está escrito
+
+Todos os demais já tem conteúdo, introdução, conclusão, ferramenta,
+
+caso de uso, diagrama, tem tudo isso já.
+
+O livro já está oficialmente total.
+
+Noventa e nove páginas. Foi isso. Noventa e nove?
+
+Noventa e nove.
+
+Noventa e nove.
+
+Exatamente, 99.
+
+Aí tem capa, contra capa, dá umas firulinhas
+
+aqui no final, tal, tal, tal, tal, tal.
+
+Mas 99 páginas, tá?
+
+Então o que eu sugiro que você faça?
+
+Levy's Secops!
+
+Levy's Secops!
+
+Compra o livro, 35 reais, usa o cupom 5OFF, já
+
+lê tudo que tá lá, dá pra ler em uma
+
+se dá pra dar uma cagada, você lê.
+
+Tem pouca coisa, né?
+
+Tem 99 páginas, não é um livro muito grande ainda.
+
+Vai ficar maior, eu diria que isso aqui vai dobrar, né?
+
+Olhando tudo que tá na cabeça pra colocar vai dobrar.
+
+Eu quero terminar esse livro até algo, até agosto, que é
+
+quando eu viajo pra Black Hat, porque se eu for pra
+
+Black a gente tiver um monte de insight, um monte de
+
+coisa, ela vou querer botar um livro fodeu, então vamos melhor
+
+deixar pra um segundo livro, um outro projeto.
+
+Então eu quero acabar até agosto, antes de
+
+ir pra Black Hat, então provavelmente eu devo
+
+fazer uma força tarefa aí pra tentar acabar.
+
+Quanto antes.
+
+Obviamente com qualidade, com a entrega de sempre
+
+que vocês conhecem com relação ao trabalho.
+
+Então é isso.
+
+O DevScore of Education, gente, é um projeto meu
+
+pessoal que vê os meninos participaram, tem o Gabriel,
+
+tem o Marcos, tem o Rodrigo, tem o Vini
+
+no começo e tem os convidados.
+
+Então é um projeto pessoal onde a
+
+gente entrega conteúdo gratuito pra vocês.
+
+Quatro temporadas, quatro anos, mais de 120 episódios,
+
+120, 110, enfim, deixa eu conferir aqui ó.
+
+Eu não tenho total de episódios só pra ajudar.
+
+Pra que eu tô numa ferramenta aqui,
+
+eu não tenho computador de episódio.
+
+Mas enfim, ah, 126 tá aqui ó, 126 episódios.
+
+Com esse aqui que vocês
+
+estão ouvindo agora, 127 episódios. Outros.
+
+Então cada episódio tem uma
+
+hora, 127 horas de conteúdo.
+
+Cara, é quase uma pósgraduação no tema específico.
+
+Então, tanto de conteúdo gratuito que vocês têm, meu
+
+dos meninos também, enfim, mas meu, é muita coisa.
+
+Além do canal do YouTube, já tem muita
+
+coisa lá, Eu parei o canal de Mandara
+
+Geral porque eu tive pra focar no podcast.
+
+É além das lives.
+
+Então assim, tem muita coisa, o livro ele
+
+é geralmente uma ajuda pra mim, pessoal.
+
+E principalmente pra trazer valor pra vocês.
+
+Se vocês, se eu der um litro de graça,
+
+vocês vão baixar, vão espalhar em grupo de Whatsapp,
+
+tá tudo certo, vão fazer tudo isso.
+
+Mas ninguém vai ler.
+
+Vamos fazer o que vocês fazem?
+
+Compra vídeo, aluga, compra livro,
+
+digital, ninguém lê por nenhum.
+
+Agora, quando você, é assim, quando
+
+você Você compra não, né?
+
+Quando você recebe esse monte de coisa compartilha.
+
+Quando você paga o negócio, quando for pular
+
+é pago, você investe o seu tempo aqui.
+
+Talvez o maior clique aqui que eu
+
+queira pegar a vocês é isso.
+
+Não quero fazer você pagar para
+
+que eu fique em qualquer momento.
+
+Mas você não quer mais você pagar, é à toa.
+
+Você tá pagando pra você entender que aquilo tem
+
+um valor e você precisa ler e observar aqui. Tá?
+
+É o meu maior objetivo é isso.
+
+E tudo que eu falo no livro, o livro é
+
+o meu objetivo é muito mais detalhado, mas muita coisa
+
+que eu falo no livro, já tem no canal, já
+
+tem os conteúdos gratuitos, mas normalmente é uma forma não
+
+tão estruturada como tá no livro, sem nenhum roteiro seguida,
+
+a gente discute de uma forma mais aberta. Tá?
+
+Então é isso que eu queria falar no episódio de
+
+hoje, falar um pouco do livro, dos capítulos de contar
+
+a estrutura lá, chamar vocês para participarem do projeto.
+
+Comprou o livro agora.
+
+Você já tem acesso ao livro.
+
+Além desses 9 episódios são 9 capítulos que são
+
+os capítulos base do livro, você também tem acesso
+
+a uma planilha onde você pode sugerir capítulos.
+
+Esses capítulos, já tem lá umas 10, eu não
+
+tô olhando aqui, mas já tem umas 10, 11
+
+sugestões lá, algumas muito legais, outras não fazem tanto
+
+sentido, mas a galera tem participado.
+
+Então você comprou o livro e você tem acesso a
+
+aquilo que você colabora com a escrita do livro.
+
+O descasco, o que você fala de Painfest?
+
+O que traz o Painfest por um ciclo de desenvolvimento?
+
+E falar disso, disso, daquilo, daquilo, daquilo, daquilo, tá
+
+lá, essa planilha que você comprando você tem acesso
+
+você pode botar quantas ideias você quiser quer dizer
+
+que eu vou fazer tudo não não vou ter
+
+teclado mas quer dizer que essa é a maioria
+
+daqueles capítulos vão ser escritos também no livro.
+
+Talvez de uma maneira não tão detalhada, profunda, mas estará mais
+
+escrito por mim, toda a minha experiência, todo o meu corpo
+
+para vocês dentro da sugestão de vocês por isso o projeto
+
+é Open porque você paga e você participa e você pede
+
+conteúdo que eu vou colocar lá para então quem comprou por
+
+14 reais lá atrás tem a mesma vantagem quem que tá
+
+comprando agora por 35 só tá pagando mais caro, mas já
+
+tem mais coisas escritas, já tem um prefácio, quem comprou lá
+
+atrás, teve, ó, comprou da página na primeira linha do primeiro
+
+parágrafo até agora.
+
+Então, teve uma taxa de desvantagem, por
+
+isso que o preço vai subir.
+
+Do 75 vai aumentar, porque vai ter
+
+toda a estrutura mais do livro, os
+
+capítulos extras que a galera tá pedindo.
+
+Vão ser mais caros também, então vai ter o valor
+
+final do livro que não vai ser 35 reais, tá?
+
+Então a vantagem de você comprar agora é essa, você
+
+acompanha a escrita, já lê rápido, todas as semanas você
+
+vai lá, acessa, vê se tem uma coisa nova, letra,
+
+tal tal, então facilita muito pra você.
+
+Obviamente quando eu terminar, todo mundo que comprou recebe
+
+por email, um PDF, um link para download, enfim,
+
+da versão final, versão oficial bonitinho, tudo mais.
+
+Beleza?
+
+E aí eu queria entrar um pouquinho de detalhe aqui
+
+sobre 1 capítulo, aqui no Darcy Capital de Cash.
+
+Eu falei do capítulo 1 já na live, mas eu
+
+queria entrar num detalhe aqui, que é o capítulo do
+
+Dudu, de pegar o nome dele aqui, aqui ó.
+
+Capítulo 6.
+
+Que é o conheça o comportamento da sua aplicação.
+
+Gente, esse capítulo aqui eu abordo o
+
+monitoramento de software, monitoramento de aplicações.
+
+E por que isso é muito crítico gente?
+
+Hoje em dia, a gente sofre ataque mas não sabe
+
+nem de onde veio mesmo tendo seen log monitoramento você
+
+tem um monte de coisa aí você toma um ataque
+
+o ataque acontece você toma um dano aí depois você
+
+vai ver nossa cara foi lá para uma cortinha não
+
+sei da onde que eu nem sabia que tinha Isso
+
+deixa claro pra gente, cada vez mais claro pra gente
+
+que o cara que se defender, nós, que precisamos defender
+
+o nosso auto nas aplicações, a gente precisa conhecer todas
+
+as nossas falhas, todos os nossos problemas.
+
+Todos os softwares, todas essas
+
+portas, todas as etapas.
+
+Nossa, virou segurança. Tecnologia.
+
+Deve ser copos.
+
+Teve praticamente uma musiquinha aqui agora, né?
+
+E o cara que precisa atacar do outro lado,
+
+gente, ele só precisa conhecer uma dessas falhas, uma
+
+dessas portas, uma dessas trilhas, um nó usuário, uma,
+
+uma, uma, uma, uma, uma, ou seja, é muito
+
+mais difícil para nós nos protegermos.
+
+Então esse capítulo em específico é onde eu vou, assim,
+
+no âmago, de uma aplicação em operação, em produção.
+
+E como é que você faz para
+
+monitorar ela de todos os aspectos segurança?
+
+O que está acontecendo na minha API?
+
+Quando você quer se ela tem?
+
+Quem está chamando?
+
+Qual é o IP da teoa?
+
+Onde eu armazeno esses lodos?
+
+Como armazenar nesses logs que informação eu coloco nesses
+
+logs como é que eu consumo essas informações de
+
+tempo real em tempo real importantíssimo mundo monitoramento de
+
+aplicações gente ela tem não adianta você olhar leite
+
+derramado leite derramou Você tem que tá olhando o
+
+leite enquanto tá fervendo antes de ferver, né?
+
+Porque depois que ele ferve, ele sobe e derrama.
+
+É clássica, essa é clássica.
+
+Sua mãe fala olha o leite para mim que eu vou ali
+
+no banheiro você olha o leite aí você olhou para o lado
+
+para o gato para o cachorro o leite de frango Parece que
+
+o leite sabe, o leite que é só aqui, ó.
+
+Ó, ele vai virar, ele vai
+
+virar, ele vai extrair, distraiu.
+
+Então assim, o leite derramado não
+
+adianta mais, derramou, já foi.
+
+A gente tem que olhar a hora que ele começa a subir.
+
+Começou a subir e abaixa o fogo no sentido do fogo.
+
+Aí ele não vai derramar.
+
+Então esse molho é totalmente de tempo real da parada,
+
+ou vai real mais um minuto, vamos chamar assim, né?
+
+Não é real, real, real, real.
+
+Mas real um minuto, né, com o Telencinho ali e tal.
+
+É crucial pra uma resposta incidentes, pra uma
+
+defesa em tempo real que você precisa executar.
+
+Cartas, subiu o alerta aqui que estamos
+
+sendo infectado, uma máquina foi criptografada.
+
+Ou sei lá, de alguma forma você recebeu
+
+um alerta ali de alguma coisa estranha.
+
+Como é que você contém a infecção, por exemplo?
+
+Pra reduzir o impacto, reduzir o dano.
+
+Se você tomar um malware na sua empresa
+
+hoje, na sua placa de máquinas, por exemplo,
+
+você vai ter todos os funcionários.
+
+Todo mundo fica criptografado. Separe a empresa.
+
+Se você identificar isso no primeiro o livro
+
+foi criptografado você consegue fazer uma reação rápida
+
+com base nisso corra Qual o preço disso?
+
+Qual o preço de você parado um dia, uma hora, um mês?
+
+Qual o preço de um funcionário parado
+
+um dia e uma hora, um mês? Percebe?
+
+Então monitoramento de aplicações de um negócio assim
+
+tão crítico, tão crítico e tão crítico que
+
+eu tô pensando em mudar pro capítulo 1. Por quê?
+
+Pra que você se tiver que escolher
+
+fazer alguma coisa de segurança, faz isso.
+
+Porque log já tem lá, lugar você já
+
+tem logo, você só precisa habilitar, customizar e
+
+tal, tal, tal, tal, mas já tá lá.
+
+Agora, e se scan, modelagem ameaça, essas
+
+coisas todas, demora um tempo pra fazer.
+
+Então o que eu queria falar pra vocês é,
+
+de uma maneira geral, Esse capítulo é o que
+
+eu queria dar mais pouco, é um capítulo que
+
+não está tão grande ainda, vai crescer.
+
+Pedir para vocês assim que comprarem o
+
+livro, assim que acessarem o livro.
+
+Deem um feedback, dá uma olhada no telepro de uma vez,
+
+dá uma lida na introdução de cada capítulo pelo menos.
+
+Então é um feedback, falar na planilha, fala Cássio,
+
+capítulo tal poderia melhorar sentir falta disso sentir falta
+
+daquilo eu estou trabalhando para vocês você pagou 35
+
+reais pela minha pela minha hora por exemplo para
+
+escrever o livro para vocês.
+
+Então esse capítulo de monitoramento de aplicações, conheça sua
+
+aplicação e tudo mais, ele vai diretamente de encontro
+
+inclusive com um dos piores nãoincidentes que eu já
+
+passei na minha carreira que eu vou contar pra
+
+vocês Na verdade em alguns outros episódios eu já
+
+comentei sobre isso, talvez não de uma forma estruturada,
+
+mas o que aconteceu?
+
+Tinha, uma das vezes que eu trabalhava, a gente
+
+tinha algumas APIs que eram expostas para parceiros.
+
+Apei de preço por exemplo.
+
+Então tinha lista dos nossos produtos
+
+e os preços dos nossos produtos.
+
+Não posso falar que em vez
+
+eu quero porque não dá problema.
+
+E aí o que acontece?
+
+Esses parceiros consomem API ao longo do
+
+dia e tinha 50 mil requisições.
+
+Beleza só que acontece quem quem criou essas APIs
+
+depois dos parceiros basicamente o backend é o mesmo
+
+Só que o endpoint da API, o cara só
+
+criou um API dentro da Amazon.
+
+Então, o end número 1 tem uma url, número
+
+2 tem outro url, número 3 tem outro url.
+
+Ou seja, podia ser uma URL só, seu ambiente é o
+
+mesmo, cada uma com a sua chave de autenticação na API.
+
+Já facilitaria meio mundo.
+
+Mas enfim, Então cada um chama URL.
+
+Então uma URL específica, que inclusive nem é um ambiente
+
+produtivo, é um ambiente de criar a nossa préprodução, por
+
+exemplo, Um belo dia não, duas vezes por semana mais
+
+ou menos, batia meio milhão de requisições de manhã, sete
+
+horas da manhã e meia hora da manhã.
+
+Antes de chegar pra já estava por causa, né?
+
+Sentava o ambiente, sentava o backend, funcionava,
+
+mas sentava ali para uma hora.
+
+Então isso aconteceu um dia aconteceu dois dias no segundo dia
+
+a pessoa vem para o time de segurança pessoal a gente
+
+está sendo atacado estamos tomando um DDOS o nome que o
+
+Skarra usa para os ataques que nos dá pra ver.
+
+Se fosse um CDOS, mas até hoje a empresa tá
+
+parada, é aquela empresa tanto de vulnerabilidade que tinha.
+
+Então tomando um bedeu extra,
+
+beleza, vamos lá, vamos investigar.
+
+Cadê os logs dessa API?
+
+Cadê os logs desse endpoint?
+
+Não sei.
+
+Do time de desenvolvimento daquela própria API. Não sei.
+
+Beleza, que é o time de infra que
+
+que mexe nessa API de entrada da Amazon.
+
+Ah, esse time aqui.
+
+Pessoal, cadê os logs aí da Amazon DPIG?
+
+Tem que é o primeiro log, né?
+
+Onde bate a requisição. Não tem.
+
+Tá bom, então pessoal, boa tarde valeu,
+
+fiquei com Deus, tô indo nessa. Tá como assim?
+
+Turma, não tem logo, eu vou fazer o que aqui?
+
+Não sei quem está batendo, quem
+
+está chamando, que hora chama.
+
+Vocês estão me falando que estão batendo
+
+muito a API e está derrubando.
+
+Como vocês sabem isso?
+
+Ficar na carga do servidor. Beleza?
+
+No mesmo horário, nos dias da semana, eu preciso
+
+de um log, essa informação não consigo ver.
+
+Habilitamos os logs lá do API Gate na Amazon, esqueci
+
+o nome agora Cloud de alguma coisa, o nome do
+
+produto e específico da Amazon, Cloud Trail, Cloud de alguma
+
+coisa, enfim, que guarda os loadings lá na Duende e
+
+Ponte aí, guardando os lotes, já conseguia ver lá os
+
+IPs, que tava na edição, data e ordem, que são,
+
+método, era getting, getting, se não me engano, uma URL
+
+específica só mudou em alguns parâmetros, que era a URL
+
+de preço Olhando lá nos IPs, todos os IPs de
+
+origem e da requisição eram da própria Amazon.
+
+Os itens de origem da IKISAN dá pra pegar.
+
+Ou seja, não era ninguém de fora, vamos chamar assim,
+
+alguém na máquina, algum cliente, algum site não alguém tava
+
+da própria Amazon rodando fazendo um crawler na API crawler
+
+é bem de aspas tá Resumo da obra, gente, após
+
+um mês aí de brincadeira, um jornal assim, vai de
+
+maneira geral, e bastante bate papo e tudo mais.
+
+Nem sabia, mas assim, toda terçafeira do
+
+7 da manhã arregaçava a API.
+
+Toda quintafeira, seja arregaçava a API.
+
+Numa conversa de café com um dos colegas da empresa,
+
+que era da área de desenvolvimento, eu falei pra ele,
+
+falei, mano, a gente tá com um problema aqui assim,
+
+será que você não sabe quem é não?
+
+Mano, que a API que é?
+
+A API de preço.
+
+Mano, por acaso, acontecendo normalmente seis da manhã,
+
+seis da manhã, eu falei mano, tá, eu
+
+já assim, Mano, tá, por que é você?
+
+Mano, sou eu, eu tenho um bote tem um bot do
+
+próprio negócio, a empresa que fez ele como pessoas, a empresa.
+
+Então a gente tem um bot aqui no departamento, tem
+
+que varrer essa API para fazer uma conciliação de como
+
+a gente ia cobrar o parceiro que consumia API.
+
+O cara tinha umas informações do outro
+
+lado, ela tinha 10 mil registros.
+
+Aí queria pagar 10 mil registros e a gente ia
+
+confirmar se levou 10 mil registros pra ele mesmo.
+
+Então era mais ou menos isso, tá?
+
+Então o cara fazia um bot pra arregaçar na API e
+
+consumir os mesmos dados que esse produto quer se criar.
+
+O bot dele era um Python que
+
+rodava lá em máquinas da Amazon.
+
+Ou seja, ele botava o bote para rodar às
+
+seis da manhã, o bote ia criando as máquinas
+
+na área pra poder escalar, fazer um monte de
+
+request, pegava todos esses dados com o seu oitavo.
+
+Eu batia 500 repetições em um minuto dentro de
+
+uma hora e desligava a API e acabou.
+
+Era isso o problema.
+
+Então assim, veja, nem com os
+
+mods que foi suficiente dele.
+
+Então os mods a gente sabia,
+
+beleza, a origem é a Amazon, como é que a gente bloqueia
+
+a API P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+
+Amazon batendo.
+
+O parceiro falou, não sou eu.
+
+Não era ele, tá batendo.
+
+É tanto que a gente depois criou uma
+
+chave de API pra cada parceiro e tal.
+
+Foi criando umas mitigações e tudo mais,
+
+mas até então não dava para bloquear.
+
+E aí descobrimos que era esse colega.
+
+Ou seja, Imagina se fosse um ataque real?
+
+Ataque, meus caregação.
+
+Como é que eu ia bloquear?
+
+Primeiro, demorou um xiaolog, demorou pra ter log, Aí ativa
+
+o blog, aí faltava campo, melhora os campos, aí o
+
+logo da Amazon tá marcando muito bonito, aí plugin, se
+
+eu ir lá, as acerves, para poder cuspir os episódios,
+
+não, eu acho que isso vai ficar mais muito bastardos,
+
+visualizale, não deixa o burst, tudo mais, acho que vocês
+
+com que banda e tal.
+
+As coisas foram, né?
+
+Tem um monte de detalhezinhos aí que eu
+
+não tô explicando aqui, mas pra vocês entenderem
+
+poder que tenha, monitorar as aplicações.
+
+Sem os logs por si só, eu não conseguia fazer nada.
+
+A partir deste incidente, o que a gente fez?
+
+A gente chegou literalmente pra todos os
+
+endpoints, todos os API's, sites, etc.
+
+A gente tinha um painel, esse painel ficava como
+
+se fosse um a garrafa de barras, né?
+
+Então, praticamente, depois de um mês rodando esses monitoramento
+
+pra tudo, a gente sabia mais ou menos o
+
+comportamento normal de cada aplicação, de cada API de
+
+a API de lista de produtos, por exemplo, do
+
+ecommerce, ela tem 100 mil requisições, a API de
+
+checkout, ela tem 10 mil, né?
+
+Ou mil, sei lá, dez por cento do que tá
+
+pesquisando a pessoa que compra 1% euros então é minha
+
+proporcional se a API de quiser de 100 mil pra
+
+500 mil, 1 milhão e aí a conta 6 mil
+
+depois mesmo, a gente visualmente se vê o gráfico subindo.
+
+Aí você vai naquele tempo, filtra aqueles dados e
+
+começa a ver os IPs e tal, tal, tal.
+
+Depois a gente teve ataque real.
+
+IPs da China, IPs da Ucrânia na época,
+
+IPs da Ucrânia, e PIS da Reditor.
+
+Aí a gente habilitou a afina os endpoints da API e
+
+começou a fazer de fato um monitoramento mais Aí começou a
+
+bloquear por Jean Location e tal, tal, tal, tal.
+
+Foi virando uma segurança de fato.
+
+Antes disso, era sua brincadeira.
+
+Então olha só gente, esse capítulo 6 eu
+
+queria falar, falei um pouquinho desse caso de
+
+uso, falei um pouquinho daquele livro, por quê?
+
+Esse capítulo 6 aqui é um dos
+
+que eu queria que vocês lesse né?
+
+Eu vou comprar esse livro aí, um
+
+monte de coisa de eu sei fazer.
+
+Nem eu quero que não sei, será que você sabe mesmo?
+
+Então duvidando se você tem capacidade de fazer ou não,
+
+eu estou duvidando se você está fazendo da maneira correta,
+
+da maneira que você vai abranger de fato os pontos
+
+que deve ser deve ser incluído o seu programa de
+
+monitoramento de aplicações antes de março.
+
+Esse episódio monótono não.
+
+Deve ser copos.
+
+Deve ser copos.
+
+Manoto não Manoto não quis dizer solo.
+
+Não é monótono Enfim, vocês entenderam, esse episódio
+
+que só eu tô falando aqui, porque só
+
+caiu no episódio, obviamente, episódio solo.
+
+Chega ao fim, né, não quero ficar falando muita coisa,
+
+não quero dar muito spoiler do livro, Então, 5 off
+
+é o cupom de desconto, cássiodeveloper.com.brlivro, compre agora, não está
+
+caro, é um livro muito tem muito conteúdo e vai
+
+ter muito mais, é o Open, você participa e você
+
+tem esse tipo de conteúdo lá dentro, tá?
+
+Divulga pros amigos, enfim, comprou, não compartilha o link,
+
+porque copyright pirataria não era chato no Brasil se
+
+fosse um milhão preso vivo até entenderia não tá
+
+certo mas entenderia mas sim Dá trabalho fazer, gente.
+
+Dá trabalho.
+
+Valorizem, tá?
+
+Então eu peço que compartilhe a ideia, compartilhe
+
+o link com o pessoal, no caso da
+
+Vera barra livre, pra que eles comprem também.
+
+Usa o cupom 5OFF aí, dá R$5.00000
+
+e dá R$5.00000 pra gente comprar lá. E tá super barato.
+
+Tá, mas divulga esse projeto, você não quer comprar,
+
+divulga pro colega, divulga pra desenvolvedores, pra pessoas que
+
+você sabe que tem, que vai ter valor, beleza?
+
+Convido vocês a gente tá participando
+
+desse projeto que tá muito bacana.
+
+E devo fazer uma live nas próximas semanas sobre
+
+mais alguns apítulos que eu vou ter escrito aqui
+
+no ar e é isso deve secar o podcast
+
+ficar por aqui o meu seu nosso deve secar
+
+o podcast podcast lá em si, compartilha com os
+
+amiguinhos, curte lá no YouTube, nas plataformas digitais que
+
+você gosta Spotify, Deezer, Amazon, Music, enfim, onde quer
+
+que você ouça, ou deve ser com o podcast.
+
+Mas, principalmente, comenta.
+
+Vá no YouTube, comenta o que você achou do episódio,
+
+se você quer, não quer comprar o livro, vai lá
+
+e deixa um comentário um capítulo que eu acho que
+
+deveria ter, por exemplo, dentro desse livro. Beleza?
+
+E aí?
+
+A gente analisa cada comentário, respondo cada comentário
+
+lá na medida Ok pessoal, é isso.
+
+Eu fico por aqui.
+
+A gente se vê na próxima semana.
+
+Semana que vem tem convidado.
+
+Vou dar um spoiler da semana que vem tem convidado.
+
+Chega de cá no solo e convidado convidado pica,
+
+que convidado bosta já basta Gabriel, Marcos, Rodrigo, enfim,
+
+Então convidado pica é a semana que vem. Fechou?
+
+Então a gente se vê na próxima, no próximo episódio.
+
+Valeu, pessoal!
+
+Termina aqui, deve ser copos, deve ser copos,
+
+o seu podcast de segurança e tecnologia.
+
