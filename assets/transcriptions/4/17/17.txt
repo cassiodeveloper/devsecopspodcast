@@ -1,0 +1,2208 @@
+E inovação. Tecnologia.
+
+Começa aqui.
+
+Deve ser cócegas, deve o seu
+
+podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais
+
+um episódio de DevSercopys Podcast.
+
+Eu sou o Cassio Pereira.
+
+Eu sou o Marcos Santos. Voltei! Está de volta.
+
+Depois das férias de dois anos, que sem
+
+gravar aqui com a gente, voltou o gordinho. Voltei!
+
+Aqui em pó, mas pelo menos voltou sozinho, eu trouxe
+
+o Marcos, eu não trouxe o Gabriel e o Rodrigo
+
+pra encher o saco aqui, só fala o bicho. Chama mais?
+
+Nem gosto deles.
+
+Tá com saudade, Marcos? Muita, cara.
+
+Vamos gravar esse programa. Sim.
+
+Não é tanto que sumiu, pessoal.
+
+Não deu satisfação.
+
+Não paguei mais salário também.
+
+O cara tem direito de sumir, né? Faz parte.
+
+É que eu não estava gostando de
+
+você também, aí a gente foi na
+
+brincadeira, ficou um pouco gripado, mas também.
+
+Ah, boa, boa.
+
+Então vamos lá, boa que o Marcos chegou, voltou
+
+e trouxe o convidado, o convidado que a gente
+
+vai apresentar para quem está no YouTube assistindo no
+
+YouTube, a gente já está vendo a carinha dele
+
+a gente vai falar sobre o convidado.
+
+Antes do nosso convidado, lembrar que o DevSeckops Podcast
+
+tem o apoio da Checkmax da nova 8, que
+
+são especializadas em segurança de sistemas de código seguro,
+
+Link dava oito a distribuidora da Checkmarkt no Brasil.
+
+Está baixa na descrição do episódio lá no YouTube
+
+ou também no nosso site deve ser copodespotcash.com.br tá?
+
+A Contabilidade Olímpica que é especializada
+
+aí para na área de TI.
+
+Se você precisar abrir sua empresa ou migrar de
+
+contabilidade, entre em contato com a pessoa da Contabilidade
+
+Olympia que eles estão prontos para te atender.
+
+A Gold Security que é especializada em aplicações Seguinte,
+
+quer desenvolver código seguro, software seguro, fale com a
+
+Google Security e você quer anunciar vagas de Application
+
+Security, vagas específicas sem pagar um absurdo né pra
+
+não ser a vaga nos portais aí mais conhecidos.appsek.jobs
+
+e você quer procurar vagas também tá lá o
+
+portaluar pra você de forma gratuita, beleza?
+
+Esse é um projeto pessoal aí que
+
+a gente começou há algum tempo.
+
+Vamos lá, episódio de hoje é um
+
+episódio que a gente está há quatro
+
+moradas aqui já e nunca conseguimos gravar.
+
+Por trabalhar na área, a gente fala muito sobre isso, conhece
+
+um pouco a estrutura, o que fazer mais ou menos.
+
+Mas pra mim confesso que é um tema muito profundo,
+
+um tema convidado que vai trazer pra gente no detalhe,
+
+Não, já fala agora, eu não manjo nada, pra mim
+
+é obscuro, é obscuro, é muitas dúvidas inclusive.
+
+É algo criptografado pra você, né, o tema
+
+Eu queria me dar gravado pra mim.
+
+Eu queria pedir alguma coisa, já
+
+consegue fazer uma analogia, pelo menos.
+
+Então eu queria pedir pro Marco cartute, depois
+
+ele já corrige o nome aí se eu
+
+falei certo ou não, se apresenta pra galera,
+
+seja bemvindo, dando sequência aos podcasts, Marc.
+
+Gente, é bom dia a todos que eu indo aí, tá?
+
+Muito obrigado antes de mais nada do que
+
+me convidar a Caixa de Marcos, tá?
+
+É um prazer estar aqui com
+
+vocês, falar falando dos colegas desenvolvedores.
+
+Meu nome é Marta, Lute, Ludo, mas não sei
+
+o que todo mundo erra meu nome, Eu já
+
+vi muitas grafias diferentes, muitas coisas diferentes de fenômeno,
+
+então você tá muito bem acompanhado.
+
+Eu fui sóciofundador, uma empresa de Maratenta, esse Kirk,
+
+lá no Rio de Janeiro, Recife e Pernambuco e
+
+hoje na maior empresa de série de sucesso recebe
+
+segurança do país, ela foi recentemente comprada pela Embraer,
+
+numa dessas movimentações, acho que a oportunidade de pender
+
+meu chefe da empresa e dei uma apimentada na
+
+carreira porque eu fui sugado pelo vírus das criptomoedas.
+
+Tá?
+
+Uma das aplicações de criptografia são as criptomoedas.
+
+Você vai perceber uma certa semelhança no sufixo cripto
+
+e as criptomoedas são uma das aplicações mais transformadoras,
+
+mais relevantes, eu costumo dizer que as criptomoedas foram
+
+talvez a única genuína novidade que aconteceu em segurança
+
+da informação e talvez 40 ou 50 anos porque
+
+foi a primeira vez que a gente teve um
+
+sistema computacional em que você consegue ter garantia de
+
+segurança sem ter um coordenador central, Tudo o que
+
+a gente faz em seguir nossa informação no fim
+
+do dia depende de você ter algum catalisador que
+
+impõe as regras e pus os ofensores.
+
+E pela primeira vez, isso as criptomoedas
+
+através da criptografia, uma aplicação muito ingênua
+
+da criptografia, conseguiram mudar esse paradigma.
+
+E por causa disso eu fui me aventurar nesse mercado,
+
+eu, enfim, o fundamento é eu chamada Cohen Weiss, que
+
+depois se fundiu com uma corretora de criptomoeda lá de
+
+aqui também chamada BitBlue e hoje a gente existe na
+
+forma do 0 Bank que é um banco digital que
+
+a gente tenta fazer com que o Tomara seja tradam
+
+de primeira classe e não um adendo, não um penduricalho,
+
+mas uma coisa que é nativa no sistema.
+
+Então e agora a gente está com uma série de
+
+outros serviços bacanas para a internet de informações financeiras, etc,
+
+e engraçado que várias dessas coisas têm criptografia envolvida em
+
+várias camadas, então acho que o tema que a gente
+
+vai falar aqui é super pertinente.
+
+Boa muito bem vindo mais uma vez Marcos obrigado pelo teu
+
+tempo né cara a quem não conhece quem é da área
+
+de segurança não conhece a Tempest alguma coisa errada, né?
+
+Tem que chegar muito famoso na área de
+
+segurança, no mercado, na de uma maneira geral.
+
+Todos os links aí, os projetos o Marco comentou,
+
+vocês vão achar aqui na descrição do episódio lá
+
+no nosso Youtube e também lá no canal, então
+
+fiquem tranquilos aí com relação a isso.
+
+Já para introduzir esse tema então, Marcos, eu
+
+queria fazer uma pergunta relacionado exatamente a isso.
+
+Eu já fui desenvolvedor por 15 anos da minha carreira,
+
+eu fui um famoso cotar, o cara que cria ali
+
+as coisas, ou só copia né, depende do contexto.
+
+E eu sempre tive dificuldade, depois que eu
+
+fui parar de segurar, você entende um pouco
+
+mais, mas eu sempre tive dificuldade na época,
+
+Cara, isso aqui precisa estar criptografado.
+
+Eu sempre tive dificuldade de entender porque.
+
+Hoje, hoje, talvez, PD, nos dá alguns
+
+Lorts, cara, a informação é sensível, como
+
+é que você anonimiliza, criptograva, enfim.
+
+Mas hoje você tem mais ou menos um
+
+lorde, se é que eu posso falar assim.
+
+Mas na época eu lembro que cara eu tenho que fotografar
+
+isso porque na primeira pergunta e o como fazer isso porque
+
+aí eu sempre fui de .NET, eu mexi com Java, depois
+
+Python, load, então tudo que é framework por aí.
+
+Cada linguagem tem lá o seu framework
+
+que que tem açúcar e fotografia.
+
+Mas eu não sei o algoritmo por trás, se tá certo
+
+ou não tá, se é o mais seguro, não é?
+
+Enfim, então eu queria pegar esse começo pra
+
+falar assim, porque eu preciso criptografar algo, né?
+
+Eu já ouvi um ditado aí em
+
+segurança que é, só cripto salva, né?
+
+Depois a gente vai entrar em questões sociais
+
+ali e tal, Só a cripto salva, né?
+
+E na real é verdade.
+
+O problema é que ela salva, também derruba
+
+as aplicações, fica tudo mais lento, leve, impossível.
+
+Cara, é impossível tudo funcionasse,
+
+tudo fosse ter que fotografar.
+
+Então, por que que fotografar algo, se a
+
+gente puder discorrer sobre isso, E como?
+
+Como é que eu faço isso através de algoritmos,
+
+técnicas, enfim, só pra gente começar o tema.
+
+Então, a razão pela qual você quer criptografar coisas
+
+é porque nós seres humanos temos segredos e temos
+
+alguma expectativa de privacidade com outras coisas.
+
+E existem mil maneiras infidiosos e não estão perceptíveis
+
+pela quais as informações fazem então para você mitigar
+
+a informação é comum gás ela ela quer se
+
+expandir, ela quer sair, ela quer vazar.
+
+Se você não deixar ela muito bem contida,
+
+ela é lavada pelas flechas mais inesperadas.
+
+Então uma maneira de você se defender
+
+disso é para usar a criptografia.
+
+E certos sistemas de comunicação
+
+são inerentemente vazam, tá ok?
+
+Por exemplo, razões extraordinárias, deixa eu falar um
+
+pouco de história, de onde a criptografia se
+
+determinou e falar pra isso um pouco pra
+
+história mais concreta de nós desenvolvedores.
+
+Vou dar um exemplo histórico, vou dar um exemplo,
+
+alguns exemplos bem concretos na vida do desenvolvedor.
+
+O exemplo histórico é o seguinte, ok?
+
+Na Segunda Guerra Mundial, por exemplo, tá?
+
+Os comandantes falar com os seus submarinos, com
+
+os seus navios e etc e tudo mais.
+
+A madeira que eles tinham pra fazer isso
+
+era através de ondas de rádio, tá?
+
+As estações de rádio.
+
+E o rádio como uma boa rede WiFi, que é
+
+um rádio no dia a informação é RoadCast, tá?
+
+Isso significa o termo broadcast, ela se
+
+espalha pelo ar e todo mundo ouve.
+
+Isso significa que se você falasse claras.
+
+Então, o general lá o Almirante dá uma ordem pro
+
+na Vivo, vai lá e ataca aquela base, o cara
+
+que tá naquela base também vai saber que vai ser
+
+atacado e vai te preparar, tá ok?
+
+Então ele manda a mensagem se desenvolver uma série
+
+de cifragem, não sei o que tem altos filmes
+
+sobre isso, aquele filme do jogo Damita Sam, não
+
+sei o que tem vários filmes que falam, na
+
+época daquela transição da máquina Enigma, tá ok?
+
+Eu sou tão fascinado por essa aula que eu tenho
+
+uma máquina Enigma daquelas, eu gastei uma fórmula de dinheiro
+
+comprar uma régua, a máquina daquela Essa é a pele.
+
+Então, Labetavelmente eu tô aqui, eu tô em São
+
+Paulo, eu tô em Recife, se eu tivesse lá
+
+em Recife, eu botava ela aqui na frente da
+
+câmera pra vocês verem, no próximo.
+
+Pode ser que você tenha um quadro, você tenha
+
+um quadro até 15 quilos, mas ia dar certo.
+
+É um trabalho de carregar.
+
+Então, o que acontece é que a informação vaze
+
+a gente quer que só certas pessoas a gente
+
+não consegue impedir que a informação vaze.
+
+Mas a gente consegue impedir que a informação vazada
+
+seja compreensível com quem a gente não quer, é
+
+para isso que serve no filtro de criptografia.
+
+Falando de uma forma mais recente para o desenvolvedor,
+
+uma coisa que é interessante que muitos desenvolvedores hoje
+
+em dia vão trabalhar na desenvolvimento sem entender como
+
+é que a internet funciona, como é que é
+
+roteador, como é que é o roteador, como é
+
+que é o protocolo e tudo mais.
+
+Mas se você tiver essa parada,
+
+vai descobrir uma coisa desalentadora.
+
+A transformação pela internet, por exemplo, quando você
+
+for falado, conecta numa API, etc, ela passa
+
+por vários intermediários ao ao longo da internet.
+
+Se você der um comando, tem um comando, um comando,
+
+ele filma as 3 chaves que ele mostra um endereço
+
+de texto cada um dos pequenos diários, tá?
+
+Tem uma questão mais interessante, uma DTR, faz
+
+a melhor coisa, que é até mais bonitinho.
+
+Então você me vê o endereço IP de
+
+todos os roteadores que são intermediários, se você
+
+às vezes tem 20, 30 são os roteadores.
+
+Todos esses roteadores têm acesso ao seu tráfego.
+
+Eles podem ver tudo.
+
+Então se você passa a senha,
+
+passar informações confidenciais, eles vão vir.
+
+No momento da Oficina do Tempo eles não fazem nada
+
+de mal, eles fazem realmente de rotear o teu tráfego.
+
+Vocês podem ver e interceptar, mudar,
+
+interferir com o teu tráfego.
+
+Então o teu tráfego varia, ok?
+
+No teu tráfego ele passa, ele atende a
+
+vazar, ele passa por lugares, tá entendendo que
+
+você não tem controle que muita coisa final
+
+pode acontecer aqui, no meio do caminho. Rede WiFi.
+
+Rede WiFi é Se você colocar uma rede wifi
+
+sem senha, todo mundo vê tudo o que você
+
+tá fazendo e dá aqueles ataques, tá?
+
+O que você tá acostumado com a câmera da radiec
+
+no seu braço, da radiec no seu site, etc.
+
+Muito comum em sair da café e tudo mais.
+
+E é por isso que se usa, por exemplo, o
+
+WPA, toda aquela característica a pessoa que tem dentro do
+
+WiFi para te dar um certo nível de privacidade.
+
+Então a pessoa que na verdade já foi implementada e
+
+ela está em vários lugares para evitar esse problema.
+
+Um exemplo também que eu gosto muito de dar para os
+
+desenvolvedores é muito comum, ou seja, até para mim isso um
+
+milhão de vezes, que deve ter puxado muita orelha de desenvolvedor
+
+júnior por causa disso, camaradas no banco de dados colocam a
+
+mão do usuário e assim as claras.
+
+Aí o cara que faz o backup e tem
+
+acesso a também todos os usuários do seu sistema.
+
+E é por isso que a gente cifra, a gente criptografa as
+
+senhas dos usuários, para que o pessoal faça o backup ou Eu
+
+já vi uma coisa horrorosa, porque eu já vi o que eu
+
+já vi o gênio colocar o backup do banco de dados, ok?
+
+O tanto completo banco de dados, no Document
+
+Root, então ele foi publicado, tá ok?
+
+Aí o camarada vai lá e baixa a
+
+quantidade de energia na zona vendo cada vez.
+
+Baixa por causa de baixa que inteirinho e enfermeiro.
+
+Fazendo até o só o parênteses que você colocou, né?
+
+Quase o orégano.
+
+Já puxava muita orelha de desenvolvedor júnior, cara, eu já
+
+vi isso em equipe só de senior, e a cena,
+
+sem as claras, tanto, a gente fala o dado em
+
+trânsito, o dado em tava lá aberta, assim.
+
+Enfim, só paredes aí, não é só o Junior não.
+
+A galera faz cagada mesmo.
+
+Só vai piorando nele, né?
+
+É, a pegada de eu me formei distribuída,
+
+a verdade é essa, eu tô pensando que
+
+não é garantia de competência, né?
+
+Então, a gente tem um milhão de motivos pra
+
+criptografar, pra tentar conter esse tipo de coisa.
+
+E o que é engraçado é o seguinte, aquelas coisas
+
+das expectativas de coisas, tecnicamente falando, você pode arruinar exemplo
+
+aí do que eu falei do banco de dados que
+
+você tem que fazer, você pode excluir que a burrada
+
+foi do operador backup, eu não tinha mais que fazer
+
+o backup do documento de luz, que é feito. Ok?
+
+Mas veja, as vezes a gente precisa nos
+
+defender de nós mesmos, até os nossos membros
+
+aqui começam, as pessoas cometem erros.
+
+É raro é humano.
+
+Então a criptografia serve como uma medida preventiva
+
+contra uma série de pelo menos que podem
+
+acontecer em outras camadas, seja as camadas técnicas,
+
+seja as camadas humanas no sistema.
+
+E ao mesmo tempo é isso que torna a criptografia
+
+tão poderosa e ao mesmo tempo tão difícil, porque nós
+
+costumamos não somos muito bons de prevenção, né?
+
+A gente é melhor de reação.
+
+Então a criptografia é uma medida essencialmente preventiva, ela
+
+é absolutamente essencial, absolutamente é é fundamental eu costumo
+
+dizer o seguinte ok se você pergunta pra mim
+
+a resposta se você perguntar pra mim mas qual
+
+é a resposta mais curta que você pode me
+
+dar para porque que a gente precisa se fotografar.
+
+Eu respondo para que a porta do banheiro
+
+é o público ou o parque não transparente?
+
+Simples assim, né? Pela privacidade.
+
+Boa.
+
+Cara, eu acho que esse o porquê
+
+que ele fotografa as coisas tá claro?
+
+Marcos, tá acordado aí?
+
+Ele tá sentado aí.
+
+Tô aqui. Tô acordado?
+
+Só pra alertar a pessoa que acompanha aí, o
+
+menino ainda tá no momento que chama ela no
+
+Getback, né, Alemanha, Brasil Daqui a pouco ele vai
+
+Até que você montinhas aqui já pra fazer.
+
+É, descobri até que a máquina
+
+de criptografia pesa menos que ele.
+
+É, mas tá correndo. Então.
+
+Fazer o que, né?
+
+Mas essa introdução foi muito boa e essa questão
+
+do porquê que fotografar é aquela história, né?
+
+Eu preciso proteger algo e talvez a criptografia?
+
+Talvez não.
+
+Quetografia única, forma que eu diria 100%
+
+hoje, não é nem 100%, né?
+
+Você para pra pensar, é possível quebrar?
+
+É, Só o tempo não é viável.
+
+Essas cabem uns milhões de anos ali, entendeu?
+
+Pode não ter 100%, mas é o melhor que a gente tem.
+
+E chega bem, não precisa frisar muito pra
+
+ser bem bem feito fica bem 99999% mesmo.
+
+Boa! Ótimo!
+
+Então eu acho que essa boa introdução aí pra
+
+gente entender o porquê que vocês fotografar as coisas.
+
+Você quer perguntar, Maqui?
+
+Você tá com a pergunta na minha mãe aí?
+
+Quer que eu faça o outro?
+
+Então assim, ele falou do tipo de fotografia, w eu tava
+
+acostumado a trabalhar muito com o MD5 né eu sei que
+
+é uma fotografia bem fraquinha mas era que eu tava acostumado
+
+e era que não passavam lá o 0 orgulho de tudo
+
+para fora né era isso eu queria saber qual a diferença
+
+ali entre um mdci que eu achava esse comer uma wpa
+
+e porque o uso da wpa É uma dúvida mesmo, realmente
+
+Eu falei, tem formação válida.
+
+O que são essas siglas, né, ele é Singular?
+
+O que é isso, não é?
+
+Cara, essa pergunta dá pra escrever um
+
+livro, mas eu vou tentar resumir.
+
+Pra gente colocar em contexto.
+
+Antes, eu preciso responder essa tua pergunta,
+
+eu preciso dar um passo atrás pra
+
+gente colocar as coisas em contexto.
+
+Pra gente falar de um monte de siglas aqui, e
+
+a gente tem que organizar as ideias, não é acompanhar.
+
+A gente pode mais ou menos
+
+dividir a disciplina da criptografia, ok?
+
+A disciplina da criptografia é aplicada, tem a
+
+disciplina teórica, tem o negócio de matemática.
+
+A disciplina da criptografia é aplicada.
+
+Em 3 grandes ramos, sabe?
+
+Classificando os algoritmos que eu comprei pela quantidade
+
+de chaves que eles tomam, que eles usam.
+
+A criptografia de 0 chaves, tá?
+
+A criptografia de uma chave, é de 0 chaves, tá?
+
+Uma chave e de duas chaves.
+
+A criptografia de 0 chaves muita gente chama
+
+de criptografia, chama de algoritmo de hash.
+
+E o MD5 que você acabou de
+
+falar é um algoritmo de hash.
+
+E ele faz o que a gente chama de entre
+
+aspas criptografia irreversível, depois eu explico porque as aspas, tá?
+
+Esses algoritmos só funcionam em uma direção, ele
+
+é funcionando na direção da criptografia, ou seja,
+
+ele pega um texto plano, deixo as claras
+
+e transforma numa coisa cifrada.
+
+E a gente usa isso, por exemplo,
+
+pra fazer esse traje de senhas.
+
+Em quantidade, por exemplo, aquele
+
+exemplo que a gente falou.
+
+Você pega a senha do usuário, talvez falar
+
+a senha mais comum do mundo, tá?
+
+Um, dois, três, quatro, cinco, tá?
+
+E se você se está usando algoritmo MD5,
+
+você pode até fazer e empenar o seu
+
+computador, vai dar um resultado aí, tá?
+
+Eu não sei de qual é o número grande, tá?
+
+E você pode fazer isso com todas as senhas, etc.
+
+Isso já dá um certo nível de
+
+público de conhecimento das senhas, ok?
+
+Mas o algoritmo MD5 ele não foi exatamente projetado para
+
+isso, justamente por ele não ter sido projetado para isso,
+
+ele não é o melhor para essa aplicação.
+
+A função do MTS cinco, na verdade, é
+
+fazer o que a gente chama de hashcritográfico.
+
+Ele quer gerar um identificador único de qualquer objeto
+
+que você dá, você passa qualquer dado pra ele,
+
+aí ele morre, ele uma função de Hash HashGlass
+
+significa misturar, tem inclusive um prato de café da
+
+manhã muito comum nos Estados Unidos, uma hashprounds, tá?
+
+Que é que você faz uma mistureba de batata
+
+com ovo, com as outras coisas lá, tá ok?
+
+Esse é o significado original
+
+da palavra hash, mistureba.
+
+Só ter essa Mystreba, ela é determinista.
+
+Então, toda vez que você passa o mesmo
+
+dado, dá o mesmo resultado do mesmo hash. Ok?
+
+E isso é ótimo pra você
+
+fazer, pra você fazer identificadores únicos.
+
+Tem vários protocolos, vários sistemas hoje
+
+que usam como identificadores únicos, tá?
+
+O hash do dado.
+
+O que nos dá de benefício,
+
+inclusive uma checagem de integridade.
+
+Você consegue verificar se o dado tá tratando é idêntico
+
+bit a bit ao dado que você verificou anteriormente.
+
+Mas Por que que o vendedorzinho que não é
+
+um dado muito bom pra fazer pra cifrar senhas?
+
+Exatamente por essa causa dessa característica que
+
+eu acabei de dizer pra você.
+
+Se você cifra a senha 1 do x5 vai dar um resultado.
+
+Se posteriormente outro usuário do seu sistema, também os
+
+acenos 3 para 5, vai dar o mesmo resultado.
+
+Quando o resultado, quando o banco de dados vai lá,
+
+eu posso até não saber qual é a senha do
+
+cara, mas eu posso dar um warner buy e senha
+
+e ver que dois usuários têm a mesma senha.
+
+Então eu já tenho um vetor de ataque o seguinte, eu
+
+descobri a senha de uma, eu descobri a senha de outra.
+
+Então esse é um ataque, esse é um
+
+ataque bem comum, eu já usei esse ataque
+
+numa situação real, num pentesh, tá ok?
+
+E por exemplo, num pentesh uma vez, o que que eu fiz?
+
+O camarada não tá usando exatamente ele assim,
+
+não tá usando outra mas ele tinha essa
+
+mesma propriedade que estava sendo testada.
+
+Aí o que que eu fiz lá no cenário de ataque?
+
+Eu tinha acesso o video only, mas não leaddrive ao
+
+banco de dados, tinha uma vulnerabilidade lá que me permitia
+
+ver o banco de dados, mas não alterar o banco
+
+de dados, então não podia diretamente alterar a senha.
+
+Só que é o que a gente fez, a gente
+
+fez nos canos, bruscando todos os usuários sem a 100%
+
+do CHF 5%, é claro que a gente achou gente
+
+com 100% do CHF 5%, porque enfim, o usuário sempre
+
+podemos contar por isso dos usuários, tá ok?
+
+Você sabe como são usuários, né?
+
+Nós os amamos, mas nós os odiamos, nós
+
+vivemos em função dele, mas a gente não
+
+sabe meter a mão na casa dele, Sim.
+
+O que aconteceu?
+
+A gente descobriu o usuário que tem
+
+assim, eu vou ser tipo 5.
+
+Aí a gente fez uma coisa no banco de dados
+
+pra fazer todo mundo que tem aquela mesma tinha cifrado,
+
+e a gente sabia que a senha desse usuário também
+
+era do X4500, então a gente fica logo comentando o
+
+ataque de um usuário pra 7 mil usuários que tinha
+
+a senha do X5500 numa tacada só. Ok.
+
+Inclusive, quando eu comecei a brincar com segurança, eu lembro
+
+de uma parada chamada Rainbow que é basicamente ter xts
+
+de gigas e gigas de dados com todos esses hashes
+
+de ainda em si e outros algoritmos que representam longas
+
+é uma ótima palavra, eu chamo de précomputation atex, que
+
+é a criação dessas funções.
+
+O Brainbow T é uma maneira compacta
+
+de você ter uma tabela gigante. Tá?
+
+E aí o que acontece?
+
+Então pra isso, o MD5 não é
+
+um algoritmo terrivelmente bom pra senhas.
+
+Se vocês quiserem tratar senhas, fazer esse traje de senhas, você
+
+usa o que a gente chama de algoritmo, sério, o termo
+
+técnica é esse mesmo algoritmo salgado, Você coloca um número aleatório
+
+extra que se chama Eu tenho um técnico correto na área,
+
+eu chamo de sal e o whey do falt, ou solte
+
+o falt e aí a minha recomendação, vocês usam o algoritmo
+
+que foi projetado pra ser difícil, pra atrapalhar as casas, é
+
+o day trade, tá?
+
+Então eu estudei esse efeito, ele não é o
+
+mais moderno, o mais moderno nessa linha Warbon 2.
+
+Então se vocês quiserem dar uma estudada sobre
+
+isso aí, então o que que usem?
+
+Se você colocar em Laggon 2, ele tem o
+
+estado da arte que você faz de senha.
+
+Inclusive, acho que o Facebook usa Crypt, eles têm
+
+uma documentação sobre esse crypt é muito É, não
+
+sei se atualizaram, mas eles usavam a bcrypt.
+
+Foi um dos primeiros a serem projetados em Space
+
+para ser altamente resistente a todos os ataques que
+
+se conhecem para ataques de 100 em batidas.
+
+Então é um álbum juam pra isso, mas esse é
+
+um algoritmo de 0 chaves, então fez no sentido seguinte.
+
+Outro input desse algoritmo é uma mensagem
+
+que você quer entre aspas e fraco.
+
+Ele não tem um segundo argumento que é a
+
+chamada chave, então por isso ele é dito irreversível.
+
+Uma vez que você estica, você não desista.
+
+E aí você fez, por mês que eu não desci pra
+
+como é que eu descubro que a senha tá certa.
+
+Você pega acesso pro usuário, eu fiquei
+
+sempre vendo esse nome aí meu status. Ok?
+
+Se bate a ver se bate a pet, ok?
+
+Então esse é o algoritmo de essa
+
+é a obra de José Salles.
+
+Os obras de José Salles são
+
+usados para diversas outras coisas.
+
+Por exemplo, no mundo das criptomoedas, o mundo das
+
+criptomoedas usa uma coisa que eu acho engraçado que
+
+é, ainda não é muito usual entre desenvolvedores, eu
+
+uso uma filosofia chamada content adstring, que é o
+
+fato que os identificadores das coisas são o hash
+
+dos seus respectivos conteúdos.
+
+Ok?
+
+Do jeito que o pessoal usa banco de dados no
+
+mundo tradicional a gente tem mania de ainda usar hoje
+
+as pessoas sequenciais, 1, 2, 3, 4, 5, 6, 7,
+
+então a gente coloca uns sequencias lá do banco de
+
+dados, ou a gente faz o UID, que é gerado
+
+aleatoriamente, não tem nada recusado, enfim.
+
+Mas no mundo das criptomoedas, todos os elementos padrões
+
+das coisas, padrões da programação, de blocos, etc, são
+
+na realidade hashes do próprio conteúdo delas.
+
+Então ela se torna um negócio autoverificável, eu
+
+não sei nem o seguinte, você tem certeza
+
+que você está falando desse, bloco de dado
+
+e não de nenhum outro bloco de dado.
+
+E você pode fazer verificação independente
+
+sem necessariamente ser estudado por causa
+
+do bloco de dados retratador.
+
+Então, essa é uma outra aplicação muito usada.
+
+Então, se você quiser entrar no mundo de criptomoedas,
+
+você vai ter que logo aprender sobre hashes, sobre
+
+algoritmos de 0 chaves, é muito usado.
+
+Inclusive, fazendo a Den do Sol e o Marco
+
+está comentando, quando eu fazia forense, a primeira eu
+
+vou fazer uma coleta de uma máquina, a gente
+
+faz lá a copy da imagem de uma máquina,
+
+tirar o resto da imagem pra garantir que aquele
+
+conteúdo não foi alterado depois posteriormente na cópia por
+
+final, inclusive isso é parte do Judiciário.
+
+É tem que chamar de cadeia de custódia, né?
+
+Bons tempos de forense, mas, enfim, graças a Deus
+
+vai ver essa parte aqui é o trabalho.
+
+É o trabalho da nave.
+
+É o trabalho muito musculoso.
+
+Então, esses são os algoritmos de 0 chaves.
+
+Aí tem os algoritmos de 0 chaves. Uma chaves.
+
+O objetivo de uma chave é o que
+
+a gente tradicionalmente associa mesmo a criptografia.
+
+É a a disciplina da filosofia nasceu
+
+com os algoritmos de uma chave.
+
+Esse, prioritariamente, as algoritmos eram
+
+chaves meio que vieram depois.
+
+O mínimo de uma chave ele tem dois imputs tá?
+
+Ele tem a mensagem que você quer se tra e a chave tá?
+
+Então ele o número não embaralha a
+
+mensagem mas ele embaralha a mensagem de
+
+uma forma específica para essa chave.
+
+E aí você tem a função inversa ou o algoritmo
+
+inverso que pega a mesma chave colocar menos machado com
+
+a mensagem extraída vai dar a mensagem original, ok?
+
+Os algoritmos de física estatística hoje ele
+
+tem uma característica curiosa, Se você não
+
+tem correção de endotida normalmente, tá?
+
+Eu vou dar o vestibular no livro, então se você
+
+colocar a chave errada, você vai receber um resultado, só
+
+que o resultado vai ser o menor sentido. Exatamente.
+
+E é exatamente isso que impede o camarada,
+
+o possível interceptador, o possível atacante, de entender
+
+suas mensagens, porque ele não tem a chave.
+
+Então se ele não tem a chave correta, o que ele
+
+pode fazer é chutar, ele vai provavelmente chutar a chave errada,
+
+então ok, ele vai receber um resultado errado, tá?
+
+Então, opa, aí o problema, a galera usa
+
+a chave 123ABC, facilita o brute force do
+
+outro cara também, é do cara também, entendeu?
+
+Então, existem 1 milhão de escaramuças como
+
+essa, desde a Primeira Guerra Mundial, quando
+
+a ortografia adquiriu importância militar, tá?
+
+Já tem isso, como a gente falou
+
+naquele livro do jogo de imitação, etc.
+
+Foi tudo esforço lá dos britânicos em fazer isso,
+
+de descobrir a chave dos alemães, eles cometeram uma
+
+série de pequenos errinhos que facilitaram a vida dos
+
+aliados, E essas escarabúcias ainda se repetem em Addonauzer
+
+hoje em dia no mundo da internet, ok?
+
+Como você falou, o pessoal coloca a
+
+senha fraca, tenha fácil adivinhar, e algumas
+
+outras burristas, aqui é claro.
+
+A criptografia de 0 chaves, ela tem de
+
+uma chave, ela uma coisa muito boa.
+
+Ela é até formada, que ela tá sempre bem
+
+os cupons de vários megabytes, dos gigabytes pro segundo,
+
+se você já tá te dedicado, você tem que
+
+orientar no GPU também, é mais rápido ainda.
+
+Ela tá indo pra formas, mas ela dá
+
+corretamente aplicada com chaves aleatórias meio escolhidos, etc,
+
+ela dá altíssimo nível de segurança, ok?
+
+Por exemplo, antes da gente começar a gravação, você
+
+estava falando caso lá do Daniel Dantas que droid
+
+pro disco dele junto com outro clipe.
+
+E eu lamento informar que eu foi o
+
+cara que deu essa ideia pra ele, tá?
+
+É eu aparentemente atrapalhei um bocado nada não
+
+dê diretamente para ele, dê para o pessoal
+
+dizendo a sua informação dele por sua vez,
+
+mandou a gente dar um negócio para ele.
+
+Mas e atrapalhou o pessoal da Polícia Federal e do
+
+FBI de cifrar sem é porque ele também foi suficientemente
+
+perto de usar uma chave difícil de ser alinhada, tá?
+
+E a meritocracia aqui no Pinterest, na época, era
+
+uma das melhores implementações que a gente tinha.
+
+O grosso da criptografia do Simp, é a criptografia de
+
+uma chave só, exatamente esse que você tá falando, então
+
+por exemplo você cifra disso inteiro, Cantigrafia de disco hoje
+
+é implementada em quase todos os centros operacionais no Linux
+
+com o Demitri, Windows com o Bitlocker na Apple, com
+
+a filtragem lá do sistema de arquivos deles, exatamente para
+
+evitar problemas com o OpenShot.
+
+Você se impulsionando, aí você tem o seu notebook
+
+roubado e de repente todas as informações propositivas importantes
+
+que atraem essas empresas vão cair nas mãos do
+
+cara que roubou seu notebook, ok? Que beleza.
+
+Então a chamada ficaragem total de discos já vem
+
+embutida em vários transtornos operacionais, você tem uma estão
+
+conversando com tudo bem camarada até a rota do
+
+notebook não vai entender mais o problema.
+
+Inclusive, esse recentemente peguei uma máquina nova da
+
+empresa e a gente precisou só fazer o
+
+BitLocker e agora você tem a opção porque
+
+acaba sendo um problema guardar essa chave.
+
+É legal, porque eu tô gravando o seguro, mas minha
+
+chave foi mais segura que ela seja, ela anota no
+
+posti, a vida é a melhor da senha, né?
+
+Eu ponho no posti, a nota no
+
+TXT, então não resolve muita coisa.
+
+E aí o próprio BitLocker agora você tem a opção da
+
+máquina, se você está com uma conta jogada da Microsoft, você
+
+guarda direto a chave do LED Então o próprio serviço do
+
+Azure, você nem vê a chave, você provavelmente coloca ela lá
+
+sem, mas fica guardada pra você na geladeira.
+
+Então se você perdeu ou precisa recuperar depois, só
+
+conectar, ligou na conta, ele mais a conexão pra
+
+você já é uma murchada e tal, então eu
+
+fico adentro também que o guardar na chave é
+
+que ela sendo um problema também, mas os serviços,
+
+os posicionamentos estão ficando um pouco mais espertinhos, inteligentes
+
+para facilitar a vida do usuário, vamos dizer assim?
+
+É, eu ia comentar justamente isso, nessa parte do BitLock
+
+em XBlusn Mark também troquei de máquina recentemente com a
+
+mesma coisa né subir direto para jogar dinheiro nem tive
+
+contato com a chave de recuperação facilita.
+
+Não é da verdade se
+
+você desmontar esse negócio primeiro.
+
+Esse tempo vocês tocaram extremamente interessante e muito
+
+mais profundo do que talvez seja imediatamente aparente,
+
+porque ele tem a ver com o tendão
+
+de Aquiles da trilha de uma chave.
+
+Que é o problema da gerência de chaves.
+
+Sério, na disciplina acabei de criptografia, gerência
+
+de chaves é metade do curso, porque
+
+ele é o grande problema.
+
+E a criptografia ela tem uma coisa que é
+
+super assustadora até mesmo para o pessoal do mundo
+
+corporativo que a gente existe argumento a ser feito
+
+de que a crítica brasileira segura demais, ok? Por quê?
+
+Porque ela é tão segura, tão segura, tão
+
+segura que se você esquecer sua própria jovem,
+
+nem eu fico com o pégabri, cabou.
+
+Então, num ambiente em que você esquecer a chave
+
+o bitlocker, você perde completamente acesso ao seu notebook.
+
+Num ambiente que você perde a chave que contra
+
+suas criptomoedas, você perdeu o seu dinheiro, tá?
+
+Para toda a eternidade, não tem
+
+nada que você possa fazer.
+
+Então existe um argumento a ser feito que a criptografia
+
+é tão segura que é seguro demais e essa segurança
+
+se você não for muito cuidadosa ela pode sim se
+
+voltar contra você ao mesmo tempo existe algumas coisas perturbadoras
+
+com essa solução que você está falando aí, Márcio.
+
+Tudo bem, atenda a chave da tragem
+
+da depressão, fica lá na D.
+
+Isso significa que outra pessoa além
+
+de você tem a chave.
+
+O que é bom ou ruim, dependendo como é que você encara.
+
+Então porque você sabe que você tem um
+
+plano B que você perdeu a sua chave.
+
+É ruim porque é alguém diferente,
+
+você pode ler os seus segredos.
+
+Se você não quer que esse
+
+alguém saiba, isso é um problema.
+
+E isso é uma coisa que é
+
+super discutida, super debatida mundo da Petrobras.
+
+Essa é uma prática que me chama de
+
+key escrow, ou seu caução de chave.
+
+Você tem alguém mais além de você tendo a sua chave.
+
+Uma das coisas sociais muito difíceis que está
+
+acontecendo hoje é que o governo está querendo
+
+implantar a goela abaixo das empresas, como as
+
+Microsoft, via Apple, o site.
+
+O governo tem a caução de
+
+todas as chaves de todo mundo.
+
+A segurança do governo.
+
+O governo nacional nunca nem um
+
+dado sigiloso jamais vazou do governo. Jamais!
+
+Jamais!
+
+Nunca inclusive na pandemia, inclusive na época.
+
+Eu não vou dar a minha chave pra
+
+você porque vocês vazam mais do que eu. É doida.
+
+E aí o que acontece com vazamento mundo
+
+que eu achava o seu governo natal, vai
+
+beneficiar sobremaneira os malfeitores e vai necessariamente negar
+
+todos os bons que a criptografia trave.
+
+Então tem uma puta discussão que já atingiu
+
+os legisladores, não sei o que é uma
+
+discussão ongoing, mas o problema é que a
+
+trografia também permite que as pessoas se escondam
+
+das polícias e das universidades, autoridades investigativas.
+
+Então, a não gosto disso, as polícias querem que
+
+você tenha privacidade contra todo mundo, menos contra eles.
+
+Então é uma discussão que tem
+
+impactos impactos sociais e profundos.
+
+E em 1976, Agora meu, do Facebook é 73,
+
+1976, inventaram um novo tipo de criptografia chamada de
+
+duas chaves, que é mais conhecida pelo nome de
+
+fita da série de chaves públicas.
+
+Foi o primeiro grande brecht true, o primeiro
+
+grande novidade transformadora de ruptiva, mas esse grande
+
+criptografia desde a Segunda Guerra Mundial, em que
+
+você conseguiu fazer um sistema de criptografia que
+
+tem uma seguinte propriedade, eles requerem não umas
+
+duas chaves, tá?
+
+Então você tem aqui um lado da criptografia, é
+
+também chamada de criptografia assimétrica, que eu não gosto
+
+muito desse nome, porque pra mim ela parece muito
+
+cinética se você desenhar num conjunto de imagens.
+
+Se você, como é que eu não me você tem
+
+a mensagem e você usa um negócio chamado chave pública
+
+para cifrar a mensagem para fins de envio e e
+
+a mensagem passa cifrada por um canal possivelmente inseguro e
+
+lá do outro lado no receptor o receptor usa chamada
+
+chave privada para decifrar e ter acesso à mensagem original.
+
+Então esse é o uso clássico da criptografia e
+
+duas chaves para fins de sigios de comunicação.
+
+E uma das coisas absolutamente legais dessa criptografia é que
+
+ela, pelo fato de ela ter duas chaves, ela tio
+
+a responsabilidade você faz em dois em duas e aí
+
+você pode ter o seguinte você tem uma chave que
+
+é chamada chave privada que fica só com você e
+
+você pode distribuir a sua chave pública.
+
+Então é por isso que ela chama chave pública, que
+
+é o tempo que seria melhor chamar de chave publicável,
+
+você isso abriu um leque gigante de aplicações no mundo
+
+da criptografia, porque agora você pode, você não mais precisava,
+
+facilita muito a gerência de chaves, você não precisa ter
+
+um canal seguro pra distribuir as chaves, pode distribuir chás,
+
+só as chaves públicas por um canal aberto na internet
+
+e ainda assim o camarada não consegue fazer a fotografia
+
+sem você. Ok?
+
+Todos os sistemas de segurança hoje em dia
+
+tem criptografia das chaves de alguma espécie, ele
+
+é absolutamente crucial para as criptomoedas, está achando
+
+que faz a autorização de gastar ou não
+
+as criptomoedas, então o que acontece?
+
+Quando você vai gastar, por exemplo, criptomoedas você
+
+faz uma assinatura digital, você faz a operação
+
+contrária inclusive uma fila tradicional para a sua
+
+chave privada e você faz os verificadores da
+
+rede que vão verificar se você está autorizado
+
+fazer aquela transferência, vamos na sua chave pública
+
+para conferir que você está autorizado.
+
+E isso permite que
+
+as responsabilidades sejam segregadas.
+
+Um só pode assinar e outro só pode verificar, tá ok?
+
+Pode confiar.
+
+Assalita muito em chave privada, você tem um problema que
+
+uma chave de uma aplicativo de uma chave só, o
+
+mesmo cara que verifica é capaz de forjar assinaturas, ok?
+
+Sim, vale ter um conselho de assinatura.
+
+E perde a integridade do processo e
+
+vai do processo como um todo.
+
+E o que você está refletindo em público? Jovem.
+
+A questão da ficha pública acabou
+
+se infiltrando em vários lugares.
+
+Por exemplo, hoje no mundo jurídico, o Brasil, por
+
+exemplo, o negócio chamado infraestrutura de chaves públicas brasileira,
+
+chamado CPBR, que os juízes assinam digitalmente os PDFs
+
+nos acorda, nos das sentenças que eles fazem, de
+
+forma que qualquer pessoa pode independentemente verificar que foi
+
+usado por aquele juiz.
+
+Porque assim, ah, aí sempre é Brasil, aí sempre é
+
+fechado pro Brasil, tá mais focado em um monte, o
+
+problema que eu garantir que a certa pessoa física ou
+
+jurídica é de fato dono daquela chave, mas eles usam
+
+as assinaturas digitais em diversos processos.
+
+Então hoje, graças a isso, você pode
+
+você pode fazer uma coisa, eu posso
+
+assinar um contrato pra você de forma
+
+inteiramente digital sem necessariamente ir no cartório.
+
+Bem registrar aquele pranto no mesmo sul datória.
+
+Os detalhes legais variam, tem muitas coisas que
+
+podem, tem certas pessoas que não podem, mas
+
+a maioria das vezes dói, então isso trouxe
+
+muito mais agilidade ao mundo.
+
+Agora, do ponto de vista técnico, a pintagrafia de
+
+chave pública, o que eu trouxe de 2 chaves,
+
+ela tem um problema que é o seguinte, ela
+
+é bem mais pesada computacionalmente, que então onde no
+
+mundo da criptografia tradicional de uma chave você mede
+
+a performance em megabyte por segundo na criptografia letra
+
+de 2 chaves você mede a performance em kilobyte
+
+por segundo, elas são normalmente mil vezes mais pesadas.
+
+Então normalmente elas são usadas só como container do machado
+
+temporário e aí você usa que tem uma crise de
+
+machado só pro resto grosso dos dados, tá ok?
+
+Mas isso na realidade, Marília, cara, tem muita
+
+coisa que a criptomoeda não, a criptomoeda é
+
+tão salgada bem ultimamente sem fazer novos híbridos.
+
+Então, tem várias aplicações vários lugares.
+
+A verdade é que a criptografia está em
+
+muitos lugares, em cada vez mais lugares para
+
+proteger as nossas informações contra a nem escapar
+
+da dependência da informação devagar.
+
+Boa, cara, acho que essa pergunta do Marcos, a
+
+diferença da estrutura fez trouxe a gente pra essa
+
+eu diria, passando da introdução, já fomos pro miolo
+
+do assunto, já caminhando pro final, né?
+
+Porque o tempo é limitado, a gente podia passar a
+
+vida falou né cara, pra responder uma pergunta aí pra
+
+escrever no livro, então dá pra passar do tempo falando
+
+sobre isso, eu acho que talvez as pessoas não subestimam,
+
+vai, não ter o conhecimento do quão a criptografia afeta
+
+o dia a dia nosso, inclusive um pouco que eu
+
+aprendi mais sobre a criptografia foi no evento em São
+
+Paulo chamado Cripto Have Eu não sei se ainda existe,
+
+eu lembro que inclusive era da madrugada, então tinha uns
+
+tópicos muito legais lá pro lançamento que eu participei, eu
+
+não sei se ainda existe, ah acredito que sim, mas
+
+depois da pandemia você se voltou, enfim, é onde eu
+
+aprendi um pouco sobre isso e quando eu pude conhecer
+
+o laboratório da Polícia Federal 2015, quando trabalhava com forense,
+
+foi ali em entender os laboratórios e tal, e o
+
+pessoal mostrou o cluster de GPU pra fazer a estimativa
+
+de quanto tempo vai demorar pra quebrar a criptografia.
+
+Só pra provar judicialmente, cara, esse caso aqui
+
+tá descartado, leu ou não descartado, coisas do
+
+título, depende do jeito de como era contexto.
+
+Então pra caminhar pro final, Marco, eu queria que
+
+você faça o seguinte, pra quem quer entender uma
+
+importância de criptografia, porque usar criptografia, pra quem quer
+
+aprofundar o tema, eu quero aprender sobre o que
+
+é uma coisa a se aprender sobre fotografia ou
+
+até coisa a se virar um criptografia, um matemático,
+
+vai desenvolver algoritmos novos, inclusive a empresa que eu
+
+trabalho hoje a bebê, eu tive a oportunidade de
+
+estar lá em dia, ela há dois, três meses
+
+atrás e a gente tem lá uma universidade onde
+
+um dos das bolsas financiadas de phd do pessoal
+
+era exatamente sobre novos métodos criptográficos.
+
+Esse é o nome de Green criptography.
+
+É literalmente para usar menos computação
+
+e consequentemente menos energia, fazer baseado
+
+no hardware, aquela coisa toda.
+
+Então Cara, tudo que fala em segurança pra vocês é,
+
+usem o algoritmo de criptografia, ele fala, o que a
+
+gente faz aqui é exatamente o oposto, a gente tá
+
+criando, né, o que é fotografias novas, então não entendi
+
+nada né aquele negócio de tese aquele monte de coisa
+
+completamente fora do meu contexto mas deu pra entender o
+
+suficiente cara tem coisas né rolando muito boas nessa área
+
+muito importante eu queria que você trouxesse com a gente
+
+Marco é o seguinte nos próximos cinco minutos pra gente
+
+acabar eu quero aprender mais sobre isso eu quero ler
+
+sobre isso, quero me aprofundar um pouco mais.
+
+O que eu tenho que fazer?
+
+Pra onde eu vou? Eu vou no YouTube? Eu vou no Google?
+
+Eu vou? O que eu faço?
+
+Ótima pergunta.
+
+Primeiro, eu queria falar que você provavelmente
+
+já usa a criptografia e não sente.
+
+Seja na criptografia WPA lá que você coloca
+
+da sua rede WiFi que já está implementada
+
+dentro do Simmel, da placa de rede.
+
+Os desenvolvedores usam quando você faz uma chamada para um
+
+API com um HTTPS, Por exemplo, o S do HTTPS
+
+significa Secure, ele é na realidade o eufemismo para uma
+
+puta camada de criptografia que tem lá dentro, que tem
+
+vários algoritmos, envolve certificado digital, etc.
+
+É uma putaria legal de você aprender.
+
+Então, por exemplo, eu pesquiso no Google, eu
+
+fiquei como é que funciona o chamado protocolo
+
+TMS, que é o US e o WTFS.
+
+Que é um estilo de criptografia mais usados, tá ok?
+
+Como você falou, existe a criptografia que é para uso
+
+de um eletrodo camarada que faz na prática, existe a
+
+bibliografia mais teórica que quer ir pro camarada que quer,
+
+sem pensar quanto a conta teórica, etc, mais.
+
+Um livro mais bacana que eu conheço, de criptografia,
+
+que eu acho que o livro que me colocou
+
+na direção certa de perto, é um livro chamado
+
+Pract to Creative Top of it, tá ok?
+
+Vamos começar a chamar o William Stollings.
+
+A outra vez que eu vi ele tava na quarta edição,
+
+mas eu vi esse livro há muitos anos, tava tudo mais.
+
+O livro de Stollins, entretanto na época ele
+
+já tava ao meio da estado, no segundo
+
+sentido, existe um outro movimento entre os cryptobratus,
+
+de permitir as criptográficas mais simples e mais
+
+genéricas e mais framedly para os desenvolvedores.
+
+A primeira geração de algoritmos criptográficas
+
+com o preservo 10, 310, etc.
+
+Eles eram muito pouco da vela para a friendly.
+
+Eles não eram muito feitos para os desenvolvedores
+
+não cometerem erros, os Baudelaire cometiam muitos erros.
+
+Eu recomendaria você estudar uma biblioteca chamada Lidi
+
+Sodino, de um camarada liderado por um camarada
+
+chamado Dan Burns, que é um dos maiores
+
+gêneros da Filhos de Dia.
+
+Então, a lei de soja é uma das
+
+melhores bibliotecas de uso geral de criptografia.
+
+Mas se você quer ter uma boa ideia dos conceitos,
+
+o livro de Stollins ainda é um dos melhores.
+
+Gente aponta para o livro do Ushuaia
+
+chamado Effects no estado do Ushuaia.
+
+Só que é um livro que eu acho mais, apesar
+
+de eu gostar muito do que o Stine Express, é
+
+um cara muito bacana, mas enfim, gente, ele é Inconfluente.
+
+Ele é um livro mais datado, mas antes
+
+não, ele não é tão developer friendly, tá?
+
+Eu acho que o livro do William Stolens,
+
+ele é muito mais, muito mais palatável porque
+
+ele explica todos esses conceitos que eu tô
+
+falando pra e as aplicações e tudo mais.
+
+Uma coisa que eu não tenho, que deveria ter e que
+
+eu deveria ter, justamente por não ter, eu deveria ter escrito
+
+e eu fico embaraçado em um ter feito isso, eu nunca
+
+vi um tutorial genuinamente leg pra um tipo e o nível
+
+do desenvolvedor praticante do dia a dia de hoje em dia.
+
+O livro de stories, quando você for ler, Tem muita
+
+gente que não gosta dos livros de stories, porque é
+
+disso que os livros de stories são muito matemáticos para
+
+um desenvolvedor e muito prático para uma matemática.
+
+Eu acho que é o meu nome dele, é
+
+a virtude de comer cada vez de tentar unir
+
+os dois mundos, porque os dois mundos funcionam. Sim.
+
+Mas ao mesmo tempo ele tem a desvantagem que ele
+
+às vezes desagrada simultaneamente aos dois aos dois campos.
+
+Mas eu acho que ele ainda é o melhor amigo que
+
+você pode ler nesse aspecto na Amazon, tal e tudo mais.
+
+Nesse aspecto.
+
+Procure no YouTube pelo protocolo TLS, por tudo
+
+que você puder ouvir falar sobre criptografia, sobre
+
+ataques à criptografia e coisas como essa natureza.
+
+E aí eu coloco um desafio pra todos nós.
+
+Vamos para os nossos desenvolvedores, vamos escrever um tutorial
+
+bacana de criptografia razoavelmente curtindo, provavelmente bonitinha para o
+
+nível do desenvolvedor normal, porque a verdade é que
+
+a gente vive dos fóruns é muito bom, Mas
+
+ele é um pouco mais do que o camarada
+
+praticante do dia a dia precisa. Precisa.
+
+Eu não acho isso necessariamente uma coisa ruim, porque
+
+eu sou o comemorado que depende que você sempre
+
+tem que se desafiar em um pouco além.
+
+Eu não acho isso ruim, mas A
+
+gente tem que ser realista, né?
+
+Muita gente não quer investir tanto tempo, né? Não vai.
+
+Não vai dedicar a vida. Exato, exato.
+
+Então, Eu acho que é uma coisa que
+
+está faltando uma boa introdução em língua portuguesa,
+
+talvez didática para a criptografia, para ara novatos
+
+em linguagem de programação específica.
+
+Um problema que atrapalha mais ainda, que você
+
+chegou a falar no começo, é que existem
+
+os conselhos de criptografia e cada linguagem, cada
+
+biblioteca implementa de uma maneira ligeiramente diferente.
+
+Parece na maioria dos clientes.
+
+Então isso torna o número de dialetos
+
+e o número de variações enlouqueceramente grande.
+
+E aí pega uma coisa que já não é
+
+muito fácil e torna os meus medicamentos mais difíceis.
+
+Sim.
+
+Marco, é só agradecer, o tempo passa muito rápido
+
+como você falou no começo desse tema aqui, dá
+
+pra passar a vida, e a gente não termina,
+
+né, porque tá em constante evolução, inclusive, além do
+
+que na teoria na prática nem criptografia quântica.
+
+Cara, vai longe.
+
+Isso aqui vai longe, vai longe.
+
+O Marcos, pra você entender, o Marcos já
+
+dormiu, ele caiu o teclado e já foi.
+
+Eu falei miseravelmente aqui.
+
+Eu tento fazer essas coisas pra manter as pessoas acordaram,
+
+mas claramente eu não falei e não vou mais.
+
+Fica tranquilo que esse aqui tem histórico já, né?
+
+Não é culpa na rua na pacturização.
+
+É, mas o DRDO é essa na casa dele lá, ele derrubou.
+
+Mas Marcos, de novo, agradecer o teu tempo, agradecer a
+
+vasto conhecimento que você trouxe pra gente, pelo menos pra
+
+levar um pouco não vou dizer um nível não, mas
+
+vou dizer o conhecimento do pessoal dos ouvintes, nossa, tá
+
+sempre mandando pergunta lá no canal, tanto pra gente aqui
+
+nos privados, nas mensagens privadas, a produção, a produção a
+
+eukeep levantou aqui que o 20 nosso que indicou eu
+
+gravar contigo foi o Carlos Henrique Eu não sei se
+
+a gente conhecia de trabalhar.
+
+Eu já congelei junto com o Carlos Henrique e indicou.
+
+Eu não tenho mais detalhes dele,
+
+mas enfim, foi o Carlos Henrique.
+
+Ele inclusive foi o mesmo eu gravo com o
+
+Magnum Logan, o Magnum que já fala de apsek
+
+e tal, então episódio passado a gente gravou com
+
+Magnum pra quem não acompanhou o episódio passado usado.
+
+Ah, você comentou do livro
+
+do cryptography and network security.
+
+Ele está na oitava edição do William.
+
+Ele está na oitava edição, quando você tava falando, então
+
+é uma pesquisa aqui pra passar e falar só pessoal,
+
+aquela oitava edição já, então 4, 5 edições da notícia
+
+você falou, já tem muita coisa na frente, mas acho
+
+que é uma coisa que a pessoa dá uma lida
+
+ali, porque eu não sei se a gente tá falando,
+
+eu mandei pro Installings uma vez, um atropelando as minhas
+
+coisas, a gente tá precisa colocar como é que era
+
+a lei de sódio e as outras coisas do Dante.
+
+Ele saiu livre, eu não sei se ele chegou a fazer
+
+isso em uma apresentação, então eu nem preciso me atualizar.
+
+Eu Eu estudei que ele está
+
+na cena se converteu desse livro.
+
+Então você tem uma ideia de que você tem uma história.
+
+Sim, mas tem um pecado.
+
+Esse aqui é o Não, deve ter em algum lugar.
+
+Aqui, a publicação desse de 2019, viu?
+
+Eu tenho aí quatro anos na Júlia. Exatamente.
+
+Eu falei muito a pena. Sobre mim.
+
+E eu acho que você não é com a abordagem.
+
+A abordagem estável é uma das melhores
+
+que eu vi, então eu recomendo fortemente.
+
+Sensacional.
+
+Todos os links de novo que o Marco comentou
+
+aí tudo vai estar na descrição do episódio lá
+
+no YouTube pessoal ou também no nosso site vocês
+
+podem acompanhar lá links referências, enfim, você quiser dar
+
+um volta aí no áudio também, como vocês vão
+
+dizer, esse foi um episódio muito rápido, terminei vinheta
+
+aqui no meio, foi um episódio muito rápido, de
+
+favor, bastante curioso, acho que é um tema relativamente
+
+complexo né, então a gente precisa deixar ali o
+
+pessoal literalmente falar e fluir a ideia pra não
+
+ficar interrompendo, não ficar até bom porque o Marcos
+
+vai ultrapassar as gracinha, os outros dois, você não
+
+perdeu nada Marcos, cara que trabalha, cara que trabalha,
+
+cara que trabalha pra, pra perder muita coisa né?
+
+Marcos, recomendações finais, quer dar uma lupa galera,
+
+de novo, eu só te agradecer em nome
+
+do da equipe da sua conta.
+
+Eu tenho só agradecer a vocês pela
+
+oportunidade que está falando com a comunidade
+
+dos desenvolvedores e parabelidados por tocar o
+
+assunto, porque justamente por ser um assunto
+
+espinhoso, muita gente tenta passar longe, entendeu?
+
+E a gente precisa enfrentar esse negócio A
+
+criptografia, você falou lá, eu sou a criptosalva.
+
+A criptografia, por incrível que pareça, é o que
+
+nos impede hoje está dificultando a gente ver em
+
+governos totalitários e o Big Brother existir.
+
+Então, estudar criptografia é mais do
+
+que só uma responsabilidade profissional.
+
+É uma questão de cidadania.
+
+E eu acho muito importante que as pessoas
+
+se envolvam com isso na máxima extensão puderem.
+
+Então é um prazer muito grande, que é um privilégio
+
+estar passando mensagem aqui com a ajuda de vocês, né?
+
+Eu só quero agradecer também. Boa, boa.
+
+E envolve as questões sociais, né?
+
+Como você comentou.
+
+E eu sempre falei pessoal aqui, a gente fez uma
+
+série aqui no Brasil com a sua gente falando do
+
+Microsoft STL, do Security, do Website, das duas etapas lá.
+
+E uma das etapas lá é o The Finally Use, que
+
+é o de Finally Use, que é o de Final Fantasy.
+
+Então definir padrões de criptografia que você
+
+vai usar durante o seu projeto, como
+
+o próprio Marco falou, cara.
+
+Você vai usar uma LLS pra fotografar comunicação
+
+com o seu serviço, microserviço, CPAs, vai toda
+
+faltar num banco de dados, enfim, você é
+
+de questões que ele deve ser levantado.
+
+Mas vai ficar por outro episódio.
+
+Marcos, que dormiu, já foi. Obrigado. Marcos, Cool.
+
+Nosso convidado. Agradeço também.
+
+A gente se vê no próximo episódio.
+
+Eu sou o Carlos Pereira.
+
+E a gente se vê na semana que vem. Valeu, pessoal.
+
+Sem tecnologia.
+
