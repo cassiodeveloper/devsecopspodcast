@@ -1,0 +1,2012 @@
+E novo a segurança! Tecnologia! Essa envolvimento!
+
+Começa aqui, o seu podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais um episódio da Copys
+
+Podcast ou seu caso Pereira Peço desculpas por não
+
+ter tido episódio a semana passada, mas a vida
+
+é uma loucura importa que estamos aqui hoje.
+
+Pra você ver que era loucura pra quem tá
+
+no YouTube aí vendo o nosso vídeo, olha só,
+
+apaga um destacando escritório em livro, então a gente
+
+vai se organizando aos poucos, e gerando conteúdo pra
+
+vocês, não dá pra ser coach, podcast.
+
+Como sempre, beleza?
+
+Eu tô sozinho hoje, episódio solo pra gente falar de
+
+um tema muito bacana, que é o Shift Everywhere.
+
+Não é mais Shift Laft, agora é Shift Everywhere.
+
+Então você não troca mais para a
+
+esquerda, você troca para qualquer lugar.
+
+Então é isso que a gente vai falar no episódio de
+
+hoje antes deixa eu ler minha colinha aqui para a gente
+
+falar dos nossos parceiros né então vamos lá O DevSeckops Podcast
+
+tem o apoio da Checkmarks e da nova 8, que são
+
+especializadas em segurança de sistemas e código seguro.
+
+O link da nova 8, distribuidora da Checkmates no
+
+Brasil, está abaixo na descrição do episódio, no link
+
+do YouTube, ou lá no nosso site deve ser
+
+copy do podcast ponto com ponto br.
+
+A Contabilidade Olympia que é especializada em profissionais
+
+da área de TI, se você precisar abrir
+
+sua empresa ou migrar de contabilidade, entre em
+
+contato com o pessoal da Contabilidade Olympia que
+
+eles estão prontos para te atender.
+
+E a Gold Security que
+
+é especializada em RPG's Security.
+
+Quer desenvolver código seguro, fale
+
+com a Gold Securities.
+
+Tem serviços de Application Securities que vão te
+
+ajudar muito no seu dia a dia.
+
+Tem parceiro novo chegando aí que em breve a
+
+gente vai anunciar também, mas também lembrar do apsek.jobs,
+
+para você anunciar suas vagas lá de uma forma
+
+muito simples muito rápido aí barato além de você
+
+que tá procurando vagas na área também já tem
+
+algumas vagas anunciadas dá uma olhada lá isso é
+
+gratuito para você tá procurando vagas, beleza?
+
+Então é isso, esses são os nossos
+
+parceiros, os nossos recadinhos pra vocês.
+
+E a gente vai começar o episódio de hoje, a
+
+gente fala no seguinte, primeiro tem um cafezinho aqui, eu
+
+tô mandando minhas cafezinho, tomando no que já acabou, né?
+
+Mas o que que eu queria falar pra vocês hoje?
+
+O mercado de desenvolvimento, seguro, de aplicativo de quanto o
+
+mercado tem desenvolvimento soft de uma maneira geral ele é
+
+muito rápido ele é muito ágil ele cresce de uma
+
+forma exponencial eu diria né, cada vez mais a demanda
+
+por software tem aumentado, cada vez mais a demanda por
+
+profissionais de desenvolvimento tem aumentado.
+
+Então isso já é uma realidade pra gente, a
+
+gente já sabe disso, a gente já aceita isso.
+
+É tanto que é uma briga agora,
+
+né, com salários, quanto custa, enfim.
+
+Então é uma verdadeira bolha que a
+
+gente vive aí no mundo de TI,
+
+especialmente no mundo do desenvolvimento do software.
+
+E paralelo a tudo isso, a gente tem a segurança,
+
+que tá lá correndo atrás, tentando tornar os nossos produtos
+
+Eu vou chamar de produtos digitais, tá gente?
+
+Mas entenda como o software de uma maneira geral.
+
+Por que produtos digitais?
+
+Porque toda empresa na verdade acaba sendo um produto.
+
+Então os nossos produtos digitais acabam sendo
+
+cada vez mais visados pelo Cybertraining.
+
+Pelos criminosos que querem fraudar, que querem fazer
+
+um dinheiro, que querem roubar dados pra vender,
+
+que querem roubar dados pra fazer fraude, que
+
+querem simplesmente desviar dinheiro, enfim.
+
+Uma série de motivadores aí e de ataques
+
+diferentes que essas empresas são alvos, tá?
+
+Que essas empresas acabam estando na mira, desses
+
+criminosos, essa aqui é a realidade, tá?
+
+E aí, o time de segurança, o negócio de
+
+application Sequire especificamente, a gente tem que correr atrás,
+
+por que que eu digo correr atrás?
+
+Porque as empresas estão focadas em entregar, fazer software, entregar
+
+software, fazer o produto, entregar o produto, faturar, vender esse
+
+objetivo, e aí o time de segurança ele tá paralelo
+
+a tudo isso tentando tornar aquele produto seguro né ou
+
+não tornar seguro que é muito difícil né ah tá
+
+seguro tá acabou não, não existe isso, o que existe
+
+é bem protegido, mas dependendo da motivação do outro lado,
+
+você vai ser vazado, você vai ser penetrado se é
+
+que podemos usar desta forma.
+
+Então o fato é, a gente tá ali pra tornar
+
+aquele produto um pouco mais seguro, um pouco mais protegido.
+
+Tá?
+
+Um segredo de by design, private, by default, todas essas
+
+siglas aí, essas normas que vocês já ouviram falar.
+
+Então o time de segurança corre em paralelo.
+
+Ele acaba sendo um suporte pros produtos
+
+digitais ou pras empresas que desenvolvem software.
+
+Essa área de segurança ali como um barramento, né?
+
+Teve uma empresa que serve a todos
+
+os times, todos os produtos de desenvolvimento.
+
+Olhando pro app que a gente
+
+segura de uma maneira geral, né?
+
+Mas não focar em aplicativos aqui.
+
+Então, o problema é, por isso que tem, e aí
+
+vão falar do problema já já, mas por isso que
+
+tem essa questão do shift shift e tem tomado conta
+
+da indústria de segurança de uma maneira geral.
+
+Porque as empresas estão lá desenvolvendo software, preocupadas
+
+com suas entregas, vídeos novos, sprints, aquela coisa
+
+toda que a gente é sabe.
+
+E o shift shift é exatamente isso, cara, ao invés
+
+de você se preocupar em fazer um paintests no fim
+
+do ano, ou no final do seu ciclo, você vai
+
+entregando o seu software, aí você vai rodar scan e
+
+coisas do tipo, você tem que fazer um shift shift.
+
+Antes de antes de né durante os seus ciclos de
+
+desenvolvimento vai testar vai rodar a scan do código vai
+
+rodar um baixo rodar sash aquela coisa toda que você
+
+também já sabe que a gente já cansa de falar
+
+aqui Então, durante o seu ciclo de desenvolvimento, vai mudando
+
+ali para a esquerda os seus testes de segurança.
+
+Quanto antes você fizer os testes de segurança, melhor
+
+afinal você garante que durante o seu ciclo, durante
+
+o seu desenvolvimento você tá testando, tá validando, tá
+
+garantindo que todos os testes possíveis e seguranças estão
+
+sendo feitos antes porque antes porque você corrige antes
+
+também se você passou 6 meses desenvolvendo agora você
+
+vai testar você vai achar um monte de problema
+
+e aí volta pra corrigir, você já vai estar
+
+atrasado, vai ter um delay na sua entrega, no
+
+seu produto, no seu business, aí entra aquela outra
+
+guerra que é Basicamente, o pessoal fala entrega, sobe,
+
+depois vira backlog, depois a gente corrige.
+
+E aí você está em risco, esse é o grande
+
+problema, a gente não quer ficar em risco, a gente
+
+não quer sofreram em produção, né, com problema.
+
+Então o Shift Laft, né, ver essa essa
+
+onda de Shift Laft que é justamente isso.
+
+Pessoal, vamos começar fazer testes
+
+antes, fazer scan antes, etc.
+
+Então a gente chega na conclusão de que star, software
+
+do ponto de vista de segurança antes é melhor porque
+
+você acha os problemas antes e corrige antes.
+
+Mas isso por si só gente, ele
+
+não é o salvador da pátria.
+
+Ele não é o que vai resolver todos os problemas.
+
+E eu vou falar pra vocês porquê. Levy secops!
+
+Por que só mudar para a esquerda não resolve?
+
+Porque segurança não é uma única coisa não é
+
+um único momento e é isso que cada vez
+
+mais a ter percebido dificuldade nas empresas e nos
+
+clientes, nos parceiros que eu converso.
+
+Não é uma etapa, uma coisa que
+
+você falar e falar, beleza, fiz um
+
+check list, deu um checkzinho, fiz segurança.
+
+Porque você rodou um sashp, você rodou um dasp,
+
+você rodou um pentesh, não é uma coisa.
+
+Não é um dia de atividade, não é um item.
+
+Segurança, gente, é exatamente igual ao código.
+
+Escreve uma linha hoje, duas linhas, três linhas,
+
+um método, uma classe amanhã, outro método da
+
+classe que vamos conversar amanhã, outro, outro e
+
+tudo isso vai virar o software no final.
+
+Segurança é exatamente igual, especialmente
+
+a playlist de inscritos. Por que?
+
+Se a gente está falando de código, o código evolui né?
+
+É uma linha, é um método, uma classe hoje, amanhã
+
+é outra linha, outro método, outra classe, segurança é a
+
+mesma coisa, você vai fazer um scanner desse código, uma
+
+linha é uma classe, um método um dia, uma linha
+
+tá trabalhando no outro, o consolidado disso tudo no outro.
+
+Então só de você falar de SAST por exemplo,
+
+a gente tá falando de acompanhar a primeira linha
+
+de código até a última percebe ou seja é
+
+um ponto de segurança né falando de sash tática
+
+fica esse tipo de teste, análise de código, já
+
+acompanha o próprio código, da primeira linha útil, beleza?
+
+Quando a gente fala de DAS dinâmica, apliquei o ticket
+
+teste, teste de scan de aplicação, vamos lá de scan,
+
+a pessoa gosta de chamar, a gente está falando de
+
+um outro momento, eu nem consigo fazer teste, se eu
+
+não tenho uma aplicação funcional, se eu não tenho um
+
+deploy na aplicação do ambiente, o app, por exemplo, eu
+
+consigo arrotar lá o Scan ou testar esse teste nem
+
+tá no escopo ainda.
+
+Eu tô na minha primeira linha de código, fiz uma
+
+primeira classe aqui e conectei com banco de dados, beleza?
+
+Fiz um teste unitário aqui
+
+lindo, maravilhoso, tá funcionando.
+
+Agora eu fiz uma tela que usa
+
+esse método que conecta com quantidades, beleza?
+
+Agora eu fiz um deploy dessa tela, meu
+
+usuário consegue ir lá no browser dele navegar,
+
+agora eu consigo testar com o Dast. Percebe?
+
+Então o Sasha ele entra em ação muito antes,
+
+o DASH entra em ação depois, não necessariamente muito
+
+depois, mas depois no ciclo natural de desenvolvimento sólido.
+
+Então não existe uma etapa, Se você fez uma tela hoje,
+
+amanhã é outra, amanhã é outra, amanhã é outra, o DASH
+
+tem que estar rodando e validando todas essas telas.
+
+Então também é um trabalho constante, mesmo que
+
+num outro momento dos ciclos de desenvolvimento.
+
+Percebe?
+
+Então, se a gente parar pra
+
+analisar agora Outro contexto, né?
+
+Biotecas de terceiros, por exemplo.
+
+Quantas vezes você adiciona a biblioteca
+
+de terceiros no seu projeto?
+
+Eu não sei nem se dá pra mensurar isso.
+
+Eu diria que é possível cível, mas acho que
+
+não tem nenhum estudo que fala sobre isso.
+
+Posso estar enganado, tá?
+
+Mas vamos lá, você conversou sobre o projeto?
+
+Poxa, abriu o Visual Studio é
+
+um exemplo clássico aqui, tá?
+
+Abrimos o estúdio, deu um New Project Web Application,
+
+já carregou lá as bibliotecas do Aspnet, do noticore,
+
+enfim e já tem lá alguns reacts da vida
+
+algumas já tem umas bibliotecas padrões lá beleza ok
+
+esses caras já são alguns já são bibliotecas de
+
+tecido nesse exato momento eu já tenho que fazer
+
+um scan de acesso software com pontos de análise
+
+para garantir que essas bibliotecas open source não estão
+
+vulneráveis e não tem vulnerabilidade recortada.
+
+Então só de criar um projeto novo Aí
+
+começou lá a ler a lista de requisitos.
+
+Olha, preciso fazer a tela de login,
+
+preciso fazer isso, preciso fazer aquilo, legal.
+
+Então você Backend, né?
+
+Backend foi lá e criou tudo isso.
+
+Aí o frontend foi lá e usou a biblioteca do JQuery
+
+pra fazer a tela piscar, usa um CSS aqui e tal.
+
+Todo o segundo momento pra cada requisito num
+
+segundo momento já tem bibliotecas novas adicionáveis.
+
+Você deu lá um no get install, o
+
+nome da do pacote e tal, então nesse
+
+momento esses bibliotecas tem que ser escaneadas também.
+
+Você percebe que o SCA, por exemplo, ele acaba sendo
+
+tão constante quanto o SAST, porque se adiciona a biblioteca
+
+hoje, a manha se adiciona uma outra, depois se remove
+
+o modelo a mais, depois você adiciona a outra, aí
+
+durante esse desenvolvimento saiu uma versão nova de uma biblioteca,
+
+você já analisa automaticamente, então esse scan gente também é
+
+constante, poderia fazer um estúdio aqui de cara, bibliotecas relacionadas
+
+a cada 3 minutos no projeto, a cada 1 mês
+
+durante o projeto de 1 ano, sei lá, e aí
+
+você né otimizar os seus scans tá poderia mas é
+
+um scan tão rápido então ele não é custoso que
+
+vale a pena você fazer scan constante como é o
+
+SAST por exemplo.
+
+Então ela fez um pull request, fez um push pro seu
+
+repositório, faz scan ou automatiza o local na sua IDEA, a
+
+sua biblioteca nova dispara um scan, fazer tudo isso.
+
+Então, veja, SAST SA acompanha o
+
+código primeira linha e a última.
+
+E o DAST acompanha a aplicação,
+
+do primeiro deploy ao último, percebe?
+
+Se a gente falar de AC, eu diria que
+
+tá no mesmo nível que o DAST, né?
+
+Do primeiro deploy ao último, se a gente fala de
+
+container scan a partir de quando você define uma image
+
+image que você vai usar ali de container um docker
+
+por exemplo você já faz o scan dessa imagem aí
+
+você vai trabalhar com essa imagem base lá do Linux
+
+do Windows, sei lá, durante x tempo.
+
+Até fazer o deploy produção da sua aplicação.
+
+Esse tempo constantemente você tem que fazer scan
+
+porque pode sair do navegador de novos componentes
+
+daquela imagem a qualquer momento então você vê
+
+que Você não precisa da primeira linha de
+
+código, fazer isso aqui na imagem.
+
+Às vezes, nem sabe o que mais você vai usar ainda.
+
+Você está fazendo aqui o seu backlink e tal.
+
+Então, você percebe que nessa fala agora, nessa introdução
+
+que eu dei aqui pra vocês, a cada momento
+
+do desenvolvimento, você tem um teste de segurança ser
+
+feito ou uma validação de segurança ser feito que
+
+não acontece no momento único no tempo ele acontece
+
+constantemente constantemente pode você analisar constantemente porque ele muda
+
+constantemente bibliotecas você analisa constantemente porque também muda gente
+
+a aplicação você faz scan constantemente porque ela muda
+
+constantemente percebe gente então não é mais shift leque
+
+você não consegue traduzir tudo isso pra esquerda.
+
+Até dar, até dar algumas coisas, por exemplo.
+
+Abriu a IDE, vai rodar SAST SA. Ponto.
+
+Mas o DAST e o ASC por exemplo, o AST
+
+não é o DAST e o AST e o container
+
+dos cães vão rodar num outro momento que vai definir
+
+coisa, papelão por exemplo, e assim por diante.
+
+O IAC é infantil Charza Code, acabei confundindo com
+
+o Goiás, mas o IAC também é código.
+
+Roda lá na IDE.
+
+Assim como também na pipeline, você quer fazer um
+
+double check, na pipeline específica de produção, de QA,
+
+de desenvolvimento, interessam, mas dá um check, porque na
+
+IDEV você pode fazer tudo isso.
+
+Então, não é shift left mais gente, é shift
+
+left wire, Inclusive, checkmares que é parceiro nosso aqui,
+
+ferramenta super flexível, faz scan pra você aonde você
+
+quiser, na sua IDE, no seu Pipedrine, não interessa,
+
+ela se adapta aos seus processos de O ponto
+
+da Checker vai falar justamente isso, Shift EVERWARE.
+
+E é a realidade do mercado, independente de
+
+solução, o ciclo de desenvolvimento de software, apesar
+
+de dinâmico, ele tem uma certa um certo
+
+padrão requisito código teste deploy requisito código teste
+
+deploy bem em linhas gerais aqui, seja você
+
+usando waterforce, seja você usando a gile, o
+
+bull horse, importa a metodologia, metodologia neguinho.
+
+O fato é, não é shift left é shift left
+
+e aí botando no português para ficar claro né em
+
+todos os lugares em momento dos ciclos de desenvolvimento software
+
+tem que ter e deve haver e há um teste
+
+de segurança a ser feito uma validação ferramenta, um escanteio,
+
+o que quer que seja.
+
+Tá, Cácio, legal, mas tudo isso a
+
+gente tá falando aqui de código, né?
+
+Da primeira linha de código em diante.
+
+E antes disso, dá pra fazer alguma coisa, segurança
+
+tecnologia deve ser copos dá e aí é que
+
+eu sempre falo para vocês também já falei aqui
+
+tem palestra minha sobre isso tem material publicado no
+
+ASP Qual é a matériaprima do software?
+
+Já parou pra pensar nisso?
+
+Qual é a matériaprima do módulo, de uma mesa?
+
+De madeira.
+
+A matériaprima é a madeira.
+
+Qual é a matériaprima do carro? O aço?
+
+Sei lá, coisas do tipo?
+
+Então, se a gente parar pra pensar,
+
+qual é a matériaprima do software?
+
+Então se a gente parar para pensar qual é
+
+a matériaprima do software, gente, é o requisito funcional.
+
+Tá?
+
+Não foge disso, precisa ter uma lista
+
+de requisitos que vai virar código, tá?
+
+Então a matéria pelo software
+
+lá é requisito que funcione. Beleza?
+
+Então se a gente parar pra pensar, o
+
+maior shift Left, que é possível no ciclo
+
+de desenvolvimento próprio, é o requisito.
+
+Ou seja se o requisito já estiver por exemplo com
+
+o requisito funcional né já com os requisitos de segurança
+
+definidos o meu software tende a estar mais protegido.
+
+Então criar uma tela de login.
+
+Tem que ter dois campos, usuários, sem um
+
+botão enviar, valida, manda mensagem, aquela coisa toda.
+
+Se tiver escrito lá também, olha, tem que ter um
+
+caption pra contraproot Force, tem que criptografar essas informações com
+
+o algoritmo X pra poder proteger o dado em trânsito
+
+e o dado em descanso lá no banco de dados.
+
+Tem que ter proteção contra engenharia social, então a
+
+mensagem de usuário sem vale tem genérica, sei lá,
+
+coisas do tipo, ou seja, o meu requisito funcional
+
+agora ele já contempla aspectos de segurança que uma
+
+vez, entrou na fila de backlog ali, entrou na
+
+Lispprint para ser produzido, já vai ser produzido o
+
+requisito como um todo.
+
+Tanto bem que isso funciona já com os aspectos
+
+de segurança então aí sim o software nasce seguro
+
+aí eu vou rodar um sashion das aquelas coisas
+
+pra buscar as vezes na SQL Injection, pra buscar
+
+coisinhas ali que coisa tá acontecendo, não tava lidando
+
+parando, não tá tratando uma informação, coisas do tipo.
+
+Também dá pra ser evitado com muito treinamento,
+
+aquela coisa toda do desenvolvedor já sabe o
+
+que fazer pra ele evitar fazer dessa forma.
+
+Ou seja, gente, Veja que o Left nesse
+
+contexto como um todo é o requisito porque
+
+ele é a matériaprima do software.
+
+Se a gente parar pra pensar com a lista de
+
+requisitos a gente consegue fazer trat modo ali já, né?
+
+Seja num nível de brainstorming por exemplo, né?
+
+Ou ainda se você já tem mais ou
+
+menos arquitetura da aplicação definida, uma fase de
+
+design por exemplo, você já consegue fazer uma
+
+modelagem ameaça propriamente dita, né?
+
+Você já tem arquitetura, só o que vai acontecer.
+
+E a própria modelagem ameaça, os outputs dela
+
+são as ameaças, consequentemente você sabe como a
+
+proteção daquelas, aliás, consequentemente já tem uma lista
+
+de requisitos de segurança para serem implementadas.
+
+E aí se requisito especificamente
+
+de segurança, não funcionais.
+
+Então veja, lá no começo do projeto, quando
+
+você pensa naquele projeto que você precisa criar,
+
+naquele software, aquele produto, você tem essas discussões
+
+de requisitos que vão acontecer, de como é
+
+arquitetura mais ou menos, o mesmo brainstorming, a
+
+mesma discussão de segurança deve ser feita pra
+
+que já extraia dali requisito de segurança, proteções,
+
+mitigações, soluções, ferramentas, práticas, processos que devem ser
+
+implementadas no produto de para que lá no
+
+final esse produtor nasceu preocupado com segurança nasceu
+
+fazendo scan nasceu pensando em em segurança vai
+
+design, private design, etc, etc, etc.
+
+Então, veja, lá na esquerda, no processo, deu para pensar sobre
+
+segurança só não pensar mesmo no brainstorm né depois quando eu
+
+comecei a fazer código eu comecei a testar com as ferramentas
+
+tudo mais que a gente falou e aí eu nem tô
+
+comentando aqui por exemplo ferramentas do tipo de prevenção então cara
+
+eu não posso ter sei lá definir que o que o
+
+pré misturar os assuntos, né?
+
+Me misturar os assuntos aqui, mas vamos lá,
+
+antes e antes de falar sobre isso.
+
+Então eu cheguei lá na entrega do meu processo, do meu
+
+produto, por exemplo, eu posso fazer um paintest e aí um
+
+paintest com corpo reduzido dentro do meu STE, dentro do meu
+
+ciclo de desenvolvimento, ou seja, eu não vou pagar um PNTAS
+
+de 80 horas pra ver a aplicação inteira.
+
+Não, se eu sei que eu tô numa sprint que
+
+eu tô entregando x e y funcionalidades, eu vou testar
+
+x e y funcionalidades num nível de pentesh, Então trazer
+
+um red team, trazer um pentester para dentro da squad,
+
+para dentro do time, para fazer isso de uma forma
+
+muito mais ágil, tempo reduzido, escopo reduzido, é possível.
+
+Precisa ser feito, precisa começar a fazer.
+
+Por que que não fazem?
+
+Porque dá muito trabalho, é caro esse
+
+nacionais, os scoops ficavam sendo maiores, enfim,
+
+mas é possível de fazer.
+
+Veja que durante todos os ciclos de desenvolvimento
+
+software, e aí eu digo durante todo o
+
+ciclo mesmo, lá quando vês ideias de requisito
+
+até manter o software em produção, gente, tem
+
+várias coisas e seguranças que devem ser feitas.
+
+E podem ser feitas e são possíveis de ser feitas.
+
+E aí a gente entra esse conceito de shift
+
+Everywhere, porque Everywhere em todo lugar desse processo, tem
+
+alguma coisa que você deve fazer de segurança tá?
+
+Constante, não é um checkzinho tá?
+
+Finalize requisitos de segurança,
+
+fiz Estruti modo difícil.
+
+E você nunca mais olha, nunca mais
+
+atualiza, não revisa, não existe isso. É constante.
+
+Apesar de umas coisas são menos frequentes,
+
+outras mais frequentes, mas todo o trabalho
+
+de JavaScript é constante neste contexto.
+
+E aí, pegando esse outro ponto
+
+que eu queria comentar agora? Segurança. Tecnologia.
+
+Dev Secops.
+
+Se você parar para pensar, dá para a gente fazer
+
+toda essa questão né de requisitos de pensar em tudo
+
+isso é como um baseline da própria empresa então por
+
+exemplo a empresa pode ter uma lista de requisitos baseline
+
+mesmo que ela fala assim ó todo produto que eu
+
+desenvolvo tem que ter isso por exemplo uma lista de
+
+requisitos assim olha todo produto que eu desenvolvo não pode
+
+ter senha ou credenciais chumbada no código todo produto que
+
+eu desenvolvo as senhas tem que ter em 12 caracteres
+
+todo produto que eu entrego o software tem que ter
+
+é 0 vulnerabilidades críticas ou altas, por exemplo, com base
+
+na ferramenta XY que a gente usa aqui.
+
+Então você vai criar uma lista de requisitos corporativos,
+
+de segurança, que é baseline, ou seja todo mundo
+
+na sua empresa todo produto que foi desenvolvido tem
+
+que ter aquilo tem que seguir aquilo ponto final
+
+isso vira bíblia todo mundo lê e segue, né?
+
+Eu deveria, meu amigo, todo mundo lê e segue.
+
+Deveria do meu ponto de vista cristão, tá?
+
+Daqui a pouco eu vou tomar hater aí, porque que
+
+é ateu pra falar que não tem que ler nada.
+
+Do meu ponto de vista.
+
+Então a nossa bíblia de aprendizagem que
+
+existe é TCPIZLINE D requisito de segurança.
+
+Que empresa como um todo sabe daquilo, os desenvolvedores
+
+sabem daquilo, os POs sabem daquilo, os usuários, todo
+
+mundo sabe aqui dentro do contexto da empresa.
+
+E aí vai implementar qualquer produto seguindo aquilo
+
+aquela Bíblia então eu não vou por ser
+
+enxurbado se você vai ser enxurbado tem que
+
+usar um volt para guardar isso.
+
+Eu não vou ter senhas com menos de 12 caracteres,
+
+todos os meus sistemas já vão ser modelados, o ponto
+
+de vista de arquitetura, inclusive, para ter 12 caracteres.
+
+Ou seja, esse baseline gente, ele é ainda
+
+mais leve, porque ele define um guide de
+
+como as coisas são construídas dentro daquela empresa.
+
+Percebe?
+
+Logo, esse guide, veja só, ele tende a ser aquilo
+
+que a gente chama de segurança by the flow porque
+
+se a empresa vai nascer com tudo isso a tendência
+
+dela ter vulnerabilidade lá na frente é menor porque todo
+
+mundo sabe como validar o input de entrada, todo mundo
+
+sabe que a senha tem que ter 12 caracteres, todo
+
+mundo sabe blá blá blá.
+
+Então cada um desses itens aí você pode se basear
+
+no ASP SBS, no ISO27200, no EC62443, no PCI, o
+
+que não falta é fonte de requisito, tá?
+
+E não falta isso.
+
+E aí ele vira o seu bem slime para
+
+que todos os projetos de desenvolvido seguindo aquilo.
+
+Ou seja, você garante um nível mais alto de segurança.
+
+Antes você não pensava em nada, agora você vai pensar
+
+opa, tem que ter esse requisito aqui no mínimo para
+
+qualquer produto, a própria planning do produto, o próprio estratégia
+
+né de lançamento já contei para tudo isso cara isso
+
+acaba sendo fantástico tão absurdamente que eu diria que vou
+
+dar um tiro no meu próprio pé agora.
+
+Eu diria que você colocar Sasha, investir lá
+
+em Sasha, achar problema, acaba sendo secundário.
+
+Por quê?
+
+Porque você sabe como você cria as coisas, você
+
+sabe, você garante que a pessoa segue aquele processo,
+
+daquela forma todo mundo foi treinado pra aqui.
+
+Então você sabe que o seu código é mais protegido.
+
+Agora, se você não tem nada disso,
+
+aí você começa lá fazendo o saque.
+
+Fazendo pentesh, achando um monte de
+
+problema pra fechar os buracos, né?
+
+E não tá tão em risco.
+
+E aí você começa a voltar, né?
+
+Aí você tá no Shift, aí você volta, começa
+
+a ser implementado o começo, com a frente.
+
+Então eu sempre li no meu livro, inclusive, lá
+
+no explicando porque a gente tá aqui, né?
+
+Castevela.com.brlivro, que tá custando uma baratinha tá baratinho
+
+é lá eu falo sobre você não precisa
+
+de tilt light eu explico um pouco disso
+
+que a gente tá falando né?
+
+Já foi difícil eu ter precisando sobre isso, mas só
+
+pra dar mais um adendo aí, fazer mais uma propaganda.
+
+Então o Shift Everywhere, gente, é essa capacidade de você
+
+colocar segurança todo o seu ciclo de desenvolvimento saudável e
+
+quando ele fala do ciclo de desenvolvimento saudável ele por
+
+si só já tem várias etapas tá?
+
+E eu vejo muita pessoa confundindo isso.
+
+Ah, mas o jeito que tá aqui parece
+
+o auto default, não é a dial, então. Qual a diferença?
+
+Nesse contexto, a diferença é 0.
+
+Ah, é a Gile, legal!
+
+Você tem um backlog, ele vira Sprint backlog e desses
+
+backlog é os itens que você vai fazer naquele Sprint.
+
+Beleza?
+
+Esses itens foram definidos antes?
+
+Essa definição antes, é isso que a
+
+gente falou agora nos requisitos de segurança.
+
+Esses requisitos você vai fazer
+
+podem ser itens de segurança?
+
+É simples, não é na mesma?
+
+O que eu grande vejo, não é?
+
+O que eu tenho mais visto é muitas
+
+pessoas, não vou falar especificamente de clientes ou
+
+parceiros, mas muitas pessoas Usando de muleta.
+
+Ah, mas isso não tá no formato Agile.
+
+Ah, mas isso a gente usa o Waterfoc ainda.
+
+Ah, mas isso Cara, botar pra fazer scan
+
+independe de qualquer coisa que você estava usando
+
+uma IDE e fazendo código, tá? Faz isso aqui.
+
+Você tem uma lista de requisitos, escrita no papel
+
+de pão ou usando a melhor modelagem ML possível,
+
+você vai ler e transformar em código, não tem?
+
+Então é requisito de qualquer jeito.
+
+Faz um grande storm e gera
+
+um requisito de funil de segurança.
+
+Não muda, gente.
+
+O pessoal usa de muleta.
+
+Ah, mas aqui a gente escreve num papel de
+
+pão e aí se trouxe num diagrama ML. E aí?
+
+Ah, mas aqui a gente usa o
+
+ML, você usa um papel de pão.
+
+E você vai deixar de fazer as segundas partes disso?
+
+Então eu vejo muita muletinha, as pessoas usam muleta, se
+
+apoiando em coisas pra não fazer uma parada nova.
+
+Pra não fazer algo que é crítico.
+
+Segurança é crítico.
+
+Segurança não é mais brincadeira.
+
+O Shift Wear, durante o ciclo de desenvolvimento, ter
+
+todas essas questões de segurança, não é para brincar,
+
+Não é pra Ah, eu quero, eu gosto.
+
+Eu sou de segurança, eu preciso vender. Não! Não!
+
+É porque simplesmente pelo fato de que nossa vida,
+
+nós como sociedade, nós como como sociedade mesmo né?
+
+Pensa na realidade da sociedade.
+
+O semáforo funciona né?
+
+No trânsito, você vai pra escola, você vai no mercado
+
+e compra, né, um alface que veio lá do produtor.
+
+Percebe toda essa cadeia, hein? Todo.
+
+O software softwares controlam tudo isso, da produção lá
+
+do milho, de quando vai chover, na previsão do
+
+tempo, de achar o submarino perdido, de fazer um
+
+software, de fazer um pagamento, de você receber a
+
+notificação no seu WhatsApp, olha, chegou uma mensagem nova,
+
+gente, software controla, a nossa vida.
+
+É só por isso que é
+
+importante fazer a segurança do software. Só por isso.
+
+Nada além disso só por isso pensa só nisso
+
+a caça mas eu trabalho numa empresa de ecommerce
+
+que vende doce vende, sei lá, docinho mesmo, balão
+
+de criança aqui, ou balão de criança não, né?
+
+Qualquer um pode comer os docinhos, enfim.
+
+Então, tô dando um exemplo o negro
+
+não pensa que doce é doce, né? Droga.
+
+Não, não, não, doce mesmo.
+
+Eu trabalho no ecommerce que eu acho que vende
+
+doce, então se esse ecommerce for hackeado e ficar
+
+fora do ar, impacta na sociedade é 0?
+
+Não, não é 0.
+
+0 dono dessa empresa vai tomar a porrada, o
+
+impacto financeiro, dependendo do impacto, os funcionários, dependendo do
+
+impacto, as famílias e os funcionários, cara perde o
+
+emprego, a ação na empresa despenca, a empresa fica
+
+parada sem operar, tem que demitir.
+
+Gente, não é brincadeira.
+
+Ah Cá, senhor, eu trabalho no ecommerce
+
+aqui que na verdade vende, vende nada,
+
+vende chinelo, as pessoas vão ficar descalças? Não.
+
+É um impacto financeiro que tem
+
+na vida das pessoas, gente.
+
+Além do impacto financeiro, do próprio empresário, dos
+
+funcionários, dos parceiros trabalha com aquela empresa, então
+
+ele vende chinelo porque ele compra borracha de
+
+alguém, porque ele compra estampa do outro, então
+
+olha a cadeia da Pará.
+
+Olha onde vai o caos se alguma coisa der
+
+errado né do ponto de vista de segurança na
+
+sociedade isso eu tô dando exemplos esdrúxulos.
+
+Agora imagine o seguinte, para quem está no
+
+YouTube aí, eu estou vendo o trabalho dessa
+
+empresa aqui, a bebê lidar com infraestrutura crítica,
+
+ou seja, softwares que controlam usinas nucleares, usinas
+
+de energia, controle de gestação de água, energia
+
+elétrica, automação industrial das empresas, robótica.
+
+É só a coisa que não pode dar errado.
+
+É, e a gente teve, tanto o
+
+público genético, a minha incidência recente, tá?
+
+Enfim, na empresa interna ela não foi
+
+mais cliente, mas você percebe que nesse
+
+contexto é ainda pior na segurança.
+
+Pior na segurança do ponto de vista assim, né?
+
+Ainda mais crítica, ainda mais pesado.
+
+Eu tenho ainda mais uma lista de
+
+200 requisitos pra fazer pra qualquer software
+
+de novo, requisitos chatos, né?
+
+Não é só cento e que doze caracteres, não.
+
+O algoritmo de criptografia tem que ser assim implementado
+
+dessa forma, tem que validar assim, assim é assado.
+
+Então gente, Quando eu falo de que a crescidade de
+
+segurança, daí deve ser cópia de cash papel, deve ser
+
+cópia de cash que levar a cultura pra vocês também
+
+né a cultura no sentido de trocar a cultura né
+
+quando eu falo pra vocês aqui que eu cansei de
+
+falar já que segurança é crítica não é só nesse
+
+contexto ah eu não trabalho no hospital ah eu não
+
+trabalho com sistema crítico né que controla a energia de
+
+uma cidade então não precisa se preocupar Ah, no trabalho
+
+do banco, de banco é dinheiro e tal. Não.
+
+Gente, qualquer empresa privada ou pública, onde
+
+ou não, que tem um ciberataque, que
+
+tem um impacto na sociedade.
+
+Direto ou indireto. Direto.
+
+A empresa, sei lá, foi hackeada o
+
+sistema de semáforos de São Paulo. Parou semáforos.
+
+Cara, o impacto direto na sociedade.
+
+Vai ter acidente, vai atrasar a vida
+
+da galera, pessoas vão perder compromissos importantíssimos.
+
+Imagina a cadeia do multiverso.
+
+Ou, cara, a ONG aqui que cuida dos passarinhos, foi
+
+hackeada, vazou a base de dados, tão parados, o cara
+
+não consegue receber doação, ou perder o dinheiro.
+
+Passarinhos vão morrer.
+
+Você pode pensar que pra vocês não tem papo nenhum.
+
+Mas socialmente tem.
+
+Ah, o Woocommerce X dá o exemplo clássico aí, né?
+
+Lojas Renner, por lá, X tem que parar.
+
+Cara, as pessoas pararam de comprar roupa.
+
+Ai, que impacto.
+
+Você pode ter um estoque de
+
+roupa que não precisou comprar.
+
+Mas os funcionários de lá.
+
+E essas da empresa e as pessoas
+
+que viraram noites trabalhando, etc, etc, etc.
+
+Então, gente, quando eu falo de segurança
+
+crítica, do ponto de vista de software,
+
+e só que controla a sociedade.
+
+É simples assim.
+
+Seja o carro automático que você dirige, é o
+
+seu carro ultra tecnológico, seja, o seu carro só
+
+tem gestão eletrônica, tem software lá, controle de gestão
+
+eletrônica que pode parar, que pode dar um problema,
+
+que pode ser atacado remotamente, inclusive, já tem pesquisa
+
+sobre Então tira esse conceito da sua cabeça de
+
+que você não trabalha em infraestrutura crítica.
+
+Shift Laft, Shift Laft, Shift
+
+Wear, segurança você para todos. Tá ouvindo?
+
+Levy C Cops.
+
+É, desenvolvimento seguro, gente, é pra todo mundo.
+
+Todo mundo que eu digo, toda empresa que desenvolve software
+
+ou consome software, tem que validar se software está bem
+
+feito, é para todo mundo, não é opcional, o que
+
+você vai fazer aí assim o que vai variar é
+
+tô trabalhando com uma infraestrutura crítica é controle de água
+
+controle de temperatura de molsina Aí você tem um nível
+
+de segurança mais alto.
+
+Ah, eu tô lidando com um ecommerce que vende banana.
+
+Nem precisa se cadastrar, comprar anônima.
+
+Cartão, nível de segurança é mais baixo, mas o
+
+cara faz pagamento, passa cartão de crédito, não quer
+
+fraude, então todo nível de segurança médio.
+
+Ah, mas eu trabalho numa empresa aqui
+
+que é um sistema Back Office interno,
+
+então a segurança não vai ser média.
+
+Não quer dizer que não vai ter
+
+segurança, não quer dizer que você não
+
+vai se preocupar com desenvolvimento de segurança.
+
+Mas o nível que vai te ajudar a definir esse
+
+é o seu próprio aqui da felicidade do business, né?
+
+Algo que te ajuda muito com relação a isso,
+
+se você pegar o ASPPS, por exemplo, né?
+
+O aplicativo um standard ele tem lá level 1 level
+
+2 level 3 level 1 é o mínimo de segurança
+
+level 2 a maioria das aplicações com informação sensível level
+
+3 informações aplicações críticas e informações médicas e tal.
+
+Então veja, você tem os níveis de
+
+segurança para aquilo que você quer proteger.
+
+Que a segurança nada mais é gente proteger um
+
+ativo tipo assim a sua ativa aqui no caso
+
+não só pelos dados né API que controla algum
+
+dado Mas segurança é um proteger o ativo.
+
+Qual segurança você tem na sua casa
+
+hoje pra proteger a sua casa?
+
+E os bens que estão lá dentro?
+
+Circulet, fica alarme, câmera, monitoramento, cachorro, portão
+
+automático ou sol, um muro com o
+
+carro de vidro em cima. Lembra, né?
+
+Quer dar as mais e você vai lembrar que eu só
+
+fazia o muro, quebrava os carros de vidro, botava lá em
+
+cima, eu lembro não pular o muro e tal.
+
+Então é um nível de segurança.
+
+Mas qual o ativo que tá lá dentro?
+
+Cara, se você ganha o anagaceno, o dinheiro tá lá
+
+dentro, aquele saco de vida que não vai parar ninguém.
+
+O cara dá um jeito de
+
+pular, desarranhar, mas ele vai pular.
+
+Agora, centro elétrico, alarme, câmera.
+
+Então essas coisas vão inibir uma ação
+
+ou até parar uma ação de invasão.
+
+Na sua casa dependendo do contexto percebe então gente qual
+
+é o livro de segurança que você está disposto a
+
+ter e o episódio de hoje que eu quis fazer
+
+é falar do sheet everywhere especificamente é porque pra quebrar
+
+esse paradigma de segurança é uma etapa ou é uma
+
+ou duas ferramentas não é gente não é tem apresentação
+
+minha aí tem slide lá com 12 etapas diferentes, 16
+
+etapas diferentes, ou ferramentas diferentes, ou práticas diferentes no ciclo
+
+de desenvolvimento.
+
+Para prevenir problemas, pra achar
+
+problemas, pra monitorar ambientes.
+
+Isso sem falar de gestão de vulnerabilidades, que é um
+
+processo que noventa por cento das empresas que eu vi
+
+não fazem eu fazer errado né você tá achando um
+
+monte de problema aí você pega os problemas classifica eles
+
+do ponto de vista de impacto de business, aí você
+
+me interessa eles para as equipes corretas, aí você valida
+
+se foram testados, simples assim.
+
+Lá no Jira, lá no Excel, não importa, mas faz isso.
+
+Então o processo simples, tipo, veja pouca gente fazer.
+
+Mas que traz um benefício muito grande no dia a dia.
+
+E aí é um trabalho um pouco mais
+
+de segurança, fazer a gestão das Mas a
+
+correção das vulnerabilidades é TI, gente.
+
+O desenvolvimento, a infraestrutura, a devops, a TI normalmente é TI
+
+e o pessoal às vezes negligencia pessoal às vezes não liga
+
+e quando eu digo pessoal eu digo empresas ou seja todo
+
+mundo que tá lá dentro, ou todo mundo, ou se levam,
+
+ou só a parte operacional, ah os devs aqui não gostam,
+
+ah cultura que não é essa, ah não é, até tomar
+
+o resto da cabeça e parar por um mês.
+
+Aí passa a ser, né?
+
+Então gente, é assim.
+
+Vamos lá, caminhando pro final aqui.
+
+Shift Level Air, Shift Level não importa, é a criticidade,
+
+aquela coisa de você já sabe, eu já estou cansado
+
+de falar aqui no podcast e nem responder.
+
+Vocês já sabem disso.
+
+Mas o fato é, segurança não é opcional.
+
+Tem que acabar com isso.
+
+Ah, é esse ponto que eu queria falar agora é o ponto
+
+da cultura né muita empresa eu vejo isso ah mas os devs
+
+aqui não gostam ah mas os PO's daqui não querem.
+
+Ah, mas na verdade nossos usuários
+
+nem se preocupam com isso.
+
+Segurança não é opcional, nem negociável.
+
+Nível 1, 2, 3, 5, não importa o nível.
+
+Vai ter, quem define isso?
+
+O dono da empresa, você, CEO, CTO, CIO, CFO,
+
+se leva a caralha que for conselhos acionistas não
+
+importa se estão ouvindo isso aqui de alguma forma
+
+não estão né vocês não estão barramos e tal
+
+Mas galera, pra quem tá ouvindo essa mensagem aqui?
+
+Segurança não é opcional, não é negociante, tem que
+
+ter uma, porque o impacto que vai ter no
+
+seu business, pra você ele é grande, e às
+
+vezes não sobra você para a sociedade.
+
+Então acaba com essa porra,
+
+com essa frescura agora, né?
+
+Aí os devs daqui não gostam, aí os pios da
+
+não trabalha dessa forma vai trabalhar vai gostar vai ter
+
+porque a empresa definiu assim porque o dono mandou sabe
+
+a ninguém a gente fala sobre isso, né?
+
+O dono mandou, o dono impôs.
+
+Ah, porque as pessoas não vão querer trabalhar.
+
+Vou trabalhar outro lugar. Botas?
+
+Mano, Fotas?
+
+É a mesma história, vamos lá!
+
+Analogia que precisa entender um pouquinho.
+
+Quando você, indivíduo, Cara, eu vou fumar, eu vou
+
+usar droga, eu não vou fazer exercício, eu não
+
+vou me alimentar bem, fodase, eu vou comer coxinha,
+
+kibe, salsicha, só bosta, fodase, eu vou ter câncer.
+
+E aí um dia você vai estar na dor.
+
+Aí você vai no médico, tá doendo, né?
+
+Cara, vamos fazer os exames aqui.
+
+Faz lá o exame faz lá o scan olha aqui que
+
+analogia legal faz lá o scan e fala cara você tá
+
+com um tumor sei lá qualquer problema no estômago blablablá, enfim.
+
+Você precisa fazer uma cirurgia
+
+ou tomar alguns remédios, né?
+
+Então achou um problema ter o tratamento.
+
+Você como indivíduo, tem a liberdade de falar
+
+cara fodase esse tratamento eu vou continuar bebendo
+
+comendo fumando fodase não quero fazer.
+
+E nem vou mais no médico.
+
+A menos se estiver doendo, você toma
+
+remédio pra dor e olhe lá.
+
+Mas se você ficar ali no médico sempre, por exemplo, Cara,
+
+você tá de brincar, eu não vou te atender mais.
+
+É tipo, você tá com problema, a gente
+
+passa o tratamento, você não quer fazer? Morra.
+
+Não vai falar com essas palavras,
+
+mas em linhas gerais é isso.
+
+Você, como indivíduo, você tem essa opção.
+
+Eu não quero me tratar, tô com
+
+problema, eu não quero me tratar.
+
+Aliás, você tem a opção de nem ir buscar o problema.
+
+Tô com dor.
+
+Fica com dor.
+
+Não vai fazer exame, não vai no médico.
+
+Você deixa quieto.
+
+Você segue a vida aí. Divide o que você quer. Beleza?
+
+Então, como indivíduo, você tem essa opção.
+
+Você como um funcionário, presta atenção no
+
+que eu to falando, você como funcionário
+
+dev, IPO, diretor, gerente, estagiário não importa.
+
+Você é obrigado a seguir as políticas da empresa.
+
+Obrigado. Isso é obrigado.
+
+Política da empresa.
+
+Pela lei, né?
+
+Se ela inteira, as políticas da empresa
+
+não precisa ser seguidas, normas, etc.
+
+Então quando vem essas historinhas, o Dev
+
+daqui não gosta de fazer scanfoge.
+
+Ai, o P.O.
+
+Daqui não gosta de fazer gestão no Jira.
+
+Ou da C empresas bota isso na tua política obriga o
+
+cara a ler obriga porque é natural né entrou na empresa
+
+ler Ah, não leu, lê depois e vai fazer.
+
+Não interessa se você gosta, não gosta,
+
+ama, não ama, é empoderado, não empoderado. Fodase.
+
+A verdade é que não é mais opcional segurança.
+
+As empresas hoje estão tomando porrada financeira.
+
+A sociedade hoje toma porrada de ciberataque, de
+
+tudo que é lado a todo momento, simplesmente
+
+às vezes pelo fato da negligência.
+
+Pelo fato do Dev não gostar de fazer scrum ou o P.O.
+
+Não querer colocar tá?
+
+Eu tô colocando essa galera, tá gente?
+
+Na cúpula de vocês não, tá?
+
+Porque elas são os mais envolvidos, mas
+
+pensa na empresa como um todo.
+
+Ah, porque o CEO da nossa empresa que
+
+falou que não tá nem aí com segurança.
+
+Então a gente não faz mesmo.
+
+Também tem esse contexto.
+
+Aqui a gente não se preocupa
+
+porque é a cultura da empresa.
+
+Ok, vocês optaram por isso.
+
+Mas a sua empresa impacta na sociedade, impacta
+
+na vida de outras pessoas, inclusive na sua
+
+como funcionário, você está no lugar errado.
+
+Porque o Dick se tornou uma invasão.
+
+Vazar os seus dados como pessoa, como funcionário,
+
+não sou dado como indivíduo, que alvo de
+
+fraude depois, né, de documento falso e tudo
+
+mais, aí você vai correr atrás.
+
+Aí, ah, cara, faz um veículo que você trabalhava lá,
+
+mas se entregava o software do mesmo jeito que não
+
+fazia segurança você percebe como a água bate na bunda
+
+né no ciclo então gente não tô nem discutindo aqui
+
+se coisas do dia a dia operacionalmente né ah é
+
+quebra bio dia não quebra bio não tô discutindo isso
+
+tem que ter segurança.
+
+Não é opcional, mas não é mais.
+
+Tem que ter Caso a empresa
+
+não tenha nada como eu começo.
+
+Open source ler as coisas do ASP.
+
+Caso a gente tenha algum budget.
+
+Open source o ASP busca algumas ferramentas Enterprise.
+
+Cássio, sou rico e a empresa
+
+não faz nada, eu preciso fazer.
+
+Contrato é uma consultoria especializada
+
+pra fazer isso pra você.
+
+Começa a contratar gente, definir processo.
+
+Que não falta parceiro.
+
+Fala dos nossos aqui, negócios aqui, hoje é nova 8,
+
+troca ideia com a gente, a gente ajuda, mas que
+
+não falta parceira no mercado, empresa que faz isso.
+
+Mas gente não é opcional segurança mais resolve façam
+
+comecem a fazer se já está fazendo melhora já
+
+tem ferramenta aumenta o escopo já tá fazendo melhor
+
+o processo contrata mais gente tem que ter Beleza?
+
+Então a minha indignação, certo?
+
+É essa, né?
+
+Shift Everywhere, porque segurança não é mais opcional,
+
+e eu diria Diria não, mas eu sempre
+
+digo que segurança é responsabilidade de todos.
+
+Porque quando dá uma merda, quando tem
+
+um incidente, aí chama o time de
+
+segurança, chama os Avengers, nós somos Vingadores.
+
+É o time de segurança tem que atuar.
+
+Aí o time de segurança tem que ficar 24 por
+
+7, achando log, o pessoal de forense, resposta excedente, aí
+
+não tem log, o cara da aplicação, depois o log,
+
+aí desligar os logs para economizar espaço, aí o caos,
+
+como tudo que vocês já sabem.
+
+Cara, por que vocês não param de fazer? Não faz direito.
+
+Aí agora faz direito como indivíduo,
+
+às vezes você sabe disso, cara?
+
+Você deve, você DevOps, CDB.
+
+Você sabe dos problemas que podem dizer. Faz direito!
+
+Às vezes é um dia a mais de trampo, às vezes é
+
+uma hora a mais, ele que você vai colocar uma feature outra.
+
+Faz, cara!
+
+Para frescura, para, eu fui deve por 15 anos, eu sei
+
+a dificuldade que é ou não fazer uma feature nova.
+
+3, 4 frameworks diferentes, não é,
+
+esse parque que a pessoa fala.
+
+No fim das contas mesmo que ninguém gosta de falar, né?
+
+É tudo um crude.
+
+No fim, no fim, é tudo um crude.
+
+A gente é arquiteto de crude.
+
+A menos que você trabalhe num contexto
+
+mais específico, né, de softwares mais específicos,
+
+mas é tudo um crude.
+
+Nem cru de é, né?
+
+A ser tudo cru.
+
+Porque o d de delete nem tem,
+
+é só a deleção lógica, né?
+
+Então é só cru.
+
+É só create, replace, update, é create, the replace.
+
+Repets not create, retree e update.
+
+Você só atualiza o dado, é nem deleta,
+
+nem cru, você faz, você faz só cru.
+
+Beleza, gente? Então vamos lá.
+
+Pra acabar o nosso episódio de hoje.
+
+Eu sou o Carlos Pereira, episódio de
+
+solo, episódio que eu tô puto.
+
+Eu gosto de passar essa energia,
+
+porque senão as coisas não andam.
+
+Já não andam, né?
+
+Então, você fica passando lá na cabecinha.
+
+Olha, vamos lá. Não, não. Não é.
+
+Por isso que muitas vezes eu vou falar um
+
+negócio aqui que é triste fazer a realidade.
+
+Esse chefe meu me ensinou isso.
+
+Nada como um bom incidente pra motivar segurança.
+
+Por isso que muitas vezes é
+
+bom, bem entre aspas, gente.
+
+É bom quando acontece o incidente.
+
+É bom quando alguém no mercado toma um hack quando a
+
+gente não é bom né mas é bom quando alguém toma
+
+um hack olha você viu cara o ano ficou parado um
+
+mês Você viu que vazou dados lá do governo? Você viu?
+
+Aí é legal a água, vai na bosta, ninguém faz nada, né?
+
+O que você faz?
+
+Ah, então o governo não se preocupa com o seu grande.
+
+E a sua empresa se preocupa?
+
+Eu sou software, tem scan, se eu
+
+fizer um scan em sash, 0 vulnerabilidades.
+
+Se eu fizer um paintestia então, Passou, tá tranquilo.
+
+Eu duvido.
+
+Eu dou o meu salário se tiver seguro 100%.
+
+Dou, de verdade.
+
+Mentira, não dou não, preciso me falar, gente.
+
+Vamos lá, acabou o episódio.
+
+Eu agradeço a todos vocês que eu vi até
+
+o final, ou metade, ou pegou da metade pra
+
+frente, não importa, dá certo, pode gastar aqui pra
+
+levar essas informações pra vocês, tá?
+
+Com bastante experiência, risco e rica experiência, né?
+
+E sempre ter convidado novo.
+
+Teremos dois convidados internacionais
+
+nos próximos episódios aí.
+
+Quero fazer os próximos dois já na sequência.
+
+Mas ainda não é certeza, um deles já participou
+
+aqui com a gente inclusive, uma delas é nova,
+
+uma nova convidada que vai falar com a gente
+
+sobre carreira e outras coisas que a gente não
+
+abordou aqui ainda, nesse contexto. E é isso.
+
+Deve ser por aqui.
+
+A gente se vê na semana que vem.
+
+Eu sou o Cassio Pereira.
+
+Muito obrigado até a próxima.
+
