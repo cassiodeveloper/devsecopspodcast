@@ -1,0 +1,564 @@
+00:18.89
+cassiodeveloper
+Hello everyone very welcome to 1 1 more episode of the seops podcast today I'm alone with a guest of course not totally alone, but it's good that Marcus Houdrique and Gabriela they are not here because they are bother. You know that we don't like them. So it's still at least today we're gonna have a very good guest. Very nice guest by the way that I need to tell a bit a small story about her in a moment before she introduced herself just to make some emotions and to bring some emotions to the episode. But before that I need to talk about our supporters which is check magazine ove that they specialized this software security and the links and everything that you need from them. It's on the bottom in the description of the episode on the Youtube also on our website dev'sakupspodcast.conductbr, do not forget about the go security that they are specialized in application security if you want to develop so safe code or secure code. You need to talk with gold security also appsac jobs. Yeah, you're going to find your specialized application security jobs also as a company you can offer your jobs. There for our very good price promotion price because I'm your friend. Okay, okay, this give give this sad I need to before introduce to our guest today which is a very special person because she don't know about this but I am kind of ah very how to say not emotional, but.
+
+01:46.80
+cassiodeveloper
+I like to connect with people and this kind of thing and she was the recruiter of my first opportunity outside Brazil. So for the whole audience that are there. They are thinking about moving and ah work abroad and so on there will be some experiences that it can be very. Tough but can be very easy as well. But this guest which is catalina I will introduce her in a moment. She was the recruiter of my first opportunity. So I remember the third interview that we have second the third interview that she called me to say that I was a approved that she didn't see on the camera but I was like. Yes, I was celebrating that everything went to l and it's this kind of person that we're go to how to save save in our hearts for the whole life and these parts of our lives that we always. We remember. So it's important to have this. You know this good career. Be an nice person etc et cetera because this kind of things stick to us for the whole life and have a professional life either our personal life but okay, no more stories catalina thank you for your time. Thank you for joining us I think it's. I mean know very hard times with the agenda and everything especially because we have almost summertime so we we should be on the pool and all these kind of things but we are here recording so again. Thank you for our time please introduce yourself to the audience.
+
+03:06.62
+Karolina
+Hello hello everyone this is so nice to be here and thank you so much casia for introduction and also for the invitation here. So my name is carrodina sohaj I am senior talent partner at abbeam I work in the. Technology center which means that I am specialized in it and engineering recruitment I also look for the researchers to our center. So the technical world in general but I must say that previously I also worked for different. Co of recruitments. So for example, financial banking areaa. Also so space to equipment with any other connected to the once again or this introduction and yeah, it's have a nice step today hopeful 3.
+
+03:50.71
+cassiodeveloper
+Awesome! Awesome! Thank you Karalinna again for your time and everything I think it's very how to say very valuable time that we can spend and share some some deeps and knowledge to the to the guys and I would start with the first question that it's kind of always curiosity from my side What do you think or how how you see the most difficult part as working I mean working as it recruiter because we know that they were marketed like they called the bubble. Yeah, a lot of opportunities and not much workers. So. Tell us a bit. How how is how are the challenges. Yeah, if you have any challenge or if everything is easy. Maybe I'm wrong. Maybe maybe it's an easy life. Ah.
+
+04:38.10
+Karolina
+Ah, well sometimes it is but in most of the cases. It's really not. So yeah, there are plenty of challenges of course. Um, but maybe not to make it too long I will say about the most significant ones. So first of all.
+
+04:50.70
+cassiodeveloper
+Um, we need.
+
+04:51.26
+Karolina
+What you said about this job market and this bubble of course it is a huge dynamics on this IT and engineering Market. There are plenty of changes all the time very rapid changes and we as recruiters believe me or not but we also need to adjust to the changes. So. It's not only the candidates. But also the recruiters who need to adjust to that and also the competition between the companies. It is huge So It means that the market is very aggressive. It leads us to the situation when the recruiter job is quite stressful, especially in this technical area. I Mean that have deadlines. Also you know the very high requirements when it comes to skills presented by the candidates. Also the budget Of course we cannot omit this topic So There are plenty of things related to the job market itself and.
+
+05:36.68
+cassiodeveloper
+Um, say here.
+
+05:42.40
+Karolina
+Also the gap between the drop ads So the available jobs on the market and the skilled qualified people. That's huge story if I can say so then Also another point that I would mention is technical Knowledge. So if you want to be a good recruiter and a good. Point of contact for the candidate but also for the business for managers for the technical teams. You need to have some basic technical technical knowledge. What I mean of course will not be the technical experts. But at least we should Know. What is the technology that the candidate will Use. What is the project about where the applications will be used how they will be, working and where this is all the basic things. But I know that in many cases. It doesn't work like it should so definitely before we get into this technical Word. We should read a lot. About what is going on in it industry or cybersect Etc. It is very important to to also know the wording that candidates are talking to us so sometimes guys you use So many words that are kind of ah backmagic to us. So.
+
+06:45.21
+cassiodeveloper
+I have.
+
+06:48.70
+Karolina
+After the discussions we need to go to the Google you know and try to try to Google all those words just to be ah, you know the the partner in the conversation. That's very important and then.
+
+06:51.80
+cassiodeveloper
+Who.
+
+07:00.41
+Karolina
+Of course I need to mention the reluctance and unwillingness from the it guys sides when it comes to conversations with recruiters. So it is quite hard to really get you in the process we need to be quite creative. How to do that and and how to attract you. To join the conversations and the recruitment processes because we know that you have plenty of offers available all the time in most of the cases so we need to be really persistent just to give you an example sometimes per month we need to send around 1000 messages on Linkedin for example to the candidates.
+
+07:34.30
+cassiodeveloper
+Um, Whoa E e.
+
+07:35.98
+Karolina
+And then we get 10 responses for example. So sometimes you need to be really like keep the motivation is quite hard seeing the results and we also have some targets and kpis so we need to somehow find the balance between between all of that and and try to combine it.
+
+07:47.45
+cassiodeveloper
+Are you.
+
+07:55.25
+Karolina
+And well, maybe 1 more thing that I would mention. Also here is diversity aspect quite popular right now and in many companies. It is a very important issue. And we know that this I world is rather male oriented. And to find this you know to to make the diversified hiring here is quite difficult and here I can also share my personal experience with that. So I worked for one of the most popular public sector european bank and my task there was only to deliver. Candidates the female candidates to the record recruitment processes for it and engineering roles very niche ones and also with quite high requirements. It was ah, almost impossible to be very honest like find women with 15 years of experience in very niche scope etc quite difficult thing and also.
+
+08:46.30
+cassiodeveloper
+Um.
+
+08:50.46
+Karolina
+I Know that for many recruiters. This is also the target so here I also want to bring to the discussion this aspect because it might be a challenge for us and I hope that it will be changing like you know, step by step in the market also due to the society changes that we can observe. Fortunately, right now.
+
+09:06.68
+cassiodeveloper
+Good, very good. Very good introduction point I would say and it's for the it guys as I'm as myself. We always think that hr let's sayhr or recruitment job is a kind of easy job because you have you just need to post your opportunities. Like you, you'll send them. Um for the fish and the fishes will come to you. That's all if they don't comes because they have better better fishers on the other side. Yeah, in general is ah how I was thinking in the past. But after meeting you of course other colleagues. Also after having business in Brazil. I know how hard is the recruit process and this last topic that you mentioned about diversity I think it's a very important topic on the other hand as you mentioned this guy it was impossible to hire a like females specifically for it and when it comes to cybersec. It's already hard to find a human. That fits that specific opportunity. You know so sometimes yeah and sometimes there are some campaigns or something like oh you need this specific kind of person like girls Lgp whatever and it's because even more impossible to find because it's already hard to find specialized people as you mentioned like.
+
+10:06.61
+Karolina
+Um I agree.
+
+10:22.11
+cassiodeveloper
+Ah, hard skew soft skews some specific things for for the opportunity itself then when you find but it's a man It can't fit because I need a agar or whatever. So I think this point is important. But. I Think we we are far from the from the perfection on this on this word I would say Yeah.
+
+10:38.91
+Karolina
+Of course and I can also add that again here there is another role of good recruiter so being kind of and also a person who educates. For example, the Hiringk manager or the whole company of course usually we cannot really impact the whole company policy.
+
+10:55.28
+cassiodeveloper
+Um, yeah.
+
+10:56.60
+Karolina
+But this is also the place for us to really pick up and to say about the reality on the job Market. So Sometimes decisive people. Do not have this perspective So here. You need to be also courage to to. Say it slowly. That's sorry guys but this is impossible.
+
+11:16.50
+cassiodeveloper
+It's awesome, but that's that that's a word for this case I would say impossible. That's the point. Okay Karorina now we talk about the challenges is there any funny parts any good parts on this done this job. Ah, what do you say.
+
+11:30.55
+Karolina
+Fortunately, there are urgently yes, yes, of course our job might deal. Also so very interesting and also give us some fun. So for me personally, it is a great space to combine my interests. Ah, because I have always been interested in this technical work. So I t or engineering especially but I cannot be engineer myself. Unfortunately I don't have this kind of skills qualifications. But. Being in the recordment and working in a technology center. For example, very close to engineers to researchers to developers. It gives me plenty of opportunities. You know to be close to those technical topics. And also to learn from them and and somehow participate even in that change of course on the small scale but still so that is the fun for me personally. But also as ITRecruiters we are very close to the business you can imagine that. In most of the cases for the companies this it recruitment is a key recruitment because if we don't hire those people probably the products will not be released on the market. The projects will be not realized etc etc so it is directly linked with the company revenue at least I see that.
+
+12:47.48
+Karolina
+Ah, in that perspective. So ah, this also gives us the presti and also being an advice or sometimes even business partner in this type of conversations. We are really close to to very important discussions within within companies and then maybe 1 more thing. It is also quite easy to search at least search for it guys because there are many keywords that we can use comparing to research. For example, it is much easier because you can type. Even for example, like technologies names and it works somehow of course to some point. Ah, but for example, in research, you need to be really like study deeply what the person is doing in their ph d etc. What is the subject of their of their research so it is more difficult so for it at least this part with technologies is a bit easier and of course contact with people. Ah, even if I take we do have it. So so it's great because if someone really likes working with people then it is a great place to to really explore a lot of type of personalities. Also those let's say more closed more like introvertic. That's perfect, really.
+
+14:00.85
+cassiodeveloper
+No. Nice, nice because usually we think that it's just easy Job. No like no funny parts is just searching and posting and this kind of things but when you bring this topic. For example, this connection of people. Let's your personal interest so on engineering on this. And you mentioned that you don't have these excuse and just by our conversations in the coffee I can say that you are already senior leverr in cybersecurity more than the seniors that out there on the Market. You know So me. Yeah.
+
+14:25.53
+Karolina
+Um, so thank you cassa that's so nice I forgot to mention 1 more thing because actually you said about it at the very beginning you can somehow change the life of the person who you hired the company. And this is also kind of a mission and for me it is really important because if we for example, relocate a person from the totally different corner of the world. We change the whole life for that person. It is also a big responsibility on me and I hope that your decision was good. Still.
+
+14:53.60
+cassiodeveloper
+Um, yeah.
+
+14:59.22
+Karolina
+Ah, but but this is also a fun for for recruiters I believe that we can change somebody's job for the better. Hopefully.
+
+14:59.36
+cassiodeveloper
+Um, may have.
+
+15:05.80
+cassiodeveloper
+Yeah, and it's as I mentioned it's it's a big responsibility because sometimes you have your own as you mentioned you have Kpi Target and so on and sometimes you could just say whatever you need to hire someone? Yeah on the other hand. The big responsibility that you have that you might be may may making someone to change country change life or change from 1 job to another job and you can like don't say for example, specific things about company that not sounds good for that specific person or these kinds of you know details that. Ah, you know here is very good but the salary is not the best on the market or I don't know the technology is gonna work actually in the project I know it's not true. So I've I'm 20 years on the market so I already saw everything that you can imagineing just stop people to hire also guys that just want to live and it's as you mentioned. The word is responsibility. There is a big responsibility on this It's very important to mention. Okay now I want to know if you have I mean my case I think was easy I'm an easy person. You just hired me, etc, etc. But did you have any funny or exotic case or story. That you could share like with candidates I don't know something that i't know outside from the usual you have some some story like this.
+
+16:26.64
+Karolina
+Yes, but I need to mention that you wasn't like that easy case you know just to hire that star in my respect. It's not easy. Trust me.
+
+16:32.41
+cassiodeveloper
+Um I was these.
+
+16:40.78
+Karolina
+But coming back to the question. Yes, we we have like plenty of small and and funny cases like every day and we have our you know internal chats with other recruiters to share it just to so keep this fun part of our job. But um, maybe.
+
+16:54.70
+cassiodeveloper
+Um.
+
+16:56.68
+Karolina
+1 situation that I really recall. It was also related to relocation because we relocate people from different part of this world and usually people relocate with their families. Cats drugs.
+
+17:08.93
+cassiodeveloper
+It's more.
+
+17:09.30
+Karolina
+Plenty of staff etc so we need to take care of the flight tickets for them and also for the whole relocation process with the formalities with government embassies, etc. But once I had a candidate who wanted to locate a piano. And it was a very important stuff and instrument to him because it was kind of a family heritage. So after Grand Grand mother or father I don't remember already but it was a very difficult thing to do because of course it was outside of all the procedures that we had and and we had to take care of this.
+
+17:33.28
+cassiodeveloper
+Um, if you.
+
+17:38.30
+cassiodeveloper
+Yeah.
+
+17:42.75
+Karolina
+Special treatment of this instrument and also when it comes to transportation. It was quite difficult to find even a proper company to to do that. But finally we we did it I mean because we understood that this is kind of an important thing for the candidate but it only shows that you know in our life. There are.
+
+17:58.76
+cassiodeveloper
+Um, yeah.
+
+18:02.18
+Karolina
+Lot of situations that are not under any procedure any process that we have in place and then we need to be really open to understand the person on the other side we need to have enough empathy and try to find a solution simply and sometimes it really requires a lot of job. A lot of time.
+
+18:09.38
+cassiodeveloper
+Um.
+
+18:21.10
+Karolina
+Ah, outside of our targets outside of our Kpis as you mentioned, but this is something that's in my understanding recruiters shouldn't do so that's one maybe funny story to to share.
+
+18:32.17
+cassiodeveloper
+Oh interesting, a piano and I had the cat and a dog and I think it was special already. You see there are different cases. Ah I remember I remember after I was hired but then I had this wedding scheduled then I sent you the message like wedding.
+
+18:35.31
+Karolina
+So no.
+
+18:45.61
+cassiodeveloper
+And you are answering. This is the funniest message ever like wedding you are inviting me your water.
+
+18:47.93
+Karolina
+Yes I remember I remember this message the subject line wedding. So I said oh Wow So candidates are inviting me for their weddings Now that's nice. That's nice. Yeah, yeah, so actually yes your case and your let's say.
+
+19:04.56
+cassiodeveloper
+Are.
+
+19:05.70
+Karolina
+Time in your personnel private life was also kind of important that we also needed to somehow take and into consideration but then and ah again, we come back to the relationship. The the Recordarian candidates this is like a partnership in my understanding that we need to be as honest as possible during the whole recruitment process. That's that's it.
+
+19:23.18
+cassiodeveloper
+You know also because just bringing some more context for this part for example in Bra Zero we have like the same big market and all this difficult to hire, Etc, Etc, etc. And in the past I mean I'm I'm out for 2 years so in the past I remember that there was a problem with recruiters that.
+
+19:24.24
+Karolina
+Keeping.
+
+19:42.12
+cassiodeveloper
+No Feedbacks For example, like no negative feedbacks so you are not approved so sometimes we were waiting just waiting and you need the job, Etc, etc. So and you don't know what's happening and you need to get in touch etc etc can be kind of not comfortable. This was one point but I want to. Mention a case and also ask if you had some kind of problems. For example I remember a case that the recruiter from my company. Ah she was she was getting like the the guy who who was being Interviewed. He was more actually he was not eats on the job Itself. He was in um, her so they getting the interview. Was just that shortcut for you know we were a nice girl. Nice hair blah blah blind all these all these things that happens between people but not on this specific Context. Ah and shouldn't have happen. Did you had some something similar I mean maybe it's Brazilian stuff. But. I Need to ask? you had some kind of problems and if you have how to deal with this. How to be you know, polite and don't you know say bad words for this person. For example.
+
+20:46.99
+Karolina
+Yeah I think that this is just a human being thing not brist and only so ah yes I did and I think that most of the people also men who are working in recruitments aria they have such situations believe me. So yeah, it happens and also some people are for example, probably they are in a mistake and they use Linkedin instead of tinder application. For example, so it happens all the time as well. But then you you just need to be very.
+
+21:12.26
+cassiodeveloper
+Um, yes.
+
+21:18.90
+Karolina
+Consistent and to communicate clearly that it is not the place and also the time when we can speak in that way and simply that we are not interested in these type of situations and each and every time when I said it very clearly. There wasn't ah a problem for the longer time. Of course it depends on the person on the other side and I can I am aware of that. But if we are really like if we communicate it really clearly then it shouldn't be a case for a longer time in worst scenario we can block the person.
+
+21:40.56
+cassiodeveloper
+Um, yeah, yeah.
+
+21:55.00
+Karolina
+Um, our email address and then also in Linkedin but to be honest, they didn't have such weird situations.
+
+22:02.47
+cassiodeveloper
+Um, less worse than say yeah because I heard about a lot of situations that it's I mean topic for another podcast other episode. For example, yeah, go on.
+
+22:08.63
+Karolina
+But sorry so I wanted to say that I had 1 situation when I was really afraid but not in this context of relationships between male and female. But it was just a candidate who couldn't accept the negative feedback that I shared and I was feeling a bit threatened even so that was a very difficult story that I remember for for the half of the year more or less I was really afraid of going outside.
+
+22:28.54
+cassiodeveloper
+Um,
+
+22:35.22
+cassiodeveloper
+Um, who who.
+
+22:42.31
+Karolina
+Office. For example, the office area because that was a time before Corona where we had this face-to-face interviews. So the candidates could know and could meet us like really face-to-face so that was really difficult to me and I will probably remember that's like always.
+
+22:43.70
+cassiodeveloper
+
+
+22:52.21
+cassiodeveloper
+Um,
+
+23:00.38
+cassiodeveloper
+Um, oh my God Yeah that that was also interesting case I have negative feedbacks or because you are know the recruitment side but a child. Also they have sometimes they need to fire people. Yeah and I mean can be even worse. But and also you are as a recruiter you are not giving the feedback.
+
+23:08.36
+Karolina
+Um, yes, yes.
+
+23:16.81
+cassiodeveloper
+Yourself It was from the technical team I imagine yeah managers from the test etc. You are just a messenger on this case. Yeah, so it's yeah so yeah, yes, he is is is.
+
+23:24.55
+Karolina
+True but sometimes we are Also you know a person who advises on the soft skills art and and this kind of feedback and here we had both like technical feedback and behavioral one but still I was the one to to pass it to these candidates. Ah, it might be difficult but you know.
+
+23:36.14
+cassiodeveloper
+Um, yes.
+
+23:41.60
+Karolina
+This is our job and we need to do it despite of the reactions. Yeah.
+
+23:42.81
+cassiodeveloper
+Um, yeah, it's part of the job. That's why I usually say I prefer to work with computers because people give too much trouble but sometimes computer does give trouble. Yeah.
+
+23:55.60
+Karolina
+Um, it depends on your computer skills. You know for me this in the opposite way.
+
+23:59.45
+cassiodeveloper
+Yes, yes, yes, exactly okay Karina now I want to move to conversation to another point which is okay, we talked about the recruitment side. The challenges. Also the furniture part some some specific case. That's that's very good part from the from this perspective but people are there. There are plenty of opportunities for them and what they should do to get the you know the dream job because I remember past my pastimes I was my dreams was to work in a specific bank in Brazil the brazilians rule know it's itawu. It was my dream to work there. Then I had a lot of friends who were working there and said oh my god it's shit. Don't go there blah blah blah other friends. Oh my god it's very nice It's awesome in the end I never worked there probably all that no no work there anymore and but what tips do you have for candidates like I don't know cv interviews how to. Do not behave on face to face do not threat the the recruiters for example and all this kind of things what you'd say like in general for for people who are want their dream job or first job in their career. Also, what do you'd say about this.
+
+25:10.51
+Karolina
+So high level tip at the very beginning. So first of all, think about the the things that you really want to achieve and what is the direction that you want to follow when it comes to your career quite often I see that people have some kind of dreams.
+
+25:13.47
+cassiodeveloper
+Um.
+
+25:27.39
+Karolina
+Or or they are just you know going with the flow and whenever they are you know hiring in this company or that it doesn't matter for Them. So First of all, please try to think about your real goal and real achievements that you want to somehow have in your life. It is It is important to decide. What is interesting for you and then it is really easier to go step by step and to achieve it and also we said about this dream job I think that we should start and and maybe we should cut our dreams a bit for the smaller part. So Sometimes we we have this goal. Which is very high and very difficult to to achieve maybe start with the smallest ah smaller parts and then let's do it step by step if our goal is too high then it can be the motivated for us and this is something that we probably don't want to to have but going to the more like.
+
+26:23.15
+Karolina
+Specifics and and technical details. Let's start with the cven. So. That's the the most important document in the recruitment process and people still make a lot of mistakes creating the Cvs so please check your contact the details if they are valid. That's the first thing and quite important so we can also. Ah, reach out to you then the length of the cv. I would say that you know 1 or 2 pages. This is the maximum length of the cv do not create like the 10 page story of your life.
+
+26:53.67
+cassiodeveloper
+Um, oh my god I have a 6 page one in the pastor. Imagine.
+
+26:57.88
+Karolina
+It's not good because we have around like sometimes 15 seconds for the first scanning of the Cvs so believe me that then you know 10 or even 6 pages. It is a bit too much so one 2 pages it is totally enough. Then I also recommend to specify your tasks because.
+
+27:03.91
+cassiodeveloper
+Um,
+
+27:07.00
+cassiodeveloper
+E.
+
+27:16.78
+Karolina
+If you say in your Cv. For example that you are a software developer. It says nothing to me so I would like to know if you work on backend frontend on web mobile desktop applications clouds on-premise etc.
+
+27:27.13
+cassiodeveloper
+Um, ah, interesting.
+
+27:30.24
+Karolina
+This is quite important to me from the very beginning because thanks to that I can adjust the jobs that I have for example in my offer to your skills and also your, your previous experience. Then the general aesthetic of course of this document So do not put like too much. Destructing Colors Graphics pictures like everything. It's too much sometimes and and so it doesn't look good and speaking about the picture if you put it because you don't need to in most of the countries. But if you put it then make sure that this is quite elegant and professional.
+
+27:50.25
+cassiodeveloper
+And.
+
+28:06.20
+Karolina
+It is maybe not the space. You know to say us where have you been in the last holidays like link down on the on the Palm tree with the fancy drink. It's not the place really? then I would say that also you know sharing the private information too much private like for example on your religion or.
+
+28:08.98
+cassiodeveloper
+Hit it.
+
+28:25.84
+Karolina
+Your marital statuss. This is not necessary. Maybe there are some countries and cultures where it is well well noticed. Let's say and well perceived but in Europe for example I would say that this is rather not something that you should put in your Cv remember that.
+
+28:41.31
+cassiodeveloper
+Um.
+
+28:42.72
+Karolina
+Sometimes too much information might be not beneficial for you in the end because we are all human being there are people who have some bias and and we all have bias. We need to be only aware of them but because of that information and giving too much information. You can be also sometimes in the worst Scenarios rejected.
+
+28:51.78
+cassiodeveloper
+Um, yeah.
+
+29:02.79
+Karolina
+Due to the fact so dis avoid it. And also maybe it is also a good habit to apply for challenging growth. So you know, challenge yourself a bit if you want to develop your skills and and in general if your self-velopment is something important to you then. Don't look for the same job as you have right now because that would be actually the step backward. Please find something more challenging and also I recommend to do it because then you can learn something more and then you can also go forward with your with your whole career path. So. Definitely when choosing the new job opportunity. You should also choose the ones that keeps you some new skills new areas of of development etc. So this is regarding the cv and also Linkedin profile I need to mention in this is Linkedin is 1 of the most important recruitment tool nowadays like. Global one. So it's really important to have the Linkedin profile of course updated fully updated and and up to date with all the ah dates for example in your career. Also the names of the companies. So yoursp responsibilitysibilities your skills etc if you are active on Linkedin.
+
+30:05.80
+cassiodeveloper
+Um, a.
+
+30:17.23
+Karolina
+Also the Linkedin algorithm gives you the the better. The better place in the in the whole network. So it is really good to be active there so you can also receive a lot of opportunities coming from the market and you can just choose whatever you want. So yeah, that's that's. I think the most important things.
+
+30:35.80
+cassiodeveloper
+Interesting because I already I already saw Cvs with like half of 1 page even I was mentioned like 6 page but I already saw half of 1 page inro's experience professional like you forgot to finish or what happens and also I saw some cases of people.
+
+30:49.39
+Karolina
+Um, and.
+
+30:54.34
+cassiodeveloper
+Who were um have not I mean how to say this companies that were looking for the digital profile of this person. So oh okay, you have a nice cv, etc, etc. But let me see our link edit page. Let me see our Instagram page our Facebook page. So we were. Spending your time talk bad about the government. Oh we spend your time posting on I don't know parties every night. So so does it mean that you're gonna come late to the next day to the job and or you know this kind of things that we do not show as personal, you not show the interview. Oh you no currently they were to hire me but I'm a drunk. I will be drunk every day. So do you see this kind of searching as a beneficial part or you think it's like no no, it's too much from from a company perspective to do this kind of things even though that it's public information and people are publishing this.
+
+31:45.35
+Karolina
+Yeah, we do it I mean we those haven and with do it because it ah can gives us more information that you want to share we are here to assess the candidates. So of course we want to you know.
+
+31:51.55
+cassiodeveloper
+Yeah, awesome, Perfect perfect answer.
+
+32:05.22
+Karolina
+Give you the opportunity to develop in our company but on the other hand we are also in the relationships with the business with the hiring managers and we cannot so make a Miss hire so because it costs I mean recruitment is money.
+
+32:17.58
+cassiodeveloper
+Um, yes.
+
+32:19.19
+Karolina
+So We want to really to choose the suitable person the most suitable person for for the job and will we check the social media of course and nowadays we need to be aware that actually whatever we post in the internet it exists there if we don't. Ah, really take care of the content that it might be an issue. Well I think that this you know politics thinks we we shouldn't be really much involved into that and but again if you share too much. It can you know lead you to the situation when you just meet. Another person on the other side and this person is biased for example on that particular path in in the politics. Let's say or in your private life if someone and doesn't like I don't know parties, etc and there are they see a lot of.
+
+33:00.45
+cassiodeveloper
+Um, music.
+
+33:09.87
+cassiodeveloper
+Um, yeah.
+
+33:13.61
+Karolina
+Party photos in your profile that it might be an issue so and it is good to have your own strategy the reasonable one when it comes to sharing like our private life in the social media if you want to do it and if you need it then maybe it is better to have the profile without your full name. Let's say it is kind of a way that we can. Omit and this kind of uncomfortable situations.
+
+33:38.80
+cassiodeveloper
+I would say I just behave as a normal human even with digital profiles like you don't need to shit posts to things just post their things I don't know post whatever you want this is your life I don't care. Okay, last question catalina so you can move to the end. What do you think. About the market in general because we lack of professionals I would say I mean I t is 1 thing but in cybersecurity I need to say that I spent already 2 years trying to find a candidate for a company when I was working on this company I was the technical recruiter. Let's say so I was uply applying the tests and. Corrections all these things and we spent 2 years to find the proper person and then I left the company. But for sure there still looking for so and I was also teaching universities, etc. Etc. I'm involved on this event conference I know a bit so my point is we lack of professionals that that's clear. Yeah, we have too many demand or do you think we lack of professionals because we have demand but we don't have enough qualifiedd professionals because I would say that there there's no more job than persons in the word. Yeah, we don't have more job or burden than people. But. Capable people can be different. Yeah so how do you see this this picture you you think that people are not okay I need to study and dedicate and find my career path to you know, find for a job, Etc, Etc etc, or no no, there are too many jobs and.
+
+35:10.35
+cassiodeveloper
+For sure. Not enough people I mean for example I have some friends in Canada that they're facing this aging too many old people and they need to know to bring people from abroad, etc, etc. Also it was a problem in in Japan and about this kind of things. How do you. As I say a recruiter experienced one how you see this picture.
+
+35:27.78
+Karolina
+You touch very broad topic actually with with that question and it will be probably hard to me to to put my thoughts in the order. But let's try. So definitely we live in this era of digitalization. So almost in each company this it specialists are necessary. So in each company. There are some it solutions and of course people are necessary to to make it live and what you said companies are investing a lot of money in. Some kind of programs for students for internships some academia for people who want to get into this it world but in the end what I can observe that there is a situation when we do it. There are a lot of boot camps a lot of trainings and people can actually switch somehow there. Current job to it. But it's not that easy because then we go to the wall and we see the managers the hiring managers who have very high requirements regarding the skills and and competencies of the new employees. So there are plenty of people who would like to get into this. Itd world. But the it word is probably not ready for that which is a very controversial situation in my opinion because on 1 hand we need people but on the other hand we don't have this path for the juniors and for people who want to get into this word with probably low level of skills. So it word needs. Very qualified.
+
+36:57.56
+Karolina
+And very senior or at least mid-level professionals right now. And yeah, there is a huge gap between the number of people who are qualified enough to comparing to this number of job hats available on the market and this situation will last longer. Probably for the next ten twenty years so so we need to be somehow ready as companies and as employers for for that market scenario and but there will be a lot of changes still so the dynamics will stay with us and also this transformation will be all the time with us so there will be. For example, in 1 sector there will be layoffs in the other sector there will be like even an increase of of the new hires I think that Cybersec is one of the best when it comes to this increase so there will be more and more opportunities in Cybersec. But. Not probably not for junior people rather for those qualified and really with the best skills. Also you know what I would like to highlight here is that more and more often we take care of the soft skills even in it engineering world. This part is. Very very important and significant so emotional intelligence and also the skills when it comes to communication between people becomes even more and more significant for employers like Ai you know can probably do many things instead of the human being. But.
+
+38:31.36
+Karolina
+And this emotional intelligence is something that will distinguish us from this full automation. Let's say so that's my view on that I think that the situation is complicated, especially that as I said employers are not ready yet. To to really face this challenge and now we are living in a kind of dreams where we can find a perfect candidate like well suited and also in the budget which is always a topic in most of the cases we need to have some compromise between our requirements. And the situation on the market and there are a lot of tough discussions between us as recruiters and you know business leaders. Um, how to meet somehow halfway to to really hire someone and also not to not to waste too much time too much. Too much money for this hiring process. So. That's that's my view on that.
+
+39:30.61
+cassiodeveloper
+Very good topic I would say that this could be a topic for you know this? ah forums and roundtable. A lot of people discuss it this because it's it's very hard to say I can give ah just a bit of pepper on this topic which is from the from the teaching perspective when I was universities. I mean at least in Brazil I teach in noos four 4 or 5 different institutions and what I could see from from perspective was from the 100% of the students I could say easily that 80% they are just there. Life bring them there for some reason they are there or they just heard that oh it has good salaries. Let's try this I remember our first lesson was like guys if you think about good salaries. You need to go for modeling name are. This guys has good salaries I teach no good salaries about this. You need to be leandowsky. These guys has good salaries. We don't have it so ah and 80% of this is student. They were just there you know so they were not committed to this. They didn't want to be good, professional. They just want some knowledge. To get into market has some media salary. That's all and this it's a problematic on the other hand because you said management and companies they have higher requirements and people don't have this excuse because they didn't get prepared for them and this 20% that people who was or they're committed. They wanted to learn etc, etc. Then.
+
+40:58.35
+cassiodeveloper
+It goes to the market has good jobs etc but still not enough for the Demand. So I would put this perspective also like I see that not too many people are engaged on on finding a good um being a good profession. They just want I don't know meat level or something which is okay for them. But we're talking about Market general and kind Impact. Or the whole society. So.
+
+41:17.86
+Karolina
+Yeah, yeah to to add on that I think that's this sick situation on the market because we need to call it like that created this impression especially in in young generation that if you put anything related to it in your cv and if you have only the studies in in that area.
+
+41:31.33
+cassiodeveloper
+Um, yeah, yeah, yeah.
+
+41:37.58
+Karolina
+Then you are almost like a gardent and then you can just treat people like a rubbish event and you can have like very high requirements and everything is actually sky studying it. Yeah and this is not the true and this is a very false impression but actually.
+
+41:48.70
+cassiodeveloper
+Um, yeah.
+
+41:54.60
+Karolina
+We we should think also who did it I mean maybe also companies like let's say startups. Nothing worth nothing. You know, not a bad word about startups. But sometimes there are some companies which are damaging the the job market The local culture market with the offers that are.
+
+42:02.90
+cassiodeveloper
+Um, yeses.
+
+42:12.67
+Karolina
+Too much like outside of the general budget outside of the general solid ranges and because of this actually this type of situation and and sick job market happens also in Poland where I work.
+
+42:26.90
+cassiodeveloper
+Um, yeah, yeah, that's that's very good, very hot topic I would say for discussion but we're almost out of the time I want to ask last question if someone wants to to work as you do as an I T recruiter what you would say.
+
+42:39.85
+Karolina
+I would say definitely we need help and we need Also people who are passionate about this job who will be persistent and who will be willing. You know to read more about Technologies who will try to be.
+
+42:41.66
+cassiodeveloper
+Don't do that or please come. We need help. Ah.
+
+42:58.74
+Karolina
+At least communicated with the candidates and with the business to be also a good advisor for both sides. So I would say that guys do that It can be fun, but it also requires a bits of an effort from your site.
+
+43:10.64
+cassiodeveloper
+Good so they are need helping guys also and you mentioned very very quick this this point like budget budget is also it's also a problem sometimes yeah because company. Okay I want the best developer but I have 1000 slotties. So what is this that. And ah, do you think that it's a lack of business perspective on. Okay, how much this kind of person costs or they just know I have this I have this money and I want to Lamborghini but lamborghini is one two million and and I don't have 100000 and how how do you see this It's company problem. Equipment problem how you say.
+
+43:50.11
+Karolina
+It is very complicated and I would say that this is the recruitment problem in general and different businesses coming from the different sites. So for example in the corporate world. We usually have like a few sides of the same problem and people have different requirements. Coming from different side and it is very often quite so quite difficult to meet at the same point. So for example, we need to think about the cost of hire for example in Poland comparing to India and then we can choose if we hire. People in India or in Poland but for the specific budget that we have for polish job market for example, so here we we need to always make some trade and there are a lot of discussions behind that probably candidate cannot see and a lot of dilemmas as well when it comes to this.
+
+44:45.15
+cassiodeveloper
+Um e.
+
+44:45.86
+Karolina
+Salary topic. Also you know big companies have their policies when it comes to salaries and we also need to take into consideration the current salaries within the team. The particular project. Let's say here we need to build a software so there are many aspects to take into consideration.
+
+44:58.64
+cassiodeveloper
+Um, here here.
+
+45:05.82
+Karolina
+Also if we want to develop our local job. Market. Let's say in Poland we need to be somehow competitive comparing to other countries and if the salaries are going higher higher higher then we probably lose this. This attractiveness for the investors. So. It is quite difficult topic with many aspects to take into consideration but definitely this is not the the bed wheel from the empire's site so there are more and more aspects really.
+
+45:33.75
+cassiodeveloper
+Okay, this is also I would say we took from this conversation 3 or 4 more topics for the next 4 episodes so you are already invited if you want Catalina thank you thank you very much for your time we are I mean out of the time already again. Thank you, thank you so much because I know that time for us. It's.
+
+45:44.50
+Karolina
+Um.
+
+45:51.89
+cassiodeveloper
+Complicated. Yeah, we are trying to set up this episode I read for a year more more or less I would say so please find words if you want to say something if you want to promote or link at the if you're looking for a job. It's time to to announce it.
+
+45:58.17
+Karolina
+Um, so.
+
+46:03.52
+Karolina
+Sure. So thank you for the invitation. Once again, it was a really nice conversation and I hope that you guys can take something from from that for you please visit my Linkedin karorina soha you can find me there if you have any questions if you would like to have some advice regarding your career then. I am here to help you. Thank you once again.
+
+46:22.35
+cassiodeveloper
+Very good guys. Thank you so see you next week in the next episode of thesecov podcast Karudina. Thank you again.
+
+46:28.68
+Karolina
+Thank you.
+
