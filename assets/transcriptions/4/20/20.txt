@@ -1,0 +1,3076 @@
+E novo a segurança!
+
+Calma, tecnologia!
+
+Começa aqui!
+
+Deve ser cóccix!
+
+Deve ser cóccix!
+
+Podcast de segurança em tecnologia.
+
+Mano, não sei nem como começar mais, que faz tanto
+
+tempo que não tem episódio, com o cara novo, integrante
+
+novo hoje, de volta, de novo, de volta, enfim.
+
+Mas vamos lá.
+
+Sejam muito bemvindos a mais
+
+episódio do EBCCoast Podcast.
+
+Eu sou o Caso Pereira.
+
+Eu sou Rodrigo Balbino.
+
+Pra que acha que ele tinha morrido, ele tá de volta?
+
+Sempre esteve por aqui, na verdade.
+
+Pessoal, é prazer estar gravando episódio de
+
+hoje, episódio 20 da nossa quarta temporada.
+
+Bom, eu tinha dado recado pra vocês lá no
+
+instagram vocês tinham acompanhado né inclusive a gente ficou
+
+fora aí praticamente mês aí sem episódio quatro semanas
+
+sem episódio se eu me recordo bem.
+
+Então foi período muito corrido, eu tô muita coisa acontecendo
+
+aqui pra gente, o André Geral, mas talvez o maior
+
+acontecimento aí da nossa não maior da nossa carreira, mas
+
+marco na nossa carreira como profissionais de TI ou de
+
+segurança, foi ter ido pela primeira vez na Black Hat
+
+e na Deffman acho que é negócio fantástico de ter
+
+acontecido e como eu prometi para o pessoal grande que
+
+eu tinha postado.
+
+E o próximo episódio de podcast, de repente
+
+você gosta de podcast, seria sobre nossa experiência
+
+lá na Dev com o Inablacket.
+
+Inabsides, né?
+
+A gente sempre esquece de falar da
+
+Bissais, mas teve a Bissais também.
+
+Antes da gente falar e do Rodrigo fala que tava
+
+falando falar de Rodrigo, você não tem ideia de quantos
+
+comentários a gente recebeu pedir na sua volta, se eu
+
+não me engano foi nenhum, ninguém pediu na verdade.
+
+Eu nem
+
+a Daisy,
+
+Eu que estou enchendo sua bola aí!
+
+Pessoal, vamos lá!
+
+Não se esqueçam que o DevSirkops Podcast tem o
+
+apoio da Checkmarks e da nova 8 que são
+
+especializadas de segurança de sistemas e código seguro.
+
+O link da nova 8 distribuidora da Checkman do
+
+Brasil está baixa na descrição do episódio, no youtube
+
+e no deve ser o próprio podcast.com.br.
+
+A Contabilidade Olímpia, que é especializada em
+
+profissionalizar de TI, você precisa abrir sua
+
+empresa ou migrar de contabilidade entre em
+
+contato com o pessoal da Contabilidade Olímpia
+
+que eles estão prontos para te atender.
+
+E a Gold Security quer especializar em
+
+Application Security se você quiser desenvolver software
+
+seguro fale com a bunda Security.
+
+Ainda está no ar meu projetinho hobby, que é o
+
+apsek.jobs, se você quiser anunciar a vaga, procurar trampo, na
+
+área de Application Security tá lá tudo gratuito para você
+
+e tem parceiro novo chegando aí no mercado que eu
+
+vou deixar o parceiro falar que a pouco parceiro vai
+
+entrar aqui ele fala vai entrar como patrocínio novo.
+
+Agora a Lamborghini vem, que os caras prometeram
+
+rios de dinheiro aqui pra gente no podcast.
+
+Então, eu acho
+
+a porta abrindo a fineca,
+
+a porta fica próxima.
+
+Pra quem assistiu o Silicon
+
+Valley, vai lembrar da referência.
+
+Então pessoal, vamos lá, episódio de hoje, a gente
+
+vai falar, já teve episódio desse, na verdade, ano
+
+passado, quando o Marcos, né, falecido, o Marcos não
+
+me tira, ele não faleceu também.
+
+Mas também é difícil de explicar.
+
+Quando o Marcos foi para a Black Hat, para o
+
+Devon, no passado, e aí ele trouxe pouco de experiência,
+
+como aconteceu o Adam, mas foi super bacana.
+
+Mas você precisa de hoje nós vamos falar porque nós
+
+estivemos lá eu e o Rodrigo tinha oportunidade de ir
+
+deixa eu falar pouquinho como é que foi né talvez
+
+dá pouco de dicas parte ruim coisas que a gente
+
+mais gostou enfim então o episódio de hoje tá bacana
+
+deixa eu fazer ele bem detalhado aí para poder enriquecer
+
+a experiência de vocês vai ter post também lá no
+
+meu blog sobre isso, né?
+
+Eu vou assistir mais detalhado, tá aí com
+
+links, referências, tudo isso de monte de coisa,
+
+mas porque realmente é uma maratona.
+
+Vamos lá, começar, vou começar uma pergunta básica.
+
+O que você mais gostou?
+
+Fale uma coisa, uma.
+
+Você mais gostou?
+
+Isso é ruim dos eventos.
+
+Eu falei uma coisa que você mais gostou.
+
+É difícil, é difícil falar.
+
+Eu consigo cravar com certeza absoluta que
+
+eu mais gostei foi da Black Hat.
+
+Agora especificamente é difícil.
+
+Tá bom, mas Black Hat em geral.
+
+E foi surpresa, né?
+
+Pra mim, eu achei que eu não ia gostar
+
+da Black Hat, porque foi muito corporativo, né?
+
+É ali onde que as empresas estão mais de olho, elas
+
+estão querendo se apresentar, então é o famoso arrasta pra cima,
+
+pra cima e olha lá o que tá acontecendo.
+
+Cara, mas de longe, de longe, o
+
+que mais gostei foi Black Hat.
+
+Inclusive, estou com a camisa da Black and sua
+
+homenagem, que eu sei que você tô, né?
+
+A camisa que foi super barata, né?
+
+300 dólares.
+
+Não foi 300 dólares, mas não é barato.
+
+Mas infelizmente não tinha tamanho de
+
+homem, então eu não comprei.
+
+Eu só peguei a M, né?
+
+E eu acho que puder dizer uma coisa que
+
+eu mais gostei, uma coisa que eu mais gostei.
+
+É foda, né?
+
+Não tem como ver.
+
+E eu tava pensando pra fazer episódio.
+
+Mas eu acho que eu vou na sua, eu acho
+
+que a Black Hat é uma coisa que é fantástica,
+
+cara, é negócio bem legal, apesar de ser evento gigante,
+
+a gente participou dois dias, a gente vai dar mais
+
+detalhes pessoais, pessoal, mas acho que é alguma boa introdução,
+
+então estamos juntos nessa, você mais gostou da Black Hat,
+
+mais gostei da Black Hat também, mas não dá contexto
+
+pra galera, o que é a Black Hat?
+
+Coloquei aqui o título desse episódio né pessoal pra vender
+
+os maiores eventos hacker do mundo né o título desse
+
+episódio aqui porque na verdade são os maiores, né?
+
+Eles são os maiores em tamanhos
+
+de quantidade de pessoas, estrutura, enfim.
+
+Então vamos lá.
+
+O que é a Black Hat Rodrigues?
+
+Explica pra galera aí que que quer ir, que
+
+tem curiosidade, que nunca foi, que já foi, enfim.
+
+O que é a Black Hat?
+
+A Black Hat é evento que ela
+
+é voltada para a praia comercial.
+
+Então é onde as empresas vão apresentar o seu produto e
+
+daí você encontra produtos que já são eles já estão no
+
+mercado há muito tempo você encontra muita novidade então é o
+
+momento para você é a famosa a famosa feira.
+
+Isso quer falar.
+
+Você encontra todo tipo de produto, nesse caso
+
+voltado à segurança, todo tipo de produto.
+
+E desde produzir a consolidadas
+
+no mercado, até novidade.
+
+Ela tinha muita novidade, né?
+
+Tem bastante coisa bacana.
+
+Acho que é super isso.
+
+A gente especificamente, a gente
+
+foi justamente atrás de solução.
+
+Então, eu acho que a melhor forma de explicar
+
+é isso, a gente foi atrás de entender soluções
+
+do mercado, as melhores, então você via lá até
+
+pelos estandes, então você via Microsoft,
+
+as estruturas surdas nos esportes.
+
+Não, eu acordei demais.
+
+Inclusive, era tão grande que a gente ficou
+
+lá, acho que dois, três dias andando oito
+
+horas, dez horas lá por dia.
+
+E acho que faltou tudo.
+
+Isso que a gente foi muito especial.
+
+Cívico e parava só em coisas
+
+específicas de aplicações de pesquisa.
+
+Só que a gente queria ver, sabe?
+
+Boa!
+
+Boa introdução, eu complementaria falando sobre isso,
+
+eu fosse pra resumir a black, eu
+
+falarei exatamente isso, é uma grande feira.
+
+Mas a black a gente na verdade ela acontece durante
+
+eu vou até pegar minha cola aqui porque eu não
+
+quero falar besteira pessoal ela a gente a gente teve
+
+o Business Pass que dá direito a acesso a dois
+
+dias a exatamente essa grande feira onde tá lá né
+
+todos os fabricantes os venders tudo mais que é negócio
+
+fantástico, quando você falou, a gente passou dois dias lá
+
+andando oito, nove horas e não viu tudo, né?
+
+O que a gente ganhou de brinde, adesivo, camisa,
+
+garrafinha, cup, cake Mano, é muito de tudo.
+
+Mas a verdade é essa.
+
+Inclusive, eu tô usando aqui,
+
+uma do que eu ganhei,
+
+do mais da SPOT. Boa, boa.
+
+Eu queria pegar as datas aqui, agora fugiu de
+
+cabeça, mas acho que são 5 dias de Black
+
+Hat, do dia 5 ao dia 10, 5 dias.
+
+Então, do dia
+
+5, 6, 7, 8,
+
+esses primeiros dias são os que
+
+eles chamam de treinamento nos trainees.
+
+Então você paga uma grana específica lá, 2
+
+mil dólares, 3 mil dólares por cada treinamento
+
+e você tem acesso aos treinamentos, então peça
+
+que você tem acesso a todos e tal.
+
+Os primeiros XA2 são treinamentos oficiais,
+
+treinamentos formados e tal, enfim.
+
+A gente não fez essa parte,
+
+não estava no nosso escopo, queria. Então,
+
+ainda for pobre.
+
+É legal tu participar mais do nosso foco.
+
+É muito treinamento ofensivo, né?
+
+Tem muita coisa do que a gente
+
+Enfim, mas tem lá os treinamentos.
+
+Para a galera que não sabe o que
+
+é, não é só uma feira comercial.
+
+Tem a parte dos treinamentos também
+
+que custa aí que costuma porrada.
+
+Mas a parte que nos interessa, que é a feira, o
+
+Business Pass que eles chamam, aí foi o dia 9 e
+
+dia 10, são dois dias, e aí é uma grande feira,
+
+dos instantes de todas as empresas, as atrações tinha gente pintando
+
+garrafa, tinha gente com sorteio, e gente com competição, tem de
+
+tudo, o Rodrigo falou, a gente ficou dois dias lá e
+
+não viu tudo, e vale destacar eu não sei se foi
+
+a primeira vez eu acho que ano passado já teve também
+
+aquela área de startups então não tá só as empresas grandes
+
+e estabelecidas de mercado mas muita startup nova, nova barra média
+
+que já estão no mercado e tal, mas para lá mostrar
+
+o produto, apresentar, enfim, inclusive dos que a gente conversou, não
+
+vou falar o nome pra não fazer propaganda de graça pra
+
+galera, até porque o maior podcast de Epic Security do mundo,
+
+mas uns que a gente conversou lá eles ganharam o prêmio
+
+lá da Black Hat de startup do destaque alguma coisa se
+
+eles ganharam lá enfim então acho que essa parte específica da
+
+feira, né?
+
+Que é essa parte de Startup, são
+
+negócios fantásticos, tem monte de vendedores lá,
+
+monte de gente pra você conhecer.
+
+E aí, cara, é a parte ruim do evento, né?
+
+Você anda o Jim inteiro nessa parte da feira.
+
+Não tem lugar pra você sentar, tem ou outro ali, mas
+
+tem que sentar pra assistir a palestra do cara, né?
+
+É cansativo pra caralho.
+
+Eu passo o dia inteiro andando
+
+e conversando com a galera.
+
+Uma hora você nem sabe que
+
+você está falando mais inglês, português.
+
+Já foi, né?
+
+Ela consome a sua mente.
+
+Enfim, acho que essa parte de andar é ponto
+
+negativo, negativo, faz parte, só cansa, não vai evitar,
+
+vai voar, vai comprar drone e ser voando, Eu
+
+acho que esse é o resumo da Plancket, né?
+
+Eu já tive em outros tipos de feira, eu já trabalhei
+
+em importação, então sempre lá no Center Norte tinha, né?
+
+Sim, tipo
+
+de feira.
+
+E é a mesma sensação. Então, sei lá, o dia
+
+inteiro e pé, andando, conversando.
+
+Então, A ideia, nesse caso, que a gente
+
+foi lá da Feira, era isso, era conhecer
+
+pessoas, conversar e entender soluções fones, então o
+
+pessoal já estão com as máquinas lá preparados
+
+para fazer demonstração, para explicar mais.
+
+Então, se você quer conhecer, se você quer tem que
+
+bater perna, tem que andar, tem que conhecer tudo, né?
+
+Ou tentar conhecer tudo. Foi o nosso caso.
+
+Né?
+
+Que dica você daria aí pra galera que
+
+quer visitar Black Hat pela primeira vez, mano?
+
+O que você acha que você fala ó, faça
+
+isso, ou não esqueça aquilo, tem alguma coisa psico
+
+algumas coisas que eu queria falar pro pessoal.
+
+Eu acho que uma coisa que é chave,
+
+que a gente acertou de cara, foi focado.
+
+Então, a gente foi com o foco de Application Security.
+
+Porque a cada centímetro, tudo é interessante.
+
+Tudo é interessante, tudo é legal, tudo você quer
+
+parar pra entender, conhecer, tem coisa que você conhece
+
+e o cara tá demonstrando com inteligência artificial e
+
+daí você mas se não for com foco, acabou.
+
+Você vai perder.
+
+Porque a gente, com foco, andou muito durante
+
+esses dias e não conseguiu ver tudo.
+
+Então se a gente fosse sem o foco, É,
+
+está disperso lá e não ia ter conhecido a
+
+metade do que a gente precisava lá.
+
+Bom, então para quem vai visitar o Business Pass
+
+ou a Feira, vamos dizer assim, O legal é,
+
+bom, você tá procurando soluções de defesa?
+
+Então, foca nisso.
+
+Você tá procurando vulnerabilidade
+
+management, foca nessas empresas.
+
+E aí você, meu, foca, sobrou tempo, vai
+
+ser uma das outras coisas e tal.
+
+Acho que a gente parou num ou dois stands lá,
+
+que é diferente assim, não era aqueles caras que fazem
+
+quase que bug bounty do governo, se você tiver informações
+
+sobre os caras lá desaparecer cedo, o cara que não
+
+são procurados e tal, pelo governo americano e você tiver
+
+informações, você ganha balde e tal, tem uma microiniciativa, projeto
+
+tástico lá, acho que isso a gente parou pra trocar
+
+uma mulher em tempo e ou outro lá também, mas
+
+no geral a gente focou em soluções de escane de
+
+código, subchains, gestão de vulnerabilidades, enfim, toda essa questão de
+
+epicege a gente sempre fala aqui.
+
+Cara, se eu pudesse dar uma dica pra
+
+galera, pra BlackRent específico, além dessa do foco,
+
+que eu acho que é uma fantástica, né?
+
+Crucial, tem que ter.
+
+Leva a sacola, porque você vai se
+
+encaixar pra pé de brinde, né?
+
+Eu tô transbordando de adesivo aqui, que eu
+
+tô parecendo cadeira de tanta tatuagem, né?
+
+É muito adesivo, cara. É muita coisa.
+
+É porque, por ser muito grande, e muitas empresas
+
+gigantes, todo mundo tem que aparecer de alguma forma.
+
+Todo
+
+mundo tem que chamar atenção.
+
+Todo mundo tem que chamar atenção, isso quer falar.
+
+Então você vai ver muito brinde,
+
+muito adesivo, coloridão, lindo, maravilhoso.
+
+Aí você olha, eu quero pegar isso aqui.
+
+Aí você vai pegar, o cara já conhece a solução?
+
+Algumas das soluções a gente
+
+parou por conta do adesivo.
+
+E vai lá conhecer.
+
+Então, cara, eles vão te chamar atenção, eles vão
+
+te dar brinde, Vá com uma bolsa boa, né?
+
+Porque a minha terra rasgou
+
+E eu destacaria ainda Na Black tem
+
+uma área chamada Arsenal, é onde o
+
+pessoal apresenta soluções open source, né?
+
+De ferramentas novas e ferramentas open source que
+
+o pessoal tá fazendo, enfim, e não só
+
+o open source, mas ferramentas, né?
+
+É tanto que a gente viu alguma lá, que
+
+na verdade eles tem uma versão Enterprise também, então.
+
+E cara, vale muito a pena conhecer, cada hora, cada
+
+tempo lá tem pessoal fazendo uma demonstração, ali ao vivo
+
+das soluções que eles estão ofertando e tal.
+
+Muito bacana.
+
+Então tem muita coisa na feira.
+
+Ele vai mudando, né?
+
+Acho que vai mudando, né?
+
+Porque a gente ia lá, a barraquinha
+
+já tinha saído, já era outra solução.
+
+Então, de tempos em tempos,
+
+é legal ir conferindo.
+
+Isso, Então, esse ano acho que eles estrearam a
+
+área de Lego lá, que o pessoal podia montar
+
+uns leques, fazer umas brincadeiras, ter a área das
+
+startups, ter os estandes com as empresas grandes, enfim.
+
+Mas essa negócio do foco eu acho que eu queria
+
+voltar nisso porque eu lembro que tinha uma acho que
+
+era Sentinela uma das empresas lá que tinha uma árvore
+
+gigante no meio do stand, piscando com LED e tal.
+
+Aí tinha uma outra que tinha aquário, dá ouro aquário.
+
+Tipo assim, são pessoas que pra gente não faz
+
+sentido, a gente não dá olhando Você passa, pô,
+
+vou tirar foto, vou olhar e tal.
+
+Às vezes o cara tá dando bombom, chocolate, café,
+
+você para pra tomar café, pegar negócio ali.
+
+Eles querem pegar sua atenção,
+
+então acaba oferecendo coisas também.
+
+Inclusive, você vê que é muito proposital isso porque
+
+o email que eles te enviam depois é Minha
+
+empresa é aquela que tinha uma árvore gigante, né?
+
+Ah, lembrei qual que é.
+
+Então eles fazem realmente pra chamar atenção
+
+pra ficar marcado na sua cabeça.
+
+Sim.
+
+Cara, é coisa de doido, mano.
+
+Não, essa feira aí foi muito boa.
+
+Quando custou o ingresso do Business Pass,
+
+para a
+
+galera que quer e não, nem expressa esse
+
+tipo de para não assustar a professora. Enquanto gostou?
+
+Você me fala a moeda, fala só o número, custou?
+
+Não sei, a digital ou pagou?
+
+Custou, acho que eu penso nas peças 560. Dinheiro.
+
+Não importa.
+
+Dinheiro.
+
+Custa de 160 a 540 dólares.
+
+O Business Pass não é barato. Depende, né?
+
+Se você é trilionário, você
+
+pode achar barato, é relativo. Mas vamos lá.
+
+Eu acho que é 50, 60 dólares, né?
+
+O Business Pass dali desses dois dias da feira, né?
+
+E tudo que tá em volta da feira.
+
+Inclusive, tem palestras, né?
+
+Que a gente não assistiu que as palestras atrocinadas, a
+
+gente acabou não focando nisso, a gente queria ver as
+
+soluções mesmo, mas é algo que a gente também, você
+
+acaba perdendo uma hora, duas ali em palestra, dependendo da
+
+coisa que a gente fala você quer ver, mas também
+
+te dá acesso a tudo isso.
+
+E você falando do preço, eu acho que é válido.
+
+Eu pagaria de novo pra ir quando precisar.
+
+Então a gente já foi lá, entendeu muitas soluções, agora
+
+é trabalhar com elas, por enquanto não tem a necessidade
+
+de correr atrás, quando vamos trabalhar, vamos entender e a
+
+gente vai ver se vale a pena ou não.
+
+E daí quando tiver a necessidade pago de novo.
+
+Esse é interessante.
+
+Inclusive, esse ponto aí vale a pena
+
+ir na Black Hat todo ano?
+
+Eu, minha visão, é que não vale. Por quê?
+
+É lógico que tem solução nova todo ano?
+
+Tem, mas daquele tamanho não vai ter tanta coisa
+
+nova de soluções do seu mercado, igual a gente
+
+falou, vai focar em apseque, vai ter coisa nova?
+
+Vai, mas às vezes não vale né, todos os
+
+juros da viagem, do ingresso, do custo pra ir
+
+pra feira no ano seguinte, que de repente
+
+não vai ter tanta
+
+coisa nova com relação ao ano passado.
+
+Então porque as soluções elas
+
+elas levam tempo para amadurecer.
+
+Sim, pode
+
+ser que a gente viu muita coisa interessante, mas
+
+na prática você vai colocar na prática, você vai
+
+ver que uma coisa ou outra falha e daí,
+
+por exemplo, se a ideia é vender, talvez ela
+
+não é tão interessante para a venda, porque a
+
+manutenção e tudo mais, o cliente vai reclamar.
+
+Mas se você
+
+quer soluções para você implementar na sua empresa, aí
+
+talvez faça mais sentido, você quer ver uma coisa
+
+de diferença e você quer ir buscando. Talvez.
+
+Então, mas sei lá, eu diria que a BlackRest talvez
+
+ciclo de três anos seria legal a cada três anos.
+
+Sim, na feira, né?
+
+Enfim, essa é uma o feeling, né?
+
+Foi a primeira vez que a gente foi, então é
+
+o feeling pelo menos com o nosso foco aqui.
+
+Talvez pra quem seja de ofensiva security, tem
+
+uma visão diferente, porque talvez soluções de ofensiva
+
+maiores ou dos defeitos, enfim, né?
+
+Só uma ideia pra que ela não está ouvindo a gente.
+
+Beleza.
+
+Então vamos lá, dia 8 e 9, então, teve a Aliás, dia
+
+910 né, teve a Black Hat, não, 8 e 9 a gente
+
+foi pra Black Hat, mas no dia 8 teve evento antes, que
+
+a gente foi, foi o primeiro evento que a gente foi lá.
+
+Absides, foi o primeiro evento que a
+
+gente foi, tipo Absides, as Vegas, né?
+
+Inclusive, você tem uma foto emblemática aí que você
+
+será o que estou. Será?
+
+Não, não é nem direito.
+
+É troféu da vida essa foto então daqui a pouco a
+
+gente vai tá no final desse episódio aqui pessoal vai ter
+
+vlogzinho aí com fotos slides ou eu vou fazer link enfim
+
+vou ver o tempo de produção que eu queria postar esse
+
+episódio enquanto antes, então vai ter making of de como foi
+
+a viagem, como foi as coisas lá.
+
+Mas teve a Bissaid de Slas Vegas, pra quem não
+
+conhece a Bissaid, morra, porque a gente fala da Bissaid
+
+da 4 anos, aqui não deve ser qualquer podcast.
+
+Especialmente a Bissant de São Paulo, mas a
+
+gente era, a Bissant de Cracco, eu vou
+
+aqui onde eu fundei aqui na Polônia.
+
+E eu posso dizer que já conheço três Bissants,
+
+eu já fui na de São Paulo, na de
+
+Cracóvia, que eu fundei, organizo e nada de Las
+
+Vegas que é original, onde começou o Absite, né?
+
+Absite Las Vegas.
+
+O que você achou, mano?
+
+Você curtiu o Absite? Você achou?
+
+Você esperava mais?
+
+Como é que é?
+
+Não.
+
+Na verdade, assim, a minha expectativa era muito baixa
+
+para meus sites, tipo, porque comparando com Black Hat
+
+e com o Jeff, com o Flight.
+
+Absiders vai ser só mais alguma coisa.
+
+Tipo assim, já estou aqui, eu vou, né?
+
+É, então não fui com expectativa, mas cara
+
+ultrapassou, tipo, eu fui mais ou menos, só
+
+que curti muito, então curtir muito a Black
+
+Hat e, em segundo lugar, curti mais abissais.
+
+Então, cara, eu senti que era mais, como posso dizer.
+
+Sentir como se fosse mais raiz as pessoas estão
+
+muito mais próximas elas estão conversando o pessoal é
+
+eu acho que por ser menor você consegue interagir
+
+mais, então as salinhas eram menores.
+
+Pelo menos as que a gente foi, né?
+
+Talvez sé que não seja de tanto interesse, talvez
+
+as salas de Red Team fossem gigantescas, mas na
+
+visão que eu tive era algo mais próximo.
+
+Então, lembrou bastante a Bissant de São Paulo.
+
+A Bissant de São Paulo foi a visão que
+
+eu tive era muita gente para espaço pequeno, porque
+
+acho que cresceu muito e precisou de espaço maior.
+
+Então, foi a Abyside de São Paulo Maior.
+
+Cara, vi muita gente importantíssima lá dentro, o pessoal
+
+tem várias mesas no meio lá onde que o
+
+pessoal se reúne para você trocar ideia sem estar
+
+com pessoa, então elas são vezes gigantescas, e o
+
+pessoal tem razão.
+
+E isso faz muita diferença.
+
+Inclusive, é porque a gente estava com pressa, até
+
+palestrante, que a gente interagiu durante a palestra.
+
+Você passava pelos palestrantes, ele
+
+chamava trocar ideia e tal.
+
+Isso é interessante.
+
+Você se sentir, como posso dizer,
+
+se sentir em casa, né?
+
+Eu me senti em website.
+
+E as cabissaias valem destacar que ela tem esse espírito
+
+mesmo de ser mais acolhedora de ser que dá para
+
+usar essa palavra E o Rodrigo, a pequena correção, né?
+
+Rodrigo falou que é mais pequena.
+
+Mano, tinha 10 tracks simultâneos na pista.
+
+O primeiro ideia do pequeno que
+
+era o evento, Dez tracks simultâneos.
+
+Vocês foram todo ano assim lá, mas
+
+eu sei que é maior lá, obviamente.
+
+Mas tinha dez tracks de fora a vila, de forma não
+
+sei o que, mas já dez coisas acontecendo mesmo tempo.
+
+Dependendo da mesa, né?
+
+Ser menor do que a Dafne.
+
+Exato, exato, comparação.
+
+Ainda assim, é gigante, gigante.
+
+A gente andou muito lá Cara, Os
+
+hotéis, onde essas coisas acontecerem, são gigantescos.
+
+Se
+
+você não seguir parte, você se perde.
+
+Se alguém te jogar lá dentro do nego
+
+acabou, mas você não já vai sai.
+
+E detalhe também da BSides é Custa só
+
+100 dólares, o ingresso só 100 dólares, né?
+
+500 reais, né? Mas vamos lá.
+
+Só 100 dólares, então é muito mais barato,
+
+muito mais esse, é evento mais focado nos
+
+iniciantes, com tópicos mais tranquilos, mais pouco.
+
+E também tem ingresso de doação.
+
+Então você pra quem quer doar, ajudar o evento,
+
+é assim todas as amizades do mundo, ou tem
+
+ingresso gratuito, ou ingresso muito barato, ou em graduação,
+
+enfim, então mas não sei o evento
+
+não conseguir, porque quando eu decidi já estava
+
+em cima da hora e já não tinha.
+
+Então queria fazer até para ganhar
+
+a camisa e tudo mais. Não consegui.
+
+Acho que vale você contar a história da BSide,
+
+mas você me contou, eu não sabia que ela
+
+foi formada dessa forma, E daí, quando você contou
+
+essa história, faz todo o sentido.
+
+Aí você entende porque ela
+
+é acolhedora, porque Cara, você
+
+tem que chamar lá do B, né?
+
+É, pra quem não sabe, bem resumo, né?
+
+A bisseis, ela começou por quê?
+
+As pessoas que submetiam as palestras pra Black Hat
+
+pra Dev como é que são, já sempre foram
+
+os maiores eventos de hacking do mundo, o evento
+
+é muito grande, então muita gente tinha palestra na
+
+hora, só que tem uma limitação ali, né?
+
+Então a pessoa acaba sendo negada, né?
+
+Pra palestrar e tudo mais,
+
+e acabava perdendo aquele conteúdo.
+
+Então criou o CEPSIT com essa iniciativa de pegar
+
+essas palestras meio que as recusadas da Black and
+
+da Devon pra que fossem apresentadas num evento paralelo.
+
+Que normalmente acontece antes ou
+
+depois dos grandes eventos.
+
+A grande mundo segue mais ou menos
+
+essa estrutura, vai ter evento ali importante.
+
+Segundo, se ela acontece antes
+
+ou depois, normalmente antes.
+
+Então eu falei assim que foi criada a Bissaia, hoje
+
+tem 10 tracks simultâneas, as pessoas né, submetem a palestra
+
+só pra Bissaia, então o cara é negócio fantástico.
+
+Simples de fazer, organiza amizades aqui, simples de ser trabalhoso,
+
+é muita coisa, é bad, é o ingresso, é o
+
+sistema de registro, é o achar o lugar e tal,
+
+Mas não é bicho de chá de cabeça.
+
+No Brasil acho que tem três ou quatro visídios já.
+
+São Paulo, João Pessoa, não sei o quê, enfim.
+
+Pra quem tá aí, participe de uma, você não
+
+tem uma onde você tá, faça a sua.
+
+Acho que é uma ótima iniciativa.
+
+E, cara, acho que foi dos lugares
+
+que a gente mais viu palestra.
+
+Que a gente ia falar da deficit daqui a pouco e
+
+acho que o lugar que a gente focou em palestra, né?
+
+Meu conteúdo foi na BSide.
+
+Tinha conteúdo desde iniciante até
+
+pouquinho mais avançado sabe?
+
+E digo mais.
+
+Lembra daquela palestra que a gente viu dos
+
+japoneses que coitados mal sabiam falar inglês?
+
+Ah, verdade.
+
+Os caras estavam lendo, não ter esse tudo mais.
+
+Então, a websites é espaço, até para você
+
+que quer começar, palestrar, mostrar conteúdo, talvez no
+
+Brasil só vai ter dificuldade com o idioma,
+
+o português e tal, mas palestrar fora.
+
+Os caras estavam lendo o texto em inglês, né?
+
+O pessoal do Japão e lendo tranquilamente com sotaque
+
+tinha perguntas, a pessoa era mais difícil de entender
+
+as perguntas, mas deu tudo certo, acho que o
+
+evento ele é tão acolhedor nesse nível que pra
+
+palestrar inclusive tem essa essa abertura, vamos chamar assim.
+
+Inclusive, a gente consegue ver até pela Rafa,
+
+quando ela foi para ela estar lá, né? Sim, cópia.
+
+Então ela sempre teve vergonha de falar
+
+inglês, ela achava que não conseguia.
+
+E ela foi lá e detonou.
+
+Tanto é que ela fez.
+
+E assim, sem pretensão, ela foi lá e fez.
+
+E o pessoal gostou dela, já e já
+
+ofertaram emprego e tudo mais, com essa visão.
+
+Olha a relevância que ela ganhou.
+
+Sem ela, você vê que ela teve divisor de águas pra ela.
+
+Porque ela ficou muito mais confiante, ela se entendeu, ela
+
+viu o quão relevante ela é para o mercado.
+
+E numa dessas, ela falou ah, eu não sei
+
+falar inglês direito, não dá, não sei o que.
+
+Vai, faz.
+
+Beleza, você precisa ler, faça.
+
+E dicas para websites Las Vegas, para quem
+
+quer ir, quer visitar, qual é a dica?
+
+A perfeita é do do tracking.
+
+Cara, é muita coisa e o tempo
+
+é muito curto entre uma e outra.
+
+Então, essa você tem que sair trackeando, esquidulando
+
+todo tudo que você quer ver, eu
+
+acho que tá falando da aplicativo lá, né?
+
+É, da programação. Faça a programação.
+
+Baixa o Hacker Tracker.
+
+Ele já tem a EAD com, enfim, a abissaia dos
+
+outros eventos, mas faça a sua programação pra você poder
+
+acompanhar todas as palestras, o que é importante.
+
+Acho que essa é uma dica valiosa, né?
+
+Uma outra coisa também que é
+
+interessante é caderninho, caderninho e caneta.
+
+É porque tem palestra que você não pode
+
+usar computador, celular, então se celular viu na
+
+mão, os cara já abaixa aí.
+
+Eles pedem pra não tirar foto, filmar, né?
+
+É, mas as pessoas querem tirar foto do slide,
+
+alguma coisa no geral, pode, mas alguns não permitem.
+
+Então, e geralmente são os mais interessantes, né?
+
+Sim, tem daqui a pouco.
+
+Boa dica.
+
+Anotar é fazer a boa programação das suas palestras,
+
+da sua agenda ali no que você quer ver. Boa.
+
+E outra dica compre antes.
+
+Porque essa galera quer ir, quer comprar o
+
+ingresso, mas fica esperando sair a agenda.
+
+Mas a agenda vai sair assim
+
+uma semana antes do evento normalmente. Né?
+
+Até mora, né?
+
+Nesse caso a gente tá há boas semanas
+
+de viagem, a agenda não tava completa ainda.
+
+Então compra o ingresso, custa 100 dólares, compra.
+
+Se você tiver que comprar em cima, você vai
+
+perder o ingresso ou vai pagar mais caro?
+
+Se você quer ajudar, quer doar, beleza, mas
+
+compra antes, compra cedo porque vale a pena.
+
+E Black Hat também, voltando na Black Hat, tem
+
+os lotes, os lotes de ingresso, você compra logo
+
+que abre lá, você paga o valor mais barato.
+
+E aí você, conforme vai chegando mais perto
+
+do evento, vai ficando mais caro naturalmente.
+
+Né?
+
+Fala isso, eu ia falar uma coisa. Eu ia
+
+falar uma dica e esqueci o que passou.
+
+Então não era dica.
+
+Ah, eu achei. É.
+
+Na verdade não é dica, Acho que é uma informação, né?
+
+Quando você fala de insights e pensa, né?
+
+Ah, são as palestras que restaram da Deffman Dá a entender
+
+que é tipo ah, é uma coisinha mais ou menos. E não?
+
+Cara, as melhores palestras que eu vi foi na Bsites.
+
+E com certeza.
+
+Teve uma que eu saí de lá e falei
+
+assim, Cássio, esse daqui é a nossa vida.
+
+A gente tem que levar isso pra nossa vida.
+
+Você lembra qual que é?
+
+Lembro, lembro.
+
+Que não é nem técnica.
+
+É.
+
+Então, ela falou voltado ali, meio
+
+que Sim, mas não era nada.
+
+Mas era magnífico, não era
+
+código, né?
+
+Não era ferramenta, né?
+
+Como eu falei, a Bissant foi fundada para pegar
+
+as palestras que não eram aceitas na Black Hat
+
+na Default, Não eram aceitas porque lotou.
+
+Porque tem muita gente.
+
+Isso tem, sei lá.
+
+Oito horas no dia, uma
+
+palestra por hora, oito palestras.
+
+Aí se submeteu dez, as dez são boas.
+
+O que você faz com duas?
+
+De alguma forma, elas cai fora ali.
+
+Por algum critério, mas não quer dizer que ela é ruim.
+
+Então inclusive o conteúdo é muito curado as bissades em
+
+geral ao redor do mundo elas tem comitê aqui eu
+
+tenho 7 pessoas que avaliam cada submissão de palestra então
+
+a gente vota cara isso aqui o tópico é bom
+
+mas não é algo novo é mas tem a ver
+
+com o evento puts, mas é algo velho.
+
+Beleza, fica aqui com uma nota X.
+
+Olha, isso aqui é tópico novo, tem a ver com o evento,
+
+é algo da inovação, poxa, isso aqui tem uma nota Y.
+
+Então tem critério, que normalmente é
+
+seguida para a gente avaliar.
+
+O primeiro ano foi mais fácil, o critério era eu.
+
+Então, não tinha muita gente ajudando a organização,
+
+mas o evento vai crescer nesse ano, já
+
+tem 7 pessoas pra me ajudar.
+
+Então assim, as bisnides ao redor do mundo tem meio que
+
+esse padrão E mano, você quer dar área de segurança?
+
+Não tem argumento.
+
+Você vá no MobiScides. Não interessa.
+
+Lá numa bissades aí em qualquer lugar que você
+
+morra tem 200 bissades no mundo mais de 200
+
+bissades então enfim esse ano esse ano bater o
+
+recorde de insights que aconteceram, porque tem umas que
+
+não faz evento todo ano, ou algum problema na
+
+produção, mas teve 7 bisbys desse ano.
+
+Ao redor do mundo.
+
+Às vezes já tiveram e diz que terão ainda.
+
+Então a pessoa tem uma ideia do tamanho da brincadeira.
+
+Mas vamos lá, entendeu?
+
+Deixa eu Faz tempo que não roda aqui,
+
+ó. Segurança. Tecnologia.
+
+Deve ser copys.
+
+Preciso até aprender a mexer no jogo aqui, não.
+
+Beleza, então fizemos bisnds ali dia 8, aí dia
+
+910 tivemos Black Cat, e depois do dia 11
+
+até o dia 13 foi só Devon.
+
+A Devon, eu não sei, eu tenho Eu
+
+tenho mix de sentimentos com relação a Déficon,
+
+mas vou perguntar pra você primeiro, e aí?
+
+O que você achou?
+
+Polêmico, né? Polêmico,
+
+pode ser polêmico.
+
+Cara, eu fui com expectativa muito alta com
+
+a porque sempre ouvi falar, eu vejo, cara,
+
+você olha no Instagram da galera de Red
+
+Team, é a coisa mais sensacional do mundo. É
+
+a marca da palavra.
+
+É, o Branding, chama assim.
+
+E quando eu cheguei lá, eu fiquei
+
+bem perdido porque primeiro que é muito
+
+grande tem muita coisa muitas pessoas
+
+e aí esse muito grande do Rodrigo é muito
+
+grande mesmo são quatro hotéis ao mesmo tempo que
+
+acontece, então você pode tá na palestra aqui e
+
+a próxima que você quer assistir tá a 3km
+
+de distância, simples assim, correndo, continue, só pra dar
+
+uma olhadinha.
+
+Acho que nesse caso aí a gente tem coisas lá, tem
+
+o dream lá que você pode pegar e chegar mais rápido.
+
+Mas vai ter que andar de qualquer jeito.
+
+Eu acabei me decepcionando porque eu fui com
+
+a expectativa, eu tinha mais expectativa do que
+
+a Black Cat e do que a Abside.
+
+Então eu fui achando que, cara,
+
+estou indo por conta da Devco.
+
+E chegou lá não foi isso.
+
+Minha sensação é que o pessoal está indo
+
+mais pelo status Tipo, sou palestrante e tal.
+
+Então, eu vi coisa vaga, palestra vaga.
+
+O cara tá falando, mas e aí? Cadê? Cadê? O conteúdo.
+
+Faltou o tchan.
+
+É, não teve.
+
+Na minha sensação, tá?
+
+Isso leva em consideração o inglês também.
+
+É homem no inglês preferido.
+
+Mas aproveitei muito, por exemplo, Black Hat Bsites,
+
+aproveitei com o mesmo inglês que eu fui.
+
+Então, eu acabei me decepcionando.
+
+Gostei, gostei.
+
+Mas das três Essa é o que você pagaria.
+
+Por agora, por exemplo,
+
+eu não
+
+pagaria para ir, né?
+
+Boa.
+
+E também é mais barato que a Blackard custa 40
+
+dólares, você paga na hora em dinheiro, então tem todo
+
+esse tchan aí, só em cash, você é anônimo nisso
+
+alguém é você, blá, blá, mas é.
+
+Eu acho que tem muito a ver aí o
+
+contraponto, em vez de falar mal do negócio. Sim, sim.
+
+Porque ela é muito a minha sensação é
+
+que ela é muito voltada ao Red Team.
+
+Então todo tipo de ataque, cara, tinha tinha as
+
+vilas de rádio, são coisas fascinantes de carros, cara
+
+hackeando carro, hackeando tudo tipo de coisa.
+
+Satélite, avião, tudo, tudo,
+
+tudo, tudo, tudo, tudo, você brinca Biohacking, foi uma
+
+das palestras que eu assisti lá na Vila de
+
+Biohacking, que é negócio Vou trabalhar com isso? Não.
+
+Vou ganhar dinheiro com isso? Não.
+
+Vou vender solução? Não.
+
+Mas fui lá assistir, que é aquela história que
+
+a gente falou do foco, mas a hora que
+
+eu comentei, a hora que eu comentar eu falo.
+
+Então por eu ter ido.
+
+Com visão voltada a Peter Security, talvez eu
+
+não tenha aproveitado do melhor do que tem.
+
+Então se o melhor é é é eu não
+
+vi retinho, tipo eu não fui lá ver isso.
+
+Acabei vendo de vez em quando ali, eu passava,
+
+eu dava uma olhada, mas não fiquei focado.
+
+Então talvez eu não tenha
+
+experimentado o tchan do negócio.
+
+Então, por isso que não foi
+
+tão interessante pra mim, gente. Boa.
+
+A gente fala mais?
+
+Não, não, não, não, não.
+
+A gente
+
+fala é.
+
+Talvez, se eu for uma outra vez, eu
+
+já vá com essa visão de Cara, beleza!
+
+Se eu já vi tudo o que eu queria na Black Hat,
+
+na BitSide, de Absek, deixa eu aproveitar o lado hacker aqui, deixa
+
+eu aproveitar o que a área nos traz de melhor. Tão boa.
+
+Cara, eu quero ver, nego sendo hackeado.
+
+A pessoa vai nem abre o celular.
+
+Eu fiz até transferência.
+
+O cara ganha o troféu na fila da Nefta, ele faz pin.
+
+O mesmo saldo na conta ainda, tá tudo certo?
+
+Zerado agora, mano.
+
+Zerado, não tem mais dinheiro.
+
+Boa.
+
+Bom, cara, a minha visão sobre a Devcom,
+
+eu não me decepcionei, não foi uma decepção,
+
+mas é algo assim, como você falou.
+
+Talvez o Hype da Devcom é o ataque, é o
+
+hacking das coisas, não o ataque em si, mas o
+
+hacking das coisas, quebrar as coisas e tal.
+
+E a gente por ser de apsek a gente tá
+
+buscando ali processo uma solução como é que eu encaixo
+
+uma coisa aqui outra ali para validar o meu código
+
+né para ir para entregar o meu software mal.
+
+É tanto que a Epicec Village, onde a gente ficou
+
+boa parte do tempo, pra mim foi sensacional, muito louca.
+
+Apesar de ter visto coisas ali que já é nosso dia
+
+a dia, então é só mais do mesmo, mas teve uma
+
+palestra sensacional lá que a gente viu pro pessoal da Índia,
+
+teve outro, pessoal da palestra depois que eu vi que foi
+
+legal, tio workshops acontecendo a todo momento muito bacana, inclusive com
+
+o Magnum, né, que gravou aqui com a gente, mas eu
+
+acho que até ficou em si como conferência o Tchan mesmo
+
+é essa parada que você falou.
+
+É tanto que tem os caras lá que senta, vai lá
+
+na Red Team Village e fica lá, passa o Dictor na
+
+Red Team Village, ou lá não, aqui é o satélite, o
+
+cara vai lá com o time dele e vai ver aquilo.
+
+Ele não vai ver outras coisas, nem sabe
+
+quem às vezes na época como todo.
+
+E pra mim, como primeira vez, eu
+
+queria ver o máximo possível experienciar ou
+
+experimentar as coisas que tinham.
+
+É tanto que acho que a gente
+
+foi em todas as vilas que tinham.
+
+Acho que só em hotel lá o Haas
+
+lá, a gente nem foi lá, que era
+
+as vilas de ninguém interessada muito pra gente.
+
+Mas o restante, meu, pingou numa vila de
+
+outra, Por exemplo, o Claudio Village lá, a
+
+Claudia Sequilla, a gente estava lotada toda hora.
+
+E é do lado da época que a
+
+gente não foi, entrou lá porque estava lotado.
+
+Inclusive, esse é ponto negativo, porque vai
+
+estar sempre lotado, é muita gente.
+
+A palestra que você quer assistir, às vezes você
+
+tem que perder uma palestra pra ficar na fila.
+
+Porque a fila vai lotar e a
+
+gente tem limitação dentro da sala.
+
+Então, se você chegar, já vai
+
+estar lotar, você vai poder entrar.
+
+Então, essa programação ainda é
+
+muito mais crucial na Déficle.
+
+Apesar de que tem que deixar uns esgotos
+
+vazios aí pra você ter essas manobras, né?
+
+É tipo, eu não vou ver nada agora, eu vou parar pra
+
+comer, putz, agora eu vou fazer outra coisa ali e tal.
+
+Então A Deffman é ruim?
+
+Não, de forma ruim.
+
+Acho que tem que ir, tem que
+
+conhecer, ver como é, ver como funciona.
+
+Mas se o teu foco é Red Team, você
+
+vai ficar trancado lá nas coisas de invasão lá
+
+e não sai de lá porque é muito concorrido.
+
+Acho que blue team é pouco mais light, É
+
+pra ser que foi bem legal, apesar de ter
+
+bastante gente também, né, onde a gente foi.
+
+Mas o evento como todo, o nome Disney com né?
+
+De igual a Comic Con, né? Enfim, né?
+
+Então é negócio mais animado, tem uma galera underground, tem
+
+uns cara fantasiado, tem louco pra todo lado, tem todas
+
+as tribos, né, que a gente vê muita coisa interessante,
+
+é muito grande, quatro hotéis vai andar pra caralho, A
+
+gente foi na, por exemplo, lá Aerospace, não quero lá
+
+da vila de dos aviãozinho lá. Aerospace, né?
+
+Era especial hoje.
+
+Então tinha lá uma turbina de foguete, cara, uns
+
+caras que eram simulador de avião e tal.
+
+Não, uns negócios muito legal.
+
+Mas eu não trabalho com aquilo.
+
+Eu não vou brincar com aquilo. Não é meu hobby.
+
+Pra mim, não é o foco. É legal pra ser. Eu fui.
+
+Foi o dia que você não tava lá. Eu fui.
+
+Entrei, dei uma volta de cinco minutos, olhei
+
+as coisas, peguei uns adesivos e saí. Acabou!
+
+Porque não é meu foco.
+
+Eu Eu fiz isso outro dia.
+
+Teve dia que foi lá tentar trocar
+
+a bad, eu fui lá e passei. Fiz o mesmo
+
+Foi a mesma coisa.
+
+Olhei Cara, sensacional, você Caralho,
+
+o cara tá fazendo.
+
+Quanta coisa tem, né?
+
+Tinha Tinha uma maquetezinha, que tinha
+
+monte de sistema e tinha helicóptero.
+
+E o cara ficava hackeando.
+
+Aí eu vi a hora que
+
+o cara conseguir hackear o helicóptero. Ele sai fumaça.
+
+Tipo, para a hélice do bagulho. É, parabéns.
+
+É da hora de se vê.
+
+Mas aí você falou, você fala cara, tá, pai.
+
+O que eu faço com a borracha?
+
+É, quanto com a borracha é o helicóptero?
+
+A não ser que você Você tá trabalhando no
+
+sistema, isso é segurança da parte aérea, aí beleza.
+
+Ou até que vocês não vão obter essas coisas?
+
+Aí vale até você investir, mas no nosso caso não
+
+é nem hobby, é negócio assim, meu, legal, curioso, igual
+
+a parte de, tem lá depois eu estava vendo no
+
+Twitter lá o anúncio do time que ganhou lá o
+
+hack da Sata Light, a parte de Raquel Satélite.
+
+Então fica lá ponto, placar lives, times lá competindo.
+
+Cara, é sensacional de ver.
+
+Mas num lugar que eu vou, vou passar lá no
+
+dia, vou passar lá horas, eu não vou, vou passar
+
+a ver tirar uma foto, vou tirar algo, acabou.
+
+Vou pro que me interessa aí, fui ver
+
+palestras da Bluestacks Village, foi da Biohacking, que
+
+era uma palestra específica sobre discussão de sistemas
+
+dos dados das pessoas, de saúde, de como
+
+eles são tratados e cuidados a negócio interessante
+
+como cidadão, não necessariamente como profissional, não é
+
+uma coisa interessante de ver.
+
+Cara, o que não faltava lá é Village.
+
+E eu sempre tive curiosidade de
+
+ir numa vila de lock pickin.
+
+Então tinha na abissaids, né, fui brincando de lock
+
+pickin na abissaids, e lá na adephan também fui.
+
+Inclusive, era praticamente andar inteiro lá no hotel.
+
+Não, acho que tem que vir lá gigante, com muita
+
+coisa lá pra fazer e tudo mais, então deu pra
+
+fazer uns desafios lá e brincar, mas sim, também fui
+
+lá e passei meia hora ali, meu legal, logo que
+
+fiquei negócio que eu gosto assim, de hobby, né, pode
+
+ser negócio de brincar, Acabou. Acabou.
+
+Mas acho que esse é o ponto da Devon.
+
+Ela é tão grande e tem tanta coisa que se
+
+você for acho que bom a gente foi, a gente
+
+quer ver, olhar para tudo, ali explorador, legal.
+
+Mas se você for sem foco, se você não focar
+
+nas coisas você quer ver e tal e tal, talvez
+
+vai ter sentimento de gozo e fica frustrado, né?
+
+É, acaba perdendo muita coisa.
+
+O que eu vi?
+
+Enquanto estava lá.
+
+Eu continuei seguindo o pessoal no Twitter lá pra ver o
+
+que tinha de melhor, com a galera que eu sigo.
+
+E daí eu vi uns negócios que Olha que horror!
+
+Aí você olha e fala ah, interessante.
+
+Não é o ar, não tá né?
+
+Faltou efeito do Instagram lá, né? O que é que vale?
+
+O Babi tá estendido.
+
+Aí você chega pra sua esposa, que não é da área, né?
+
+Nossa, hoje o cliente fez isso, e aí eu
+
+fiz o escanteio do código, achei a vulnerabilidade, mano!
+
+E pra ela que trabalha com maquiagem, né?
+
+Não, ok.
+
+Acho que é a mesma coisa.
+
+Isso tá bom mesmo, legal.
+
+Pra gente é isso, você vai ter tanta coisa
+
+legal, mas tem coisa que tipo, ah, olha só
+
+que legal, o cara hackeando a esfiha.
+
+Eu acho que o que tem e daí para a gente né
+
+eu acho que o que tem é pouco daquele efeito não sei
+
+se já viu não tem estudo que fizeram que mostra que quanto
+
+mais opção você dá pra pessoa, mais infeliz ela vai ser.
+
+Tipo, se você oferece os caras como que era o estudo.
+
+Cara, ele vinha assim e oferecia três bombons.
+
+De três tipos de pânico.
+
+E daí, O pessoal vinha na rua
+
+mesmo, com pratinho, com alguns bombons lá.
+
+Três, três chocolates diferentes.
+
+E pedia a pessoa a escolher.
+
+O pessoal ia lá, escolhia, comia e saiu feliz.
+
+Depois eles davam a nota lá.
+
+E depois, numa outra vez, eles vinham
+
+com 20 tipos de bombons diferentes.
+
+E a pessoa ficava muito tempo para conseguir escolher e comia
+
+e, no final, a nota era ruim pra essa galera.
+
+Porque eles se frustravam, eles ficavam com eles
+
+ficavam frustrados por ter muita opção pra escolher.
+
+Então a galera usa essa
+
+técnica aí em restaurante também.
+
+Tem restaurante que você tem
+
+lá milhão de coisas diferentes.
+
+E tem restaurante que se preocupa com isso e coloca lá
+
+cinco opções que é para o cara não se frustrar ele
+
+vai chegar lá e vai olhar o que que tem aqui
+
+picanha pronto picanha que eu quero ele já sabe, então a
+
+gente sai muito mais feliz por isso.
+
+Talvez a gente tenha experimentado isso na área,
+
+que chegou lá, tem tanta coisa, tanta coisa
+
+que se você não souber exatamente o que
+
+quer, pegar e saber aproveitar, sai frustrado.
+
+E eu acho que esse é pouco
+
+do espírito mesmo, da própria Devon.
+
+Você vai na Comic Con, você não
+
+vai ver só Homem de Ferro.
+
+Você quer ver outras coisas.
+
+Então o próprio espírito da conferência é esse, né?
+
+Tem várias coisas porque é pro entusiasta, né?
+
+Tudo que a gente viu lá pega os nossos olhos.
+
+Mano, olha a turbina de avião, olha os
+
+cara a carvilage lá, o hacking carvilage.
+
+Sensacional o Tesla lá, você pluga
+
+o computador e hackeia o Tesla.
+
+Eu não tenho expertise e saque tempo pra fazer.
+
+É
+
+negócio legal ver que tem esse tipo de coisa, né, tá
+
+de antenado no mercado, mas parar de uma foto, tá legal.
+
+Então, o ponto da DevCoin é muito bom, é muito
+
+legal, tem que ir, tem que participar, tem que ver
+
+as coisas, mas se você quer ver conteúdo, aí tem
+
+que ir focado, vai focar na vida de que você
+
+quer ver conteúdo, tal, tal, tal, tal.
+
+Você tem que ir pra gente que foi a primeira vez,
+
+acho que valeu de ver tudo, ver pouco de tudo e
+
+ver algumas palestras que a gente pôde ver outras que não
+
+deu para ver na verdade depois segue a galera no Twitter
+
+lá os caras que postem aí acaba disponibilizando os slides pelo
+
+menos, evitando você ter uma ideia ali do conteúdo.
+
+Mas você vai colocar aquele link lá das
+
+palestras que você disse que a galera
+
+colocar no vídeo.
+
+Teve uma palestra que eu vi lá, foi dia que você estava
+
+meio ruim lá, que era do bug no Visual Studio Code.
+
+Basicamente conseguiam SA dentro do Brasil de Code.
+
+Isso, né?
+
+Fantástico, todo mundo usa o Brasil de Code.
+
+Pra mim como o WebSec, cara, eu não
+
+vou explorar o mas pros meus developers que
+
+usam o Visual Studio Code ou Pap.
+
+É problema, como é que a gente
+
+pode mitigar isso, aquela coisa toda.
+
+É muita coisa né, de uma maneira geral.
+
+Dicas, vai, dicas pra Déficon.
+
+O que você falaria pra galera aí?
+
+Deixa eu começar essa, deixa eu começar essa dica.
+
+Vai, vai.
+
+Essa dica é o seguinte até ficou você não consegue comprar
+
+ingresso online aliás esse ano acho que no passado foi a
+
+primeira vez e esse ano teve o préregistro você fazer préregistro
+
+online e já pagava com cartão de crédito a seu risco,
+
+mas você já pagava com 20 dólares mais caro, então não
+
+foi 460 dólares você tem préregistro ou você na hora pega
+
+a fila lá de manhã é uma fila absurda é grande
+
+mas anda rápido que é dá o dinheiro, pega o seu
+
+cacheado e tá dentro, né?
+
+Então eu fiz o que anda rápido. Mas a dica
+
+é Duas horas.
+
+É, esse é o rabo.
+
+Considerando a quantidade de pessoas, Então a minha dica é
+
+se tem esse préregistro de nome que vem nos outros
+
+anos aí faça e dá para outras pessoas retirarem a
+
+sua bad então você manda o core tão qr code
+
+basicamente que você recebe ele vai na fila dois compartilha
+
+os qr code ele ganhou galera só retira as coisas
+
+que às vezes você atrasado, chegou vai ser do lá
+
+na fila e tal, que foi o meu caso, né?
+
+A amiga nossa tava lá na fila.
+
+Consegui tirar pra mim, o Rodrigo acabou
+
+perdeu o tempo do registro antes, né?
+
+Decidiu ir em cima da hora, e aí
+
+teve que ficar na fila lá, enfim.
+
+A minha dica é essa, né?
+
+Faça pra registro antes e você uma pessoa
+
+pode retirar outras bads, então economizei tempo.
+
+E ainda fiquei com uma badge de papel ainda.
+
+É porque acaba as bads oficiais. E pra cutriarse.
+
+Você foi legal, legalzinha. É bonitinha,
+
+é bonitinha. É bonita, é bonita.
+
+É bonita, é bonita.
+
+É bonita, mas é o papel.
+
+Se imprime ali, né?
+
+A gente literalmente é papel, né?
+
+Acho que você falou da parte do quão, de
+
+ser uma convenção, Eu fiquei impressionado porque na abertura
+
+talvez seja porque quem foi para a abertura é
+
+só a galera nova, mas quando perguntaram quem Quem
+
+das pessoas era a primeira vez que estavam participando?
+
+Todo mundo levantou a mão.
+
+Todo mundo que eu olhava assim pra caramba.
+
+Ninguém sabe.
+
+Em uma sala que devia ter o
+
+quanto as pessoas ali dentro, mano.
+
+Ou naquele hotel é
+
+gigante, é gigante.
+
+Tem gosto de me censurar, mano.
+
+É muita gente.
+
+Mas só pra ter uma ideia, era
+
+uma sala de evento gigante, cara.
+
+Uma estrutura pra Texô da Beyoncé,
+
+sei lá. É gigante. É gigante. Boa.
+
+Bom, falando dos três eventos, o que mais gostamos,
+
+uma dica geral que a gente acertou também, Água.
+
+Leva água.
+
+E vai andar muito.
+
+Dica geral, né?
+
+Água porque faz quarenta graus lá, mais
+
+de quarenta graus, dependendo do dia.
+
+Então, cara, a água é fundamental.
+
+E, assim, você vai pensando nos perrengues, né?
+
+Protetor labial, Doutora, enfim, mochila, essa mochila
+
+quebrou, ficou sem, aí conseguiu catamo no
+
+evento lá e quebrou galho.
+
+Mas vai ter uns perrenguesinho, assim.
+
+É, protetor labial é tão importante que
+
+os caras estavam dando como brinde
+
+na Não deu como brinde na landing page.
+
+Porque resseca, né?
+
+Você fica com a boca queimada, tal. É.
+
+Então, essas diquinhas assim mais detalhadas, gente, eu
+
+vou colocar post escrito lá no blog, tá?
+
+Então, vocês acompanham, vai ter mais detalhes ainda do
+
+que esse episódio Esse episódio é overview, acho que
+
+na geral a gente vai passar aqui dez dias.
+
+Aí eu vou ficar dez dias
+
+gravando episódio pra falar de tudo.
+
+É mais essa coisa.
+
+Mas vamos lá, falamos dos três eventos, quanto
+
+custa, como é que você se registra.
+
+A Black Retina a gente não falou, mas
+
+a Black você se registra online, né?
+
+Põe lá os seus cadastros, apaga o cartão de crédito.
+
+Basicamente como se
+
+fosse registro.
+
+Pode tirar a bad antes. Pode tirar a
+
+bad antes.
+
+0 fila.
+
+Chegou lá, pegou, foi embora.
+
+Acabou.
+
+Habsites também você pode cadastrar, fazer
+
+o seu registro antes, né?
+
+Não é pelo evento Bryce, normalmente lá o site,
+
+é na hora fazer o registro lá e acabou.
+
+Mas até ficou só na hora ou esse
+
+préregistro aí, que tipo a gente tem que
+
+pegar fila da bad do mesmo jeito, né?
+
+Então não te lembro da fila, o préregistro é
+
+e é dinheiro.
+
+Você tem que pagar em dinheiro.
+
+Só dinheiro.
+
+Lá não tem outra opção de pagamento, não.
+
+Inclusive, tudo ao redor ali dentro do hotel.
+
+É só dinheiro.
+
+Porque a galera não vai usar,
+
+mas a maquininha de carrinho.
+
+É muito risco, cara.
+
+Do menos é uma conferência hack, mas vai, galera, vai
+
+todo mundo lá, vai pessoas querendo fazer o mal, né?
+
+Fazer o mal antes de vir.
+
+Você tem ali clones de cartão, desviar
+
+uma grana, enfim, então tende todo mundo.
+
+Aí tu quer anônimo, ué, véi.
+
+Cê se cadastra, cê não põe nome, cê
+
+não põe email, cê não põe nada.
+
+Pagou em dinheiro, pega a sua
+
+bad e você tá dentro, acabou.
+
+Vamos ter que ter pouco de cuidado com isso aí.
+
+Boa, boa.
+
+Bom, falando dos três eventos, coisa que a gente mais
+
+gostou, coisa que a gente não gostou de uma maneira
+
+geral, a experiência como primeira vez para a gente gente
+
+que tem viés mais business, a black a gente foi
+
+mais proveitosa, ainda com viés técnico, a gente gostou muito
+
+da amizade também, todas as palestras que eu vi da
+
+Déficor foram muito boas, teve uma ou outra meio que
+
+você falou ah teve, acho que faz parte também, Por
+
+ser defictor você não espera isso, mas espera mais.
+
+Mas só, vai buscar só.
+
+Eu não posso até de aqui, dentro da sala, mas não é.
+
+É, e dá a sensação de que
+
+você queimou uma outra palestra boa.
+
+Porque a todo momento tem palestra.
+
+Aí você tem que escolher. Qual que eu quero?
+
+Essa é essa?
+
+Cara, você vai em
+
+uma, mais ou menos, Você fica puto,
+
+tá?
+
+Eu não contei, mas eu tava fazendo track aqui no
+
+Twitter pra ter uma listinha de seguidor e tal.
+
+Mas acho que tem mais de 30 vidas disso na Terra.
+
+E Village, imagina uma sala de
+
+hotel gigante, é uma vila.
+
+Dentro da Village tem monte de coisa.
+
+Nappsacvino já acontecia palestras simultâneas de duas tracks, então
+
+tinha uma sala maior com duas palestras ao mesmo
+
+tempo, e umas mesas com workshop então são 4
+
+workshops ao mesmo tempo então são 6 atividades simultâneas
+
+numa vila você tem ideia
+
+é só colocar detalhe, quando você fala sala de hotel
+
+fica parecendo quem tá acostumado a ver hotel zebra?
+
+Não, não,
+
+são salas de evento.
+
+Então, por exemplo, se assistiu o
+
+evento do mágico lá, né? É só
+
+teatro.
+
+Pronto, é teatro.
+
+O tamanho de teatro, pra galera ter ideia do tamanho.
+
+É, inclusive, eu nunca tinha
+
+visto uma estrutura igual aquela.
+
+O máximo foi conseguir ver que chega pouco próximo é
+
+o que eu tinha falado lá da no Center Norte.
+
+Tipo assim, é galpãozão gigante que
+
+se aproximou mais da Black Hat.
+
+Sim, que era gigante também.
+
+Eu já cheguei no salão das rodas, quero usar desmame
+
+de motos ali na disposição de imigrantes e no salão
+
+do automóvel, que é a Feira de Cabo e tal.
+
+É mais ou menos aquilo.
+
+A Black Hat é aquilo, mas assim, sei
+
+lá, 10 vezes pra mãe é muito maior.
+
+Talvez é evento que todo mundo conheça e mais popular.
+
+Então essas três ideias de tamanho.
+
+Ou de tamanho é tipo aquele shopping
+
+do Aricanduva lá, mas é gigante.
+
+É gigante, né?
+
+É esse tipo de coisa.
+
+Tem trem.
+
+Tem
+
+bagulho de tão grande que é o negócio?
+
+Essas dicas, gente, como pega o trem quanto paga não
+
+sei o que vai estar no post do blog tá
+
+vou ter muito mais detalhe eu vou fazer mais calma
+
+vai ter muita coisa lá também aqui de novo só
+
+o review pra vocês entenderem como foi a experiência.
+
+A recomendação geral é vá, que seja uma vez na vida vá.
+
+Pague, me organiza viagem, fica lá os 10 dias isso aqui
+
+é 7 dias de viagem, fui 10 dias e eu acabei
+
+ficando 3 dias livres, Os outros 7 é, let it e
+
+websites é tudo junto, então não tem descanso.
+
+E ter as festas, né?
+
+Eu quero comentar mais detalhes no post, mas pra galera
+
+entender Todo dia tem uma festa de algum vendler lá.
+
+Sei lá, a empresa X tem uma
+
+festa, tem uma festa no CA1.
+
+Normalmente esse cadastro antes, e no dia do evento lá você pega
+
+a pulseirinha no hotel na mesa deles lá só que aí na
+
+hora que você vai no evento corrido que tá lotado, tem que
+
+chegar cedo, eu dei com a cara da porta em 2, foo
+
+nenhum que era dentro do quarto do hotel lotado de gente na
+
+banheira do hotel dela era gelo e cerveja.
+
+Então assim, tem de tudo improvisado, né?
+
+Sim, mais improvisado, né?
+
+É, o improvisado foi da BR Huet com R,
+
+Foi uma conferência que a gente fez lá só
+
+de brasileiros, tinha umas 100 pessoas lá, acho que
+
+faço muito brasileiro, muito brasileiro palestrando na Deffman, esse
+
+ano que foi recorde de brasileiros.
+
+É muito legal ver o mercado
+
+brasileiro, as brasileiras palestram lá fora.
+
+Acho que é uma coisa a se
+
+destacar também de uma maneira geral.
+
+Mas uma foto é pé, né? Decei que
+
+você encontra aí no center. Que é uma
+
+foto aí, você achou que eu encontro uma galera, né?
+
+Cara, bora lá, o que a gente vai tirar foto?
+
+Acho que eu estava uns 5 km da Livra.
+
+Ah, vamos correr, vamos correr.
+
+Cuidado, acho que a gente estava
+
+comendo, foi comer, sei lá.
+
+Faltou gente na foto, mas enfim,
+
+tem essa comunidade muito legal aí.
+
+Que também vale ter o tempo o
+
+tema polêmico da questão de comunidade.
+
+Eu achei de panelinha de lado, cheio de
+
+gente que só fala com gente do outro.
+
+Então, enfim, comunidade que trabalha todo
+
+mundo na mesma área, só.
+
+Não necessariamente todo mundo fala
+
+com todo mundo, é server.
+
+É só deixar ponto aqui, que daí é importantíssimo.
+
+Essa experiência que a gente teve de ter
+
+desanimado, pelo menos eu, desanimado com a décima
+
+e tal, é minha experiência, mano.
+
+Cada vai ter, ouve outra galera falando aí, com certeza
+
+você vai ver gente falando muito bem, sendo uma coisa
+
+mais impressionante, então Não vai na ideia, né?
+
+Não é porque a gente está falando
+
+sobre como foi para você, né?
+
+É, vê caça, entra no site, vê se vale
+
+a pena, vê as palestras que teve, vê o
+
+que tem, tira as próprias conclusões, né?
+
+Vai lá e dá uma olhada.
+
+Não, e eu como eu falei, a
+
+Epic Village dentro da Deffman, sensacional.
+
+Tudo tinha lá, acho que foi onde eu
+
+mais passei mais tempo, a lock picking que
+
+eu vi, a biohacking, tudo foi top.
+
+É que assim, a gente fica frustrada, é tanta coisa.
+
+Você vai beber feito em 500 coisas.
+
+Aí você quer pegar pouco de cada, no
+
+final você mistura tudo no prato e como?
+
+Não tem gosto de nada, né? É só sal.
+
+Então você é enjoada com macarronada.
+
+Às vezes o foco ajuda nesse sentido.
+
+Então a gente teve certo foco, mas
+
+enfim, nós temos esse sentimento também.
+
+Então mais detalhes aí eu vou fazer postzinho lá
+
+no blog com detalhes mesmo né meu programa sua
+
+viagem assim com a passagem custa tanto ou dicas
+
+de hotéis e tal, vai estar bem mais detalhado.
+
+A ideia que era de falar da experiência mais
+
+técnica, vamos chamar assim, né, como foi lá participar
+
+da Black Hat, da Dev, da Bissant Las Vegas
+
+pela primeira vez, pelo menos pra gente.
+
+Eu não sei se eu vou todo ano, eu
+
+acho que Black Hat Aí faz pouco de sentido,
+
+por que a galera gosta de todo ano?
+
+Porque é tanta coisa na Devon, porque
+
+cada ano o cara vai com foco.
+
+O terceiro eu vou de zoeira, vou ver tudo.
+
+Esse ano eu vou com foco, eu vou ficar
+
+na AppSacVira, esse ano eu vou ver só uma
+
+ofensiva, esse ano eu vou aprender uma coisa nova,
+
+eu vou ler outras coisas, tá ligado?
+
+Tu tem Não vai fazer competição.
+
+É, tem pouco disso também.
+
+Pra isso que existe a conferência, né?
+
+A colha de tudo, de todos, que eu acho que tem
+
+esse viés, então dependendo do teu foco, ano você pode fazer
+
+uma coisa, tempo pode fazer outra, mas acho que não sei
+
+se vale todo ano, não, provas na minha visão, é algo
+
+a cada três anos, acho que vai sentir.
+
+Você vê tudo, não vê coisa nova,
+
+os eventos cresceram, não tem mais coisa
+
+nova, enfim, mais coisa pra aproveitar.
+
+Enfim, então é a minha visão, minha ideia de como
+
+maratonar, porque são 7 dias fácil, 7 dias fácil.
+
+De conferência que cansa pra cá,
+
+parece que é a verdade. Bom, perdão.
+
+Mano, episódio caiu de uma hora
+
+e não quero estourar também não.
+
+Dá pra fazer, dá pra falar muita coisa, dá de novo.
+
+Passar a vida falando, porque tem muita coisa mesmo.
+
+A gente acaba soltando uns outros episódios aí, né?
+
+Ela vai soltando
+
+uma coisa, vai puxando coisa também.
+
+Detalhe importante, tem você participa do Dev
+
+com a própria Black Hat, né?
+
+A Dev com Aliás, não, né?
+
+Porque a Dev com não tem vendedor, né?
+
+Não tem patrocinador lá, pô, não quando
+
+o baque de vender solução, tá?
+
+Tem dentro das Villagers, né?
+
+Mas de uma maneira geral.
+
+Mas a Black at in Abside, você ganha muito trial,
+
+para testar a ferramenta, você vê ferramenta top de mercado,
+
+a demonstração, como é que funciona, às vezes você tinha
+
+curiosidade, ganha às vezes uma oportunidade de conhecer cara foda,
+
+que eu falei assim, você falou, meu, o cara faleceu
+
+no abscesso, é cara foda, é cara de mercado que
+
+trabalha na empresa bacana, tá fazendo uma pesquisa foda, você
+
+não vai ter contato com cara desse no dia a
+
+dia, é muito difícil.
+
+E o cara também olhou pra lecionar e desce pro mesmo
+
+palco que você tá, pra mesma sala ali, a mesma mesa
+
+e senta pra ele tomar café pra comer ideia, né?
+
+Então a oportunidade de você ter nesses eventos é
+
+sensacional você não tem lugar nenhum na sua sala
+
+de faculdade não tem isso no curso que você
+
+não tem isso você só tem evento então participar
+
+de eventos constantes é uma obrigação na minha visão
+
+do profissional, de geral, mas não sabe a segurança.
+
+E diversificam.
+
+Tipo, Eu fico com a Pecopari, evento pra mim era
+
+só o Facefy, mas foi sensacional, aprendi coisa pra caralho,
+
+que é em Buenos Aires, super barato de ir, tem
+
+a 8.8 que é no Chile, não tive oportunidade de
+
+agir, mas a pessoa fala que é muito bacana.
+
+Então assim, às vezes deveria ser que vá por esse ano
+
+eu vou na Nekopari em Buenos Aires, dois, três dias.
+
+Putz, esse ano, e tendo que ver, eu
+
+vou lá na Black Hat na Déficit.
+
+No outro ano eu vou lá no Chile não,
+
+e no outro ano eu vou no céu.
+
+Acho que diversificar também os eventos, né?
+
+Não para ficar mais do mesmo, aquela coisa, né?
+
+Acho que foi o negócio legal de se pensar.
+
+Estratégia sua de aprendizado de professor.
+
+Boa!
+
+E pra fechar a episódio de
+
+hoje, tem parceiro novo aí, né?
+
+Esse parceiro aqui ó tá no strike digital walk
+
+Inclusive, esse é o motivo de eu ter sumido
+
+daqui, então muita coisa vai acontecer ao mesmo tempo,
+
+continue
+
+É. Sumido? Pode falar.
+
+Pode falar sim.
+
+Pode falar sim.
+
+É.
+
+Kevin Sekoffice. Kevin Sekoffice. Backups.
+
+Então, a ideia era criar essa empresa para dar apoio aos
+
+clientes, a todas as empresas de voltar na App SECK.
+
+Então, o que a gente viu
+
+com algumas experiências no mercado?
+
+Que o AppSECK em geral no Brasil está nascendo ainda.
+
+Então você vê as empresas que
+
+estão rodando, elas são muito jovens.
+
+A área, né, jovem.
+
+Soluções, a galera não conhece soluções.
+
+Então a gente tentou trazer essa expertise para
+
+criar essa empresa então é tem aí mês
+
+Street do AppSec, que tá dando apoio.
+
+Cadê ele? Cadê? Você
+
+tirou foto com ele lá? Tirei.
+
+O cara está dando apoio em geral.
+
+Cara, até nova 8 está dando apoio.
+
+A Tcheca está dando apoio.
+
+Então, cara, a gente está com apoio
+
+gigantesco da galera bem interessante na área.
+
+E a ideia é criar a certeza pra fazer isso,
+
+fazer a mesma coisa que tá acontecendo com ela, né?
+
+Dá o apoio pras empresas a
+
+desenvolver a área de segurança.
+
+Então, o intuito de ter ido pra
+
+Black Hat era isso também, trazer soluções.
+
+Cara, Teremos muitas novidades aqui num podcast,
+
+que vai ter gato lá no podcast.
+
+E o vale de sacar aí que é a ideia da
+
+Digital Oak, para quem ouve a gente aí, enfim, é ter
+
+portfólio completo de soluções e serviços de APQ Executivo.
+
+Então se você precisa de requisito de desenvolvimento
+
+segundo, tem uma solução e serviço pra isso.
+
+Você vai fazer o delivery do seu software,
+
+você precisa validar, testar, tem uma solução precisa
+
+rodar scan nas suas bibliotecas de terceiros, tem
+
+uma solução sobre isso que é isso.
+
+Fazer gestão nas suas vulnerabilidades, treinar o seu desenvolvedor, então
+
+muito em breve vai ter aí portfolio da Digital Works,
+
+a gente vai colocar o logo deles aqui e tal
+
+e é isso então tem uma empresa nova aí no
+
+mercado que eu acho que ninguém faz isso no tamanho
+
+no tamanho do sentido de o quanto a ideia que
+
+você quer englobar né de oferecer apseque mesmo de ponta
+
+a ponta com soluções ferramentas e tal e serviços né
+
+não só tá aqui compra as soluções se virem não
+
+compra vou te ajudar a usar né vou te implementar
+
+no seu processo enfim te aconselhar qual é a melhor,
+
+se você precisa disso ou não precisa disso na verdade,
+
+a ideia é levar valor pro cliente, não tirar valor
+
+dele, tirar dinheiro para vender, não quer fazer isso?
+
+Exatamente.
+
+É gente que eu digo o Rodrigo, a empresa do Rodrigo.
+
+A ideia é exatamente isso.
+
+Trazer o valor, é ter o teu ganhaganha.
+
+É claro que é uma empresa, ela vai ter
+
+percentual, mas a ideia é trazer realmente o valor.
+
+Então cara, como que a gente realmente
+
+faz que esse processo seja seguro?
+
+Como que a gente garante que seu software
+
+vai sair de forma como tem que ser.
+
+Então, a ideia é realmente não é vender a
+
+ideia é proteger então acho que esse é diferencial
+
+que me orgulho muito de dizer a gente sempre
+
+tentou fazer isso nas empresas apoiamos muito porque, cara,
+
+entendeu como o negócio funciona e tudo mais.
+
+Então, a ideia é, garantir segurança
+
+em todo o processo de desenvolvimento.
+
+Inclusive, ela é focada em epicentro
+
+por conta disso, para não fugir.
+
+Então, é especialidade em epicentia.
+
+E é foco em assistir.
+
+Tem coisa pra caralho, gente.
+
+É muita coisa, é muita coisa.
+
+Talvez, seja necessário focar pouco
+
+mais na afunilada.
+
+Mas vai ser interessante.
+
+Inclusive o próprio site da DigitalWook vai ter
+
+Toda área dela vai ser voltada a aplicar
+
+a check list de forma educativa.
+
+Então, se você abrir a área de produtos, você vai
+
+ver todo o processo então por mais que você não
+
+esteja comprando você consegue entender meu cara o que que
+
+eu posso fazer para garantir segurança nessa parte do processo
+
+eu descobri até coisa que você
+
+nem sabia que você precisava, né?
+
+É, tem proteção de binário, nossa, como é
+
+que eu protejo códigofonte ou pensasse foi modificado
+
+ou não, coisas do tipo, né?
+
+Então, é legal.
+
+Se o container foi modificado ali durante
+
+o processo de build, processo de deploy,
+
+Sim, cara, são coisas bem interessantes.
+
+Por isso que vai ter novidade aqui, que é
+
+a cada passo que a gente dá lá, a
+
+gente consegue trazer essas informações pra cá.
+
+Sim.
+
+É interessante, é interessante.
+
+Eu olho muito de conseguir começar esse projeto agradece o
+
+Cássio por ser cara tá dando sangue aí também pra
+
+me ajudar irmãozão tá ajudando de graça Jamã.
+
+Era meu hamburguini. Hoje,
+
+fica bom.
+
+Agradeço nova hoje também, porque a gente
+
+está sendo parcelão ali, que ele está
+
+dando apoio, que ele está dando.
+
+Então, a ideia é a ideia é criar
+
+uma empresa que vá te trazer valor.
+
+Boa.
+
+Então é isso pessoal, é o seguinte, encerramos o
+
+episódio de retorno do Rodrigo, do próprio podcast que
+
+estava mês sem fazer episódio aqui, mas semana que
+
+vem tem mais, tem convidados de analista, tem tópicos,
+
+Porque não tem tempo pra fazer, velho.
+
+E aí vontade a gente tem,
+
+mas tempo é negócio complicado.
+
+Então a
+
+gente se vê na semana que vem, eu
+
+sou o Carlos Pereira, Eu sou Rodrigo Balbino.
+
+Valeu até a próxima. É mais.
+
+Termina aqui.
+
+Deve em Secopes.
+
+Deve o seu podcast de segurança em tecnologia.
+

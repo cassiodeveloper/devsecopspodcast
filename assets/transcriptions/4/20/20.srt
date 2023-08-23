@@ -1,0 +1,6151 @@
+1
+00:00:01,199 --> 00:00:02,478
+E novo a segurança!
+
+2
+00:00:02,479 --> 00:00:03,458
+Calma, tecnologia!
+
+3
+00:00:04,557 --> 00:00:05,577
+Começa aqui!
+
+4
+00:00:07,076 --> 00:00:08,305
+Deve ser cóccix!
+
+5
+00:00:08,306 --> 00:00:09,375
+Deve ser cóccix!
+
+6
+00:00:10,164 --> 00:00:12,224
+Podcast de segurança em tecnologia.
+
+7
+00:00:21,918 --> 00:00:24,356
+Mano, não sei nem como começar mais, que faz tanto
+
+8
+00:00:24,357 --> 00:00:27,774
+tempo que não tem episódio, com o cara novo, integrante
+
+9
+00:00:27,775 --> 00:00:30,812
+novo hoje, de volta, de novo, de volta, enfim.
+
+10
+00:00:30,813 --> 00:00:31,532
+Mas vamos lá.
+
+11
+00:00:31,533 --> 00:00:33,051
+Sejam muito bemvindos a mais
+
+12
+00:00:33,052 --> 00:00:34,530
+episódio do EBCCoast Podcast.
+
+13
+00:00:34,531 --> 00:00:35,670
+Eu sou o Caso Pereira.
+
+14
+00:00:36,429 --> 00:00:37,729
+Eu sou Rodrigo Balbino.
+
+15
+00:00:38,588 --> 00:00:41,247
+Pra que acha que ele tinha morrido, ele tá de volta?
+
+16
+00:00:41,986 --> 00:00:43,606
+Sempre esteve por aqui, na verdade.
+
+17
+00:00:44,274 --> 00:00:46,753
+Pessoal, é prazer estar gravando episódio de
+
+18
+00:00:46,754 --> 00:00:49,212
+hoje, episódio 20 da nossa quarta temporada.
+
+19
+00:00:50,511 --> 00:00:52,549
+Bom, eu tinha dado recado pra vocês lá no
+
+20
+00:00:52,550 --> 00:00:55,747
+instagram vocês tinham acompanhado né inclusive a gente ficou
+
+21
+00:00:55,748 --> 00:00:58,506
+fora aí praticamente mês aí sem episódio quatro semanas
+
+22
+00:00:58,507 --> 00:01:01,144
+sem episódio se eu me recordo bem.
+
+23
+00:01:01,145 --> 00:01:04,302
+Então foi período muito corrido, eu tô muita coisa acontecendo
+
+24
+00:01:04,303 --> 00:01:07,500
+aqui pra gente, o André Geral, mas talvez o maior
+
+25
+00:01:07,501 --> 00:01:11,808
+acontecimento aí da nossa não maior da nossa carreira, mas
+
+26
+00:01:11,809 --> 00:01:15,846
+marco na nossa carreira como profissionais de TI ou de
+
+27
+00:01:15,847 --> 00:01:21,143
+segurança, foi ter ido pela primeira vez na Black Hat
+
+28
+00:01:21,144 --> 00:01:25,221
+e na Deffman acho que é negócio fantástico de ter
+
+29
+00:01:25,222 --> 00:01:27,759
+acontecido e como eu prometi para o pessoal grande que
+
+30
+00:01:27,760 --> 00:01:28,599
+eu tinha postado.
+
+31
+00:01:28,600 --> 00:01:30,678
+E o próximo episódio de podcast, de repente
+
+32
+00:01:30,679 --> 00:01:33,596
+você gosta de podcast, seria sobre nossa experiência
+
+33
+00:01:33,597 --> 00:01:34,956
+lá na Dev com o Inablacket.
+
+34
+00:01:34,957 --> 00:01:36,284
+Inabsides, né?
+
+35
+00:01:36,285 --> 00:01:37,244
+A gente sempre esquece de falar da
+
+36
+00:01:37,245 --> 00:01:39,003
+Bissais, mas teve a Bissais também.
+
+37
+00:01:39,004 --> 00:01:41,362
+Antes da gente falar e do Rodrigo fala que tava
+
+38
+00:01:41,363 --> 00:01:43,601
+falando falar de Rodrigo, você não tem ideia de quantos
+
+39
+00:01:43,602 --> 00:01:47,408
+comentários a gente recebeu pedir na sua volta, se eu
+
+40
+00:01:47,409 --> 00:01:50,907
+não me engano foi nenhum, ninguém pediu na verdade.
+
+41
+00:01:51,446 --> 00:01:51,886
+Eu nem
+
+42
+00:01:51,887 --> 00:01:52,594
+a Daisy,
+
+43
+00:01:52,595 --> 00:01:54,374
+Eu que estou enchendo sua bola aí!
+
+44
+00:01:55,913 --> 00:01:57,072
+Pessoal, vamos lá!
+
+45
+00:01:57,073 --> 00:01:59,711
+Não se esqueçam que o DevSirkops Podcast tem o
+
+46
+00:01:59,712 --> 00:02:02,279
+apoio da Checkmarks e da nova 8 que são
+
+47
+00:02:02,280 --> 00:02:05,438
+especializadas de segurança de sistemas e código seguro.
+
+48
+00:02:05,439 --> 00:02:08,236
+O link da nova 8 distribuidora da Checkman do
+
+49
+00:02:08,237 --> 00:02:11,443
+Brasil está baixa na descrição do episódio, no youtube
+
+50
+00:02:11,444 --> 00:02:12,983
+e no deve ser o próprio podcast.com.br.
+
+51
+00:02:14,122 --> 00:02:16,041
+A Contabilidade Olímpia, que é especializada em
+
+52
+00:02:16,042 --> 00:02:17,859
+profissionalizar de TI, você precisa abrir sua
+
+53
+00:02:17,860 --> 00:02:19,378
+empresa ou migrar de contabilidade entre em
+
+54
+00:02:19,379 --> 00:02:21,297
+contato com o pessoal da Contabilidade Olímpia
+
+55
+00:02:21,298 --> 00:02:22,897
+que eles estão prontos para te atender.
+
+56
+00:02:22,898 --> 00:02:24,736
+E a Gold Security quer especializar em
+
+57
+00:02:24,737 --> 00:02:26,775
+Application Security se você quiser desenvolver software
+
+58
+00:02:26,776 --> 00:02:28,684
+seguro fale com a bunda Security.
+
+59
+00:02:28,685 --> 00:02:31,562
+Ainda está no ar meu projetinho hobby, que é o
+
+60
+00:02:31,563 --> 00:02:34,921
+apsek.jobs, se você quiser anunciar a vaga, procurar trampo, na
+
+61
+00:02:34,922 --> 00:02:38,228
+área de Application Security tá lá tudo gratuito para você
+
+62
+00:02:38,229 --> 00:02:40,507
+e tem parceiro novo chegando aí no mercado que eu
+
+63
+00:02:40,508 --> 00:02:42,546
+vou deixar o parceiro falar que a pouco parceiro vai
+
+64
+00:02:42,547 --> 00:02:45,563
+entrar aqui ele fala vai entrar como patrocínio novo.
+
+65
+00:02:45,564 --> 00:02:48,062
+Agora a Lamborghini vem, que os caras prometeram
+
+66
+00:02:48,602 --> 00:02:50,879
+rios de dinheiro aqui pra gente no podcast.
+
+67
+00:02:50,880 --> 00:02:51,559
+Então, eu acho
+
+68
+00:02:51,560 --> 00:02:53,438
+a porta abrindo a fineca,
+
+69
+00:02:53,439 --> 00:02:54,558
+a porta fica próxima.
+
+70
+00:02:54,559 --> 00:02:55,797
+Pra quem assistiu o Silicon
+
+71
+00:02:55,798 --> 00:02:57,257
+Valley, vai lembrar da referência.
+
+72
+00:02:58,734 --> 00:03:00,813
+Então pessoal, vamos lá, episódio de hoje, a gente
+
+73
+00:03:00,814 --> 00:03:03,492
+vai falar, já teve episódio desse, na verdade, ano
+
+74
+00:03:03,493 --> 00:03:06,051
+passado, quando o Marcos, né, falecido, o Marcos não
+
+75
+00:03:06,052 --> 00:03:07,669
+me tira, ele não faleceu também.
+
+76
+00:03:07,670 --> 00:03:09,628
+Mas também é difícil de explicar.
+
+77
+00:03:09,629 --> 00:03:11,707
+Quando o Marcos foi para a Black Hat, para o
+
+78
+00:03:11,708 --> 00:03:14,706
+Devon, no passado, e aí ele trouxe pouco de experiência,
+
+79
+00:03:14,707 --> 00:03:16,754
+como aconteceu o Adam, mas foi super bacana.
+
+80
+00:03:16,755 --> 00:03:20,792
+Mas você precisa de hoje nós vamos falar porque nós
+
+81
+00:03:20,793 --> 00:03:23,031
+estivemos lá eu e o Rodrigo tinha oportunidade de ir
+
+82
+00:03:23,032 --> 00:03:25,430
+deixa eu falar pouquinho como é que foi né talvez
+
+83
+00:03:25,431 --> 00:03:28,428
+dá pouco de dicas parte ruim coisas que a gente
+
+84
+00:03:28,429 --> 00:03:30,467
+mais gostou enfim então o episódio de hoje tá bacana
+
+85
+00:03:30,468 --> 00:03:34,025
+deixa eu fazer ele bem detalhado aí para poder enriquecer
+
+86
+00:03:34,026 --> 00:03:36,484
+a experiência de vocês vai ter post também lá no
+
+87
+00:03:36,485 --> 00:03:37,683
+meu blog sobre isso, né?
+
+88
+00:03:37,684 --> 00:03:39,442
+Eu vou assistir mais detalhado, tá aí com
+
+89
+00:03:39,443 --> 00:03:41,241
+links, referências, tudo isso de monte de coisa,
+
+90
+00:03:41,242 --> 00:03:43,139
+mas porque realmente é uma maratona.
+
+91
+00:03:43,140 --> 00:03:46,018
+Vamos lá, começar, vou começar uma pergunta básica.
+
+92
+00:03:46,019 --> 00:03:47,058
+O que você mais gostou?
+
+93
+00:03:47,059 --> 00:03:48,737
+Fale uma coisa, uma.
+
+94
+00:03:48,738 --> 00:03:49,756
+Você mais gostou?
+
+95
+00:03:50,944 --> 00:03:53,543
+Isso é ruim dos eventos.
+
+96
+00:03:53,544 --> 00:03:55,222
+Eu falei uma coisa que você mais gostou.
+
+97
+00:03:55,223 --> 00:03:57,141
+É difícil, é difícil falar.
+
+98
+00:03:57,142 --> 00:04:00,529
+Eu consigo cravar com certeza absoluta que
+
+99
+00:04:00,530 --> 00:04:02,268
+eu mais gostei foi da Black Hat.
+
+100
+00:04:03,367 --> 00:04:06,014
+Agora especificamente é difícil.
+
+101
+00:04:06,015 --> 00:04:07,874
+Tá bom, mas Black Hat em geral.
+
+102
+00:04:08,413 --> 00:04:09,533
+E foi surpresa, né?
+
+103
+00:04:09,534 --> 00:04:11,372
+Pra mim, eu achei que eu não ia gostar
+
+104
+00:04:11,373 --> 00:04:15,609
+da Black Hat, porque foi muito corporativo, né?
+
+105
+00:04:15,610 --> 00:04:19,567
+É ali onde que as empresas estão mais de olho, elas
+
+106
+00:04:19,568 --> 00:04:23,346
+estão querendo se apresentar, então é o famoso arrasta pra cima,
+
+107
+00:04:24,034 --> 00:04:26,273
+pra cima e olha lá o que tá acontecendo.
+
+108
+00:04:26,274 --> 00:04:28,472
+Cara, mas de longe, de longe, o
+
+109
+00:04:28,473 --> 00:04:29,952
+que mais gostei foi Black Hat.
+
+110
+00:04:29,953 --> 00:04:32,230
+Inclusive, estou com a camisa da Black and sua
+
+111
+00:04:32,231 --> 00:04:34,159
+homenagem, que eu sei que você tô, né?
+
+112
+00:04:34,160 --> 00:04:35,958
+A camisa que foi super barata, né?
+
+113
+00:04:35,959 --> 00:04:37,018
+300 dólares.
+
+114
+00:04:38,397 --> 00:04:40,894
+Não foi 300 dólares, mas não é barato.
+
+115
+00:04:40,895 --> 00:04:43,093
+Mas infelizmente não tinha tamanho de
+
+116
+00:04:43,094 --> 00:04:44,633
+homem, então eu não comprei.
+
+117
+00:04:45,772 --> 00:04:47,331
+Eu só peguei a M, né?
+
+118
+00:04:47,332 --> 00:04:49,139
+E eu acho que puder dizer uma coisa que
+
+119
+00:04:49,140 --> 00:04:51,078
+eu mais gostei, uma coisa que eu mais gostei.
+
+120
+00:04:52,817 --> 00:04:53,497
+É foda, né?
+
+121
+00:04:53,498 --> 00:04:54,637
+Não tem como ver.
+
+122
+00:04:55,536 --> 00:04:57,934
+E eu tava pensando pra fazer episódio.
+
+123
+00:04:57,935 --> 00:04:59,614
+Mas eu acho que eu vou na sua, eu acho
+
+124
+00:04:59,615 --> 00:05:01,573
+que a Black Hat é uma coisa que é fantástica,
+
+125
+00:05:01,574 --> 00:05:04,411
+cara, é negócio bem legal, apesar de ser evento gigante,
+
+126
+00:05:04,412 --> 00:05:06,250
+a gente participou dois dias, a gente vai dar mais
+
+127
+00:05:06,251 --> 00:05:09,438
+detalhes pessoais, pessoal, mas acho que é alguma boa introdução,
+
+128
+00:05:09,439 --> 00:05:12,037
+então estamos juntos nessa, você mais gostou da Black Hat,
+
+129
+00:05:12,038 --> 00:05:14,956
+mais gostei da Black Hat também, mas não dá contexto
+
+130
+00:05:14,957 --> 00:05:17,104
+pra galera, o que é a Black Hat?
+
+131
+00:05:17,105 --> 00:05:20,003
+Coloquei aqui o título desse episódio né pessoal pra vender
+
+132
+00:05:21,222 --> 00:05:24,861
+os maiores eventos hacker do mundo né o título desse
+
+133
+00:05:24,862 --> 00:05:27,738
+episódio aqui porque na verdade são os maiores, né?
+
+134
+00:05:27,739 --> 00:05:29,178
+Eles são os maiores em tamanhos
+
+135
+00:05:29,179 --> 00:05:31,936
+de quantidade de pessoas, estrutura, enfim.
+
+136
+00:05:31,937 --> 00:05:32,736
+Então vamos lá.
+
+137
+00:05:32,737 --> 00:05:34,095
+O que é a Black Hat Rodrigues?
+
+138
+00:05:34,096 --> 00:05:36,294
+Explica pra galera aí que que quer ir, que
+
+139
+00:05:36,295 --> 00:05:40,012
+tem curiosidade, que nunca foi, que já foi, enfim.
+
+140
+00:05:40,013 --> 00:05:41,192
+O que é a Black Hat?
+
+141
+00:05:42,091 --> 00:05:44,130
+A Black Hat é evento que ela
+
+142
+00:05:44,131 --> 00:05:46,919
+é voltada para a praia comercial.
+
+143
+00:05:46,920 --> 00:05:50,997
+Então é onde as empresas vão apresentar o seu produto e
+
+144
+00:05:50,998 --> 00:05:55,624
+daí você encontra produtos que já são eles já estão no
+
+145
+00:05:55,625 --> 00:05:59,822
+mercado há muito tempo você encontra muita novidade então é o
+
+146
+00:05:59,823 --> 00:06:03,579
+momento para você é a famosa a famosa feira.
+
+147
+00:06:03,580 --> 00:06:04,439
+Isso quer falar.
+
+148
+00:06:05,578 --> 00:06:09,056
+Você encontra todo tipo de produto, nesse caso
+
+149
+00:06:09,057 --> 00:06:13,154
+voltado à segurança, todo tipo de produto.
+
+150
+00:06:13,155 --> 00:06:15,193
+E desde produzir a consolidadas
+
+151
+00:06:15,194 --> 00:06:16,472
+no mercado, até novidade.
+
+152
+00:06:16,473 --> 00:06:17,752
+Ela tinha muita novidade, né?
+
+153
+00:06:17,753 --> 00:06:19,151
+Tem bastante coisa bacana.
+
+154
+00:06:19,152 --> 00:06:20,570
+Acho que é super isso.
+
+155
+00:06:21,159 --> 00:06:23,358
+A gente especificamente, a gente
+
+156
+00:06:23,359 --> 00:06:25,197
+foi justamente atrás de solução.
+
+157
+00:06:25,198 --> 00:06:29,275
+Então, eu acho que a melhor forma de explicar
+
+158
+00:06:29,276 --> 00:06:33,183
+é isso, a gente foi atrás de entender soluções
+
+159
+00:06:33,184 --> 00:06:36,501
+do mercado, as melhores, então você via lá até
+
+160
+00:06:36,502 --> 00:06:38,940
+pelos estandes, então você via Microsoft,
+
+161
+00:06:38,941 --> 00:06:41,389
+as estruturas surdas nos esportes.
+
+162
+00:06:41,390 --> 00:06:43,028
+Não, eu acordei demais.
+
+163
+00:06:43,029 --> 00:06:46,386
+Inclusive, era tão grande que a gente ficou
+
+164
+00:06:46,387 --> 00:06:49,214
+lá, acho que dois, três dias andando oito
+
+165
+00:06:49,215 --> 00:06:51,213
+horas, dez horas lá por dia.
+
+166
+00:06:51,214 --> 00:06:54,931
+E acho que faltou tudo.
+
+167
+00:06:54,932 --> 00:06:57,099
+Isso que a gente foi muito especial.
+
+168
+00:06:57,100 --> 00:06:58,739
+Cívico e parava só em coisas
+
+169
+00:06:58,740 --> 00:07:00,418
+específicas de aplicações de pesquisa.
+
+170
+00:07:00,419 --> 00:07:02,077
+Só que a gente queria ver, sabe?
+
+171
+00:07:03,656 --> 00:07:04,115
+Boa!
+
+172
+00:07:04,116 --> 00:07:07,273
+Boa introdução, eu complementaria falando sobre isso,
+
+173
+00:07:07,274 --> 00:07:08,832
+eu fosse pra resumir a black, eu
+
+174
+00:07:08,833 --> 00:07:10,891
+falarei exatamente isso, é uma grande feira.
+
+175
+00:07:11,400 --> 00:07:14,318
+Mas a black a gente na verdade ela acontece durante
+
+176
+00:07:14,319 --> 00:07:17,197
+eu vou até pegar minha cola aqui porque eu não
+
+177
+00:07:17,198 --> 00:07:20,884
+quero falar besteira pessoal ela a gente a gente teve
+
+178
+00:07:20,885 --> 00:07:23,283
+o Business Pass que dá direito a acesso a dois
+
+179
+00:07:23,284 --> 00:07:26,282
+dias a exatamente essa grande feira onde tá lá né
+
+180
+00:07:26,283 --> 00:07:29,459
+todos os fabricantes os venders tudo mais que é negócio
+
+181
+00:07:29,460 --> 00:07:31,178
+fantástico, quando você falou, a gente passou dois dias lá
+
+182
+00:07:31,179 --> 00:07:33,817
+andando oito, nove horas e não viu tudo, né?
+
+183
+00:07:33,818 --> 00:07:37,455
+O que a gente ganhou de brinde, adesivo, camisa,
+
+184
+00:07:37,456 --> 00:07:41,583
+garrafinha, cup, cake Mano, é muito de tudo.
+
+185
+00:07:42,802 --> 00:07:44,322
+Mas a verdade é essa.
+
+186
+00:07:44,323 --> 00:07:45,881
+Inclusive, eu tô usando aqui,
+
+187
+00:07:45,882 --> 00:07:46,960
+uma do que eu ganhei,
+
+188
+00:07:46,961 --> 00:07:49,249
+do mais da SPOT. Boa, boa.
+
+189
+00:07:49,250 --> 00:07:51,168
+Eu queria pegar as datas aqui, agora fugiu de
+
+190
+00:07:51,169 --> 00:07:53,727
+cabeça, mas acho que são 5 dias de Black
+
+191
+00:07:53,728 --> 00:07:57,034
+Hat, do dia 5 ao dia 10, 5 dias.
+
+192
+00:07:57,035 --> 00:07:57,994
+Então, do dia
+
+193
+00:07:57,995 --> 00:08:00,033
+5, 6, 7, 8,
+
+194
+00:08:00,034 --> 00:08:01,592
+esses primeiros dias são os que
+
+195
+00:08:01,593 --> 00:08:03,719
+eles chamam de treinamento nos trainees.
+
+196
+00:08:03,720 --> 00:08:05,998
+Então você paga uma grana específica lá, 2
+
+197
+00:08:05,999 --> 00:08:07,957
+mil dólares, 3 mil dólares por cada treinamento
+
+198
+00:08:07,958 --> 00:08:09,677
+e você tem acesso aos treinamentos, então peça
+
+199
+00:08:09,678 --> 00:08:11,434
+que você tem acesso a todos e tal.
+
+200
+00:08:11,435 --> 00:08:13,953
+Os primeiros XA2 são treinamentos oficiais,
+
+201
+00:08:13,954 --> 00:08:16,072
+treinamentos formados e tal, enfim.
+
+202
+00:08:16,073 --> 00:08:17,631
+A gente não fez essa parte,
+
+203
+00:08:17,632 --> 00:08:21,189
+não estava no nosso escopo, queria. Então,
+
+204
+00:08:21,190 --> 00:08:22,209
+ainda for pobre.
+
+205
+00:08:23,388 --> 00:08:25,427
+É legal tu participar mais do nosso foco.
+
+206
+00:08:25,428 --> 00:08:27,626
+É muito treinamento ofensivo, né?
+
+207
+00:08:27,627 --> 00:08:28,934
+Tem muita coisa do que a gente
+
+208
+00:08:28,935 --> 00:08:30,574
+Enfim, mas tem lá os treinamentos.
+
+209
+00:08:30,575 --> 00:08:31,773
+Para a galera que não sabe o que
+
+210
+00:08:31,774 --> 00:08:33,612
+é, não é só uma feira comercial.
+
+211
+00:08:33,613 --> 00:08:35,451
+Tem a parte dos treinamentos também
+
+212
+00:08:35,452 --> 00:08:37,299
+que custa aí que costuma porrada.
+
+213
+00:08:37,300 --> 00:08:39,778
+Mas a parte que nos interessa, que é a feira, o
+
+214
+00:08:39,779 --> 00:08:42,177
+Business Pass que eles chamam, aí foi o dia 9 e
+
+215
+00:08:42,178 --> 00:08:44,816
+dia 10, são dois dias, e aí é uma grande feira,
+
+216
+00:08:44,817 --> 00:08:48,204
+dos instantes de todas as empresas, as atrações tinha gente pintando
+
+217
+00:08:48,205 --> 00:08:52,322
+garrafa, tinha gente com sorteio, e gente com competição, tem de
+
+218
+00:08:52,323 --> 00:08:55,400
+tudo, o Rodrigo falou, a gente ficou dois dias lá e
+
+219
+00:08:55,401 --> 00:08:57,969
+não viu tudo, e vale destacar eu não sei se foi
+
+220
+00:08:57,970 --> 00:09:00,687
+a primeira vez eu acho que ano passado já teve também
+
+221
+00:09:00,688 --> 00:09:04,046
+aquela área de startups então não tá só as empresas grandes
+
+222
+00:09:04,047 --> 00:09:08,993
+e estabelecidas de mercado mas muita startup nova, nova barra média
+
+223
+00:09:08,994 --> 00:09:11,392
+que já estão no mercado e tal, mas para lá mostrar
+
+224
+00:09:11,393 --> 00:09:15,959
+o produto, apresentar, enfim, inclusive dos que a gente conversou, não
+
+225
+00:09:15,960 --> 00:09:18,358
+vou falar o nome pra não fazer propaganda de graça pra
+
+226
+00:09:18,359 --> 00:09:22,057
+galera, até porque o maior podcast de Epic Security do mundo,
+
+227
+00:09:23,394 --> 00:09:25,633
+mas uns que a gente conversou lá eles ganharam o prêmio
+
+228
+00:09:25,634 --> 00:09:29,631
+lá da Black Hat de startup do destaque alguma coisa se
+
+229
+00:09:29,632 --> 00:09:32,740
+eles ganharam lá enfim então acho que essa parte específica da
+
+230
+00:09:32,741 --> 00:09:33,219
+feira, né?
+
+231
+00:09:33,220 --> 00:09:34,699
+Que é essa parte de Startup, são
+
+232
+00:09:34,700 --> 00:09:37,097
+negócios fantásticos, tem monte de vendedores lá,
+
+233
+00:09:37,098 --> 00:09:38,697
+monte de gente pra você conhecer.
+
+234
+00:09:38,698 --> 00:09:41,535
+E aí, cara, é a parte ruim do evento, né?
+
+235
+00:09:41,536 --> 00:09:44,764
+Você anda o Jim inteiro nessa parte da feira.
+
+236
+00:09:44,765 --> 00:09:47,682
+Não tem lugar pra você sentar, tem ou outro ali, mas
+
+237
+00:09:47,683 --> 00:09:50,561
+tem que sentar pra assistir a palestra do cara, né?
+
+238
+00:09:50,562 --> 00:09:52,470
+É cansativo pra caralho.
+
+239
+00:09:52,471 --> 00:09:53,589
+Eu passo o dia inteiro andando
+
+240
+00:09:53,590 --> 00:09:55,068
+e conversando com a galera.
+
+241
+00:09:55,069 --> 00:09:56,028
+Uma hora você nem sabe que
+
+242
+00:09:56,029 --> 00:09:58,107
+você está falando mais inglês, português.
+
+243
+00:09:58,108 --> 00:09:59,466
+Já foi, né?
+
+244
+00:09:59,467 --> 00:10:00,925
+Ela consome a sua mente.
+
+245
+00:10:01,584 --> 00:10:04,703
+Enfim, acho que essa parte de andar é ponto
+
+246
+00:10:04,704 --> 00:10:09,021
+negativo, negativo, faz parte, só cansa, não vai evitar,
+
+247
+00:10:09,022 --> 00:10:12,209
+vai voar, vai comprar drone e ser voando, Eu
+
+248
+00:10:12,210 --> 00:10:14,688
+acho que esse é o resumo da Plancket, né?
+
+249
+00:10:14,689 --> 00:10:17,846
+Eu já tive em outros tipos de feira, eu já trabalhei
+
+250
+00:10:17,847 --> 00:10:21,693
+em importação, então sempre lá no Center Norte tinha, né?
+
+251
+00:10:21,694 --> 00:10:22,293
+Sim, tipo
+
+252
+00:10:22,294 --> 00:10:23,293
+de feira.
+
+253
+00:10:23,294 --> 00:10:26,651
+E é a mesma sensação. Então, sei lá, o dia
+
+254
+00:10:26,652 --> 00:10:28,570
+inteiro e pé, andando, conversando.
+
+255
+00:10:28,571 --> 00:10:31,398
+Então, A ideia, nesse caso, que a gente
+
+256
+00:10:31,399 --> 00:10:34,277
+foi lá da Feira, era isso, era conhecer
+
+257
+00:10:34,278 --> 00:10:36,904
+pessoas, conversar e entender soluções fones, então o
+
+258
+00:10:36,905 --> 00:10:39,023
+pessoal já estão com as máquinas lá preparados
+
+259
+00:10:39,024 --> 00:10:41,142
+para fazer demonstração, para explicar mais.
+
+260
+00:10:41,143 --> 00:10:44,479
+Então, se você quer conhecer, se você quer tem que
+
+261
+00:10:44,480 --> 00:10:49,397
+bater perna, tem que andar, tem que conhecer tudo, né?
+
+262
+00:10:49,398 --> 00:10:52,054
+Ou tentar conhecer tudo. Foi o nosso caso.
+
+263
+00:10:52,055 --> 00:10:52,534
+Né?
+
+264
+00:10:52,535 --> 00:10:54,293
+Que dica você daria aí pra galera que
+
+265
+00:10:54,294 --> 00:10:56,332
+quer visitar Black Hat pela primeira vez, mano?
+
+266
+00:10:56,333 --> 00:10:58,331
+O que você acha que você fala ó, faça
+
+267
+00:10:58,332 --> 00:11:01,409
+isso, ou não esqueça aquilo, tem alguma coisa psico
+
+268
+00:11:01,410 --> 00:11:03,608
+algumas coisas que eu queria falar pro pessoal.
+
+269
+00:11:03,609 --> 00:11:05,287
+Eu acho que uma coisa que é chave,
+
+270
+00:11:05,288 --> 00:11:08,594
+que a gente acertou de cara, foi focado.
+
+271
+00:11:08,595 --> 00:11:12,053
+Então, a gente foi com o foco de Application Security.
+
+272
+00:11:12,752 --> 00:11:16,299
+Porque a cada centímetro, tudo é interessante.
+
+273
+00:11:16,300 --> 00:11:18,898
+Tudo é interessante, tudo é legal, tudo você quer
+
+274
+00:11:18,899 --> 00:11:22,456
+parar pra entender, conhecer, tem coisa que você conhece
+
+275
+00:11:22,457 --> 00:11:25,255
+e o cara tá demonstrando com inteligência artificial e
+
+276
+00:11:25,256 --> 00:11:30,172
+daí você mas se não for com foco, acabou.
+
+277
+00:11:30,173 --> 00:11:31,332
+Você vai perder.
+
+278
+00:11:31,333 --> 00:11:35,769
+Porque a gente, com foco, andou muito durante
+
+279
+00:11:35,770 --> 00:11:38,087
+esses dias e não conseguiu ver tudo.
+
+280
+00:11:38,088 --> 00:11:42,314
+Então se a gente fosse sem o foco, É,
+
+281
+00:11:42,315 --> 00:11:44,353
+está disperso lá e não ia ter conhecido a
+
+282
+00:11:44,354 --> 00:11:46,072
+metade do que a gente precisava lá.
+
+283
+00:11:46,073 --> 00:11:48,471
+Bom, então para quem vai visitar o Business Pass
+
+284
+00:11:48,472 --> 00:11:50,399
+ou a Feira, vamos dizer assim, O legal é,
+
+285
+00:11:50,400 --> 00:11:53,798
+bom, você tá procurando soluções de defesa?
+
+286
+00:11:53,799 --> 00:11:54,557
+Então, foca nisso.
+
+287
+00:11:54,558 --> 00:11:55,916
+Você tá procurando vulnerabilidade
+
+288
+00:11:55,917 --> 00:11:57,554
+management, foca nessas empresas.
+
+289
+00:11:57,555 --> 00:12:00,073
+E aí você, meu, foca, sobrou tempo, vai
+
+290
+00:12:00,074 --> 00:12:02,152
+ser uma das outras coisas e tal.
+
+291
+00:12:02,153 --> 00:12:04,859
+Acho que a gente parou num ou dois stands lá,
+
+292
+00:12:04,860 --> 00:12:07,718
+que é diferente assim, não era aqueles caras que fazem
+
+293
+00:12:08,298 --> 00:12:11,776
+quase que bug bounty do governo, se você tiver informações
+
+294
+00:12:11,777 --> 00:12:14,024
+sobre os caras lá desaparecer cedo, o cara que não
+
+295
+00:12:14,025 --> 00:12:16,943
+são procurados e tal, pelo governo americano e você tiver
+
+296
+00:12:16,944 --> 00:12:20,639
+informações, você ganha balde e tal, tem uma microiniciativa, projeto
+
+297
+00:12:20,640 --> 00:12:22,399
+tástico lá, acho que isso a gente parou pra trocar
+
+298
+00:12:22,400 --> 00:12:25,037
+uma mulher em tempo e ou outro lá também, mas
+
+299
+00:12:25,038 --> 00:12:28,334
+no geral a gente focou em soluções de escane de
+
+300
+00:12:28,335 --> 00:12:33,332
+código, subchains, gestão de vulnerabilidades, enfim, toda essa questão de
+
+301
+00:12:33,333 --> 00:12:34,869
+epicege a gente sempre fala aqui.
+
+302
+00:12:35,389 --> 00:12:36,988
+Cara, se eu pudesse dar uma dica pra
+
+303
+00:12:36,989 --> 00:12:39,907
+galera, pra BlackRent específico, além dessa do foco,
+
+304
+00:12:39,908 --> 00:12:41,906
+que eu acho que é uma fantástica, né?
+
+305
+00:12:41,907 --> 00:12:43,246
+Crucial, tem que ter.
+
+306
+00:12:44,114 --> 00:12:45,953
+Leva a sacola, porque você vai se
+
+307
+00:12:45,954 --> 00:12:47,973
+encaixar pra pé de brinde, né?
+
+308
+00:12:49,112 --> 00:12:51,209
+Eu tô transbordando de adesivo aqui, que eu
+
+309
+00:12:51,210 --> 00:12:53,648
+tô parecendo cadeira de tanta tatuagem, né?
+
+310
+00:12:53,649 --> 00:12:55,727
+É muito adesivo, cara. É muita coisa.
+
+311
+00:12:55,728 --> 00:13:00,974
+É porque, por ser muito grande, e muitas empresas
+
+312
+00:13:00,975 --> 00:13:04,012
+gigantes, todo mundo tem que aparecer de alguma forma.
+
+313
+00:13:04,013 --> 00:13:05,012
+Todo
+
+314
+00:13:05,013 --> 00:13:05,097
+mundo tem que chamar atenção.
+
+315
+00:13:05,098 --> 00:13:06,929
+Todo mundo tem que chamar atenção, isso quer falar.
+
+316
+00:13:06,930 --> 00:13:09,088
+Então você vai ver muito brinde,
+
+317
+00:13:09,089 --> 00:13:11,807
+muito adesivo, coloridão, lindo, maravilhoso.
+
+318
+00:13:11,808 --> 00:13:14,754
+Aí você olha, eu quero pegar isso aqui.
+
+319
+00:13:14,755 --> 00:13:17,493
+Aí você vai pegar, o cara já conhece a solução?
+
+320
+00:13:18,752 --> 00:13:20,232
+Algumas das soluções a gente
+
+321
+00:13:20,233 --> 00:13:22,691
+parou por conta do adesivo.
+
+322
+00:13:24,639 --> 00:13:26,518
+E vai lá conhecer.
+
+323
+00:13:26,519 --> 00:13:30,716
+Então, cara, eles vão te chamar atenção, eles vão
+
+324
+00:13:30,717 --> 00:13:35,273
+te dar brinde, Vá com uma bolsa boa, né?
+
+325
+00:13:35,274 --> 00:13:36,493
+Porque a minha terra rasgou
+
+326
+00:13:39,151 --> 00:13:42,509
+E eu destacaria ainda Na Black tem
+
+327
+00:13:42,510 --> 00:13:44,388
+uma área chamada Arsenal, é onde o
+
+328
+00:13:44,389 --> 00:13:46,467
+pessoal apresenta soluções open source, né?
+
+329
+00:13:46,468 --> 00:13:48,546
+De ferramentas novas e ferramentas open source que
+
+330
+00:13:48,547 --> 00:13:50,145
+o pessoal tá fazendo, enfim, e não só
+
+331
+00:13:50,146 --> 00:13:51,595
+o open source, mas ferramentas, né?
+
+332
+00:13:51,596 --> 00:13:52,714
+É tanto que a gente viu alguma lá, que
+
+333
+00:13:52,715 --> 00:13:55,153
+na verdade eles tem uma versão Enterprise também, então.
+
+334
+00:13:55,154 --> 00:13:57,911
+E cara, vale muito a pena conhecer, cada hora, cada
+
+335
+00:13:57,912 --> 00:14:00,270
+tempo lá tem pessoal fazendo uma demonstração, ali ao vivo
+
+336
+00:14:00,271 --> 00:14:02,959
+das soluções que eles estão ofertando e tal.
+
+337
+00:14:02,960 --> 00:14:03,798
+Muito bacana.
+
+338
+00:14:03,799 --> 00:14:05,538
+Então tem muita coisa na feira.
+
+339
+00:14:06,157 --> 00:14:07,117
+Ele vai mudando, né?
+
+340
+00:14:07,118 --> 00:14:08,396
+Acho que vai mudando, né?
+
+341
+00:14:08,397 --> 00:14:11,114
+Porque a gente ia lá, a barraquinha
+
+342
+00:14:13,973 --> 00:14:16,451
+já tinha saído, já era outra solução.
+
+343
+00:14:16,452 --> 00:14:18,330
+Então, de tempos em tempos,
+
+344
+00:14:18,331 --> 00:14:19,570
+é legal ir conferindo.
+
+345
+00:14:19,571 --> 00:14:21,949
+Isso, Então, esse ano acho que eles estrearam a
+
+346
+00:14:21,950 --> 00:14:23,708
+área de Lego lá, que o pessoal podia montar
+
+347
+00:14:23,709 --> 00:14:26,106
+uns leques, fazer umas brincadeiras, ter a área das
+
+348
+00:14:26,107 --> 00:14:29,055
+startups, ter os estandes com as empresas grandes, enfim.
+
+349
+00:14:29,056 --> 00:14:31,293
+Mas essa negócio do foco eu acho que eu queria
+
+350
+00:14:31,294 --> 00:14:33,492
+voltar nisso porque eu lembro que tinha uma acho que
+
+351
+00:14:33,493 --> 00:14:36,091
+era Sentinela uma das empresas lá que tinha uma árvore
+
+352
+00:14:36,092 --> 00:14:40,608
+gigante no meio do stand, piscando com LED e tal.
+
+353
+00:14:40,609 --> 00:14:43,446
+Aí tinha uma outra que tinha aquário, dá ouro aquário.
+
+354
+00:14:43,447 --> 00:14:45,645
+Tipo assim, são pessoas que pra gente não faz
+
+355
+00:14:45,646 --> 00:14:47,924
+sentido, a gente não dá olhando Você passa, pô,
+
+356
+00:14:47,925 --> 00:14:49,443
+vou tirar foto, vou olhar e tal.
+
+357
+00:14:49,444 --> 00:14:51,842
+Às vezes o cara tá dando bombom, chocolate, café,
+
+358
+00:14:51,843 --> 00:14:53,940
+você para pra tomar café, pegar negócio ali.
+
+359
+00:14:53,941 --> 00:14:55,619
+Eles querem pegar sua atenção,
+
+360
+00:14:55,620 --> 00:14:57,698
+então acaba oferecendo coisas também.
+
+361
+00:14:57,699 --> 00:15:01,216
+Inclusive, você vê que é muito proposital isso porque
+
+362
+00:15:01,217 --> 00:15:03,904
+o email que eles te enviam depois é Minha
+
+363
+00:15:03,905 --> 00:15:06,803
+empresa é aquela que tinha uma árvore gigante, né?
+
+364
+00:15:07,423 --> 00:15:08,782
+Ah, lembrei qual que é.
+
+365
+00:15:08,783 --> 00:15:12,180
+Então eles fazem realmente pra chamar atenção
+
+366
+00:15:12,181 --> 00:15:13,829
+pra ficar marcado na sua cabeça.
+
+367
+00:15:13,830 --> 00:15:14,429
+Sim.
+
+368
+00:15:14,430 --> 00:15:17,827
+Cara, é coisa de doido, mano.
+
+369
+00:15:17,828 --> 00:15:20,146
+Não, essa feira aí foi muito boa.
+
+370
+00:15:20,147 --> 00:15:22,575
+Quando custou o ingresso do Business Pass,
+
+371
+00:15:22,576 --> 00:15:23,054
+para a
+
+372
+00:15:23,055 --> 00:15:26,173
+galera que quer e não, nem expressa esse
+
+373
+00:15:26,174 --> 00:15:29,911
+tipo de para não assustar a professora. Enquanto gostou?
+
+374
+00:15:30,490 --> 00:15:33,148
+Você me fala a moeda, fala só o número, custou?
+
+375
+00:15:33,688 --> 00:15:35,787
+Não sei, a digital ou pagou?
+
+376
+00:15:36,886 --> 00:15:40,743
+Custou, acho que eu penso nas peças 560. Dinheiro.
+
+377
+00:15:40,744 --> 00:15:41,403
+Não importa.
+
+378
+00:15:42,662 --> 00:15:43,502
+Dinheiro.
+
+379
+00:15:43,503 --> 00:15:45,941
+Custa de 160 a 540 dólares.
+
+380
+00:15:45,942 --> 00:15:48,689
+O Business Pass não é barato. Depende, né?
+
+381
+00:15:48,690 --> 00:15:50,168
+Se você é trilionário, você
+
+382
+00:15:50,169 --> 00:15:52,247
+pode achar barato, é relativo. Mas vamos lá.
+
+383
+00:15:52,248 --> 00:15:54,406
+Eu acho que é 50, 60 dólares, né?
+
+384
+00:15:54,407 --> 00:15:56,734
+O Business Pass dali desses dois dias da feira, né?
+
+385
+00:15:56,735 --> 00:15:58,453
+E tudo que tá em volta da feira.
+
+386
+00:15:58,454 --> 00:16:00,292
+Inclusive, tem palestras, né?
+
+387
+00:16:00,293 --> 00:16:02,829
+Que a gente não assistiu que as palestras atrocinadas, a
+
+388
+00:16:02,830 --> 00:16:04,668
+gente acabou não focando nisso, a gente queria ver as
+
+389
+00:16:04,669 --> 00:16:07,227
+soluções mesmo, mas é algo que a gente também, você
+
+390
+00:16:07,228 --> 00:16:09,946
+acaba perdendo uma hora, duas ali em palestra, dependendo da
+
+391
+00:16:09,947 --> 00:16:11,724
+coisa que a gente fala você quer ver, mas também
+
+392
+00:16:11,725 --> 00:16:13,204
+te dá acesso a tudo isso.
+
+393
+00:16:13,205 --> 00:16:21,160
+E você falando do preço, eu acho que é válido.
+
+394
+00:16:21,161 --> 00:16:24,078
+Eu pagaria de novo pra ir quando precisar.
+
+395
+00:16:24,079 --> 00:16:26,797
+Então a gente já foi lá, entendeu muitas soluções, agora
+
+396
+00:16:26,798 --> 00:16:30,134
+é trabalhar com elas, por enquanto não tem a necessidade
+
+397
+00:16:30,135 --> 00:16:33,692
+de correr atrás, quando vamos trabalhar, vamos entender e a
+
+398
+00:16:33,693 --> 00:16:36,131
+gente vai ver se vale a pena ou não.
+
+399
+00:16:36,132 --> 00:16:38,639
+E daí quando tiver a necessidade pago de novo.
+
+400
+00:16:38,640 --> 00:16:39,539
+Esse é interessante.
+
+401
+00:16:40,918 --> 00:16:43,877
+Inclusive, esse ponto aí vale a pena
+
+402
+00:16:43,878 --> 00:16:45,256
+ir na Black Hat todo ano?
+
+403
+00:16:46,074 --> 00:16:49,712
+Eu, minha visão, é que não vale. Por quê?
+
+404
+00:16:49,713 --> 00:16:51,631
+É lógico que tem solução nova todo ano?
+
+405
+00:16:51,632 --> 00:16:54,590
+Tem, mas daquele tamanho não vai ter tanta coisa
+
+406
+00:16:54,591 --> 00:16:57,688
+nova de soluções do seu mercado, igual a gente
+
+407
+00:16:57,689 --> 00:17:00,327
+falou, vai focar em apseque, vai ter coisa nova?
+
+408
+00:17:00,328 --> 00:17:02,566
+Vai, mas às vezes não vale né, todos os
+
+409
+00:17:02,567 --> 00:17:05,395
+juros da viagem, do ingresso, do custo pra ir
+
+410
+00:17:05,396 --> 00:17:07,393
+pra feira no ano seguinte, que de repente
+
+411
+00:17:07,394 --> 00:17:08,033
+não vai ter tanta
+
+412
+00:17:08,034 --> 00:17:11,192
+coisa nova com relação ao ano passado.
+
+413
+00:17:11,193 --> 00:17:13,430
+Então porque as soluções elas
+
+414
+00:17:13,431 --> 00:17:15,349
+elas levam tempo para amadurecer.
+
+415
+00:17:15,350 --> 00:17:15,988
+Sim, pode
+
+416
+00:17:15,989 --> 00:17:19,327
+ser que a gente viu muita coisa interessante, mas
+
+417
+00:17:20,106 --> 00:17:22,014
+na prática você vai colocar na prática, você vai
+
+418
+00:17:22,015 --> 00:17:24,013
+ver que uma coisa ou outra falha e daí,
+
+419
+00:17:24,014 --> 00:17:27,092
+por exemplo, se a ideia é vender, talvez ela
+
+420
+00:17:27,093 --> 00:17:30,000
+não é tão interessante para a venda, porque a
+
+421
+00:17:30,001 --> 00:17:32,518
+manutenção e tudo mais, o cliente vai reclamar.
+
+422
+00:17:32,519 --> 00:17:33,038
+Mas se você
+
+423
+00:17:33,039 --> 00:17:36,276
+quer soluções para você implementar na sua empresa, aí
+
+424
+00:17:36,277 --> 00:17:38,155
+talvez faça mais sentido, você quer ver uma coisa
+
+425
+00:17:38,156 --> 00:17:40,224
+de diferença e você quer ir buscando. Talvez.
+
+426
+00:17:40,225 --> 00:17:43,023
+Então, mas sei lá, eu diria que a BlackRest talvez
+
+427
+00:17:43,024 --> 00:17:45,782
+ciclo de três anos seria legal a cada três anos.
+
+428
+00:17:45,783 --> 00:17:46,741
+Sim, na feira, né?
+
+429
+00:17:46,742 --> 00:17:48,319
+Enfim, essa é uma o feeling, né?
+
+430
+00:17:48,320 --> 00:17:50,118
+Foi a primeira vez que a gente foi, então é
+
+431
+00:17:50,119 --> 00:17:51,678
+o feeling pelo menos com o nosso foco aqui.
+
+432
+00:17:51,679 --> 00:17:53,597
+Talvez pra quem seja de ofensiva security, tem
+
+433
+00:17:53,598 --> 00:17:56,115
+uma visão diferente, porque talvez soluções de ofensiva
+
+434
+00:17:56,116 --> 00:17:57,914
+maiores ou dos defeitos, enfim, né?
+
+435
+00:17:57,915 --> 00:18:01,112
+Só uma ideia pra que ela não está ouvindo a gente.
+
+436
+00:18:01,113 --> 00:18:01,612
+Beleza.
+
+437
+00:18:02,231 --> 00:18:05,789
+Então vamos lá, dia 8 e 9, então, teve a Aliás, dia
+
+438
+00:18:05,790 --> 00:18:08,827
+910 né, teve a Black Hat, não, 8 e 9 a gente
+
+439
+00:18:08,828 --> 00:18:13,124
+foi pra Black Hat, mas no dia 8 teve evento antes, que
+
+440
+00:18:13,125 --> 00:18:15,683
+a gente foi, foi o primeiro evento que a gente foi lá.
+
+441
+00:18:15,684 --> 00:18:18,482
+Absides, foi o primeiro evento que a
+
+442
+00:18:18,483 --> 00:18:21,430
+gente foi, tipo Absides, as Vegas, né?
+
+443
+00:18:21,431 --> 00:18:25,747
+Inclusive, você tem uma foto emblemática aí que você
+
+444
+00:18:25,748 --> 00:18:27,986
+será o que estou. Será?
+
+445
+00:18:27,987 --> 00:18:29,326
+Não, não é nem direito.
+
+446
+00:18:30,415 --> 00:18:33,453
+É troféu da vida essa foto então daqui a pouco a
+
+447
+00:18:33,454 --> 00:18:35,932
+gente vai tá no final desse episódio aqui pessoal vai ter
+
+448
+00:18:35,933 --> 00:18:39,740
+vlogzinho aí com fotos slides ou eu vou fazer link enfim
+
+449
+00:18:39,741 --> 00:18:41,819
+vou ver o tempo de produção que eu queria postar esse
+
+450
+00:18:41,820 --> 00:18:46,736
+episódio enquanto antes, então vai ter making of de como foi
+
+451
+00:18:46,737 --> 00:18:48,525
+a viagem, como foi as coisas lá.
+
+452
+00:18:48,526 --> 00:18:50,564
+Mas teve a Bissaid de Slas Vegas, pra quem não
+
+453
+00:18:50,565 --> 00:18:53,762
+conhece a Bissaid, morra, porque a gente fala da Bissaid
+
+454
+00:18:53,763 --> 00:18:56,260
+da 4 anos, aqui não deve ser qualquer podcast.
+
+455
+00:18:56,261 --> 00:18:57,699
+Especialmente a Bissant de São Paulo, mas a
+
+456
+00:18:57,700 --> 00:18:59,098
+gente era, a Bissant de Cracco, eu vou
+
+457
+00:18:59,099 --> 00:19:01,137
+aqui onde eu fundei aqui na Polônia.
+
+458
+00:19:01,138 --> 00:19:03,256
+E eu posso dizer que já conheço três Bissants,
+
+459
+00:19:03,257 --> 00:19:04,615
+eu já fui na de São Paulo, na de
+
+460
+00:19:04,616 --> 00:19:07,694
+Cracóvia, que eu fundei, organizo e nada de Las
+
+461
+00:19:07,695 --> 00:19:10,372
+Vegas que é original, onde começou o Absite, né?
+
+462
+00:19:10,373 --> 00:19:11,292
+Absite Las Vegas.
+
+463
+00:19:11,293 --> 00:19:12,211
+O que você achou, mano?
+
+464
+00:19:12,212 --> 00:19:14,309
+Você curtiu o Absite? Você achou?
+
+465
+00:19:14,310 --> 00:19:15,628
+Você esperava mais?
+
+466
+00:19:15,629 --> 00:19:16,828
+Como é que é?
+
+467
+00:19:16,829 --> 00:19:17,827
+Não.
+
+468
+00:19:17,828 --> 00:19:20,906
+Na verdade, assim, a minha expectativa era muito baixa
+
+469
+00:19:20,907 --> 00:19:24,903
+para meus sites, tipo, porque comparando com Black Hat
+
+470
+00:19:24,904 --> 00:19:26,902
+e com o Jeff, com o Flight.
+
+471
+00:19:26,903 --> 00:19:29,221
+Absiders vai ser só mais alguma coisa.
+
+472
+00:19:29,222 --> 00:19:31,419
+Tipo assim, já estou aqui, eu vou, né?
+
+473
+00:19:31,420 --> 00:19:35,298
+É, então não fui com expectativa, mas cara
+
+474
+00:19:35,299 --> 00:19:38,816
+ultrapassou, tipo, eu fui mais ou menos, só
+
+475
+00:19:38,817 --> 00:19:42,704
+que curti muito, então curtir muito a Black
+
+476
+00:19:42,705 --> 00:19:45,502
+Hat e, em segundo lugar, curti mais abissais.
+
+477
+00:19:45,503 --> 00:19:49,760
+Então, cara, eu senti que era mais, como posso dizer.
+
+478
+00:19:51,209 --> 00:19:53,408
+Sentir como se fosse mais raiz as pessoas estão
+
+479
+00:19:53,409 --> 00:19:57,366
+muito mais próximas elas estão conversando o pessoal é
+
+480
+00:19:57,367 --> 00:20:00,154
+eu acho que por ser menor você consegue interagir
+
+481
+00:20:00,155 --> 00:20:02,753
+mais, então as salinhas eram menores.
+
+482
+00:20:02,754 --> 00:20:04,912
+Pelo menos as que a gente foi, né?
+
+483
+00:20:04,913 --> 00:20:08,878
+Talvez sé que não seja de tanto interesse, talvez
+
+484
+00:20:08,879 --> 00:20:13,036
+as salas de Red Team fossem gigantescas, mas na
+
+485
+00:20:13,037 --> 00:20:15,535
+visão que eu tive era algo mais próximo.
+
+486
+00:20:15,536 --> 00:20:19,113
+Então, lembrou bastante a Bissant de São Paulo.
+
+487
+00:20:19,853 --> 00:20:23,589
+A Bissant de São Paulo foi a visão que
+
+488
+00:20:23,590 --> 00:20:26,268
+eu tive era muita gente para espaço pequeno, porque
+
+489
+00:20:26,269 --> 00:20:29,706
+acho que cresceu muito e precisou de espaço maior.
+
+490
+00:20:29,707 --> 00:20:34,483
+Então, foi a Abyside de São Paulo Maior.
+
+491
+00:20:34,484 --> 00:20:39,779
+Cara, vi muita gente importantíssima lá dentro, o pessoal
+
+492
+00:20:40,439 --> 00:20:43,117
+tem várias mesas no meio lá onde que o
+
+493
+00:20:43,118 --> 00:20:45,836
+pessoal se reúne para você trocar ideia sem estar
+
+494
+00:20:45,837 --> 00:20:48,354
+com pessoa, então elas são vezes gigantescas, e o
+
+495
+00:20:48,355 --> 00:20:50,573
+pessoal tem razão.
+
+496
+00:20:51,672 --> 00:20:53,291
+E isso faz muita diferença.
+
+497
+00:20:54,420 --> 00:20:56,739
+Inclusive, é porque a gente estava com pressa, até
+
+498
+00:20:56,740 --> 00:20:59,837
+palestrante, que a gente interagiu durante a palestra.
+
+499
+00:21:00,537 --> 00:21:02,256
+Você passava pelos palestrantes, ele
+
+500
+00:21:02,257 --> 00:21:04,524
+chamava trocar ideia e tal.
+
+501
+00:21:04,525 --> 00:21:05,464
+Isso é interessante.
+
+502
+00:21:06,083 --> 00:21:08,962
+Você se sentir, como posso dizer,
+
+503
+00:21:08,963 --> 00:21:10,262
+se sentir em casa, né?
+
+504
+00:21:11,321 --> 00:21:12,540
+Eu me senti em website.
+
+505
+00:21:14,069 --> 00:21:16,628
+E as cabissaias valem destacar que ela tem esse espírito
+
+506
+00:21:16,629 --> 00:21:20,706
+mesmo de ser mais acolhedora de ser que dá para
+
+507
+00:21:20,707 --> 00:21:23,754
+usar essa palavra E o Rodrigo, a pequena correção, né?
+
+508
+00:21:23,755 --> 00:21:25,873
+Rodrigo falou que é mais pequena.
+
+509
+00:21:25,874 --> 00:21:28,671
+Mano, tinha 10 tracks simultâneos na pista.
+
+510
+00:21:28,672 --> 00:21:30,271
+O primeiro ideia do pequeno que
+
+511
+00:21:30,272 --> 00:21:33,379
+era o evento, Dez tracks simultâneos.
+
+512
+00:21:33,380 --> 00:21:35,218
+Vocês foram todo ano assim lá, mas
+
+513
+00:21:35,219 --> 00:21:37,017
+eu sei que é maior lá, obviamente.
+
+514
+00:21:37,018 --> 00:21:39,944
+Mas tinha dez tracks de fora a vila, de forma não
+
+515
+00:21:39,945 --> 00:21:42,343
+sei o que, mas já dez coisas acontecendo mesmo tempo.
+
+516
+00:21:42,344 --> 00:21:43,902
+Dependendo da mesa, né?
+
+517
+00:21:43,903 --> 00:21:46,559
+Ser menor do que a Dafne.
+
+518
+00:21:46,560 --> 00:21:48,139
+Exato, exato, comparação.
+
+519
+00:21:48,718 --> 00:21:50,757
+Ainda assim, é gigante, gigante.
+
+520
+00:21:50,758 --> 00:21:55,534
+A gente andou muito lá Cara, Os
+
+521
+00:21:55,535 --> 00:21:58,913
+hotéis, onde essas coisas acontecerem, são gigantescos.
+
+522
+00:21:59,573 --> 00:21:59,692
+Se
+
+523
+00:21:59,693 --> 00:22:01,092
+você não seguir parte, você se perde.
+
+524
+00:22:01,093 --> 00:22:02,731
+Se alguém te jogar lá dentro do nego
+
+525
+00:22:02,732 --> 00:22:04,420
+acabou, mas você não já vai sai.
+
+526
+00:22:04,421 --> 00:22:09,897
+E detalhe também da BSides é Custa só
+
+527
+00:22:09,898 --> 00:22:12,915
+100 dólares, o ingresso só 100 dólares, né?
+
+528
+00:22:12,916 --> 00:22:14,714
+500 reais, né? Mas vamos lá.
+
+529
+00:22:14,715 --> 00:22:16,793
+Só 100 dólares, então é muito mais barato,
+
+530
+00:22:16,794 --> 00:22:19,930
+muito mais esse, é evento mais focado nos
+
+531
+00:22:19,931 --> 00:22:24,367
+iniciantes, com tópicos mais tranquilos, mais pouco.
+
+532
+00:22:24,368 --> 00:22:26,486
+E também tem ingresso de doação.
+
+533
+00:22:26,487 --> 00:22:28,774
+Então você pra quem quer doar, ajudar o evento,
+
+534
+00:22:28,775 --> 00:22:31,013
+é assim todas as amizades do mundo, ou tem
+
+535
+00:22:31,014 --> 00:22:34,811
+ingresso gratuito, ou ingresso muito barato, ou em graduação,
+
+536
+00:22:34,812 --> 00:22:36,959
+enfim, então mas não sei o evento
+
+537
+00:22:36,960 --> 00:22:39,678
+não conseguir, porque quando eu decidi já estava
+
+538
+00:22:39,679 --> 00:22:41,237
+em cima da hora e já não tinha.
+
+539
+00:22:41,238 --> 00:22:43,436
+Então queria fazer até para ganhar
+
+540
+00:22:43,437 --> 00:22:45,735
+a camisa e tudo mais. Não consegui.
+
+541
+00:22:46,394 --> 00:22:50,073
+Acho que vale você contar a história da BSide,
+
+542
+00:22:50,074 --> 00:22:52,191
+mas você me contou, eu não sabia que ela
+
+543
+00:22:52,192 --> 00:22:55,549
+foi formada dessa forma, E daí, quando você contou
+
+544
+00:22:55,550 --> 00:22:57,628
+essa história, faz todo o sentido.
+
+545
+00:22:57,629 --> 00:22:58,908
+Aí você entende porque ela
+
+546
+00:22:58,909 --> 00:23:00,986
+é acolhedora, porque Cara, você
+
+547
+00:23:00,987 --> 00:23:02,955
+tem que chamar lá do B, né?
+
+548
+00:23:02,956 --> 00:23:08,432
+É, pra quem não sabe, bem resumo, né?
+
+549
+00:23:08,433 --> 00:23:10,390
+A bisseis, ela começou por quê?
+
+550
+00:23:10,391 --> 00:23:12,229
+As pessoas que submetiam as palestras pra Black Hat
+
+551
+00:23:12,230 --> 00:23:13,988
+pra Dev como é que são, já sempre foram
+
+552
+00:23:13,989 --> 00:23:16,347
+os maiores eventos de hacking do mundo, o evento
+
+553
+00:23:16,348 --> 00:23:18,586
+é muito grande, então muita gente tinha palestra na
+
+554
+00:23:18,587 --> 00:23:20,725
+hora, só que tem uma limitação ali, né?
+
+555
+00:23:20,726 --> 00:23:22,684
+Então a pessoa acaba sendo negada, né?
+
+556
+00:23:22,685 --> 00:23:23,803
+Pra palestrar e tudo mais,
+
+557
+00:23:23,804 --> 00:23:25,562
+e acabava perdendo aquele conteúdo.
+
+558
+00:23:25,563 --> 00:23:29,229
+Então criou o CEPSIT com essa iniciativa de pegar
+
+559
+00:23:29,230 --> 00:23:32,268
+essas palestras meio que as recusadas da Black and
+
+560
+00:23:32,269 --> 00:23:35,755
+da Devon pra que fossem apresentadas num evento paralelo.
+
+561
+00:23:35,756 --> 00:23:37,114
+Que normalmente acontece antes ou
+
+562
+00:23:37,115 --> 00:23:38,594
+depois dos grandes eventos.
+
+563
+00:23:38,595 --> 00:23:40,553
+A grande mundo segue mais ou menos
+
+564
+00:23:40,554 --> 00:23:42,512
+essa estrutura, vai ter evento ali importante.
+
+565
+00:23:42,513 --> 00:23:43,631
+Segundo, se ela acontece antes
+
+566
+00:23:43,632 --> 00:23:44,770
+ou depois, normalmente antes.
+
+567
+00:23:45,370 --> 00:23:47,489
+Então eu falei assim que foi criada a Bissaia, hoje
+
+568
+00:23:47,490 --> 00:23:50,527
+tem 10 tracks simultâneas, as pessoas né, submetem a palestra
+
+569
+00:23:50,528 --> 00:23:53,115
+só pra Bissaia, então o cara é negócio fantástico.
+
+570
+00:23:53,116 --> 00:23:56,314
+Simples de fazer, organiza amizades aqui, simples de ser trabalhoso,
+
+571
+00:23:56,315 --> 00:23:58,872
+é muita coisa, é bad, é o ingresso, é o
+
+572
+00:23:58,873 --> 00:24:01,500
+sistema de registro, é o achar o lugar e tal,
+
+573
+00:24:01,501 --> 00:24:03,200
+Mas não é bicho de chá de cabeça.
+
+574
+00:24:03,739 --> 00:24:05,858
+No Brasil acho que tem três ou quatro visídios já.
+
+575
+00:24:05,859 --> 00:24:08,525
+São Paulo, João Pessoa, não sei o quê, enfim.
+
+576
+00:24:08,526 --> 00:24:10,604
+Pra quem tá aí, participe de uma, você não
+
+577
+00:24:10,605 --> 00:24:12,443
+tem uma onde você tá, faça a sua.
+
+578
+00:24:12,444 --> 00:24:15,022
+Acho que é uma ótima iniciativa.
+
+579
+00:24:15,562 --> 00:24:17,001
+E, cara, acho que foi dos lugares
+
+580
+00:24:17,002 --> 00:24:18,221
+que a gente mais viu palestra.
+
+581
+00:24:18,990 --> 00:24:21,189
+Que a gente ia falar da deficit daqui a pouco e
+
+582
+00:24:21,190 --> 00:24:23,188
+acho que o lugar que a gente focou em palestra, né?
+
+583
+00:24:23,189 --> 00:24:25,187
+Meu conteúdo foi na BSide.
+
+584
+00:24:25,188 --> 00:24:27,546
+Tinha conteúdo desde iniciante até
+
+585
+00:24:27,547 --> 00:24:29,015
+pouquinho mais avançado sabe?
+
+586
+00:24:29,016 --> 00:24:30,294
+E digo mais.
+
+587
+00:24:30,295 --> 00:24:31,853
+Lembra daquela palestra que a gente viu dos
+
+588
+00:24:31,854 --> 00:24:34,492
+japoneses que coitados mal sabiam falar inglês?
+
+589
+00:24:34,493 --> 00:24:35,452
+Ah, verdade.
+
+590
+00:24:35,453 --> 00:24:37,770
+Os caras estavam lendo, não ter esse tudo mais.
+
+591
+00:24:37,771 --> 00:24:40,249
+Então, a websites é espaço, até para você
+
+592
+00:24:40,250 --> 00:24:44,945
+que quer começar, palestrar, mostrar conteúdo, talvez no
+
+593
+00:24:44,946 --> 00:24:46,904
+Brasil só vai ter dificuldade com o idioma,
+
+594
+00:24:46,905 --> 00:24:48,823
+o português e tal, mas palestrar fora.
+
+595
+00:24:48,824 --> 00:24:50,782
+Os caras estavam lendo o texto em inglês, né?
+
+596
+00:24:50,783 --> 00:24:54,370
+O pessoal do Japão e lendo tranquilamente com sotaque
+
+597
+00:24:54,371 --> 00:24:56,289
+tinha perguntas, a pessoa era mais difícil de entender
+
+598
+00:24:56,290 --> 00:24:58,648
+as perguntas, mas deu tudo certo, acho que o
+
+599
+00:24:58,649 --> 00:25:01,367
+evento ele é tão acolhedor nesse nível que pra
+
+600
+00:25:01,368 --> 00:25:06,024
+palestrar inclusive tem essa essa abertura, vamos chamar assim.
+
+601
+00:25:06,025 --> 00:25:09,702
+Inclusive, a gente consegue ver até pela Rafa,
+
+602
+00:25:09,703 --> 00:25:12,579
+quando ela foi para ela estar lá, né? Sim, cópia.
+
+603
+00:25:12,580 --> 00:25:14,778
+Então ela sempre teve vergonha de falar
+
+604
+00:25:14,779 --> 00:25:17,097
+inglês, ela achava que não conseguia.
+
+605
+00:25:17,098 --> 00:25:18,536
+E ela foi lá e detonou.
+
+606
+00:25:18,537 --> 00:25:20,915
+Tanto é que ela fez.
+
+607
+00:25:20,916 --> 00:25:24,313
+E assim, sem pretensão, ela foi lá e fez.
+
+608
+00:25:24,314 --> 00:25:27,430
+E o pessoal gostou dela, já e já
+
+609
+00:25:27,431 --> 00:25:29,909
+ofertaram emprego e tudo mais, com essa visão.
+
+610
+00:25:29,910 --> 00:25:31,628
+Olha a relevância que ela ganhou.
+
+611
+00:25:31,629 --> 00:25:36,085
+Sem ela, você vê que ela teve divisor de águas pra ela.
+
+612
+00:25:36,086 --> 00:25:40,723
+Porque ela ficou muito mais confiante, ela se entendeu, ela
+
+613
+00:25:40,724 --> 00:25:44,170
+viu o quão relevante ela é para o mercado.
+
+614
+00:25:44,171 --> 00:25:45,729
+E numa dessas, ela falou ah, eu não sei
+
+615
+00:25:45,730 --> 00:25:48,488
+falar inglês direito, não dá, não sei o que.
+
+616
+00:25:48,489 --> 00:25:49,508
+Vai, faz.
+
+617
+00:25:50,127 --> 00:25:51,787
+Beleza, você precisa ler, faça.
+
+618
+00:25:53,205 --> 00:25:57,443
+E dicas para websites Las Vegas, para quem
+
+619
+00:25:57,444 --> 00:25:59,382
+quer ir, quer visitar, qual é a dica?
+
+620
+00:26:00,242 --> 00:26:02,270
+A perfeita é do do tracking.
+
+621
+00:26:02,271 --> 00:26:04,589
+Cara, é muita coisa e o tempo
+
+622
+00:26:04,590 --> 00:26:06,668
+é muito curto entre uma e outra.
+
+623
+00:26:06,669 --> 00:26:09,906
+Então, essa você tem que sair trackeando, esquidulando
+
+624
+00:26:09,907 --> 00:26:11,225
+todo tudo que você quer ver, eu
+
+625
+00:26:11,226 --> 00:26:12,944
+acho que tá falando da aplicativo lá, né?
+
+626
+00:26:12,945 --> 00:26:15,543
+É, da programação. Faça a programação.
+
+627
+00:26:15,544 --> 00:26:17,320
+Baixa o Hacker Tracker.
+
+628
+00:26:17,321 --> 00:26:20,039
+Ele já tem a EAD com, enfim, a abissaia dos
+
+629
+00:26:20,040 --> 00:26:22,318
+outros eventos, mas faça a sua programação pra você poder
+
+630
+00:26:22,319 --> 00:26:24,077
+acompanhar todas as palestras, o que é importante.
+
+631
+00:26:24,078 --> 00:26:26,365
+Acho que essa é uma dica valiosa, né?
+
+632
+00:26:26,366 --> 00:26:27,645
+Uma outra coisa também que é
+
+633
+00:26:27,646 --> 00:26:32,143
+interessante é caderninho, caderninho e caneta.
+
+634
+00:26:33,640 --> 00:26:35,440
+É porque tem palestra que você não pode
+
+635
+00:26:35,441 --> 00:26:40,037
+usar computador, celular, então se celular viu na
+
+636
+00:26:40,038 --> 00:26:41,745
+mão, os cara já abaixa aí.
+
+637
+00:26:41,746 --> 00:26:43,944
+Eles pedem pra não tirar foto, filmar, né?
+
+638
+00:26:43,945 --> 00:26:45,943
+É, mas as pessoas querem tirar foto do slide,
+
+639
+00:26:45,944 --> 00:26:49,801
+alguma coisa no geral, pode, mas alguns não permitem.
+
+640
+00:26:50,350 --> 00:26:52,749
+Então, e geralmente são os mais interessantes, né?
+
+641
+00:26:52,750 --> 00:26:54,129
+Sim, tem daqui a pouco.
+
+642
+00:26:55,628 --> 00:26:56,267
+Boa dica.
+
+643
+00:26:56,268 --> 00:27:00,534
+Anotar é fazer a boa programação das suas palestras,
+
+644
+00:27:00,535 --> 00:27:02,973
+da sua agenda ali no que você quer ver. Boa.
+
+645
+00:27:02,974 --> 00:27:05,750
+E outra dica compre antes.
+
+646
+00:27:05,751 --> 00:27:07,549
+Porque essa galera quer ir, quer comprar o
+
+647
+00:27:07,550 --> 00:27:09,388
+ingresso, mas fica esperando sair a agenda.
+
+648
+00:27:09,389 --> 00:27:10,507
+Mas a agenda vai sair assim
+
+649
+00:27:10,508 --> 00:27:12,635
+uma semana antes do evento normalmente. Né?
+
+650
+00:27:12,636 --> 00:27:13,315
+Até mora, né?
+
+651
+00:27:13,316 --> 00:27:14,674
+Nesse caso a gente tá há boas semanas
+
+652
+00:27:14,675 --> 00:27:16,273
+de viagem, a agenda não tava completa ainda.
+
+653
+00:27:16,274 --> 00:27:18,232
+Então compra o ingresso, custa 100 dólares, compra.
+
+654
+00:27:18,233 --> 00:27:19,432
+Se você tiver que comprar em cima, você vai
+
+655
+00:27:19,433 --> 00:27:21,430
+perder o ingresso ou vai pagar mais caro?
+
+656
+00:27:21,431 --> 00:27:23,749
+Se você quer ajudar, quer doar, beleza, mas
+
+657
+00:27:23,750 --> 00:27:26,148
+compra antes, compra cedo porque vale a pena.
+
+658
+00:27:26,149 --> 00:27:29,146
+E Black Hat também, voltando na Black Hat, tem
+
+659
+00:27:29,147 --> 00:27:32,345
+os lotes, os lotes de ingresso, você compra logo
+
+660
+00:27:32,346 --> 00:27:34,464
+que abre lá, você paga o valor mais barato.
+
+661
+00:27:34,465 --> 00:27:36,223
+E aí você, conforme vai chegando mais perto
+
+662
+00:27:36,224 --> 00:27:37,882
+do evento, vai ficando mais caro naturalmente.
+
+663
+00:27:38,760 --> 00:27:39,000
+Né?
+
+664
+00:27:39,001 --> 00:27:40,719
+Fala isso, eu ia falar uma coisa. Eu ia
+
+665
+00:27:40,720 --> 00:27:42,718
+falar uma dica e esqueci o que passou.
+
+666
+00:27:42,719 --> 00:27:43,638
+Então não era dica.
+
+667
+00:27:43,639 --> 00:27:44,997
+Ah, eu achei. É.
+
+668
+00:27:44,998 --> 00:27:49,824
+Na verdade não é dica, Acho que é uma informação, né?
+
+669
+00:27:49,825 --> 00:27:52,183
+Quando você fala de insights e pensa, né?
+
+670
+00:27:52,184 --> 00:27:56,920
+Ah, são as palestras que restaram da Deffman Dá a entender
+
+671
+00:27:56,921 --> 00:28:00,158
+que é tipo ah, é uma coisinha mais ou menos. E não?
+
+672
+00:28:00,159 --> 00:28:04,105
+Cara, as melhores palestras que eu vi foi na Bsites.
+
+673
+00:28:04,106 --> 00:28:05,385
+E com certeza.
+
+674
+00:28:05,386 --> 00:28:06,904
+Teve uma que eu saí de lá e falei
+
+675
+00:28:06,905 --> 00:28:08,863
+assim, Cássio, esse daqui é a nossa vida.
+
+676
+00:28:08,864 --> 00:28:10,942
+A gente tem que levar isso pra nossa vida.
+
+677
+00:28:10,943 --> 00:28:12,221
+Você lembra qual que é?
+
+678
+00:28:12,222 --> 00:28:13,420
+Lembro, lembro.
+
+679
+00:28:13,421 --> 00:28:14,560
+Que não é nem técnica.
+
+680
+00:28:15,299 --> 00:28:16,299
+É.
+
+681
+00:28:16,300 --> 00:28:18,778
+Então, ela falou voltado ali, meio
+
+682
+00:28:18,779 --> 00:28:21,056
+que Sim, mas não era nada.
+
+683
+00:28:21,057 --> 00:28:22,256
+Mas era magnífico, não era
+
+684
+00:28:22,257 --> 00:28:22,856
+código, né?
+
+685
+00:28:22,857 --> 00:28:27,043
+Não era ferramenta, né?
+
+686
+00:28:27,044 --> 00:28:29,482
+Como eu falei, a Bissant foi fundada para pegar
+
+687
+00:28:29,483 --> 00:28:31,721
+as palestras que não eram aceitas na Black Hat
+
+688
+00:28:31,722 --> 00:28:34,380
+na Default, Não eram aceitas porque lotou.
+
+689
+00:28:35,359 --> 00:28:36,798
+Porque tem muita gente.
+
+690
+00:28:36,799 --> 00:28:37,798
+Isso tem, sei lá.
+
+691
+00:28:37,799 --> 00:28:38,917
+Oito horas no dia, uma
+
+692
+00:28:38,918 --> 00:28:41,045
+palestra por hora, oito palestras.
+
+693
+00:28:41,046 --> 00:28:43,004
+Aí se submeteu dez, as dez são boas.
+
+694
+00:28:43,005 --> 00:28:44,243
+O que você faz com duas?
+
+695
+00:28:44,244 --> 00:28:46,042
+De alguma forma, elas cai fora ali.
+
+696
+00:28:46,043 --> 00:28:48,360
+Por algum critério, mas não quer dizer que ela é ruim.
+
+697
+00:28:48,361 --> 00:28:51,479
+Então inclusive o conteúdo é muito curado as bissades em
+
+698
+00:28:51,480 --> 00:28:54,237
+geral ao redor do mundo elas tem comitê aqui eu
+
+699
+00:28:54,238 --> 00:28:58,434
+tenho 7 pessoas que avaliam cada submissão de palestra então
+
+700
+00:28:58,435 --> 00:29:00,753
+a gente vota cara isso aqui o tópico é bom
+
+701
+00:29:00,754 --> 00:29:03,431
+mas não é algo novo é mas tem a ver
+
+702
+00:29:03,432 --> 00:29:06,230
+com o evento puts, mas é algo velho.
+
+703
+00:29:06,231 --> 00:29:07,949
+Beleza, fica aqui com uma nota X.
+
+704
+00:29:07,950 --> 00:29:11,427
+Olha, isso aqui é tópico novo, tem a ver com o evento,
+
+705
+00:29:11,428 --> 00:29:14,645
+é algo da inovação, poxa, isso aqui tem uma nota Y.
+
+706
+00:29:14,646 --> 00:29:17,764
+Então tem critério, que normalmente é
+
+707
+00:29:17,765 --> 00:29:18,963
+seguida para a gente avaliar.
+
+708
+00:29:18,964 --> 00:29:21,682
+O primeiro ano foi mais fácil, o critério era eu.
+
+709
+00:29:21,683 --> 00:29:24,149
+Então, não tinha muita gente ajudando a organização,
+
+710
+00:29:24,150 --> 00:29:25,749
+mas o evento vai crescer nesse ano, já
+
+711
+00:29:25,750 --> 00:29:27,708
+tem 7 pessoas pra me ajudar.
+
+712
+00:29:27,709 --> 00:29:30,986
+Então assim, as bisnides ao redor do mundo tem meio que
+
+713
+00:29:30,987 --> 00:29:33,785
+esse padrão E mano, você quer dar área de segurança?
+
+714
+00:29:34,364 --> 00:29:35,523
+Não tem argumento.
+
+715
+00:29:35,524 --> 00:29:37,703
+Você vá no MobiScides. Não interessa.
+
+716
+00:29:39,920 --> 00:29:42,159
+Lá numa bissades aí em qualquer lugar que você
+
+717
+00:29:42,160 --> 00:29:45,118
+morra tem 200 bissades no mundo mais de 200
+
+718
+00:29:45,119 --> 00:29:49,055
+bissades então enfim esse ano esse ano bater o
+
+719
+00:29:49,056 --> 00:29:51,654
+recorde de insights que aconteceram, porque tem umas que
+
+720
+00:29:51,655 --> 00:29:54,053
+não faz evento todo ano, ou algum problema na
+
+721
+00:29:54,054 --> 00:29:56,990
+produção, mas teve 7 bisbys desse ano.
+
+722
+00:29:56,991 --> 00:29:58,049
+Ao redor do mundo.
+
+723
+00:29:58,709 --> 00:30:01,428
+Às vezes já tiveram e diz que terão ainda.
+
+724
+00:30:01,429 --> 00:30:04,445
+Então a pessoa tem uma ideia do tamanho da brincadeira.
+
+725
+00:30:04,446 --> 00:30:05,725
+Mas vamos lá, entendeu?
+
+726
+00:30:05,726 --> 00:30:07,484
+Deixa eu Faz tempo que não roda aqui,
+
+727
+00:30:07,485 --> 00:30:09,103
+ó. Segurança. Tecnologia.
+
+728
+00:30:09,643 --> 00:30:10,802
+Deve ser copys.
+
+729
+00:30:10,803 --> 00:30:13,221
+Preciso até aprender a mexer no jogo aqui, não.
+
+730
+00:30:15,060 --> 00:30:18,818
+Beleza, então fizemos bisnds ali dia 8, aí dia
+
+731
+00:30:18,819 --> 00:30:22,734
+910 tivemos Black Cat, e depois do dia 11
+
+732
+00:30:22,735 --> 00:30:26,013
+até o dia 13 foi só Devon.
+
+733
+00:30:26,014 --> 00:30:29,340
+A Devon, eu não sei, eu tenho Eu
+
+734
+00:30:32,318 --> 00:30:34,677
+tenho mix de sentimentos com relação a Déficon,
+
+735
+00:30:34,678 --> 00:30:36,556
+mas vou perguntar pra você primeiro, e aí?
+
+736
+00:30:36,557 --> 00:30:37,725
+O que você achou?
+
+737
+00:30:37,726 --> 00:30:39,404
+Polêmico, né? Polêmico,
+
+738
+00:30:39,405 --> 00:30:40,264
+pode ser polêmico.
+
+739
+00:30:40,924 --> 00:30:45,481
+Cara, eu fui com expectativa muito alta com
+
+740
+00:30:45,482 --> 00:30:50,738
+a porque sempre ouvi falar, eu vejo, cara,
+
+741
+00:30:50,739 --> 00:30:52,737
+você olha no Instagram da galera de Red
+
+742
+00:30:52,738 --> 00:30:57,175
+Team, é a coisa mais sensacional do mundo. É
+
+743
+00:30:57,176 --> 00:30:58,734
+a marca da palavra.
+
+744
+00:30:58,735 --> 00:31:01,793
+É, o Branding, chama assim.
+
+745
+00:31:02,652 --> 00:31:05,140
+E quando eu cheguei lá, eu fiquei
+
+746
+00:31:05,141 --> 00:31:07,139
+bem perdido porque primeiro que é muito
+
+747
+00:31:07,140 --> 00:31:09,778
+grande tem muita coisa muitas pessoas
+
+748
+00:31:09,779 --> 00:31:11,897
+e aí esse muito grande do Rodrigo é muito
+
+749
+00:31:11,898 --> 00:31:14,965
+grande mesmo são quatro hotéis ao mesmo tempo que
+
+750
+00:31:14,966 --> 00:31:17,004
+acontece, então você pode tá na palestra aqui e
+
+751
+00:31:17,005 --> 00:31:19,122
+a próxima que você quer assistir tá a 3km
+
+752
+00:31:19,123 --> 00:31:22,730
+de distância, simples assim, correndo, continue, só pra dar
+
+753
+00:31:22,731 --> 00:31:23,329
+uma olhadinha.
+
+754
+00:31:23,330 --> 00:31:26,608
+Acho que nesse caso aí a gente tem coisas lá, tem
+
+755
+00:31:26,609 --> 00:31:30,585
+o dream lá que você pode pegar e chegar mais rápido.
+
+756
+00:31:30,586 --> 00:31:32,725
+Mas vai ter que andar de qualquer jeito.
+
+757
+00:31:33,744 --> 00:31:37,542
+Eu acabei me decepcionando porque eu fui com
+
+758
+00:31:37,543 --> 00:31:40,799
+a expectativa, eu tinha mais expectativa do que
+
+759
+00:31:40,800 --> 00:31:43,198
+a Black Cat e do que a Abside.
+
+760
+00:31:43,199 --> 00:31:45,018
+Então eu fui achando que, cara,
+
+761
+00:31:45,637 --> 00:31:48,195
+estou indo por conta da Devco.
+
+762
+00:31:48,196 --> 00:31:50,454
+E chegou lá não foi isso.
+
+763
+00:31:52,313 --> 00:31:55,112
+Minha sensação é que o pessoal está indo
+
+764
+00:31:55,113 --> 00:31:59,209
+mais pelo status Tipo, sou palestrante e tal.
+
+765
+00:31:59,210 --> 00:32:02,807
+Então, eu vi coisa vaga, palestra vaga.
+
+766
+00:32:02,808 --> 00:32:07,184
+O cara tá falando, mas e aí? Cadê? Cadê? O conteúdo.
+
+767
+00:32:07,185 --> 00:32:08,124
+Faltou o tchan.
+
+768
+00:32:08,703 --> 00:32:10,263
+É, não teve.
+
+769
+00:32:10,264 --> 00:32:11,782
+Na minha sensação, tá?
+
+770
+00:32:11,783 --> 00:32:13,981
+Isso leva em consideração o inglês também.
+
+771
+00:32:13,982 --> 00:32:15,190
+É homem no inglês preferido.
+
+772
+00:32:16,350 --> 00:32:21,027
+Mas aproveitei muito, por exemplo, Black Hat Bsites,
+
+773
+00:32:21,028 --> 00:32:23,446
+aproveitei com o mesmo inglês que eu fui.
+
+774
+00:32:24,275 --> 00:32:26,214
+Então, eu acabei me decepcionando.
+
+775
+00:32:27,194 --> 00:32:28,293
+Gostei, gostei.
+
+776
+00:32:28,873 --> 00:32:32,710
+Mas das três Essa é o que você pagaria.
+
+777
+00:32:33,289 --> 00:32:34,529
+Por agora, por exemplo,
+
+778
+00:32:34,530 --> 00:32:34,968
+eu não
+
+779
+00:32:34,969 --> 00:32:36,847
+pagaria para ir, né?
+
+780
+00:32:36,848 --> 00:32:37,347
+Boa.
+
+781
+00:32:38,007 --> 00:32:41,505
+E também é mais barato que a Blackard custa 40
+
+782
+00:32:41,506 --> 00:32:44,423
+dólares, você paga na hora em dinheiro, então tem todo
+
+783
+00:32:44,424 --> 00:32:47,262
+esse tchan aí, só em cash, você é anônimo nisso
+
+784
+00:32:47,263 --> 00:32:49,460
+alguém é você, blá, blá, mas é.
+
+785
+00:32:49,461 --> 00:32:52,179
+Eu acho que tem muito a ver aí o
+
+786
+00:32:52,180 --> 00:32:56,697
+contraponto, em vez de falar mal do negócio. Sim, sim.
+
+787
+00:32:56,698 --> 00:32:59,375
+Porque ela é muito a minha sensação é
+
+788
+00:32:59,376 --> 00:33:01,094
+que ela é muito voltada ao Red Team.
+
+789
+00:33:01,095 --> 00:33:07,010
+Então todo tipo de ataque, cara, tinha tinha as
+
+790
+00:33:07,011 --> 00:33:10,928
+vilas de rádio, são coisas fascinantes de carros, cara
+
+791
+00:33:10,929 --> 00:33:13,585
+hackeando carro, hackeando tudo tipo de coisa.
+
+792
+00:33:13,586 --> 00:33:15,984
+Satélite, avião, tudo, tudo,
+
+793
+00:33:15,985 --> 00:33:18,263
+tudo, tudo, tudo, tudo, você brinca Biohacking, foi uma
+
+794
+00:33:18,264 --> 00:33:19,722
+das palestras que eu assisti lá na Vila de
+
+795
+00:33:19,723 --> 00:33:22,899
+Biohacking, que é negócio Vou trabalhar com isso? Não.
+
+796
+00:33:23,799 --> 00:33:25,438
+Vou ganhar dinheiro com isso? Não.
+
+797
+00:33:25,439 --> 00:33:26,997
+Vou vender solução? Não.
+
+798
+00:33:26,998 --> 00:33:29,276
+Mas fui lá assistir, que é aquela história que
+
+799
+00:33:29,277 --> 00:33:30,875
+a gente falou do foco, mas a hora que
+
+800
+00:33:30,876 --> 00:33:33,334
+eu comentei, a hora que eu comentar eu falo.
+
+801
+00:33:34,553 --> 00:33:36,692
+Então por eu ter ido.
+
+802
+00:33:37,610 --> 00:33:39,849
+Com visão voltada a Peter Security, talvez eu
+
+803
+00:33:39,850 --> 00:33:42,008
+não tenha aproveitado do melhor do que tem.
+
+804
+00:33:42,009 --> 00:33:45,286
+Então se o melhor é é é eu não
+
+805
+00:33:45,287 --> 00:33:47,515
+vi retinho, tipo eu não fui lá ver isso.
+
+806
+00:33:47,516 --> 00:33:49,634
+Acabei vendo de vez em quando ali, eu passava,
+
+807
+00:33:49,635 --> 00:33:52,073
+eu dava uma olhada, mas não fiquei focado.
+
+808
+00:33:52,074 --> 00:33:54,192
+Então talvez eu não tenha
+
+809
+00:33:54,193 --> 00:33:57,260
+experimentado o tchan do negócio.
+
+810
+00:33:57,261 --> 00:33:58,460
+Então, por isso que não foi
+
+811
+00:33:58,461 --> 00:34:00,959
+tão interessante pra mim, gente. Boa.
+
+812
+00:34:02,298 --> 00:34:03,457
+A gente fala mais?
+
+813
+00:34:03,458 --> 00:34:04,057
+Não, não, não, não, não.
+
+814
+00:34:04,058 --> 00:34:04,597
+A gente
+
+815
+00:34:06,496 --> 00:34:07,545
+fala é.
+
+816
+00:34:07,546 --> 00:34:11,703
+Talvez, se eu for uma outra vez, eu
+
+817
+00:34:11,704 --> 00:34:15,340
+já vá com essa visão de Cara, beleza!
+
+818
+00:34:15,341 --> 00:34:17,539
+Se eu já vi tudo o que eu queria na Black Hat,
+
+819
+00:34:17,540 --> 00:34:21,297
+na BitSide, de Absek, deixa eu aproveitar o lado hacker aqui, deixa
+
+820
+00:34:21,298 --> 00:34:24,935
+eu aproveitar o que a área nos traz de melhor. Tão boa.
+
+821
+00:34:24,936 --> 00:34:26,754
+Cara, eu quero ver, nego sendo hackeado.
+
+822
+00:34:27,453 --> 00:34:29,313
+A pessoa vai nem abre o celular.
+
+823
+00:34:29,892 --> 00:34:30,912
+Eu fiz até transferência.
+
+824
+00:34:33,190 --> 00:34:37,328
+O cara ganha o troféu na fila da Nefta, ele faz pin.
+
+825
+00:34:38,707 --> 00:34:41,515
+O mesmo saldo na conta ainda, tá tudo certo?
+
+826
+00:34:41,516 --> 00:34:42,554
+Zerado agora, mano.
+
+827
+00:34:42,555 --> 00:34:43,934
+Zerado, não tem mais dinheiro.
+
+828
+00:34:46,153 --> 00:34:46,592
+Boa.
+
+829
+00:34:46,593 --> 00:34:49,271
+Bom, cara, a minha visão sobre a Devcom,
+
+830
+00:34:49,272 --> 00:34:52,619
+eu não me decepcionei, não foi uma decepção,
+
+831
+00:34:52,620 --> 00:34:56,038
+mas é algo assim, como você falou.
+
+832
+00:34:58,137 --> 00:35:02,874
+Talvez o Hype da Devcom é o ataque, é o
+
+833
+00:35:02,875 --> 00:35:05,472
+hacking das coisas, não o ataque em si, mas o
+
+834
+00:35:05,473 --> 00:35:08,080
+hacking das coisas, quebrar as coisas e tal.
+
+835
+00:35:08,081 --> 00:35:10,439
+E a gente por ser de apsek a gente tá
+
+836
+00:35:10,440 --> 00:35:14,117
+buscando ali processo uma solução como é que eu encaixo
+
+837
+00:35:14,118 --> 00:35:16,316
+uma coisa aqui outra ali para validar o meu código
+
+838
+00:35:16,317 --> 00:35:18,465
+né para ir para entregar o meu software mal.
+
+839
+00:35:18,466 --> 00:35:20,584
+É tanto que a Epicec Village, onde a gente ficou
+
+840
+00:35:20,585 --> 00:35:24,102
+boa parte do tempo, pra mim foi sensacional, muito louca.
+
+841
+00:35:24,103 --> 00:35:26,301
+Apesar de ter visto coisas ali que já é nosso dia
+
+842
+00:35:26,302 --> 00:35:28,770
+a dia, então é só mais do mesmo, mas teve uma
+
+843
+00:35:28,771 --> 00:35:31,849
+palestra sensacional lá que a gente viu pro pessoal da Índia,
+
+844
+00:35:31,850 --> 00:35:34,727
+teve outro, pessoal da palestra depois que eu vi que foi
+
+845
+00:35:34,728 --> 00:35:38,784
+legal, tio workshops acontecendo a todo momento muito bacana, inclusive com
+
+846
+00:35:38,785 --> 00:35:41,662
+o Magnum, né, que gravou aqui com a gente, mas eu
+
+847
+00:35:41,663 --> 00:35:44,910
+acho que até ficou em si como conferência o Tchan mesmo
+
+848
+00:35:44,911 --> 00:35:46,069
+é essa parada que você falou.
+
+849
+00:35:46,070 --> 00:35:48,109
+É tanto que tem os caras lá que senta, vai lá
+
+850
+00:35:48,110 --> 00:35:50,427
+na Red Team Village e fica lá, passa o Dictor na
+
+851
+00:35:50,428 --> 00:35:52,865
+Red Team Village, ou lá não, aqui é o satélite, o
+
+852
+00:35:52,866 --> 00:35:55,183
+cara vai lá com o time dele e vai ver aquilo.
+
+853
+00:35:55,184 --> 00:35:57,262
+Ele não vai ver outras coisas, nem sabe
+
+854
+00:35:57,263 --> 00:35:59,580
+quem às vezes na época como todo.
+
+855
+00:35:59,581 --> 00:36:01,539
+E pra mim, como primeira vez, eu
+
+856
+00:36:01,540 --> 00:36:05,697
+queria ver o máximo possível experienciar ou
+
+857
+00:36:05,698 --> 00:36:07,137
+experimentar as coisas que tinham.
+
+858
+00:36:07,138 --> 00:36:08,016
+É tanto que acho que a gente
+
+859
+00:36:08,017 --> 00:36:10,115
+foi em todas as vilas que tinham.
+
+860
+00:36:10,116 --> 00:36:11,874
+Acho que só em hotel lá o Haas
+
+861
+00:36:11,875 --> 00:36:13,153
+lá, a gente nem foi lá, que era
+
+862
+00:36:13,154 --> 00:36:15,152
+as vilas de ninguém interessada muito pra gente.
+
+863
+00:36:15,153 --> 00:36:17,321
+Mas o restante, meu, pingou numa vila de
+
+864
+00:36:17,322 --> 00:36:19,889
+outra, Por exemplo, o Claudio Village lá, a
+
+865
+00:36:19,890 --> 00:36:21,768
+Claudia Sequilla, a gente estava lotada toda hora.
+
+866
+00:36:21,769 --> 00:36:22,888
+E é do lado da época que a
+
+867
+00:36:22,889 --> 00:36:25,075
+gente não foi, entrou lá porque estava lotado.
+
+868
+00:36:25,076 --> 00:36:28,074
+Inclusive, esse é ponto negativo, porque vai
+
+869
+00:36:28,075 --> 00:36:30,193
+estar sempre lotado, é muita gente.
+
+870
+00:36:30,194 --> 00:36:32,391
+A palestra que você quer assistir, às vezes você
+
+871
+00:36:32,392 --> 00:36:34,850
+tem que perder uma palestra pra ficar na fila.
+
+872
+00:36:34,851 --> 00:36:36,010
+Porque a fila vai lotar e a
+
+873
+00:36:36,011 --> 00:36:37,249
+gente tem limitação dentro da sala.
+
+874
+00:36:37,250 --> 00:36:38,288
+Então, se você chegar, já vai
+
+875
+00:36:38,289 --> 00:36:39,708
+estar lotar, você vai poder entrar.
+
+876
+00:36:41,207 --> 00:36:43,086
+Então, essa programação ainda é
+
+877
+00:36:43,087 --> 00:36:44,835
+muito mais crucial na Déficle.
+
+878
+00:36:44,836 --> 00:36:46,195
+Apesar de que tem que deixar uns esgotos
+
+879
+00:36:46,196 --> 00:36:48,234
+vazios aí pra você ter essas manobras, né?
+
+880
+00:36:48,235 --> 00:36:50,352
+É tipo, eu não vou ver nada agora, eu vou parar pra
+
+881
+00:36:50,353 --> 00:36:53,471
+comer, putz, agora eu vou fazer outra coisa ali e tal.
+
+882
+00:36:53,472 --> 00:36:54,850
+Então A Deffman é ruim?
+
+883
+00:36:54,851 --> 00:36:56,129
+Não, de forma ruim.
+
+884
+00:36:56,130 --> 00:36:57,369
+Acho que tem que ir, tem que
+
+885
+00:36:57,370 --> 00:36:59,308
+conhecer, ver como é, ver como funciona.
+
+886
+00:37:00,367 --> 00:37:02,305
+Mas se o teu foco é Red Team, você
+
+887
+00:37:02,306 --> 00:37:04,583
+vai ficar trancado lá nas coisas de invasão lá
+
+888
+00:37:04,584 --> 00:37:07,062
+e não sai de lá porque é muito concorrido.
+
+889
+00:37:07,063 --> 00:37:10,070
+Acho que blue team é pouco mais light, É
+
+890
+00:37:10,071 --> 00:37:11,949
+pra ser que foi bem legal, apesar de ter
+
+891
+00:37:11,950 --> 00:37:13,908
+bastante gente também, né, onde a gente foi.
+
+892
+00:37:13,909 --> 00:37:17,045
+Mas o evento como todo, o nome Disney com né?
+
+893
+00:37:17,046 --> 00:37:20,203
+De igual a Comic Con, né? Enfim, né?
+
+894
+00:37:20,204 --> 00:37:23,562
+Então é negócio mais animado, tem uma galera underground, tem
+
+895
+00:37:23,563 --> 00:37:26,970
+uns cara fantasiado, tem louco pra todo lado, tem todas
+
+896
+00:37:26,971 --> 00:37:29,828
+as tribos, né, que a gente vê muita coisa interessante,
+
+897
+00:37:31,088 --> 00:37:34,625
+é muito grande, quatro hotéis vai andar pra caralho, A
+
+898
+00:37:34,626 --> 00:37:39,063
+gente foi na, por exemplo, lá Aerospace, não quero lá
+
+899
+00:37:39,064 --> 00:37:41,560
+da vila de dos aviãozinho lá. Aerospace, né?
+
+900
+00:37:41,561 --> 00:37:42,719
+Era especial hoje.
+
+901
+00:37:42,720 --> 00:37:45,398
+Então tinha lá uma turbina de foguete, cara, uns
+
+902
+00:37:45,399 --> 00:37:47,397
+caras que eram simulador de avião e tal.
+
+903
+00:37:47,398 --> 00:37:48,935
+Não, uns negócios muito legal.
+
+904
+00:37:48,936 --> 00:37:50,254
+Mas eu não trabalho com aquilo.
+
+905
+00:37:50,255 --> 00:37:52,053
+Eu não vou brincar com aquilo. Não é meu hobby.
+
+906
+00:37:52,054 --> 00:37:54,572
+Pra mim, não é o foco. É legal pra ser. Eu fui.
+
+907
+00:37:54,573 --> 00:37:57,050
+Foi o dia que você não tava lá. Eu fui.
+
+908
+00:37:57,051 --> 00:37:59,688
+Entrei, dei uma volta de cinco minutos, olhei
+
+909
+00:37:59,689 --> 00:38:02,087
+as coisas, peguei uns adesivos e saí. Acabou!
+
+910
+00:38:02,088 --> 00:38:03,347
+Porque não é meu foco.
+
+911
+00:38:03,926 --> 00:38:05,524
+Eu Eu fiz isso outro dia.
+
+912
+00:38:05,525 --> 00:38:07,203
+Teve dia que foi lá tentar trocar
+
+913
+00:38:07,204 --> 00:38:09,522
+a bad, eu fui lá e passei. Fiz o mesmo
+
+914
+00:38:09,523 --> 00:38:10,921
+Foi a mesma coisa.
+
+915
+00:38:10,922 --> 00:38:14,110
+Olhei Cara, sensacional, você Caralho,
+
+916
+00:38:14,111 --> 00:38:14,749
+o cara tá fazendo.
+
+917
+00:38:14,750 --> 00:38:16,249
+Quanta coisa tem, né?
+
+918
+00:38:17,028 --> 00:38:20,706
+Tinha Tinha uma maquetezinha, que tinha
+
+919
+00:38:20,707 --> 00:38:22,955
+monte de sistema e tinha helicóptero.
+
+920
+00:38:22,956 --> 00:38:24,674
+E o cara ficava hackeando.
+
+921
+00:38:24,675 --> 00:38:25,833
+Aí eu vi a hora que
+
+922
+00:38:25,834 --> 00:38:28,592
+o cara conseguir hackear o helicóptero. Ele sai fumaça.
+
+923
+00:38:28,593 --> 00:38:31,411
+Tipo, para a hélice do bagulho. É, parabéns.
+
+924
+00:38:32,070 --> 00:38:33,500
+É da hora de se vê.
+
+925
+00:38:33,501 --> 00:38:36,018
+Mas aí você falou, você fala cara, tá, pai.
+
+926
+00:38:36,019 --> 00:38:37,378
+O que eu faço com a borracha?
+
+927
+00:38:37,379 --> 00:38:39,497
+É, quanto com a borracha é o helicóptero?
+
+928
+00:38:39,498 --> 00:38:42,974
+A não ser que você Você tá trabalhando no
+
+929
+00:38:42,975 --> 00:38:47,052
+sistema, isso é segurança da parte aérea, aí beleza.
+
+930
+00:38:47,053 --> 00:38:49,080
+Ou até que vocês não vão obter essas coisas?
+
+931
+00:38:49,081 --> 00:38:51,479
+Aí vale até você investir, mas no nosso caso não
+
+932
+00:38:51,480 --> 00:38:54,317
+é nem hobby, é negócio assim, meu, legal, curioso, igual
+
+933
+00:38:54,318 --> 00:38:56,357
+a parte de, tem lá depois eu estava vendo no
+
+934
+00:38:56,358 --> 00:38:58,276
+Twitter lá o anúncio do time que ganhou lá o
+
+935
+00:38:58,277 --> 00:39:00,824
+hack da Sata Light, a parte de Raquel Satélite.
+
+936
+00:39:00,825 --> 00:39:05,102
+Então fica lá ponto, placar lives, times lá competindo.
+
+937
+00:39:05,103 --> 00:39:06,940
+Cara, é sensacional de ver.
+
+938
+00:39:06,941 --> 00:39:09,299
+Mas num lugar que eu vou, vou passar lá no
+
+939
+00:39:09,300 --> 00:39:11,418
+dia, vou passar lá horas, eu não vou, vou passar
+
+940
+00:39:11,419 --> 00:39:13,257
+a ver tirar uma foto, vou tirar algo, acabou.
+
+941
+00:39:13,258 --> 00:39:14,936
+Vou pro que me interessa aí, fui ver
+
+942
+00:39:14,937 --> 00:39:17,215
+palestras da Bluestacks Village, foi da Biohacking, que
+
+943
+00:39:17,216 --> 00:39:20,034
+era uma palestra específica sobre discussão de sistemas
+
+944
+00:39:20,813 --> 00:39:22,812
+dos dados das pessoas, de saúde, de como
+
+945
+00:39:22,813 --> 00:39:25,810
+eles são tratados e cuidados a negócio interessante
+
+946
+00:39:25,811 --> 00:39:28,848
+como cidadão, não necessariamente como profissional, não é
+
+947
+00:39:28,849 --> 00:39:30,628
+uma coisa interessante de ver.
+
+948
+00:39:32,567 --> 00:39:34,625
+Cara, o que não faltava lá é Village.
+
+949
+00:39:34,626 --> 00:39:35,984
+E eu sempre tive curiosidade de
+
+950
+00:39:35,985 --> 00:39:37,464
+ir numa vila de lock pickin.
+
+951
+00:39:37,465 --> 00:39:39,902
+Então tinha na abissaids, né, fui brincando de lock
+
+952
+00:39:39,903 --> 00:39:43,180
+pickin na abissaids, e lá na adephan também fui.
+
+953
+00:39:43,181 --> 00:39:45,899
+Inclusive, era praticamente andar inteiro lá no hotel.
+
+954
+00:39:45,900 --> 00:39:48,817
+Não, acho que tem que vir lá gigante, com muita
+
+955
+00:39:48,818 --> 00:39:51,195
+coisa lá pra fazer e tudo mais, então deu pra
+
+956
+00:39:51,196 --> 00:39:53,834
+fazer uns desafios lá e brincar, mas sim, também fui
+
+957
+00:39:53,835 --> 00:39:56,512
+lá e passei meia hora ali, meu legal, logo que
+
+958
+00:39:56,513 --> 00:39:59,271
+fiquei negócio que eu gosto assim, de hobby, né, pode
+
+959
+00:39:59,272 --> 00:40:02,569
+ser negócio de brincar, Acabou. Acabou.
+
+960
+00:40:02,570 --> 00:40:05,088
+Mas acho que esse é o ponto da Devon.
+
+961
+00:40:05,089 --> 00:40:07,686
+Ela é tão grande e tem tanta coisa que se
+
+962
+00:40:07,687 --> 00:40:09,484
+você for acho que bom a gente foi, a gente
+
+963
+00:40:09,485 --> 00:40:12,843
+quer ver, olhar para tudo, ali explorador, legal.
+
+964
+00:40:12,844 --> 00:40:14,882
+Mas se você for sem foco, se você não focar
+
+965
+00:40:14,883 --> 00:40:17,860
+nas coisas você quer ver e tal e tal, talvez
+
+966
+00:40:17,861 --> 00:40:21,498
+vai ter sentimento de gozo e fica frustrado, né?
+
+967
+00:40:21,499 --> 00:40:23,557
+É, acaba perdendo muita coisa.
+
+968
+00:40:25,256 --> 00:40:26,585
+O que eu vi?
+
+969
+00:40:26,586 --> 00:40:27,824
+Enquanto estava lá.
+
+970
+00:40:27,825 --> 00:40:30,503
+Eu continuei seguindo o pessoal no Twitter lá pra ver o
+
+971
+00:40:30,504 --> 00:40:33,102
+que tinha de melhor, com a galera que eu sigo.
+
+972
+00:40:33,103 --> 00:40:37,549
+E daí eu vi uns negócios que Olha que horror!
+
+973
+00:40:37,550 --> 00:40:40,528
+Aí você olha e fala ah, interessante.
+
+974
+00:40:42,187 --> 00:40:44,855
+Não é o ar, não tá né?
+
+975
+00:40:47,514 --> 00:40:50,752
+Faltou efeito do Instagram lá, né? O que é que vale?
+
+976
+00:40:50,753 --> 00:40:51,911
+O Babi tá estendido.
+
+977
+00:40:51,912 --> 00:40:55,749
+Aí você chega pra sua esposa, que não é da área, né?
+
+978
+00:40:55,750 --> 00:40:59,187
+Nossa, hoje o cliente fez isso, e aí eu
+
+979
+00:40:59,188 --> 00:41:02,046
+fiz o escanteio do código, achei a vulnerabilidade, mano!
+
+980
+00:41:02,775 --> 00:41:05,814
+E pra ela que trabalha com maquiagem, né?
+
+981
+00:41:05,815 --> 00:41:06,873
+Não, ok.
+
+982
+00:41:07,693 --> 00:41:09,492
+Acho que é a mesma coisa.
+
+983
+00:41:09,493 --> 00:41:11,050
+Isso tá bom mesmo, legal.
+
+984
+00:41:11,051 --> 00:41:12,809
+Pra gente é isso, você vai ter tanta coisa
+
+985
+00:41:12,810 --> 00:41:14,728
+legal, mas tem coisa que tipo, ah, olha só
+
+986
+00:41:14,729 --> 00:41:16,508
+que legal, o cara hackeando a esfiha.
+
+987
+00:41:17,927 --> 00:41:20,604
+Eu acho que o que tem e daí para a gente né
+
+988
+00:41:20,605 --> 00:41:24,922
+eu acho que o que tem é pouco daquele efeito não sei
+
+989
+00:41:24,923 --> 00:41:31,029
+se já viu não tem estudo que fizeram que mostra que quanto
+
+990
+00:41:31,030 --> 00:41:35,227
+mais opção você dá pra pessoa, mais infeliz ela vai ser.
+
+991
+00:41:35,228 --> 00:41:38,304
+Tipo, se você oferece os caras como que era o estudo.
+
+992
+00:41:38,305 --> 00:41:41,003
+Cara, ele vinha assim e oferecia três bombons.
+
+993
+00:41:41,583 --> 00:41:42,882
+De três tipos de pânico.
+
+994
+00:41:43,822 --> 00:41:47,818
+E daí, O pessoal vinha na rua
+
+995
+00:41:47,819 --> 00:41:51,496
+mesmo, com pratinho, com alguns bombons lá.
+
+996
+00:41:51,497 --> 00:41:53,865
+Três, três chocolates diferentes.
+
+997
+00:41:53,866 --> 00:41:55,664
+E pedia a pessoa a escolher.
+
+998
+00:41:55,665 --> 00:41:59,142
+O pessoal ia lá, escolhia, comia e saiu feliz.
+
+999
+00:41:59,143 --> 00:42:01,260
+Depois eles davam a nota lá.
+
+1000
+00:42:01,261 --> 00:42:04,359
+E depois, numa outra vez, eles vinham
+
+1001
+00:42:05,058 --> 00:42:07,117
+com 20 tipos de bombons diferentes.
+
+1002
+00:42:07,817 --> 00:42:12,334
+E a pessoa ficava muito tempo para conseguir escolher e comia
+
+1003
+00:42:12,335 --> 00:42:16,312
+e, no final, a nota era ruim pra essa galera.
+
+1004
+00:42:16,892 --> 00:42:20,680
+Porque eles se frustravam, eles ficavam com eles
+
+1005
+00:42:20,681 --> 00:42:23,798
+ficavam frustrados por ter muita opção pra escolher.
+
+1006
+00:42:23,799 --> 00:42:25,478
+Então a galera usa essa
+
+1007
+00:42:25,479 --> 00:42:27,037
+técnica aí em restaurante também.
+
+1008
+00:42:27,038 --> 00:42:28,236
+Tem restaurante que você tem
+
+1009
+00:42:28,237 --> 00:42:30,235
+lá milhão de coisas diferentes.
+
+1010
+00:42:30,236 --> 00:42:32,874
+E tem restaurante que se preocupa com isso e coloca lá
+
+1011
+00:42:32,875 --> 00:42:35,353
+cinco opções que é para o cara não se frustrar ele
+
+1012
+00:42:35,354 --> 00:42:37,512
+vai chegar lá e vai olhar o que que tem aqui
+
+1013
+00:42:37,513 --> 00:42:40,960
+picanha pronto picanha que eu quero ele já sabe, então a
+
+1014
+00:42:40,961 --> 00:42:42,919
+gente sai muito mais feliz por isso.
+
+1015
+00:42:42,920 --> 00:42:46,597
+Talvez a gente tenha experimentado isso na área,
+
+1016
+00:42:46,598 --> 00:42:49,904
+que chegou lá, tem tanta coisa, tanta coisa
+
+1017
+00:42:49,905 --> 00:42:52,623
+que se você não souber exatamente o que
+
+1018
+00:42:52,624 --> 00:42:56,050
+quer, pegar e saber aproveitar, sai frustrado.
+
+1019
+00:42:56,051 --> 00:42:57,409
+E eu acho que esse é pouco
+
+1020
+00:42:57,410 --> 00:42:59,508
+do espírito mesmo, da própria Devon.
+
+1021
+00:43:00,687 --> 00:43:02,047
+Você vai na Comic Con, você não
+
+1022
+00:43:02,048 --> 00:43:03,326
+vai ver só Homem de Ferro.
+
+1023
+00:43:03,327 --> 00:43:04,985
+Você quer ver outras coisas.
+
+1024
+00:43:04,986 --> 00:43:07,904
+Então o próprio espírito da conferência é esse, né?
+
+1025
+00:43:07,905 --> 00:43:11,462
+Tem várias coisas porque é pro entusiasta, né?
+
+1026
+00:43:11,463 --> 00:43:14,070
+Tudo que a gente viu lá pega os nossos olhos.
+
+1027
+00:43:14,071 --> 00:43:16,269
+Mano, olha a turbina de avião, olha os
+
+1028
+00:43:16,270 --> 00:43:19,667
+cara a carvilage lá, o hacking carvilage.
+
+1029
+00:43:19,668 --> 00:43:21,506
+Sensacional o Tesla lá, você pluga
+
+1030
+00:43:21,507 --> 00:43:23,125
+o computador e hackeia o Tesla.
+
+1031
+00:43:23,126 --> 00:43:26,723
+Eu não tenho expertise e saque tempo pra fazer.
+
+1032
+00:43:26,724 --> 00:43:27,003
+É
+
+1033
+00:43:27,004 --> 00:43:29,842
+negócio legal ver que tem esse tipo de coisa, né, tá
+
+1034
+00:43:29,843 --> 00:43:33,389
+de antenado no mercado, mas parar de uma foto, tá legal.
+
+1035
+00:43:33,390 --> 00:43:36,228
+Então, o ponto da DevCoin é muito bom, é muito
+
+1036
+00:43:36,229 --> 00:43:38,387
+legal, tem que ir, tem que participar, tem que ver
+
+1037
+00:43:38,388 --> 00:43:40,815
+as coisas, mas se você quer ver conteúdo, aí tem
+
+1038
+00:43:40,816 --> 00:43:42,814
+que ir focado, vai focar na vida de que você
+
+1039
+00:43:42,815 --> 00:43:44,453
+quer ver conteúdo, tal, tal, tal, tal.
+
+1040
+00:43:44,454 --> 00:43:46,332
+Você tem que ir pra gente que foi a primeira vez,
+
+1041
+00:43:46,333 --> 00:43:49,570
+acho que valeu de ver tudo, ver pouco de tudo e
+
+1042
+00:43:49,571 --> 00:43:52,848
+ver algumas palestras que a gente pôde ver outras que não
+
+1043
+00:43:52,849 --> 00:43:55,727
+deu para ver na verdade depois segue a galera no Twitter
+
+1044
+00:43:55,728 --> 00:43:58,815
+lá os caras que postem aí acaba disponibilizando os slides pelo
+
+1045
+00:43:58,816 --> 00:44:01,034
+menos, evitando você ter uma ideia ali do conteúdo.
+
+1046
+00:44:01,813 --> 00:44:04,452
+Mas você vai colocar aquele link lá das
+
+1047
+00:44:04,453 --> 00:44:06,511
+palestras que você disse que a galera
+
+1048
+00:44:07,171 --> 00:44:07,770
+colocar no vídeo.
+
+1049
+00:44:07,771 --> 00:44:10,689
+Teve uma palestra que eu vi lá, foi dia que você estava
+
+1050
+00:44:10,690 --> 00:44:14,185
+meio ruim lá, que era do bug no Visual Studio Code.
+
+1051
+00:44:14,186 --> 00:44:16,904
+Basicamente conseguiam SA dentro do Brasil de Code.
+
+1052
+00:44:16,905 --> 00:44:17,684
+Isso, né?
+
+1053
+00:44:18,343 --> 00:44:20,542
+Fantástico, todo mundo usa o Brasil de Code.
+
+1054
+00:44:20,543 --> 00:44:22,141
+Pra mim como o WebSec, cara, eu não
+
+1055
+00:44:22,142 --> 00:44:24,530
+vou explorar o mas pros meus developers que
+
+1056
+00:44:24,531 --> 00:44:26,089
+usam o Visual Studio Code ou Pap.
+
+1057
+00:44:26,090 --> 00:44:27,488
+É problema, como é que a gente
+
+1058
+00:44:27,489 --> 00:44:29,467
+pode mitigar isso, aquela coisa toda.
+
+1059
+00:44:30,447 --> 00:44:33,744
+É muita coisa né, de uma maneira geral.
+
+1060
+00:44:33,745 --> 00:44:35,423
+Dicas, vai, dicas pra Déficon.
+
+1061
+00:44:35,424 --> 00:44:38,262
+O que você falaria pra galera aí?
+
+1062
+00:44:38,263 --> 00:44:40,061
+Deixa eu começar essa, deixa eu começar essa dica.
+
+1063
+00:44:40,062 --> 00:44:40,721
+Vai, vai.
+
+1064
+00:44:41,570 --> 00:44:44,689
+Essa dica é o seguinte até ficou você não consegue comprar
+
+1065
+00:44:44,690 --> 00:44:47,847
+ingresso online aliás esse ano acho que no passado foi a
+
+1066
+00:44:47,848 --> 00:44:52,135
+primeira vez e esse ano teve o préregistro você fazer préregistro
+
+1067
+00:44:52,136 --> 00:44:55,893
+online e já pagava com cartão de crédito a seu risco,
+
+1068
+00:44:55,894 --> 00:44:59,331
+mas você já pagava com 20 dólares mais caro, então não
+
+1069
+00:44:59,332 --> 00:45:03,759
+foi 460 dólares você tem préregistro ou você na hora pega
+
+1070
+00:45:03,760 --> 00:45:06,717
+a fila lá de manhã é uma fila absurda é grande
+
+1071
+00:45:06,718 --> 00:45:09,685
+mas anda rápido que é dá o dinheiro, pega o seu
+
+1072
+00:45:09,686 --> 00:45:10,844
+cacheado e tá dentro, né?
+
+1073
+00:45:10,845 --> 00:45:14,003
+Então eu fiz o que anda rápido. Mas a dica
+
+1074
+00:45:14,004 --> 00:45:15,242
+é Duas horas.
+
+1075
+00:45:15,243 --> 00:45:16,321
+É, esse é o rabo.
+
+1076
+00:45:16,322 --> 00:45:19,609
+Considerando a quantidade de pessoas, Então a minha dica é
+
+1077
+00:45:19,610 --> 00:45:22,128
+se tem esse préregistro de nome que vem nos outros
+
+1078
+00:45:22,129 --> 00:45:25,886
+anos aí faça e dá para outras pessoas retirarem a
+
+1079
+00:45:25,887 --> 00:45:28,564
+sua bad então você manda o core tão qr code
+
+1080
+00:45:28,565 --> 00:45:32,442
+basicamente que você recebe ele vai na fila dois compartilha
+
+1081
+00:45:32,443 --> 00:45:34,921
+os qr code ele ganhou galera só retira as coisas
+
+1082
+00:45:34,922 --> 00:45:37,219
+que às vezes você atrasado, chegou vai ser do lá
+
+1083
+00:45:37,220 --> 00:45:38,819
+na fila e tal, que foi o meu caso, né?
+
+1084
+00:45:38,820 --> 00:45:40,498
+A amiga nossa tava lá na fila.
+
+1085
+00:45:40,499 --> 00:45:42,517
+Consegui tirar pra mim, o Rodrigo acabou
+
+1086
+00:45:43,055 --> 00:45:44,934
+perdeu o tempo do registro antes, né?
+
+1087
+00:45:44,935 --> 00:45:46,653
+Decidiu ir em cima da hora, e aí
+
+1088
+00:45:46,654 --> 00:45:48,492
+teve que ficar na fila lá, enfim.
+
+1089
+00:45:48,493 --> 00:45:49,532
+A minha dica é essa, né?
+
+1090
+00:45:49,533 --> 00:45:51,710
+Faça pra registro antes e você uma pessoa
+
+1091
+00:45:51,711 --> 00:45:55,028
+pode retirar outras bads, então economizei tempo.
+
+1092
+00:45:55,029 --> 00:45:57,387
+E ainda fiquei com uma badge de papel ainda.
+
+1093
+00:45:57,388 --> 00:46:00,704
+É porque acaba as bads oficiais. E pra cutriarse.
+
+1094
+00:46:00,705 --> 00:46:02,823
+Você foi legal, legalzinha. É bonitinha,
+
+1095
+00:46:02,824 --> 00:46:03,623
+é bonitinha. É bonita, é bonita.
+
+1096
+00:46:03,624 --> 00:46:04,583
+É bonita, é bonita.
+
+1097
+00:46:04,584 --> 00:46:05,882
+É bonita, mas é o papel.
+
+1098
+00:46:07,580 --> 00:46:08,700
+Se imprime ali, né?
+
+1099
+00:46:08,701 --> 00:46:10,719
+A gente literalmente é papel, né?
+
+1100
+00:46:12,298 --> 00:46:14,657
+Acho que você falou da parte do quão, de
+
+1101
+00:46:14,658 --> 00:46:19,703
+ser uma convenção, Eu fiquei impressionado porque na abertura
+
+1102
+00:46:19,704 --> 00:46:21,822
+talvez seja porque quem foi para a abertura é
+
+1103
+00:46:21,823 --> 00:46:25,500
+só a galera nova, mas quando perguntaram quem Quem
+
+1104
+00:46:25,501 --> 00:46:28,298
+das pessoas era a primeira vez que estavam participando?
+
+1105
+00:46:28,299 --> 00:46:29,718
+Todo mundo levantou a mão.
+
+1106
+00:46:31,297 --> 00:46:34,236
+Todo mundo que eu olhava assim pra caramba.
+
+1107
+00:46:34,805 --> 00:46:35,804
+Ninguém sabe.
+
+1108
+00:46:35,805 --> 00:46:37,044
+Em uma sala que devia ter o
+
+1109
+00:46:37,045 --> 00:46:38,483
+quanto as pessoas ali dentro, mano.
+
+1110
+00:46:38,484 --> 00:46:39,723
+Ou naquele hotel é
+
+1111
+00:46:39,724 --> 00:46:40,842
+gigante, é gigante.
+
+1112
+00:46:40,843 --> 00:46:42,761
+Tem gosto de me censurar, mano.
+
+1113
+00:46:42,762 --> 00:46:43,741
+É muita gente.
+
+1114
+00:46:44,480 --> 00:46:47,039
+Mas só pra ter uma ideia, era
+
+1115
+00:46:47,040 --> 00:46:48,758
+uma sala de evento gigante, cara.
+
+1116
+00:46:48,759 --> 00:46:50,877
+Uma estrutura pra Texô da Beyoncé,
+
+1117
+00:46:50,878 --> 00:46:55,145
+sei lá. É gigante. É gigante. Boa.
+
+1118
+00:46:56,604 --> 00:46:59,703
+Bom, falando dos três eventos, o que mais gostamos,
+
+1119
+00:47:00,522 --> 00:47:05,099
+uma dica geral que a gente acertou também, Água.
+
+1120
+00:47:05,100 --> 00:47:05,919
+Leva água.
+
+1121
+00:47:07,858 --> 00:47:09,137
+E vai andar muito.
+
+1122
+00:47:09,138 --> 00:47:10,057
+Dica geral, né?
+
+1123
+00:47:10,058 --> 00:47:12,414
+Água porque faz quarenta graus lá, mais
+
+1124
+00:47:12,415 --> 00:47:14,293
+de quarenta graus, dependendo do dia.
+
+1125
+00:47:14,294 --> 00:47:16,772
+Então, cara, a água é fundamental.
+
+1126
+00:47:16,773 --> 00:47:18,891
+E, assim, você vai pensando nos perrengues, né?
+
+1127
+00:47:18,892 --> 00:47:24,308
+Protetor labial, Doutora, enfim, mochila, essa mochila
+
+1128
+00:47:24,309 --> 00:47:26,147
+quebrou, ficou sem, aí conseguiu catamo no
+
+1129
+00:47:26,148 --> 00:47:27,807
+evento lá e quebrou galho.
+
+1130
+00:47:28,485 --> 00:47:30,084
+Mas vai ter uns perrenguesinho, assim.
+
+1131
+00:47:30,085 --> 00:47:32,683
+É, protetor labial é tão importante que
+
+1132
+00:47:32,684 --> 00:47:34,362
+os caras estavam dando como brinde
+
+1133
+00:47:34,363 --> 00:47:36,930
+na Não deu como brinde na landing page.
+
+1134
+00:47:36,931 --> 00:47:37,849
+Porque resseca, né?
+
+1135
+00:47:37,850 --> 00:47:39,609
+Você fica com a boca queimada, tal. É.
+
+1136
+00:47:39,610 --> 00:47:42,727
+Então, essas diquinhas assim mais detalhadas, gente, eu
+
+1137
+00:47:42,728 --> 00:47:44,966
+vou colocar post escrito lá no blog, tá?
+
+1138
+00:47:44,967 --> 00:47:47,784
+Então, vocês acompanham, vai ter mais detalhes ainda do
+
+1139
+00:47:47,785 --> 00:47:51,302
+que esse episódio Esse episódio é overview, acho que
+
+1140
+00:47:51,303 --> 00:47:53,730
+na geral a gente vai passar aqui dez dias.
+
+1141
+00:47:53,731 --> 00:47:54,569
+Aí eu vou ficar dez dias
+
+1142
+00:47:54,570 --> 00:47:56,348
+gravando episódio pra falar de tudo.
+
+1143
+00:47:57,128 --> 00:47:58,128
+É mais essa coisa.
+
+1144
+00:47:58,129 --> 00:48:00,425
+Mas vamos lá, falamos dos três eventos, quanto
+
+1145
+00:48:00,426 --> 00:48:01,744
+custa, como é que você se registra.
+
+1146
+00:48:01,745 --> 00:48:03,024
+A Black Retina a gente não falou, mas
+
+1147
+00:48:03,025 --> 00:48:04,143
+a Black você se registra online, né?
+
+1148
+00:48:04,144 --> 00:48:06,682
+Põe lá os seus cadastros, apaga o cartão de crédito.
+
+1149
+00:48:08,110 --> 00:48:08,910
+Basicamente como se
+
+1150
+00:48:08,911 --> 00:48:09,349
+fosse registro.
+
+1151
+00:48:09,350 --> 00:48:11,668
+Pode tirar a bad antes. Pode tirar a
+
+1152
+00:48:11,669 --> 00:48:12,668
+bad antes.
+
+1153
+00:48:12,669 --> 00:48:13,227
+0 fila.
+
+1154
+00:48:13,228 --> 00:48:15,026
+Chegou lá, pegou, foi embora.
+
+1155
+00:48:15,027 --> 00:48:15,755
+Acabou.
+
+1156
+00:48:15,756 --> 00:48:17,714
+Habsites também você pode cadastrar, fazer
+
+1157
+00:48:17,715 --> 00:48:18,793
+o seu registro antes, né?
+
+1158
+00:48:18,794 --> 00:48:21,192
+Não é pelo evento Bryce, normalmente lá o site,
+
+1159
+00:48:21,193 --> 00:48:23,730
+é na hora fazer o registro lá e acabou.
+
+1160
+00:48:23,731 --> 00:48:25,289
+Mas até ficou só na hora ou esse
+
+1161
+00:48:25,290 --> 00:48:27,568
+préregistro aí, que tipo a gente tem que
+
+1162
+00:48:27,569 --> 00:48:29,247
+pegar fila da bad do mesmo jeito, né?
+
+1163
+00:48:29,248 --> 00:48:32,215
+Então não te lembro da fila, o préregistro é
+
+1164
+00:48:32,216 --> 00:48:33,055
+e é dinheiro.
+
+1165
+00:48:33,056 --> 00:48:34,514
+Você tem que pagar em dinheiro.
+
+1166
+00:48:35,733 --> 00:48:36,693
+Só dinheiro.
+
+1167
+00:48:36,694 --> 00:48:38,732
+Lá não tem outra opção de pagamento, não.
+
+1168
+00:48:38,733 --> 00:48:42,809
+Inclusive, tudo ao redor ali dentro do hotel.
+
+1169
+00:48:42,810 --> 00:48:43,968
+É só dinheiro.
+
+1170
+00:48:43,969 --> 00:48:45,927
+Porque a galera não vai usar,
+
+1171
+00:48:45,928 --> 00:48:47,766
+mas a maquininha de carrinho.
+
+1172
+00:48:47,767 --> 00:48:48,806
+É muito risco, cara.
+
+1173
+00:48:48,807 --> 00:48:51,754
+Do menos é uma conferência hack, mas vai, galera, vai
+
+1174
+00:48:51,755 --> 00:48:54,672
+todo mundo lá, vai pessoas querendo fazer o mal, né?
+
+1175
+00:48:54,673 --> 00:48:55,952
+Fazer o mal antes de vir.
+
+1176
+00:48:55,953 --> 00:48:59,899
+Você tem ali clones de cartão, desviar
+
+1177
+00:48:59,900 --> 00:49:01,698
+uma grana, enfim, então tende todo mundo.
+
+1178
+00:49:01,699 --> 00:49:02,618
+Aí tu quer anônimo, ué, véi.
+
+1179
+00:49:02,619 --> 00:49:03,937
+Cê se cadastra, cê não põe nome, cê
+
+1180
+00:49:03,938 --> 00:49:05,015
+não põe email, cê não põe nada.
+
+1181
+00:49:05,016 --> 00:49:06,215
+Pagou em dinheiro, pega a sua
+
+1182
+00:49:06,216 --> 00:49:07,894
+bad e você tá dentro, acabou.
+
+1183
+00:49:07,895 --> 00:49:10,473
+Vamos ter que ter pouco de cuidado com isso aí.
+
+1184
+00:49:11,732 --> 00:49:12,632
+Boa, boa.
+
+1185
+00:49:14,880 --> 00:49:17,039
+Bom, falando dos três eventos, coisa que a gente mais
+
+1186
+00:49:17,040 --> 00:49:19,917
+gostou, coisa que a gente não gostou de uma maneira
+
+1187
+00:49:19,918 --> 00:49:22,805
+geral, a experiência como primeira vez para a gente gente
+
+1188
+00:49:22,806 --> 00:49:25,364
+que tem viés mais business, a black a gente foi
+
+1189
+00:49:25,365 --> 00:49:28,602
+mais proveitosa, ainda com viés técnico, a gente gostou muito
+
+1190
+00:49:28,603 --> 00:49:30,979
+da amizade também, todas as palestras que eu vi da
+
+1191
+00:49:30,980 --> 00:49:34,258
+Déficor foram muito boas, teve uma ou outra meio que
+
+1192
+00:49:34,259 --> 00:49:38,675
+você falou ah teve, acho que faz parte também, Por
+
+1193
+00:49:38,676 --> 00:49:40,834
+ser defictor você não espera isso, mas espera mais.
+
+1194
+00:49:40,835 --> 00:49:42,153
+Mas só, vai buscar só.
+
+1195
+00:49:42,154 --> 00:49:44,352
+Eu não posso até de aqui, dentro da sala, mas não é.
+
+1196
+00:49:44,353 --> 00:49:46,111
+É, e dá a sensação de que
+
+1197
+00:49:46,112 --> 00:49:48,270
+você queimou uma outra palestra boa.
+
+1198
+00:49:49,749 --> 00:49:51,929
+Porque a todo momento tem palestra.
+
+1199
+00:49:52,748 --> 00:49:54,947
+Aí você tem que escolher. Qual que eu quero?
+
+1200
+00:49:54,948 --> 00:49:55,706
+Essa é essa?
+
+1201
+00:49:55,707 --> 00:49:56,786
+Cara, você vai em
+
+1202
+00:49:56,787 --> 00:49:59,495
+uma, mais ou menos, Você fica puto,
+
+1203
+00:49:59,496 --> 00:49:59,995
+tá?
+
+1204
+00:50:01,054 --> 00:50:03,533
+Eu não contei, mas eu tava fazendo track aqui no
+
+1205
+00:50:03,534 --> 00:50:06,200
+Twitter pra ter uma listinha de seguidor e tal.
+
+1206
+00:50:06,201 --> 00:50:08,659
+Mas acho que tem mais de 30 vidas disso na Terra.
+
+1207
+00:50:09,199 --> 00:50:11,557
+E Village, imagina uma sala de
+
+1208
+00:50:11,558 --> 00:50:13,557
+hotel gigante, é uma vila.
+
+1209
+00:50:13,558 --> 00:50:15,695
+Dentro da Village tem monte de coisa.
+
+1210
+00:50:15,696 --> 00:50:19,493
+Nappsacvino já acontecia palestras simultâneas de duas tracks, então
+
+1211
+00:50:19,494 --> 00:50:22,172
+tinha uma sala maior com duas palestras ao mesmo
+
+1212
+00:50:22,173 --> 00:50:24,589
+tempo, e umas mesas com workshop então são 4
+
+1213
+00:50:24,590 --> 00:50:28,347
+workshops ao mesmo tempo então são 6 atividades simultâneas
+
+1214
+00:50:28,348 --> 00:50:29,827
+numa vila você tem ideia
+
+1215
+00:50:29,828 --> 00:50:32,574
+é só colocar detalhe, quando você fala sala de hotel
+
+1216
+00:50:32,575 --> 00:50:36,852
+fica parecendo quem tá acostumado a ver hotel zebra?
+
+1217
+00:50:36,853 --> 00:50:37,671
+Não, não,
+
+1218
+00:50:38,980 --> 00:50:40,739
+são salas de evento.
+
+1219
+00:50:40,740 --> 00:50:42,098
+Então, por exemplo, se assistiu o
+
+1220
+00:50:42,099 --> 00:50:45,017
+evento do mágico lá, né? É só
+
+1221
+00:50:46,736 --> 00:50:47,465
+teatro.
+
+1222
+00:50:47,466 --> 00:50:48,465
+Pronto, é teatro.
+
+1223
+00:50:48,466 --> 00:50:50,964
+O tamanho de teatro, pra galera ter ideia do tamanho.
+
+1224
+00:50:52,783 --> 00:50:54,462
+É, inclusive, eu nunca tinha
+
+1225
+00:50:54,463 --> 00:50:56,161
+visto uma estrutura igual aquela.
+
+1226
+00:50:59,209 --> 00:51:03,446
+O máximo foi conseguir ver que chega pouco próximo é
+
+1227
+00:51:03,447 --> 00:51:06,894
+o que eu tinha falado lá da no Center Norte.
+
+1228
+00:51:06,895 --> 00:51:09,893
+Tipo assim, é galpãozão gigante que
+
+1229
+00:51:09,894 --> 00:51:11,252
+se aproximou mais da Black Hat.
+
+1230
+00:51:11,253 --> 00:51:12,532
+Sim, que era gigante também.
+
+1231
+00:51:12,533 --> 00:51:15,489
+Eu já cheguei no salão das rodas, quero usar desmame
+
+1232
+00:51:15,490 --> 00:51:18,768
+de motos ali na disposição de imigrantes e no salão
+
+1233
+00:51:18,769 --> 00:51:20,927
+do automóvel, que é a Feira de Cabo e tal.
+
+1234
+00:51:20,928 --> 00:51:22,365
+É mais ou menos aquilo.
+
+1235
+00:51:22,366 --> 00:51:25,124
+A Black Hat é aquilo, mas assim, sei
+
+1236
+00:51:25,125 --> 00:51:27,562
+lá, 10 vezes pra mãe é muito maior.
+
+1237
+00:51:27,563 --> 00:51:30,101
+Talvez é evento que todo mundo conheça e mais popular.
+
+1238
+00:51:30,730 --> 00:51:32,649
+Então essas três ideias de tamanho.
+
+1239
+00:51:32,650 --> 00:51:34,528
+Ou de tamanho é tipo aquele shopping
+
+1240
+00:51:34,529 --> 00:51:36,807
+do Aricanduva lá, mas é gigante.
+
+1241
+00:51:36,808 --> 00:51:38,005
+É gigante, né?
+
+1242
+00:51:38,565 --> 00:51:39,824
+É esse tipo de coisa.
+
+1243
+00:51:41,163 --> 00:51:42,223
+Tem trem.
+
+1244
+00:51:43,442 --> 00:51:43,942
+Tem
+
+1245
+00:51:44,881 --> 00:51:46,721
+bagulho de tão grande que é o negócio?
+
+1246
+00:51:46,722 --> 00:51:49,809
+Essas dicas, gente, como pega o trem quanto paga não
+
+1247
+00:51:49,810 --> 00:51:51,808
+sei o que vai estar no post do blog tá
+
+1248
+00:51:51,809 --> 00:51:54,167
+vou ter muito mais detalhe eu vou fazer mais calma
+
+1249
+00:51:54,168 --> 00:51:56,505
+vai ter muita coisa lá também aqui de novo só
+
+1250
+00:51:56,506 --> 00:51:58,864
+o review pra vocês entenderem como foi a experiência.
+
+1251
+00:51:58,865 --> 00:52:03,640
+A recomendação geral é vá, que seja uma vez na vida vá.
+
+1252
+00:52:03,641 --> 00:52:07,238
+Pague, me organiza viagem, fica lá os 10 dias isso aqui
+
+1253
+00:52:07,239 --> 00:52:09,717
+é 7 dias de viagem, fui 10 dias e eu acabei
+
+1254
+00:52:09,718 --> 00:52:14,003
+ficando 3 dias livres, Os outros 7 é, let it e
+
+1255
+00:52:14,004 --> 00:52:16,582
+websites é tudo junto, então não tem descanso.
+
+1256
+00:52:18,890 --> 00:52:20,349
+E ter as festas, né?
+
+1257
+00:52:21,448 --> 00:52:26,286
+Eu quero comentar mais detalhes no post, mas pra galera
+
+1258
+00:52:26,287 --> 00:52:29,863
+entender Todo dia tem uma festa de algum vendler lá.
+
+1259
+00:52:29,864 --> 00:52:31,302
+Sei lá, a empresa X tem uma
+
+1260
+00:52:31,303 --> 00:52:32,662
+festa, tem uma festa no CA1.
+
+1261
+00:52:32,663 --> 00:52:36,069
+Normalmente esse cadastro antes, e no dia do evento lá você pega
+
+1262
+00:52:36,070 --> 00:52:40,347
+a pulseirinha no hotel na mesa deles lá só que aí na
+
+1263
+00:52:40,348 --> 00:52:42,904
+hora que você vai no evento corrido que tá lotado, tem que
+
+1264
+00:52:42,905 --> 00:52:46,102
+chegar cedo, eu dei com a cara da porta em 2, foo
+
+1265
+00:52:46,103 --> 00:52:49,101
+nenhum que era dentro do quarto do hotel lotado de gente na
+
+1266
+00:52:49,102 --> 00:52:52,388
+banheira do hotel dela era gelo e cerveja.
+
+1267
+00:52:52,389 --> 00:52:54,667
+Então assim, tem de tudo improvisado, né?
+
+1268
+00:52:54,668 --> 00:52:56,426
+Sim, mais improvisado, né?
+
+1269
+00:52:56,427 --> 00:53:00,095
+É, o improvisado foi da BR Huet com R,
+
+1270
+00:53:01,774 --> 00:53:04,372
+Foi uma conferência que a gente fez lá só
+
+1271
+00:53:04,373 --> 00:53:06,771
+de brasileiros, tinha umas 100 pessoas lá, acho que
+
+1272
+00:53:06,772 --> 00:53:10,348
+faço muito brasileiro, muito brasileiro palestrando na Deffman, esse
+
+1273
+00:53:10,349 --> 00:53:12,187
+ano que foi recorde de brasileiros.
+
+1274
+00:53:12,188 --> 00:53:13,387
+É muito legal ver o mercado
+
+1275
+00:53:13,388 --> 00:53:15,824
+brasileiro, as brasileiras palestram lá fora.
+
+1276
+00:53:15,825 --> 00:53:17,344
+Acho que é uma coisa a se
+
+1277
+00:53:17,345 --> 00:53:19,303
+destacar também de uma maneira geral.
+
+1278
+00:53:19,304 --> 00:53:20,942
+Mas uma foto é pé, né? Decei que
+
+1279
+00:53:20,943 --> 00:53:22,701
+você encontra aí no center. Que é uma
+
+1280
+00:53:22,702 --> 00:53:25,319
+foto aí, você achou que eu encontro uma galera, né?
+
+1281
+00:53:25,320 --> 00:53:26,999
+Cara, bora lá, o que a gente vai tirar foto?
+
+1282
+00:53:27,000 --> 00:53:29,078
+Acho que eu estava uns 5 km da Livra.
+
+1283
+00:53:29,079 --> 00:53:31,436
+Ah, vamos correr, vamos correr.
+
+1284
+00:53:31,437 --> 00:53:32,676
+Cuidado, acho que a gente estava
+
+1285
+00:53:32,677 --> 00:53:34,524
+comendo, foi comer, sei lá.
+
+1286
+00:53:34,525 --> 00:53:36,203
+Faltou gente na foto, mas enfim,
+
+1287
+00:53:36,204 --> 00:53:38,482
+tem essa comunidade muito legal aí.
+
+1288
+00:53:38,483 --> 00:53:42,199
+Que também vale ter o tempo o
+
+1289
+00:53:42,200 --> 00:53:44,358
+tema polêmico da questão de comunidade.
+
+1290
+00:53:44,359 --> 00:53:46,197
+Eu achei de panelinha de lado, cheio de
+
+1291
+00:53:46,198 --> 00:53:48,137
+gente que só fala com gente do outro.
+
+1292
+00:53:48,876 --> 00:53:50,734
+Então, enfim, comunidade que trabalha todo
+
+1293
+00:53:50,735 --> 00:53:51,813
+mundo na mesma área, só.
+
+1294
+00:53:51,814 --> 00:53:53,213
+Não necessariamente todo mundo fala
+
+1295
+00:53:53,214 --> 00:53:54,712
+com todo mundo, é server.
+
+1296
+00:53:55,491 --> 00:53:58,510
+É só deixar ponto aqui, que daí é importantíssimo.
+
+1297
+00:53:59,849 --> 00:54:03,247
+Essa experiência que a gente teve de ter
+
+1298
+00:54:03,248 --> 00:54:06,765
+desanimado, pelo menos eu, desanimado com a décima
+
+1299
+00:54:06,766 --> 00:54:08,944
+e tal, é minha experiência, mano.
+
+1300
+00:54:08,945 --> 00:54:12,902
+Cada vai ter, ouve outra galera falando aí, com certeza
+
+1301
+00:54:12,903 --> 00:54:15,300
+você vai ver gente falando muito bem, sendo uma coisa
+
+1302
+00:54:15,301 --> 00:54:17,489
+mais impressionante, então Não vai na ideia, né?
+
+1303
+00:54:17,490 --> 00:54:19,208
+Não é porque a gente está falando
+
+1304
+00:54:19,209 --> 00:54:21,167
+sobre como foi para você, né?
+
+1305
+00:54:21,168 --> 00:54:24,126
+É, vê caça, entra no site, vê se vale
+
+1306
+00:54:24,127 --> 00:54:26,794
+a pena, vê as palestras que teve, vê o
+
+1307
+00:54:26,795 --> 00:54:29,753
+que tem, tira as próprias conclusões, né?
+
+1308
+00:54:29,754 --> 00:54:30,832
+Vai lá e dá uma olhada.
+
+1309
+00:54:30,833 --> 00:54:32,472
+Não, e eu como eu falei, a
+
+1310
+00:54:32,473 --> 00:54:35,259
+Epic Village dentro da Deffman, sensacional.
+
+1311
+00:54:35,260 --> 00:54:36,778
+Tudo tinha lá, acho que foi onde eu
+
+1312
+00:54:36,779 --> 00:54:38,697
+mais passei mais tempo, a lock picking que
+
+1313
+00:54:38,698 --> 00:54:41,496
+eu vi, a biohacking, tudo foi top.
+
+1314
+00:54:41,497 --> 00:54:45,414
+É que assim, a gente fica frustrada, é tanta coisa.
+
+1315
+00:54:45,994 --> 00:54:47,793
+Você vai beber feito em 500 coisas.
+
+1316
+00:54:47,794 --> 00:54:49,432
+Aí você quer pegar pouco de cada, no
+
+1317
+00:54:49,433 --> 00:54:51,111
+final você mistura tudo no prato e como?
+
+1318
+00:54:51,112 --> 00:54:53,769
+Não tem gosto de nada, né? É só sal.
+
+1319
+00:54:53,770 --> 00:54:55,549
+Então você é enjoada com macarronada.
+
+1320
+00:54:56,768 --> 00:54:58,607
+Às vezes o foco ajuda nesse sentido.
+
+1321
+00:54:58,608 --> 00:55:00,886
+Então a gente teve certo foco, mas
+
+1322
+00:55:00,887 --> 00:55:03,555
+enfim, nós temos esse sentimento também.
+
+1323
+00:55:03,556 --> 00:55:06,313
+Então mais detalhes aí eu vou fazer postzinho lá
+
+1324
+00:55:06,314 --> 00:55:09,072
+no blog com detalhes mesmo né meu programa sua
+
+1325
+00:55:09,073 --> 00:55:12,569
+viagem assim com a passagem custa tanto ou dicas
+
+1326
+00:55:12,570 --> 00:55:15,408
+de hotéis e tal, vai estar bem mais detalhado.
+
+1327
+00:55:15,409 --> 00:55:17,327
+A ideia que era de falar da experiência mais
+
+1328
+00:55:17,328 --> 00:55:20,094
+técnica, vamos chamar assim, né, como foi lá participar
+
+1329
+00:55:20,095 --> 00:55:22,093
+da Black Hat, da Dev, da Bissant Las Vegas
+
+1330
+00:55:22,094 --> 00:55:24,012
+pela primeira vez, pelo menos pra gente.
+
+1331
+00:55:24,013 --> 00:55:25,891
+Eu não sei se eu vou todo ano, eu
+
+1332
+00:55:25,892 --> 00:55:29,009
+acho que Black Hat Aí faz pouco de sentido,
+
+1333
+00:55:29,010 --> 00:55:30,568
+por que a galera gosta de todo ano?
+
+1334
+00:55:30,569 --> 00:55:32,327
+Porque é tanta coisa na Devon, porque
+
+1335
+00:55:32,328 --> 00:55:34,126
+cada ano o cara vai com foco.
+
+1336
+00:55:34,127 --> 00:55:36,284
+O terceiro eu vou de zoeira, vou ver tudo.
+
+1337
+00:55:36,285 --> 00:55:37,444
+Esse ano eu vou com foco, eu vou ficar
+
+1338
+00:55:37,445 --> 00:55:39,163
+na AppSacVira, esse ano eu vou ver só uma
+
+1339
+00:55:39,164 --> 00:55:41,722
+ofensiva, esse ano eu vou aprender uma coisa nova,
+
+1340
+00:55:41,723 --> 00:55:43,549
+eu vou ler outras coisas, tá ligado?
+
+1341
+00:55:43,550 --> 00:55:45,488
+Tu tem Não vai fazer competição.
+
+1342
+00:55:46,028 --> 00:55:47,607
+É, tem pouco disso também.
+
+1343
+00:55:48,227 --> 00:55:49,826
+Pra isso que existe a conferência, né?
+
+1344
+00:55:49,827 --> 00:55:52,024
+A colha de tudo, de todos, que eu acho que tem
+
+1345
+00:55:52,025 --> 00:55:54,662
+esse viés, então dependendo do teu foco, ano você pode fazer
+
+1346
+00:55:54,663 --> 00:55:57,301
+uma coisa, tempo pode fazer outra, mas acho que não sei
+
+1347
+00:55:57,302 --> 00:56:01,119
+se vale todo ano, não, provas na minha visão, é algo
+
+1348
+00:56:01,120 --> 00:56:03,038
+a cada três anos, acho que vai sentir.
+
+1349
+00:56:03,039 --> 00:56:04,957
+Você vê tudo, não vê coisa nova,
+
+1350
+00:56:04,958 --> 00:56:06,836
+os eventos cresceram, não tem mais coisa
+
+1351
+00:56:06,837 --> 00:56:08,455
+nova, enfim, mais coisa pra aproveitar.
+
+1352
+00:56:09,174 --> 00:56:13,692
+Enfim, então é a minha visão, minha ideia de como
+
+1353
+00:56:13,693 --> 00:56:17,830
+maratonar, porque são 7 dias fácil, 7 dias fácil.
+
+1354
+00:56:18,709 --> 00:56:20,348
+De conferência que cansa pra cá,
+
+1355
+00:56:20,349 --> 00:56:22,747
+parece que é a verdade. Bom, perdão.
+
+1356
+00:56:22,748 --> 00:56:24,186
+Mano, episódio caiu de uma hora
+
+1357
+00:56:24,187 --> 00:56:25,665
+e não quero estourar também não.
+
+1358
+00:56:25,666 --> 00:56:28,454
+Dá pra fazer, dá pra falar muita coisa, dá de novo.
+
+1359
+00:56:28,455 --> 00:56:30,693
+Passar a vida falando, porque tem muita coisa mesmo.
+
+1360
+00:56:30,694 --> 00:56:33,532
+A gente acaba soltando uns outros episódios aí, né?
+
+1361
+00:56:33,533 --> 00:56:34,171
+Ela vai soltando
+
+1362
+00:56:34,172 --> 00:56:36,690
+uma coisa, vai puxando coisa também.
+
+1363
+00:56:36,691 --> 00:56:40,338
+Detalhe importante, tem você participa do Dev
+
+1364
+00:56:40,339 --> 00:56:41,418
+com a própria Black Hat, né?
+
+1365
+00:56:41,419 --> 00:56:42,737
+A Dev com Aliás, não, né?
+
+1366
+00:56:42,738 --> 00:56:43,936
+Porque a Dev com não tem vendedor, né?
+
+1367
+00:56:43,937 --> 00:56:46,344
+Não tem patrocinador lá, pô, não quando
+
+1368
+00:56:46,345 --> 00:56:47,943
+o baque de vender solução, tá?
+
+1369
+00:56:47,944 --> 00:56:49,023
+Tem dentro das Villagers, né?
+
+1370
+00:56:49,024 --> 00:56:50,662
+Mas de uma maneira geral.
+
+1371
+00:56:50,663 --> 00:56:54,839
+Mas a Black at in Abside, você ganha muito trial,
+
+1372
+00:56:54,840 --> 00:56:57,678
+para testar a ferramenta, você vê ferramenta top de mercado,
+
+1373
+00:56:57,679 --> 00:56:59,397
+a demonstração, como é que funciona, às vezes você tinha
+
+1374
+00:56:59,398 --> 00:57:03,654
+curiosidade, ganha às vezes uma oportunidade de conhecer cara foda,
+
+1375
+00:57:03,655 --> 00:57:05,093
+que eu falei assim, você falou, meu, o cara faleceu
+
+1376
+00:57:05,094 --> 00:57:07,092
+no abscesso, é cara foda, é cara de mercado que
+
+1377
+00:57:07,093 --> 00:57:09,451
+trabalha na empresa bacana, tá fazendo uma pesquisa foda, você
+
+1378
+00:57:09,452 --> 00:57:11,090
+não vai ter contato com cara desse no dia a
+
+1379
+00:57:11,091 --> 00:57:11,809
+dia, é muito difícil.
+
+1380
+00:57:11,810 --> 00:57:13,688
+E o cara também olhou pra lecionar e desce pro mesmo
+
+1381
+00:57:13,689 --> 00:57:15,767
+palco que você tá, pra mesma sala ali, a mesma mesa
+
+1382
+00:57:15,768 --> 00:57:17,646
+e senta pra ele tomar café pra comer ideia, né?
+
+1383
+00:57:17,647 --> 00:57:20,274
+Então a oportunidade de você ter nesses eventos é
+
+1384
+00:57:20,275 --> 00:57:22,553
+sensacional você não tem lugar nenhum na sua sala
+
+1385
+00:57:22,554 --> 00:57:24,232
+de faculdade não tem isso no curso que você
+
+1386
+00:57:24,233 --> 00:57:27,030
+não tem isso você só tem evento então participar
+
+1387
+00:57:27,031 --> 00:57:30,328
+de eventos constantes é uma obrigação na minha visão
+
+1388
+00:57:30,329 --> 00:57:33,867
+do profissional, de geral, mas não sabe a segurança.
+
+1389
+00:57:35,206 --> 00:57:35,826
+E diversificam.
+
+1390
+00:57:36,685 --> 00:57:40,013
+Tipo, Eu fico com a Pecopari, evento pra mim era
+
+1391
+00:57:40,014 --> 00:57:43,011
+só o Facefy, mas foi sensacional, aprendi coisa pra caralho,
+
+1392
+00:57:43,012 --> 00:57:46,099
+que é em Buenos Aires, super barato de ir, tem
+
+1393
+00:57:46,100 --> 00:57:48,338
+a 8.8 que é no Chile, não tive oportunidade de
+
+1394
+00:57:48,339 --> 00:57:50,017
+agir, mas a pessoa fala que é muito bacana.
+
+1395
+00:57:50,018 --> 00:57:52,296
+Então assim, às vezes deveria ser que vá por esse ano
+
+1396
+00:57:52,297 --> 00:57:55,183
+eu vou na Nekopari em Buenos Aires, dois, três dias.
+
+1397
+00:57:55,184 --> 00:57:56,462
+Putz, esse ano, e tendo que ver, eu
+
+1398
+00:57:56,463 --> 00:57:58,101
+vou lá na Black Hat na Déficit.
+
+1399
+00:57:58,102 --> 00:58:00,580
+No outro ano eu vou lá no Chile não,
+
+1400
+00:58:00,581 --> 00:58:02,689
+e no outro ano eu vou no céu.
+
+1401
+00:58:02,690 --> 00:58:06,128
+Acho que diversificar também os eventos, né?
+
+1402
+00:58:06,129 --> 00:58:07,847
+Não para ficar mais do mesmo, aquela coisa, né?
+
+1403
+00:58:07,848 --> 00:58:09,786
+Acho que foi o negócio legal de se pensar.
+
+1404
+00:58:11,324 --> 00:58:13,543
+Estratégia sua de aprendizado de professor.
+
+1405
+00:58:14,442 --> 00:58:15,042
+Boa!
+
+1406
+00:58:15,043 --> 00:58:16,242
+E pra fechar a episódio de
+
+1407
+00:58:16,243 --> 00:58:18,359
+hoje, tem parceiro novo aí, né?
+
+1408
+00:58:20,638 --> 00:58:25,936
+Esse parceiro aqui ó tá no strike digital walk
+
+1409
+00:58:26,794 --> 00:58:30,272
+Inclusive, esse é o motivo de eu ter sumido
+
+1410
+00:58:30,273 --> 00:58:33,511
+daqui, então muita coisa vai acontecer ao mesmo tempo,
+
+1411
+00:58:33,512 --> 00:58:34,011
+continue
+
+1412
+00:58:34,909 --> 00:58:36,802
+É. Sumido? Pode falar.
+
+1413
+00:58:36,803 --> 00:58:37,488
+Pode falar sim.
+
+1414
+00:58:38,317 --> 00:58:41,476
+Pode falar sim.
+
+1415
+00:58:42,306 --> 00:58:42,745
+É.
+
+1416
+00:58:42,746 --> 00:58:45,614
+Kevin Sekoffice. Kevin Sekoffice. Backups.
+
+1417
+00:58:45,615 --> 00:58:51,451
+Então, a ideia era criar essa empresa para dar apoio aos
+
+1418
+00:58:51,452 --> 00:58:54,739
+clientes, a todas as empresas de voltar na App SECK.
+
+1419
+00:58:54,740 --> 00:58:56,059
+Então, o que a gente viu
+
+1420
+00:58:56,060 --> 00:58:58,297
+com algumas experiências no mercado?
+
+1421
+00:58:58,298 --> 00:59:02,325
+Que o AppSECK em geral no Brasil está nascendo ainda.
+
+1422
+00:59:02,326 --> 00:59:03,484
+Então você vê as empresas que
+
+1423
+00:59:03,485 --> 00:59:05,963
+estão rodando, elas são muito jovens.
+
+1424
+00:59:05,964 --> 00:59:07,302
+A área, né, jovem.
+
+1425
+00:59:08,122 --> 00:59:10,581
+Soluções, a galera não conhece soluções.
+
+1426
+00:59:11,140 --> 00:59:14,298
+Então a gente tentou trazer essa expertise para
+
+1427
+00:59:14,299 --> 00:59:18,695
+criar essa empresa então é tem aí mês
+
+1428
+00:59:18,696 --> 00:59:21,533
+Street do AppSec, que tá dando apoio.
+
+1429
+00:59:21,534 --> 00:59:23,052
+Cadê ele? Cadê? Você
+
+1430
+00:59:23,053 --> 00:59:24,952
+tirou foto com ele lá? Tirei.
+
+1431
+00:59:27,179 --> 00:59:29,119
+O cara está dando apoio em geral.
+
+1432
+00:59:30,418 --> 00:59:32,736
+Cara, até nova 8 está dando apoio.
+
+1433
+00:59:32,737 --> 00:59:34,056
+A Tcheca está dando apoio.
+
+1434
+00:59:34,057 --> 00:59:35,795
+Então, cara, a gente está com apoio
+
+1435
+00:59:36,325 --> 00:59:40,163
+gigantesco da galera bem interessante na área.
+
+1436
+00:59:40,164 --> 00:59:43,201
+E a ideia é criar a certeza pra fazer isso,
+
+1437
+00:59:43,202 --> 00:59:45,639
+fazer a mesma coisa que tá acontecendo com ela, né?
+
+1438
+00:59:45,640 --> 00:59:47,438
+Dá o apoio pras empresas a
+
+1439
+00:59:47,439 --> 00:59:49,397
+desenvolver a área de segurança.
+
+1440
+00:59:49,398 --> 00:59:51,356
+Então, o intuito de ter ido pra
+
+1441
+00:59:51,357 --> 00:59:53,795
+Black Hat era isso também, trazer soluções.
+
+1442
+00:59:53,796 --> 00:59:58,203
+Cara, Teremos muitas novidades aqui num podcast,
+
+1443
+01:00:00,302 --> 01:00:02,001
+que vai ter gato lá no podcast.
+
+1444
+01:00:02,670 --> 01:00:04,949
+E o vale de sacar aí que é a ideia da
+
+1445
+01:00:04,950 --> 01:00:09,167
+Digital Oak, para quem ouve a gente aí, enfim, é ter
+
+1446
+01:00:09,925 --> 01:00:14,602
+portfólio completo de soluções e serviços de APQ Executivo.
+
+1447
+01:00:14,603 --> 01:00:18,640
+Então se você precisa de requisito de desenvolvimento
+
+1448
+01:00:18,641 --> 01:00:21,589
+segundo, tem uma solução e serviço pra isso.
+
+1449
+01:00:22,128 --> 01:00:23,767
+Você vai fazer o delivery do seu software,
+
+1450
+01:00:23,768 --> 01:00:26,995
+você precisa validar, testar, tem uma solução precisa
+
+1451
+01:00:26,996 --> 01:00:29,193
+rodar scan nas suas bibliotecas de terceiros, tem
+
+1452
+01:00:29,194 --> 01:00:30,833
+uma solução sobre isso que é isso.
+
+1453
+01:00:30,834 --> 01:00:33,831
+Fazer gestão nas suas vulnerabilidades, treinar o seu desenvolvedor, então
+
+1454
+01:00:33,832 --> 01:00:37,030
+muito em breve vai ter aí portfolio da Digital Works,
+
+1455
+01:00:37,031 --> 01:00:39,429
+a gente vai colocar o logo deles aqui e tal
+
+1456
+01:00:39,430 --> 01:00:41,867
+e é isso então tem uma empresa nova aí no
+
+1457
+01:00:41,868 --> 01:00:45,474
+mercado que eu acho que ninguém faz isso no tamanho
+
+1458
+01:00:46,334 --> 01:00:49,092
+no tamanho do sentido de o quanto a ideia que
+
+1459
+01:00:49,093 --> 01:00:51,891
+você quer englobar né de oferecer apseque mesmo de ponta
+
+1460
+01:00:51,892 --> 01:00:56,338
+a ponta com soluções ferramentas e tal e serviços né
+
+1461
+01:00:56,339 --> 01:00:59,217
+não só tá aqui compra as soluções se virem não
+
+1462
+01:00:59,218 --> 01:01:01,696
+compra vou te ajudar a usar né vou te implementar
+
+1463
+01:01:01,697 --> 01:01:04,344
+no seu processo enfim te aconselhar qual é a melhor,
+
+1464
+01:01:04,345 --> 01:01:06,484
+se você precisa disso ou não precisa disso na verdade,
+
+1465
+01:01:08,302 --> 01:01:10,541
+a ideia é levar valor pro cliente, não tirar valor
+
+1466
+01:01:10,542 --> 01:01:13,339
+dele, tirar dinheiro para vender, não quer fazer isso?
+
+1467
+01:01:13,340 --> 01:01:13,839
+Exatamente.
+
+1468
+01:01:14,618 --> 01:01:17,037
+É gente que eu digo o Rodrigo, a empresa do Rodrigo.
+
+1469
+01:01:19,536 --> 01:01:21,395
+A ideia é exatamente isso.
+
+1470
+01:01:21,396 --> 01:01:23,794
+Trazer o valor, é ter o teu ganhaganha.
+
+1471
+01:01:23,795 --> 01:01:26,552
+É claro que é uma empresa, ela vai ter
+
+1472
+01:01:26,553 --> 01:01:29,330
+percentual, mas a ideia é trazer realmente o valor.
+
+1473
+01:01:29,331 --> 01:01:31,449
+Então cara, como que a gente realmente
+
+1474
+01:01:31,450 --> 01:01:35,047
+faz que esse processo seja seguro?
+
+1475
+01:01:35,048 --> 01:01:37,714
+Como que a gente garante que seu software
+
+1476
+01:01:37,715 --> 01:01:41,193
+vai sair de forma como tem que ser.
+
+1477
+01:01:41,194 --> 01:01:45,289
+Então, a ideia é realmente não é vender a
+
+1478
+01:01:45,290 --> 01:01:48,807
+ideia é proteger então acho que esse é diferencial
+
+1479
+01:01:48,808 --> 01:01:51,526
+que me orgulho muito de dizer a gente sempre
+
+1480
+01:01:51,527 --> 01:01:55,364
+tentou fazer isso nas empresas apoiamos muito porque, cara,
+
+1481
+01:01:55,365 --> 01:01:58,002
+entendeu como o negócio funciona e tudo mais.
+
+1482
+01:01:58,003 --> 01:02:01,279
+Então, a ideia é, garantir segurança
+
+1483
+01:02:01,939 --> 01:02:03,598
+em todo o processo de desenvolvimento.
+
+1484
+01:02:04,218 --> 01:02:06,297
+Inclusive, ela é focada em epicentro
+
+1485
+01:02:06,298 --> 01:02:08,695
+por conta disso, para não fugir.
+
+1486
+01:02:08,696 --> 01:02:11,184
+Então, é especialidade em epicentia.
+
+1487
+01:02:11,185 --> 01:02:12,423
+E é foco em assistir.
+
+1488
+01:02:12,424 --> 01:02:14,142
+Tem coisa pra caralho, gente.
+
+1489
+01:02:14,143 --> 01:02:16,101
+É muita coisa, é muita coisa.
+
+1490
+01:02:16,102 --> 01:02:19,429
+Talvez, seja necessário focar pouco
+
+1491
+01:02:19,430 --> 01:02:20,689
+mais na afunilada.
+
+1492
+01:02:21,828 --> 01:02:23,187
+Mas vai ser interessante.
+
+1493
+01:02:23,188 --> 01:02:27,405
+Inclusive o próprio site da DigitalWook vai ter
+
+1494
+01:02:27,406 --> 01:02:30,563
+Toda área dela vai ser voltada a aplicar
+
+1495
+01:02:30,564 --> 01:02:32,402
+a check list de forma educativa.
+
+1496
+01:02:32,403 --> 01:02:35,180
+Então, se você abrir a área de produtos, você vai
+
+1497
+01:02:35,181 --> 01:02:37,179
+ver todo o processo então por mais que você não
+
+1498
+01:02:37,180 --> 01:02:40,217
+esteja comprando você consegue entender meu cara o que que
+
+1499
+01:02:40,218 --> 01:02:43,175
+eu posso fazer para garantir segurança nessa parte do processo
+
+1500
+01:02:43,176 --> 01:02:45,014
+eu descobri até coisa que você
+
+1501
+01:02:45,015 --> 01:02:47,253
+nem sabia que você precisava, né?
+
+1502
+01:02:47,254 --> 01:02:49,851
+É, tem proteção de binário, nossa, como é
+
+1503
+01:02:49,852 --> 01:02:52,920
+que eu protejo códigofonte ou pensasse foi modificado
+
+1504
+01:02:52,921 --> 01:02:54,319
+ou não, coisas do tipo, né?
+
+1505
+01:02:54,320 --> 01:02:55,598
+Então, é legal.
+
+1506
+01:02:55,599 --> 01:02:58,796
+Se o container foi modificado ali durante
+
+1507
+01:02:58,797 --> 01:03:01,885
+o processo de build, processo de deploy,
+
+1508
+01:03:01,886 --> 01:03:04,723
+Sim, cara, são coisas bem interessantes.
+
+1509
+01:03:04,724 --> 01:03:08,202
+Por isso que vai ter novidade aqui, que é
+
+1510
+01:03:08,203 --> 01:03:10,330
+a cada passo que a gente dá lá, a
+
+1511
+01:03:10,331 --> 01:03:12,968
+gente consegue trazer essas informações pra cá.
+
+1512
+01:03:12,969 --> 01:03:13,528
+Sim.
+
+1513
+01:03:13,529 --> 01:03:15,047
+É interessante, é interessante.
+
+1514
+01:03:15,048 --> 01:03:19,374
+Eu olho muito de conseguir começar esse projeto agradece o
+
+1515
+01:03:19,375 --> 01:03:23,293
+Cássio por ser cara tá dando sangue aí também pra
+
+1516
+01:03:23,294 --> 01:03:27,330
+me ajudar irmãozão tá ajudando de graça Jamã.
+
+1517
+01:03:28,749 --> 01:03:32,487
+Era meu hamburguini. Hoje,
+
+1518
+01:03:33,187 --> 01:03:34,087
+fica bom.
+
+1519
+01:03:34,994 --> 01:03:36,874
+Agradeço nova hoje também, porque a gente
+
+1520
+01:03:36,875 --> 01:03:38,753
+está sendo parcelão ali, que ele está
+
+1521
+01:03:38,754 --> 01:03:40,392
+dando apoio, que ele está dando.
+
+1522
+01:03:40,393 --> 01:03:43,039
+Então, a ideia é a ideia é criar
+
+1523
+01:03:43,040 --> 01:03:45,638
+uma empresa que vá te trazer valor.
+
+1524
+01:03:45,639 --> 01:03:46,118
+Boa.
+
+1525
+01:03:46,119 --> 01:03:48,157
+Então é isso pessoal, é o seguinte, encerramos o
+
+1526
+01:03:48,158 --> 01:03:52,134
+episódio de retorno do Rodrigo, do próprio podcast que
+
+1527
+01:03:52,135 --> 01:03:54,813
+estava mês sem fazer episódio aqui, mas semana que
+
+1528
+01:03:54,814 --> 01:03:57,991
+vem tem mais, tem convidados de analista, tem tópicos,
+
+1529
+01:03:59,070 --> 01:04:01,669
+Porque não tem tempo pra fazer, velho.
+
+1530
+01:04:01,670 --> 01:04:02,988
+E aí vontade a gente tem,
+
+1531
+01:04:02,989 --> 01:04:04,907
+mas tempo é negócio complicado.
+
+1532
+01:04:04,908 --> 01:04:05,267
+Então a
+
+1533
+01:04:05,268 --> 01:04:06,826
+gente se vê na semana que vem, eu
+
+1534
+01:04:06,827 --> 01:04:09,405
+sou o Carlos Pereira, Eu sou Rodrigo Balbino.
+
+1535
+01:04:09,984 --> 01:04:12,543
+Valeu até a próxima. É mais.
+
+1536
+01:04:12,544 --> 01:04:13,982
+Termina aqui.
+
+1537
+01:04:13,983 --> 01:04:15,261
+Deve em Secopes.
+
+1538
+01:04:15,262 --> 01:04:19,188
+Deve o seu podcast de segurança em tecnologia.
