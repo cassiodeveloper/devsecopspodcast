@@ -1,0 +1,2346 @@
+E novo essa segurança.
+
+Tecnologia desse envolvimento.
+
+Começa aqui.
+
+Deve ser cóccix, deve SECOUNT, o
+
+seu podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais episódio do DevSacops.
+
+Podcast, o meu, o nosso podcast de tecnologia.
+
+Eu sou o Cássio Pereira, eu sou Rodrigo Balbino.
+
+Na verdade, é a tecnologia, não é só segurança, né?
+
+Tecnologia falo de uma coisa só.
+
+Eu vou começar já falando dos patrocinadores, que é o
+
+que traz lamborghini pra gente, o resto não interessa.
+
+O Devil's Circle of Education tem da
+
+Checkmates da nova 8, que são especializadas
+
+em segurança de sistemas de código seguro.
+
+O link da nova 8, que é a
+
+distribuidora da Checkmates do Brasil, está abaixo, não
+
+esqueçam do episódio lá no YouTube.
+
+Ou também no nosso site deve sercopys.com.br.
+
+A Contabilidade Olímpia que é especializada em profissionais
+
+da área de TI, você precisa abrir sua
+
+empresa ou migrar de Contabilidade, entre em contato
+
+com o pessoal da Contabilidade Olympia que eles
+
+estão prontos para te atender.
+
+E a Goto Security é especializada em serviços
+
+de Application Security quer desenvolver código seguro, software
+
+seguro, fale com a Gold Security.
+
+E temos também o nosso novo parceiro.
+
+Ah não, você está pelo favor quer dizer.
+
+O cara é o CEO da empresa
+
+e ele não quer fazer propaganda.
+
+E eu que tenho que fazer propaganda?
+
+Você é influencer.
+
+Tá bom então pessoal para vocês que querem qualquer
+
+tipo de solução relacionada a Application Security relacionada a
+
+desenvolvimento seguro qualquer solução fale com a Digital Oak,
+
+que eles estão Eles estão Ele está pronto para
+
+te atender a qualquer momento, tá?
+
+A gente tem portfólio completo lá, de soluções
+
+de APQs de SEQs, desde requisitos de segurança
+
+até o delivery do seu software, beleza?
+
+Então, para votar daqui que o próprio sino
+
+vai vender esse mês aqui, vai ser falho.
+
+Nesse mês que é o depósito inicial.
+
+Bom, é isso falar pouquinho dos nossos patrocinadores.
+
+Episódio de hoje, seus putos, Vamos
+
+falar sobre Application Security Innovation ou
+
+inovação na Netflix Security.
+
+Por que esse tema?
+
+A gente acabou de vir da Black Hat.
+
+A gente acabou de vir da Black Hat e
+
+da Déficit, a gente viu muita coisa lá.
+
+Aliás, tem que digerir ainda, mas tanta coisa que
+
+a gente viu Acho que a gente pegou alguns
+
+tópicos que a gente viu ali que está em
+
+alta, estão em alta, está sendo falado no mercado,
+
+coisas que ainda vão ser lançadas inclusive.
+
+Coisas que já tem no mercado funcionando, você
+
+já pode comprar, adquirir, enfim, que são coisas
+
+novas, algumas coisas relativamente as mesmas pouquinho melhoradas,
+
+outras são relativamente novas, né?
+
+Por algumas coisas que a gente
+
+tá vendo nova no mercado aí.
+
+E eu queria começar, Rodrigo, puxando do teu lado dos
+
+tópicos que a gente separou, aquela parte, a gente viu
+
+umas soluções lá, a pessoa que tá acostumado aqui com
+
+podcast, a gente sempre falou né, de sasti, dasti, CCA,
+
+enfim, análise de código, análise de bibliotecas, tudo isso você
+
+já conhece, tudo isso já sabe, você já tá a
+
+quatro temporadas aqui ouvindo falar disso.
+
+Mas no episódio de hoje a gente vai
+
+trazer coisas novas e coisas pouco diferentes.
+
+Então a gente viu uma das coisas que a gente viu lá,
+
+foi uma empresa, a gente vai falar uma das empresas, tá?
+
+Depois pesquisem por aí mas a gente vê uma solução
+
+lá que eles fazem o seguinte análise de binários Então
+
+basicamente ele decompila a sua aplicação pra fazer a análise
+
+das bibliotecas open source pra ver se elas não tiverem
+
+nenhuma modificação no meio do caminho.
+
+Ou seja, tem uma biblioteca open source
+
+lá, você usa o JQuery da vida.
+
+Então ele tem o JQuery original,
+
+a versão específica que você falou.
+
+E você está usando essa versão na sua aplicação, você compelôs,
+
+fez o deploy, enfim, ele descupiu a sua aplicação para ver
+
+se o que você está usando é a mesma.
+
+Para garantir que não teve nenhuma modificação no meio,
+
+entre você baixar a biblioteca ou alguém ali em
+
+sider, alguma coisa, algum malware, alguma coisa do tipo
+
+da biblioteca na sua organização, depois que ele está
+
+utilizando ela, até você fazer o pack desse software.
+
+Então ele faz o decompile da sua aplicação para fazer
+
+Basicamente, bater hash ali, se a biblioteca original é a
+
+mesma que você está utilizando no meu emprego.
+
+E isso eu achei negócio fantástico, porque Primeiro que
+
+não tem solução fazendo isso, a gente já viu
+
+esses caras, depois eu pesquisei pouco no mercado e
+
+não tem outra solução fazendo igual.
+
+Tal trabalho fazer, né?
+
+O The Compile da Parada, tava meio
+
+complicado de fazer, mas estão fazendo.
+
+E eu acho que traz valor muito grande
+
+pra essa questão do do Supply Chain, né?
+
+A gente fala de Supply Chain que é uma
+
+das que tá muito em alta, é dos royalties
+
+tópicos que tá lá no mercado aí.
+
+E quando a gente fala desse tipo de análise né cara?
+
+Será que alguém no meio aqui do seu
+
+ciclo de desenvolvimento não mexeu lá naquela biblioteca
+
+que pode até interferir numa questão de licença
+
+né mas pode até interferir em uma questão
+
+de licença ou legal, vamos dizer assim, né?
+
+Ou então se eu introduzir o mesmo algum
+
+mal, era algum comportamento inadequado naquela biblioteca, então
+
+ele faz esse O, cara, se a sua
+
+aplicação é compilada, ela tá diferente, a biblioteca
+
+X tá diferente da biblioteca original.
+
+Alguma coisa pode ser.
+
+Vale a pena você checar, então ela te
+
+dá uns alertas com relação a isso.
+
+Essa se você é a primeira que
+
+eu queria jogar aqui pra gente discutir.
+
+O que você acha disso?
+
+Olhar na sua experiência com o desenvolvedor.
+
+E puxando pouquinho agora do que você já
+
+tem de segurança, como é que você enxerga
+
+esse tipo de segurança no mercado?
+
+Esse tipo de solução no mercado.
+
+Eu começo até rindo, porque a gente está acostumado
+
+em ver quando tem segurança, é muita coisa voltada
+
+SAST, DAST e olhe lá SCA, né?
+
+É o que acontece.
+
+E a gente fica preocupado em ver as coisas no ideal.
+
+O que seria ideal fazer?
+
+Cara, o ideal é você cobrir o
+
+seu processo de ponta a ponta.
+
+Onde há abertura para que alguém possa alterar o código,
+
+possa inserir algo malicioso, pode a modificar o seu software,
+
+é importante você ir lá atrás, você fechar e garantir
+
+que o que foi feito está sendo entregue.
+
+Então durante esse processo você tem vários pontos, não
+
+sei se chega a ser pontos falhos, mas vários
+
+pontos de abertura para que isso aconteça.
+
+Eu acho que isso é algo fantástico
+
+para você olhar, identificar e saber que
+
+aquilo que você pediu é aquilo mesmo.
+
+Então, por exemplo, Acho que teve recentemente uma
+
+polêmica falando de Gadgets, que ia para os
+
+Estados Unidos, vindo da Coreia, por exemplo.
+
+Então os Estados Unidos até bloqueou a
+
+compra desses gadgets, Porque dentro dos Chips,
+
+eles tinham códigos de espionagem.
+
+Foi isso que os Estados Unidos alegou.
+
+E é uma coisa simples de Cara, isso
+
+daqui era, sei lá, é módulo de relógio. O roteador, eu
+
+tô comprando roteador aqui, xinha, né?
+
+Exatamente, está comprando roteador.
+
+Só que lá dentro tem
+
+backdoor.
+
+Tem backdoor, ou pior, de tá
+
+enviando pacotes para alguém específico.
+
+Então aí vem a se pensar qual é o nível
+
+de segurança que você precisa qual é o nível de
+
+confiabilidade que você tem desses pacotes Inclusive, tem vários ataques
+
+aí que a gente viu, acho que foi até a
+
+Microsoft, que eles usavam a biblioteca, Eu esqueci o nome
+
+desse ataque, mas ele é bem comum.
+
+É quando você acaba A biblioteca não sai mais,
+
+alguém vai lá e pega o nome dela. E daí o cara
+
+PÁ, é verdade, é verdade.
+
+Fugiu, não lembro o nome
+
+específico, mas obrigado por ler.
+
+Mas pra você ver, são muitas coisas para se preocupar.
+
+Se seu nível de segurança tem que
+
+ser extremo, tem que ser algo forte.
+
+Aliás, não precisa ser estranho, mas no mínimo seguro,
+
+cara, não posso passar coisas ruins para frente.
+
+Inclusive, é uma solução interessante.
+
+Inclusive, a gente já tem isso hoje
+
+quando a gente fala de integridade.
+
+Então, por exemplo, você baixa
+
+software, você baixa Studio Code.
+
+Baixar o instalador do uso de code.
+
+Você checa a assinatura do executável?
+
+Tá lá, Microsoft Corporation.
+
+Microsoft assinou aquele executável que ela
+
+que fez, que ela entregou.
+
+Tava tão certificado, gerado por uma entidade de certificadora
+
+que garante que a Microsoft é a Microsoft que
+
+ela que tá te entregando aquele executável.
+
+Já existe isso.
+
+Pro Open Source é pouco mais complicado.
+
+Você baixa JS e bota no seu projeto web?
+
+Dá pra fazer uma assinatura nesse nível?
+
+Dentre aspas, mas vamos dizer que não dá.
+
+Então Essa tipo de solução é
+
+uma forma de você garantir isso.
+
+Cara, o único exemplo do JQuery tá gente?
+
+O JQuery versão x.0 aqui, O hash é
+
+123.
+
+Você embutiu ele no seu software compilou, a gente
+
+fez deployment do seu software e pegou essa biblioteca,
+
+o hash dele ABC, alguma coisa está errada.
+
+Então você vai verificar porque pode ter tido
+
+uma modificação desse email, pode ter feito customização
+
+mesmo, mas normalmente você não faz, você baixa
+
+a biblioteca a terceira e usa.
+
+Enfim, uma solução pra deixar aí no radar análises
+
+biorários, vamos chamar assim, ou até análises de supply
+
+chain num nível até, além do SLA.
+
+Além do SLA, diria.
+
+Eu acho que uma situação que seria comum acontecer,
+
+a alteração desse tipo é quando a empresa e
+
+é bem comum, a empresa tem repositórios internos pra
+
+biblioteca externa, não vão direto na internet baixa, para
+
+evitar que esteja fora do ar ou que tenha
+
+uma modificação esticada ou, sei lá, qualquer motivo.
+
+Então, geralmente eles têm, acho que eu usei o next,
+
+acho que era next, né, que a gente usava lá,
+
+next, next, next,
+
+next, next.
+
+Mas é a biblioteca interna, então
+
+você tem repositório interno daquilo.
+
+Então se existir insider que quer fazer quer
+
+fazer uma alteração, ele vai lá nesse repositório,
+
+sobe e acabou, ele pode ter colocado até
+
+a validação da assinatura igual.
+
+Sim, sim.
+
+Então, ia passar numa dessas.
+
+Se o insider quiser mexer com algo e
+
+passar ileso, ele passaria por aí, por exemplo.
+
+Vou dar uma dica.
+
+Esse tipo de solução Olha os pontos cegos da aplicação.
+
+Tecnologia.
+
+Deve ser copys.
+
+Outro tópico que eu queria puxar aqui,
+
+que está muito em alta, muito mesmo.
+
+A gente viu algumas soluções que fazem isso
+
+lá, pelo menos umas 4, 5 diferentes.
+
+Na verdade tem muita gente dedicando a isso.
+
+Eu tinha uma ideia de fazer algo parecido, mas depois de
+
+ver tanto que já tem no mercado, já falei deixa quieto,
+
+não vou fazer porra nenhuma, não vou gastar meu
+
+tempo. E
+
+uma galera fazendo trabalho muito
+
+bacana, soluções muito boas mesmo.
+
+Inclusive algumas delas você pode brincar
+
+com elas na versão gratuita.
+
+Que são as soluções de ASPM, que
+
+é de Application Security Posture Management.
+
+Essa palavra Posture, de postura, ela tá muito em
+
+alta num mundo de cybersect de uma maneira geral.
+
+Qual é a sua postura de networked, qual é a
+
+sua postura de aprendersect você ter uma visibilidade de como
+
+usar o seu processo, como as coisas acontecem.
+
+E esse tipo de solução, basicamente ela olha pro teu
+
+ambiente, vou chamar o ambiente, mas ela olha pro teu
+
+GitHub, olha pro teu repositório, olha pro teu pull request
+
+da vida, olha pro teu processo de desenvolvimento, vamos dizer
+
+assim, e te dá ali uma série de benefícios.
+
+Então deles, por exemplo, é a orquestração.
+
+Então você faz pull request e essas ferramentas já tem
+
+lá o SAST já tem lá o SA, já tem
+
+lá o Tassi, já tem monte de coisinha, monte de
+
+controles que vai trigar para você o Scan.
+
+Com as próprias soluções a gente é
+
+de out of the box, né?
+
+São as próprias soluções de prateleira deles.
+
+E a maioria delas integra com as suas soluções.
+
+Então, por exemplo, a gente fala
+
+muito de checksmart aqui, né?
+
+Que é uma solução dessa para agrupar tudo no
+
+seu check, uma das suas outras soluções, ela vai
+
+te parar no scan, no seu SCA, no seu
+
+site, etc etc e consolidar essas informações.
+
+Então esse tipo de solução tá muito em alta, não
+
+só por essa questão de agrupar as vulnerabilidades, orquestrar os
+
+scans de uma maneira geral, mas pra você ter visibilidade,
+
+KPIs, você agrupa tudo num lugar só.
+
+Então não importa se você tem
+
+10 ferramentas no seu backline, né?
+
+SAST, SA, DAS, last, masp, rasp, acaralha toda aí,
+
+mais o seu scan de container por exemplo, muita
+
+gente usa as ferramentas da Apple, o Alexanderson, o
+
+Travis e tudo mais, o Kicks da Checkermans para
+
+fazer análise de infraestrutura da COULL, enfim.
+
+Então essas soluções de ISPM já consolida
+
+todos esses caras, além de integrar com
+
+as soluções Enterprise também de mercado.
+
+Cara, eu tenho testado algumas, elas
+
+são muito boas, muito boas mesmo.
+
+Solução que você precisa da solução. Por quê?
+
+O que eu vejo acontecendo geralmente?
+
+Possumino. Ok. Voltou, voltou. Aí vou.
+
+Deixa eu
+
+aumentar pouquinho mais aqui.
+
+É
+
+o tipo de solução que você precisa. Por quê?
+
+O que eu vejo no mercado acontecendo?
+
+Às vezes vão colocando soluções, aí precisa ter
+
+alguém com expertise para ficar analisando as vulnerabilidades
+
+em cada solução e tentando compilar aquilo e
+
+trazer para uma visão só.
+
+Cara, já vi pessoas tentando criar dashboards eu
+
+mesmo já tentei fazer isso manualmente com várias
+
+ferramentas e não dá certo fazer manualmente.
+
+Se for time muito pequeno, com uma solução só, funciona
+
+porque daí você usa o próprio dashboards da solução.
+
+Agora, se time grande já fica
+
+diferente, já fica difícil de controlar.
+
+Seja por você estar usando vários branches, por vários
+
+projetos, aí de repente você começa a colocar ferramentas,
+
+por exemplo, que não são exatamente a mesma coisa,
+
+mas ela te dá grau de visão.
+
+Como se fosse lembra nome? Me pega.
+
+Mas você faz dois scans
+
+diferentes, de ferramentas diferentes.
+
+Como se você defende hoje, por exemplo.
+
+É, na verdade o pessoal usa o
+
+Dojo para tentar resolver esse problema.
+
+Ele é bom, é interessante, mas a integração
+
+dele é pouco complicada, o que você precisa
+
+de fato, porque a integração ali com pichefracking,
+
+com a ferramenta direto, é mais complicadinho.
+
+Mas esse é o importante, é você entender quantas
+
+vulnerabilidades tem, qual é o time que está atuando,
+
+quem não está atuando, por onde você começa, quais
+
+as vulnerabilidades mais interessantes, inclusive tem solução para isso
+
+também, que você vai falar mais para frente.
+
+Você precisa de suporte, de uma ferramenta que
+
+vá te ajudar com isso, porque sozinho e
+
+na mão é muito trabalhoso e não escala.
+
+E essas soluções de ESPM, de Application Security Postal minimamente
+
+que você tem que perguntar de falar, elas trazem negócio
+
+muito interessante, por exemplo, eu tô testando uma, que eles
+
+têm até correção automática, que é o próximo tópico que
+
+a gente já vai entrar agora.
+
+Que a gente viu soluções exclusivamente pra isso, né?
+
+Já usando inteligência artificial e coisas do tipo, mas a
+
+maioria dessas ESPM aí, a maioria não vai, pelo menos
+
+duas, três que eu vi, elas têm essa funcionalidade ela
+
+tem uma lá por exemplo você tem 10 SQL Injection
+
+aí ele agrupa todos você cria pull request só para
+
+todos aqueles arquivos já corrigindo de todos pra você.
+
+A correção automática já tá lá, ou é uma flag que
+
+tava truta em que você fala, se eu visse ver se
+
+ele já gera os pull request pra você automaticamente, provavelmente você
+
+vai lá e me fala que quer fazer isso e tal.
+
+Outras você já gera commit ao tomar, enfim, você
+
+tem uma série de interfaces assim né de decorar
+
+o pull request que você fez já fazer os
+
+check list ali que você quer ou mesmo aplicar
+
+uma correção automática dependendo do nível enfim dependendo da
+
+brain você pode fazer várias configurações com relações.
+
+E aí passando pouquinho de ESPM pra code
+
+review automático ou aí são dois tópicos né,
+
+code review automático e correção de vulnerabilidades automático.
+
+A gente viu algumas soluções lá de correção de
+
+vulnerabilidade automática, que na verdade ela faz exatamente isso,
+
+tem aqui uma série de problemas, ela agrupa isso
+
+pra Olha, cara, a correção é essa, aplica isso
+
+aqui no seu código, faz esse commit aqui, literalmente
+
+é botão do commit, você só olha, não tem
+
+que fazer mais nada, tá ali.
+
+Claro, existem centenas de vulnerabilidades, ela não
+
+faz todas, mas pra boa parte das
+
+vulnerabilidades, o ASP tem da vida, as
+
+vulnerabilidades mais comuns, cara, tá lá.
+
+O que eu diria que é a grande dor ou a grande
+
+parcela de vulnerabilidade que a gente encontra no dia a dia.
+
+Deve ser o principal, você vai abrir
+
+e é o que mais tem.
+
+Sim.
+
+E, dificilmente, você encontra coisas
+
+que são fora da linha.
+
+Então, a gente falou.
+
+Ah, cara, você tratou Você tratou validação de
+
+campo, você sabe te expor, cara, você tá
+
+resolvendo a maior parte dos problemas.
+
+Aí acontece com esse tipo de ferramenta se você
+
+pegar top top tem lá da wasp do início
+
+que for você vai resolver, sei lá,
+
+90%
+
+das vulnerabilidades ali,
+
+com boas práticas, né?
+
+Que dá
+
+até pra gente puxar outro top que a
+
+gente vai falar de treinamentos também, né?
+
+Mas só pra gente não passar muito rápido.
+
+Por isso que esse aqui é negócio inovador, eu diria,
+
+que é onde muita gente aplica esse aqui em engasga.
+
+É e resolver o backlog.
+
+Porque você roda start da vida, traz muita
+
+vulnerabilidade, roda start da vida, traz muita vulnerabilidade.
+
+Então, você tem acúmulo
+
+de vulnerabilidade muito grande.
+
+Essas soluções de correção de vulnerabilidades automática elas trazem
+
+uma tração para o seu dia a dia muito
+
+grande é o que você não tem hoje.
+
+Às vezes a ferramenta, o cara tá fazendo ferramenta,
+
+ele tá fazendo scan, mas ele não tem braço
+
+pra fazer correção, ele tem que fazer nova, ter
+
+mercado ali pra resolver, bancos pra resolver.
+
+A vulnerabilidade não é apesar de ser crítico e
+
+trazer risco pro negócio, mas às vezes aquela história
+
+fala segurança só começa a gostar de segurança ou
+
+entender segurança quando dói segundo Depois é que já
+
+sofreu incidente pesado, investe, tem time, tem processo.
+
+Depois é que ele não sofreu, vai ficar
+
+pensando tudo, vamos tentar, vamos ver aqui uma
+
+coisa que você for ver, né? Até
+
+que você falou interessante, esse tipo de ferramenta
+
+acaba resolvendo problema acho que indiretamente, que é
+
+dos maiores problemas que a gente tem, a
+
+gente sempre está falando de cultura.
+
+Então, quando você implanta, começa a implantar
+
+processo de Application Security, você sempre cai
+
+nessa junção de tá, identifiquei.
+
+E agora para corrigir?
+
+Então tem gap muito grande e esse tipo de
+
+ferramenta vai facilitar porque ele te dá a resposta
+
+já te dá tudo então igual você falou o
+
+cara ele tem que clicar lá e falar corrigir.
+
+Ele já vai organizar as vulnerabilidades, ele vai trazer a
+
+prioridade, ele vai te mostrar o que você precisa.
+
+E daí aceitei, pronto.
+
+Então, essa falta de comunicação clara entre segurança
+
+e desenvolvimento ele resolve em partes, né?
+
+Então você consegue melhorar isso daí
+
+com esse tipo de ferramenta. É bem interessante
+
+Chevy Secops.
+
+E o trabalho do desenvolvedor, nesse contexto,
+
+ele acaba sendo trabalho de review.
+
+Ele vai revisar a sugestão que a ferramenta está
+
+dando pra ele, ele não necessariamente precisa codar aquilo,
+
+que é onde tem o maior tempo gasto, né?
+
+Criar o código, pensar no raciocínio Cine, né?
+
+Criar ali os métodos clássicos, enfim, é muito mais demorado do
+
+que você só revisar o que já tá feito, né?
+
+E você só aprovar.
+
+E aí entra num segundo tópico que eu
+
+queria falar, que é esse terceiro tópico, que
+
+é o de code review automático.
+
+A gente viu uma solução lá que faz exatamente isso.
+
+Você tem o seu site da vida, sei lá,
+
+você rodou o seu scanner checkman, por exemplo.
+
+Você pega o resultado do checkmans lá, exporta uma
+
+home report, XML, GSON da vida, importa nessa solução,
+
+dá pra fazer isso automaticamente também, e a solução
+
+te dá lá, olha caras, dessas sublinadas aqui para
+
+essas aqui a correção é essa aqui ó e
+
+aí a correção code review ele te dá ali
+
+ó esse método está recebendo uma string aqui.
+
+É uma string mesmo, o nome do parâmetro é id.
+
+É uma string mesmo?
+
+Você seleciona o tipo que você quer, não, é inteiro.
+
+Opa, beleza.
+
+Ele já troca na tela ali, já troca o código.
+
+Próximo, ó, tem if aqui que tá falho, né?
+
+Poderia ser uma regex, já joga regex pra você.
+
+É quase que link misturado com o Wizard.
+
+É link com passo a passo assim, ultra
+
+poderoso, porque ele te dá correção já meio
+
+que bate pronto, você pode só simplesmente dar
+
+o commit naquilo ou fazer esse mini review.
+
+Cara, o tipo de parâmetro é esse, ó, tem negócio aqui
+
+no meio que dá pra você mudar, tá fazendo assim.
+
+Se você fizer next, next, altera
+
+o que você quer, finge.
+
+Cara, essa solução foi uma das que eu mais pirei.
+
+Foi uma das que eu mais pirei.
+
+Porque ela traz duas coisas juntos, o poder da correção
+
+automática e o poder de você avaliar essa correção.
+
+As outras que a gente falou a gente já traz o
+
+commit meio que pronto, você não vai mexe no código.
+
+Obviamente dá para mexer e tal.
+
+Mas esse Wizard traz até benefício para
+
+quem é deve julgar, por exemplo.
+
+As outras, talvez quem é mais
+
+pleno, o Senna vai lidar melhor.
+
+O Júnior sofre pouco.
+
+Como é que eu aprovo isso?
+
+Será que tá certo, não tá?
+
+Essa não, essa te dá passo a passo ali, kit.
+
+Traz poder maior.
+
+Cara, literalmente eu piei nessa solução, dá vontade de
+
+montar uma empresa, começar a desenvolver software só pra
+
+usar uma parada, que é muito legal.
+
+Inclusive eles tem a versão gratuita, dá
+
+pra usar aí, pesquisem, a gente vai
+
+fazer propaganda de ninguém de graça.
+
+Pesquisem mas essa é uma das soluções de
+
+code review automático, vamos dizer assim, o de
+
+code review assistido, já utilizando AI também, né?
+
+Já tem as bases de vulnerabilidades, aquela coisa toda.
+
+Que eu achei assim, sensacional.
+
+De verdade, essa formula está ligada com
+
+o que eu estou falando, né?
+
+Aquela específica da Gota telinha e tal.
+
+Eu achei sensacional essa solução e recomendei
+
+pra galera pegar de olho, né?
+
+Uma coisa que eu achei interessante desse
+
+tipo de ferramenta é que ele ajuda
+
+o desenvolvedor a entender melhor.
+
+Então, ele começa a enxergar que aquilo
+
+ali está errado e por quê?
+
+Bom, você falou o exemplo do ID.
+
+Ah, seu ID é String mesmo.
+
+Será que ele não pode ser o inteiro
+
+ou ele é composto de alguns números aqui?
+
+Então, quando a pessoa está envolvida esse
+
+processo, ela vai aprendendo com ele também.
+
+E daí a tendência é fazer menos errado para frente.
+
+E aí vamos pular pro tópico que conecta com
+
+isso que você falou, o cara fazer menos errado.
+
+É a história que eu sempre falo, né?
+
+Melhor do que você ficar encontrando a
+
+vulnerabilidade é você pá de criálas. Né?
+
+Aquela história.
+
+Melhor do que você ficar indo no médico fazer
+
+exame todo mês que tá todo fudido, mano, começa
+
+a fazer exercício, começa a comer direitos, né?
+
+Você começa a tratar o problema na causa raiz.
+
+E o problema da vulnerabilidade, a causa raiz
+
+na vulnerabilidade é desenvolvedor naturalmente que ou não
+
+tem o conhecimento de como o desenvolve seguro.
+
+Putz, eu não sabia que tinha
+
+que tratar o parâmetro aqui.
+
+Vou ter o parâmetro lá e me processar.
+
+Beleza, agora vou saber e vou parar de fazer isso.
+
+Outra coisa é o desenvolvedor malicioso, né?
+
+Que tá mesmo fazendo ali uma fraude, que quer fazer
+
+ali código malicioso, enfim, ou o terceiro item, né?
+
+Que até o Supply Chain, né?
+
+Então alguém veio lá em componente,
+
+por exemplo, coisas do tipo.
+
+E aí entra nesse nesse outro tópico que eu queria falar,
+
+acho que é o quarto quinto tópico que a gente tá
+
+falando aqui já, que é o treinamento para o desenvolvedor.
+
+Isso não é algo novo, mas já
+
+tem aí no mercado bom tempo.
+
+Inclusive a Checkmarks tem solução, o call
+
+de bashing, uma das soluções, que tá
+
+numa versão nova inclusive, né?
+
+Codiverso 2.0 tá muito sensacional,
+
+pelo menos visualmente, né?
+
+E o conteúdo ali de trâmite é muito bacana.
+
+Mas tem outras soluções no mercado, a gente
+
+gosta de falar muito nesse sentido, e a
+
+gente viu soluções lá, que tornam a jornada
+
+de segurança, mais easter egg, que tornam a
+
+jornada de segurança do desenvolvedor muito mais fácil.
+
+Inclusive a plataforma é gamificada, quando eu vi
+
+a tela do apresentação lá, aparece o mapa
+
+do Mario, lembra do Mario de Preentendo?
+
+O mapa, né?
+
+E a solução é cheia de mapas, você vai
+
+clicando cada parte do mapa, é uma lista são,
+
+aí você só desbloqueia a partezinha, se você fez
+
+a primeira, se você fez e passou, né?
+
+Tem meio que testezinho e tal.
+
+Então assim, cara, esse tipo de solução Pra mim, pra mim
+
+é o começo de tudo e é porque esse check out.
+
+Treinar o desenvolvedor a
+
+parar de criar vulnerabilidades. O que você acha?
+
+Cara, esse é o que a gente
+
+sempre fala do nível de maturidade.
+
+Então, eu vejo isso qual seria a
+
+forma correta de se fazer segurança.
+
+Primeiro aprende e depois sai de desenvolver.
+
+Mas a gente sabe que num mundo real não
+
+é assim que acontece, então o que acontece?
+
+Primeiro o pessoal desenvolve, depois começa a correr atrás
+
+do prejuízo, aí depois começa a pensar em segurança,
+
+tanto é que começa no meio, né?
+
+Geralmente as pessoas começam a colocar, dar as
+
+fases, sendo que você tem várias outras soluções
+
+para trás, ou para frente também, e depois
+
+vai afinando esse nível de maturidade.
+
+Infelizmente, hoje, a gente vê que nível de
+
+maturidade para a educação é a das últimas.
+
+É quando uma empresa está muito bem, muito redondinha
+
+com segurança que você vê parte da educação.
+
+Mas como você disse, é o mais importante de tudo.
+
+Se você começasse dali, você evitar muitas vulnerabilidades,
+
+você evitar tempo gasto em redesenvolvimento, se economizar
+
+em esteira, porque você tem máquina para fazer
+
+todo esse processo de entrega de software.
+
+Você precisa de máquina para se a exigir, você
+
+precisa de pessoas para teste, você precisa de uma
+
+estrutura muito grande para manter essa atualização de software.
+
+Então, se você, acho que tem aquele gráfico famoso,
+
+eu vou até compartilhar em rede social logo mais,
+
+aquele gráfico famoso que mostra o gasto que você
+
+tem dependendo do nível do item do processo.
+
+Então, se você vai buscar segurança no final
+
+do processo, o seu gasto é maior.
+
+Se você procura segurança no início do
+
+processo, o seu gasto é muito menor,
+
+só que é muito assim, exponencialmente, né?
+
+Inclusive, acho que tem texto que
+
+mostra mil vezes de diferença.
+
+É esse gráfico que você tá falando
+
+tem lá ele fala mil vezes
+
+multiplicador você vai ver né tipo a educação cara educação
+
+se o cara aprendeu a não fazer vulnerabilidade, cara, gasto
+
+vai ser 0, porque você não vai ter trabalho.
+
+É uma boa analogia pra isso, cara, eu sempre gosto de
+
+fazer essa analogia pra claro na cabeça do pessoal aí.
+
+É a história do médico, né?
+
+Eu acho que o SAST, o DAST, eles são os exames, mano.
+
+Você já foi fazer exame porque alguém já te falou que
+
+você já tá ruim, você já sabe, você tá ruim.
+
+Agora, por exemplo, meu caso, eu tive cálculo
+
+renal, eu tive pedra no rim, né, do
+
+nada, primeira vez do nada apareceu.
+
+A segunda foi porque eu não bebi água.
+
+Mas vamos lá, apareceu a pedra no rim,
+
+você vai com dor, vai no hospital, porque
+
+o exame entende o problema, faz tratamento.
+
+Qual é a causa raiz disso?
+
+Existem diversos fatores, muita
+
+proteína, muito cálcio, etc.
+
+No fim das contas você respirou você pode pedra no rim.
+
+Mas vamos lá, forma de evitar beber muita água porque você
+
+vai ajudar o seu fim trabalhar mais no sentido de filtrar
+
+melhor e expelir mais aquela coisa toda Então o que eu
+
+posso fazer pra parar de ter parado no rim? Beber água?
+
+Porque as pequenininhas vão saindo naturalmente.
+
+Mano, é isso Tipo, o meu problema eu tenho que fazer
+
+treinamento no meu parar de criar a vulnerabilidade em mim mesmo,
+
+que é não beber a falta de água, por exemplo.
+
+Eu tenho que beber muita água,
+
+dois, três litros por dia.
+
+Se eu paro de fazer isso, o que eu vou precisar depois?
+
+Emergência, hospital, exame, soro, medicação, porque vai ter
+
+dor, às vezes uma cirurgia, É exatamente isso.
+
+Eu vou precisar fazer DASH, vou
+
+precisar fazer SASH, vou precisar achar
+
+minhas vulnerabilidades, encontrar onde elas estão.
+
+Aí eu vou precisar corrigílas no caso, às vezes
+
+uma cirurgia, às vezes uma medica ação, eu vou
+
+ter custo, eu vou ter risco envolvido, você tem
+
+uma cirurgia, eu tenho anestesia, eu tenho risco envolvido.
+
+Então assim, é muito claro, é muito claro isso, eu posso
+
+eu posso decidir ah fodase não vou tomar água quando vier
+
+o trato beleza ou eu posso decidir não eu vou prevenir
+
+ou reduzir as chances de ter uma pedra no rim de
+
+novo, inclusive já tive 3 ou 4 vezes, só a primeira
+
+vez eu preciso fazer cirurgia, as outras foi bem menor, né,
+
+vou conseguir ter trabalho pouco diferente, então no apseque eu diria
+
+que é a mesma coisa.
+
+Os médicos tem que estar lá tendo, em dia
+
+você vai ficar velho, naturalmente vai precisar ter mais
+
+exatamente, coisas inesperadas acontece, você precisa ter.
+
+Então você precisa olhar os seus problemas, achar
+
+se eles estão lá e tudo mais.
+
+Mas o nível de maturidade da sua empresa,
+
+ela tem que chegar nesse nível do desenvolvedor
+
+saber o que você tá fazendo.
+
+Ele sabe que ele tá digitando ali método, uma
+
+classe que aquilo não vai te usar na verdade,
+
+porque ele sabe que ele tá codando. Tá tratando.
+
+Você falou, né?
+
+Tratar os parâmetros lá em cultivar
+
+e deixam, aquela coisa, tudo.
+
+Boas práticas, tal, tal, tal.
+
+Essas ferramentas, elas viram, não estão com check.
+
+Cara, deixa eu validar aqui mesmo se
+
+não tem nenhum spam, às vezes, né?
+
+O cara tá num bom dia lá e
+
+ele não viu e esqueceu alguma coisa, né? É natural.
+
+Mas, inclusive, a gente realiza isso.
+
+Vai lincar muito bem com o
+
+próximo tópico, que é sobre requisitos.
+
+Mas, antes de terminar isso, para você ver qual
+
+que é o valor de você ter uma educação,
+
+se você ensinar, você ter o treinamento constante.
+
+O mercado ele é muito volátil.
+
+Então tem sempre gente saindo e entrando na empresa.
+
+Então pode ser que você tenha contratado o melhor
+
+desenvolvedor que o cara pensa 100% de segurança e
+
+ele não vai desenvolver coisas com vulnerabilidade.
+
+Só que daqui ano esse cara já saiu e entrou Júnior.
+
+Então você tem que garantir que
+
+esse Júnior também vá aprender. Vá fazer isso.
+
+Então, não adianta, você precisa manter essa educação, você
+
+precisa manter, você precisa garantir que os seus desenvolvedores
+
+saibam como fazer isso da melhor forma.
+
+Ou que, no mínimo, pensem nisso.
+
+Porque o que a gente vê,
+
+geralmente, Eles não pensam nisso.
+
+Eles querem desenvolver, entregar, eles
+
+querem produto em produção.
+
+Até porque própria empresa pede isso, né?
+
+Cara, quero ir pra ontem, ir pra ontem,
+
+ir pra ontem, ir pra ontem e o
+
+cara acaba cortando qualidade, cortando segurança.
+
+Então, cara, acho que Eu, se eu fosse ter
+
+uma fábrica de software ou uma empresa que dependeria
+
+muito do software, por exemplo, banco e tudo mais,
+
+a primeira coisa que eu colocaria era treinamento.
+
+Então todo mundo que entra, primeiro dia,
+
+o cara já está cadastrado no treinamento,
+
+então ele já vai partir dali.
+
+E aí link com outro tópico
+
+que é os requisitos automatizados.
+
+Então é igual que você falou.
+
+Se você tem checklist para saber quais as boas práticas,
+
+o que não se deve fazer, você evita muita coisa. Qual?
+
+Você dando exemplo da saúde, bebe água, não fuma,
+
+pouco de cabeça na piscina sem água, não são
+
+grandes coisas que são coisas simples, só que às
+
+vezes você não está pensando sobre aquilo.
+
+Então, comparando com as dicas de mãe,
+
+que eu te formei em falar.
+
+Leva o guardachuva, põe a blusa, não sei o quê,
+
+porque ela sabe, ela já passou por aquilo, ela entende.
+
+E ela tá te dando esses requisitos.
+
+Cara, pra você fazer isso, você
+
+precisa de insistir isso aqui.
+
+E daí, cara, é fantástico.
+
+E você ter uma ferramenta pra isso, eu acho
+
+isso é uma das coisas que me surpreendeu, porque
+
+era uma outra solução que eu sempre pensava.
+
+Como a gente consegue fazer pegar o
+
+resultado daqui, porque enquanto você faz análise,
+
+você tira muito material dele.
+
+Cara, os desenvolvedores não estão entendendo o que
+
+é exatamente o SQL Injection, eles não estão
+
+sanitizando as entradas, eles não estão sabendo disso,
+
+Toda vez que eles criam uma conexão entre
+
+serviços, eles não estão autenticando, autenticação é falha,
+
+você consegue extrair isso com ferramentas à frente.
+
+Aí o que é preciso?
+
+É você criar uma lista você colocar a nomeação,
+
+colocar essas boas práticas entre aspas, criar essa lista
+
+de requisitos e trazer para Cara, quando você for
+
+desenvolver, pensa nisso daqui, porque eu já sei que
+
+lá na frente vocês estão falhando com isso.
+
+Pouco da solução que a
+
+gente encontrou lá?
+
+Sim, inclusive essa foi a única desse tipo, de solução
+
+dos requisitos, Tem uma outra, inclusive, nos próximos episódios a
+
+gente vai trazer o fundador de uma dessas empresas aí
+
+pra falar com a gente, é sobre esse tipo de
+
+solução, mas teve uma gengiva lá que é exatamente isso,
+
+ela é uma ela te faz uma entrevista ali, uma
+
+pesquisa sobre a sua aplicação, então frontend, backend, qual tecnologia
+
+que usa, você está, o seu cliente, quem é o
+
+seu cliente vai fazer na cloud, é premises, que a
+
+estrutura crítica não é, então você tem uma série de
+
+perguntas ali para traçar o perfil da aplicação.
+
+Dado esse questionário, o próximo passo ele vai te
+
+falar, tá aqui ó, uma lista de requisitos que
+
+você tem que implementar pra esse tipo de aplicação.
+
+Então ó, quando você falou, puta, faça comunicação
+
+assim, precisa ter uma autenticação assado, requisitos.
+
+Esse nível de ferramenta, ele te traz
+
+ainda teste case para cada requisito.
+
+Olha, você precisa testar isso aqui e
+
+agora está aqui, no caso de teste.
+
+Passo a passo de como testar se
+
+aquele requisito foi implementado ou não.
+
+Então cara, assim, isso é negócio tão absurdo, tão fantástico,
+
+que por isso que eu fico puto hoje em dia
+
+com empresas que não fazem isso, com privacidade.
+
+Não é que o cara tem que ter tudo de segurança,
+
+o dinheiro infinito para investir em inglês, não é isso.
+
+É que assim, não é difícil fazer essas coisas. Não é.
+
+Eu codei por 12 anos, 100 anos,
+
+cai mais 8, não é difícil. Sabe uma coisa?
+
+Sabe uma coisa.
+
+Uma coisa que me pega nisso é o seguinte.
+
+E aí, pensando como desenvolvedor.
+
+Trabalhei 20 anos como desenvolvedor.
+
+Eu sempre fui atrás de material para desenvolvimento.
+
+Então sempre buscava boas práticas de
+
+desenvolvimento, no relacionamento e quase nunca
+
+e atrás de desenvolvimento seguro.
+
+Então, quando eu entrei nesse mundo,
+
+eu comecei a ficar dessa forma.
+
+Cara, como a gente nunca usou essa cor?
+
+E daí, o que eu posso imaginar disso?
+
+Concluir disso, que é ignorância.
+
+Mas não sei se é isso mesmo.
+
+Por isso que é importante a gente fazer esse
+
+tipo de podcast, de falhar esse tipo de palavra.
+
+Então, mas o meu ponto é parêntese, o meu
+
+ponto é a culpa não é do desenvolvedor, talvez
+
+não seja a responsabilidade dele, mas como empresa corporação,
+
+o cara tem que ter essas palavras boas pra
+
+cara, qual é o processo aqui?
+
+O processo é esse, você desenvolveu, vai ter teste,
+
+você vai desenvolver, então você tem que passar por
+
+treinamento antes que a gente falou agora, vai ter
+
+uma ferramenta aqui que vai te dar os requisitos.
+
+Aí a pessoa tem que ter isso.
+
+Ou o cara não tem essa ferramenta, mas tem
+
+uma lista de requisitos que a checklist dá o
+
+ASP, que seja lá, a gente falou aqui da
+
+Serra do ASP lá, o security code, principles, enfim.
+
+Cara, até essa lista que você tem que ter esse gima.
+
+Não tem opção.
+
+Ah, mas não, não.
+
+Então assim, como empresas e organização, é muito simples,
+
+é trabalhar antes de fazer lógico que ela.
+
+Mas não tô falando que assim, ah, você
+
+precisa criar foguete e palua em seis meses. Não é isso.
+
+Parabéns, é isso que me apetece,
+
+isso que me suga a minha
+
+alma, drena a minha energia, soluções estão muitas
+
+soluções open source, então eles vão se desgastar
+
+com o meu dinheiro, tá lá.
+
+Ou tem coisa que a gente sempre falou aqui também.
+
+Tem coisas que não é uma solução, é
+
+framework que você vai lá, pega e aplica.
+
+Então são coisas assim que, tá, como
+
+que eu faço segurança sem gastar muito?
+
+Cara, você consegue ou sem gastar nada? Você consegue?
+
+Sim, consegue fazer.
+
+Mas eu estou gastando pouco, né?
+
+Mesmo se você vai ter alguém pra operar,
+
+uma máquina de pix ali, enfim, mas Mas
+
+assim, custo mínimo vamos assim, né?
+
+Uma coisa que eu vejo, que eu acho
+
+que é bem interessante, que eu vi acontecer
+
+e funcionou pra gente, você criar essa cultura.
+
+Então, fomentar essa cultura.
+
+Infelizmente, eu sempre vejo isso vindo de do próprio
+
+desenvolvedor, ou do profissional ali, do analista do desenvolvedor,
+
+é ele que está puxando, não é a empresa.
+
+É claro que ele faz parte da
+
+empresa, tudo aquilo, mas tem que ter.
+
+Tem que ter ideia na empresa.
+
+Só que não existe isso.
+
+Então, você tem que ter a sorte de cair uma pessoa
+
+boa ali na sua equipe ou na empresa, que vai começar
+
+a fomentar isso, de trazer, de cutucar as pessoas, É por
+
+isso que você é metap, você vai lá.
+
+Cara, ó, seguinte, vocês vão conhecer isso? Tá aqui, ó.
+
+Mesmo que pra você seja óbvio, né, igual hoje.
+
+Hoje a gente olha para
+
+todas essas soluções, fica óbvio.
+
+Mas tem que falar com a equipe,
+
+porque para galera não é óbvio.
+
+Então, mas é por isso que eu
+
+gosto da boa e velha ditadura.
+
+Você trabalha num banco, por exemplo.
+
+Vai lá cria repositório do nada sobe código do nada
+
+e põe produção avulso você não consegue é tudo bloqueado
+
+é tudo barrado tem que ter autorização E tá errado?
+
+Vamos lá, tá errado. Tá errado.
+
+É chato trabalhar num lugar assim? É horrível.
+
+Tudo é horrível. Por quê?
+
+Tudo é processo, tudo é uma aprovação ação.
+
+Beleza, mas aí o problema é o processo,
+
+então você automatiza, você melhora, você otimiza.
+
+Agora, igual é hoje, ah não, é ágil, sobe
+
+a cada meia hora, tem produto são alguma coisa,
+
+empoderam os times e ninguém tá meio com nada.
+
+A galera tá aí pra entregar.
+
+Culpa da própria empresa.
+
+Não é culpa do time isso, é culpa da empresa.
+
+Porque nós trabalhamos numa empresa que era
+
+exatamente assim, acho que tinha na moral
+
+uns 20 deploy produção por dia.
+
+Era correção do bug, do patch, do
+
+deploy, da Fit, mano, eram os
+
+20
+
+deploy em produção por dia.
+
+De verdade, não é brincadeira, não é exatamente.
+
+E tinha uma squad lá que era squad de mobile, que era
+
+squad que veio de banco, veio gerente, veio uns caras do banco,
+
+foram trabalhando esse preço que a gente tava lá, e era squad
+
+que Como é que eu faço scan do código?
+
+Como é que eu automatizo aqui a minha
+
+esteira pra integrar o resultado no céu?
+
+Eles já queriam fazer dessa forma.
+
+Por mais que eles não precisassem, porque não
+
+era a norma da empresa, mas eles queriam
+
+fazer porque eles já tinham essa cultura.
+
+As empresas não podem depender disso hoje, da boa vontade,
+
+da cultura de uma squad ou de time ou de
+
+alguém que gosta que faz isso se interessa. Não, mano.
+
+Por isso que é chato trabalhar em banco?
+
+Ué, mas funciona. É seguro?
+
+É muito mais seguro trabalhar num banco,
+
+num ponto de vista de desenvolvimento segura.
+
+Muito mais seguro, né?
+
+Trabalhar lá ou softwares de lá.
+
+Então o que que eu tenho que ter empresa ágil do
+
+mercado aí, porque tá na moda, o que é legal, mano.
+
+Então o meu o meu ponto aqui, e eu como pessoa
+
+e profissional, a bandeira que eu levanto é mano, os softwares
+
+controlam nossa vida, E é por isso que a gente briga
+
+aqui quando a gente fala de desenvolvimento seguro.
+
+Não é ah, porque é culpa, porque é legal, porque
+
+a gente vende ferramentas, não é, a gente acabou de
+
+falar e tem monte de solução open source.
+
+Então a minha indignação às vezes
+
+é essa negligência da galera. Né?
+
+Tanto do profissional aí entra pouco no profissional sim, de
+
+buscar, de olhar pouquinho mais, mas como empresa cara, a
+
+norma é essa, política que é essa, e acabou.
+
+Eu entrego software, eu tenho que estar preocupado
+
+com meus clientes, para quem eu opero, ou
+
+eu tenho serviço sasuke, então eu tenho que
+
+estar preocupado, você vai estar rodando, você vai
+
+estar servindo meus clientes, enfim.
+
+Por mais crítico que seja, ou menos crítico
+
+que seja, essa é a mindset, né?
+
+Então não dá pra ficar
+
+brincando de softwares de software
+
+Você foi falando isso daí, eu fui pensando.
+
+Hoje, acho que a solução mais rápida para as empresas é
+
+porque ela tem que ter uma faísca ali para começar
+
+a criar isso tudo. Incidente?
+
+Não, não, não Ocidente.
+
+Você tocou o coração ali do
+
+CTO, do SEO, incidente público.
+
+Mas contrata uma consultoria que seja para ficar,
+
+sei lá, meses, ano, mas cara que está
+
+que for em tudo, chegar com isso.
+
+Cara, Olha aqui só, olha o seu deploy, olha aqui
+
+o seu software, olha o que eu fiz pra te
+
+testar, enfiar em software malicioso aqui e sai do outro
+
+lado, olha e começar a mostrar esse tipo de coisa.
+
+E daí sim, né?
+
+Porque daí você chegou com a faísca, começou
+
+incêndio ali e mostrou, agora é continuar com
+
+a cultura, porque eu não precisava voltar aqui
+
+de novo e sair batendo em todo mundo
+
+aqui, né?
+
+Não, eu nem lembro disso.
+
+Mas, nesse contexto, é bom.
+
+O problema é quando o hacker faz isso.
+
+Hacker, né, o malicioso criminoso.
+
+Quando ele faz isso, aí acabou, cara. Então,
+
+e isso é interessante porque, igual que
+
+você falou do incidente, vai acontecer.
+
+Uma hora ou outra a sua
+
+empresa vai pensar em segurança.
+
+Agora, você quer que ela pense,
+
+se cansa pelo amor de Deus.
+
+Eu prometi ou pró ultimamente.
+
+Uma hora vai pensar.
+
+Torcemos para que seja por incidente.
+
+Pior que, mano, eu não sei da onde eu tenho isso.
+
+De verdade.
+
+Agora, até pra parêntese aqui,
+
+ó. Segurança. Tecnologia.
+
+Deve ser copys.
+
+Eu não sei onde eu tenho isso.
+
+Eu digo como pessoa, mano.
+
+Como pessoa de verdade, de coração, te falo isso.
+
+Eu sempre fui a favor da dor em cima, tá ligado?
+
+Tipo ah, você deu o exemplo da manhã.
+
+Ah, leva o guardachuva.
+
+Levar nada aqui no mano, assim,
+
+vai tomar chuva, vai se ensopar.
+
+Quantas vezes, mano?
+
+Eu trepava na Negabaú e, claro, vai
+
+chover nada, vou pegar metrô, mano.
+
+Batata até pra faculdade de todo
+
+fugir, todo molhado, já era.
+
+Aí, cara, cara, na verdade, vamos meter uma sombrinha aqui na
+
+mochila e não vou tirar nunca mais aqui porque eu sei
+
+que vai estar lá, mas assim, a dor ensina, mano.
+
+Não tem essa, a dor ensina, por isso que
+
+nessa história do incidente, por mais brincadeira que seja,
+
+e é muito ruim quando acontece o incidente.
+
+Muito ruim mesmo.
+
+Heimerso, impacto social, de fato uma empresa, enfim.
+
+Mas, ensina.
+
+Na prática em cima, mano.
+
+Então, não desejo isso, mas é real.
+
+Às vezes, é o que você falou.
+
+Mudar cultura, tá legal.
+
+É o caminho certo.
+
+Mas, Se a pousada der uma tomada vai
+
+ver que vai dar choque dia, né?
+
+Não a gente fica falando num
+
+ponder, num ponder, enfim, vamos lá.
+
+Indo para o último tópico aqui, gente não sabe
+
+muito nada aí também, né?
+
+Não precisa criar desentendimento de vírus, né?
+
+O último tópico que eu queria falar aqui é
+
+a gente viu uma tendência muito forte lá também
+
+soluções em geral de apsek, não só de apsek,
+
+mas de uma maneira geral, mas apsek trazendo o
+
+nosso contexto, que é tal do filtro da vulnerabilidade.
+
+Né?
+
+Porque acho que é dos problemas hoje, né?
+
+Aquela senhora, você vai fazer exame de 500 problemas.
+
+Pô, doutor, eu não vou conseguir resolver tudo.
+
+Então, Vamos olhar a diabetes primeiro, vamos cuidar
+
+desse aqui primeiro que é mais grave, ou
+
+do seu coração que está pronto.
+
+Então essas soluções de ESPM já tem
+
+isso embutido, algumas soluções de SAST, SCA,
+
+elas te trazem as vulnerabilidades reais.
+
+Então, por exemplo, o SCA vai te mostrar mil
+
+bibliotecas que você está usando que tem vulnerabilidade.
+
+Mas usando assim você importou no seu projeto mas
+
+duas você tá literalmente usando o código dela então
+
+essas duas você vai focar para corrigir as outras
+
+98 você não precisa focar nela agora Então soluções
+
+de SA que fazem isso, soluções de SAST que
+
+valida o falso positivo junto com o YAST por
+
+exemplo, que é tópico tem voltado no mercado né?
+
+Com soluções muito bacanas.
+
+Então o YAST junto com o SAST dá uma
+
+combinação muito maior, confidence leva vamos dizer assim né?
+
+É muito maior de não ser falso positivo, porque
+
+ele tem acesso a stack praticamente, o códigofonte, enfim.
+
+Então ele te traz ali uma vulnerabilidade real, enquanto
+
+que o SASUKE normalmente tem ali uma taxa de
+
+fotos positivas assim como bastasse uma taxa também.
+
+Então essa tendência de filtro de vulnerabilidade pra
+
+reduzir o tal do ruído no desenvolvedor que
+
+ai, o desenvolvedor, muita coisa pra fazer.
+
+Faz porra nenhuma e ela não tá reclamando.
+
+Putz, o framework faz tudo.
+
+Se ainda faz o dev.
+
+Pode crer, vou fazer o dev my credit novo. Pode crer.
+
+Mas é isso assim, então assim, essas soluções
+
+tá tudo aí, tá tudo aí, mano, disponível
+
+pra ajudar, pra ganhar escala, pra corrigir vulnerabilidade
+
+automática, Acaso, mas é caro.
+
+Cara, essas soluções de coisas de
+
+vulnerabilidade automática, por exemplo, a maioria
+
+delas tinha versão gratuita lá.
+
+Com limite de ruídos, obviamente, o
+
+cara também tem ganhar dinheiro, né?
+
+É assim que a banda toca.
+
+Mas tem tudo disponível e essas de futebol na verdade
+
+acho que é negócio bacana também de reduzir o ruído
+
+né de também não ter backlog de 500 mil coisas
+
+resolver e às vezes tem lá 500 mil coisas que
+
+não é mesmo como é que fala? Proridade.
+
+Né mano, eu vou olhar essas aqui, isso
+
+aqui realmente estou usando esse código, isso aqui
+
+realmente impacta o meu negócio, enfim. Coisa
+
+Isso é muito importante, porque pelo que você
+
+vê no mercado, a velocidade de correção, o
+
+desempenho que as pessoas têm para corrigir.
+
+Você precisa disso.
+
+Porque você passa lá, tem 300 vulnerabilidades.
+
+Aí chega lá dois meses depois para
+
+fazer cheque, tem 302 vulnerabilidades, o pessoal
+
+não está corrigindo, então para você ver
+
+algo acontecer, você precisa de assertividade, você
+
+precisa corrigir aquela vulnerabilidade que realmente importa.
+
+Cara, é de extrema importância.
+
+E você falou do preço, eu preciso fazer isso agora
+
+como negócio e eu sempre quis fazer isso também porque
+
+Cara, mas como que a gente consegue vender segurança?
+
+Mas vender assim, não vender mercado.
+
+Como a gente consegue trazer segurança pra empresa.
+
+E tem que ser pelo bolso, né?
+
+Então você tem que mostrar lá o ROI.
+
+Imagine o quanto você gasta de tempo
+
+corrigindo vulnerabilidade que não importa ou corrigindo
+
+vulnerabilidade de biblioteca que você nem usa.
+
+Então tem essas coisas.
+
+Então, se a gente tiver essa visão muito clara, fica
+
+claro para todo mundo o que se deve fazer.
+
+Só para o gerente, para o diretor, para o gestor,
+
+fica claro para todo mundo, desde o desenvolvedor até o
+
+0 cliente, o que ele está recebendo como produto.
+
+Inclusive, uma das soluções de ESPM, ele tem do
+
+dashboards lá, ele tem uma informação que é exatamente
+
+isso, quando você economizou usando hora homem, hora desenvolvedor,
+
+com base na quantidade toda a verdade que você
+
+tem para corrigir ou até com as soluções que
+
+ele já tem lá de correção automática e tal. No caso,
+
+você coloca o valor da hora dele. Exato.
+
+Ele já tem lá automático,
+
+você pode customizar, mas sim.
+
+Cara, olha o nível que tá chegando as soluções no mercado
+
+e aí pega a empresa do software hoje que o cara
+
+fala ah não, a gente não faz nem Sasha ainda.
+
+Então, enfim O bicho do Nerdcast 1. Informar.
+
+Te informa sobre coisas novas, sobre trás
+
+na experiência e educar, cara, tá errado
+
+isso aqui, isso aqui é certo.
+
+A gente fala tem jeito irreverente, né?
+
+As escaputas, as vezes é jeito mais informal.
+
+Mas é real, mano.
+
+Então, gente, não tá aqui pra passar a mão na cabeça.
+
+Não, tá tudo bem, não tá, você tá numa igreja hoje.
+
+Vai trazer impacto social ou para você para
+
+o seu bolso ou para você como funcionário
+
+ou para a sociedade como todo.
+
+Dependendo desse pagamento de dados de
+
+CPF pelo negócio do governo.
+
+Do negócio de saúde lá, Ministério
+
+da Saúde, lá com as outras.
+
+Ah, imagine.
+
+Imagine os caras fazerem spray na pandemia.
+
+Olha, olha E não é coisa simples.
+
+Ah, só meu CPF e não fazer nada.
+
+Imagina o seguinte, o preço que foi de
+
+comprar essas vacinas, de repente o Ministério da
+
+Saúde vai lá e perde todo o histórico.
+
+Aí tava dando cinco vacinas, nove no outro, dez
+
+no outro, acabou e agora, começa tudo de novo.
+
+Você imagina o que me segue
+
+nessa hora, comprar tudo de novo.
+
+Sim.
+
+O rombo que é no país, né, na economia.
+
+Sim.
+
+Então, olha que besteira, mano. Que besteira.
+
+O cara não sanitizou o input, e ele
+
+pode ter causado rombo de bilhões no país.
+
+E isso acontece em banco também.
+
+Bastos dados do banco, ou
+
+cartão de crédito, ou não precisa ir nem nesse
+
+nível, Rodrigo, assim, mas a medida dele é claro,
+
+imagina assim, empresa de pagamento, que processo de pagamento
+
+de cartão de crédito, por exemplo.
+
+Tá fora do ar, parou.
+
+Imagina o impacto disso no mercado fazendo a sua compra,
+
+você não consegue pagar porque o terminal tá fora do
+
+ar, ao menos você ter o dinheiro na mão.
+
+O cara tá abastecendo o carro no meio
+
+da estrada, precisa seguir viagem, não consegue pagar.
+
+O cara, assim, imagina o impacto disso.
+
+Olha, nem faz o dado nenhum, só tá parado o negócio.
+
+Então, Quando a gente fala que você gosta
+
+de software, o que é isso, gente? Não é brincadeira.
+
+O impacto que isso traz na sociedade de fato.
+
+Na nossa vida social, eu diria. Vou colocar
+
+se não sair na nossa eu
+
+vou lançar nada certo, ficou burro, enfim.
+
+Bom, esse foi o episódio Epic Segnovation, inovações de
+
+APK Security soluções, ferramentas práticas, enfim, coisas do mercado
+
+e tendências que a gente trouxe diretamente da Black
+
+Hat e da Devs como pra você.
+
+Lá de Las Vegas e dá para sair esse link de
+
+vir com os anos de sites, isso não é muito legal.
+
+Se você ficou curioso para saber o
+
+nome dessas ferramentas, entra lá, digita wok.com.
+
+A wok.com tem lá portfólio completo pra você, pra
+
+te atender se você quer saber mais, quer fazer
+
+POC, demonstração, enfim, tem tudo isso lá.
+
+Além, obviamente, dos easter eggs que eu
+
+joguei aqui, dentro de algumas soluções que
+
+você pode pode olhar por aí.
+
+Enfim, vai no site da Black Hat lá, tem lá
+
+os expositores lá, você busca uma lista de fornecedores.
+
+Não, não, não. Minita algo.
+
+O bairro digital também, então a gente é jogo.
+
+Beleza, então é isso, é mais episódio, acho que
+
+o episódio 21, a gente tá na quarta temporada,
+
+foi mais enroscada, a gente teve bastante pausa e
+
+sai integrante vem integrante vagabundo não quer trabalhar faz
+
+parte estamos de volta semana que vem episódio novo.
+
+Aliás, se olha que vem, teremos o CEO fundador de
+
+uma dessas soluções que a gente está falando aqui, então
+
+não perca, enfim, tem mais coisas por vir, inclusive tem
+
+episódio em inglês aí, já prepara o inglês aí Rodrigo,
+
+tem episódio combinado aí pra vir aqui, tá?
+
+Uma Ingrid Pizza Goot. Vale Goot.
+
+Tô vendo, tô vendo. Pessoal, então é isso.
+
+A gente se vê na semana que
+
+vem, eu sou o Cassio Pereira.
+
+Rodrigo Balbino, deixa o chão.
+
+Termina aqui.
+
+Deve ser cóccix.
+
+Deve SECOMS, o seu podcast de segurança em tecnologia.
+
