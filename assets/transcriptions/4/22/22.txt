@@ -1,0 +1,2262 @@
+Inovação. Segurança. Tecnologia. Esse envolvimento.
+
+Começa aqui.
+
+Deve ser COMS.
+
+O seu podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais episódio, deve
+
+ser copy podcast ou seu caso Pereira.
+
+Como você pode ver, eu estou muito
+
+bem trajado para o episódio de hoje.
+
+Como você pode ver, claramente, para quem você
+
+está pra quem está nos assistindo no YouTube,
+
+pra quem está nos ouvindo, não pode ver
+
+nada, de qualquer forma vá ao YouTube, porque
+
+você precisa ver a vestimenta do pai hoje.
+
+Então eu tô de boné, a barreta, já começa aí.
+
+Boné, a barreta, digital, olha que bonitinho escrito aqui
+
+ó deve ser copys podcastima tá na hora essa
+
+bombeta aqui que eu trouxe da Divinda onde lá
+
+de Las Vegas, olha que bonitinho.
+
+Bom, peta, hackeável, né?
+
+Porque ela é Bluetooth, então praticamente
+
+você consegue conectar o Bluetooth e
+
+escrever qualquer besteira aqui.
+
+Mas vamos lá, vamos colar com ela aqui para o novo Sul.
+
+Deve ser copys podcast, beleza?
+
+Pessoal, outra parte da vestimenta de hoje, o pai
+
+está embaçado hoje, essa camiseta aqui, Bisides Cracovia,
+
+2023.
+
+Acabou de rolar Abisides aqui em Cracona, na Polônia,
+
+onde eu moro, onde eu organizo websites, fundei websites
+
+aqui no passado 2022, onde tivemos a primeira edição,
+
+e sendo 2023 tivemos a segunda edição foi sucesso
+
+com as 200 pessoas na websites aqui de Cracove
+
+inclusive uma galera BR que ajuda aqui na organização
+
+e inclusive palestrantes brasileiros que vieram palestrar por aqui.
+
+Foi sucesso.
+
+Cara, a Bissaids é evento fantástico, não à
+
+toa eu fundei a Bissaids que era a
+
+cova assim que cheguei aqui porque não tinha.
+
+Agora tem evento internacional, conheci pessoas
+
+fantásticas de vários lugares do mundo,
+
+de vários países diferentes, enfim.
+
+Então a camisa da Bissais de hoje em homenagem
+
+ao evento que aconteceu hoje no sábado dia
+
+02
+
+de setembro de 2023, beleza?
+
+Então ano que vem tem mais para você que quer
+
+vir para a Polônia, você vem aqui para pisais em
+
+setembro ano que vem, que é a ideia que seja
+
+dia 24 de setembro ano que vem, para que você
+
+que está por aqui, vem na bicicleta de qualquer forma.
+
+Bom, deixa eu botar minha bombeta aqui para aparecer bonitinho,
+
+porque eu tenho que estar com o fone para ouvir
+
+os efeitos especiais, então eu deixei a bombeta na parte
+
+mais alta aqui, não pode mais saber.
+
+Vamos lá, pessoal!
+
+Episódio de hoje, a gente vai falar
+
+pouquinho sobre supply chain de verdade.
+
+Suply Chain é tópico que tá é
+
+uma hot tópicos, não é verdade?
+
+Muita gente fala do Suply Chain, segurança
+
+na cadeia de suprimentos ali, né?
+
+E aí muito se fala em componentes terceiros, SCA,
+
+Bluestacks de exercícios que a gente já cansou de
+
+falar sobre o podcast também, mas o patinho de
+
+verdade não é só isso, isso é só pedaço.
+
+Então hoje a gente vai falar
+
+pouquinho sobre o todo, né?
+
+Antes disso eu vou dar alguns recados.
+
+Lembrar que o DevSeckoth Podcast tem o apoio Total
+
+da Checkmarks e da nova 8, que são especializadas
+
+em segurança de sistemas e códigos seguros.
+
+O link da nova 8 que é a distribuidora da
+
+Checkmarks do Brasil, está abaixo a descrição do episódio, no
+
+YouTube ou também no nosso site deve ser copyspodcast.com.br.
+
+Você está buscando soluções de
+
+aplicativos aqui hoje em geral?
+
+A DigitalWolk tem o portfólio completo pra você.
+
+Qualquer solução que você imaginar de
+
+Application Accurate os caras têm.
+
+Então bate papo lá com eles.
+
+E a Gold Security, que é especializada em Application
+
+Security, mas assim, todo o serviço que você precisa
+
+de Application Security fale com a Gold Security, você
+
+quer desenvolver software seguro fale com a Gold.
+
+É o combo, você compra o melhor site do mundo
+
+com a nova 8, ou qualquer outra solução de Epic
+
+Seca, você fala com a ao wolk, que eles têm
+
+também inclusive o checkmans, e precisa de serviço para fazer
+
+tudo isso acontecer, troque ideia com a Gold Security, beleza?
+
+Então eles são os recadinhos de hoje.
+
+E ainda tem projeto pessoal que eu falei
+
+pra vocês que é o apsek.jobs né?
+
+Você tá procurando aí vagas na área de apsek
+
+você parágrafo.jobs e anuncie sua vaga de uma forma
+
+bem baratinha ou busque suas vagas de forma gratuita.
+
+Pessoal, queria dar alguns recados aqui também, pouquinho
+
+antes da gente começar o episódio de hoje.
+
+Eu tô legal de bom, tá Barreto, tá ótimo.
+
+Vamos lá, primeiro recadinho.
+
+Vale lembrar o seguinte, a nova 8, que é
+
+uma empresa fantástica no Brasil, tive oportunidade de trabalhar
+
+lá, eu sou o CTO da nova 8, hoje
+
+faço como conselheiro no Brasil, enfim.
+
+A nova 8 começou projeto bacana que chama ETAPS.
+
+Na verdade, num projeto ETAPS já
+
+existe há centenas de anos, né?
+
+Mais vai que anda pra frente.
+
+Então existe Mitaps de várias formas.
+
+Só que a 98 começou diversos Mitaps no Brasil inteiro.
+
+E tem Mitaps em São Paulo, Fortaleza,
+
+Caruaru, Curitiba, enfim, Bahia, tem várias cidades
+
+ali do Brasil, já tem.
+
+Mitaps, grupos de Mitaps, da nova 8 tá acontecendo.
+
+Mitaps pra falar sobre desenvolvimento seguro, saiba
+
+ser kids, apsek, deve ser kops, enfim.
+
+Então me taps aí pra você colar com
+
+a galera conhecer, interagir com a comunidade e
+
+claro né, palestrar, aprender, compartilhar conhecimento, que esse
+
+é o grande foco de uma etapa.
+
+Fazendo networking, compartilhar conhecimento
+
+e aprendendo pouco. Beleza?
+
+Então participe aí dos mintaps da nova 8 se
+
+você fala mitap.com procura lá para o nova 8
+
+você acha aí as cidades disponíveis já são seis
+
+cidades do Brasil, acho seis ou sete cidades, incluindo
+
+São Paulo, Nordeste, Sul, Sudeste, CentroOeste, enfim, tem tudo,
+
+tem todo o tempo para todos os gostos, tá?
+
+Então participe dos metups da nova 8 beleza outra coisa legal
+
+também para falar é participe de eventos né cara acho que
+
+evento é negócio tão bacana tem websites agora tiver chance de
+
+ir na black até porque eu sempre vou estar falando pra
+
+vocês participar de eventos que é negócio fantástico que é onde
+
+você aprende coisas como essa que a gente fala aqui hoje
+
+no episódio por isso que eu tô trazendo aqui pra você
+
+Então vamos lá pessoal.
+
+O que é supply chain de verdade?
+
+Quando a gente fala de supply chain, para a
+
+gente analisar, Vou pegar o nosso software aqui, né?
+
+A gente desenvolveu o nosso
+
+software, nossa aplicação web, né?
+
+Usamos ali tipo de frontend, backhand, banco de
+
+dados, Então quando você fala de supply chain
+
+é tudo envolvido no ciclo de desenvolvimento.
+
+Veja bem, tudo envolvido no ciclo de desenvolvimento.
+
+Isso quer dizer, de até que os terceiros né que
+
+é o normalmente de pessoal foca né então ah legal
+
+eu tenho já os meus componentes terceiro, eu tenho aqui
+
+o meu frontend, eu uso aqui o meu JQuery da
+
+vida, no meu backend que eu uso biblioteca pra fazer
+
+parse, sei lá, de JSON, sei lá o que, ou
+
+dryer pra conectar de dados, etc, etc, etc.
+
+Então é como você já está acostumado
+
+a desenvolver software, juros aí, componentes terceiros
+
+e muitas vezes ofensores, né?
+
+Algumas vezes inclusive até componentes comerciais, você compra uma
+
+lista de componente comercial pra colocar ali no seu
+
+projeto, isso é natural, é normal, beleza?
+
+Só que qual que é a treta né quando
+
+você faz projeto bem feito de S.A aí você
+
+tem nesse contexto todo todo o catálogo, todo o
+
+inventário dos componentes que você tem na sua aplicação.
+
+Então, você tem lá 50 componentes, tem uma lista de
+
+50 componentes em cada versão que tá sendo utilizada.
+
+E aí muito se fala hoje,
+
+inclusive, também na parte desse bom.
+
+Isso virou boom, mas vai quando eu fiz a parte de
+
+certificação do CSLP já tem que ir no curso de treinamento.
+
+Então você tem S bom, que que é o S bom?
+
+É arquivo, é Software Bill Love Mathyrus, é arquivo
+
+que te lista em detalhes no formato específico, vamos
+
+supor essa aí na sua obrigação, né?
+
+É isso, simples assim, Então quando você precisa
+
+fornecer S bom, nome para o seu cliente,
+
+você entrega o software, coisas do tipo, esse
+
+arquivo ele tem que estar muito fiel.
+
+Porque o cara espera que naquele arquivo ele
+
+contenha tudo que tem dentro do seu software.
+
+É como se fosse a lista de ingredientes de produto.
+
+Né você vai lá no supermercado vendo produto aí
+
+você vê na tabela ali atrás tabela tensional tem
+
+lá contém ovo contém água contém açúcar, contém sal,
+
+contém monte de couro, manteiga, sei lá.
+
+E até uma questão de alergia, uma questão de
+
+saúde, vida ou morte, questão nutricional, enfim, uma série
+
+de fatores ali que obrigam os produtos descrevendo ali
+
+cada ingrediente que contém naquele produto.
+
+S bom é a mesma coisa.
+
+Uma lista de ingredientes que tem no seu software, uma
+
+lista de componentes que tem no seu software, beleza?
+
+Quando a gente fala de S.A.
+
+Software Composition Analysis, a gente está
+
+falando de Checkmarks, por exemplo. Então, S.A.
+
+Fantástico, assim como outras soluções.
+
+Que vão catalogar pra vocês essas bibliotecas e te
+
+mostrar vulnerabilidades dentro dessas bibliotecas, o nome de vulnerabilidades
+
+já públicas, obviamente, Assim como os próprios times de
+
+pesquisa de desenvolvimento de cada empresa, da fala da
+
+Mandy, da fala da Snick, Vera Code, Checkmare, enfim,
+
+infinidade de soluções aí.
+
+Então esse é o SCA.
+
+E além das vulnerabilidades, obviamente, eles vão te
+
+falar pouquinho ali sobre questão de licença, né?
+
+Licenciamento.
+
+Ó, eu estou usando a biblioteca aqui, que tem uma
+
+licença, o IGPL, que tem uma licença Apache, que tem
+
+uma licença sei lá o que, dependendo da licença, pode
+
+ser risco pra você, pode ser problema pra você.
+
+Legal, então você tem o seu projeto, você faz
+
+scan de S.A, você usa uma ferramenta bacana, você
+
+tem inventário, e você tem ali o catalogado da
+
+sua biblioteca de terceiros, sua licença, vulnerabilidade.
+
+Você faz isso bonitinho, lindo e maravilhoso.
+
+Aí você cara, como é que tá
+
+a sua segurança de supply chain.
+
+Tá funcionando, você vai falar cara, tá.
+
+Eu tenho tudo o que é CA, tem catálogo, faça escanteio.
+
+Automatizado na esteira, bla bla bla. Show!
+
+Lindo e maravilhoso!
+
+Mas isso é pedacinho do Supply Chain.
+
+Essa é a má notícia pra vocês. Por quê?
+
+Porque quando a gente fala do supply chain, eu
+
+acabei de falar no começo do episódio, é tudo
+
+envolvido né ou tudo que compõem os seus ciclos
+
+de desenvolvimento então as suas máquinas as máquinas dos
+
+desenvolvedores as ideias dos desenvolvedores os servidores que você
+
+usa para compilar, os servidores que você usa para
+
+fazer deploy da aplicação, as ferramentas de scan, inclusive
+
+suas pipelines, Suplication, gente, é tudo na cadeia de
+
+desenvolvimento até se solta e chega no final. Percebe?
+
+Então, Eu vou fazer algumas perguntas aqui pra
+
+fazer vocês refletirem, aí depois podemos fazer alguns
+
+episódios pra focar nelas pouquinho em detalhes, pra
+
+falar e debater sobre Mas vamos lá.
+
+Você tem o seu projeto, baixou a
+
+biblioteca de terceiro, acabou o seu projeto.
+
+Você aperta o F5 lá, está usar o
+
+exemplo do Visual Studio, que você aperta Ctrl+Shift+B
+
+para compilar, na sua aplicação compilou, gerou seu
+
+DLS, executava sua web application e acabou.
+
+O que você vai fazer agora?
+
+Normalmente você vai fazer commit do código,
+
+fazer push no repositório, no código fonte.
+
+Não necessariamente nesse momento, acabou.
+
+Agora você vai usar o repositório.
+
+Não, você já está usando desde a primeira
+
+linha de código, mas só para exemplificar aqui.
+
+Então você está usando o seu CSM, ele são
+
+kit hub, sua ajuda de votos, enfim, esse cara
+
+já é parte do seu split chain. Por quê?
+
+Quais são as pessoas que têm
+
+acesso ao seu código fonte?
+
+É o Cássio, é o Fulano, é o Ciclano, quem
+
+são os usuários, funcionários, os times que têm acesso ao
+
+seu código fonte, aquele micro serviço, aquela aplicação, como Esse
+
+controle de acesso no seu ESM, por exemplo, eu vou
+
+usar o GitHub do que é mais popular, né?
+
+Então, sei lá, se o GitHub do seu código
+
+tá lá, mesmo que seja privado, tá gente?
+
+Mesmo que seja uma pessoa privada, não
+
+tá pública na internet e tal.
+
+Mas quem são as pessoas que têm acesso lá Se eu
+
+quero ter acesso, entre funcionamento da empresa, ele já tem acesso
+
+ao repositório, ele tem que pedir, se ele for participar daquele
+
+time, e se ele sai daquele time, esse acesso é removido
+
+e passa para outro deveria se a gente parar para analisar
+
+então o SCM já é parte do seu split chain porque
+
+dependendo de quem tem acesso, como tem acesso, etc, etc, etc,
+
+o código pode vazar.
+
+Se o código vazou ali, você tem, sei lá, uma Secret
+
+lá no código que mora pra estar lá, mas vamos lá.
+
+É ciclo de código que não era pra
+
+estar lá, ou a própria lógica do código.
+
+E pessoas que não
+
+500
+
+desenvolvedores, a empresa inteira tem acesso.
+
+Que acontece, são 500 pessoas vendo sua
+
+lógica, às vezes você não precisa disso.
+
+Às vezes você precisa que 15 pessoas vejam,
+
+que são aquelas squads, aquele time, aquelas pessoas
+
+não sabem por aquele repositório, por aquele código.
+
+Então esse controle de acesso, vamos chamar assim dentro
+
+do seu ASN, já é parte do seu site.
+
+Aí vamos lá, SM é uma coisa.
+
+Aí você tem uma segunda coisa, quem
+
+faz a gestão do seu CSM?
+
+Como é feita essa gestão.
+
+Você tem monitoramento ativo de pessoas que ganham
+
+acesso àquele repositório específico, de pessoas que saem,
+
+que são removidos o acesso, de pessoas que
+
+fizeram push, pull, commit, aquela coisa toda, você
+
+tem controle disso, né?
+
+É a primeira pergunta.
+
+Aí vamos lá, você tem o seu CID, que muitas vezes
+
+os anos sempre do GitHub você tá na mesma plataforma, né?
+
+Você tem lá o Actions, GitHub Actions, ou às
+
+vezes você usa Genks no outro servidor, enfim.
+
+A galera usa bastante o Azure DevOps, né?
+
+O pipeline e tal, mas vamos lá.
+
+Então assim, vou pegar o exemplo da árvore
+
+do AzureOps, eu gosto bastante do AzureOps.
+
+Você vê nas suas pipelines que compila
+
+o seu código, faz deploy em ambiente
+
+de desenvolvimento, homologação, teste e você tem
+
+seus pipelines que fazem deploy em produção.
+
+Quem tem acesso aos seus pipelines?
+
+Na sua pipeline, imagino que tenha diversas tasks, uma que
+
+faz o get do código, outra que compila o código
+
+outra que roda lá o SAST faz os descansa ali
+
+de segurança outra task vai fazer os esses cantos de
+
+teste normal, esses cantos de teste não, os testes, executar
+
+os testes genitários, coisas do tipo, enfim, em diversas técnicas
+
+você vai ter ali.
+
+Eu como desenvolvedor eu posso ir lá na pipeline
+
+e voltar a pipeline, qualquer uma inclusive de produção,
+
+ou precisa de uma aprovação depois que essa execução,
+
+alguém tem que aprovar, alguém essa é a monetização.
+
+Esse alguém é uma pessoa, duas pessoas, é alguém
+
+do mesmo time, é alguém do mesmo time segregado.
+
+Eu posso te dar na pipeline pra desativar o
+
+scan de segurança pra passar mais rápido, por exemplo,
+
+ou desativar os testes unitários, por exemplo.
+
+Quem tem esse controle dentro das suas pipelines?
+
+Como é feito esse controle?
+
+Eu sou desenvolvedora, eu fui lá na
+
+Patreária, desativei o SAST, por exemplo.
+
+Mandei rodar na papel de produção pra
+
+ir pra fazer deploy de automático.
+
+Tem uma notificação sobre isso, eu posso fazer isso,
+
+alguém precisa provar isso, como que é esse fluxo?
+
+Então, gente, olha só, eu não estou nem muito
+
+longe, eu falei só de SM e CSD.
+
+Como é feito esse controle na sua empresa hoje?
+
+Bom, eu não tô nem falando de segurança, SAST
+
+e TAG não, quem roda suas peplines hoje produzindo?
+
+Qualquer pessoa pode ir lá e comprar
+
+uma sua aplicação, qualquer pessoa pode ir
+
+lá e pegar o seu software compilado,
+
+por exemplo, cara, a sua propriedade intelectual.
+
+Quem tem acesso aos artefatos, sei lá, sua paglane,
+
+pildou a sua aplicação, compildou a sua aplicação.
+
+O final ele gera o quê?
+
+É uma imagem docker, é uma DLL,
+
+é executável, é jar, o que é?
+
+Esse artefato final.
+
+O que você faz com ele?
+
+Quem tem acesso a isso?
+
+Em teoria, é o seu ativo, é dos seus principais
+
+ativos da sua empresa social, Quem tem acesso a isso?
+
+Quem tem controle a isso?
+
+Então essas perguntas precisam ser respondidas. Tá?
+
+A gente vai falar, acho que não dá pra abordar
+
+tudo isso num episódio só, vai ter outros episódios pra
+
+gente entrar em detalhes sobre algumas dessas coisas, né?
+
+Mas faça essas perguntas e entenda como é
+
+que você se controla, como é que você
+
+está fazendo todo esse controle na verdade.
+
+Porque se você não tem esse tipo de controle, a
+
+verdade é que o seu Supply Chain já está comprometido.
+
+As suas bibliotecas de terceiros estão, a gente
+
+deu exemplo aqui estão perfeitas, mas Suply Chain
+
+não é só a biblioteca de terceiros.
+
+Gravese Cops.
+
+Como a gente acabou de ver, até
+
+que a gente era pedaço, né?
+
+A gente já falou de SM, vamos
+
+dizer de CST, por exemplo, e os
+
+servidores que executam essa aplicação, por exemplo,
+
+num ambiente teste, desenvolvimento, homologação, préprodução.
+
+Essas máquinas, servidores normalmente, são servidores ali mais não
+
+tão parrudo, não são servidores dentro da sua cloud,
+
+ou às vezes no ambiente até premises.
+
+Essas máquinas são Windows Linux?
+
+Quem faz o update delas?
+
+Não é como é que estão ali os pacotes vamos
+
+lá é o Windows quem roda o Windows update dela
+
+quem tem acesso a essas máquinas como administrador, por exemplo,
+
+anúncios remotos, mexer no filesystem, quem pode fazer isso?
+
+É todo time de desenvolvimento?
+
+É só cagala de winser?
+
+E o pessoal tem que interagir, vamos falar
+
+com o outro e perguntar, a sua pipeline,
+
+por exemplo, de homologação, até acesso ao seu
+
+servidor de homologação pra fazer o deploy automático,
+
+mas eu manualmente posso ir lá e jogar
+
+arquivo lá, por exemplo, nem comprometer a aplicação.
+
+Percebe então as máquinas
+
+desse contexto também influenciam?
+
+E olha o que eu falei do CSD considerando CSD Cloud.
+
+Se o seu CSD é hosted, se você os seus agentes,
+
+você executa na sua infraestrutura com as suas máquinas, você já
+
+tem mais cara pra tomar cuidado, pra tomar conta.
+
+A gente pode estar fazendo coisas maliciosas, dependendo do
+
+ponto de vista, dependendo do que você permite.
+
+Percebe gente?
+
+Supply chain de verdade é assim é absurdo é
+
+muita coisa não é só a biblioteca de terceiros
+
+não é só o seu open source não é
+
+só baixar o dependência track fazer scanzinho.
+
+Não é comprar o check, mas fazer scan de biblioteca.
+
+Não é.
+
+Não é só isso. Isso é parte.
+
+Aliás, essa é uma parte crucial.
+
+Mas sou plai chain não é só isso tá não
+
+é só isso vou fazer outra pergunta para vocês a
+
+gente falou de SMS, ASID, falamos aqui de servidores.
+
+E o GitHub também famoso com isso
+
+do Github você tem várias actions né?
+
+E uma action pode chamar uma
+
+outra action direto do marketplace né?
+
+O direto do código lá do
+
+próprio GitHub que outras pessoas publicam.
+
+Essas actions, já para parabenizar uma por dentro, o
+
+que ela faz, o que o código faz?
+
+Essas actions de terceiros, elas podem estar roubando o seu
+
+código, você manda se eu compilar o seu código, e
+
+você tem uma action que na verdade faz lá o
+
+que você pega o que você precisa né sei lá
+
+a action que sei lá o que ela faz baixa
+
+dependência gerencia independência sei lá E aí você está usando
+
+action de terceiros, por exemplo.
+
+E essa action, na verdade, de quanto ela
+
+faz isso, ela copia todos os arquivos para
+
+algum lugar na internet que você envia.
+
+Então ok, tá roubando o seu código, é uma action, tá
+
+dentro do seu código, tá dentro do seu CSM, ele tem
+
+acesso ao seu código, você tá fazendo checkout ali do código
+
+pra executar tudo isso, Já parou pra pensar que seu código
+
+está sendo vazado, você nem sabe, nem sonha.
+
+Só porque você está usando uma action terceirizada, né?
+
+Uma action maliciosas, vamos chamar assim,
+
+dentro do GitHub e outras soluções,
+
+né, normalmente o GitHub tem isso.
+
+Então olha onde vai gente, essa parada
+
+de supply chain, ela vai longe.
+
+Então toda vez que você ouvir, nós estamos 20
+
+minutos de episódio que chegando na metade Toda vez
+
+que você ouve aqui pra frente agora, Supply Chain
+
+ataques, proteção de Supply Chain e toda essa essa
+
+parafernalha, vamos dizer assim, Você vai pensar agora, cara,
+
+não é só open source.
+
+É tudo, todo o meu apetrecho técnico
+
+dentro do meu seguro de desenvolvimento.
+
+Então máquinas é semesse é esse de isso para falar
+
+de algumas vamos lá vamos aprofundar pouco mais discussão.
+
+Segurança.
+
+Tecnologia.
+
+Deve ser copys.
+
+As máquinas de desenvolvedoras, por exemplo.
+
+Elas estão bateadas, estão ardenizadas, está com o Windows
+
+Update, vou usar o Windows de exemplo e ficar
+
+mais fácil para esclarecer pra vocês, tá?
+
+Tá com o Windows Update bonitinho, o cara tá
+
+rodando o Visual Studio Code, o Visual Studio Code
+
+tá atualizado, eu tava lá na né?
+
+Três semanas atrás aí, e teve uma palestra lá que era.
+
+Visual Studio Workspaces são o motivo
+
+de eu ter problemas de confiança.
+
+Traduzida aí pouquinho da palestra tá
+
+pública os slides e tal.
+
+E a palestra simplesmente o cara abrindo o VSCode,
+
+clonam o repositório do GitHub e abrir esse repositório.
+
+Basicamente conseguiu RCE, emoticon dos arquivos.
+
+Então pra exemplificar, é só você fazer essa
+
+ação abrir a calculadora do Windows do nada.
+
+Ou seja, algo malicioso no repositório,
+
+no VSCode em algum lugar, quando
+
+executava qualquer comando da sua máquina.
+
+Era bug É bug, eu acho que já corrigiram,
+
+mas o professor estava trabalhando nisso e tal.
+
+Era bug do VSCode.
+
+Então o Visual Studio Code, que é usado para
+
+criar o seu código do seu software, para codificar,
+
+abrir os arquivos, ler, às vezes tem várias extensões
+
+ali pro plugins pra você já compilar, pra já
+
+mandar pra cloud, pra fazer tudo ali praticamente no
+
+lugar só, tava comprometido.
+
+Estar e não só o processo de coaching
+
+como outras soluções, o próprio Visual Studio, o
+
+próprio TLJ, Eclipse e por aí vai.
+
+Eles também fazem parte do supply chain.
+
+Aliás, é uma das ferramentas cruciais, a
+
+Ideas é uma do Koda, num programa.
+
+Mesmo que a IREA seja o todo
+
+poderoso, ultra master, mega blaster, notepad.
+
+Então assim, não deixa de ser uma
+
+aplicação e se ela estiver comprometida.
+
+Quais riscos ela traz?
+
+Para você ali no seu no seu código né propriamente
+
+dito então mais item para você pensar como que é
+
+gerenciamento das máquinas dos desenvolvedores na sua empresa.
+
+Tem uma política, tá num domínio, tem updates automáticos, como
+
+é que o cara pode instalar qualquer coisa na máquina,
+
+O cara instala qualquer coisa na máquina, ele tá com
+
+o código aberto na máquina, qualquer coisa instalada na máquina
+
+pode roubar o código daquela máquina.
+
+Olha só que filosofia, né cara? Percebe?
+
+Então tem que tomar muito cuidado
+
+com esse tipo de coisinha.
+
+Não é brincadeira, quando a gente fala do Supply
+
+Chain a gente está falando de todo esse contexto.
+
+Imagina que o servidor que você usa
+
+pra compilar a sua aplicação, por exemplo,
+
+no SociSG, ele foi comprometido.
+
+Então, toda vez que você compila a aplicação, na verdade ele
+
+injeta o Mawhere no seu Jar, no seu BXC, sei lá.
+
+E aí quando você roda ele numa máquina específica,
+
+quando você entrega pro seu cliente, tem target lá
+
+específico pra ele executar tá aquele mal.
+
+Consequentemente, você vai infectar ali o seu cliente,
+
+o servidor final, ou coisas do tipo.
+
+Você percebe onde vai essa questão?
+
+O risco aqui é muito grande, gente.
+
+Tá todo mundo falando de proteger, suculenta
+
+em cadeia de suprimento, mas cuidado.
+
+Cuidado, ninguém faz tudo isso por você, ninguém não
+
+existe solução que faça isso, existe uma combinação de
+
+soluções, fala com a Digital Oca que o pessoal
+
+vai te ajudar, Existe uma combinação de soluções que
+
+você consegue se proteger de certa forma.
+
+Mas isso é muita boa prática.
+
+Hardin processo para garantir que as coisas
+
+estão acontecendo para garantir que as coisas
+
+estão auditadas e principalmente gente monitoradas.
+
+Vou dar exemplo clássico, tá?
+
+Entrou funcionário novo, você fez hambúrguer e
+
+deu acesso pra ele lá no repositório.
+
+Se o funcionário mudou de equipe, ele devia ter acesso
+
+a outro repositório, ele ganha acesso a outro repositório, mas
+
+ele não perde o que tinha antes, muitas vezes.
+
+Ou esse funcionário sai, ele corta todos os seus
+
+dedos, mas não corta ela na repositório, porque ele
+
+não está integrado no seu AD por exemplo, ou
+
+se você não, ou coisas do tipo.
+
+Esse é o típico caso.
+
+Então o que você poderia fazer?
+
+Como é que você audita isso?
+
+Cara, uma vez por mês você baixar uma lista lá da
+
+sua, do seu programa, do que você quer validar, dos últimos
+
+logins de quem fez logins, aí você vai ter lá pro
+
+seu caso e tem 15 dias que ele não loga.
+
+Você aplica de férias? Aí você vai ver não, o
+
+cara tá de férias, tá trabalhando.
+
+Antes de ser longa, então mano, precisa desse acesso.
+
+No todo exemplo aqui da
+
+repositório, podia ser qualquer outra.
+
+Qualquer outra coisa da sua empresa.
+
+Quinze dias, 30 dias, 90 dias sem logar,
+
+o cara tá trabalhando aqui ainda, ele não
+
+precisa mais disso, corta o acesso dele.
+
+Você reduz os perfis de ataque, na
+
+escala seja privilégio, aquela coisa toda.
+
+Ou então, isso é auditoria, você vai vir
+
+de vez em quando, de forma manual, mas
+
+você tem que ter algo contínuo e automatizado.
+
+Então olha só o Cássio, que é essa faxineiro,
+
+ganhou o usuário dele aqui na empresa, ganhou acesso
+
+a repositório de cor do fone, ficar Está errado.
+
+Você tem que ter uma inteligência que
+
+rode constantemente automatizada para cortar esse acesso.
+
+Corta o acesso imediatamente e manda
+
+alerta para a segurança, para alguém,
+
+para caramba, você está falando sério.
+
+Isso não é normal esse contexto.
+
+Então quando a gente fala de segurança, gente,
+
+o seu pai tinha, tem toda essa parte
+
+de monitorar ativamente, ao ditar periodicamente, fazer uma
+
+autoresposta incidente, soror da vida, para você cortar
+
+algumas coisas, fazer em força antes de políticas,
+
+Então cara, exemplo aqui, né?
+
+Todo pull request tem que ter duas aprovações.
+
+Duas pessoas tem que dar uma revisão aqui
+
+e apertar o botãozinho aprovado e aprovado.
+
+Aí pull request ela passou.
+
+Não teve duas aprovações.
+
+Cara, não deveria.
+
+Se o CSM tem que ter mecanismo de cara,
+
+alguém desabilitou isso, reabilita automaticamente e alerta alguém, ou
+
+se você não tem essa resposta automática, qual problema
+
+não ter resposta automática, você vai abrir a brecha.
+
+Então alguém desativa, vai lá e
+
+faz pull request, ativa de novo.
+
+Aí quando você for o ditado aqui
+
+meia, escrever, publicar tem pull request que
+
+passou sem aprovação ou alguma coisa errada.
+
+Alguém desativou, fez a maldade que
+
+tinha que ser feita e voltou. Então não pode.
+
+Você tem que ter essa resposta
+
+automática pra você cortar o risco.
+
+Então alguém desativou, ativando normalmente. E alerta.
+
+Tats também estão ativando desativando.
+
+Nunca vai saber que está sendo atacado, é
+
+importante ter o alerta pra que você possa
+
+investigar e trabalhar em cima dele, né?
+
+Até criar novos mecanismos de segurança.
+
+Olha só, gente, tô falando de negocinho
+
+aqui, de Peguei acesso a exemplo aqui.
+
+Tá, mas tudo isso que eu falei, se
+
+há esse dia, suas action de terceiro, suas
+
+suas máquinas, servidores, sua máquina desenvolvedora, IDE, K.
+
+Além das bibliotecas de terceiros, que
+
+você faz tudo isso com S.A.
+
+Conversar com o pessoal da chair com esse aí
+
+que você já sabe como é que faz.
+
+Então, supply chain de verdade gente, é tudo isso.
+
+Isso pra não falar, nem vou entrar banco de dados, né,
+
+isso é o banco de dados, o servidor lá tá com
+
+pet, tá radanizado, quem tem acesso, como é feito acesso, como
+
+é que é a parte de rede, A sua aplicação que
+
+tá no servidor X, pode chegar num banco de dados que
+
+tá no servidor Y, mas o servidor Y, ele pode ser
+
+acessado só pela aplicação X, o banco de dados, qualquer qualquer
+
+na rede pode chegar lá.
+
+Quem cuida dessa regra de fire é o time
+
+de redes, é o time de TI, tem fire
+
+lá, Então, gente, tudo isso é esse patinete.
+
+Tudo isso está composto dentro do seu desenvolvimento.
+
+Então, imagina, vamos lá.
+
+Você tem restaurante. Beleza?
+
+Eu chego lá, eu sou da vigilância sanitária.
+
+Eu chego lá no seu restaurante
+
+e vou falar assim cara, beleza.
+
+Deixa eu ver sua cozinha aí eu chego lá na
+
+sua cozinha limpa organizada você me explica mais ou menos
+
+como estão os seus processos beleza Cara, abra a geladeira,
+
+essa abra a geladeira tá lá, os produtos que você
+
+comprou, todos com data de validade, organizados, que você tem
+
+frango, que você tem aves, tem aves, carne, boi, porco,
+
+vegetais, tudo com data de validade, a data que foi
+
+para geladeira, a data que vai vai estragar, enfim.
+
+Você tem os seus pratos de organizar tudo
+
+limpinho, máquina automática para fazer a limpeza, perfeito.
+
+E aí o cara vai eu lá pego os da
+
+vigilância eu pergunto assim cara legal perfeito daqui dá onde
+
+você compra os seus produtos né quem são seus fornecedores
+
+Cara, o melhor seguinte, eu compro o frango aqui desse
+
+frigorífico, a carne desse outro, o corpo desse outro.
+
+Aí o Auditor, eu da vigilância de terno e
+
+olhava pra cara, tem problema aqui, por quê?
+
+Esse fornecedor aqui, ele tá aí legal, já foi avisado,
+
+foi comunicado, ele tá legal porque ele foi auditado, já
+
+não passa ele tem problema lá de vigilância ele não
+
+poderia estar vendendo então se você comprou essa carne aqui
+
+você você não sabia, ok, mas essa carne tá comprometida,
+
+você não podia ter comprado, né?
+
+Você não sabia, mas Então, esse
+
+é o papel desse caso, né?
+
+Do vídeo de lançamento unitário.
+
+Entender que todos os processos que você faz pra fazer
+
+o seu produto ali do restaurante, fazer o seu prato,
+
+chegar lá e bem for barmegiano pra chegar lá, o
+
+prato no cliente teve toro supletinho atrás.
+
+A farmegiana é bem grosso modo, né?
+
+Teve o filé mignon, teve o queijo, o molho
+
+de tomate, e a farinha ali de fazer empanado.
+
+Bem grosso modo, tem mais ingredientes ali.
+
+O sal, a pimenta e tal.
+
+Então da onde veio cada coisa né aí você tem
+
+coisa lá no mercado e compra a pimenta sal né
+
+não tem tanta beleza você compra o sal né aquela
+
+empresa tá vendendo tá comercializando, quer dizer que ela foi
+
+auditada que ela já tá autorizada a fazer aquilo que
+
+ela já tem processo pra fazer aquilo.
+
+Você percebe, então quando chega aquele sal pra
+
+você, você confia, você só põe o sal.
+
+Mas você não precisa, pô, mas esse é o verde da onde?
+
+O joelho foi empacotado, esse plástico
+
+que tá aqui da onde vê.
+
+Então, vá atrás de tudo isso.
+
+Você como consumidor final, você confia.
+
+Porque toda a cadeia de
+
+processos é auditada e controlado.
+
+Software não tem isso. Sabia?
+
+Pois é, jovem, até vou dar
+
+Levy's secops.
+
+Levy's secops.
+
+Será que eu vi que meu bombeta acabou a bateria?
+
+De pouco pra carregar aqui
+
+enquanto eu continuamos vocês.
+
+Então, software não tem isso, gente, né?
+
+Sofre não tem esse controle, ninguém chega pra você
+
+e fala cara, o que o software está rodando?
+
+Ele está rodando Windows? Oh legal!
+
+Cara, essa versão do Windows aí eu vi
+
+que a Microsoft eles fizeram assim, assim, passado,
+
+tal, tal, tal, compilado tal dia, tal, tal. Até tem, né?
+
+Esses, obviamente, coisas maiores, assim.
+
+Até tem certo controle, certo uma certa informações públicas
+
+e tal, mas o software não é assim.
+
+Tudo que está no seu software o servidor que você
+
+usou para compilar, a society, a imagem docta que você
+
+gerou, a base de imagem que você usou, se você
+
+não fez isso que ela pode estar com problema também.
+
+Imagina tudo isso.
+
+Aí você entrega software no final do seu
+
+cliente, ou faz o deploy no seu ambiente
+
+pra vender como sas por exemplo.
+
+Se Será que tudo que tá
+
+ali naquele produto final é confiável?
+
+Quando você vai no restaurante, vai lá
+
+numa pizzaria e pede a pizza.
+
+Você simplesmente pede a pizza do sabor
+
+que você gosta, paga e come. É isso.
+
+Você confia que aqueles
+
+ingredientes não estão estragados. Sim.
+
+Depende da pizzaria que você vai, você nem questiona, cara, será
+
+que é a melhor qualidade de top de top não?
+
+Você sabe mais ou menos pelo preço, né?
+
+Mais ou menos pelo lugar.
+
+Você pagar 150 reais na pizza você sabe
+
+que eu pago produtos de qualidade pelo menos
+
+né pagar 1990 Espera aí, cara.
+
+Não é a mesma mussarela.
+
+Vamos lá, vamos combinar.
+
+Não é o mesmo molho de tomate, beleza?
+
+Então, Percebe?
+
+O software não tem isso.
+
+O software é O que que tem lá no software? Não sei.
+
+O que que tem no software que a gente tá usando aqui?
+
+Não sei.
+
+Quando é sasuke você não tem que
+
+saber mesmo, você só usa ou software.
+
+Mas quando você entrega para o seu cliente executava
+
+uma DLL, já, componente, É o mínimo que se
+
+espera que ele saiba o que tem ali dentro.
+
+Ele sabe o que ele vai executar aquilo.
+
+Quando é sas, nem tanto, porque a infraestrutura é sua.
+
+Então, se der algum problema ali, eu tô preocupado só com
+
+meus dados, certo modo, de não vazar os meus dados e
+
+tudo mais que também faz parte da cadeia como todo.
+
+Então percebe gente, Supply Chain de verdade
+
+é tudo isso e mais pouco.
+
+Esse episódio quis aqui jogar uma luz nesse
+
+tema do ponto de vista cuidado suply chain
+
+não é fazer gestão de bibliotecas de terceiros.
+
+Isso é pedaço.
+
+Supply chain é você garantir que tudo toda a
+
+sua stack que vamos chamar assim né no seu
+
+ciclo de desenvolvimento software esteja o ditado controlado né
+
+bem feito você sabe o que tem lá, tá
+
+atualizado, tudo bonitinho, permissões, etc, etc, etc.
+
+Isso pra não falar, aquela brincadeira, né?
+
+Quem audita o auditor.
+
+Por exemplo, cê tem lá, exemplo, tá?
+
+Cê tem o checks na sua terão sua pipeline.
+
+Então você roda a pipeline e o checkans faz o
+
+scan do seu código e te dá o resultado. Perfeito!
+
+Muitas vezes o desenvolvedor só olha o resultado.
+
+Eu vou corrigir, tem aqui uma vulnerabilidade alta,
+
+média, vou por no backlog, corrigir, testei de
+
+novo, beleza, tá lindo, maravilhoso, ótimo.
+
+Mas quem cuida do Checkmais?
+
+Quem que vai lá e vê se as regras estão atualizadas?
+
+Quem que vai lá e vê se o
+
+scan não tá partiando por algum motivo?
+
+Não tá partiando todos os códigos, né,
+
+no nível de cobertura tá baixo.
+
+Quem vai olhar quem tem acesso ao
+
+check out pra ver os resultados?
+
+Porque é uma ferramenta de encontrar vulnerabilidades.
+
+Então se qualquer tem acesso a essa ferramenta,
+
+qualquer sabe as vulnerabilidades que você tem.
+
+Percebe?
+
+Quem que vai lá desativa?
+
+Quem que vai lá e troca as regras?
+
+Putz cara, o cara colocou a regra
+
+mínima que uma, uma regra ele acreditou.
+
+Quer dizer que o Scamber acontecer nenhum
+
+segundo, lindo e maravilhoso, não tem vulnerabilidade
+
+nenhuma, desenvolvedor nem sabe, ele só vai
+
+falar, o Scamber com sucesso sem vulnerabilidade.
+
+Aí você vai lá no check, mas tem uma
+
+regra ativa ou tá desativado as regras, sei lá.
+
+Então, né?
+
+Ou pelo produto contratar todas as regras, tá
+
+sempre baixando a vulnerabilidade no código, né?
+
+Então, Quem é auditor ou auditor?
+
+Quem olha pra tudo isso? Percebe?
+
+E aí, esse eu tô dando exemplo, tô checks, numa
+
+solução SAST e quem faz tudo isso pro seu S.A.
+
+Pro seu IAC, pro seu contêineres, campo, seu
+
+mauris, campo, seu DAST pra falar algumas aqui
+
+dentro e toda a sua Supply Chain.
+
+Quem é o dito auditor?
+
+Você percebe cara, que supply chain não
+
+é só a biblioteca de terceiros?
+
+Gente, pode ser que eu volte a falar nisso aqui
+
+em outros episódios, mas esse aqui, se você estiver agora
+
+no meio aqui, volta ali no começo, pega depois os
+
+recadinhos ali no começo e ouve de novo.
+
+Se você ouviu algum colega, alguém que tá trabalhando
+
+com isso e tal, manda esse episódio pra ele.
+
+É porque isso aqui cara, tem valor muito grande.
+
+As empresas, como eu falei pra vocês, acabei de
+
+voltar da Black e ajuda a Devon, né?
+
+Enfim, cansei de falar disso, ó.
+
+Inabissades aqui, inclusive, teve
+
+muita toque sobre isso.
+
+Dissédios aqui de Cracóvia não dá gente pra você confiar nessa
+
+parada A verdade é, você não sabe quem está do outro
+
+lado, você não sabe quem fez, quem não fez.
+
+O que tem de problema, por exemplo, na parte
+
+de Bitcoin, A empresa tal de Bitcoin foi hackeada,
+
+perdeu tudo e todos os clientes se ferraram.
+
+Porque os caras usam a biblioteca de terceiros, a
+
+biblioteca os caras, sabia, fez ataque direcionado, rodou o
+
+código, pegou a carteira de todo mundo.
+
+Então, esse tema supply chain, você vai ouvir falar muito dele,
+
+tá na crista do galo, tá na onda agora, né?
+
+Mas o foco muitas vezes é em SA.
+
+Porque é realmente boa parte, boa parte
+
+não em quantidade, mas em criticidade.
+
+É realmente o foco.
+
+Mas não é só isso.
+
+A luz que eu quero jogar
+
+aqui nesse episódio é exatamente essa.
+
+Não é só isso.
+
+É mais muito mais.
+
+É muito mais.
+
+Enfim, joguei aqui algumas perguntas, gente.
+
+CSD, SM, sobre banco de dados,
+
+pipelines, acesso de usuários, né?
+
+Isso pra não falar email, que pode estar envolvido, né?
+
+Dependendo do contexto, outras soluções de sasuke você
+
+tem, seu slack, você Galera, adoro usar slack.
+
+Cara, acho uma ferramenta pesada, parece
+
+coco na HD, pesa lento, enfim.
+
+Ela usa slack e é caro né se você usa
+
+o enterprise então meu Deus é muito caro mas vamos
+
+lá se eu uso slack aí o seu Slack, você
+
+integra o seu check mate pro seu Slack.
+
+Então o check mate fez o Scan,
+
+o Slack deu lá na notificação pro
+
+seu time, olha, tem duas vulnerabilidades aqui.
+
+Essas mensagens que vão lá pro
+
+Slack, quem tem acesso ao Slack?
+
+Quem é o admin?
+
+Quem consegue auditar? Não auditar?
+
+Será que alguém consegue ver essas mensagens lá?
+
+As pessoas que têm acesso àquele canal, são as
+
+mesmas devs que têm acesso ao repositório, que deveriam
+
+mesmo ver aquelas vulnerabilidades, ou ta cuspindo channel que
+
+está toda uma empresa inteira e a informação está
+
+lá, a aplicação está alta e a vulnerabilidade crítica,
+
+mas que ela injeta E aí você pô, peraí,
+
+tem alguma coisa lá casando, né?
+
+Uma outra pessoa deveria ter essa transformação, não
+
+todo mundo, Então veja, supertinho é tudo isso.
+
+Eu estou avaliando algumas soluções,
+
+por exemplo, de Secrets Camp. Né?
+
+Pra você, aliás, não tem secrets vazadas nas zonas
+
+dl, vamos chamar assim, no ciclo de desenvolvimento só.
+
+Então normalmente no código fonte, o
+
+cara chumba lá no código, né?
+
+Em termos de configuração e tudo mais.
+
+Esse é o principal risco, vamos chamar assim.
+
+Mas aí o cara desenvolvedor trocando ideia com o
+
+outro, lá no Slack, por exemplo, lá no Teams,
+
+lá no Discord arrumando o que quiser.
+
+O cara falou cara eu tô usando essa chave aqui da API
+
+para bater em tal API produção de dev, de uma loja que
+
+tu faz e joga a chave lá no chat é uma secret.
+
+É num chat privado entre as pessoas, mas
+
+a pessoa Tem acesso a 2 deveria ter?
+
+Ou está compartilhando de forma indevida?
+
+O 2 tem que usar a mesma chave?
+
+Tem que usar uma outra chave?
+
+Mas você fica sabendo essas coisas?
+
+Isso é supply chain?
+
+Especialmente se você é chefão de produção.
+
+Então como é que você tem esse tipo de controle?
+
+Só com SQL, que consegue entrar nesse tipo
+
+de solução sas por exemplo e validar.
+
+Não, então isso tem uma
+
+cicket aqui numa conversa privada.
+
+E aí tem várias questões de privacidade, inclusive, né?
+
+Você vai ficar lendo conversa dos seus, né?
+
+Do funcionário.
+
+Dependendo do ponto de vista, até pode, tá?
+
+Legalmente o aluno necessário que eu
+
+fiz forense, ou até pode, né?
+
+Porque a ferramenta ela é da empresa de propriedade
+
+da empresa de uso pra empresa então as pessoas
+
+estão falando ali não é segredo nenhum pra empresa.
+
+Então a empresa pode ter acesso
+
+a mensagem emails e tudo mais. Tá a empresa, tá?
+
+Você tá usando o seu gmail em particular e tal.
+
+E não, isso não pode.
+
+Se estiver fazendo é crime.
+
+Mas no Slack da empresa e no
+
+Teams, pode ter auditoria tranquila, normal.
+
+Então assim, E aí?
+
+Então quando a gente olha só, supply chain.
+
+Supply chain é tudo isso, cara.
+
+Então quando a gente fala de supply chain de
+
+verdade, eu quis jogar essa luz no episódio de
+
+hoje, Você está olhando para tudo isso?
+
+Você está preocupado com tudo isso?
+
+É claro que muita coisa aqui você
+
+pode chegar no nível de paranoia. Né? Esse exemplo, né?
+
+Eu preciso monitorar o Slack da galera, porque
+
+eles podem estar trocando chaves e segredos lá.
+
+Sim, podem.
+
+É risco pra você, precisa mesmo olhar num
+
+nível corporativo, talvez fazer scan de vez em
+
+quando varrer as mensagens e tal, buscando secrets.
+
+Você não vai ficar lendo a mensagem, né?
+
+Tem regex, tem scanners que fazem isso. É uma coisa.
+
+Ok, aceitável.
+
+Varrer sequent num pull request e reprovar se tiver uma sequent
+
+ali tem que estar no seu pipeline tem que estar no
+
+seu dia a dia isso se não está, já está errado.
+
+Então, isso é supletivo de verdade, gente.
+
+Esse episódio aqui 40, 40 e pouco minutinhos é
+
+para isto, jogar essa luz em Supply Chain, mas
+
+eu até coloquei o clickbait do título, né?
+
+Suply Chain de verdade.
+
+Porque o que estão fazendo aí, falando
+
+sobre o seu pai chain, é pedaço.
+
+Como é a maioria?
+
+Porque assim, é aquela história do pânico, né?
+
+Nossa, a galera já não corrige nem vulnerabilidade.
+
+Agora sublitinha.
+
+Agora não É a verdade, cara.
+
+É, doa quem não é.
+
+Você continua fumando o bebê usando
+
+drogas você não dura muito.
+
+Então para de fumar, para de beber, hoje tá hoje agora.
+
+Para de fumar pra eu, eu quero usar droga.
+
+Deve ser mais saudável, pelo menos pouco mais saudável.
+
+Aceite ou não, pode ser duro ou pode não.
+
+Inclusive esse dia eu vi aquele programa
+
+chamado Kills Mortais, que é tipo umas
+
+pessoas super gordas, super gordas.
+
+Se ela ficar na pesa 200 e 300 kg.
+
+Aquelas pessoas que não conseguem andar e tal, tal,
+
+tal, e aí eles iam médico nos Estados Unidos
+
+e o médico especialista vai parar lá.
+
+E lembro de uma mulher que ela tá,
+
+e o médico ele é super delicado, né?
+
+A pessoa tá lá, uma semana no hospital, eu não
+
+quero comer comida no hospital, me der ruim, você quer
+
+médico cheio e falar, você não tá comendo porque?
+
+Coisa, que tem carne, feijão, tudo
+
+coisa boa, nutritiva pra você.
+
+Por que você não está combinado?
+
+Porque você está aí trazendo pra ela as visitas, né?
+
+As coxinha, o bolinho, só tranqueira, né?
+
+E aí o médico fala cara, você não quer
+
+comer a comida, você não quer sarar, você não
+
+quer ficar bem, você quer continuar comendo suas tranqueiras,
+
+você quer o prazer da comida.
+
+Não quer se alimentar saudável.
+
+E se você ficar sem comer, você não vai
+
+morrer, você já acumulou comida por duas semanas.
+
+O médico fala desse jeito, tem
+
+esse episódio público por aí.
+
+Então a verdade de segurança, gente, é que tá todo
+
+mundo pisando em ovos pra falar com a galera.
+
+Olha só, agora tem que filtrar as
+
+vulnerabilidades, que é muito barulho, muito backlog.
+
+Sério?
+
+É?
+
+Muito barulho, backlog.
+
+Imagina você chegar no médico Cara, o
+
+seguinte, o médico te examinou, você está
+
+com câncer, você vai morrer daqui a
+
+6
+
+meses.
+
+Essa é a real, beleza?
+
+A médica fala pra você, cara, é
+
+o seguinte, você está bem, tá? Não se preocupa.
+
+Quando eu fui as suas férias há três anos,
+
+cara, tinha umas férias, você precisa descansar até estressado.
+
+Tá?
+
+Tira umas férias já descansar agora.
+
+Isso não é pra onde você quer ir?
+
+Na Bahia, Europa, osasco.
+
+Tira umas férias.
+
+Vai passear tranquilo.
+
+Quando você voltar nessas férias a gente
+
+vai Pode ser que você perca peso.
+
+Pô, é normal, pode se alimentar bem lá, come bastante.
+
+Antes, não precisa se preocupar com dieta, e
+
+aí tira umas férias de 30 dias.
+
+Quando você voltar, a gente vai fazer exame, né?
+
+De acompanhamento, aí você vai com as
+
+férias, Mas só pra você morrer, né?
+
+Então ele tá te inclusivo, a cara
+
+faz você querer ter feito até agora.
+
+Você já passou elas voltam.
+
+Pô, cara, que legal.
+
+Você perdeu pouco de peso,
+
+comeu bem, gostou das férias? Gostei.
+
+Cara, o seguinte, agora você já
+
+tem cinco meses de vida.
+
+Você tá com câncer, ele vai morrer cinco meses de vida.
+
+É o mais que falar pra você assim.
+
+Seguinte, você tá bem, né?
+
+Que bom que você curtiu a série, essa tal,
+
+Faz o seguinte, fica com as pessoas que você
+
+gosta, o médico vai ser humano, né?
+
+Até ele falar assim, daqui cinco meses
+
+a gente faz exame de acompanhamento. Beleza?
+
+Pode ser assim, importa.
+
+Aí você volta aqui cinco meses.
+
+Se você voltar, ainda tem, aí te
+
+dá uma notícia daqui cinco meses.
+
+Não seria melhor ter falado antes?
+
+Nesse caso, você vai morrer daqui 6 meses.
+
+Não era melhor ter falado antes, cara?
+
+Já era, tem o que fazer.
+
+No pior, no melhor dos cenários, uma cirurgia aqui para
+
+ficar mais seis meses, ou realmente não tem jeito, não
+
+é só milagre para você que acredita, tal, tal, tal.
+
+Ou, esse é exemplo, ou outro exemplo, chega lá,
+
+você tá ruim, o médico fala cara, é o
+
+seguinte, você que para de fumar hoje, para de
+
+comer hoje, bebida esquece, dieta restrita, Porque senão você
+
+vai ter uma cirrose, você vai ter uma gastrite.
+
+Qualquer problema sério.
+
+Se ele não for te falar real, e te
+
+dá a receita, o que você tem que fazer?
+
+O risco total, a primeira é uma responsabilidade dele.
+
+Segundo que é risco, ele tá pondo
+
+em risco a sua vida, né?
+
+No Sistemacticket, é tipo uma profissão dele.
+
+Então quando eu vejo, eu sou cara de apliques
+
+isso aqui, então quando eu vejo problemas na aplicação,
+
+se você tem 10 anos na verdade, ou 10
+
+mil anos na verdade, Eu não me interessa.
+
+Não me interessa.
+
+Eu tenho que te falar isso.
+
+Cara, você tem 10 mil problemas.
+
+Como você vai resolvêlos que é problema seu?
+
+Aí a gente pode discutir processos, filtrar, usar AI
+
+para corrigir automático, agrupar, fazer revisão de falso positivo,
+
+mas vamos lá, tem 10 mil True Positive.
+
+Você tem que ter essa logística,
+
+você tem que receber isso.
+
+Não dá pra ficar mascarando, brincando.
+
+Ah, eu ia mais viscando.
+
+Ah, mas aí o backlog é grande,
+
+aí o Dev não quer corrigir.
+
+É o erro dizer para o médico, mas se você vai no
+
+médico e o médico não quer te falar se você tá com
+
+problema sério continua aí fazendo o que ele tá fazendo.
+
+É responsabilidade dele, eu não posso no meu podcast
+
+e como profissional, eu não posso fazer isso.
+
+Então, pra você que está ouvindo até aqui, que
+
+é profissional de segurança, para de pisar em ovo.
+
+Especialmente com o desenvolvedor, com
+
+a empresa que você trabalha.
+
+Pare de pisar em ovinho, joga.
+
+Cara, o seu problema é esse.
+
+Você tem 10 problemas.
+
+Ah, eu não tenho braço, vamos corrigir Legal, vamos
+
+corrigir Te ajudo a selecionar o mais crítico, te
+
+ajudo a direcionar do guideline aqui, mas você tem
+
+10 problemas, não tem só Nos outros 9, quando
+
+é que a gente vai ver amanhã, depois de
+
+amanhã, beleza, mas você tem que estar interessado.
+
+Parem de pisar em ovos com segurança.
+
+Segurança é segurança.
+
+Segurança não é brincadeira.
+
+Fosse brincadeira não era segurança, e aí
+
+a gente podia brincar, mas não dá.
+
+45
+
+de episódio cravado, Esse foi o episódio
+
+22, gente, da quarta temporada do DevSacops.com.segurança.
+
+Tecnologia. DevSacops.
+
+Sou o Cássio Pereira, eu convido você a participar
+
+de mais episódio da Microsoft Podcast na semana que
+
+vem, onde a gente vai falar sobre não interessa
+
+o que a gente vai falar você vai descobrir
+
+na semana que vem tem recadinho bacana aqui agora
+
+que é o seguinte se você não sabe ainda
+
+esse projeto você precisa saber é o OnlySect Fans.
+
+Não confunde o nome OnlySect Fans.
+
+OnlySect é só para fãs
+
+de segurança on w.instituciones.com.br.
+
+É o único.
+
+Logo, é o maior e melhor, porque é o único.
+
+Clube de assinatura de conteúdo de Application Security na
+
+verdade tem que saber se aquilo de uma maneira
+
+geral com foco em Application Security tá é o
+
+projeto pessoal você paga uma assinatura mensal de apenas
+
+R$ 2990 no plano anual e você tem acesso
+
+a cara é muita coisa mas muita coisa.
+
+É mentoria ao vivo direto comigo uma vez por mês.
+
+É apsek news pra você saber das últimas notícias.
+
+É caderno de ativação, ou vamos chamar
+
+de livro sobre tema específico toda semana.
+
+Toda semana você tem uma comunidade exclusiva para
+
+trocar ideia com profissionais da área é fazer
+
+networking é muita coisa gente on e secfense.
+
+Assina agora, assinar agora é
+
+2990
+
+por mês.
+
+Mas é mais barato que uma pizza por mês.
+
+Uma pizza, uma pizza tem que ter
+
+conta, vai, é barato ter pizza.
+
+Por mês, se você come pizza toda semana eu estou ligado,
+
+então assina, já tem a fita estubado de conteúdo já.
+
+Já tem uma galera tão curtinha,
+
+no feedback é super positivo.
+
+Você tem cards cômicos, inclusive, para guardar
+
+no bolso, sabe aqueles guias escritos, como
+
+é que faz aquela coisa?
+
+Não tá ali, rápido, lindo e duro, você pode baixar.
+
+Não compartilha, né?
+
+Porque tem direitos autorais, mas 2990
+
+por mês no plano anual.
+
+Entra agora para o OnlySacFans. Beleza?
+
+É projeto pessoal. Você vai curtir.
+
+Se você não curtir, 7 dias de graça você pode
+
+testar 7 dias de graça vê tudo que tá lá
+
+por 7 dias não gostei caso sai fora cancela a
+
+assinatura tá tudo certo gostou adorou fica beleza infinito conteúdo
+
+que a ideia que seja projeto contínuo mesmo então toda
+
+semana toda semana, você tem três conteúdos novos, né?
+
+O apseknews, o card e o cada de
+
+animação, o livro, a revista, vamos chamar assim.
+
+Com tema diferente, toda semana
+
+tem tema diferente, beleza?
+
+Então já entra, faz o TG7 disso, se
+
+você gostar continua, se você não gostar sai
+
+fora, mas entre agora para o OnlySectfans.com.br.
+
+Te vejo no próximo episódio.
+
+Termina aqui, deve ser copos, deve ser copos,
+
+o seu podcast de segurança em tecnologia.
+
