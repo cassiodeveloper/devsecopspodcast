@@ -1,0 +1,2636 @@
+E novo a sua segurança! Tecnologia! Essa envolvimento!
+
+Começa aqui!
+
+Deve ser cócegas!
+
+O seu podcast de segurança em tecnologia.
+
+Fala, jovens do meu Brasil, Brené Neo!
+
+Estamos aqui para mais episódio do
+
+Deve ser Call of Duty Cash.
+
+É Highlander, esse podcast.
+
+Já passou por tudo e por todas, não acaba.
+
+Toma aqui filme forte e olha que episódio especial.
+
+Estamos com o elenco reunido aqui.
+
+Parece a Seleção Brasileira de 2002, que toda
+
+a gente muda a convocação de Nova.
+
+Tá aqui, ó, Pelé, Romário, todo mundo junto, Romário.
+
+Ele tomou mal daqui, mesmo fez.
+
+Isso é verdade, isso é verdade.
+
+Bom, eu sou a Maradona.
+
+Eu sou o Cássio Pereira.
+
+Eu sou o Marcos Santos.
+
+E eu sou o Rodrigo Balbinho.
+
+Muito bom, muito bom, muito bom,
+
+muito bom, muito bom, todos juntos.
+
+Apesar do os horários, mas faz parte da vida, né cara?
+
+Quinze filhos pra criar agora, a vida vai mudando, o
+
+que importa é que estamos todos reunidos aqui pra falar
+
+de uma assunto bacana, antes de falar do assunto bacana,
+
+lembrar que eu deve ser composta de questões de apoio
+
+da Checkmats e da nova 8, que são especializadas em
+
+segurança sistema de código seguro, o link da nova 8
+
+que é a distribuidora da Checkmans no Brasil, está abaixo
+
+a descrição do episódio no YouTube ou no nosso site
+
+deve ser crosspodcast.com.br.
+
+Se você está buscando soluções de apps secundários,
+
+soluções de apps de SQL de geral, a
+
+DigitalOpe tem portfólio completo para você.
+
+Fale com os caras da DigitalOpe que eles têm qualquer
+
+solução que você imaginar para a API de securities.
+
+Até o que você nem conhece, tem lá.
+
+E você precisa de serviços especializados em API os
+
+securities, como é que é desenvolver software seguro, desenvolver
+
+processos etc, fale com o pessoal da Gold securities
+
+que eles vão te ajudar também, beleza?
+
+Quer arrumar vaga, quer arrumar trampo, quer não
+
+ser a sua vaga num preço camaradíssimo, épsec.jops,
+
+que é projeto que tá rolando, e tem
+
+feito sucesso nenhum, na verdade.
+
+Eu ia falar que tá fazendo o nosso sucesso, mas não tá.
+
+Não sei se tem muito sucesso os acessos da publicidade.
+
+Tem dois jogos publicados lá, mas enfim, a pessoa
+
+tem que eu não sei a vaga, né?
+
+Enfim, Vamos lá pessoal, vamos fazer rodar.
+
+Episódio de hoje, seus putos, a gente ia falar
+
+sobre o mundo real, o que acontece na realidade?
+
+Quando a gente fala de Application Security, né?
+
+Como essa empresa está aplicando.
+
+E o mundo ideal, como é que deveria
+
+ser, ou como a gente imagina, do ponto
+
+de vista profissional, como as coisas deveriam ser.
+
+E vamos ter, de repente, até alguns embates aqui,
+
+porque eu tenho uma visão, talvez, minha polêmica com
+
+relação a isso, não deveria ter separação.
+
+O ideal sempre deveria ser buscado, mas a galera vem.
+
+Enfim, vamos discorrer no episódio.
+
+Que é tema trago, trazido, ou trago trazido, né?
+
+Pelo nosso querido Rodrigo Balbino, como ele bem
+
+disse, tá pesando igual Ronaldo Gur, Mas pode
+
+começar, mano, quer falar alguma coisa?
+
+Quer alguma coisa na cabeça? Quer introduzir?
+
+O que eu tenho é primeiro falar do Dudu, do tema, né?
+
+Porque o tema eu acho que é bem importante,
+
+porque a gente sempre fica puto quando fala de
+
+segurança, porque a gente sempre imagina o mundo ideal
+
+Cara, é simples começar a fazer implantação de segurança.
+
+E é barato, você não precisa gastar muito pra
+
+fazer, você consegue fazer de graça e tudo mais.
+
+E a gente vê visão de CEC.
+
+É muito claro o caminho para tornar isso o possível.
+
+Só que quando a gente fala de implantar dentro de
+
+uma empresa, a gente vê a dificuldade que é.
+
+Então às vezes é uma pessoa que tá empolgado
+
+pra fazer isso, às vezes a gente precisa fazer
+
+por conta de compliance, mas as coisas não funcionam.
+
+Então, acho que é bom trazer esse
+
+tempo pra gente debater justamente isso. Tá, beleza.
+
+O que eu consigo fazer?
+
+O que é o cara tá tremendo e tá tendo terremoto aí?
+
+Não, não tinha solado aqui, pô, fica tranquilo.
+
+Aqui é assim aconteceu numa roupa, né?
+
+De repente, se errou aqui na Europa, né?
+
+Vai que, né?
+
+Então, avisa essa.
+
+O que a gente consegue fazer de fato
+
+e o que a gente deveria fazer?
+
+Então, acho que a gente pode começar
+
+a brincar falando de como a gente
+
+começaria processo ideal de Application Security.
+
+Qual que seria o primeiro passo?
+
+Você consegue imaginar ponto ideal, cara, eu começo por
+
+aqui e o meu processo vai ser lindo maravilhoso.
+
+No mundo ideal.
+
+Eu acho que o modelagem é mescar.
+
+Eu ia falar de modelagem, mas eu acho que ela
+
+entra talvez no segundo o segundo estepe ali o primeiro
+
+estepe é você olhar para o seu negócio seu business
+
+né você que eu digo a empresa nem aí envolve
+
+todo mundo nesse ciclo olhar pra sua empresa Cara, eu
+
+preciso estar compliance com alguma coisa?
+
+PCI, é banco, é o Banco
+
+Central, sei lá, qualquer coisa.
+
+Não, não preciso, beleza?
+
+Esse é caminho que você vai
+
+ter que fazer por sua conta.
+
+Você vai definir as coisas que você precisa.
+
+De acordo com o que você acha que você deve
+
+proteger ou nível de segurança que você quer ter.
+
+Pode ser nenhum.
+
+O negócio é seu, o risco é seu.
+
+Agora quando você tem que estar compliance já te dá o
+
+dia que é meio caminho andado porque você já pode fazer
+
+o que o compliance pede já vai ser É o mesmo
+
+que seja o mínimo, mas já é alguma coisa.
+
+Por que na minha cabeça esse é o primeiro passo?
+
+Porque quando a gente fala de requisitos de segurança.
+
+Então se você vai abrir banco digital novo,
+
+você sabe que vai ter que seguir as
+
+regras do Banco Central, por exemplo.
+
+E talvez outra instituição financeira, outro órgão, mas
+
+até onde eu sei o Banco Central.
+
+Talvez o IPCA, se você for passar
+
+cartão de crédito, esse tipo de coisa.
+
+Então você, cara, lê o IPCA e faz
+
+o que tá lá, pronto e acabou.
+
+Leo a LGPD, faz o tá lá, pronto, acabou. Já é o mínimo.
+
+Você já tem o guia.
+
+Putz, o que eu tenho que fazer? Cara, faz isso.
+
+Faz esse compliance aqui, segue essa
+
+norma aqui, já é bom norte.
+
+Então o começo é você já ter
+
+quais são os seus parâmetros de segurança.
+
+Se você não tem
+
+Será que só seria parço pouquinho antes?
+
+Então, a minha visão se você não tem isso, se eu
+
+não tenho que seguir em norma nenhum, eu estou criando aqui
+
+minha startup, eu faço o que eu quiser, beleza?
+
+Você como dono do negócio vai tomar essa decisão de
+
+fazer jeito que você quer e E o jeito que
+
+você quer pode ser, cara, porque é uma segurança nenhuma.
+
+Eu vou codar a pôr no ar e tá tudo certo. É o seu risco.
+
+É você que assume isso.
+
+Não é agente de segurança falar
+
+ah, tem que estar seguro não.
+
+Agora, a partir do momento que o negócio
+
+entende, contratou pessoas de segurança, já é uma
+
+empresa mais estabelecida, aquela coisa toda.
+
+Mas ela não tem guia nenhum pra ser seguido, defina
+
+o próprio guia com base no seu próprio negócio.
+
+Cara, o que eu tenho que proteger aqui?
+
+Ah, eu lidou com dados de pessoas.
+
+Então eu não tenho que ter, sei lá, no LGPD da
+
+vida, eu tenho que fazer o que tá ali pelo menos.
+
+Ou não é dado de pessoa, é transação financeira.
+
+Assim, você tem o olhar para o seu negócio
+
+e definir parâmetros de segurança que você é aceitável.
+
+O exemplo clássico que eu sempre falo é a casa.
+
+Quando você olha pra sua casa hoje, você tá
+
+satisfeito com a segurança dela, você tem cerca elétrica,
+
+você tem alarme, você tem cachorro, você tem porta
+
+biométrica, você tem cerca elétrica, você tem portão automático,
+
+você tem o guardinha na rua 24 horas. Depende.
+
+Você pode ter tudo isso.
+
+Depende dos ativos que você tem na sua casa.
+
+Ou você pode não ter produtos que você
+
+não tem dinheiro, mas você sabe que você
+
+tem ativos que você precisa proteger lá dentro.
+
+Então é mais ou menos essa analogia.
+
+Então a minha visão é, onde começar é?
+
+Olha para os seus ativos, o que você quer proteger
+
+e define baseline, vamos chamar assim, e faz, entendeu?
+
+Eu ia traduzir isso tudo que você falou Inclusive,
+
+a primeira pergunta de acessment quando você faz usando
+
+o framework da WASP, por exemplo, que é a
+
+empresa sabe o apetite que tem isso de segurança,
+
+Então, é entender isso, é muito comum com isso,
+
+é engraçado essa pergunta em inglês até,
+
+o apetite de risco que eles usam.
+
+Eu tô passando fome com esse apetite.
+
+Eu acho que você fez uma
+
+analogia interessante até da casa.
+
+Por exemplo quando a gente fala que quando
+
+você cria projeto de uma casa todo o
+
+arquiteto todo você não precisa de específico.
+
+Ele vai colocar a porta, Ele
+
+vai colocar lá janela, porta.
+
+E por que ele vai ficar vão aberto?
+
+Por conta da segurança? Então,
+
+todas fechadas de uma vez.
+
+É, eu tô fechado, né?
+
+Não roda aí.
+
+Mas isso deveria acontecer com a nossa
+
+segurança porque fala de aplicação também.
+
+Quando se fala em desenvolvimento, quando se fala em input,
+
+por exemplo, de usuário, não precisa de 20 figuras a
+
+falar para o cara que tem que ter a segurança
+
+ali, que tem que ter tratamento de dados.
+
+O cara já tem que sentir, tem que olhar
+
+aquilo e falar cara, isso daqui é básico.
+
+Se você perguntar para o arquiteto, por que ele colocou a
+
+porta ali, o cara vai achar que isso é imbecil, né?
+
+Como assim?
+
+A
+
+porta em casa, né?
+
+Vou fazer parêntese aí.
+
+Antes de eu fazer o parêntese.
+
+Marcos, quer comentar?
+
+Não.
+
+Vocês falaram, basicamente, eu ia reformular ali,
+
+porque o que você falou, cara.
+
+Eu ia começar com a
+
+modelagem ameaça pra minha personagem.
+
+Mas traga essa visão da modelagem, porque
+
+acho que a modelagem é super importante.
+
+Aliás, ela pode ser até o primeiro passo
+
+O problema é que eu acho que a
+
+modelagem não tem maturidade pra alguém fazer.
+
+Isso garante
+
+segurança, já foi pouco.
+
+Sem nenhuma premissa, como você vai trazer a modelagem?
+
+Você tem que ter uma premissa
+
+ali do que você vai proteger.
+
+Então acho que é aí que entra tanto o acesso
+
+mesmo da WASP ou saber se vai ser PCA e
+
+complexo da vida que vai seguir, mas você precisa ter
+
+uma base inicial para poder começar a fazer uma modelagem.
+
+Óbvio, tem coisa que é óbvio
+
+ali que você tem que fazer.
+
+Pô, criptografar banco de dados.
+
+Isso é meio óbvio.
+
+Não precisa de acesso, mas não precisa de compliance.
+
+É o que eu vou fazer.
+
+Eu tenho outros vizinhos.
+
+Eu dei uma palestra desses tempos
+
+falando de modelagem ameaças e tal.
+
+E usando uma abordagem de não necessariamente você
+
+pegar framework e fazer uma modelagem ameaça corretamente,
+
+mas você fazer ela até no nível anterior,
+
+você tem uma lista de requisitos.
+
+É a primeira coisa que você tem na
+
+sua matéria prima do software, lista de requisitos.
+
+Precisa de uma tela de login, precisa
+
+cadastrar o usuário, precisa acessar a tela,
+
+você tem uma lista de requisitos.
+
+Com essa lista, consegue sentar na sala
+
+com duas ou três pessoas e fazer
+
+brainstorming no formato de modelagem ameaça.
+
+Putz cara, mas eu tenho aqui o dado do cliente, né?
+
+Tem CPF e depois isso aqui deve ser criptografado.
+
+Ou vai ter usuário que
+
+precisa identificar, precisa estar criptografado.
+
+Como que você tá falando, precisa proteger esses
+
+dados, ela precisa nem falar criptografia, mas ela
+
+precisa, sabe, não precisa proteger esses dados chegar
+
+num nível de entender aquilo nem que seja
+
+uma grande história, porque dali vão derivar requisitos
+
+de segurança que serão implementados.
+
+Acho que assim,
+
+como tem requisitos de arquitetura, né?
+
+Eu preciso que esses dados sejam muito rápidos, eles
+
+têm que chegar numa velocidade negócio para o cliente.
+
+Então é aí que você começa, quando você está
+
+levantando os requisitos, quando você está desenhando, quando você
+
+está planejando, já deve se acontecer isso, né?
+
+Já deve se pensar em segurança.
+
+A história do arquiteto que você falou, A
+
+casa tem uma altura e dependendo da altura
+
+da casa tem uma fundação na mesma proporção.
+
+Para segurar a casa.
+
+Se você ficar no nível do chão, ela cai.
+
+E é negócio, ninguém pede.
+
+Você vai construir essa casa e não fala
+
+de arquiteto, ó, precisa ter X de
+
+arquiteto, só com segredo, pensa.
+
+É, você precisa ter X de furação porque
+
+tem três andares na caçamba, fala isso.
+
+Você pede a casa e já vai acontecer.
+
+No software não, no software Putz cara,
+
+mas o dado tinha que estar protegido,
+
+hein, bus, mas tinha que fotografar. Ah, mas ele
+
+não falou.
+
+Então, a
+
+união não falou, né?
+
+Essa é a treta, entendeu?
+
+Então, será que não seria até primeiro
+
+passo, não seria educação antes de tudo?
+
+Aí que moram no jump of the cat.
+
+É treinamento ali, alguma coisa para estruturar justamente
+
+trazer essa visão para os desenvolvedores ou para
+
+quem vai construir o software arquiteto que precisa
+
+ter essa visão de segurança independente do que
+
+for ser seguido pela empresa
+
+Esse aí não está errado.
+
+Exatamente isso.
+
+Mas a gente vai entrar naquela discussão filosófica,
+
+porque assim, Male mal, o cara é treinado
+
+pra ser bom desenvolvedor hoje em dia.
+
+Ele abre em qualquer site, abre e faz
+
+lá, faz Hello World em qualquer linguagem, tem
+
+várias ferramentas ensinando, é muito prático isso.
+
+E sai fazendo software.
+
+Não necessariamente tem as práticas de
+
+segurança, não necessariamente aprende as próprias
+
+práticas de desenvolvimento de software.
+
+Cara, foi desenvolvedor por uns cinco, seis anos.
+
+Codava, fazia site, fazia monte de coisa.
+
+Depois que fui aprender sobre Solid, conceito de arquitetura,
+
+de software, Design Patterns, Sempre ouvi falar, mas não,
+
+isso é muito treino, depois eu vejo.
+
+Então assim, eu fui aprender essa
+
+arquiteta de software, entender, codificado melhor.
+
+Lá, depois de cinco, seis anos que eu já acordava.
+
+Eu tinha monte de código merda ou
+
+não tão bom rodando em produção.
+
+Então assim, a formação e a formação que eu tive
+
+na faculdade, eu ouvi falar de de ouvir falar de
+
+padrão de arquitetura, eu fui ver melhor ainda na pósgraduação.
+
+Mas a faculdade formou assim, mano,
+
+o que você conecta no banco?
+
+O que você pega informação?
+
+O que você joga informação?
+
+Vai pro mercado trabalhar. Ponto.
+
+Então assim, você tá falando não tá errado,
+
+é exatamente isso, é a educação, mano.
+
+Mas como é que você vai formar toda
+
+uma base acrescentar horas e horas em cursos,
+
+ou pior, é aquela história da regulamentação, não
+
+é muito difícil atingir esse nível.
+
+É muito difícil.
+
+Por exemplo, como é que você
+
+pega carro e sai dirigindo?
+
+Legalmente, você precisa passar pro processo,
+
+tira a sua carta de motorista.
+
+Tem que fazer exame, psicotécnico, aí você vai passar
+
+na prova, no processo certo é esse, aí você
+
+pô, agora você está habilitado, órgão reconheceu que você
+
+fez o processo, passou na prova, blá blá blá.
+
+Como é que você tá habilitado pra ser dev hoje?
+
+Qualquer faz, mano?
+
+Ter lado muito bom disso, e ter lado horrível disso,
+
+que é o que a gente tá discutindo aqui de
+
+segurança, então pra chegar nesse nível, por isso que eu
+
+sou meio advogado de abro essa parada, porque Esse exato
+
+é o Esse é caminho, olha, educa a galera, faz
+
+treinamento, segue a base, mas não vai ser assim.
+
+É impossível chegar nesse nível, né?
+
+Aí entra talvez isso
+
+porque a área é teórica não, mas é relativamente nova.
+
+Então, Ela surgiu aí nos últimos
+
+anos, em toda uma área.
+
+Ainda não existe uma cultura de qualidade, não está
+
+as coisas não são bem estruturadas para esse lado.
+
+Então muitas pessoas aprendem de forma autodidata, outras
+
+fazem curso para conseguir entrar na área outros
+
+usam aqueles cursos que você vê aí de
+
+do 0 ao Hero em uma semana. E daí? A minha paquera
+
+é prejuízo. É.
+
+Raquel, ok, eu sei o que eu vou dizer isso.
+
+Então o que a gente vê
+
+é uma má formação de profissionais.
+
+Aí acaba causando todo esse todo esse tumulto.
+
+Bem, vamos aproveitar até
+
+Vai que estão com comentário, é
+
+a mesma coisa ou outro tópico.
+
+Não, não, é comentáriozinho também.
+
+A gente está falando tudo, só que assim, a
+
+disseminação da área de segurança é relativamente nova.
+
+Tem que parar pra pensar pra esse lado.
+
+Há desenvolvimento, no entanto, que surgiu ali já mais
+
+de 10, 15 anos o pessoal já faz o
+
+movimento, mas segurança em si, Pelo menos que eu
+
+estou vendo fortemente, tenho 5 anos aí.
+
+Cibersegurança, né?
+
+Cibersegurança. Cibersegurança.
+
+Porque lá na época dos castello já tinha poço,
+
+então Era poço pra podilo, pra fazer o cara
+
+Era segurança física, do cara não invadiu o castelo.
+
+Era poço. Era poço. Era poço.
+
+Era poço. Era poço. Era segurança.
+
+Você tinha área de segurança e informação nas
+
+empresas, mas não tão focada em software.
+
+Não era tão focada nessa parte
+
+de segurança, não é focado legal.
+
+Cara pra não compliance, preciso cara
+
+pra criar medidas de segurança.
+
+Mas você não tinha cara de
+
+saber segurança ali, que olhava código.
+
+Segue no geral.
+
+Boa, é relativamente nova também.
+
+Vocês comparando com o desenvolvimento da tela, dor no coração
+
+aqui, porque é só você pensar, né, quanto de desenvolvimento,
+
+quanto de software ruim que a gente vê, né, você
+
+abre o código lá, tem Não, mano.
+
+Quando o software ruim a gente não entregou.
+
+A gente não entregou.
+
+Foi, deve, eu fui, deve muito.
+
+Eu sempre gostei de segurança.
+
+Mas eu fui entender mesmo, vamos lá pra frente, mano.
+
+Já tinha visto.
+
+Fui ver até hoje, tem coisa minha rodando
+
+por aí e vou fazer 6 Point agora.
+
+Comecei a fazer algo.
+
+Beleza, tecnologia.
+
+Deve ser copys.
+
+Mano, vamos fazer a comparação agora com se bem
+
+que a gente até começou a trazer para o
+
+mundo real falando do que causa isso, que seria
+
+má formação, por exemplo, é dos pontos.
+
+Mas Por que é tão diferente uma empresa ter
+
+segurança de mundo ideal para o mundo real?
+
+Por exemplo, vamos pegar qualquer exemplo, uma empresa.
+
+Quando que ela começa a pensar em segurança?
+
+Pega uma empresa de varejo aí, por exemplo, ela começa
+
+a desenvolver, começa a gerar lucro, começa a crescer, aí
+
+quando ela está fortemente no mercado, aí sim que ela
+
+vai atrás de começa a fazer transformação digital, porque até
+
+então é tudo no papel, é tudo com as pessoas,
+
+Quando que deveria entrar a segurança nesse caso?
+
+Vou até filosofar aqui agora.
+
+E aí defendendo pouco esse lado, e
+
+no contra que a gente fala aqui.
+
+Eu vi post esse tempo atrás,
+
+não lembro de quem, mas enfim.
+
+E ela falava o seguinte era uma mina ela
+
+falava o seguinte a humanidade a humanidade nós como
+
+humanos sempre corremos riscos sabendo desses riscos.
+
+Aí o exemplo que ela usou foi, a gente que eu
+
+digo, o homem não é homem, só pra sair pra caçar.
+
+Né, mamute, bicho que fosse lá atrás.
+
+Mano, a probabilidade do cara morrer, só
+
+pra ter o almoço, era muito grande. Entende isso?
+
+Mano, você tem que sair da sua
+
+caverninha, largar o cabelo da mulher porque
+
+eu acho que ela arrastava o cabelo.
+
+Pegar o porrete e matar bicho, provavelmente é
+
+10 vezes na frente que você, aí vai
+
+5, 6 caras, juntava pra matar esse bicho,
+
+podendo não voltar só pra você poder comer.
+
+Então naturalmente a humanidade take risk naturalmente a humanidade
+
+corre risco por vários aspectos e a nossa vida
+
+até hoje tem várias dessas dessas testões.
+
+Você encontra alguém no Tinder e você
+
+vai para o Osasco encontrar pessoas.
+
+Você está correndo puta risco. É naturalmente.
+
+Nossa Senhora, que é
+
+contra a cidade, mas são fatos. Né?
+
+O Mauá, por exemplo, onde eu morava, enfim.
+
+Então quando a gente fala, esse ponto que você
+
+trocou, o Rodrigo tocou agora, quando você fala de
+
+cima, quando você fala de cima,
+
+quando fala de segurança de maneira geral as empresas
+
+estão dispostas a correr esse risco porque vale mais
+
+para o cara o negócio dele rodando faturando, trazendo
+
+dinheiro e depois ele putz, agora eu preciso criptografar.
+
+Puts, agora eu preciso expor uma autenticação. Sabe?
+
+É mais fácil ele fazer depois porque
+
+ele já fez o negócio rodar.
+
+É a história do Mano, eu preciso
+
+sair pra caçar ou eu caço. Como?
+
+E em segundo o próximo dia, eu vou morrer de
+
+fome, então eu vou morrer na caçada, dá na mesma.
+
+A morte já é certa entre astros ali.
+
+Então pra cibersegurança, mano, é o mesmo.
+
+Eu diria que é o mesmo cenário.
+
+As empresas precisam caçar, clientes precisam faturar, o mercado é
+
+assim, as coisas funcionam assim, e elas vão, esse risco
+
+ele é aceitável, acho que a gente talvez talvez do
+
+ponto de vista de segurança temos que ser mais flexível
+
+com relação a isso exceto se a empresa te contratou
+
+pra fazer o seu problema.
+
+A gente tá com problema, a gente
+
+não quer assim, precisa ter segurança.
+
+E aí a galera começa a ficar relutante.
+
+Ah, mas tá fazendo isso com o meu código.
+
+Ah, mas minha pipeline tá demorando.
+
+Aí, mano, aí eu que digo, eu só vi
+
+funcionar a segurança nesses contextos com desktop down.
+
+Mas o CEO do banco, banco central é norma, e
+
+normalmente foi banco que eu trabalhei, não vai fazer deploy
+
+se não tiver scan, quem não vai subir. Acabou.
+
+Você vai perder a janela e o projeto vai atrasar.
+
+Não me interessa. Vai subir.
+
+Por isso que é interessante até responder
+
+essa primeira pergunta, qual que é o
+
+apetite da empresa quanto à risco?
+
+Porque Isso vai definir como que você
+
+vai trabalhar ali para fazer a implantação.
+
+Porque se a empresa não está nem aí,
+
+você vai dar muito em conta de faca. Exato.
+
+Bater nenhum, aí você vai pedir apoio, aí o
+
+cara que deveria te dar Cara, você tá me
+
+atrapalhando e não vai pra lugar nenhum.
+
+Então se você tem isso, se você foi contratado
+
+via top down mesmo, a alta diretoria quer implantar
+
+segurança, quer fazer rodar, aí funciona ou o contrário
+
+né só que daí assim toda toda a área
+
+precisa de suporte eles falam que precisa de alguém
+
+para conseguir argumentar para frente.
+
+E funciona também.
+
+Sobre daí você tem toda a base te apoiando.
+
+Eu vou implementar isso daqui,
+
+vamos levar resultado pra isso.
+
+E eu vou dar uma cutucada ainda mais profunda,
+
+agora é pouco contra o que eu falei.
+
+Antes, pouco antes, com o Marcos falou cinco, seis
+
+anos aí, talvez, pra você não ser mensurar, mas
+
+você tinha meio que a segurança como bloqueio.
+
+Tipo, vai fazer a esquerda do
+
+código, não passou, bloqueia, volta.
+
+Hoje em dia tanta ferramenta no mercado,
+
+o próprio checkman quer dizer que é
+
+patrocinador, a gente tá sempre falando disso.
+
+O processo de você ter segurança,
+
+ele está junto no seu desenvolvimento.
+
+Do mesmo jeito que você tem sprint, vai passar dia
+
+ele fazendo uma task, uma história, uma feature, não muda
+
+nada, é praticamente transparente, os scans estão acontecendo, os testes
+
+de segurança estão rodando e se você só tem o
+
+resultado disso, disso corrige se quiser sabe prioriza então a
+
+segurança vai deixar de ser bloqueio para fazer parte do
+
+dia a dia Esse pra mim é o inaceitável quando
+
+o leigo fala que não vai fazer, que não quero.
+
+Ah, mas diz que eu demoro, mas o pipeline demora.
+
+Tá bom, então tira a catraca do prédio,
+
+então tira a biometria da a casa, tira
+
+a chave, demora pra abrir a porta.
+
+Até sempre dá duas voltas na chave, demora.
+
+Tira a chave, dá sempre.
+
+É algum ponto de vista.
+
+Maquiagem enquanto você tá rolando.
+
+Então, melhor deixar sem porta, você entra direto. Tá?
+
+Então assim, as pessoas parecem não tão
+
+preparadas, elas estão preparadas, mas parece que
+
+não aceita essa perda quando encaixa a
+
+segurança em algum lugar, tipo, coisa catraca.
+
+Putz, agora tem que passar o crachá e entrar catraca.
+
+Sim, mas o benefício disso é grande,
+
+do que deixar sem catraca, por exemplo.
+
+Então, quando eu estudei tanta ferramenta prática no
+
+processo de introduzir a prequel de security, de
+
+uma forma smoothie, suave, transparente, você vai estar
+
+fazendo esse camteto, aquela coisa toda, mas
+
+você vai perdendo o portugues. Ah, toma,
+
+faz o que eu tô, vamos falar para a professora.
+
+Faz efeito, a gente sempre entenderam, né?
+
+Então, hoje pra mim é inaceitável esse ponto, porque
+
+dá pra fazer, de várias formas, Acho que você
+
+até começou falando sobre isso, de graça, com ferramenta
+
+paga, não paga, enfim, dá pra fazer.
+
+A negligência é o que me sonhar energia de vida.
+
+Muito legal, né?
+
+As implicações que vocês deram, aparecer uma
+
+coisa que fica muito claro pra gente.
+
+Que é maturidade.
+
+Então quando você não tem maturidade, você não
+
+vai conseguir negociar, você não vai conseguir fazer
+
+uma implementação de segurança, porque ou é 01,
+
+ou funciona ou não funciona, ou bate em
+
+todo mundo, trava, pipeline e não bate.
+
+E no final das contas você precisa disso você
+
+precisa desse jogo de cintura você precisa trazer transparência
+
+para o processo para você não parar a empresa.
+
+Porque quando cara reclama que você atrasou a parte
+
+do IMD por 10 minutos, Depende do negócio, cara.
+
+Às vezes, o negócio precisa dessa velocidade.
+
+Isso, exatamente.
+
+Você tá boa, cara.
+
+Tá reclamando, porque parou 10
+
+minutos ali da esteira dele. Depende. Depende aí.
+
+Será que era uma feature?
+
+Será que a concorrência tem a velocidade maior do
+
+que a dele e daí ele precisa descer para
+
+fazer esse chaveamento Ou, às vezes, poderia ser uma
+
+feature que precisava daquilo para ontem, quando
+
+trabalhamos numa empresa tinha 20
+
+deploy em produção por dia.
+
+Então qualquer coisa era pra ir lá e atrapalhava
+
+os caras, 20 deploy em produção por dia.
+
+É a Amazon, o Facebook, que faz esse caminho de deploy.
+
+Com esses caras que fazem tudo.
+
+É interessante porque isso daí, se você colocar,
+
+era tão bagunçado o processo de mega, que
+
+se você colocasse qualquer coisa na frente, você
+
+corria o risco de travar toda a empresa.
+
+Ele não conseguia subir, aí tinha que
+
+dar rollback no outro, aí aquele rollback
+
+atrapalha o outro, aí gera uma bagunça.
+
+Então, eu acho que é para fazer
+
+a implantação do mundo real, né?
+
+Cara, beleza, a empresa não tem segurança
+
+e a gente vai colocar agora.
+
+Você precisa de alguém com essa maturidade
+
+de entender o negócio, Cara, beleza.
+
+Cabe dessa forma aqui.
+
+Vamos começar por aqui.
+
+E daí já engata tudo pergunta.
+
+Não, deixa eu ver.
+
+Deixa eu marcar os comentários.
+
+Ele quer comentar sobre essa.
+
+Está muito fácil isso. Tá acelerado, né.
+
+Tá acelerado, hein, cara.
+
+Foi o
+
+valor de Deus, gente.
+
+Voltar de
+
+Deus, gente.
+
+Esse episódio passado eu contratei ele de volta aqui.
+
+E agora quer trabalhar, quer mostrar trabalho aqui.
+
+Azeta.
+
+Meu pai é táxi.
+
+É que a gente tá falando
+
+se eu gostei inaceitável e tal.
+
+Tem algumas coisas que eu também acho inaceitável e uma
+
+das coisas que eu acho pior assim nesse cenário, é
+
+o cara que tem scan, que seja sashidacho, o que
+
+for, que é apenas para relatório, é apenas para cumprir
+
+compliance, não para resolver corrigir vulnerabilidades.
+
+E eu vejo muito isso, então Você tem
+
+o cara com a puta ferramenta, tem lá
+
+os relatórios, está mostrando para ele.
+
+E aquela famosa frase, a gente tem que
+
+conhecer todas as vulnerabilidades, o cara que a
+
+gente tem que conhecer uma, cara conhece, tem
+
+ciência, mas não corrige nenhuma.
+
+A gente tem ciência, mas a
+
+gente não tem tempo a corrigir.
+
+Então, o cara tem uma duas, três mil fundadores pra
+
+mim, né? Não vai, ó. Tem.
+
+Exatamente. Você
+
+falou sobre backlog infinito, né?
+
+Então pra mim isso é dos pontos inaceitáveis que
+
+a gente acaba implantando a ferramenta, cara, paga uma
+
+licença, mas não usa a ferramenta em cima. Tá?
+
+Ali só pra compliance.
+
+É ridículo,
+
+famoso blog e infinito.
+
+Exatamente. É
+
+pra que eu ficasse lá com espírito de Abuguete lá,
+
+Vamos mudar meu nick, meu nick vai ser alberguete.
+
+Podia ser ratinho também, mas o ratinho dava
+
+uma macalhada depois que o hambúrguer tinha medo.
+
+Mas ele subia a mesa e quebrava os bagulhos, né?
+
+Aqui era repórter dele, ele aprendeu.
+
+É, pode crer, mano.
+
+Nossa, vou mandar meu nick ao gorguete.
+
+Ai, cara.
+
+Ah, não, não, não.
+
+Grave e secops.
+
+Grave e secops.
+
+Aí emenda essa pergunta aí.
+
+Então numa empresa dessa que a gente acabou
+
+de falar o cenário aí que é caótico.
+
+Por onde você começaria fazendo a implantação de
+
+segurança em apliquei esse kit tá não é
+
+de infra nem nada apliquei esse kit
+
+eu começaria a introduzir meu eu chamo de não
+
+é espelho, mas é o gate da foto.
+
+Tipo, tive uma foto exemplo clássico, faz escansaste, tem mil
+
+vulnerabilidades, beleza, cria gate pra não passar pra mil e
+
+uma, pega essas mil faz uma triagem tipo mano o
+
+que que é faz positivo o que que é prioridade
+
+de fato essas mil realmente 10 né Vocês estão vivos
+
+até hoje, não sei como.
+
+Tipo, pega essas dez, é em cabeça, endereça
+
+pra alguém, resolve e vai vai abaixando esse
+
+backlog, e vá baixando o Gate.
+
+O 0 a mil, corrigiu o 10, 990?
+
+Então, o Gate caiu no 990.
+
+E vai fazendo isso de acompanhando de perto. Costinhos.
+
+E aí você vai baixando esse gate até
+
+chegar num gate aceitável pra aquele negócio, pra
+
+aquela empresa, pra aquela coisa toda.
+
+Sem isso, vai continuar fazendo a vulnerabilidade.
+
+Vai continuar sem corrigir, vai continuar em risco.
+
+E aí, paralelo a isso inclusive, né?
+
+Treinamento de segurança que o Marcos tinha colocado.
+
+Pro cara não criar mais vulnerabilidade, senão é
+
+o seguinte, você nunca vai baixar, ele vai
+
+estar sempre mil, mil, mil, mil, mas você
+
+chega no livro você tem mil, beleza.
+
+Eu vou começar a bloquear mesmo.
+
+Não vai ter mais mil e uma,
+
+vamos na verdade, vai ter mil.
+
+Eu já tô eu já tô eu já tô na merda.
+
+Vou ficar jogando mais pá de merda no cara?
+
+Não, deixa assim.
+
+Vamos limpar pra desatolasse, né? Não tem como.
+
+É uma coisa que eu
+
+sabia, uma delas, né?
+
+É legal passar por dentro
+
+de uma descida.
+
+Ah não, pode falar isso, depois eu falei isso.
+
+A abordagem é bem parecida com a do Cassyah.
+
+Eu acho que eu gostaria ali com o treinamento
+
+e kitzinho ali pra segurar o cara pra ele
+
+não não começar a gerar novas vulnerabilidades à toa.
+
+E vale destacar ainda que isso sistemas
+
+críticos, essa empresa tem 500 sistemas.
+
+Não, é dois, três assim, não é pra tudo, não
+
+é pro sistema que é crítico, aquela coisa toda.
+
+Pra você é agressivo, é
+
+aquilo acontecer, né?
+
+Você já começa a ver, o negócio andar,
+
+você já começa a dar exemplo pro
+
+resto da empresa,
+
+você já estaria afunilando, né, mano?
+
+Vai afunilando porque assim tem que ter foco, você não
+
+assim E eu vou jogar contra de novo, né?
+
+Dá pra fazer tudo, dá!
+
+Do mesmo jeito que tem dev pra todos os
+
+sistemas, Dá pra corrigir quadro, mas negro vagabundo, negro
+
+não quer fazer, negro é ah, tal A verdade
+
+é essa que ninguém quer ouvir.
+
+Ficar mexendo com framework novo, featurizinha novinho.
+
+O que é corrigir tudo?
+
+O único ponto que eu organizei no seu caso
+
+é que eu colocaria algumas pessoas ali que eu
+
+identificasse na equipe para o treinamento focar em security
+
+champer, deixar o cara bem treinado pra começar a
+
+disseminar entre as equipes ali.
+
+Eu
+
+ia focar nisso, por
+
+falar pessoas que tenham esse perfil.
+
+Até usando esse, mano, Esse gancho agora me veio na
+
+cabeça comentário que eu fiz com o pessoal da putendagem
+
+de cliente, mas não lembro o que foi.
+
+O cara de lá falou essa ideia, podia dar os
+
+créditos aqui, mas eu realmente não lembro do cara.
+
+Ele usou a tática de fazer, a gente precisa de
+
+dois times aqui, time tático, time estratégico de segurança.
+
+O que o time estratégico de segurança fazia?
+
+Era mais ou menos o DevOps, o
+
+Secure Champions, os caras de Epicec, esses
+
+caras iam definir a estratégia do bagulho.
+
+Mano, vai fazer scan uma vez por dia, vai
+
+bloquear por request, vai escanear a esteira, estrategicamente.
+
+E tinha time tático de desenvolvedores com
+
+experiência de segurança ou vice versa que
+
+tinham a capacidade suficiente de corrigir vulnerabilidade.
+
+Então esse time tático era mano, tipo swat, tá ligado?
+
+Mano, teu capitão, os caras monta a estratégia, vai
+
+lá o time do SEALs, vai lá os caras
+
+dar o tiro, fazer a missão mesmo.
+
+E aí é lá esse time especificamente
+
+pra reduzir quando é caso crítico, né?
+
+Reduzia backlog, matava vulnerabilidade, corrigia mesmo, era
+
+pull request atrás de outro, resolvendo, resolvendo
+
+pra tirar o risco da empresa.
+
+O foco da onda na verdade é que você não
+
+tem risco, você não tem algo, você não tem risco.
+
+Então essa estratégia, cara, eu esqueci de comentar outras
+
+vezes aqui, inclusive, mas Marcos comentou agora sobre esse
+
+aqui de Champions e veio na cabeça.
+
+Que você desse time tático pra trabalhar em
+
+backlog, por exemplo, de vulnerabilidade e time estratégico
+
+que pode ser o mesmo, mas aí você
+
+não consegue trabalhar em paralelo, né?
+
+Aquelas questões.
+
+Mas pra vocês terem essa equipe
+
+de desenvolvimento já.
+
+Eu já trabalhei numa equipe que o
+
+nome dela era isso, era Demandas táticas.
+
+Inclusive, é até melhor do que o famoso warrun, né?
+
+O warun você já pensa, pô, o cara vai trabalhar 24h,
+
+aí não sei, sabe, virar na Não, não é, só
+
+por né?
+
+Para todo mundo, poderia
+
+estar desenvolvendo, continuar desenvolvendo.
+
+Não é isso, o foco de
+
+ter time tático é literalmente foco.
+
+Mano, tático vai executar a parada. Tipo a rota.
+
+Rota não fica para no nego pra ver documento de carro.
+
+Vai subir morro, coisa mais, né, outros níveis de
+
+igual o Bop é por exemplo e tal.
+
+Então o time tático, nesse contexto, a empresa
+
+tá o caos, chegou agora pra fazer esse
+
+negócio, como é que você faz?
+
+Cara, é uma das estratégias que dá pra Dá pra colocar.
+
+E vou dizer mais, tá?
+
+Pra fazer isso com todo mundo que já tem no time.
+
+Todo mundo
+
+que já tem lá.
+
+Sim.
+
+A gente entendeu aqui como fazer.
+
+Que é usando essa tática ou não, pode ser
+
+complementares, essas mudanças táticas, quando você falou, de tirar
+
+foto, entender se é diminuindo, dali pra baixo, só
+
+aceito daqui pra baixo, então você não vai criar
+
+mais vulnerabilidades, só vai reduzir.
+
+Só que daí eu vou mais a fundo ainda.
+
+Você falou que começaria com o SAST.
+
+O SAST seria a melhor coisa para começar? Será que não?
+
+Mas deu exemplo de Sartney,
+
+não necessariamente começaria com Sartney.
+
+Hoje, com o pensamento que
+
+eu tenho, começar com Sartney.
+
+Marcão e tal.
+
+Será que isso é hoje em dia?
+
+Por que marcão?
+
+Porque assim, a gente vê e os novos frameworks aí
+
+já mostram isso, que boa parte do código cara ali
+
+é sair esse código que ele vai implantando para dentro
+
+vai incorporando o código dele então boa parte do código
+
+nem desenvolveu alguma coisa que a gente já pegou já
+
+tá pronto acho que o SCA seria muito mais ativo
+
+e muito melhor na busca de vulnerabilidades nesse começo do
+
+que Sasha, por exemplo. E
+
+é, então,
+
+percebendo por ele.
+
+A Selic a gente
+
+acha que é 70%, 80% código Mano, eu já vi em 95%.
+
+É, então, tem uma pesquisa que é 95%.
+
+Se você parar pra ver agora com esse
+
+boom de AI, lowcode, praticamente você constrói business
+
+inteiro, só usando ferramentas de terceiro.
+
+E aí você pensa Como que é o software desses carros?
+
+Tá testado, tá escaneado, tá seguro?
+
+É muito plugin pra só o seu business é pedacinho ali.
+
+Então Olhando pra esse contexto, né?
+
+É muito perigoso, mano.
+
+Então você olhar pra parte de terceiro, vamos dizer
+
+assim, é quase que Não é nem crítico, mano. Já passou o
+
+nível de cidade, tem que estar
+
+lá, não tem nada mais profissional.
+
+Ainda mais com esse crescimento de profissionais
+
+que são mal informados, que cara vem,
+
+vem,
+
+vem, vem,
+
+vem,
+
+é que não sabe JavaScript.
+
+Você vai lá, você manja de JavaScript? Não, não.
+
+Fala, mas o React é N JavaScript.
+
+Por que escrever N JavaScript?
+
+Ah, mas não manja, não já vai escrever.
+
+Cara, o cara ele manja muito de
+
+react, mas a base do negócio né? É o
+
+que eu brincava muito com o nosso time, inclusive,
+
+Gente, vocês têm que ser a playlist de engenheiros.
+
+Vocês não podem ser, que somos o Solucha Engineer.
+
+Se não muda a cor da grama, você morreu.
+
+Então aprendam a fazer o que
+
+vocês estão fazendo, agnósico a tecnologia.
+
+Não adianta ficar focada em uma só, eu
+
+achar que é o rei do pedaço.
+
+De certo modo, é a galera de mainframe.
+
+Tem muito cara bom de uma inframe,
+
+banco ainda usa, ela tá mais assim.
+
+Às vezes o cara só sabe aquilo, mano.
+
+Cara, pica, ganha uma grana, só sabe aquilo.
+
+Se o cara perde aquilo, não tem aquilo,
+
+ele acaba se prejudicando, vamos dizer assim.
+
+Mas quando a gente fala desse contexto que
+
+você coloca agora de código, é isso mano?
+
+É questão de facilita muito o mercado de software, né?
+
+Frameworks, bibliotecas e tal, isso é muito bom.
+
+Você faz muito mais rápido, muito mais coisas,
+
+porque você não precisa construir do 0.
+
+Por outro lado você tem todo o ônus tudo tem de bom
+
+na biblioteca mas também tudo tem de ruim você traz outro
+
+Em
+
+lado, com grandes componentes.
+
+A galera do Java sofreu aí em sua
+
+100% aí com o Lockheed for Jay.
+
+Essa parada foi linda, linda assim, né?
+
+Quando você segura,
+
+exemplo clássico de uma biblioteca que não tinha nada a
+
+ver com o desenvolvedor que ele incorporou no código e
+
+tá usando ali e 100% das horas de Java.
+
+Ah, sofreu. E
+
+a Não, não tô usando.
+
+Aí você passa na ferramenta entra,
+
+corta o que você está usando.
+
+Você está usando?
+
+Você está até Até sofre o que você
+
+compra e usa a parada lá dentro?
+
+Tipo eu acho que eu não sei se eu vou
+
+tomar processo né não sei se vai dar a VMware
+
+ou desenho usa implementulate for din no seu software Você
+
+tava usando o bagulho e você já tava vulnerável.
+
+Só onde a gente tá usando a parada.
+
+Então é uma parada, é aquela
+
+história do Supply Chain, né?
+
+Supladinho não é só a biblioteca.
+
+Foi episódio passado inclusive.
+
+Supladinho de verdade que eu gravei solo.
+
+Exatamente falando disso.
+
+Supladinho não é só as suas lutas que eles teriam sido.
+
+Vai dar a ideia que o cara tá usando, as máquinas
+
+você usa pra compilar, literalmente tudo que tá na cadeia.
+
+E eu usei o exemplo clássico, do restaurante.
+
+Você chega 60 no restaurante e
+
+pede prato e chega ali prato.
+
+De onde veio a cebolinha, de onde veio o frango, de
+
+onde veio o molho, Se você pegar cada ingrediente da unidade
+
+ele veio do dia que começou a ser produzido até chegar
+
+no seu prato, não tem nem como trackear isso. Eu diria.
+
+Muito bem.
+
+O frigorífico, o tempero de onde formou oído, não sei
+
+o quê, a penetinha, a ver o menor sinal.
+
+Fala pra pensar num prato que você tá comendo.
+
+O tanto de igreja teve dentro, como
+
+é que ele chegava até ali?
+
+Toda cadeia que tem.
+
+O restaurante sabe de quem ele compra, os fornecedores.
+
+Às vezes o fornecedor está
+
+fornecendo de outro fornecedor.
+
+Cara, a senhora dá uma sopa
+
+de higiene é exatamente isso.
+
+Então você come negócio, morre. A culpa é de quem?
+
+Do restaurante?
+
+Ele que te forneceu aquele prato.
+
+Ah, mas aí eu botei ingrediente que estava
+
+vencido, tudo bem que começou a ter visto,
+
+estava estragado aquele lote, daquele fabricante, você dá
+
+Uma software é a mesma coisa, mano.
+
+Nossa, tinha uma biblioteca ali que estava
+
+na dependência, na dependência, nem sabia. Pois é.
+
+Não sabia, mas deu ruim.
+
+Eu sou o software aqui.
+
+Igual também.
+
+A linha, ó.
+
+O frente da mão.
+
+O que a gente vê, então, principal diferença entre mundo
+
+real do ideal é que as coisas começa ao contrário.
+
+No mundo real ele vem mais da direita para esquerda.
+
+O
+
+mundo ideal seria da esquerda para direita.
+
+Em todos os aspectos da vida.
+
+Sempre pra direita.
+
+Concordo.
+
+É, sempre tive que fazer uma série.
+
+Tchau, tudo bem.
+
+Você vê o pessoal fazendo implantação de eles vão
+
+se preocupar com rede, vão se preocupar com firewall,
+
+vão se preocupar com waff e daí vão se
+
+preocupar com resolver depois que aconteceu e vai vir
+
+a prevenção, correção, blá lá lá, educação por último.
+
+E isso acontece o que está
+
+acontecendo no mundo real, né? Que você vê.
+
+E o mundo ideal seria totalmente contrário, seria.
+
+Falar sobre educar, se prevenir,
+
+criar regras para não criar.
+
+Então você tem muito que trabalhar antes de
+
+criar código por exemplo então antes de escrever
+
+qualquer linha de código você já evitou vulnerabilidade
+
+é exatamente esse balanço né que eu falei, puta, a
+
+galera tem que correr risco, é natural dos seres humanos.
+
+Mas hoje, quando a gente volta para o apsek,
+
+a gente tem tanta informação tanta ferramenta, tanto processo.
+
+Todo mundo fala disso que quando a gente veio uma
+
+empresa, normalmente a gente não é digital de dois casos.
+
+É uma empresa.
+
+Quando a gente fala, quando a gente vê uma empresa
+
+que não tem nada ou tá fazendo qualquer jeito.
+
+É isso que, pelo menos pra mim, não
+
+sei se vocês dei a opinião de vocês.
+
+Me deixa puto, porque é a história da na
+
+minha época, na época da escola, Ah, gravidez indesejada.
+
+Pára, velho. Sabe?
+
+Só preciso que você Sim, você tem de monte por aí.
+
+Primeiro, assim, toda adolescente já sabe que
+
+não é pra fazer o bagulho.
+
+É pra fazer quando chega na época de fazer.
+
+Ah, mas não contou, beleza.
+
+Aí que o Marcos falou agora.
+
+Que muitos jeitos de não ter.
+
+Aí pô, teve.
+
+Ou então a mais linda que eu já vi
+
+que os karatê usa em stand up, né?
+
+Gravidez acidental.
+
+Por lado, você tava andando,
+
+tropeçou num cara, eu engravidei.
+
+Que acidente foi esse, né?
+
+Bater o carro no farol e engravidou.
+
+Não existe isso.
+
+Então assim, quando a gente traz pra Epicec, Por isso que
+
+pra mim, quando eu brinco que tem na minha alma, é
+
+por isso, mano, a gente já tem muita informação.
+
+Tá todo mundo falando.
+
+Na sua empresa, é provável que na sua empresa.
+
+A maioria dos devs já sabe, a maioria
+
+já ouviu falar, já foi em evento.
+
+Se não é a maioria, é metade, que
+
+seja uma, a galera isso já é muito
+
+disseminado, todo mundo já tá falando disso.
+
+Então aí pra mim é jeito que o
+
+brinco da vagabundagem, é a negligência, mano.
+
+É porque aí é aquela
+
+empresa, certo ponto, negligência, né?
+
+Porque aquela empresa pode falar
+
+não quero fazer segurança.
+
+Beleza, beleza.
+
+Mas quando a gente E aí entra no
+
+meu ponto Por que eu trabalho com isso?
+
+Por que eu me lido sobre isso?
+
+Hoje eu trabalho em infraestrutura crítica, mano.
+
+Se eu entregar software que vai dar merda,
+
+eu paro uma cidade e distribuí água.
+
+Eu explodo uma usina, eu paro
+
+uma fábrica de alimento, por exemplo.
+
+Então eu não Ah, beleza, vai sem escamas.
+
+Pra mim, eu não posso fazer isso.
+
+É quase uma responsabilidade social a parada.
+
+Mas, por exemplo, eu vou lá Rodrigo, a gente
+
+trabalhou numa agência de publicidade, e tinha sei lá,
+
+hotsite de vender chinelo, de vender cosmético.
+
+Mano, tá fora do ar. Qual o impacto? Vamos lá!
+
+É taco financeiro para aquela empresa que seja mínimo.
+
+Putz, foi impacto absurdo, beleza, vai impactar
+
+o pessoas, as ações, a tia da
+
+limpeza vai perder o emprego, né?
+
+Dá pra pensar nesse nível, mas não era o caso, né?
+
+O impacto era mínimo ali.
+
+Então é aceitável que suba sem segurança.
+
+Aceitava que o negro conecta da máquina do DEV
+
+no FTP e suba do Visual Studio Direto.
+
+Mas pra outros não é, igual o Marcos falou.
+
+Onde ele trabalhava a líder de serviços
+
+que os caras desligavam a log.
+
+Mano, coloca parênteses aqui, usando esse
+
+exemplo do site de maquiagem,
+
+Inclusive, a gente gravou Ah, porque
+
+eu subi vídeo do YouTube.
+
+Eu acho que era moleque brigando com ela na maquiagem.
+
+Já conta essa história, já conta essa história.
+
+Exemplo interessante, a marca poderia pedir o mínimo.
+
+Cara, eu preciso de, no mínimo,
+
+bem detalhadas de cores, por exemplo.
+
+Por mais que você esteja usando domínio, é
+
+secundário ali, ele interage com o meu nome
+
+da marca e era o nome
+
+da marca do nome reta.
+
+Então, por exemplo, se o site fosse pichado,
+
+Não seria só aquele site, seria a marca,
+
+a marca que está sendo pichada naturalmente,
+
+as pessoas tinham que pensar nisso.
+
+Cara, os últimos 5 ou 6
+
+episódios estão estupados de Easter Eggman.
+
+Quando eu penso a atenção cara de escola.
+
+É, até eu fazer comentário, assim, não.
+
+Estou trabalhando ultimamente com bastante
+
+coisa ou pensasse, né?
+
+Então, uma das coisas que eu falo é cara,
+
+eu gosto muito de software enterprise porque você tem
+
+500 scanner é uma ferramenta só, é uma solução,
+
+nem mais software, então é muito melhor.
+
+Só cara, você não tem grana, você não tem blush?
+
+Comece com os open source, cara, vê qual linguagem
+
+principal é da empresa, então busque scanner sastre para
+
+isso, você tem scanner CA FREE, você tem Kicks
+
+fazendo propaganda aí, que é IJS também é FREE,
+
+você tem a scanenergia API, você tem a porrada
+
+de software, mas tem tudo.
+
+Vai dar mais trabalho?
+
+Vai, você tem que gerenciar 15 software ali, 10
+
+software que seja, só que você faz o mínimo
+
+de segurança possível ali para garantir que você não
+
+vai estar subindo tanta merda em produção.
+
+Acabou de ver outra ideia na cabeça aqui de
+
+analogia que é assim que você falou agora uma
+
+coisa é você ir no cachorro quente da rua
+
+Todo mundo já comeu, todo mundo é gostoso, mas
+
+para pra pensar na procedência das salsichas
+
+Eu não come mais.
+
+O churrasco grego dá certo.
+
+E o churrasco grego dá certo. E come muito.
+
+Agora você vai num restaurante Michelin, tem duas, três
+
+estrelas Michelin, Porque se tem a estrela é porque
+
+o bagulho vai do nível da hora que você
+
+entra no restaurante como é atendido, o processo que
+
+as coisas executam, que é bem padronizada e tal.
+
+É outro nível.
+
+É lógico que nenhum você vai
+
+pagar 100 conto no copo d'água.
+
+No outro você paga 100 conto, você
+
+leva a barraquinha do cachorroquente inteiro.
+
+Você tem
+
+o ganho do outro lado.
+
+Os dois você mata sua fome, mano.
+
+A diferença é o preço que você está disposto a pagar.
+
+Né?
+
+Ou pensar se Tipo, eu acho que é
+
+isso que o Marco falou agora tá pouco
+
+nesse eu diria que nesse mesmo contexto.
+
+Só que talvez seja até injusto
+
+a comparação com a máquina, né?
+
+Mas, vamos lá, tem muito a pensar se foda.
+
+Melhor que a solução interpreta o dia a dia.
+
+Mas, enfim, você tem que Então, vamos repetir.
+
+E depende de novo daquela primeira pergunta.
+
+Qual que é o apetite? De segurança.
+
+Porque imagine o seguinte, no open source,
+
+imagine que ele teve aconteceu o Lockheed.
+
+Aí pra vocês solucionar o problema, você ter que
+
+enviar embate lá para a comunidade e esperar com
+
+a comunidade se ela vai fazer ou não.
+
+Vai ter que esperar.
+
+E no caso disso, enterprise, você liga pra empresa,
+
+os caras vão desenvolver também, mas eles vão fazer.
+
+Em casa não é assim.
+
+Ele tá pagando porque eles têm contrato, é seriado.
+
+Só até a bola de amêndoa.
+
+Só assim exemplificando, tá?
+
+No caso do Oggi for Jay, vamos pegar esse
+
+caso aí a coisa mais famosa dos últimos tempos,
+
+mas o Dependency Jack, o Depende da Bot e
+
+começaram a pegar o negócio rapidamente.
+
+Não teve uma fila de espera grande ali,
+
+não teve desenvolvimento, inclusive mais rápido que alguns
+
+enterprise, por causa da comunidade mesmo ativa ali,
+
+criando regras para fazer a busca, né?
+
+Então, óbvio, tem seus problemas ali, tem
+
+outros problemas, outras vulnerabilidades que não vão
+
+encontrar, mas nesse caso específico ela foi
+
+muito mais rápido que algumas empresas ultraprises
+
+para poder fazer a verificação em busca.
+
+Então tem softwares muito bons, que são
+
+open source que ajuda nessa busca, né?
+
+Essa é a história que eu falo, mano.
+
+Por isso que eu me indigno muito, né?
+
+Porque não dá hoje pra você falar ah, não faz
+
+porque ele não tem ferramenta, não faz porque não tem
+
+grande, não faz até eu não sabia, tá quase lei
+
+mano, tipo você não pode matar cara e o cara
+
+te prende, ela não sabia que nem pulei, não podia
+
+fazer, você não pode ter nome essa parada.
+
+Você não pode negar, não pode falar que não sabia dali.
+
+Obrigação como cidadão saber, por mais
+
+que ele nunca tenha lido.
+
+É até interessante porque o governo
+
+disponibiliza Você tem livrinho ali.
+
+Caramba, não fugiu.
+
+O livrinho das leis, mano.
+
+Você pega com o número de CPF, você chega
+
+lá, não tem lugar específico, Quero meu livrinho da
+
+lei. Quero exemplar.
+
+Porque é isso que você falou, você não
+
+pode chegar e negar que não sabe, né?
+
+Ah, não sabe.
+
+Alegar, você não pode alegar que não sabe.
+
+Exato, exato, exato.
+
+E no nosso caso é isso, a gente
+
+tem tanta informação, tanta coisa, tanto material.
+
+Mano, a própria OASP. OASP.
+
+Não precisa nem longe, OASP.
+
+A gente tá divulgado, todo
+
+mundo conhece no mundo inteiro.
+
+Já tem tudo que você precisa instalar.
+
+Mas assim, a galera ainda, de novo, se você decidir
+
+que você não quer ter segredo na sua empresa, beleza,
+
+mas a partir do momento que a sua empresa.
+
+Tem quadro de funcionários, pode afetar de alguma
+
+forma a sociedade, aí entra para fechar o
+
+episódio, você não tem mais escolha.
+
+Você não vai falar, não quero.
+
+Mano, se você tiver impacto financeiro, vai
+
+afetar os seus acionistas, vai afetar as
+
+suas ações, vai afetar os seus funcionários,
+
+pessoas vão perder o emprego, dependem disso,
+
+depende mais do emprego.
+
+Por isso, só por isso já não
+
+é aceitável que você não faça.
+
+Uma coisa é, tá muito na moda solo prenor.
+
+O cara que faz o bagulho sozinho. Beleza.
+
+Ah, eu vou abrir o PHP aqui.
+
+Codere, subir, está no ar. Beleza.
+
+É você que vai tomar o prejuízo.
+
+Você aceitou aqui.
+
+Você contratou cara que vai fazer as coisas pra você
+
+e esse cara, o salário dele depende do negócio, já
+
+é no mínimo uma razão para você ter no mínimo
+
+segurança da sua aplicação para evitar o impacto do seu
+
+negócio porque você vai afetar terceiros então Você para pra
+
+pensar então, praticamente tudo hoje em dia tem que ter.
+
+É a cena do Tropa de Elite
+
+lá, o senhor vai se explodir,
+
+É, o bicho vai explodir.
+
+O bicho vai explodir.
+
+E aí até, só pra gente fechar aqui, lembrando outra
+
+cena do Droppa de Leach é a da bandoleira.
+
+Que o cara tá sem bandoleira.
+
+Tipo, mano, você para pra pensar?
+
+Beleza, o cara primeiro dia de curso é ok ele esquecer.
+
+Mas mano, a pantomeira é bagulho básico,
+
+você coloca pra arma e fica pendurada. Ponto.
+
+Você aprendesse no primeiro dia, provavelmente.
+
+Aí o captadorzinho fica puto, né mano?
+
+20 anos de curso, você aprende a fazer isso?
+
+Chegou num nível que é inaceitável, que entra pouco
+
+até na filosofia de hoje em dia, da galera
+
+passar muita mão na cabeça, lá, lá, lá, lá.
+
+Mano, tem coisa que inaceitável, velho.
+
+Até Rodrigo fala que eu sou
+
+sem coração, que eu fico puto.
+
+Tem coisa que é simplesmente assim, chega nível
+
+de inaceitável, porque é muito idiota, é muito
+
+básica, simples e as pessoas continuam não fazendo,
+
+porque eu acho que entra pouco daquela questão,
+
+eu acho que é porque não sofreu, mano.
+
+Quando o cara tá morrendo, é ranger.
+
+Fica parado, opa, peraí.
+
+Aí muda pouco a cabeça, mas até lá você tem que
+
+ser responsáveis. É isso.
+
+Você tá foi contratado pra ser engenheiro de
+
+software, você é responsável, se deu conta.
+
+Não sei o que, não sei o que, nada. Você não
+
+lê com a mão,
+
+Ah, rapidinho.
+
+Não, foi super, você não foi atrás.
+
+Você é responsável pelo seu código, mano. Confiem.
+
+E que consequentemente a empresa é
+
+responsável pela aplicação, aquela coisa toda.
+
+É uma responsabilidade compartilhada, mas
+
+é responsável por contratar aquela pessoa.
+
+Simplesmente não sabe por ter indicado outro
+
+cara lá, só para o cara.
+
+Onde vai o seu playtime?
+
+Da indicação, cara.
+
+Da indicação até anteriormente.
+
+Da onde você conheceu o cara?
+
+Quem garante?
+
+Quem garante que contratei o cara na verdade ele
+
+é malicioso depois account no código para fazer desvio
+
+e Mas vamos lá, esse cara, esse episódio aqui
+
+dá pra fazer podcast só disso.
+
+Só disso, podcast inteiro só disso aqui.
+
+15 episódios sobre a
+
+minissérie dessa parada.
+
+Bom, episódio três da quarta temporada, estamos
+
+chegando no final do ano já praticamente,
+
+o último quarter do ano.
+
+Já quero férias, a gente voltou, agora já quer
+
+férias, agradecer os meninos aí que puderam participar, tipo,
+
+inclusive se reunir aqui hoje pra fazer episódio legal,
+
+acho que é tema, uma foda de discutir que
+
+tem muitas visões se você é mais gente aqui
+
+vai ter outras visões diferentes também acho que é
+
+importante você que ouviu até aqui comente nas plataformas
+
+digitais, lá no YouTube, comenta, manda comentário, acessa o
+
+nosso grupo lá do Discord, lá do DevCore Podcast,
+
+que é uma unidade fantástica que inclusive tem os
+
+convidados participar lá alguns, não todo mundo, obviamente é
+
+opcional pra eles participarem, mas tá, galera lá tá
+
+interagindo, tá chegando bastante gente, e lá você manda
+
+pergunta pra gente também, manda tópicos que tu quer
+
+discutir, e discorda, mano. Principalmente disso.
+
+Entra no Discord pra discordar da gente, né?
+
+Se a gente tá falando alguma coisa que você não
+
+Uma dica também, entra no Instagram.
+
+Todo dia conteúdo do lado clássico.
+
+Nossa, nós estamos cantando todos os marcos também.
+
+Todos os dias.
+
+O Marcos agora é o segundo maior influência.
+
+De ir atrás do meio do caça.
+
+Traz apenas no mestre essa cara.
+
+Mas estamos lá, estamos focado em
+
+trazer conhecimento pra galera aí, né?
+
+Isso aí.
+
+Então, beijos, né? Beijos pra galera.
+
+Quer mandar beijo pra alguém? Ou beijos? Pai, sua mãe.
+
+E pra isso, especialmente pra você.
+
+Boa.
+
+Eu sou o Cássio Pereira.
+
+Eu sou o Marcos Santos.
+
+E Rodrigo Gualbini.
+
+Marcos tem mandado beijo, vou mandar.
+
+Ah, quero mandar beijo pra você.
+
+Cargadinho.
+
+Tranquilo. Você tá falando.
+
+Não temos Tem evento aí no São Paulo, esses dias?
+
+Tem evento, né Rodrigo?
+
+Tem mindset.
+
+Começa amanhã, cara.
+
+Ele sabe que começa amanhã.
+
+Não, não, calma, calma.
+
+Estamos gravando episódio em uma segundafeira.
+
+Então vai ser uma santa Começou ontem uma indetec.
+
+Começou a
+
+fazer isso.
+
+Começou ontem uma indetec. Participe.
+
+E hoje, dependendo da hora
+
+você está postando, participe.
+
+Você tem cupomzinho de desconto da nova 8a.
+
+Isso por cento
+
+boa, a nova diva do outro lado.
+
+Com você,
+
+Tá, faz parte de cara.
+
+Episódio 17 vai fazer o quê?
+
+Não é esse migo.
+
+Está lá, vai lá no nikendi nova 8 lá.
+
+Não é close para 15% off.
+
+Então o episódio, então a mindset, na
+
+verdade, começa no dia 12 de setembro.
+
+Fica mais
+
+claro, né?
+
+Sei lá que dia que a gente vai postar isso aqui, acho
+
+que dia 13 de setembro, a gente gravou o dia 12.
+
+13, 12 de setembro.
+
+Era mais uma dica para quem está vendo esse episódio no dia
+
+12 tá ouvindo a gente aí dia 12 no dia 13 corre
+
+lá, depois da 18 em cerveja e tem pipoca todos os dias,
+
+mas às
+
+12h18 e você veja após os 18 lá na
+
+faixa, então não dá direito corre lá e toma
+
+uma briga assim e com uma pegadinha
+
+no jardim, no jardim particular que tem a hora
+
+pra fazer prato de volta, só pra caramba.
+
+Se der uma cheiradinha, bem bom ainda.
+
+Fechou, pessoal?
+
+Você vai ver o que vem. Valeu. Valeu.
+
+Beijos.
+
+O seu podcast de segurança em tecnologia.
+
