@@ -1,0 +1,1784 @@
+Inovação. Segurança.
+
+Programação e tecnologia. Desenvolvimento.
+
+Começa aqui.
+
+Deve ser cócegas. Deve
+
+o seu podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais episódio Tu deve ser
+
+copos, podcast, eu sou o Caspereira, como você pode
+
+ver pra quem está no YouTube, obviamente.
+
+Pra quem está escutando também, né?
+
+Como você pode perceber eu estou gravando
+
+episódio solo pra aqueles vagabundos, não puderam,
+
+quiseram, enfim, gravar hoje com a gente.
+
+Qualquer forma estamos aqui para mais episódio.
+
+Tu deve ser copy, podcast.
+
+Pessoal, o negócio é o seguinte, no episódio de hoje
+
+a gente vai falar sobre codescan ou scan de código
+
+onde como quando porque para que como nascem como crescem
+
+como se reproduzem como morrem os descanse de código.
+
+Mas antes eu vou falar que o DevScore Podcast tem
+
+o apoio da checkmarx e da nova 8, que são
+
+especializadas em segurança de sistemas e código seguro o link
+
+da nova 8 que é a distribuidora da checkmax do
+
+brasil está abaixo na descrição do episódio, no YouTube e
+
+também no, deve ser professordecash.com.br nosso site oficial, tá?
+
+Você está buscando soluções em
+
+Apsek, soluções em Applications Securities?
+
+A DigitalOu que tem portfólio completo para você.
+
+Fale com a Digita Work.
+
+E a Gold security. Security.
+
+Eu preciso melhorar a minha pronúncia da
+
+palavra security, porque não é security. É security.
+
+Security. Security.
+
+A code security é
+
+especializada em Application Security.
+
+Quer desenvolver software seguro, fale com a Gold.
+
+Secueity.
+
+Eu preciso muito melhorar essa palavra, porque eu sou
+
+tactic paulista, no inglês não funciona muito bem.
+
+E Pessoal, lembre também do apsek.jobs, portal aí de vagas exclusivas
+
+para o mundo de apps SEC então você está procurando emprego
+
+na área de apsek obviamente para na apsek.jobs e para você
+
+quer anunciar sua vaga Só não vou dizer que é de
+
+graça, mas também não custa absurdo como é ou como são
+
+sais de anos de vaga por aí.
+
+Então dá uma olhadinha lá que você vai gostar, beleza?
+
+Pessoal, o negócio é o seguinte, episódio de hoje.
+
+Codescan, onde como?
+
+É uma grande dúvida que eu vejo na maior dos
+
+clientes, a própria empresa que eu trabalho, entre os times,
+
+entre as squads, muito temas de discussão, temas de palestra,
+
+quando fazer scan do código, como fazer scan do código,
+
+qual é o melhor momento Qual era a estratégia?
+
+Eu não vou discutir que é a ferramenta
+
+em si, vou discutir a estratégia de escanticore.
+
+Mas qual é a melhor integração, enfim, toda uma série
+
+de aspectos que a gente pode tratar acerca desse tema.
+
+Eu vou tratar aqui, pelo menos do
+
+meu ponto de vista, 4 pilares.
+
+Dá 4 pilares.
+
+Que auxiliam ou que nos permitem fazer scan de código
+
+e que eu acho que esses quatro pilares se complementam.
+
+Eles não necessariamente precisa ser ou outro.
+
+Eu acho que os quatro se encaixam no
+
+mesmo produto, no mesmo cenário, no mesmo processo.
+
+Não necessariamente você precisa escolher entre outro como
+
+a gente vai lá, mas também não necessariamente
+
+você precisa colocar os quadros, tá?
+
+Vai depender muito do seu cenário, no seu contexto.
+
+Aliás, o primeiro deles que eu vou abordar
+
+é dos que eu digo que é mais
+
+opcional, é dos mais opcionais possível, beleza?
+
+A gente vai tratar esses quatro
+
+pilares aqui de coach scan.
+
+Então vamos lá pessoal, eu queria começar primeiro,
+
+antes de falar desses quatro pilares da verdade,
+
+Eu queria ressaltar aqui que é importantíssimo que
+
+a sua ferramenta de código, o scan de
+
+código seja flexível o suficiente pra permitir todo
+
+esse tipo de configuração, literalmente flexibilidade que a
+
+gente vai discutir no episódio de hoje.
+
+Eu conheço várias ferramentas de usasse, várias.
+
+O checksmarks, patrocinador do nosso podcast aqui, é
+
+uma delas, a ferramenta de sensação, a ferramenta
+
+enterprise, que dá para você descobrir isso.
+
+Assim como outras soluções, diversas delas pode brincar
+
+com ferramentas interpras mesmo com o próprio Snick.
+
+O próprio Snick, o próprio Sam Grap.
+
+Enfim, em outras soluções de sashing que eu não
+
+vou fazer propaganda, porque é o patrocínio do podcast.
+
+Mas também não quero só fazer patrocínio, eu
+
+vou falar propaganda do Check+ em si, porque
+
+objetivo aqui é ser neutro nesse contexto, tá?
+
+Mas só para vocês entenderem que é
+
+importante o que o seu SAST, né?
+
+Vamos riscar de código, vamos descer de SAST.
+
+Da estática porque a gente precisa de teste.
+
+É muito importante que a ferramenta que você escolha ou
+
+que você tenha seja flexível o suficiente para permitir que
+
+você faça esse tipo de esse tipo de implementação tá
+
+essa que é a grande verdade então vamos lá gente
+
+o primeiro pilar que eu queria trazer para vocês aqui
+
+é o pilar da IDE anotar que eu não perder
+
+minha linha de raciocínio.
+
+É o pilar da IDE.
+
+O que é IDE?
+
+A IDE, além do meurador, desenvolve.
+
+Talvez finalmente a gente trabalha
+
+de desenvolvedor e a IDE.
+
+Talvez as aulas populares, às vezes eu
+
+estúdio coach, equipe, TLJ, enfim, dentre outras.
+
+Mas talvez as mais populares.
+
+Ou grande, glorioso, notepad++.
+
+Ou o próprio notepad, enfim, vocês
+
+entenderam o que é uma ideia.
+
+E a ideia é, gente, talvez ela seja, como
+
+eu disse, ela é a principal ferramenta de história
+
+do desenvolvedor, É ali que nasce o código fonte.
+
+O código fonte que você tá produzindo da
+
+sua empresa com as suas regras de negócio,
+
+mas é ali que nasce o código fonte.
+
+Assim como é ali que nascem os bugs, assim
+
+como é ali também que nascem as vulnerabilidades.
+
+Então é importantíssimo que esse ambiente de trabalho,
+
+vamos chamar assim, que é a ideia, permita
+
+até certo ponto que o seu a segurança
+
+daquele código seja testada validada melhorada enfim, dá
+
+pra usar diversos adjetivos aqui em verbos.
+
+E aí, esse é dos mais opcionais, dos que eu
+
+estou colocando até em primeiro, até ter uma sequência lógica
+
+aqui, mas A ideia vem primeiro por quê?
+
+Porque eu digo que é opcional, porque a
+
+maioria da sua mente de segurança, grande parte,
+
+não necessariamente a maioria, mas grande parte Das
+
+soluções de SAST, elas oferecem plugins para IDE.
+
+Esses plugins, gente, eles têm diversas funções.
+
+Das mais variadas possíveis.
+
+Como a gente está falando especificamente de
+
+codescan, onde e como, no sentido de?
+
+Preciso fazer scan do meu código, como e onde?
+
+Os plugins da ideia são muito
+
+úteis, mas tem que tomar cuidado. Por quê?
+
+Muita solução oferece a opção de você disparar
+
+scan requisitar scan fazer o scan enfim pela
+
+ideia então através de botãozinho ele normalmente estava
+
+em uma extensão, plugin, então agora aperta botãozinho,
+
+está com o projeto aberto na IDE, aperta
+
+botãozinho ele dispara o scan. Né?
+
+Se o scan é local, se o
+
+scan é no servidor, não interessa.
+
+Você tem botão que você vai
+
+lá perto, opa, disparei no scan. Lindo, maravilhoso.
+
+Então você quer uma análise sash, você
+
+aperta o botão e faz o sash.
+
+Então o segundo fator aqui que
+
+são os resultados desse sash.
+
+Muitas dessas soluções não te trazem essa vantagem.
+
+Você dispara o scan, disparou.
+
+E aí talvez você dá progresso ali de quanto tá
+
+rodando aquele escanta não mas os resultados né o report
+
+as vulnerabilidades encontrar tá tá tá tá tem que ir
+
+lá na ferramenta, acessar a ideia da ferramenta, a ideia
+
+da ferramenta, desculpa, a UI da ferramenta, a interface da
+
+ferramenta, pra você poder ver os resultados.
+
+Todas elas têm que oferecer isso, mas algumas, e
+
+aí trago aqui pouquinho de novo a questão do
+
+check list, te oferecem resultados direto na IDE.
+
+Então fez escão os resultados já carregam
+
+na IDE pra você se já navega
+
+no código de haver vulnerabilidade jurídica.
+
+Outras ainda oferecem até a gestão da vulnerabilidade.
+
+Você pode olhar e falar cara, esse funding aqui
+
+nessa vulnerabilidade encontrada, que é o falso positivo, ou
+
+aceito risco ou vou priorizar já aqui ou já
+
+vou abrir ticket já no meu sistema de ticket
+
+até alguns benefícios a mais.
+
+Então, essa funcionalidade da IDE eu sou
+
+meio crítica com relação a ela. Por quê?
+
+Ela traz muito benefício.
+
+Desde que Permita fazer o scan e ver os resultados.
+
+Fazer o scan por fazer Não sei se é
+
+bom, uma boa funcionalidade, mas ver os resultados sim.
+
+Aliás, Eu diria que é até melhor, né?
+
+Quando você fez escala, você é ESG e
+
+quebra os resultados na sua ideia é legal.
+
+Mas Disparar os clientes de sorte pode ser
+
+pode não ser tão benéfico, sei lá.
+
+Eu não gosto tanto só dessa parte dos paraliscando.
+
+Então, tem essa parte aqui que a gente está falando.
+
+O outro item que ele é adicionado também nessa parte
+
+da IDE, e aí ele é polêmico, porque eu particularmente,
+
+eu, o Cássio, quando desenvolvia não gostava, mas tem o
+
+seu valor, são os famosos Linters, os Links que são
+
+aquelas soluções que você tá digitando código ele já corrigirem
+
+para você já te dá uma sugestão uma dica né,
+
+põe ali vermelho ali embaixo, pinta ali o código de
+
+uma cor diferente, abre popupzinho, chipzinho, você tem que clicar
+
+ali e ver as sugestões, tal, tal, tal.
+
+Tem ferramentas que oferecem uma análise SAST mesmo dentro
+
+do link, então você tá digitando, tá rodando uma
+
+análise SAST pra ver se aquilo é uma vulnerabilidade.
+
+Quanto que tem, por exemplo, lentes que
+
+são só de qualidade do core.
+
+Olha, esse código poderia ser mais performático, esse código
+
+poderia ser mais assim, poderia ser mais assado.
+
+Dois lentes gente, Por que que eles são polêmicos?
+
+Porque tem muito desenvolvedor que não gosta.
+
+Ele quer digitar, terminar o
+
+código dele, depois ele avalia.
+
+Deixa ele terminar o raciocínio.
+
+E tem desenvolvedor que gosta.
+
+Você está digitando, o link te
+
+ajudando, já resolvendo aquele código.
+
+Então é meio polêmico, eu não gosto, não
+
+estou dizendo que não é bom isso.
+
+Aliás, do ponto de vista de
+
+segurança, Cara, isso é sensacional.
+
+Você tá até codor, descreveu a linha de
+
+código, ou método, ou uma classe, me descreveu
+
+ali, o Lead já está te trazendo uma
+
+análise tempo real daquilo, cara, isso é sensacional.
+
+O que você tem que ver é
+
+o ruído que isso traz pro desenvolvedor.
+
+Você não prejudica a produtividade, esse tipo de coisa.
+
+Não é ter o seu benefício
+
+absurdo, mas isso pode ser problema.
+
+Tem que ter que avaliar com calma os links.
+
+Eu diria para validar a
+
+ferramenta que você está usando.
+
+Conte o seu time de dev.
+
+E muito link ele é gratuito, tem muito
+
+link integrado com a ferramenta Sasha que você
+
+comprou, então precisa avaliar o noise, o ruído
+
+que esse link traz compensação com o benefício.
+
+Até por mais que seja benéfico, por mais que
+
+seja benefício muito grande, às vezes o ruído ele
+
+incomoda e aí acaba segurança vai acabar perdendo.
+
+Então não tenta forçar essa parte da ideia,
+
+no sentido de desenvolver, tem que usar e
+
+plantar a boca, tal, tal, tal.
+
+Esse ponto eu acho que é opcional.
+
+Esse é o único.
+
+Tá o único ponto que eu jogo a favor do time dos devs
+
+aí de cara a ideia é minha é o meu jeito de trabalhar
+
+aqui eu uso o link se eu quiser opcional tá tal.
+
+Então essa é dos pilares aqui do Cold Scan onde
+
+como, onde na IDE como apertando botão, ou seja, scan
+
+manual, você tem que apertar botão, você tem que solicitar,
+
+talvez ou outro plugin possa permitir que você configure no
+
+sentido de cara, eu salvei o arquivo ali, trigo automático,
+
+scan, ou rodei comando aqui de compilar minha aplicação dependendo
+
+da linguagem, dispara o scan, então, imaginações aí mais possíveis
+
+que você possa possa pensar pra trigar esse scan, pra
+
+talvez até automatizar ele no sentido de quando esse scan
+
+acontece, beleza?
+
+Então essa é 1, esse é 1, o primeiro
+
+pilar que eu queria abordar com os segurança
+
+tecnologia deve ser copos
+
+o segundo pilar gente aí é para mim já deixa
+
+de ser opcional mas também tem uma certa restrição de
+
+acordo com a ferramenta que está usando, nem todo SAST
+
+oferece isso, nem todo SMA oferece isso, não é SMA
+
+seu escudo management ou seu famoso repositório.
+
+Então tem que tomar pouco de cuidado, mas,
+
+praticamente, todo mundo está indo para essa linha
+
+hoje em dia que são os famosos actions.
+
+Então, todo repositório de código tem uma action, como
+
+você faz commit, quando você faz o push, quando
+
+você faz pull request, merge request, enfim, tem várias
+
+actions ali que acontece no repositório remoto, normalmente.
+
+Até no repositório local também obviamente, né?
+
+Então as actions na minha visão é uma das formas
+
+de você fazer fortemente disco ou é a primeira delas
+
+Porque na ideia, cara, é meio opcional, beleza.
+
+Mas a partir do momento que eu desenvolvedor, tá?
+
+Tô aqui com meu código na minha IDE.
+
+Vou dar exemplo clássico aqui para vocês.
+
+Estou com meu Visual Studio aberto aqui, eu era
+
+do .NET, então estou com meu Visual Studio aberto.
+
+Passei dois dias aqui, creme, lá, se conectei com
+
+o banco, criei uma tela aqui de CRUD. Beleza.
+
+Terminei, terminei.
+
+Testei o roteiro lindo, maravilhoso.
+
+Faço commit, push disso, não só do repositório, da
+
+minha máquina, mas do repositório remoto, né, numa branch
+
+x BRANGE DE DESENVOLVIMENTO PRAZO DE CAÇO.
+
+Esse momento, que eu criei essa branch e
+
+fiz esse post pra essa branch muda, eu
+
+estou sob remoto, é uma action.
+
+Então esse momento é ideal, ideal pra fazer isca,
+
+pra trigar isca automático desse push que eu fiz.
+
+De todo esse código, enfim, Javascript, frontend,
+
+backend, mas vai fazer scan disso tudo.
+
+Nesses dois dias de trabalho, dia de
+
+trabalho, uma hora de trabalho, não importa.
+
+Mas o Action aconteceu, o
+
+scan é automaticamente iniciado.
+
+Normalmente quem faz isso, as ferramentas de
+
+Sasha se integram aos seus SM.
+
+Vou usar o exemplo aqui do
+
+GitHub que é dos mais populares.
+
+Então ela integra no seu GitHub normalmente
+
+você tem Tolkien, tem uma premissa onde
+
+ela fez ela integração muito simples.
+
+Assim que acontece, aí a ferramenta fica escutando, tem
+
+webhoop e tal, elas ficam se conversando ali.
+
+A partir do momento que acontece action, o GitHub
+
+informa pra essa ferramenta que ele tem uma integração,
+
+olha, tem pull request aqui nessa branch.
+
+Essa ferramenta vai lá, opa, pull request, tem uma
+
+configuração que pra cada pull request, pra cada push,
+
+nesse exemplo aqui, eu preciso fazer scan, então ele
+
+vai pegar esse código que vai fazer scan. Simples assim.
+
+Nesse exemplo que eu comecei que eu falei do
+
+push especificamente, então eu já estou dando push e
+
+no meu consultório, na minha branch, Mas normalmente o
+
+fluxo de trabalho, dependendo da branch, né, branch de
+
+dev, branch local, você consegue fazer isso.
+
+Mas normalmente o que acontece?
+
+O desenvolvedor terminou isso, fiz o meu
+
+post na branch clássico, na branch clássico.
+
+E agora o que eu vou fazer?
+
+Eu preciso jogar isso pra mim ou pra branch developer,
+
+pra branch de QA, pra branch de integração ou uma
+
+branch intermediária depende aí do N fatores mas é mais
+
+ou menos como a galera usa aí tá se você
+
+usa kit float você usa flow nenhum não porta, mas
+
+normalmente é isso, você tem uma feature brent, uma branch
+
+intermediária e a branch master main, enfim.
+
+Então, pra você jogar o seu código dessa branch
+
+intermediária, vamos chamar assim é o brinde de integração
+
+você não consegue fazer push direto você tem que
+
+abrir pull request não pull request para que alguém
+
+aprove isso para essa branch de integração. Beleza?
+
+É mais ou menos como funciona no dia a dia.
+
+Esse pull request é uma outra action.
+
+Agora você vai jogar o seu código pra uma
+
+outra branch, pra outro lugar, não tinha outras pessoas
+
+trabalhando, o código tá mais estável, aquela coisa toda.
+
+Essa action também teria scan.
+
+Normalmente você abre aí tem várias formas de trabalhar
+
+né mas sei lá pull request por dia 10
+
+por dia depende depende do projeto depende do trabalho
+
+depende do débito depende de fatores tá pra cada
+
+pull request também é adicionado em lista.
+
+As ferramentas de sash, a maioria delas já integra,
+
+já olha o seu pull request, já faz scan
+
+muito rápido, porque é play quest, né?
+
+Não, o professor esconde inteiro, né?
+
+Ele vai analisar só aquilo, e aí entra
+
+aquela questão do scan incremental, o scan Fuck,
+
+a gente já conversou várias vezes.
+
+Mas vamos lá, ferramenta de site vai fazer uma
+
+análise e já no pull request, colocar ali comentário,
+
+bloquear esse pull request, falar ó, ele não está
+
+passando na validação uma validação aqui é que o
+
+scan não tenha vulnerabilidades altas por exemplo ou a
+
+validação é tem que ter você não tá rodando
+
+esse campo pull request automaticamente bloqueado né eu fico
+
+ali com disable de duas pessoas tem que aprovar
+
+aquele pull request então você como desenvolvedor seu flow
+
+de código tá bloqueado, você precisa resolver esse problema.
+
+Então você corrigiu a vulnerabilidade, você submete
+
+o scan como é o caso.
+
+Então, essa integração na lente automatizada
+
+permite que Sasha, as ferramentas escaneem,
+
+façam isso automatizado baseado em ações
+
+que você definiu no seu repositório. Beleza?
+
+Essa é uma das formas, a
+
+gente tá todo mundo caminhando, né?
+
+Então a gente fala de actions no repositório,
+
+por request merge quest push, commit, enfim, tá?
+
+E alinhado a isso, ainda você
+
+tem a estratégia de branches.
+
+Então, por exemplo, se eu estou trabalhando numa feature branches, por
+
+exemplo, meu código aqui só eu tô trabalhando na feature bem
+
+de caixa por exemplo, eu limpar ou eu no meu time
+
+essa pra essa pra essa pra eu eu vou fazer scan
+
+só quando for feito push né que ela tá subindo agora
+
+eu vou fazendo scan ou eu não vou fazer scan nessa
+
+branch eu vou fazer scan só quando eu for fazer pull
+
+request para branch de integração só que aí eu vou ter
+
+pacote maior de código, aquela coisa toda.
+
+Mas tem essa estratégia de Scamper Branch também,
+
+que vale ser muito levado em consideração. Por quê?
+
+Dependendo do seu SAST, você pode ter
+
+limitação de licença, de processamento, de quantidade
+
+de scan, de fila, sei lá.
+
+Depende do Sasha, depende de como é o licenciamento.
+
+Mas imagina, se você vai disparar escanteio para cada
+
+push, quantos posts não acontecem numa feature brent?
+
+Quantos posts acontecem no Oficina de Integração?
+
+Quantos posts acontecem por dia? Por semana? Por mês?
+
+Então isso pode ser uma questão aí de custo até pra
+
+pro seu SAST, ou custo financeiro mesmo que a sua licença
+
+é cobrada por isso, ou custo do sentido de tempo, seu
+
+site processa, sei lá, 3 scans a cada minuto.
+
+E você tem uma fila agora de 100 scans.
+
+Então 97 scans vão esperar três minutos ou minuto, né?
+
+Quando acabar entra o botão.
+
+Então tem que ter pouquinho de pensamento
+
+de sizing nessa questão, porque as actions
+
+acabam sendo muito grandes, o volume de
+
+actions é muito grande no seu repositório.
+
+Essa estratégia tem que ser muito bem montada.
+
+Por isso que essa questão de branch ajuda muito.
+
+Ah, eu vou só fazer isso quando a branch deve.
+
+Da frente man master, da frente de integração,
+
+da frente de QA, a feature day eu
+
+não vou olhar, por exemplo, mas depende.
+
+Então tem que pensar como fazer isso.
+
+Qual é a melhor solução?
+
+A gente não tem melhor para esse contexto não tem.
+
+O que eu acho que eu acho que deveria ser feito?
+
+Escaneio sempre.
+
+Então FTB, criou, faz scan, faz scan continuamente, né?
+
+E aí tem sash que suporte isso.
+
+Bom, porque eu quanto antes achar problema melhor.
+
+Então o time inteiro trabalhou aqui
+
+duas semanas na feature de branch.
+
+Agora eu vou fazer pull request pra branch master. Né?
+
+De pacote de código.
+
+Aí vai fazer externo, vai
+
+achar monte de vulnerabilidade.
+
+Então, você tem duas semanas de trabalho, que agora
+
+vai ter que parar minuto ali, resolver alguns segundos.
+
+O que vai ter?
+
+É natural que tempo.
+
+Seja problema, vai ter.
+
+Esse problema foi se encontrado no primeiro dia,
+
+que foi a primeira parte do código lá,
+
+já teria resolvido essas duas semanas, seria sentido
+
+mais otimizado, vamos dizer assim, né?
+
+Porque o business é business, business é
+
+business, business então eu tô pensando aqui
+
+pouco na questão do business também, tá?
+
+Outro aspecto, outro pilar, a gente já falou
+
+de ideia, falamos de action, dentro de ideia,
+
+link, scan, dentro de action, actions por branch
+
+também e cada action também.
+
+Tem o terceiro pilar aqui, gente, que é agendamento.
+
+Agendamento.
+
+O que isso quer dizer?
+
+O seu scan, e aí essa questão
+
+do agendamento também, o que eu acho?
+
+Ela é crucial, por quê?
+
+Dependendo de como é o seu os action,
+
+por exemplo, você faz scan, cada é.
+
+Facebook está acontecendo scan a todo momento, o
+
+seu código está sendo analisado a todo momento.
+
+Mas partes dele isoladas tá o agendamento a
+
+possibilidade de agendar scan seja diretamente no seu
+
+SAST, seja no seu CI CD, criar jobzinho
+
+pra fazer isso, não interessa, mas criar agendamento.
+
+Para garantir que o seu repositório inteiro sei lá você vai
+
+olhar a branch x inteira o código inteiro que tá lá
+
+toda vez à noite o scan vai demorar 1 hora, 2
+
+horas, 30 minutos, 5 horas, não sei, depende, tá?
+
+Mas isso é legal, por quê?
+
+Porque você garante que o seu code base
+
+inteiro, uma branch inteira está sendo escaneado.
+
+Normalmente a gente faz isso com a branch
+
+de integração ou com a branch master, que
+
+é o código de produção entre aspas.
+
+Então você tem ali scan noturno ou scan de
+
+final de semana, depende do tamanho do seu código,
+
+dá pra dar pra dar pra esquecer mais SUV
+
+legal, mas é muito importante ter esse agendamento mesmo.
+
+Porque você garante que de vez ou outra você está
+
+olhando para o seu código como todo não só partes
+
+dele isolado tá então às vezes o todo o fluxo
+
+do código como todo traz uma vulnerabilidade de trabalhar escondida
+
+num arquivo que não se manifestava, mas que integrando ou
+
+outro ali, pinga problema que pode ser grave até, enfim.
+
+Tá, mas essa questão do agendamento eu diria que
+
+ela é não opcional, assim como o action.
+
+A menos que você esteja usando repositório uma SM,
+
+que não tem astions, mas é muito difícil.
+
+Hoje, o Erbit Hub, o Erbit Pluket,
+
+o ErbitLab é o Erbit DevOps.
+
+Não foge muito disso.
+
+Então você está fazendo checkin, checkout, push,
+
+pull, commit, não foge muito disso.
+
+E que seja outro também o princípio é o mesmo
+
+tá então a ideia é que esse pilar do agendamento
+
+ele complemente essa questão dos Action tá Antes de ir
+
+para o quarto pilar que eu queria voltar no pilar
+
+anterior, que é o dos O que eu penso?
+
+Que eu acho que deveria fazer com
+
+relação a bloqueio de pull request.
+
+Eu acho crucial, porque de novo a ideia é
+
+que o seu código esteja seguro ou do ponto
+
+de vista com a sua capacidade de scan que
+
+ele não tenha problemas Problemas aceitáveis, vamos chamar assim.
+
+Você pode ter problemas baixos,
+
+médios, altos, críticos, enfim.
+
+Então às vezes A galera fala, puta, bloqueio por
+
+request, mas aí não vai entregar mais nada.
+
+Gente, não é tão caos assim não. Tem muito problema?
+
+Tem.
+
+Mas a maioria deles é médio,
+
+baixo, tem algumas coisas altas.
+
+E aí normalmente são problemas graves.
+
+Então quando você faz pull request dispara o scan
+
+esse pull request está de processando o scan traz
+
+o resultado e tem problema grave e 50 problemas
+
+médios por exemplo Você vai bloquear o currículo, acho
+
+que tem 1 problema grave.
+
+Não porque tem 51 problemas.
+
+Esse problema grave resolvido neste exato momento
+
+é o Shift F, responsabilidade do desenvolvedor.
+
+Cara, rodou o teste unitário, o
+
+seu código não tá passando.
+
+Você vai arrumar o teste, escrever o teste, fazer
+
+o teste passar, no sentido de resolver aquele problema.
+
+Por que que a vulnerabilidade
+
+galera não quer fazer isso?
+
+Parece que a vulnerabilidade é bicho de sete cabeças,
+
+às vezes é só botar if e se resolve.
+
+Não muita das vezes é isso, né?
+
+Então, Ok, o Equest para problemas autocríticos, enfim, e
+
+aí você pode vender seu político, você pode vender
+
+aqui para a média, você pode vender dentro da
+
+sua maturidade, ao meu tratar do seu time.
+
+E você bloqueia o push, bloqueia
+
+o push, enfim, bloqueia o fluxo.
+
+No caso do scramjetal não tem muito fluxo, né?
+
+Você agendou instância que ia pegar
+
+o resultado ali e verificar.
+
+Mas quando a gente fala de action, z pro próximo
+
+pilar que a gente vai falar o último agora, bloquear
+
+para mim é fundamental desde que desde que você tenha
+
+políticas que suportem isso que políticas são essas eu vou
+
+bloquear o pull request e o pull request novamente cara
+
+é uma classe método né uma coisa que é ou
+
+dois arquivos três arquivos não Tem uns pull requests gigante?
+
+Tem, mas aí é pouco da sua cultura de desenvolvimento.
+
+Então, o pull requests realmente é micro, macro até.
+
+Então, bloquear pull request que eu não tenho problema cara
+
+é parte do dia a dia volta arrumese problema dois
+
+problemas três cara e beleza continua o fluxo senão Mas
+
+definir essa política que seus tente isso.
+
+A política é, por exemplo, tá?
+
+Não vai ter, é 0, dando novidades
+
+críticas, até três rivalidades altas para 0.
+
+Então se você tiver quatro vai bloquear, se tiver
+
+uma crítica vai bloquear, mas se tiver 0 críticas
+
+e duas altas você passa porque faz sua política
+
+você definiu isso né talvez essas duas altas sejam
+
+muito graves pra você, pro seu contexto, pro seu
+
+impacto de negócio, mas sua política é essa.
+
+Do ponto de vista estático, de olhar
+
+ali pra número e bloquear, né?
+
+Você pode ter uma exceção de aprovação, olhar pra isso
+
+e tal, mas você tem que definir isso, né?
+
+Por que que não pode acontecer?
+
+Não definir nada, começa a bloquear, a sua
+
+empresa meio que trava mesmo, é complicado.
+
+E até a comunicação envolvida nisso.
+
+A gente fala com os desenvolvedores, falar com as
+
+squads, com os times, e assim pro jump.
+
+Então Isso tem que levar muito em consideração. Sim.
+
+Segurança.
+
+Tecnologia.
+
+Deve ser copys.
+
+O quarto pilar, quarto e último pilar para
+
+a gente caminhar para o final desse episódio,
+
+porque não é episódio muito extenso, não?
+
+É o CICID o Continuous Integration e o
+
+Continuous Delivery, que muita gente fala, aliás, é
+
+onde muita gente centraliza os seus scans.
+
+De certa forma não tá errado.
+
+O CSG, na minha visão,
+
+ele é usado demasiadamente errado.
+
+O cara tá desenvolvendo aquele
+
+local, Terminei o meu código.
+
+Fiz push e roda jogo do CSD.
+
+Jogo vai fazer deploy em desenvolvimento.
+
+Mas que às vezes eu nem vou usar.
+
+Vou usar daqui duas semanas uma.
+
+Mas tem tô consumindo recurso, tô rodando
+
+uma pipeline, porque vira moda, né? Roda a pipeline.
+
+Mano, calma.
+
+É, como eu falei, você fez pull
+
+request que o código nem tá compilando.
+
+É pedaço do código que vai juntar com outro time,
+
+com outro pedaço Esse pedaço já tá sendo analisado.
+
+Se for esperar o CS de rodar pra fazer
+
+essa análise, já foi dois dias, duas semanas, depende
+
+do seu fluxo, o tempo está passando.
+
+Então veja, quando é onde e como aqui dos scans
+
+que a gente está falando agora é exatamente isso.
+
+Quando antes do meu processo eu posso pegar esses problemas,
+
+a ideia onde o código nasce é o primeiro deles.
+
+A Action, ao segundo, a action está sempre acontecendo.
+
+Eu tenho a minha memória no fim do dia, dou
+
+commit, eu faço pelo menos commit, local, na minha, no
+
+meu local, não vou fazer remote talvez, mas no meu
+
+local, se eu tô numa fita de branch talvez, né?
+
+Então, diariamente esse cão vai acontecer para
+
+aquele pedaço de código foi produzido já
+
+analisado se tiver problema já resolvido.
+
+Não vai nem com a backlog, não vai nem ticket.
+
+Ele já está aqui com o desenvolvedor, eu estou
+
+no meu time tático, vamos dizer assim, né?
+
+Não entra em nível estratégico, vão gerar backlog,
+
+não, nem precisa disso, resolve isso agora. Percebe?
+
+Aí você vem pra esse quarto pilar.
+
+Quando a gente fala de Contínios
+
+Integration em Contínios Delivery, né?
+
+Eu tô partindo o princípio que eu vou
+
+executar isso eu quero entregar o meu software.
+
+Seja pra mim mesmo no sentido de
+
+disponibilizar ambiente de desenvolvimento, ambiente de QA
+
+préprodução, homologação até o ambiente produtivo.
+
+Então vou rodar em uma pipeline que vai tá?
+
+Minhas dependências, pegar a branch ali, o código
+
+de todo mundo, vai fazer, rodar testes genitários,
+
+rodar teste ali automatizado de UI por exemplo,
+
+de interface, teste de carga, vai fazer monte
+
+de coisa e vou dar teste de segurança.
+
+Esse teste de segurança aqui, ele é double check.
+
+Porque lá nos meus pull requests, nos meus
+
+pushs lá atrás, já estava sendo escaneado.
+
+E para alguns desenvolvedores que gostam do Lynch, já
+
+codificou melhor e para quem gosta de usar o
+
+scanner IDE, poxa, já acharam problemas antes.
+
+Mas agora no meu Contínios Delivery, Contínios Integration,
+
+onde eu estou Por exemplo, esse software funcional
+
+num ambiente X, eu preciso garantir que vai
+
+estar funcionando ou vai estar seguro.
+
+E aí o conteúdo disso tudo eu vou fazer scan
+
+é scan maior né que está juntando várias partes talvez
+
+demore pouco mais de tempo mas é scan crítico. Por quê?
+
+Eu estou agora entregando meu software, contínuas
+
+delivery, eu estou entregando para alguém, mesmo
+
+que esse alguém seja interno.
+
+Então antes de entregar eu
+
+quero garantir que foi escaneado.
+
+Vai que alguém passou público, vai que
+
+alguém aprovou sem ouvir a vulnerabilidade.
+
+A minha política corporativa define que
+
+eu não vou entregar software.
+
+Em ambiente teste, homologação, QA chama o
+
+nome que você quiser, préprodução, enfim, homologação.
+
+Eu só vou entregar não tiver,
+
+por exemplo, nenhuma vulnerabilidade alta.
+
+E aí eu posso ter uma política pouco mais agressiva,
+
+ou a mesma política de desenho anterior, tal, tal, tal,
+
+tal, tal, o ponto aqui é você vai ter essa
+
+validação tá então tem que levar em consideração isso também
+
+aí sim você bloqueia a sua pipeline né não vai
+
+subir, não vai subir ninguém, aquela coisa toda.
+
+Quebra o build que o pessoal fala, enfim.
+
+Dependendo do ambiente, aí entra o molde Testa,
+
+por exemplo, está rodando uma backline para disponibilizar
+
+software para os seus usuários testarem.
+
+Usuário local interno na empresa.
+
+Bom, então tudo bem se tiver vulnerabilidade.
+
+Porque eles não vão explorar essa vulnerabilidade.
+
+A vulnerabilidade é mais risco em produção.
+
+Então o que você faz?
+
+Você não quebra o build, você disponibiliza o
+
+software, o time vai continuar testando, vai fazer
+
+o trabalho deles, mas o Scan vai acontecer.
+
+Os resultados desses Khan vão pra Issues, pro
+
+Jira da vida, ou pro GitHub Issues, sei
+
+lá, esses sim vão entrar num backlog.
+
+Backlog Q pode ser a Sprint atual, que se
+
+você já quer entregar em produção, não quer entregar
+
+com na verdade, isso tem que ser corrigido.
+
+Obviamente, dependendo da idade, creticidade,
+
+prioridade, aquela coisa toda.
+
+Mas aí sim vira backlog.
+
+É scan mais estratégico, não é instantático.
+
+Igual é o scan da IDE, igual
+
+é o scan actions, percebe gente?
+
+Então essa visão na cabeça de vocês tem
+
+que estar muito claro, o que é scan
+
+estratégico, o que é Escamp tático.
+
+Escamp tático Action IDE.
+
+Tem que ter isso na mente, não fuja disso, tá?
+
+Porque o CSG, de novo, se a partir
+
+do princípio eu estou entregando, disponibilizando o software
+
+para alguém, com pinos de integration pra fazer
+
+tudo que precisa, com pinos delivery, pra garantir
+
+que tá tudo automatizado num lugar só.
+
+Se não, você vai correr risco de entregar
+
+a sua horta e coluna na verdade.
+
+E aí, aí sim, a sua pipeline de
+
+produção, por exemplo, você tá entregando automatizado.
+
+Cadê a pipeline aqui e vai passar por todos
+
+os testes de automatizado e disponibilizar em produção já.
+
+Essa sim tem que quebrar o Bill,
+
+espera o Scan, é uma paternária que
+
+demora mais, lindo, maravilhoso, mas ela quebra.
+
+Cara, tem uma vulnerabilidade alta, crítica, quebrou.
+
+Se assim você definiu.
+
+Você pode definir que cara, não vou quebrar nada,
+
+eu vou achar os problemas que tiverem, vai virar
+
+o backlog que eu vou priorizar e corrigir, mas
+
+eu vou entregar a produção, beleza?
+
+Mas esse scan tem que acontecer. Por que?
+
+Você disponibiliza em homologação, pessoal, seu usuário testou tudo
+
+lindo e maravilhoso, agora você vai compilar o código
+
+de não rodar na pipeline lá de produção.
+
+Ela tem que garantir carros para pilantrar até para trás
+
+aqui né até para rastreio auditoria canal foi rodada esse
+
+esse passo a passo aqui com esse scan o resultado
+
+foi esse meu software foi uma produção.
+
+Legal, resultado é esse aqui, qual é o resultado?
+
+Por que tem?
+
+Uma novidade média, legal, ela foi encontrada até antes
+
+no seu processo, no seu agora, alguma coisa passou
+
+alguma coisa falhou nem importa mas você fez aquele
+
+chat você fez aquele chat então esse é o
+
+quarto pilar que eu queria trazer para a gente
+
+mais ou menos encerrar a nossa discussão.
+
+Para ajudar o meu mouse, está acabando a pilha aqui.
+
+Ele tem que trocar uma outra pilha.
+
+Bom, pessoal, era isso do episódio de hoje.
+
+Contos que é onde como é negócio simples até. Né?
+
+Você parava pra pensar, scan de
+
+código é negócio simples de fazer.
+
+Veja que eu não abordei questões
+
+como performance do regras do esquema?
+
+Não, só faz esquema.
+
+Começa a fazer esquema.
+
+Definir uma estratégia desse aqui, ou
+
+uma ou todas elas, né?
+
+Pelo menos sai da IDE, que eu falei, você
+
+pode pular, as outras, pelo menos ali agendado, minha
+
+integra no seu repositório, aquela coisa toda.
+
+O que não pode ter, e aí eu vou destacar
+
+aqui como elementos extras, né, do que nem anunciantes, mas
+
+vamos colocar aqui como bônus pra esse episódio, a questão
+
+do como você faz esse estano no sentido de automação.
+
+Como eles estão vão dizer, esse dia é
+
+óbvio, que está automatizado, tal, tal, tal.
+
+E veja, eu falei, se você está jogando uma pipeline
+
+de préprodução, de desenvolvimento e tal, o scan assíncrono ele
+
+é até válido, dispara o scan, Sua pipeline bio da
+
+Compila segue a vida dela, os resultados do scan jogam
+
+por issues da vida que você vai trabalhar neles.
+
+Produção não é síncrona.
+
+Então você vai rodar o scan, vai
+
+esperar o resultado e quebrar a pipeline.
+
+Pelo menos é como eu enxergo.
+
+Depende do negócio também lógico, né?
+
+Mas eu falo do ponto de vista mais segurança,
+
+é mais ou menos como seria standard, tá?
+
+Então, brentes ou pipelines de ambientes
+
+internos, você faz assíncrono, libera pipelines
+
+de produtos você bloqueia.
+
+É mais ou menos o que eu enxergo.
+
+Mas isso pode variar de
+
+business para business, tá gente?
+
+Não é uma regra.
+
+Se o business pode querer bloquear interno, assim que
+
+você pode querer não bloquear a introdução né então
+
+depende muito tá mas tenha em mente que definir
+
+essas estratégias olhando para esses quatro pilares aqui vai
+
+te dar maturidade no processo de apsek maturidade no
+
+sentido até de Olha só, maturidade no título até
+
+D, parar de criar problemas.
+
+Porque o desenvolvedor quanto antes
+
+ele enxerga os problemas resolve.
+
+Ele tende a não fazer mais aquilo.
+
+Então, se ele espera a pipeline e rodôlar não sei onde.
+
+Ele trabalhou mês, a pipeline e rodôlar não sei aonde,
+
+não tive, não sei de quem, aí chega alguém não
+
+sei da onde, quando o nome não sei do que,
+
+manda email pra ele com o recorte do Sasha com
+
+x vulnerabilidades lá, x mesmo, tá?
+
+1 a 1000, sei lá.
+
+Aí ele poupa, dois meses de trampo, esse código aqui
+
+tá lá, tá, nem lembro mais, aquele raciocínio já foi.
+
+Isso quebra pouco do Frodo do desenvolvedor.
+
+Aí ele tem que tá, arrumar aquilo, aí
+
+testa de novo, aí não resolveu e volta,
+
+fica naquela punhetação e não resolve.
+
+Agora o cara fez o punho, o Ash negócio
+
+já bloqueou, o cara ele já vai na hora
+
+ele vai resolver aquilo, ele já vai pesquisar, vai
+
+trocar a ideia, ele vai resolver, porque é problema.
+
+E tá fresco na cabeça dele. Olha isso.
+
+Aquele raciocínio, aquela classe, aquele método
+
+tá fresco na cabeça dele.
+
+Então facilita muito mais até
+
+nessa adesão do epicondronto.
+
+Tanto do ponto de vista de correção, que é a ideia.
+
+Quando a gente fala de start de uma
+
+maneira geral, igual aí no médico, né?
+
+Você tem aí no médico fazendo exame e
+
+tal, tal, tal, tal, tal, aí pô.
+
+Ter o resultado ali com alguns
+
+problemas, você tem que resolver eles.
+
+Trabalhar, não só nos sintomas, às vezes, mas
+
+também na causa raiz, né, pra que você
+
+não tenha ali problema mais grave.
+
+Você acha mais uma coisa.
+
+Então se você vai no médico uma vez por
+
+ano, a tendência de você ficar com problema mais
+
+tempo é maior e virar algo mais grave.
+
+Você vai no médico toda semana, ou está
+
+pelo menos fazendo com que o médico falou
+
+de boas práticas, se alimenta bem, comer bem.
+
+Aqui é a mesma coisa, o desenvolvedor puts, cara,
+
+SQL Injection, que eu nunca tinha visto isso.
+
+Ah, puts, é assim que acontece, é assim que resolve.
+
+Putz, cara, tem outra parte do código
+
+que eu sei que tá assim.
+
+Deixa eu já resolver antes de
+
+subir, deixa eu já verificar.
+
+Ou pra próxima vez que ele for fazer método
+
+similar, ele não vai aplicar o mesmo erro.
+
+É quase que natural, talvez uma ou duas vezes ele se
+
+repita, talvez até três vezes se repita, mas não tende.
+
+Porque ele aprendeu aquilo, ele absorveu aquilo.
+
+Então isso acaba sendo natural, gente.
+
+O problema é não introduzir CodeScan né?
+
+Não ter codescan, uma estratégia de codescan, né?
+
+E aí tem várias formas de você fazer isso, vou até
+
+dar uma dica extra que também é mais bônus aí ó.
+
+Documenta isso.
+
+Documenta, cara.
+
+Tem várias formas de você fazer isso, mete uma
+
+week sem precisar no seu repositório e fala pessoal,
+
+putz, acontece assim, é sensato, tem policy automática no
+
+repositório, você não consegue fazer currículo assim, ter scan
+
+automatizado, lindo e maravilhoso, ou se você tem que
+
+ter repositório novo você tem que auto habilitar ou
+
+o repositório novo é criado já habilita automático, enfim,
+
+documenta como é feito.
+
+E automatiza o máximo possível.
+
+Nesse contexto aqui o máximo possível e não
+
+é difícil gente não é difícil as ferramentas
+
+taxas de mercado hoje todas fazem isso. Todas.
+
+Umas fazem absurdamente, lindamente, maravilhosamente,
+
+outras fazem meia mente.
+
+Então tem que tomar cuidado, mas todas as razões.
+
+Integra com repositório e faz
+
+esse campo, isso é básico.
+
+Actions, talvez uma outra ali vai te deixar na mão.
+
+Se ESG, teoria, todas fazem, mas uma
+
+outra faz te deixar na mão.
+
+E eu falo com propriedade, caso eu testei, várias.
+
+Então, é isso.
+
+Defina a sua estratégia de contas Gamma.
+
+Documente e automatize o máximo possível e documente no
+
+sentido de entrou desenvolvedor não da empresa faz processinho
+
+de onboard com ele faz ele ler essa documentação
+
+faz ele dar até aceite algum lugar, faz checkzinho
+
+em algum lugar porque isso é importante, gente.
+
+Por que isso é importante?
+
+Porque isso é sua política, você definiu isso.
+
+Às vezes com apoio corporativo, às vezes só
+
+dentro do seu time técnico, dentro do time
+
+de R&D, mas tem que ter.
+
+Não tem documentado, o cara fala quem não viu.
+
+Se ele fala quem não viu, ele
+
+pode não fazer, se ele não sabia.
+
+A menos que seja em forcemite, como eu acabei de falar.
+
+Cara, você não faz pull request em scan.
+
+E vá acontecer automaticamente.
+
+Se o cara tem a opção de fazer o
+
+pull request, você habilitar no repositório dele ou coisas
+
+do tipo, o que ele quer fazer?
+
+Por falta de desconhecimento, porque o projeto é
+
+crítico, porque tem que entregar rápido, pelo monte
+
+de coisa que a gente reconhece.
+
+Ou porque eu sou muito bom, meu
+
+código não tem vulnerabilidade, já vi essa.
+
+Eu vi essa, já.
+
+Aí eu dei esse cano, pode educar a minha alça.
+
+Minha nossa Enfim, né pessoal era isso o
+
+episódio aí de até ficou quase quase o
+
+episódio completo 45 minutos normalmente hoje 3839 minutos
+
+aqui o episódio de solo tá ótimo, assim
+
+vocês não ficam aí fadigados da minha voz.
+
+É isso, eu sou o Carlos Pereira, eu
+
+espero vocês no na semana que vem.
+
+Na semana que vem, pra gente falar de
+
+mais coisas de desenvolvimento seguro deve ser copy.
+
+Beleza?
+
+Eu espero que a semana que
+
+vem esses vagabundos voltem a trabalhar.
+
+Até lá ficamos comigo mesmo. É o que tem, gente. Valeu.
+
+A gente se vê na semana que vem.
+
+Termina aqui, deve ser copos, deve
+
+ser copos, o seu podcast
+
+de segurança e tecnologia.
+

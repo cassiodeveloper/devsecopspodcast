@@ -1,0 +1,3567 @@
+1
+00:00:01,159 --> 00:00:02,358
+Inovação. Segurança.
+
+2
+00:00:02,359 --> 00:00:04,517
+Programação e tecnologia. Desenvolvimento.
+
+3
+00:00:04,518 --> 00:00:05,537
+Começa aqui.
+
+4
+00:00:07,036 --> 00:00:08,775
+Deve ser cócegas. Deve
+
+5
+00:00:09,654 --> 00:00:12,153
+o seu podcast de segurança em tecnologia.
+
+6
+00:00:22,137 --> 00:00:23,856
+Fala pessoal, tudo bem com vocês?
+
+7
+00:00:23,857 --> 00:00:27,784
+Sejam muito bemvindos a mais episódio Tu deve ser
+
+8
+00:00:27,785 --> 00:00:30,783
+copos, podcast, eu sou o Caspereira, como você pode
+
+9
+00:00:30,784 --> 00:00:33,021
+ver pra quem está no YouTube, obviamente.
+
+10
+00:00:33,022 --> 00:00:34,381
+Pra quem está escutando também, né?
+
+11
+00:00:34,382 --> 00:00:36,809
+Como você pode perceber eu estou gravando
+
+12
+00:00:36,810 --> 00:00:40,727
+episódio solo pra aqueles vagabundos, não puderam,
+
+13
+00:00:40,728 --> 00:00:44,084
+quiseram, enfim, gravar hoje com a gente.
+
+14
+00:00:44,085 --> 00:00:47,243
+Qualquer forma estamos aqui para mais episódio.
+
+15
+00:00:47,244 --> 00:00:49,362
+Tu deve ser copy, podcast.
+
+16
+00:00:49,363 --> 00:00:51,321
+Pessoal, o negócio é o seguinte, no episódio de hoje
+
+17
+00:00:51,322 --> 00:00:55,868
+a gente vai falar sobre codescan ou scan de código
+
+18
+00:00:55,869 --> 00:00:59,946
+onde como quando porque para que como nascem como crescem
+
+19
+00:00:59,947 --> 00:01:04,134
+como se reproduzem como morrem os descanse de código.
+
+20
+00:01:04,135 --> 00:01:06,652
+Mas antes eu vou falar que o DevScore Podcast tem
+
+21
+00:01:06,653 --> 00:01:09,011
+o apoio da checkmarx e da nova 8, que são
+
+22
+00:01:09,012 --> 00:01:12,948
+especializadas em segurança de sistemas e código seguro o link
+
+23
+00:01:12,949 --> 00:01:15,787
+da nova 8 que é a distribuidora da checkmax do
+
+24
+00:01:15,788 --> 00:01:19,533
+brasil está abaixo na descrição do episódio, no YouTube e
+
+25
+00:01:19,534 --> 00:01:24,469
+também no, deve ser professordecash.com.br nosso site oficial, tá?
+
+26
+00:01:24,470 --> 00:01:26,269
+Você está buscando soluções em
+
+27
+00:01:26,270 --> 00:01:28,328
+Apsek, soluções em Applications Securities?
+
+28
+00:01:28,907 --> 00:01:31,874
+A DigitalOu que tem portfólio completo para você.
+
+29
+00:01:31,875 --> 00:01:33,194
+Fale com a Digita Work.
+
+30
+00:01:33,195 --> 00:01:35,912
+E a Gold security. Security.
+
+31
+00:01:35,913 --> 00:01:37,552
+Eu preciso melhorar a minha pronúncia da
+
+32
+00:01:37,553 --> 00:01:40,869
+palavra security, porque não é security. É security.
+
+33
+00:01:40,870 --> 00:01:42,748
+Security. Security.
+
+34
+00:01:42,749 --> 00:01:44,267
+A code security é
+
+35
+00:01:44,268 --> 00:01:46,746
+especializada em Application Security.
+
+36
+00:01:46,747 --> 00:01:50,054
+Quer desenvolver software seguro, fale com a Gold.
+
+37
+00:01:50,055 --> 00:01:50,774
+Secueity.
+
+38
+00:01:50,775 --> 00:01:53,453
+Eu preciso muito melhorar essa palavra, porque eu sou
+
+39
+00:01:53,454 --> 00:01:58,050
+tactic paulista, no inglês não funciona muito bem.
+
+40
+00:01:58,051 --> 00:02:03,957
+E Pessoal, lembre também do apsek.jobs, portal aí de vagas exclusivas
+
+41
+00:02:04,576 --> 00:02:07,643
+para o mundo de apps SEC então você está procurando emprego
+
+42
+00:02:07,644 --> 00:02:11,402
+na área de apsek obviamente para na apsek.jobs e para você
+
+43
+00:02:11,403 --> 00:02:15,908
+quer anunciar sua vaga Só não vou dizer que é de
+
+44
+00:02:15,909 --> 00:02:19,067
+graça, mas também não custa absurdo como é ou como são
+
+45
+00:02:19,068 --> 00:02:20,426
+sais de anos de vaga por aí.
+
+46
+00:02:20,427 --> 00:02:22,634
+Então dá uma olhadinha lá que você vai gostar, beleza?
+
+47
+00:02:22,635 --> 00:02:24,793
+Pessoal, o negócio é o seguinte, episódio de hoje.
+
+48
+00:02:24,794 --> 00:02:26,533
+Codescan, onde como?
+
+49
+00:02:27,392 --> 00:02:32,439
+É uma grande dúvida que eu vejo na maior dos
+
+50
+00:02:32,440 --> 00:02:36,177
+clientes, a própria empresa que eu trabalho, entre os times,
+
+51
+00:02:37,437 --> 00:02:41,933
+entre as squads, muito temas de discussão, temas de palestra,
+
+52
+00:02:42,873 --> 00:02:46,031
+quando fazer scan do código, como fazer scan do código,
+
+53
+00:02:46,032 --> 00:02:49,019
+qual é o melhor momento Qual era a estratégia?
+
+54
+00:02:50,118 --> 00:02:51,718
+Eu não vou discutir que é a ferramenta
+
+55
+00:02:51,719 --> 00:02:54,177
+em si, vou discutir a estratégia de escanticore.
+
+56
+00:02:55,014 --> 00:03:00,172
+Mas qual é a melhor integração, enfim, toda uma série
+
+57
+00:03:00,173 --> 00:03:04,278
+de aspectos que a gente pode tratar acerca desse tema.
+
+58
+00:03:04,279 --> 00:03:06,837
+Eu vou tratar aqui, pelo menos do
+
+59
+00:03:06,838 --> 00:03:09,476
+meu ponto de vista, 4 pilares.
+
+60
+00:03:09,477 --> 00:03:10,456
+Dá 4 pilares.
+
+61
+00:03:11,244 --> 00:03:17,561
+Que auxiliam ou que nos permitem fazer scan de código
+
+62
+00:03:17,562 --> 00:03:20,379
+e que eu acho que esses quatro pilares se complementam.
+
+63
+00:03:21,039 --> 00:03:23,717
+Eles não necessariamente precisa ser ou outro.
+
+64
+00:03:23,718 --> 00:03:25,397
+Eu acho que os quatro se encaixam no
+
+65
+00:03:25,398 --> 00:03:28,354
+mesmo produto, no mesmo cenário, no mesmo processo.
+
+66
+00:03:28,355 --> 00:03:32,033
+Não necessariamente você precisa escolher entre outro como
+
+67
+00:03:32,034 --> 00:03:34,032
+a gente vai lá, mas também não necessariamente
+
+68
+00:03:34,033 --> 00:03:35,511
+você precisa colocar os quadros, tá?
+
+69
+00:03:35,512 --> 00:03:38,429
+Vai depender muito do seu cenário, no seu contexto.
+
+70
+00:03:38,430 --> 00:03:40,188
+Aliás, o primeiro deles que eu vou abordar
+
+71
+00:03:40,189 --> 00:03:41,587
+é dos que eu digo que é mais
+
+72
+00:03:41,588 --> 00:03:44,664
+opcional, é dos mais opcionais possível, beleza?
+
+73
+00:03:44,665 --> 00:03:45,864
+A gente vai tratar esses quatro
+
+74
+00:03:45,865 --> 00:03:47,463
+pilares aqui de coach scan.
+
+75
+00:03:47,464 --> 00:03:49,462
+Então vamos lá pessoal, eu queria começar primeiro,
+
+76
+00:03:49,463 --> 00:03:52,649
+antes de falar desses quatro pilares da verdade,
+
+77
+00:03:52,650 --> 00:03:55,888
+Eu queria ressaltar aqui que é importantíssimo que
+
+78
+00:03:55,889 --> 00:03:57,887
+a sua ferramenta de código, o scan de
+
+79
+00:03:57,888 --> 00:04:03,834
+código seja flexível o suficiente pra permitir todo
+
+80
+00:04:04,493 --> 00:04:08,011
+esse tipo de configuração, literalmente flexibilidade que a
+
+81
+00:04:08,012 --> 00:04:09,939
+gente vai discutir no episódio de hoje.
+
+82
+00:04:09,940 --> 00:04:13,278
+Eu conheço várias ferramentas de usasse, várias.
+
+83
+00:04:15,576 --> 00:04:18,735
+O checksmarks, patrocinador do nosso podcast aqui, é
+
+84
+00:04:18,736 --> 00:04:21,244
+uma delas, a ferramenta de sensação, a ferramenta
+
+85
+00:04:21,245 --> 00:04:23,483
+enterprise, que dá para você descobrir isso.
+
+86
+00:04:23,484 --> 00:04:28,919
+Assim como outras soluções, diversas delas pode brincar
+
+87
+00:04:28,920 --> 00:04:31,298
+com ferramentas interpras mesmo com o próprio Snick.
+
+88
+00:04:32,837 --> 00:04:35,496
+O próprio Snick, o próprio Sam Grap.
+
+89
+00:04:36,184 --> 00:04:38,183
+Enfim, em outras soluções de sashing que eu não
+
+90
+00:04:38,184 --> 00:04:40,782
+vou fazer propaganda, porque é o patrocínio do podcast.
+
+91
+00:04:40,783 --> 00:04:43,781
+Mas também não quero só fazer patrocínio, eu
+
+92
+00:04:43,782 --> 00:04:46,069
+vou falar propaganda do Check+ em si, porque
+
+93
+00:04:46,070 --> 00:04:48,628
+objetivo aqui é ser neutro nesse contexto, tá?
+
+94
+00:04:48,629 --> 00:04:50,667
+Mas só para vocês entenderem que é
+
+95
+00:04:50,668 --> 00:04:52,466
+importante o que o seu SAST, né?
+
+96
+00:04:52,467 --> 00:04:54,974
+Vamos riscar de código, vamos descer de SAST.
+
+97
+00:04:54,975 --> 00:04:56,694
+Da estática porque a gente precisa de teste.
+
+98
+00:04:56,695 --> 00:04:59,332
+É muito importante que a ferramenta que você escolha ou
+
+99
+00:04:59,333 --> 00:05:02,731
+que você tenha seja flexível o suficiente para permitir que
+
+100
+00:05:02,732 --> 00:05:07,668
+você faça esse tipo de esse tipo de implementação tá
+
+101
+00:05:07,669 --> 00:05:09,827
+essa que é a grande verdade então vamos lá gente
+
+102
+00:05:09,828 --> 00:05:12,266
+o primeiro pilar que eu queria trazer para vocês aqui
+
+103
+00:05:12,267 --> 00:05:15,224
+é o pilar da IDE anotar que eu não perder
+
+104
+00:05:15,225 --> 00:05:16,543
+minha linha de raciocínio.
+
+105
+00:05:16,544 --> 00:05:17,723
+É o pilar da IDE.
+
+106
+00:05:18,542 --> 00:05:19,522
+O que é IDE?
+
+107
+00:05:20,221 --> 00:05:22,980
+A IDE, além do meurador, desenvolve.
+
+108
+00:05:22,981 --> 00:05:24,759
+Talvez finalmente a gente trabalha
+
+109
+00:05:24,760 --> 00:05:26,458
+de desenvolvedor e a IDE.
+
+110
+00:05:27,078 --> 00:05:28,717
+Talvez as aulas populares, às vezes eu
+
+111
+00:05:28,718 --> 00:05:33,324
+estúdio coach, equipe, TLJ, enfim, dentre outras.
+
+112
+00:05:33,325 --> 00:05:35,203
+Mas talvez as mais populares.
+
+113
+00:05:35,204 --> 00:05:37,942
+Ou grande, glorioso, notepad++.
+
+114
+00:05:40,201 --> 00:05:41,720
+Ou o próprio notepad, enfim, vocês
+
+115
+00:05:41,721 --> 00:05:43,379
+entenderam o que é uma ideia.
+
+116
+00:05:43,380 --> 00:05:47,177
+E a ideia é, gente, talvez ela seja, como
+
+117
+00:05:47,178 --> 00:05:49,256
+eu disse, ela é a principal ferramenta de história
+
+118
+00:05:49,257 --> 00:05:52,993
+do desenvolvedor, É ali que nasce o código fonte.
+
+119
+00:05:53,733 --> 00:05:55,652
+O código fonte que você tá produzindo da
+
+120
+00:05:55,653 --> 00:05:57,531
+sua empresa com as suas regras de negócio,
+
+121
+00:05:57,532 --> 00:06:00,739
+mas é ali que nasce o código fonte.
+
+122
+00:06:00,740 --> 00:06:03,098
+Assim como é ali que nascem os bugs, assim
+
+123
+00:06:03,099 --> 00:06:06,016
+como é ali também que nascem as vulnerabilidades.
+
+124
+00:06:06,017 --> 00:06:09,903
+Então é importantíssimo que esse ambiente de trabalho,
+
+125
+00:06:09,904 --> 00:06:13,042
+vamos chamar assim, que é a ideia, permita
+
+126
+00:06:15,549 --> 00:06:20,027
+até certo ponto que o seu a segurança
+
+127
+00:06:20,028 --> 00:06:24,304
+daquele código seja testada validada melhorada enfim, dá
+
+128
+00:06:24,305 --> 00:06:26,643
+pra usar diversos adjetivos aqui em verbos.
+
+129
+00:06:27,702 --> 00:06:30,261
+E aí, esse é dos mais opcionais, dos que eu
+
+130
+00:06:30,262 --> 00:06:32,700
+estou colocando até em primeiro, até ter uma sequência lógica
+
+131
+00:06:32,701 --> 00:06:35,069
+aqui, mas A ideia vem primeiro por quê?
+
+132
+00:06:35,070 --> 00:06:37,148
+Porque eu digo que é opcional, porque a
+
+133
+00:06:37,149 --> 00:06:40,466
+maioria da sua mente de segurança, grande parte,
+
+134
+00:06:40,467 --> 00:06:44,883
+não necessariamente a maioria, mas grande parte Das
+
+135
+00:06:44,884 --> 00:06:47,982
+soluções de SAST, elas oferecem plugins para IDE.
+
+136
+00:06:48,921 --> 00:06:51,820
+Esses plugins, gente, eles têm diversas funções.
+
+137
+00:06:52,429 --> 00:06:54,069
+Das mais variadas possíveis.
+
+138
+00:06:54,070 --> 00:06:55,868
+Como a gente está falando especificamente de
+
+139
+00:06:55,869 --> 00:06:59,266
+codescan, onde e como, no sentido de?
+
+140
+00:06:59,267 --> 00:07:01,885
+Preciso fazer scan do meu código, como e onde?
+
+141
+00:07:03,144 --> 00:07:04,943
+Os plugins da ideia são muito
+
+142
+00:07:04,944 --> 00:07:08,402
+úteis, mas tem que tomar cuidado. Por quê?
+
+143
+00:07:09,159 --> 00:07:13,557
+Muita solução oferece a opção de você disparar
+
+144
+00:07:13,558 --> 00:07:17,955
+scan requisitar scan fazer o scan enfim pela
+
+145
+00:07:17,956 --> 00:07:20,923
+ideia então através de botãozinho ele normalmente estava
+
+146
+00:07:20,924 --> 00:07:23,562
+em uma extensão, plugin, então agora aperta botãozinho,
+
+147
+00:07:23,563 --> 00:07:25,641
+está com o projeto aberto na IDE, aperta
+
+148
+00:07:25,642 --> 00:07:27,859
+botãozinho ele dispara o scan. Né?
+
+149
+00:07:27,860 --> 00:07:29,178
+Se o scan é local, se o
+
+150
+00:07:29,179 --> 00:07:30,898
+scan é no servidor, não interessa.
+
+151
+00:07:30,899 --> 00:07:32,097
+Você tem botão que você vai
+
+152
+00:07:32,098 --> 00:07:34,956
+lá perto, opa, disparei no scan. Lindo, maravilhoso.
+
+153
+00:07:35,564 --> 00:07:37,164
+Então você quer uma análise sash, você
+
+154
+00:07:37,165 --> 00:07:38,663
+aperta o botão e faz o sash.
+
+155
+00:07:39,762 --> 00:07:42,041
+Então o segundo fator aqui que
+
+156
+00:07:42,042 --> 00:07:43,830
+são os resultados desse sash.
+
+157
+00:07:44,749 --> 00:07:48,667
+Muitas dessas soluções não te trazem essa vantagem.
+
+158
+00:07:48,668 --> 00:07:51,604
+Você dispara o scan, disparou.
+
+159
+00:07:51,605 --> 00:07:53,524
+E aí talvez você dá progresso ali de quanto tá
+
+160
+00:07:53,525 --> 00:07:57,881
+rodando aquele escanta não mas os resultados né o report
+
+161
+00:07:57,882 --> 00:08:00,379
+as vulnerabilidades encontrar tá tá tá tá tem que ir
+
+162
+00:08:00,380 --> 00:08:04,177
+lá na ferramenta, acessar a ideia da ferramenta, a ideia
+
+163
+00:08:04,178 --> 00:08:06,976
+da ferramenta, desculpa, a UI da ferramenta, a interface da
+
+164
+00:08:06,977 --> 00:08:09,315
+ferramenta, pra você poder ver os resultados.
+
+165
+00:08:09,914 --> 00:08:12,913
+Todas elas têm que oferecer isso, mas algumas, e
+
+166
+00:08:12,914 --> 00:08:15,951
+aí trago aqui pouquinho de novo a questão do
+
+167
+00:08:15,952 --> 00:08:19,298
+check list, te oferecem resultados direto na IDE.
+
+168
+00:08:19,299 --> 00:08:21,057
+Então fez escão os resultados já carregam
+
+169
+00:08:21,058 --> 00:08:22,217
+na IDE pra você se já navega
+
+170
+00:08:22,218 --> 00:08:24,116
+no código de haver vulnerabilidade jurídica.
+
+171
+00:08:25,684 --> 00:08:28,803
+Outras ainda oferecem até a gestão da vulnerabilidade.
+
+172
+00:08:28,804 --> 00:08:30,842
+Você pode olhar e falar cara, esse funding aqui
+
+173
+00:08:30,843 --> 00:08:34,069
+nessa vulnerabilidade encontrada, que é o falso positivo, ou
+
+174
+00:08:34,070 --> 00:08:37,587
+aceito risco ou vou priorizar já aqui ou já
+
+175
+00:08:37,588 --> 00:08:39,967
+vou abrir ticket já no meu sistema de ticket
+
+176
+00:08:40,884 --> 00:08:42,843
+até alguns benefícios a mais.
+
+177
+00:08:42,844 --> 00:08:45,442
+Então, essa funcionalidade da IDE eu sou
+
+178
+00:08:45,443 --> 00:08:47,641
+meio crítica com relação a ela. Por quê?
+
+179
+00:08:47,642 --> 00:08:49,360
+Ela traz muito benefício.
+
+180
+00:08:49,361 --> 00:08:56,786
+Desde que Permita fazer o scan e ver os resultados.
+
+181
+00:08:56,787 --> 00:09:00,553
+Fazer o scan por fazer Não sei se é
+
+182
+00:09:00,554 --> 00:09:04,412
+bom, uma boa funcionalidade, mas ver os resultados sim.
+
+183
+00:09:05,111 --> 00:09:07,679
+Aliás, Eu diria que é até melhor, né?
+
+184
+00:09:07,680 --> 00:09:09,917
+Quando você fez escala, você é ESG e
+
+185
+00:09:09,918 --> 00:09:11,877
+quebra os resultados na sua ideia é legal.
+
+186
+00:09:11,878 --> 00:09:14,714
+Mas Disparar os clientes de sorte pode ser
+
+187
+00:09:14,715 --> 00:09:17,273
+pode não ser tão benéfico, sei lá.
+
+188
+00:09:17,274 --> 00:09:19,492
+Eu não gosto tanto só dessa parte dos paraliscando.
+
+189
+00:09:20,152 --> 00:09:22,999
+Então, tem essa parte aqui que a gente está falando.
+
+190
+00:09:23,000 --> 00:09:25,958
+O outro item que ele é adicionado também nessa parte
+
+191
+00:09:25,959 --> 00:09:29,756
+da IDE, e aí ele é polêmico, porque eu particularmente,
+
+192
+00:09:29,757 --> 00:09:35,022
+eu, o Cássio, quando desenvolvia não gostava, mas tem o
+
+193
+00:09:35,023 --> 00:09:39,569
+seu valor, são os famosos Linters, os Links que são
+
+194
+00:09:39,570 --> 00:09:43,087
+aquelas soluções que você tá digitando código ele já corrigirem
+
+195
+00:09:43,088 --> 00:09:46,544
+para você já te dá uma sugestão uma dica né,
+
+196
+00:09:46,545 --> 00:09:49,503
+põe ali vermelho ali embaixo, pinta ali o código de
+
+197
+00:09:49,504 --> 00:09:53,061
+uma cor diferente, abre popupzinho, chipzinho, você tem que clicar
+
+198
+00:09:53,062 --> 00:09:54,670
+ali e ver as sugestões, tal, tal, tal.
+
+199
+00:09:55,789 --> 00:09:59,187
+Tem ferramentas que oferecem uma análise SAST mesmo dentro
+
+200
+00:09:59,188 --> 00:10:00,986
+do link, então você tá digitando, tá rodando uma
+
+201
+00:10:00,987 --> 00:10:03,405
+análise SAST pra ver se aquilo é uma vulnerabilidade.
+
+202
+00:10:03,914 --> 00:10:05,873
+Quanto que tem, por exemplo, lentes que
+
+203
+00:10:05,874 --> 00:10:07,073
+são só de qualidade do core.
+
+204
+00:10:07,074 --> 00:10:09,312
+Olha, esse código poderia ser mais performático, esse código
+
+205
+00:10:09,313 --> 00:10:11,791
+poderia ser mais assim, poderia ser mais assado.
+
+206
+00:10:11,792 --> 00:10:13,969
+Dois lentes gente, Por que que eles são polêmicos?
+
+207
+00:10:13,970 --> 00:10:16,288
+Porque tem muito desenvolvedor que não gosta.
+
+208
+00:10:16,289 --> 00:10:17,727
+Ele quer digitar, terminar o
+
+209
+00:10:17,728 --> 00:10:19,206
+código dele, depois ele avalia.
+
+210
+00:10:19,207 --> 00:10:20,646
+Deixa ele terminar o raciocínio.
+
+211
+00:10:20,647 --> 00:10:22,305
+E tem desenvolvedor que gosta.
+
+212
+00:10:22,834 --> 00:10:24,674
+Você está digitando, o link te
+
+213
+00:10:24,675 --> 00:10:26,713
+ajudando, já resolvendo aquele código.
+
+214
+00:10:26,714 --> 00:10:28,672
+Então é meio polêmico, eu não gosto, não
+
+215
+00:10:28,673 --> 00:10:30,511
+estou dizendo que não é bom isso.
+
+216
+00:10:30,512 --> 00:10:31,670
+Aliás, do ponto de vista de
+
+217
+00:10:31,671 --> 00:10:33,639
+segurança, Cara, isso é sensacional.
+
+218
+00:10:34,738 --> 00:10:37,097
+Você tá até codor, descreveu a linha de
+
+219
+00:10:37,098 --> 00:10:39,736
+código, ou método, ou uma classe, me descreveu
+
+220
+00:10:39,737 --> 00:10:41,374
+ali, o Lead já está te trazendo uma
+
+221
+00:10:41,375 --> 00:10:43,673
+análise tempo real daquilo, cara, isso é sensacional.
+
+222
+00:10:44,372 --> 00:10:45,372
+O que você tem que ver é
+
+223
+00:10:45,373 --> 00:10:47,449
+o ruído que isso traz pro desenvolvedor.
+
+224
+00:10:47,450 --> 00:10:51,368
+Você não prejudica a produtividade, esse tipo de coisa.
+
+225
+00:10:51,369 --> 00:10:52,507
+Não é ter o seu benefício
+
+226
+00:10:53,127 --> 00:10:55,904
+absurdo, mas isso pode ser problema.
+
+227
+00:10:55,905 --> 00:10:58,023
+Tem que ter que avaliar com calma os links.
+
+228
+00:10:58,024 --> 00:10:59,143
+Eu diria para validar a
+
+229
+00:10:59,144 --> 00:11:00,742
+ferramenta que você está usando.
+
+230
+00:11:00,743 --> 00:11:02,481
+Conte o seu time de dev.
+
+231
+00:11:03,101 --> 00:11:05,839
+E muito link ele é gratuito, tem muito
+
+232
+00:11:05,840 --> 00:11:07,998
+link integrado com a ferramenta Sasha que você
+
+233
+00:11:07,999 --> 00:11:12,116
+comprou, então precisa avaliar o noise, o ruído
+
+234
+00:11:12,117 --> 00:11:15,584
+que esse link traz compensação com o benefício.
+
+235
+00:11:15,585 --> 00:11:18,063
+Até por mais que seja benéfico, por mais que
+
+236
+00:11:18,064 --> 00:11:20,862
+seja benefício muito grande, às vezes o ruído ele
+
+237
+00:11:20,863 --> 00:11:24,219
+incomoda e aí acaba segurança vai acabar perdendo.
+
+238
+00:11:24,220 --> 00:11:26,818
+Então não tenta forçar essa parte da ideia,
+
+239
+00:11:26,819 --> 00:11:28,657
+no sentido de desenvolver, tem que usar e
+
+240
+00:11:28,658 --> 00:11:29,736
+plantar a boca, tal, tal, tal.
+
+241
+00:11:29,737 --> 00:11:31,295
+Esse ponto eu acho que é opcional.
+
+242
+00:11:31,296 --> 00:11:32,365
+Esse é o único.
+
+243
+00:11:32,366 --> 00:11:36,083
+Tá o único ponto que eu jogo a favor do time dos devs
+
+244
+00:11:36,084 --> 00:11:39,281
+aí de cara a ideia é minha é o meu jeito de trabalhar
+
+245
+00:11:39,282 --> 00:11:43,109
+aqui eu uso o link se eu quiser opcional tá tal.
+
+246
+00:11:43,110 --> 00:11:48,347
+Então essa é dos pilares aqui do Cold Scan onde
+
+247
+00:11:48,348 --> 00:11:53,473
+como, onde na IDE como apertando botão, ou seja, scan
+
+248
+00:11:53,474 --> 00:11:56,112
+manual, você tem que apertar botão, você tem que solicitar,
+
+249
+00:11:56,113 --> 00:11:59,159
+talvez ou outro plugin possa permitir que você configure no
+
+250
+00:11:59,160 --> 00:12:02,038
+sentido de cara, eu salvei o arquivo ali, trigo automático,
+
+251
+00:12:02,039 --> 00:12:05,356
+scan, ou rodei comando aqui de compilar minha aplicação dependendo
+
+252
+00:12:05,357 --> 00:12:10,513
+da linguagem, dispara o scan, então, imaginações aí mais possíveis
+
+253
+00:12:10,514 --> 00:12:13,992
+que você possa possa pensar pra trigar esse scan, pra
+
+254
+00:12:13,993 --> 00:12:17,439
+talvez até automatizar ele no sentido de quando esse scan
+
+255
+00:12:17,440 --> 00:12:18,399
+acontece, beleza?
+
+256
+00:12:18,400 --> 00:12:22,117
+Então essa é 1, esse é 1, o primeiro
+
+257
+00:12:22,118 --> 00:12:24,534
+pilar que eu queria abordar com os segurança
+
+258
+00:12:25,074 --> 00:12:27,293
+tecnologia deve ser copos
+
+259
+00:12:27,912 --> 00:12:31,871
+o segundo pilar gente aí é para mim já deixa
+
+260
+00:12:31,872 --> 00:12:36,398
+de ser opcional mas também tem uma certa restrição de
+
+261
+00:12:36,399 --> 00:12:38,957
+acordo com a ferramenta que está usando, nem todo SAST
+
+262
+00:12:38,958 --> 00:12:42,975
+oferece isso, nem todo SMA oferece isso, não é SMA
+
+263
+00:12:42,976 --> 00:12:45,813
+seu escudo management ou seu famoso repositório.
+
+264
+00:12:45,814 --> 00:12:48,372
+Então tem que tomar pouco de cuidado, mas,
+
+265
+00:12:48,373 --> 00:12:50,771
+praticamente, todo mundo está indo para essa linha
+
+266
+00:12:50,772 --> 00:12:54,279
+hoje em dia que são os famosos actions.
+
+267
+00:12:54,280 --> 00:12:57,557
+Então, todo repositório de código tem uma action, como
+
+268
+00:12:57,558 --> 00:12:59,636
+você faz commit, quando você faz o push, quando
+
+269
+00:12:59,637 --> 00:13:03,164
+você faz pull request, merge request, enfim, tem várias
+
+270
+00:13:03,165 --> 00:13:06,863
+actions ali que acontece no repositório remoto, normalmente.
+
+271
+00:13:08,082 --> 00:13:10,001
+Até no repositório local também obviamente, né?
+
+272
+00:13:10,002 --> 00:13:14,838
+Então as actions na minha visão é uma das formas
+
+273
+00:13:14,839 --> 00:13:19,774
+de você fazer fortemente disco ou é a primeira delas
+
+274
+00:13:19,775 --> 00:13:22,253
+Porque na ideia, cara, é meio opcional, beleza.
+
+275
+00:13:22,254 --> 00:13:24,572
+Mas a partir do momento que eu desenvolvedor, tá?
+
+276
+00:13:24,573 --> 00:13:26,411
+Tô aqui com meu código na minha IDE.
+
+277
+00:13:26,412 --> 00:13:28,249
+Vou dar exemplo clássico aqui para vocês.
+
+278
+00:13:28,250 --> 00:13:30,108
+Estou com meu Visual Studio aberto aqui, eu era
+
+279
+00:13:30,109 --> 00:13:32,927
+do .NET, então estou com meu Visual Studio aberto.
+
+280
+00:13:34,106 --> 00:13:36,724
+Passei dois dias aqui, creme, lá, se conectei com
+
+281
+00:13:36,725 --> 00:13:39,683
+o banco, criei uma tela aqui de CRUD. Beleza.
+
+282
+00:13:39,684 --> 00:13:40,682
+Terminei, terminei.
+
+283
+00:13:40,683 --> 00:13:42,581
+Testei o roteiro lindo, maravilhoso.
+
+284
+00:13:43,499 --> 00:13:47,177
+Faço commit, push disso, não só do repositório, da
+
+285
+00:13:47,178 --> 00:13:49,736
+minha máquina, mas do repositório remoto, né, numa branch
+
+286
+00:13:49,737 --> 00:13:53,003
+x BRANGE DE DESENVOLVIMENTO PRAZO DE CAÇO.
+
+287
+00:13:54,183 --> 00:13:56,381
+Esse momento, que eu criei essa branch e
+
+288
+00:13:56,382 --> 00:13:58,021
+fiz esse post pra essa branch muda, eu
+
+289
+00:13:58,022 --> 00:14:00,109
+estou sob remoto, é uma action.
+
+290
+00:14:00,110 --> 00:14:04,587
+Então esse momento é ideal, ideal pra fazer isca,
+
+291
+00:14:04,588 --> 00:14:09,544
+pra trigar isca automático desse push que eu fiz.
+
+292
+00:14:09,545 --> 00:14:13,103
+De todo esse código, enfim, Javascript, frontend,
+
+293
+00:14:13,104 --> 00:14:16,201
+backend, mas vai fazer scan disso tudo.
+
+294
+00:14:17,209 --> 00:14:18,929
+Nesses dois dias de trabalho, dia de
+
+295
+00:14:18,930 --> 00:14:20,808
+trabalho, uma hora de trabalho, não importa.
+
+296
+00:14:20,809 --> 00:14:22,967
+Mas o Action aconteceu, o
+
+297
+00:14:22,968 --> 00:14:26,084
+scan é automaticamente iniciado.
+
+298
+00:14:26,085 --> 00:14:28,523
+Normalmente quem faz isso, as ferramentas de
+
+299
+00:14:28,524 --> 00:14:30,722
+Sasha se integram aos seus SM.
+
+300
+00:14:30,723 --> 00:14:31,802
+Vou usar o exemplo aqui do
+
+301
+00:14:31,803 --> 00:14:33,850
+GitHub que é dos mais populares.
+
+302
+00:14:33,851 --> 00:14:35,769
+Então ela integra no seu GitHub normalmente
+
+303
+00:14:35,770 --> 00:14:37,488
+você tem Tolkien, tem uma premissa onde
+
+304
+00:14:37,489 --> 00:14:39,727
+ela fez ela integração muito simples.
+
+305
+00:14:39,728 --> 00:14:42,214
+Assim que acontece, aí a ferramenta fica escutando, tem
+
+306
+00:14:42,215 --> 00:14:44,293
+webhoop e tal, elas ficam se conversando ali.
+
+307
+00:14:44,294 --> 00:14:46,932
+A partir do momento que acontece action, o GitHub
+
+308
+00:14:46,933 --> 00:14:49,051
+informa pra essa ferramenta que ele tem uma integração,
+
+309
+00:14:49,052 --> 00:14:51,619
+olha, tem pull request aqui nessa branch.
+
+310
+00:14:51,620 --> 00:14:53,858
+Essa ferramenta vai lá, opa, pull request, tem uma
+
+311
+00:14:53,859 --> 00:14:56,257
+configuração que pra cada pull request, pra cada push,
+
+312
+00:14:56,258 --> 00:14:58,496
+nesse exemplo aqui, eu preciso fazer scan, então ele
+
+313
+00:14:58,497 --> 00:15:01,424
+vai pegar esse código que vai fazer scan. Simples assim.
+
+314
+00:15:02,324 --> 00:15:04,123
+Nesse exemplo que eu comecei que eu falei do
+
+315
+00:15:04,124 --> 00:15:06,042
+push especificamente, então eu já estou dando push e
+
+316
+00:15:06,043 --> 00:15:08,779
+no meu consultório, na minha branch, Mas normalmente o
+
+317
+00:15:08,780 --> 00:15:10,978
+fluxo de trabalho, dependendo da branch, né, branch de
+
+318
+00:15:10,979 --> 00:15:13,057
+dev, branch local, você consegue fazer isso.
+
+319
+00:15:13,058 --> 00:15:14,176
+Mas normalmente o que acontece?
+
+320
+00:15:14,177 --> 00:15:16,714
+O desenvolvedor terminou isso, fiz o meu
+
+321
+00:15:16,715 --> 00:15:19,513
+post na branch clássico, na branch clássico.
+
+322
+00:15:19,514 --> 00:15:20,632
+E agora o que eu vou fazer?
+
+323
+00:15:20,633 --> 00:15:23,231
+Eu preciso jogar isso pra mim ou pra branch developer,
+
+324
+00:15:23,232 --> 00:15:25,739
+pra branch de QA, pra branch de integração ou uma
+
+325
+00:15:25,740 --> 00:15:29,537
+branch intermediária depende aí do N fatores mas é mais
+
+326
+00:15:29,538 --> 00:15:31,656
+ou menos como a galera usa aí tá se você
+
+327
+00:15:31,657 --> 00:15:35,174
+usa kit float você usa flow nenhum não porta, mas
+
+328
+00:15:35,175 --> 00:15:37,293
+normalmente é isso, você tem uma feature brent, uma branch
+
+329
+00:15:37,294 --> 00:15:40,212
+intermediária e a branch master main, enfim.
+
+330
+00:15:40,213 --> 00:15:43,450
+Então, pra você jogar o seu código dessa branch
+
+331
+00:15:43,451 --> 00:15:47,138
+intermediária, vamos chamar assim é o brinde de integração
+
+332
+00:15:47,139 --> 00:15:49,097
+você não consegue fazer push direto você tem que
+
+333
+00:15:49,098 --> 00:15:53,404
+abrir pull request não pull request para que alguém
+
+334
+00:15:53,405 --> 00:15:56,282
+aprove isso para essa branch de integração. Beleza?
+
+335
+00:15:56,283 --> 00:15:58,641
+É mais ou menos como funciona no dia a dia.
+
+336
+00:15:58,642 --> 00:16:00,410
+Esse pull request é uma outra action.
+
+337
+00:16:00,411 --> 00:16:02,009
+Agora você vai jogar o seu código pra uma
+
+338
+00:16:02,010 --> 00:16:03,968
+outra branch, pra outro lugar, não tinha outras pessoas
+
+339
+00:16:03,969 --> 00:16:06,566
+trabalhando, o código tá mais estável, aquela coisa toda.
+
+340
+00:16:06,567 --> 00:16:09,305
+Essa action também teria scan.
+
+341
+00:16:10,034 --> 00:16:13,113
+Normalmente você abre aí tem várias formas de trabalhar
+
+342
+00:16:13,114 --> 00:16:14,912
+né mas sei lá pull request por dia 10
+
+343
+00:16:14,913 --> 00:16:17,111
+por dia depende depende do projeto depende do trabalho
+
+344
+00:16:17,112 --> 00:16:19,829
+depende do débito depende de fatores tá pra cada
+
+345
+00:16:19,830 --> 00:16:22,828
+pull request também é adicionado em lista.
+
+346
+00:16:22,829 --> 00:16:26,266
+As ferramentas de sash, a maioria delas já integra,
+
+347
+00:16:26,267 --> 00:16:28,174
+já olha o seu pull request, já faz scan
+
+348
+00:16:28,175 --> 00:16:29,814
+muito rápido, porque é play quest, né?
+
+349
+00:16:29,815 --> 00:16:32,252
+Não, o professor esconde inteiro, né?
+
+350
+00:16:32,253 --> 00:16:34,371
+Ele vai analisar só aquilo, e aí entra
+
+351
+00:16:34,372 --> 00:16:36,650
+aquela questão do scan incremental, o scan Fuck,
+
+352
+00:16:36,651 --> 00:16:38,219
+a gente já conversou várias vezes.
+
+353
+00:16:38,220 --> 00:16:40,218
+Mas vamos lá, ferramenta de site vai fazer uma
+
+354
+00:16:40,219 --> 00:16:44,056
+análise e já no pull request, colocar ali comentário,
+
+355
+00:16:44,057 --> 00:16:46,094
+bloquear esse pull request, falar ó, ele não está
+
+356
+00:16:46,095 --> 00:16:48,253
+passando na validação uma validação aqui é que o
+
+357
+00:16:48,254 --> 00:16:51,931
+scan não tenha vulnerabilidades altas por exemplo ou a
+
+358
+00:16:51,932 --> 00:16:53,979
+validação é tem que ter você não tá rodando
+
+359
+00:16:53,980 --> 00:16:56,418
+esse campo pull request automaticamente bloqueado né eu fico
+
+360
+00:16:56,419 --> 00:16:59,496
+ali com disable de duas pessoas tem que aprovar
+
+361
+00:16:59,497 --> 00:17:02,264
+aquele pull request então você como desenvolvedor seu flow
+
+362
+00:17:02,265 --> 00:17:04,503
+de código tá bloqueado, você precisa resolver esse problema.
+
+363
+00:17:04,504 --> 00:17:06,702
+Então você corrigiu a vulnerabilidade, você submete
+
+364
+00:17:06,703 --> 00:17:08,061
+o scan como é o caso.
+
+365
+00:17:08,062 --> 00:17:10,780
+Então, essa integração na lente automatizada
+
+366
+00:17:10,781 --> 00:17:13,678
+permite que Sasha, as ferramentas escaneem,
+
+367
+00:17:13,679 --> 00:17:16,117
+façam isso automatizado baseado em ações
+
+368
+00:17:16,118 --> 00:17:19,274
+que você definiu no seu repositório. Beleza?
+
+369
+00:17:19,275 --> 00:17:20,354
+Essa é uma das formas, a
+
+370
+00:17:20,355 --> 00:17:21,873
+gente tá todo mundo caminhando, né?
+
+371
+00:17:21,874 --> 00:17:24,472
+Então a gente fala de actions no repositório,
+
+372
+00:17:24,473 --> 00:17:28,439
+por request merge quest push, commit, enfim, tá?
+
+373
+00:17:28,440 --> 00:17:29,959
+E alinhado a isso, ainda você
+
+374
+00:17:29,960 --> 00:17:31,278
+tem a estratégia de branches.
+
+375
+00:17:31,279 --> 00:17:34,516
+Então, por exemplo, se eu estou trabalhando numa feature branches, por
+
+376
+00:17:34,517 --> 00:17:37,263
+exemplo, meu código aqui só eu tô trabalhando na feature bem
+
+377
+00:17:37,264 --> 00:17:40,662
+de caixa por exemplo, eu limpar ou eu no meu time
+
+378
+00:17:40,663 --> 00:17:43,860
+essa pra essa pra essa pra eu eu vou fazer scan
+
+379
+00:17:43,861 --> 00:17:47,049
+só quando for feito push né que ela tá subindo agora
+
+380
+00:17:47,050 --> 00:17:49,247
+eu vou fazendo scan ou eu não vou fazer scan nessa
+
+381
+00:17:49,248 --> 00:17:51,526
+branch eu vou fazer scan só quando eu for fazer pull
+
+382
+00:17:51,527 --> 00:17:54,304
+request para branch de integração só que aí eu vou ter
+
+383
+00:17:54,305 --> 00:17:56,223
+pacote maior de código, aquela coisa toda.
+
+384
+00:17:56,224 --> 00:17:59,102
+Mas tem essa estratégia de Scamper Branch também,
+
+385
+00:17:59,103 --> 00:18:02,759
+que vale ser muito levado em consideração. Por quê?
+
+386
+00:18:02,760 --> 00:18:05,438
+Dependendo do seu SAST, você pode ter
+
+387
+00:18:05,439 --> 00:18:08,916
+limitação de licença, de processamento, de quantidade
+
+388
+00:18:08,917 --> 00:18:11,205
+de scan, de fila, sei lá.
+
+389
+00:18:11,206 --> 00:18:13,424
+Depende do Sasha, depende de como é o licenciamento.
+
+390
+00:18:14,363 --> 00:18:17,161
+Mas imagina, se você vai disparar escanteio para cada
+
+391
+00:18:17,162 --> 00:18:20,730
+push, quantos posts não acontecem numa feature brent?
+
+392
+00:18:20,731 --> 00:18:23,448
+Quantos posts acontecem no Oficina de Integração?
+
+393
+00:18:23,449 --> 00:18:26,926
+Quantos posts acontecem por dia? Por semana? Por mês?
+
+394
+00:18:26,927 --> 00:18:31,093
+Então isso pode ser uma questão aí de custo até pra
+
+395
+00:18:31,094 --> 00:18:34,731
+pro seu SAST, ou custo financeiro mesmo que a sua licença
+
+396
+00:18:34,732 --> 00:18:38,039
+é cobrada por isso, ou custo do sentido de tempo, seu
+
+397
+00:18:38,040 --> 00:18:43,277
+site processa, sei lá, 3 scans a cada minuto.
+
+398
+00:18:43,278 --> 00:18:45,715
+E você tem uma fila agora de 100 scans.
+
+399
+00:18:45,716 --> 00:18:49,872
+Então 97 scans vão esperar três minutos ou minuto, né?
+
+400
+00:18:49,873 --> 00:18:51,352
+Quando acabar entra o botão.
+
+401
+00:18:51,353 --> 00:18:53,959
+Então tem que ter pouquinho de pensamento
+
+402
+00:18:53,960 --> 00:18:57,677
+de sizing nessa questão, porque as actions
+
+403
+00:18:57,678 --> 00:19:00,916
+acabam sendo muito grandes, o volume de
+
+404
+00:19:00,917 --> 00:19:02,974
+actions é muito grande no seu repositório.
+
+405
+00:19:02,975 --> 00:19:04,773
+Essa estratégia tem que ser muito bem montada.
+
+406
+00:19:04,774 --> 00:19:07,572
+Por isso que essa questão de branch ajuda muito.
+
+407
+00:19:07,573 --> 00:19:09,720
+Ah, eu vou só fazer isso quando a branch deve.
+
+408
+00:19:09,721 --> 00:19:12,158
+Da frente man master, da frente de integração,
+
+409
+00:19:12,159 --> 00:19:13,678
+da frente de QA, a feature day eu
+
+410
+00:19:13,679 --> 00:19:15,917
+não vou olhar, por exemplo, mas depende.
+
+411
+00:19:15,918 --> 00:19:17,796
+Então tem que pensar como fazer isso.
+
+412
+00:19:17,797 --> 00:19:18,575
+Qual é a melhor solução?
+
+413
+00:19:18,576 --> 00:19:21,733
+A gente não tem melhor para esse contexto não tem.
+
+414
+00:19:21,734 --> 00:19:25,851
+O que eu acho que eu acho que deveria ser feito?
+
+415
+00:19:25,852 --> 00:19:27,151
+Escaneio sempre.
+
+416
+00:19:27,809 --> 00:19:32,847
+Então FTB, criou, faz scan, faz scan continuamente, né?
+
+417
+00:19:32,848 --> 00:19:34,686
+E aí tem sash que suporte isso.
+
+418
+00:19:34,687 --> 00:19:37,503
+Bom, porque eu quanto antes achar problema melhor.
+
+419
+00:19:37,504 --> 00:19:39,303
+Então o time inteiro trabalhou aqui
+
+420
+00:19:39,304 --> 00:19:40,782
+duas semanas na feature de branch.
+
+421
+00:19:40,783 --> 00:19:43,489
+Agora eu vou fazer pull request pra branch master. Né?
+
+422
+00:19:43,490 --> 00:19:44,609
+De pacote de código.
+
+423
+00:19:44,610 --> 00:19:45,608
+Aí vai fazer externo, vai
+
+424
+00:19:45,609 --> 00:19:46,728
+achar monte de vulnerabilidade.
+
+425
+00:19:46,729 --> 00:19:49,087
+Então, você tem duas semanas de trabalho, que agora
+
+426
+00:19:49,088 --> 00:19:51,046
+vai ter que parar minuto ali, resolver alguns segundos.
+
+427
+00:19:51,047 --> 00:19:52,085
+O que vai ter?
+
+428
+00:19:52,086 --> 00:19:53,834
+É natural que tempo.
+
+429
+00:19:53,835 --> 00:19:55,473
+Seja problema, vai ter.
+
+430
+00:19:55,474 --> 00:19:57,273
+Esse problema foi se encontrado no primeiro dia,
+
+431
+00:19:57,274 --> 00:19:58,632
+que foi a primeira parte do código lá,
+
+432
+00:19:58,633 --> 00:20:00,951
+já teria resolvido essas duas semanas, seria sentido
+
+433
+00:20:00,952 --> 00:20:03,368
+mais otimizado, vamos dizer assim, né?
+
+434
+00:20:03,369 --> 00:20:04,868
+Porque o business é business, business é
+
+435
+00:20:04,869 --> 00:20:06,247
+business, business então eu tô pensando aqui
+
+436
+00:20:06,248 --> 00:20:08,466
+pouco na questão do business também, tá?
+
+437
+00:20:12,114 --> 00:20:14,673
+Outro aspecto, outro pilar, a gente já falou
+
+438
+00:20:14,674 --> 00:20:17,951
+de ideia, falamos de action, dentro de ideia,
+
+439
+00:20:17,952 --> 00:20:21,019
+link, scan, dentro de action, actions por branch
+
+440
+00:20:21,020 --> 00:20:22,978
+também e cada action também.
+
+441
+00:20:22,979 --> 00:20:25,957
+Tem o terceiro pilar aqui, gente, que é agendamento.
+
+442
+00:20:27,614 --> 00:20:28,214
+Agendamento.
+
+443
+00:20:28,215 --> 00:20:29,314
+O que isso quer dizer?
+
+444
+00:20:30,093 --> 00:20:32,492
+O seu scan, e aí essa questão
+
+445
+00:20:32,493 --> 00:20:34,271
+do agendamento também, o que eu acho?
+
+446
+00:20:35,131 --> 00:20:36,679
+Ela é crucial, por quê?
+
+447
+00:20:36,680 --> 00:20:38,758
+Dependendo de como é o seu os action,
+
+448
+00:20:38,759 --> 00:20:40,938
+por exemplo, você faz scan, cada é.
+
+449
+00:20:41,997 --> 00:20:44,156
+Facebook está acontecendo scan a todo momento, o
+
+450
+00:20:44,157 --> 00:20:45,934
+seu código está sendo analisado a todo momento.
+
+451
+00:20:45,935 --> 00:20:50,812
+Mas partes dele isoladas tá o agendamento a
+
+452
+00:20:50,813 --> 00:20:54,949
+possibilidade de agendar scan seja diretamente no seu
+
+453
+00:20:54,950 --> 00:20:57,787
+SAST, seja no seu CI CD, criar jobzinho
+
+454
+00:20:57,788 --> 00:21:01,406
+pra fazer isso, não interessa, mas criar agendamento.
+
+455
+00:21:02,105 --> 00:21:07,262
+Para garantir que o seu repositório inteiro sei lá você vai
+
+456
+00:21:07,263 --> 00:21:10,620
+olhar a branch x inteira o código inteiro que tá lá
+
+457
+00:21:10,621 --> 00:21:13,469
+toda vez à noite o scan vai demorar 1 hora, 2
+
+458
+00:21:13,470 --> 00:21:17,067
+horas, 30 minutos, 5 horas, não sei, depende, tá?
+
+459
+00:21:17,068 --> 00:21:18,306
+Mas isso é legal, por quê?
+
+460
+00:21:18,307 --> 00:21:19,986
+Porque você garante que o seu code base
+
+461
+00:21:19,987 --> 00:21:21,934
+inteiro, uma branch inteira está sendo escaneado.
+
+462
+00:21:21,935 --> 00:21:23,693
+Normalmente a gente faz isso com a branch
+
+463
+00:21:23,694 --> 00:21:25,572
+de integração ou com a branch master, que
+
+464
+00:21:25,573 --> 00:21:27,910
+é o código de produção entre aspas.
+
+465
+00:21:27,911 --> 00:21:30,108
+Então você tem ali scan noturno ou scan de
+
+466
+00:21:30,109 --> 00:21:32,227
+final de semana, depende do tamanho do seu código,
+
+467
+00:21:32,228 --> 00:21:33,787
+dá pra dar pra dar pra esquecer mais SUV
+
+468
+00:21:33,788 --> 00:21:35,906
+legal, mas é muito importante ter esse agendamento mesmo.
+
+469
+00:21:35,907 --> 00:21:38,674
+Porque você garante que de vez ou outra você está
+
+470
+00:21:38,675 --> 00:21:40,993
+olhando para o seu código como todo não só partes
+
+471
+00:21:40,994 --> 00:21:44,391
+dele isolado tá então às vezes o todo o fluxo
+
+472
+00:21:44,392 --> 00:21:47,409
+do código como todo traz uma vulnerabilidade de trabalhar escondida
+
+473
+00:21:47,410 --> 00:21:50,447
+num arquivo que não se manifestava, mas que integrando ou
+
+474
+00:21:50,448 --> 00:21:54,765
+outro ali, pinga problema que pode ser grave até, enfim.
+
+475
+00:21:54,766 --> 00:21:57,024
+Tá, mas essa questão do agendamento eu diria que
+
+476
+00:21:57,025 --> 00:21:59,582
+ela é não opcional, assim como o action.
+
+477
+00:21:59,583 --> 00:22:04,349
+A menos que você esteja usando repositório uma SM,
+
+478
+00:22:04,350 --> 00:22:06,908
+que não tem astions, mas é muito difícil.
+
+479
+00:22:06,909 --> 00:22:09,066
+Hoje, o Erbit Hub, o Erbit Pluket,
+
+480
+00:22:09,067 --> 00:22:10,806
+o ErbitLab é o Erbit DevOps.
+
+481
+00:22:11,455 --> 00:22:13,014
+Não foge muito disso.
+
+482
+00:22:13,015 --> 00:22:16,252
+Então você está fazendo checkin, checkout, push,
+
+483
+00:22:16,253 --> 00:22:18,871
+pull, commit, não foge muito disso.
+
+484
+00:22:19,439 --> 00:22:22,518
+E que seja outro também o princípio é o mesmo
+
+485
+00:22:22,519 --> 00:22:25,796
+tá então a ideia é que esse pilar do agendamento
+
+486
+00:22:25,797 --> 00:22:29,864
+ele complemente essa questão dos Action tá Antes de ir
+
+487
+00:22:29,865 --> 00:22:32,223
+para o quarto pilar que eu queria voltar no pilar
+
+488
+00:22:32,224 --> 00:22:37,210
+anterior, que é o dos O que eu penso?
+
+489
+00:22:37,211 --> 00:22:38,889
+Que eu acho que deveria fazer com
+
+490
+00:22:38,890 --> 00:22:41,228
+relação a bloqueio de pull request.
+
+491
+00:22:45,445 --> 00:22:48,854
+Eu acho crucial, porque de novo a ideia é
+
+492
+00:22:48,855 --> 00:22:53,211
+que o seu código esteja seguro ou do ponto
+
+493
+00:22:53,212 --> 00:22:55,330
+de vista com a sua capacidade de scan que
+
+494
+00:22:55,331 --> 00:23:01,038
+ele não tenha problemas Problemas aceitáveis, vamos chamar assim.
+
+495
+00:23:01,039 --> 00:23:02,477
+Você pode ter problemas baixos,
+
+496
+00:23:02,478 --> 00:23:04,356
+médios, altos, críticos, enfim.
+
+497
+00:23:04,357 --> 00:23:07,343
+Então às vezes A galera fala, puta, bloqueio por
+
+498
+00:23:07,344 --> 00:23:09,542
+request, mas aí não vai entregar mais nada.
+
+499
+00:23:09,543 --> 00:23:12,221
+Gente, não é tão caos assim não. Tem muito problema?
+
+500
+00:23:12,222 --> 00:23:13,109
+Tem.
+
+501
+00:23:13,110 --> 00:23:14,749
+Mas a maioria deles é médio,
+
+502
+00:23:14,750 --> 00:23:16,947
+baixo, tem algumas coisas altas.
+
+503
+00:23:16,948 --> 00:23:20,186
+E aí normalmente são problemas graves.
+
+504
+00:23:20,187 --> 00:23:24,033
+Então quando você faz pull request dispara o scan
+
+505
+00:23:24,034 --> 00:23:26,432
+esse pull request está de processando o scan traz
+
+506
+00:23:26,433 --> 00:23:29,790
+o resultado e tem problema grave e 50 problemas
+
+507
+00:23:29,791 --> 00:23:32,459
+médios por exemplo Você vai bloquear o currículo, acho
+
+508
+00:23:32,460 --> 00:23:33,538
+que tem 1 problema grave.
+
+509
+00:23:33,539 --> 00:23:35,737
+Não porque tem 51 problemas.
+
+510
+00:23:35,738 --> 00:23:38,456
+Esse problema grave resolvido neste exato momento
+
+511
+00:23:38,457 --> 00:23:40,375
+é o Shift F, responsabilidade do desenvolvedor.
+
+512
+00:23:40,376 --> 00:23:41,894
+Cara, rodou o teste unitário, o
+
+513
+00:23:41,895 --> 00:23:43,014
+seu código não tá passando.
+
+514
+00:23:43,015 --> 00:23:46,092
+Você vai arrumar o teste, escrever o teste, fazer
+
+515
+00:23:46,093 --> 00:23:48,791
+o teste passar, no sentido de resolver aquele problema.
+
+516
+00:23:50,030 --> 00:23:51,069
+Por que que a vulnerabilidade
+
+517
+00:23:51,070 --> 00:23:52,548
+galera não quer fazer isso?
+
+518
+00:23:52,549 --> 00:23:54,547
+Parece que a vulnerabilidade é bicho de sete cabeças,
+
+519
+00:23:54,548 --> 00:23:56,826
+às vezes é só botar if e se resolve.
+
+520
+00:23:56,827 --> 00:23:59,065
+Não muita das vezes é isso, né?
+
+521
+00:23:59,066 --> 00:24:04,492
+Então, Ok, o Equest para problemas autocríticos, enfim, e
+
+522
+00:24:04,493 --> 00:24:06,211
+aí você pode vender seu político, você pode vender
+
+523
+00:24:06,212 --> 00:24:07,611
+aqui para a média, você pode vender dentro da
+
+524
+00:24:07,612 --> 00:24:09,590
+sua maturidade, ao meu tratar do seu time.
+
+525
+00:24:10,319 --> 00:24:13,278
+E você bloqueia o push, bloqueia
+
+526
+00:24:13,279 --> 00:24:15,637
+o push, enfim, bloqueia o fluxo.
+
+527
+00:24:15,638 --> 00:24:17,844
+No caso do scramjetal não tem muito fluxo, né?
+
+528
+00:24:17,845 --> 00:24:19,244
+Você agendou instância que ia pegar
+
+529
+00:24:19,245 --> 00:24:20,883
+o resultado ali e verificar.
+
+530
+00:24:20,884 --> 00:24:22,882
+Mas quando a gente fala de action, z pro próximo
+
+531
+00:24:22,883 --> 00:24:25,759
+pilar que a gente vai falar o último agora, bloquear
+
+532
+00:24:25,760 --> 00:24:30,997
+para mim é fundamental desde que desde que você tenha
+
+533
+00:24:30,998 --> 00:24:35,174
+políticas que suportem isso que políticas são essas eu vou
+
+534
+00:24:35,175 --> 00:24:38,852
+bloquear o pull request e o pull request novamente cara
+
+535
+00:24:38,853 --> 00:24:41,331
+é uma classe método né uma coisa que é ou
+
+536
+00:24:41,332 --> 00:24:44,099
+dois arquivos três arquivos não Tem uns pull requests gigante?
+
+537
+00:24:44,100 --> 00:24:47,057
+Tem, mas aí é pouco da sua cultura de desenvolvimento.
+
+538
+00:24:47,058 --> 00:24:50,376
+Então, o pull requests realmente é micro, macro até.
+
+539
+00:24:50,377 --> 00:24:53,513
+Então, bloquear pull request que eu não tenho problema cara
+
+540
+00:24:53,514 --> 00:24:57,192
+é parte do dia a dia volta arrumese problema dois
+
+541
+00:24:57,193 --> 00:25:01,859
+problemas três cara e beleza continua o fluxo senão Mas
+
+542
+00:25:01,860 --> 00:25:03,538
+definir essa política que seus tente isso.
+
+543
+00:25:03,539 --> 00:25:05,497
+A política é, por exemplo, tá?
+
+544
+00:25:05,498 --> 00:25:08,176
+Não vai ter, é 0, dando novidades
+
+545
+00:25:08,177 --> 00:25:12,703
+críticas, até três rivalidades altas para 0.
+
+546
+00:25:12,704 --> 00:25:15,262
+Então se você tiver quatro vai bloquear, se tiver
+
+547
+00:25:15,263 --> 00:25:18,729
+uma crítica vai bloquear, mas se tiver 0 críticas
+
+548
+00:25:18,730 --> 00:25:21,528
+e duas altas você passa porque faz sua política
+
+549
+00:25:21,529 --> 00:25:24,446
+você definiu isso né talvez essas duas altas sejam
+
+550
+00:25:24,447 --> 00:25:26,664
+muito graves pra você, pro seu contexto, pro seu
+
+551
+00:25:26,665 --> 00:25:28,823
+impacto de negócio, mas sua política é essa.
+
+552
+00:25:28,824 --> 00:25:30,462
+Do ponto de vista estático, de olhar
+
+553
+00:25:30,463 --> 00:25:32,549
+ali pra número e bloquear, né?
+
+554
+00:25:32,550 --> 00:25:34,868
+Você pode ter uma exceção de aprovação, olhar pra isso
+
+555
+00:25:34,869 --> 00:25:37,227
+e tal, mas você tem que definir isso, né?
+
+556
+00:25:37,228 --> 00:25:38,866
+Por que que não pode acontecer?
+
+557
+00:25:38,867 --> 00:25:41,354
+Não definir nada, começa a bloquear, a sua
+
+558
+00:25:41,355 --> 00:25:43,953
+empresa meio que trava mesmo, é complicado.
+
+559
+00:25:43,954 --> 00:25:45,752
+E até a comunicação envolvida nisso.
+
+560
+00:25:45,753 --> 00:25:47,311
+A gente fala com os desenvolvedores, falar com as
+
+561
+00:25:47,312 --> 00:25:49,310
+squads, com os times, e assim pro jump.
+
+562
+00:25:49,311 --> 00:25:52,178
+Então Isso tem que levar muito em consideração. Sim.
+
+563
+00:25:52,179 --> 00:25:52,678
+Segurança.
+
+564
+00:25:53,338 --> 00:25:54,297
+Tecnologia.
+
+565
+00:25:54,298 --> 00:25:55,357
+Deve ser copys.
+
+566
+00:25:56,456 --> 00:25:59,344
+O quarto pilar, quarto e último pilar para
+
+567
+00:25:59,345 --> 00:26:01,023
+a gente caminhar para o final desse episódio,
+
+568
+00:26:01,024 --> 00:26:03,981
+porque não é episódio muito extenso, não?
+
+569
+00:26:03,982 --> 00:26:07,628
+É o CICID o Continuous Integration e o
+
+570
+00:26:07,629 --> 00:26:10,907
+Continuous Delivery, que muita gente fala, aliás, é
+
+571
+00:26:10,908 --> 00:26:14,725
+onde muita gente centraliza os seus scans.
+
+572
+00:26:15,394 --> 00:26:17,513
+De certa forma não tá errado.
+
+573
+00:26:17,514 --> 00:26:19,192
+O CSG, na minha visão,
+
+574
+00:26:19,193 --> 00:26:21,911
+ele é usado demasiadamente errado.
+
+575
+00:26:21,912 --> 00:26:23,790
+O cara tá desenvolvendo aquele
+
+576
+00:26:23,791 --> 00:26:25,299
+local, Terminei o meu código.
+
+577
+00:26:25,300 --> 00:26:27,658
+Fiz push e roda jogo do CSD.
+
+578
+00:26:27,659 --> 00:26:29,857
+Jogo vai fazer deploy em desenvolvimento.
+
+579
+00:26:29,858 --> 00:26:31,336
+Mas que às vezes eu nem vou usar.
+
+580
+00:26:31,337 --> 00:26:33,105
+Vou usar daqui duas semanas uma.
+
+581
+00:26:33,106 --> 00:26:35,263
+Mas tem tô consumindo recurso, tô rodando
+
+582
+00:26:35,264 --> 00:26:38,462
+uma pipeline, porque vira moda, né? Roda a pipeline.
+
+583
+00:26:38,463 --> 00:26:39,301
+Mano, calma.
+
+584
+00:26:39,302 --> 00:26:40,741
+É, como eu falei, você fez pull
+
+585
+00:26:40,742 --> 00:26:42,550
+request que o código nem tá compilando.
+
+586
+00:26:42,551 --> 00:26:44,748
+É pedaço do código que vai juntar com outro time,
+
+587
+00:26:44,749 --> 00:26:47,667
+com outro pedaço Esse pedaço já tá sendo analisado.
+
+588
+00:26:47,668 --> 00:26:49,666
+Se for esperar o CS de rodar pra fazer
+
+589
+00:26:49,667 --> 00:26:53,413
+essa análise, já foi dois dias, duas semanas, depende
+
+590
+00:26:53,414 --> 00:26:56,152
+do seu fluxo, o tempo está passando.
+
+591
+00:26:56,691 --> 00:27:00,669
+Então veja, quando é onde e como aqui dos scans
+
+592
+00:27:00,670 --> 00:27:02,627
+que a gente está falando agora é exatamente isso.
+
+593
+00:27:02,628 --> 00:27:05,906
+Quando antes do meu processo eu posso pegar esses problemas,
+
+594
+00:27:05,907 --> 00:27:08,245
+a ideia onde o código nasce é o primeiro deles.
+
+595
+00:27:08,894 --> 00:27:11,853
+A Action, ao segundo, a action está sempre acontecendo.
+
+596
+00:27:11,854 --> 00:27:13,652
+Eu tenho a minha memória no fim do dia, dou
+
+597
+00:27:13,653 --> 00:27:18,429
+commit, eu faço pelo menos commit, local, na minha, no
+
+598
+00:27:18,430 --> 00:27:20,947
+meu local, não vou fazer remote talvez, mas no meu
+
+599
+00:27:20,948 --> 00:27:23,506
+local, se eu tô numa fita de branch talvez, né?
+
+600
+00:27:23,507 --> 00:27:26,233
+Então, diariamente esse cão vai acontecer para
+
+601
+00:27:26,234 --> 00:27:28,193
+aquele pedaço de código foi produzido já
+
+602
+00:27:28,194 --> 00:27:30,351
+analisado se tiver problema já resolvido.
+
+603
+00:27:30,352 --> 00:27:32,590
+Não vai nem com a backlog, não vai nem ticket.
+
+604
+00:27:32,591 --> 00:27:34,509
+Ele já está aqui com o desenvolvedor, eu estou
+
+605
+00:27:34,510 --> 00:27:36,668
+no meu time tático, vamos dizer assim, né?
+
+606
+00:27:36,669 --> 00:27:39,506
+Não entra em nível estratégico, vão gerar backlog,
+
+607
+00:27:39,507 --> 00:27:43,584
+não, nem precisa disso, resolve isso agora. Percebe?
+
+608
+00:27:44,483 --> 00:27:46,122
+Aí você vem pra esse quarto pilar.
+
+609
+00:27:46,123 --> 00:27:47,122
+Quando a gente fala de Contínios
+
+610
+00:27:47,123 --> 00:27:48,801
+Integration em Contínios Delivery, né?
+
+611
+00:27:48,802 --> 00:27:50,520
+Eu tô partindo o princípio que eu vou
+
+612
+00:27:50,521 --> 00:27:53,548
+executar isso eu quero entregar o meu software.
+
+613
+00:27:53,549 --> 00:27:55,547
+Seja pra mim mesmo no sentido de
+
+614
+00:27:55,548 --> 00:27:58,874
+disponibilizar ambiente de desenvolvimento, ambiente de QA
+
+615
+00:27:58,875 --> 00:28:01,653
+préprodução, homologação até o ambiente produtivo.
+
+616
+00:28:02,472 --> 00:28:05,749
+Então vou rodar em uma pipeline que vai tá?
+
+617
+00:28:05,750 --> 00:28:08,148
+Minhas dependências, pegar a branch ali, o código
+
+618
+00:28:08,149 --> 00:28:11,147
+de todo mundo, vai fazer, rodar testes genitários,
+
+619
+00:28:11,148 --> 00:28:13,785
+rodar teste ali automatizado de UI por exemplo,
+
+620
+00:28:13,786 --> 00:28:16,634
+de interface, teste de carga, vai fazer monte
+
+621
+00:28:16,635 --> 00:28:19,712
+de coisa e vou dar teste de segurança.
+
+622
+00:28:19,713 --> 00:28:22,700
+Esse teste de segurança aqui, ele é double check.
+
+623
+00:28:22,701 --> 00:28:25,298
+Porque lá nos meus pull requests, nos meus
+
+624
+00:28:25,299 --> 00:28:27,217
+pushs lá atrás, já estava sendo escaneado.
+
+625
+00:28:27,218 --> 00:28:29,954
+E para alguns desenvolvedores que gostam do Lynch, já
+
+626
+00:28:29,955 --> 00:28:31,913
+codificou melhor e para quem gosta de usar o
+
+627
+00:28:31,914 --> 00:28:34,312
+scanner IDE, poxa, já acharam problemas antes.
+
+628
+00:28:34,313 --> 00:28:36,951
+Mas agora no meu Contínios Delivery, Contínios Integration,
+
+629
+00:28:36,952 --> 00:28:40,358
+onde eu estou Por exemplo, esse software funcional
+
+630
+00:28:40,359 --> 00:28:44,436
+num ambiente X, eu preciso garantir que vai
+
+631
+00:28:44,437 --> 00:28:47,255
+estar funcionando ou vai estar seguro.
+
+632
+00:28:47,256 --> 00:28:50,093
+E aí o conteúdo disso tudo eu vou fazer scan
+
+633
+00:28:50,094 --> 00:28:53,292
+é scan maior né que está juntando várias partes talvez
+
+634
+00:28:53,293 --> 00:28:56,339
+demore pouco mais de tempo mas é scan crítico. Por quê?
+
+635
+00:28:56,340 --> 00:28:58,778
+Eu estou agora entregando meu software, contínuas
+
+636
+00:28:58,779 --> 00:29:00,817
+delivery, eu estou entregando para alguém, mesmo
+
+637
+00:29:00,818 --> 00:29:02,256
+que esse alguém seja interno.
+
+638
+00:29:02,257 --> 00:29:03,455
+Então antes de entregar eu
+
+639
+00:29:03,456 --> 00:29:06,564
+quero garantir que foi escaneado.
+
+640
+00:29:06,565 --> 00:29:08,683
+Vai que alguém passou público, vai que
+
+641
+00:29:08,684 --> 00:29:10,802
+alguém aprovou sem ouvir a vulnerabilidade.
+
+642
+00:29:10,803 --> 00:29:13,121
+A minha política corporativa define que
+
+643
+00:29:13,122 --> 00:29:14,899
+eu não vou entregar software.
+
+644
+00:29:14,900 --> 00:29:17,978
+Em ambiente teste, homologação, QA chama o
+
+645
+00:29:17,979 --> 00:29:20,877
+nome que você quiser, préprodução, enfim, homologação.
+
+646
+00:29:21,456 --> 00:29:24,054
+Eu só vou entregar não tiver,
+
+647
+00:29:24,055 --> 00:29:26,693
+por exemplo, nenhuma vulnerabilidade alta.
+
+648
+00:29:26,694 --> 00:29:30,251
+E aí eu posso ter uma política pouco mais agressiva,
+
+649
+00:29:30,252 --> 00:29:32,570
+ou a mesma política de desenho anterior, tal, tal, tal,
+
+650
+00:29:32,571 --> 00:29:34,679
+tal, tal, o ponto aqui é você vai ter essa
+
+651
+00:29:34,680 --> 00:29:39,116
+validação tá então tem que levar em consideração isso também
+
+652
+00:29:39,117 --> 00:29:42,205
+aí sim você bloqueia a sua pipeline né não vai
+
+653
+00:29:42,206 --> 00:29:45,243
+subir, não vai subir ninguém, aquela coisa toda.
+
+654
+00:29:45,244 --> 00:29:48,162
+Quebra o build que o pessoal fala, enfim.
+
+655
+00:29:48,163 --> 00:29:50,809
+Dependendo do ambiente, aí entra o molde Testa,
+
+656
+00:29:50,810 --> 00:29:53,309
+por exemplo, está rodando uma backline para disponibilizar
+
+657
+00:29:54,168 --> 00:29:56,287
+software para os seus usuários testarem.
+
+658
+00:29:56,288 --> 00:29:58,704
+Usuário local interno na empresa.
+
+659
+00:29:58,705 --> 00:30:00,863
+Bom, então tudo bem se tiver vulnerabilidade.
+
+660
+00:30:00,864 --> 00:30:02,742
+Porque eles não vão explorar essa vulnerabilidade.
+
+661
+00:30:02,743 --> 00:30:04,541
+A vulnerabilidade é mais risco em produção.
+
+662
+00:30:04,542 --> 00:30:05,650
+Então o que você faz?
+
+663
+00:30:05,651 --> 00:30:07,888
+Você não quebra o build, você disponibiliza o
+
+664
+00:30:07,889 --> 00:30:09,768
+software, o time vai continuar testando, vai fazer
+
+665
+00:30:09,769 --> 00:30:12,226
+o trabalho deles, mas o Scan vai acontecer.
+
+666
+00:30:13,184 --> 00:30:16,343
+Os resultados desses Khan vão pra Issues, pro
+
+667
+00:30:16,344 --> 00:30:18,262
+Jira da vida, ou pro GitHub Issues, sei
+
+668
+00:30:18,263 --> 00:30:20,520
+lá, esses sim vão entrar num backlog.
+
+669
+00:30:20,521 --> 00:30:22,518
+Backlog Q pode ser a Sprint atual, que se
+
+670
+00:30:22,519 --> 00:30:25,037
+você já quer entregar em produção, não quer entregar
+
+671
+00:30:25,038 --> 00:30:27,276
+com na verdade, isso tem que ser corrigido.
+
+672
+00:30:27,277 --> 00:30:29,554
+Obviamente, dependendo da idade, creticidade,
+
+673
+00:30:29,555 --> 00:30:31,073
+prioridade, aquela coisa toda.
+
+674
+00:30:31,074 --> 00:30:32,992
+Mas aí sim vira backlog.
+
+675
+00:30:32,993 --> 00:30:36,811
+É scan mais estratégico, não é instantático.
+
+676
+00:30:37,649 --> 00:30:39,169
+Igual é o scan da IDE, igual
+
+677
+00:30:39,170 --> 00:30:41,447
+é o scan actions, percebe gente?
+
+678
+00:30:41,448 --> 00:30:44,086
+Então essa visão na cabeça de vocês tem
+
+679
+00:30:44,087 --> 00:30:45,805
+que estar muito claro, o que é scan
+
+680
+00:30:45,806 --> 00:30:48,264
+estratégico, o que é Escamp tático.
+
+681
+00:30:48,884 --> 00:30:54,181
+Escamp tático Action IDE.
+
+682
+00:30:55,059 --> 00:30:58,777
+Tem que ter isso na mente, não fuja disso, tá?
+
+683
+00:30:58,778 --> 00:31:00,537
+Porque o CSG, de novo, se a partir
+
+684
+00:31:00,538 --> 00:31:03,175
+do princípio eu estou entregando, disponibilizando o software
+
+685
+00:31:03,176 --> 00:31:05,074
+para alguém, com pinos de integration pra fazer
+
+686
+00:31:05,075 --> 00:31:07,113
+tudo que precisa, com pinos delivery, pra garantir
+
+687
+00:31:07,114 --> 00:31:09,632
+que tá tudo automatizado num lugar só.
+
+688
+00:31:09,633 --> 00:31:11,910
+Se não, você vai correr risco de entregar
+
+689
+00:31:11,911 --> 00:31:13,820
+a sua horta e coluna na verdade.
+
+690
+00:31:13,821 --> 00:31:15,818
+E aí, aí sim, a sua pipeline de
+
+691
+00:31:15,819 --> 00:31:18,217
+produção, por exemplo, você tá entregando automatizado.
+
+692
+00:31:18,218 --> 00:31:19,976
+Cadê a pipeline aqui e vai passar por todos
+
+693
+00:31:19,977 --> 00:31:22,585
+os testes de automatizado e disponibilizar em produção já.
+
+694
+00:31:22,586 --> 00:31:23,984
+Essa sim tem que quebrar o Bill,
+
+695
+00:31:23,985 --> 00:31:25,623
+espera o Scan, é uma paternária que
+
+696
+00:31:25,624 --> 00:31:28,302
+demora mais, lindo, maravilhoso, mas ela quebra.
+
+697
+00:31:28,303 --> 00:31:31,749
+Cara, tem uma vulnerabilidade alta, crítica, quebrou.
+
+698
+00:31:31,750 --> 00:31:33,628
+Se assim você definiu.
+
+699
+00:31:33,629 --> 00:31:36,107
+Você pode definir que cara, não vou quebrar nada,
+
+700
+00:31:36,108 --> 00:31:38,426
+eu vou achar os problemas que tiverem, vai virar
+
+701
+00:31:38,427 --> 00:31:39,985
+o backlog que eu vou priorizar e corrigir, mas
+
+702
+00:31:39,986 --> 00:31:41,664
+eu vou entregar a produção, beleza?
+
+703
+00:31:41,665 --> 00:31:44,063
+Mas esse scan tem que acontecer. Por que?
+
+704
+00:31:44,064 --> 00:31:47,541
+Você disponibiliza em homologação, pessoal, seu usuário testou tudo
+
+705
+00:31:47,542 --> 00:31:49,700
+lindo e maravilhoso, agora você vai compilar o código
+
+706
+00:31:49,701 --> 00:31:51,450
+de não rodar na pipeline lá de produção.
+
+707
+00:31:52,049 --> 00:31:54,528
+Ela tem que garantir carros para pilantrar até para trás
+
+708
+00:31:54,529 --> 00:31:57,766
+aqui né até para rastreio auditoria canal foi rodada esse
+
+709
+00:31:57,767 --> 00:32:00,005
+esse passo a passo aqui com esse scan o resultado
+
+710
+00:32:00,006 --> 00:32:02,354
+foi esse meu software foi uma produção.
+
+711
+00:32:02,355 --> 00:32:04,233
+Legal, resultado é esse aqui, qual é o resultado?
+
+712
+00:32:04,234 --> 00:32:04,633
+Por que tem?
+
+713
+00:32:04,634 --> 00:32:08,631
+Uma novidade média, legal, ela foi encontrada até antes
+
+714
+00:32:08,632 --> 00:32:11,369
+no seu processo, no seu agora, alguma coisa passou
+
+715
+00:32:11,370 --> 00:32:15,007
+alguma coisa falhou nem importa mas você fez aquele
+
+716
+00:32:15,008 --> 00:32:17,766
+chat você fez aquele chat então esse é o
+
+717
+00:32:17,767 --> 00:32:20,284
+quarto pilar que eu queria trazer para a gente
+
+718
+00:32:20,285 --> 00:32:23,423
+mais ou menos encerrar a nossa discussão.
+
+719
+00:32:27,020 --> 00:32:29,178
+Para ajudar o meu mouse, está acabando a pilha aqui.
+
+720
+00:32:29,179 --> 00:32:30,858
+Ele tem que trocar uma outra pilha.
+
+721
+00:32:30,859 --> 00:32:33,416
+Bom, pessoal, era isso do episódio de hoje.
+
+722
+00:32:33,417 --> 00:32:36,374
+Contos que é onde como é negócio simples até. Né?
+
+723
+00:32:36,375 --> 00:32:38,453
+Você parava pra pensar, scan de
+
+724
+00:32:38,454 --> 00:32:40,513
+código é negócio simples de fazer.
+
+725
+00:32:41,612 --> 00:32:43,291
+Veja que eu não abordei questões
+
+726
+00:32:43,292 --> 00:32:46,568
+como performance do regras do esquema?
+
+727
+00:32:46,569 --> 00:32:47,928
+Não, só faz esquema.
+
+728
+00:32:47,929 --> 00:32:49,527
+Começa a fazer esquema.
+
+729
+00:32:49,528 --> 00:32:51,606
+Definir uma estratégia desse aqui, ou
+
+730
+00:32:51,607 --> 00:32:53,404
+uma ou todas elas, né?
+
+731
+00:32:53,405 --> 00:32:55,124
+Pelo menos sai da IDE, que eu falei, você
+
+732
+00:32:55,125 --> 00:32:58,522
+pode pular, as outras, pelo menos ali agendado, minha
+
+733
+00:32:58,523 --> 00:33:01,240
+integra no seu repositório, aquela coisa toda.
+
+734
+00:33:01,241 --> 00:33:03,638
+O que não pode ter, e aí eu vou destacar
+
+735
+00:33:03,639 --> 00:33:07,236
+aqui como elementos extras, né, do que nem anunciantes, mas
+
+736
+00:33:07,237 --> 00:33:12,164
+vamos colocar aqui como bônus pra esse episódio, a questão
+
+737
+00:33:12,165 --> 00:33:15,122
+do como você faz esse estano no sentido de automação.
+
+738
+00:33:15,123 --> 00:33:16,721
+Como eles estão vão dizer, esse dia é
+
+739
+00:33:16,722 --> 00:33:19,220
+óbvio, que está automatizado, tal, tal, tal.
+
+740
+00:33:20,099 --> 00:33:23,617
+E veja, eu falei, se você está jogando uma pipeline
+
+741
+00:33:23,618 --> 00:33:26,856
+de préprodução, de desenvolvimento e tal, o scan assíncrono ele
+
+742
+00:33:26,857 --> 00:33:30,844
+é até válido, dispara o scan, Sua pipeline bio da
+
+743
+00:33:30,845 --> 00:33:33,962
+Compila segue a vida dela, os resultados do scan jogam
+
+744
+00:33:33,963 --> 00:33:36,600
+por issues da vida que você vai trabalhar neles.
+
+745
+00:33:37,199 --> 00:33:39,118
+Produção não é síncrona.
+
+746
+00:33:39,119 --> 00:33:40,478
+Então você vai rodar o scan, vai
+
+747
+00:33:40,479 --> 00:33:42,297
+esperar o resultado e quebrar a pipeline.
+
+748
+00:33:43,396 --> 00:33:45,056
+Pelo menos é como eu enxergo.
+
+749
+00:33:46,085 --> 00:33:47,724
+Depende do negócio também lógico, né?
+
+750
+00:33:47,725 --> 00:33:50,402
+Mas eu falo do ponto de vista mais segurança,
+
+751
+00:33:50,403 --> 00:33:52,801
+é mais ou menos como seria standard, tá?
+
+752
+00:33:52,802 --> 00:33:56,808
+Então, brentes ou pipelines de ambientes
+
+753
+00:33:56,809 --> 00:34:00,366
+internos, você faz assíncrono, libera pipelines
+
+754
+00:34:00,367 --> 00:34:01,634
+de produtos você bloqueia.
+
+755
+00:34:01,635 --> 00:34:03,273
+É mais ou menos o que eu enxergo.
+
+756
+00:34:03,274 --> 00:34:04,313
+Mas isso pode variar de
+
+757
+00:34:04,314 --> 00:34:05,712
+business para business, tá gente?
+
+758
+00:34:05,713 --> 00:34:07,951
+Não é uma regra.
+
+759
+00:34:07,952 --> 00:34:10,480
+Se o business pode querer bloquear interno, assim que
+
+760
+00:34:10,481 --> 00:34:13,358
+você pode querer não bloquear a introdução né então
+
+761
+00:34:13,359 --> 00:34:17,236
+depende muito tá mas tenha em mente que definir
+
+762
+00:34:17,237 --> 00:34:21,463
+essas estratégias olhando para esses quatro pilares aqui vai
+
+763
+00:34:21,464 --> 00:34:25,661
+te dar maturidade no processo de apsek maturidade no
+
+764
+00:34:25,662 --> 00:34:29,288
+sentido até de Olha só, maturidade no título até
+
+765
+00:34:29,289 --> 00:34:31,088
+D, parar de criar problemas.
+
+766
+00:34:31,089 --> 00:34:32,567
+Porque o desenvolvedor quanto antes
+
+767
+00:34:32,568 --> 00:34:34,666
+ele enxerga os problemas resolve.
+
+768
+00:34:35,224 --> 00:34:37,823
+Ele tende a não fazer mais aquilo.
+
+769
+00:34:37,824 --> 00:34:41,022
+Então, se ele espera a pipeline e rodôlar não sei onde.
+
+770
+00:34:41,023 --> 00:34:43,700
+Ele trabalhou mês, a pipeline e rodôlar não sei aonde,
+
+771
+00:34:43,701 --> 00:34:45,849
+não tive, não sei de quem, aí chega alguém não
+
+772
+00:34:45,850 --> 00:34:47,608
+sei da onde, quando o nome não sei do que,
+
+773
+00:34:47,609 --> 00:34:49,687
+manda email pra ele com o recorte do Sasha com
+
+774
+00:34:49,688 --> 00:34:51,846
+x vulnerabilidades lá, x mesmo, tá?
+
+775
+00:34:51,847 --> 00:34:53,364
+1 a 1000, sei lá.
+
+776
+00:34:53,365 --> 00:34:56,123
+Aí ele poupa, dois meses de trampo, esse código aqui
+
+777
+00:34:56,124 --> 00:34:59,282
+tá lá, tá, nem lembro mais, aquele raciocínio já foi.
+
+778
+00:34:59,283 --> 00:35:01,321
+Isso quebra pouco do Frodo do desenvolvedor.
+
+779
+00:35:01,322 --> 00:35:03,719
+Aí ele tem que tá, arrumar aquilo, aí
+
+780
+00:35:03,720 --> 00:35:06,078
+testa de novo, aí não resolveu e volta,
+
+781
+00:35:06,079 --> 00:35:08,796
+fica naquela punhetação e não resolve.
+
+782
+00:35:08,797 --> 00:35:10,675
+Agora o cara fez o punho, o Ash negócio
+
+783
+00:35:10,676 --> 00:35:12,364
+já bloqueou, o cara ele já vai na hora
+
+784
+00:35:12,365 --> 00:35:14,203
+ele vai resolver aquilo, ele já vai pesquisar, vai
+
+785
+00:35:14,204 --> 00:35:16,642
+trocar a ideia, ele vai resolver, porque é problema.
+
+786
+00:35:16,643 --> 00:35:18,970
+E tá fresco na cabeça dele. Olha isso.
+
+787
+00:35:18,971 --> 00:35:21,048
+Aquele raciocínio, aquela classe, aquele método
+
+788
+00:35:21,049 --> 00:35:22,928
+tá fresco na cabeça dele.
+
+789
+00:35:22,929 --> 00:35:25,806
+Então facilita muito mais até
+
+790
+00:35:25,807 --> 00:35:27,665
+nessa adesão do epicondronto.
+
+791
+00:35:28,564 --> 00:35:31,803
+Tanto do ponto de vista de correção, que é a ideia.
+
+792
+00:35:31,804 --> 00:35:33,122
+Quando a gente fala de start de uma
+
+793
+00:35:33,123 --> 00:35:34,401
+maneira geral, igual aí no médico, né?
+
+794
+00:35:34,402 --> 00:35:35,841
+Você tem aí no médico fazendo exame e
+
+795
+00:35:35,842 --> 00:35:36,780
+tal, tal, tal, tal, tal, aí pô.
+
+796
+00:35:36,781 --> 00:35:37,739
+Ter o resultado ali com alguns
+
+797
+00:35:37,740 --> 00:35:39,418
+problemas, você tem que resolver eles.
+
+798
+00:35:39,419 --> 00:35:42,776
+Trabalhar, não só nos sintomas, às vezes, mas
+
+799
+00:35:42,777 --> 00:35:44,376
+também na causa raiz, né, pra que você
+
+800
+00:35:44,377 --> 00:35:46,674
+não tenha ali problema mais grave.
+
+801
+00:35:46,675 --> 00:35:47,954
+Você acha mais uma coisa.
+
+802
+00:35:47,955 --> 00:35:50,233
+Então se você vai no médico uma vez por
+
+803
+00:35:50,234 --> 00:35:52,551
+ano, a tendência de você ficar com problema mais
+
+804
+00:35:52,552 --> 00:35:54,310
+tempo é maior e virar algo mais grave.
+
+805
+00:35:54,311 --> 00:35:57,299
+Você vai no médico toda semana, ou está
+
+806
+00:35:57,300 --> 00:35:59,458
+pelo menos fazendo com que o médico falou
+
+807
+00:35:59,459 --> 00:36:02,097
+de boas práticas, se alimenta bem, comer bem.
+
+808
+00:36:02,098 --> 00:36:04,176
+Aqui é a mesma coisa, o desenvolvedor puts, cara,
+
+809
+00:36:04,177 --> 00:36:05,925
+SQL Injection, que eu nunca tinha visto isso.
+
+810
+00:36:05,926 --> 00:36:08,563
+Ah, puts, é assim que acontece, é assim que resolve.
+
+811
+00:36:08,564 --> 00:36:10,083
+Putz, cara, tem outra parte do código
+
+812
+00:36:10,084 --> 00:36:10,922
+que eu sei que tá assim.
+
+813
+00:36:10,923 --> 00:36:12,202
+Deixa eu já resolver antes de
+
+814
+00:36:12,203 --> 00:36:13,840
+subir, deixa eu já verificar.
+
+815
+00:36:13,841 --> 00:36:15,599
+Ou pra próxima vez que ele for fazer método
+
+816
+00:36:15,600 --> 00:36:18,078
+similar, ele não vai aplicar o mesmo erro.
+
+817
+00:36:18,079 --> 00:36:20,276
+É quase que natural, talvez uma ou duas vezes ele se
+
+818
+00:36:20,277 --> 00:36:23,825
+repita, talvez até três vezes se repita, mas não tende.
+
+819
+00:36:23,826 --> 00:36:26,543
+Porque ele aprendeu aquilo, ele absorveu aquilo.
+
+820
+00:36:26,544 --> 00:36:28,742
+Então isso acaba sendo natural, gente.
+
+821
+00:36:28,743 --> 00:36:32,420
+O problema é não introduzir CodeScan né?
+
+822
+00:36:32,421 --> 00:36:36,058
+Não ter codescan, uma estratégia de codescan, né?
+
+823
+00:36:36,059 --> 00:36:38,097
+E aí tem várias formas de você fazer isso, vou até
+
+824
+00:36:38,098 --> 00:36:40,836
+dar uma dica extra que também é mais bônus aí ó.
+
+825
+00:36:42,364 --> 00:36:43,504
+Documenta isso.
+
+826
+00:36:44,483 --> 00:36:45,623
+Documenta, cara.
+
+827
+00:36:46,162 --> 00:36:48,161
+Tem várias formas de você fazer isso, mete uma
+
+828
+00:36:48,162 --> 00:36:50,360
+week sem precisar no seu repositório e fala pessoal,
+
+829
+00:36:50,361 --> 00:36:53,638
+putz, acontece assim, é sensato, tem policy automática no
+
+830
+00:36:53,639 --> 00:36:56,157
+repositório, você não consegue fazer currículo assim, ter scan
+
+831
+00:36:56,158 --> 00:36:59,005
+automatizado, lindo e maravilhoso, ou se você tem que
+
+832
+00:36:59,006 --> 00:37:02,363
+ter repositório novo você tem que auto habilitar ou
+
+833
+00:37:02,364 --> 00:37:04,921
+o repositório novo é criado já habilita automático, enfim,
+
+834
+00:37:04,922 --> 00:37:06,549
+documenta como é feito.
+
+835
+00:37:06,550 --> 00:37:08,468
+E automatiza o máximo possível.
+
+836
+00:37:08,469 --> 00:37:10,627
+Nesse contexto aqui o máximo possível e não
+
+837
+00:37:10,628 --> 00:37:13,666
+é difícil gente não é difícil as ferramentas
+
+838
+00:37:13,667 --> 00:37:17,614
+taxas de mercado hoje todas fazem isso. Todas.
+
+839
+00:37:18,913 --> 00:37:22,012
+Umas fazem absurdamente, lindamente, maravilhosamente,
+
+840
+00:37:22,551 --> 00:37:24,211
+outras fazem meia mente.
+
+841
+00:37:24,890 --> 00:37:27,048
+Então tem que tomar cuidado, mas todas as razões.
+
+842
+00:37:27,049 --> 00:37:29,887
+Integra com repositório e faz
+
+843
+00:37:29,888 --> 00:37:31,387
+esse campo, isso é básico.
+
+844
+00:37:32,275 --> 00:37:35,113
+Actions, talvez uma outra ali vai te deixar na mão.
+
+845
+00:37:35,114 --> 00:37:37,992
+Se ESG, teoria, todas fazem, mas uma
+
+846
+00:37:37,993 --> 00:37:39,071
+outra faz te deixar na mão.
+
+847
+00:37:39,072 --> 00:37:41,860
+E eu falo com propriedade, caso eu testei, várias.
+
+848
+00:37:42,380 --> 00:37:44,578
+Então, é isso.
+
+849
+00:37:44,579 --> 00:37:46,757
+Defina a sua estratégia de contas Gamma.
+
+850
+00:37:47,297 --> 00:37:51,313
+Documente e automatize o máximo possível e documente no
+
+851
+00:37:51,314 --> 00:37:54,592
+sentido de entrou desenvolvedor não da empresa faz processinho
+
+852
+00:37:54,593 --> 00:37:57,910
+de onboard com ele faz ele ler essa documentação
+
+853
+00:37:57,911 --> 00:38:00,868
+faz ele dar até aceite algum lugar, faz checkzinho
+
+854
+00:38:00,869 --> 00:38:02,907
+em algum lugar porque isso é importante, gente.
+
+855
+00:38:02,908 --> 00:38:03,707
+Por que isso é importante?
+
+856
+00:38:03,708 --> 00:38:06,005
+Porque isso é sua política, você definiu isso.
+
+857
+00:38:06,006 --> 00:38:07,924
+Às vezes com apoio corporativo, às vezes só
+
+858
+00:38:07,925 --> 00:38:10,083
+dentro do seu time técnico, dentro do time
+
+859
+00:38:10,084 --> 00:38:13,020
+de R&D, mas tem que ter.
+
+860
+00:38:13,021 --> 00:38:14,819
+Não tem documentado, o cara fala quem não viu.
+
+861
+00:38:14,820 --> 00:38:16,058
+Se ele fala quem não viu, ele
+
+862
+00:38:16,059 --> 00:38:18,337
+pode não fazer, se ele não sabia.
+
+863
+00:38:18,338 --> 00:38:20,816
+A menos que seja em forcemite, como eu acabei de falar.
+
+864
+00:38:20,817 --> 00:38:22,795
+Cara, você não faz pull request em scan.
+
+865
+00:38:22,796 --> 00:38:23,814
+E vá acontecer automaticamente.
+
+866
+00:38:24,953 --> 00:38:26,353
+Se o cara tem a opção de fazer o
+
+867
+00:38:26,354 --> 00:38:28,432
+pull request, você habilitar no repositório dele ou coisas
+
+868
+00:38:28,433 --> 00:38:30,120
+do tipo, o que ele quer fazer?
+
+869
+00:38:30,121 --> 00:38:32,438
+Por falta de desconhecimento, porque o projeto é
+
+870
+00:38:32,439 --> 00:38:34,477
+crítico, porque tem que entregar rápido, pelo monte
+
+871
+00:38:34,478 --> 00:38:35,797
+de coisa que a gente reconhece.
+
+872
+00:38:35,798 --> 00:38:37,156
+Ou porque eu sou muito bom, meu
+
+873
+00:38:37,157 --> 00:38:39,345
+código não tem vulnerabilidade, já vi essa.
+
+874
+00:38:39,346 --> 00:38:40,424
+Eu vi essa, já.
+
+875
+00:38:40,425 --> 00:38:42,763
+Aí eu dei esse cano, pode educar a minha alça.
+
+876
+00:38:43,422 --> 00:38:48,349
+Minha nossa Enfim, né pessoal era isso o
+
+877
+00:38:48,350 --> 00:38:50,548
+episódio aí de até ficou quase quase o
+
+878
+00:38:50,549 --> 00:38:54,306
+episódio completo 45 minutos normalmente hoje 3839 minutos
+
+879
+00:38:54,307 --> 00:38:56,704
+aqui o episódio de solo tá ótimo, assim
+
+880
+00:38:56,705 --> 00:39:00,542
+vocês não ficam aí fadigados da minha voz.
+
+881
+00:39:00,543 --> 00:39:02,141
+É isso, eu sou o Carlos Pereira, eu
+
+882
+00:39:02,142 --> 00:39:05,019
+espero vocês no na semana que vem.
+
+883
+00:39:05,020 --> 00:39:06,658
+Na semana que vem, pra gente falar de
+
+884
+00:39:06,659 --> 00:39:10,675
+mais coisas de desenvolvimento seguro deve ser copy.
+
+885
+00:39:10,676 --> 00:39:11,114
+Beleza?
+
+886
+00:39:11,115 --> 00:39:12,194
+Eu espero que a semana que
+
+887
+00:39:12,195 --> 00:39:13,933
+vem esses vagabundos voltem a trabalhar.
+
+888
+00:39:14,713 --> 00:39:17,911
+Até lá ficamos comigo mesmo. É o que tem, gente. Valeu.
+
+889
+00:39:17,912 --> 00:39:19,150
+A gente se vê na semana que vem.
+
+890
+00:39:19,909 --> 00:39:23,148
+Termina aqui, deve ser copos, deve
+
+891
+00:39:23,149 --> 00:39:25,186
+ser copos, o seu podcast
+
+892
+00:39:25,187 --> 00:39:26,526
+de segurança e tecnologia.
