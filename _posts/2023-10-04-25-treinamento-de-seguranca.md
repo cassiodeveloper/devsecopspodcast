@@ -10,8 +10,8 @@ Cultura de segurança: Exploramos como criar uma cultura de segurança dentro da
 Sucesso no treinamento: Compartilhamos histórias de sucesso e casos de estudo que demonstram como o treinamento eficaz de segurança pode fazer a diferença em organizações de todos os tamanhos.
 Se você é um desenvolvedor interessado em elevar suas habilidades de segurança ou um líder de equipe em busca de insights sobre como implementar um programa de treinamento de segurança robusto, este episódio é uma fonte inestimável de conhecimento. Ouça agora para descobrir como o treinamento de segurança pode fortalecer a linha de frente da defesa cibernética e ajudar a proteger suas aplicações e dados valiosos contra ameaças cada vez mais sofisticadas."
 file: https://api.spreaker.com/v2/episodes/57055396/download.mp3
-length: 
-videoid: 
+length: 45:02
+videoid: LA8vVBMpihg
 cover: "../assets/img/425.png"
 transcription: "../assets/transcriptions/4/25/25.srt"
 ---
