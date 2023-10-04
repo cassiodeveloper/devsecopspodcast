@@ -1,0 +1,3991 @@
+1
+00:00:00,039 --> 00:00:02,478
+E Novo Ação! Segura
+
+2
+00:00:02,479 --> 00:00:03,538
+programa de tecnologia!
+
+3
+00:00:04,597 --> 00:00:05,577
+Começa aqui,
+
+4
+00:00:09,794 --> 00:00:12,253
+o seu podcast de segurança em tecnologia.
+
+5
+00:00:21,077 --> 00:00:22,717
+Fala pessoal, tudo bem com vocês?
+
+6
+00:00:22,718 --> 00:00:24,814
+Sejam muito bemvindos a mais episódio
+
+7
+00:00:24,815 --> 00:00:26,173
+deve ser copy do podcast.
+
+8
+00:00:26,174 --> 00:00:27,453
+Eu sou o Cássio Pereira.
+
+9
+00:00:27,454 --> 00:00:29,412
+E eu sou o Marcos Santos.
+
+10
+00:00:29,413 --> 00:00:30,232
+Muito bom!
+
+11
+00:00:31,051 --> 00:00:32,930
+Tá de volta o menino, né?
+
+12
+00:00:32,931 --> 00:00:33,919
+Mãe, tamo aí.
+
+13
+00:00:33,920 --> 00:00:37,438
+No episódio cheio de gripe, cheio de vírus e tudo
+
+14
+00:00:37,439 --> 00:00:40,636
+mais, faz parte, a partir de que o principal vírus
+
+15
+00:00:40,637 --> 00:00:42,495
+não está aqui hoje, que é o Rodrigo Balpin.
+
+16
+00:00:43,634 --> 00:00:44,954
+Graças a Deus, cara.
+
+17
+00:00:44,955 --> 00:00:46,673
+Dá pra gravar aqui.
+
+18
+00:00:46,674 --> 00:00:48,472
+E eu tô todo mundo cagado agora.
+
+19
+00:00:48,473 --> 00:00:51,451
+É que ele não está aqui presente nessa gravação.
+
+20
+00:00:52,110 --> 00:00:53,259
+Boa, boa, boa.
+
+21
+00:00:53,260 --> 00:00:54,979
+Bom, antes de começar o episódio de hoje, pessoal,
+
+22
+00:00:54,980 --> 00:00:57,577
+vale lembrar que o DevSecoth Podcast tem o apoio
+
+23
+00:00:57,578 --> 00:00:59,936
+da Checkermans e da nova 8 que são especializadas
+
+24
+00:00:59,937 --> 00:01:01,954
+em segurança de sistemas e código seguro.
+
+25
+00:01:01,955 --> 00:01:04,153
+Link da Lavoished que é distribuidor da Checkmates do
+
+26
+00:01:04,154 --> 00:01:06,712
+Brasil e está abaixo na descrição do episódio no
+
+27
+00:01:06,713 --> 00:01:09,331
+YouTube e também no nosso website, deve sercopspotcash.com.br.
+
+28
+00:01:10,769 --> 00:01:13,208
+Você está buscando soluções e Application Security?
+
+29
+00:01:13,209 --> 00:01:14,608
+Fale com a Digital Walker.
+
+30
+00:01:14,609 --> 00:01:17,166
+Ele tem portfólio completo para atender vocês.
+
+31
+00:01:17,167 --> 00:01:18,406
+E a Gold Security que
+
+32
+00:01:18,407 --> 00:01:20,364
+é especializada em Application Security.
+
+33
+00:01:20,365 --> 00:01:22,124
+Que assim, vou ver só porque eu seguro, fale com
+
+34
+00:01:22,125 --> 00:01:24,562
+alguns aqui, eu fiz os melhores processos pra atender e
+
+35
+00:01:24,563 --> 00:01:27,121
+auxiliar vocês aí no dia a dia, beleza?
+
+36
+00:01:27,122 --> 00:01:29,269
+Então, aquela dúvida de como é que eu faço a
+
+37
+00:01:29,270 --> 00:01:31,748
+segue, o que eu faço pra onde eu vou, acabou.
+
+38
+00:01:31,749 --> 00:01:33,427
+Fala aí com os nossos parceiros que
+
+39
+00:01:33,428 --> 00:01:36,794
+vão ajudar você nesse contexto, beleza?
+
+40
+00:01:36,795 --> 00:01:38,434
+E para você que tá procurando trampo também
+
+41
+00:01:38,435 --> 00:01:39,753
+não se esqueça que tá no ar o
+
+42
+00:01:39,754 --> 00:01:42,991
+apsek.jobs é tanto para procurar trampo na área
+
+43
+00:01:42,992 --> 00:01:48,198
+tanto quanto para anunciar vagas Mano, e aí?
+
+44
+00:01:48,199 --> 00:01:50,557
+O fato é que hoje eu sei o que a gente já falou hoje.
+
+45
+00:01:50,558 --> 00:01:54,035
+Deixa eu falar de treinamento de segurança, amiguinho.
+
+46
+00:01:54,036 --> 00:01:57,174
+Pra explorar pouquinho sobre o que é, como
+
+47
+00:01:57,175 --> 00:01:59,932
+que faz, se ajuda mesmo não ajuda, a
+
+48
+00:01:59,933 --> 00:02:02,451
+importância disso e mais algumas coisinhas que a
+
+49
+00:02:02,452 --> 00:02:04,509
+gente vai desenvolvendo aí no meio da conversa.
+
+50
+00:02:04,510 --> 00:02:07,268
+Boa, eu trouxe umas Eu sempre tenho polêmica em
+
+51
+00:02:07,269 --> 00:02:10,227
+mente, porque às vezes a galera acha que De
+
+52
+00:02:10,228 --> 00:02:12,864
+certo modo, é muito fácil implementar muita coisa.
+
+53
+00:02:12,865 --> 00:02:13,824
+Por outro lado, a gente sempre
+
+54
+00:02:13,825 --> 00:02:15,463
+vê uma certa resistência das empresas.
+
+55
+00:02:15,464 --> 00:02:16,583
+E a gente quer de segurança, a gente
+
+56
+00:02:16,584 --> 00:02:18,502
+sempre pensa assim, pô, mas isso aqui tem
+
+57
+00:02:18,503 --> 00:02:20,329
+que fazer, isso aqui tem que ser feito.
+
+58
+00:02:20,330 --> 00:02:23,688
+Que sempre tem essa resistência, essa fricção, dependendo
+
+59
+00:02:23,689 --> 00:02:26,526
+de algumas coisas, e treinamento é uma delas.
+
+60
+00:02:26,527 --> 00:02:27,566
+Treinamento é uma delas.
+
+61
+00:02:27,567 --> 00:02:28,965
+Eu vou tocar lendo ponto
+
+62
+00:02:28,966 --> 00:02:30,964
+de tentar entender pouquinho disso.
+
+63
+00:02:30,965 --> 00:02:33,223
+Eu queria começar aí com uma pergunta, Marcos.
+
+64
+00:02:33,762 --> 00:02:37,760
+Tem parceiro, algum conhecido, tem alguma solução que
+
+65
+00:02:37,761 --> 00:02:40,888
+possa ajudar nessa questão de treinamento de segurança.
+
+66
+00:02:40,889 --> 00:02:41,948
+Você conhece alguma?
+
+67
+00:02:43,007 --> 00:02:45,606
+Cara, conheço uma muito bem.
+
+68
+00:02:45,607 --> 00:02:47,945
+A gente trabalha com ela, que é o Code Bastion.
+
+69
+00:02:48,654 --> 00:02:51,573
+A ferramenta muito boa, é da checkmax, pessoal que
+
+70
+00:02:51,574 --> 00:02:54,291
+está ouvindo aí, é uma ferramenta muito legal ali,
+
+71
+00:02:54,292 --> 00:02:57,849
+tem treinamento de segurança, Você pode filtrar ou por
+
+72
+00:02:57,850 --> 00:03:01,927
+linguagem ou por vulnerabilidades no geral, então ele tem
+
+73
+00:03:01,928 --> 00:03:05,244
+alguns módulos ali dentro onde você consegue treinar ali,
+
+74
+00:03:05,245 --> 00:03:08,162
+SQL Injection para Java, como que ele faz C,
+
+75
+00:03:08,163 --> 00:03:09,881
+como que é Python.
+
+76
+00:03:09,882 --> 00:03:12,239
+Você consegue entender com SQL Injection
+
+77
+00:03:12,240 --> 00:03:14,398
+vai funcionar dependendo da linguagem, com
+
+78
+00:03:14,399 --> 00:03:18,016
+o Cruciscript, em SSRF, entre outras.
+
+79
+00:03:18,594 --> 00:03:20,393
+A plataforma boa. Muito boa mesmo.
+
+80
+00:03:20,394 --> 00:03:23,152
+Para você evitar na versão nova e 10.0 atualizado.
+
+81
+00:03:23,153 --> 00:03:23,652
+3.3,
+
+82
+00:03:24,431 --> 00:03:24,671
+né?
+
+83
+00:03:24,672 --> 00:03:27,570
+Ah, é verdade, lançaram a 2.5. Isso. É verdade.
+
+84
+00:03:29,379 --> 00:03:30,938
+E pra quem não entendeu ainda, né?
+
+85
+00:03:30,939 --> 00:03:33,897
+Uma ferramenta focada no aprendizado, né?
+
+86
+00:03:33,898 --> 00:03:36,134
+No treinamento, vamos dizer assim, todo desenvolvedor como é
+
+87
+00:03:36,135 --> 00:03:38,493
+que uma vulnerabilidade acontece, como é que você trata
+
+88
+00:03:38,494 --> 00:03:41,452
+ela, como é que você corrige ela acerca do
+
+89
+00:03:41,453 --> 00:03:42,531
+seu dia a dia de código.
+
+90
+00:03:42,532 --> 00:03:46,079
+Porque eu sempre digo, melhor dos mundos, não
+
+91
+00:03:46,080 --> 00:03:48,597
+é você ficar corrigindo, achando, fazendo scan e
+
+92
+00:03:48,598 --> 00:03:51,794
+corrigindo vulnerabilidade, é você parar de criálas. Né?
+
+93
+00:03:51,795 --> 00:03:52,634
+Quando você compra
+
+94
+00:03:52,635 --> 00:03:52,954
+uma chance
+
+95
+00:03:52,955 --> 00:03:55,632
+de segurança de fato na sua empresa.
+
+96
+00:03:55,633 --> 00:03:58,751
+Então esse tipo de solução, vamos dizer assim.
+
+97
+00:03:58,752 --> 00:04:02,029
+Ah, lógico, a solução ajuda a gente escalar, traz ali
+
+98
+00:04:02,030 --> 00:04:06,266
+uns elementos como gamification, competição, você tem lá os dashboards
+
+99
+00:04:06,267 --> 00:04:09,414
+que você visualiza seu time, se tá fazendo os cursos
+
+100
+00:04:09,415 --> 00:04:11,693
+e não tá, dá uma saia e mexer pra alguém,
+
+101
+00:04:11,694 --> 00:04:14,372
+fazer curso específico, etc, etc, etc.
+
+102
+00:04:14,373 --> 00:04:16,890
+E tantas outras soluções do mercado com relação a
+
+103
+00:04:16,891 --> 00:04:19,588
+isso, mas Meu ponto, eu queria trazer essa discussão
+
+104
+00:04:19,589 --> 00:04:21,568
+aqui agora, pra gente trocar ideia, Marcos.
+
+105
+00:04:22,867 --> 00:04:25,414
+Por que será que muitas empresas não fazem isso?
+
+106
+00:04:25,415 --> 00:04:26,734
+Independente da solução.
+
+107
+00:04:26,735 --> 00:04:27,973
+Ah, a solução tem que pagar, tem
+
+108
+00:04:27,974 --> 00:04:29,293
+que comprar beleza, mas vamos lá.
+
+109
+00:04:29,294 --> 00:04:31,132
+Como é que a gente treina os desenvolvedores?
+
+110
+00:04:31,133 --> 00:04:34,170
+Por que as empresas não investem nisso?
+
+111
+00:04:34,171 --> 00:04:35,809
+Eu não preocupam com isso.
+
+112
+00:04:35,810 --> 00:04:38,807
+O que você acha que é uma barreira
+
+113
+00:04:38,808 --> 00:04:40,566
+de entrada para esse tema nas empresas?
+
+114
+00:04:40,567 --> 00:04:41,866
+Para não fazer isso.
+
+115
+00:04:42,414 --> 00:04:45,413
+Cara, acho que para mim tem dois pontos, vou
+
+116
+00:04:45,414 --> 00:04:50,011
+tentar explicar pouquinho deles, é que as empresas muitas
+
+117
+00:04:50,012 --> 00:04:53,508
+elas ainda vêm segurança, essa parte treinamento como custo,
+
+118
+00:04:53,509 --> 00:04:57,546
+não como investimento, então por ver isso como custo
+
+119
+00:04:57,547 --> 00:05:00,385
+acaba deixando de lado e dando prioridade para outros
+
+120
+00:05:00,386 --> 00:05:04,693
+itens, Então, esse é dos pontos da minha visão.
+
+121
+00:05:04,694 --> 00:05:08,611
+E o outro ponto é a questão de rotation, então
+
+122
+00:05:08,612 --> 00:05:11,519
+a empresa está sempre trocando de funcionar ali, então você
+
+123
+00:05:11,520 --> 00:05:14,638
+monta vídeo treinar o cara, já tá trocando outro e
+
+124
+00:05:14,639 --> 00:05:17,037
+outro em cima, então quando você vai ver o turno
+
+125
+00:05:17,038 --> 00:05:19,195
+novo da empresa tá lá embaixo e você não consegue,
+
+126
+00:05:19,196 --> 00:05:21,593
+você não tem tempo hábil de treinar a pessoa para
+
+127
+00:05:21,594 --> 00:05:23,752
+ela ficar boa o suficiente e manter ela na empresa.
+
+128
+00:05:23,753 --> 00:05:26,151
+Durante o treinamento a pessoa já sai e
+
+129
+00:05:26,152 --> 00:05:28,859
+normalmente esses cursos ali para os onde que
+
+130
+00:05:28,860 --> 00:05:31,258
+esse plataforma é licenciado por usuário, né?
+
+131
+00:05:31,259 --> 00:05:35,994
+Então, às vezes, vou comprar pacote sem licenças eu troco
+
+132
+00:05:35,995 --> 00:05:38,593
+40 funcionários por mês eu me quebrei eu não vou
+
+133
+00:05:38,594 --> 00:05:41,852
+conseguir pegar essas 40 de volta vou ficar ali parada
+
+134
+00:05:42,529 --> 00:05:44,608
+Então acho que esses dois pontos é o que faz
+
+135
+00:05:44,609 --> 00:05:46,847
+o pessoal pensar, o custo né, que hoje é custo
+
+136
+00:05:46,848 --> 00:05:49,806
+não é investimento para as empresas, e essa rotação hoje
+
+137
+00:05:49,807 --> 00:05:54,183
+profissionais saindo muito das empresas muito rápido, né?
+
+138
+00:05:54,723 --> 00:05:56,702
+Previsecops! Previsecops!
+
+139
+00:05:57,841 --> 00:05:59,979
+Bons pontos pra gente começar a falar.
+
+140
+00:05:59,980 --> 00:06:02,218
+Eu acho que essa questão você colocou a primeira
+
+141
+00:06:02,219 --> 00:06:05,296
+aí da Aliás, essa questão da rotatividade, né?
+
+142
+00:06:05,297 --> 00:06:06,036
+É problema.
+
+143
+00:06:07,274 --> 00:06:10,233
+Não só por licença, por essa questão do custo,
+
+144
+00:06:10,234 --> 00:06:12,791
+mas por uma preocupação da empresa do tipo, porra,
+
+145
+00:06:12,792 --> 00:06:15,959
+eu vou treinar o cara, vou investir esse cara,
+
+146
+00:06:15,960 --> 00:06:19,038
+e daqui três meses, seis meses, até ano, ou
+
+147
+00:06:19,039 --> 00:06:21,597
+seja, ele vai me deixar, ele vai sair.
+
+148
+00:06:21,598 --> 00:06:24,155
+Então tem que ter pouco dessa promoção, porque
+
+149
+00:06:24,156 --> 00:06:27,124
+a empresa sabe que acaba sendo gasto.
+
+150
+00:06:27,863 --> 00:06:30,302
+Putz, o investimento é conectando
+
+151
+00:06:30,303 --> 00:06:31,622
+pouco dos dois pontos, né?
+
+152
+00:06:31,623 --> 00:06:33,541
+É gasto se ela investiu naquele cara, aquele
+
+153
+00:06:33,542 --> 00:06:35,699
+cara saiu fora, porque aquele aquele investimento que
+
+154
+00:06:35,700 --> 00:06:37,138
+ela fez, ela não vai ter retorno, aquele
+
+155
+00:06:37,139 --> 00:06:39,437
+cara vai aproveitar, aquele conhecimento fora dali.
+
+156
+00:06:41,416 --> 00:06:42,336
+Vai depender
+
+157
+00:06:42,337 --> 00:06:44,035
+de uma forma bem grosseira.
+
+158
+00:06:44,734 --> 00:06:48,413
+Do pro outro lado, enquanto esse cara está lá,
+
+159
+00:06:48,414 --> 00:06:51,451
+ele está produzindo o código lá, pensando no desenvolvedor.
+
+160
+00:06:51,452 --> 00:06:53,589
+Então acaba sendo benefício, certo?
+
+161
+00:06:53,590 --> 00:06:55,469
+Mesmo que ele não tenha terminado o treinamento, que
+
+162
+00:06:55,470 --> 00:06:58,227
+tenha ficado pouco tempo, acho que o tempo que
+
+163
+00:06:58,228 --> 00:07:01,665
+ele esteve ali acaba sendo útil para a empresa.
+
+164
+00:07:01,666 --> 00:07:04,193
+Então Não sei, é difícil usar.
+
+165
+00:07:04,194 --> 00:07:05,833
+Essa fórmula é isso.
+
+166
+00:07:05,834 --> 00:07:08,391
+É só que a gente vê, por exemplo, as
+
+167
+00:07:08,392 --> 00:07:11,758
+empresas não só para de treinamento, falou segurança como
+
+168
+00:07:11,759 --> 00:07:14,877
+todo, tudo aquilo envolve segurança hoje para as empresas,
+
+169
+00:07:14,878 --> 00:07:19,334
+ainda penso como custo ali, como gasto, a mentalidade
+
+170
+00:07:19,335 --> 00:07:21,893
+está mudando, mas você vê isso, você vai falar
+
+171
+00:07:21,894 --> 00:07:25,051
+ferramenta, mas tudo isso cara para caramba, consigo fazer
+
+172
+00:07:25,052 --> 00:07:27,130
+isso com open source, você vai ter 30 vezes
+
+173
+00:07:27,131 --> 00:07:30,388
+mais trabalho, ou às vezes não tem uma pessoa
+
+174
+00:07:30,389 --> 00:07:33,227
+capacitada para gerir ali software de segurança porque não
+
+175
+00:07:33,228 --> 00:07:36,905
+quer despender ali o investimento ali pelo menos inicial
+
+176
+00:07:36,906 --> 00:07:39,483
+para você poder equalizar todo mundo.
+
+177
+00:07:39,484 --> 00:07:43,282
+Então eu acho que esse ponto de ter custo ali, acho que
+
+178
+00:07:43,283 --> 00:07:46,930
+é na minha visão que mais deixa o pessoal de fora.
+
+179
+00:07:46,931 --> 00:07:50,428
+Eles investem em treinamento de outras coisas, treinamento corporativo,
+
+180
+00:07:50,968 --> 00:07:53,846
+você vai ter treinamento comportamental, mas quando a gente
+
+181
+00:07:53,847 --> 00:07:56,554
+fala de segurança hoje, o booster da área de
+
+182
+00:07:56,555 --> 00:07:59,472
+segurança é booster mais baixo né então você tem
+
+183
+00:07:59,473 --> 00:08:01,991
+booster da TI você separa uma fatiazinha ali para
+
+184
+00:08:01,992 --> 00:08:04,819
+segurança e nem segura você ter que separar para
+
+185
+00:08:04,820 --> 00:08:07,937
+o treinamento o pessoal não prefere investir em outras
+
+186
+00:08:07,938 --> 00:08:09,197
+coisas na minha visão.
+
+187
+00:08:10,256 --> 00:08:12,844
+Outro ponto que eu queria trazer para essa
+
+188
+00:08:12,845 --> 00:08:17,922
+esse debate é o seguinte, eu tenho conversado
+
+189
+00:08:17,923 --> 00:08:20,219
+pouco com algumas empresas nos últimos meses em
+
+190
+00:08:20,220 --> 00:08:21,978
+relação a isso, as questões de treinamento de
+
+191
+00:08:21,979 --> 00:08:24,697
+desenvolvedores, treinamento de segurança para desenvolvedor.
+
+192
+00:08:24,698 --> 00:08:26,696
+Com foco mesmo em upsec, tanto para o cara
+
+193
+00:08:26,697 --> 00:08:30,653
+parar de criar vulnerabilidade, famosa codificação segura, aquela coisa
+
+194
+00:08:30,654 --> 00:08:33,692
+toda, best pratiques e tal, tanto quanto pro cara
+
+195
+00:08:33,693 --> 00:08:36,331
+corrigiu a sonoridade de resistência, da vazão ali num
+
+196
+00:08:36,332 --> 00:08:38,070
+backlog e coisas do tipo.
+
+197
+00:08:38,639 --> 00:08:43,117
+E eu tenho visto uma certa resistência das empresas
+
+198
+00:08:43,118 --> 00:08:47,444
+muito grande até com ponto específico que o tempo
+
+199
+00:08:47,445 --> 00:08:50,103
+que essa galera precisa pra fazer o treinamento.
+
+200
+00:08:51,562 --> 00:08:53,379
+É, então se você parar pra pensar as coisas,
+
+201
+00:08:53,380 --> 00:08:56,538
+Tem curso, eu não curso aqui, o curso tem
+
+202
+00:08:56,539 --> 00:09:00,496
+começo, meio e fim, de 40 horas, 80 horas,
+
+203
+00:09:00,497 --> 00:09:03,333
+sei lá, cara vai perder ali e perder, né?
+
+204
+00:09:03,334 --> 00:09:06,652
+Investir ali duas, três horas por dia, uma hora por
+
+205
+00:09:06,653 --> 00:09:09,850
+dia, duas, três semanas, tal, mês vai, mais ou menos
+
+206
+00:09:09,851 --> 00:09:12,729
+o tempo que ele vai vai gastar pra fazer isso,
+
+207
+00:09:12,730 --> 00:09:14,988
+parando pra pensar de modo bem grosseiro.
+
+208
+00:09:16,127 --> 00:09:19,384
+E quando eu vejo algumas empresas, eu falei, né?
+
+209
+00:09:19,385 --> 00:09:21,583
+Falei com algumas recentemente relações.
+
+210
+00:09:21,584 --> 00:09:23,862
+Meu, eu não consigo tirar o meu dev nem a
+
+211
+00:09:23,863 --> 00:09:27,579
+hora por dia pra ele fazer curso, por exemplo, online.
+
+212
+00:09:27,580 --> 00:09:27,819
+Né?
+
+213
+00:09:27,820 --> 00:09:29,419
+Que você já deu exercício que nem o
+
+214
+00:09:29,420 --> 00:09:31,258
+code bash, que você deu exemplo ali.
+
+215
+00:09:31,259 --> 00:09:33,537
+Método Super Simples, você faz exercício de
+
+216
+00:09:33,538 --> 00:09:36,535
+7 minutos, 8 minutos, 12 minutos, 5
+
+217
+00:09:36,536 --> 00:09:38,414
+minutos, aí tem cada lição tem.
+
+218
+00:09:38,415 --> 00:09:39,813
+Inclusive, tem uma versão free, faz
+
+219
+00:09:39,814 --> 00:09:42,332
+parênteses, tem uma versão free, free.com.
+
+220
+00:09:42,333 --> 00:09:45,011
+A galera pode testar aí, vem cá, tem umas lições
+
+221
+00:09:45,012 --> 00:09:47,360
+lá que dá pra você avaliar essa noção muito bacana.
+
+222
+00:09:49,039 --> 00:09:52,837
+Então as soluções elas já sabem disso, né?
+
+223
+00:09:52,838 --> 00:09:54,865
+A galera que é o Fernando Mercado Livre, sabe?
+
+224
+00:09:54,866 --> 00:09:57,823
+O cara vai parar duas horas, dez horas pra ver vídeo.
+
+225
+00:09:57,824 --> 00:10:00,222
+Ele vai parar quinze minutos, uma meia hora e tal.
+
+226
+00:10:00,223 --> 00:10:01,981
+E a resistência que eu tenho contado é muito essa.
+
+227
+00:10:01,982 --> 00:10:04,080
+O cara falou meu, eu não consigo parar o meu dev.
+
+228
+00:10:04,869 --> 00:10:06,868
+15 minutos, meia hora por dia, uma
+
+229
+00:10:06,869 --> 00:10:08,667
+hora por dia pra fazer treinamento.
+
+230
+00:10:08,668 --> 00:10:10,307
+Se você parar pra pensar uma horinha
+
+231
+00:10:10,308 --> 00:10:13,124
+por dia, o cara gasta Instagram.
+
+232
+00:10:13,125 --> 00:10:14,344
+É, isso que eu falei.
+
+233
+00:10:15,083 --> 00:10:16,143
+Gasinha. Noeiro.
+
+234
+00:10:17,082 --> 00:10:21,269
+Então assim, pra pegar esse tempo, o ponto de vista
+
+235
+00:10:21,270 --> 00:10:24,547
+da empresa e falar pra galera é o seguinte, você
+
+236
+00:10:24,548 --> 00:10:26,826
+tem que fazer uma vez por dia, então o suporte
+
+237
+00:10:26,827 --> 00:10:28,784
+pros caras, no sentido de, meu, podem fazer.
+
+238
+00:10:28,785 --> 00:10:30,223
+Você tem que fazer e podem fazer.
+
+239
+00:10:30,224 --> 00:10:32,062
+Não é que você tem que trabalhar oito
+
+240
+00:10:32,063 --> 00:10:33,701
+horas, uma hora de treinamento, você tem que
+
+241
+00:10:33,702 --> 00:10:35,820
+trabalhar nove, uma hora a mais pra compensar
+
+242
+00:10:35,821 --> 00:10:37,859
+que vá atrasar o trabalho e tal, não.
+
+243
+00:10:37,860 --> 00:10:40,697
+Mas encaixar dentro ali dos planejamentos e tudo mais.
+
+244
+00:10:40,698 --> 00:10:42,536
+Porque o que eu tenho visto é, as empresas estão
+
+245
+00:10:42,537 --> 00:10:47,663
+muito focadas na entrega, desenvolver, feat, entregar, entregar e tudo
+
+246
+00:10:47,664 --> 00:10:51,301
+isso ao redor vai sendo deixado de lado.
+
+247
+00:10:51,302 --> 00:10:53,129
+E Essa é uma outra pergunta que eu
+
+248
+00:10:53,130 --> 00:10:56,347
+queria trazer, o que você enxerga isso, Marcos? Por quê?
+
+249
+00:10:57,167 --> 00:11:00,704
+Que é tão difícil a galera olhar pra
+
+250
+00:11:00,705 --> 00:11:02,963
+isso e falar meu, realmente eu preciso capacitar
+
+251
+00:11:03,822 --> 00:11:05,562
+as minhas pessoas, os meus profissionais.
+
+252
+00:11:07,340 --> 00:11:09,729
+Ah, investe em outros treinamentos, através de de
+
+253
+00:11:09,730 --> 00:11:14,207
+compliance, antifraude, campanha de antifiches, tem lá os
+
+254
+00:11:14,208 --> 00:11:16,846
+vídeos para assistir, tem outras questões de segurança
+
+255
+00:11:16,847 --> 00:11:19,384
+também que acaba caindo no topdown e acontece.
+
+256
+00:11:20,003 --> 00:11:23,042
+Mas essa é uma das mais críticas, eu diria.
+
+257
+00:11:23,043 --> 00:11:24,081
+Por que você acha que as
+
+258
+00:11:24,082 --> 00:11:26,709
+empresas têm resistência do tempo.
+
+259
+00:11:26,710 --> 00:11:28,308
+Não, não, não, é que nem você vá.
+
+260
+00:11:28,309 --> 00:11:29,707
+Tem pouco do que você falou, né?
+
+261
+00:11:29,708 --> 00:11:32,186
+Investimento, vai desgastar, aquela coisa toda.
+
+262
+00:11:32,187 --> 00:11:34,064
+Mas, porra, Não dá, né mano?
+
+263
+00:11:34,065 --> 00:11:38,822
+A gente tá no século 40 já e O que você acha?
+
+264
+00:11:40,241 --> 00:11:43,948
+Assim, eu vou falar agora pouquinho até do que
+
+265
+00:11:43,949 --> 00:11:47,027
+eu vejo aqui tá na empresa que eu trabalho
+
+266
+00:11:47,028 --> 00:11:50,224
+aqui na Alemanha logo que eu entrei em eu
+
+267
+00:11:50,225 --> 00:11:52,164
+tive uma semana focada em treinamentos.
+
+268
+00:11:52,903 --> 00:11:55,162
+Logo que eu entrei eu não fazia nada.
+
+269
+00:11:55,742 --> 00:11:59,548
+Tinha treinamentos ali tanto voltado para parte da
+
+270
+00:11:59,549 --> 00:12:00,908
+linguagem que a gente usa aqui, que é
+
+271
+00:12:00,909 --> 00:12:04,106
+uma linguagem específica, o treinamento voltado ali para
+
+272
+00:12:04,107 --> 00:12:06,764
+as políticas da empresa, no geral, Só que
+
+273
+00:12:06,765 --> 00:12:09,503
+eu não tive treinamento nenhuma vez em segurança.
+
+274
+00:12:10,483 --> 00:12:13,041
+Vocês me deram treinamento para isso.
+
+275
+00:12:13,042 --> 00:12:14,221
+E eu vou perguntar.
+
+276
+00:12:15,149 --> 00:12:18,268
+Uma das justificativas que eu tive aqui eu acredito que
+
+277
+00:12:18,269 --> 00:12:24,603
+é válido para o Brasil também é que entendese que
+
+278
+00:12:24,604 --> 00:12:28,641
+o desenvolvedor está ali para fazer o trabalho dele e
+
+279
+00:12:28,642 --> 00:12:31,429
+quando você tira ele em uma hora você atrasando uma
+
+280
+00:12:31,430 --> 00:12:34,748
+entrega lá na frente, então você atrasa uma hora aqui,
+
+281
+00:12:34,749 --> 00:12:37,066
+é como se eu atrasar 4, 5 ou 6 ali
+
+282
+00:12:37,067 --> 00:12:39,724
+na frente no momento de uma entrega pensando que vai
+
+283
+00:12:39,725 --> 00:12:41,823
+passar todo aquele processo de SLC.
+
+284
+00:12:43,042 --> 00:12:46,360
+A empresa pensa desse jeito, não acredito que seja assim, a
+
+285
+00:12:46,361 --> 00:12:50,268
+minha visão acho que é mais pensando pô se eu tirar
+
+286
+00:12:50,269 --> 00:12:54,146
+o desenvolvedor ele vai perder o foco então vamos ver uma
+
+287
+00:12:54,147 --> 00:12:56,614
+hora que ele vai parar ali e vai tirar meia hora
+
+288
+00:12:56,615 --> 00:12:59,772
+antes e meia hora depois, pra se preparar, eu ir pra
+
+289
+00:12:59,773 --> 00:13:02,251
+voltar e ter o ritmo dele, então em vez de uma
+
+290
+00:13:02,252 --> 00:13:06,129
+hora eu tô perdendo duas ali, de trabalho desenvolvedor.
+
+291
+00:13:06,130 --> 00:13:07,928
+Porque a gente sabe que o cara parou de
+
+292
+00:13:07,929 --> 00:13:09,927
+fazer ali, o cara vai fazer outras coisas também.
+
+293
+00:13:09,928 --> 00:13:14,004
+Não vai só usar a thumbnail para voltar a codar.
+
+294
+00:13:14,005 --> 00:13:15,804
+Ele vai tomar café, ele vai mexer
+
+295
+00:13:15,805 --> 00:13:17,503
+no Tinder, vai mexer no Instagram,
+
+296
+00:13:19,322 --> 00:13:22,619
+mas essas coisas argumentando, compra isso, né?
+
+297
+00:13:22,620 --> 00:13:24,138
+Essas coisas já são naturais, a gente já
+
+298
+00:13:24,139 --> 00:13:26,297
+não fez oito horas ali trabalhando, né? A gente
+
+299
+00:13:26,817 --> 00:13:28,576
+eu não tenho certeza que mostra que a
+
+300
+00:13:28,577 --> 00:13:31,174
+gente fica seis, de oito horas até 6,
+
+301
+00:13:31,175 --> 00:13:31,974
+até menos.
+
+302
+00:13:31,975 --> 00:13:36,252
+E quando você falou, quando você fala, quando você para
+
+303
+00:13:36,253 --> 00:13:38,559
+pra ler email, aí você tinha que fazer uma tarefa,
+
+304
+00:13:38,560 --> 00:13:40,658
+aí chega email, aí você se perde naquele email que
+
+305
+00:13:40,659 --> 00:13:42,657
+você tem que responder, que você tem que buscar ajuda,
+
+306
+00:13:42,658 --> 00:13:45,245
+pedir não sei quem, a sua tarefa mesmo já ficou.
+
+307
+00:13:45,246 --> 00:13:46,324
+Você já está fazendo outra coisa
+
+308
+00:13:46,325 --> 00:13:47,763
+por mais que seja do trabalho.
+
+309
+00:13:47,764 --> 00:13:50,662
+Então acho que a questão é todo planejamento.
+
+310
+00:13:51,282 --> 00:13:56,378
+Os times, incluir como parte do produto que
+
+311
+00:13:56,379 --> 00:13:58,337
+você vai desenvolver você precisa de ano para
+
+312
+00:13:58,338 --> 00:14:01,394
+desenvolver o produto é mês é duas sprints
+
+313
+00:14:01,395 --> 00:14:04,473
+considere que haverá tempo de treinamento naquilo.
+
+314
+00:14:04,474 --> 00:14:05,952
+Tanto para.
+
+315
+00:14:05,953 --> 00:14:09,049
+O próprio deve aprender sobre o negócio, Se o Brasil
+
+316
+00:14:09,050 --> 00:14:11,648
+fizer a linguagem, tem treinamento mais do time, coisas ali
+
+317
+00:14:11,649 --> 00:14:14,287
+que ele precisa fazer, inclua a segurança junto.
+
+318
+00:14:14,288 --> 00:14:18,105
+Que seja 15 minutos por dia, meia hora por dia.
+
+319
+00:14:18,106 --> 00:14:21,063
+Porque sem esse planejamento, aí eu concordo pouco com as
+
+320
+00:14:21,064 --> 00:14:23,862
+empresas de meu, não dá pra encaixar isso agora.
+
+321
+00:14:23,863 --> 00:14:26,900
+Eu tenho planejamento aqui de entregas, de desenvolvimento, produtos
+
+322
+00:14:26,901 --> 00:14:29,059
+que eu vou fazer, tética e tal, beleza?
+
+323
+00:14:29,060 --> 00:14:31,238
+Então, eu tenho seis meses aqui de planejamento.
+
+324
+00:14:31,858 --> 00:14:34,576
+Uma hora por dia você fazer as contas, eu
+
+325
+00:14:34,577 --> 00:14:36,634
+vou estar traçando, eu vou estar perdendo coisa.
+
+326
+00:14:36,635 --> 00:14:38,953
+É porque já tá muito bem estruturado, beleza?
+
+327
+00:14:38,954 --> 00:14:40,992
+Mas vamos começar a incluir agora daqui pra
+
+328
+00:14:40,993 --> 00:14:43,831
+frente esse tempo de treinamento, considerar esse tempo
+
+329
+00:14:43,832 --> 00:14:47,569
+de treinamento no planejamento porque vai fazer parte
+
+330
+00:14:47,570 --> 00:14:50,327
+da própria evolução do profissional e inclusive isso
+
+331
+00:14:50,328 --> 00:14:53,566
+entra puxando até gancho ali do que você
+
+332
+00:14:53,567 --> 00:14:56,774
+falou antes do turnover o turnover azar.
+
+333
+00:14:57,513 --> 00:14:59,213
+Ele acontece por diversos motivos.
+
+334
+00:14:59,992 --> 00:15:02,311
+Às vezes, até pela falta
+
+335
+00:15:02,312 --> 00:15:03,920
+de capacitação do profissional.
+
+336
+00:15:03,921 --> 00:15:06,778
+O cara sente que ele não deu uma certificação, apoio,
+
+337
+00:15:07,598 --> 00:15:10,996
+patrocínio pra eventos, coisas do tipo, o cara, a empresa
+
+338
+00:15:10,997 --> 00:15:13,844
+aqui tem uma ferramenta legal que ajuda treinar com relação
+
+339
+00:15:13,845 --> 00:15:17,322
+à segurança, cada mês tem uma lição nova, por exemplo,
+
+340
+00:15:17,323 --> 00:15:22,658
+tem gamification aqui, coisas que incentivam, vai estimulando a galera
+
+341
+00:15:22,659 --> 00:15:25,917
+a participar, mas com certeza tem que ter o suporte
+
+342
+00:15:26,656 --> 00:15:29,224
+de gestão, vamos dizer assim de falar galera, tem que
+
+343
+00:15:29,225 --> 00:15:32,023
+estar planejado uma hora por dia, vocês tem que fazer
+
+344
+00:15:32,024 --> 00:15:32,603
+os treinamentos.
+
+345
+00:15:33,302 --> 00:15:34,941
+Ah, mas o treinamento não é boa, mas
+
+346
+00:15:34,942 --> 00:15:36,740
+ah, o treinamento não é legal, cara.
+
+347
+00:15:36,741 --> 00:15:38,589
+Você já fez o básico, entendeu? Já.
+
+348
+00:15:38,590 --> 00:15:40,788
+Aí, ferramenta, é outra discussão.
+
+349
+00:15:40,789 --> 00:15:42,627
+A qualidade daquilo é outra discussão, mas que tem
+
+350
+00:15:42,628 --> 00:15:45,226
+que ter, né, entrar no planejamento, fala aí.
+
+351
+00:15:45,227 --> 00:15:47,185
+Não, e até pegar o gancho aí que você tá
+
+352
+00:15:47,186 --> 00:15:50,993
+falando, Aqui na Europa eu percebi que o tempo de
+
+353
+00:15:50,994 --> 00:15:53,432
+experiência de frente do Brasil que são 3 meses é
+
+354
+00:15:53,433 --> 00:15:56,819
+que são 6, justamente por isso, porque tem uma troca
+
+355
+00:15:56,820 --> 00:16:03,456
+ali muito rápida, tem turnover ali de pessoas muito rápido
+
+356
+00:16:03,457 --> 00:16:06,973
+e então esse acabam pegando ali e aumentando o tempo
+
+357
+00:16:06,974 --> 00:16:11,211
+de experiência é engraçado isso eu não tinha passado por
+
+358
+00:16:11,212 --> 00:16:15,578
+isso até chegar aqui de experimentar ali, então eu não,
+
+359
+00:16:15,579 --> 00:16:20,456
+durante seis meses, boa parte do equipamento, blush eles reteram,
+
+360
+00:16:20,457 --> 00:16:23,644
+eles não mandaram tudo, só mandaram depois que acabou a
+
+361
+00:16:23,645 --> 00:16:24,243
+experiência.
+
+362
+00:16:24,244 --> 00:16:28,761
+Então acabou a experiência, recebi mesa, recebi monitor, recebeu
+
+363
+00:16:28,762 --> 00:16:31,289
+uma porrada de coisa, eles não mandam para quem
+
+364
+00:16:31,290 --> 00:16:34,207
+iniciou agora justamente para o outro novo.
+
+365
+00:16:34,208 --> 00:16:37,086
+E agora também recebi acesso a outras ferramentas,
+
+366
+00:16:37,087 --> 00:16:40,803
+recebi acesso a Há outras coisas que somente
+
+367
+00:16:40,804 --> 00:16:44,522
+após a experiência teria acesso, então acho que
+
+368
+00:16:44,523 --> 00:16:45,961
+cabe muito recurso com treinamento.
+
+369
+00:16:45,962 --> 00:16:47,340
+Se você tem medo do turnover,
+
+370
+00:16:48,169 --> 00:16:49,449
+Você sabe o que vai trocar?
+
+371
+00:16:49,450 --> 00:16:51,808
+Então deixe para depois da experiência Não precisa
+
+372
+00:16:51,809 --> 00:16:55,584
+aplicar aquele treinamento, disponibilizar uma licença para pro
+
+373
+00:16:55,585 --> 00:16:57,223
+Devil ali no momento que ele entra.
+
+374
+00:16:57,224 --> 00:17:00,582
+Espero passar a experiência, passar a primeira avaliação, sentir
+
+375
+00:17:00,583 --> 00:17:04,140
+o quanto ele está enquadrado ali com a empresa
+
+376
+00:17:04,141 --> 00:17:06,029
+se ele se a empresa quer ficar com ele
+
+377
+00:17:06,030 --> 00:17:07,748
+e se ele quer ficar com a empresa para
+
+378
+00:17:07,749 --> 00:17:10,866
+você começar a disponibilizar também esse treinamento e focar
+
+379
+00:17:10,867 --> 00:17:14,294
+mais no desenvolvimento desse profissional porque é o capaz
+
+380
+00:17:14,295 --> 00:17:17,292
+de você focando nele ali, dando incentivos para ele,
+
+381
+00:17:17,293 --> 00:17:20,769
+com treinamento de segurança, mandar ele para evento, fazer
+
+382
+00:17:20,770 --> 00:17:24,048
+ele realmente sentir parte da empresa e ter o
+
+383
+00:17:24,049 --> 00:17:27,166
+crachá da empresa e ter orgulho disso vai diminuir
+
+384
+00:17:27,167 --> 00:17:28,825
+esse turno, vai ajudar bastante.
+
+385
+00:17:29,514 --> 00:17:31,793
+Você pode tomar primeiro tecnologia.
+
+386
+00:17:31,794 --> 00:17:33,232
+Deve ser copos.
+
+387
+00:17:33,233 --> 00:17:34,732
+Boa, sente parte da família.
+
+388
+00:17:35,351 --> 00:17:36,671
+Eu queria dividir isso que você
+
+389
+00:17:36,672 --> 00:17:38,480
+falou em duas partes, né?
+
+390
+00:17:38,481 --> 00:17:40,638
+Você considerou uma olhando para cara que
+
+391
+00:17:40,639 --> 00:17:42,557
+comprou o call de basting da vida.
+
+392
+00:17:42,558 --> 00:17:44,516
+Putz, ele vai perder uma licença, vai esperar o
+
+393
+00:17:44,517 --> 00:17:46,856
+cara passar a experiência e dar acesso para ele. Beleza?
+
+394
+00:17:47,404 --> 00:17:50,003
+Outra é, a gente tem que considerar a empresa que está
+
+395
+00:17:50,004 --> 00:17:52,962
+mesmo preparando segurança e o cara chegou hoje, ele vai passar
+
+396
+00:17:52,963 --> 00:17:55,161
+por que a gente chama de banho de loja.
+
+397
+00:17:55,162 --> 00:17:58,339
+Vai tomar banho ali então vai ter documento de
+
+398
+00:17:58,340 --> 00:18:01,137
+boas práticas, vai ter portalzinho da empresa que dá
+
+399
+00:18:01,138 --> 00:18:02,976
+o cara é assim, a codificação segura que é
+
+400
+00:18:02,977 --> 00:18:05,454
+assim, é assim que a gente faz escanta, Então
+
+401
+00:18:05,455 --> 00:18:08,093
+tem ali onboarding daquele funcionário.
+
+402
+00:18:08,094 --> 00:18:09,772
+Até como, né, que seja pequenos
+
+403
+00:18:09,773 --> 00:18:11,891
+treinamentos ali, coisas simples, do mínimo
+
+404
+00:18:11,892 --> 00:18:14,110
+que aquela empresa espera daquele profissional.
+
+405
+00:18:14,111 --> 00:18:17,508
+Até abrindo a venda, tem uma coisa para esse público,
+
+406
+00:18:17,509 --> 00:18:19,227
+que é o nova 8K da Emilia e o seu
+
+407
+00:18:19,228 --> 00:18:21,925
+curso também, porque esse curso é justamente para isso.
+
+408
+00:18:21,926 --> 00:18:24,083
+Já tem ali você pode disponibilizar para o pessoal
+
+409
+00:18:24,084 --> 00:18:27,842
+assistir então já tem para esse pessoal pô vamos
+
+410
+00:18:27,843 --> 00:18:32,118
+fazer aquele onboard da galera pega essas videoaulas ali,
+
+411
+00:18:32,119 --> 00:18:33,718
+já dá banho pro cara pra ele começar a
+
+412
+00:18:33,719 --> 00:18:36,157
+entender o conceito, começar a se programar pra ele
+
+413
+00:18:36,158 --> 00:18:38,334
+ter treinamento daqui dois meses.
+
+414
+00:18:38,335 --> 00:18:40,533
+Já tem essa informação legal, tem que ficar
+
+415
+00:18:40,534 --> 00:18:42,712
+atento que a empresa preza por segurança.
+
+416
+00:18:43,452 --> 00:18:46,799
+Aproveitando o momento merchan do Marcos, em breve
+
+417
+00:18:46,800 --> 00:18:49,878
+terão inscrições aí pro application chickr shekt spears.
+
+418
+00:18:49,879 --> 00:18:51,877
+É evento aí onde eu faço o lançamento do
+
+419
+00:18:51,878 --> 00:18:54,315
+meu curso explicando o application chickr de breve aguarde
+
+420
+00:18:54,316 --> 00:18:55,595
+até o fim do ano aí no seu fim
+
+421
+00:18:55,596 --> 00:18:57,204
+eu não tenho ter lançamento bacaninha.
+
+422
+00:18:57,864 --> 00:19:01,062
+E pra você que não quer esperar, você não quer esperar.
+
+423
+00:19:01,063 --> 00:19:02,701
+Você não quer correr o risco de chegar numa
+
+424
+00:19:02,702 --> 00:19:05,229
+empresa hoje, ter que faz a treinamento, ou não
+
+425
+00:19:05,230 --> 00:19:07,028
+tem treinamento, você vai ter que se virar.
+
+426
+00:19:07,029 --> 00:19:09,027
+Não quer passar por isso?
+
+427
+00:19:09,028 --> 00:19:12,605
+Acesse agora OnlySect Things.
+
+428
+00:19:12,606 --> 00:19:15,163
+Ponto com ponto br vou até falar com a voz
+
+429
+00:19:15,164 --> 00:19:21,160
+sensual OnlySect.com.br é o programa de assinatura mas não é
+
+430
+00:19:21,161 --> 00:19:23,929
+mais barato porque deve ter outros mais baratos por aí,
+
+431
+00:19:23,930 --> 00:19:27,247
+mas não tem nada igual pra fake news.
+
+432
+00:19:27,248 --> 00:19:31,314
+Conteúdo semanal diversos conteúdos, tem comunidade
+
+433
+00:19:31,315 --> 00:19:34,572
+exclusiva, tem mano, livro, PDF, revista.
+
+434
+00:19:38,860 --> 00:19:41,178
+Com essa ideia, inclusive. Muito boa.
+
+435
+00:19:41,179 --> 00:19:43,137
+Tem tanta coisa lá que nem eu sei mais o que tem,
+
+436
+00:19:43,138 --> 00:19:47,665
+mas cara, vai lá, 2990 no plano anual, você paga por mês.
+
+437
+00:19:48,224 --> 00:19:52,422
+Onlysacfense.com.br tá da hora, não é porque eu
+
+438
+00:19:52,423 --> 00:19:54,541
+fiz não, mas realmente o conteúdo tá da
+
+439
+00:19:54,542 --> 00:19:57,158
+hora, E a ideia do Odisseia que fez
+
+440
+00:19:57,159 --> 00:20:01,396
+é ter esse treinamento contínuo dos profissionais.
+
+441
+00:20:01,397 --> 00:20:02,425
+Óbvio, não é não?
+
+442
+00:20:02,426 --> 00:20:05,343
+Não vai entrar no bagulho e virar o outro especialista.
+
+443
+00:20:05,344 --> 00:20:08,901
+Obviamente são conteúdos semanais, conteúdos mais curtos,
+
+444
+00:20:08,902 --> 00:20:11,159
+conteúdos pequenos, curso de 80 horas você
+
+445
+00:20:11,160 --> 00:20:12,598
+tem começo, meio e fim, não.
+
+446
+00:20:12,599 --> 00:20:16,916
+É aprendizado contínuo onde você vai ter
+
+447
+00:20:16,917 --> 00:20:18,795
+diversos aspectos de aprendizagem e security.
+
+448
+00:20:18,796 --> 00:20:20,394
+Sabe security, mas com foco é
+
+449
+00:20:20,395 --> 00:20:22,033
+porque Chico de uma maneira geral.
+
+450
+00:20:22,034 --> 00:20:23,373
+É, e até abre adendo.
+
+451
+00:20:24,832 --> 00:20:26,791
+O Onis é que fãs ali, é por cara que tem
+
+452
+00:20:26,792 --> 00:20:31,619
+15 minutinhos ali, tá indo no banheiro, tá tá dirigindo, tá
+
+453
+00:20:31,620 --> 00:20:35,057
+no Uber, tá no transporte ali Cara pega ali 15 minutinhos,
+
+454
+00:20:35,058 --> 00:20:38,255
+dá uma lida ali e já consegue entender pequeno tema ali
+
+455
+00:20:38,256 --> 00:20:41,693
+até gosto de falar que apareceu aquele livro lá para leigos
+
+456
+00:20:41,694 --> 00:20:43,932
+né então é uma coisa rápida ali a pessoa já começa
+
+457
+00:20:43,933 --> 00:20:47,529
+a ter uma noção depois consegue se aprofundar no tema nos
+
+458
+00:20:47,530 --> 00:20:48,929
+livros que tem lá dentro.
+
+459
+00:20:48,930 --> 00:20:50,168
+Então isso é bem legal.
+
+460
+00:20:50,169 --> 00:20:52,047
+O tempo que a galera gasta no cocô é
+
+461
+00:20:52,048 --> 00:20:54,565
+o tempo que você consome conteúdo da semana.
+
+462
+00:20:54,566 --> 00:20:56,704
+É, eu não queria falar isso, mas já te falou.
+
+463
+00:20:58,243 --> 00:21:00,721
+Eu paro na saúde, nada. Tecnologia.
+
+464
+00:21:00,722 --> 00:21:01,861
+Deve ser cóccix.
+
+465
+00:21:02,429 --> 00:21:04,988
+Tá fazendo aquela cagada, já aproveita e
+
+466
+00:21:04,989 --> 00:21:07,267
+leia pra não fazer cagada no trabalho.
+
+467
+00:21:07,268 --> 00:21:09,306
+É isso aí, acessa onde você que fez pouco do
+
+468
+00:21:09,307 --> 00:21:13,233
+PR, que tá, mano, realmente tá, é programa ali por
+
+469
+00:21:13,234 --> 00:21:16,591
+assinatura, né, clube de assinatura, que tem conteúdo bacana e
+
+470
+00:21:16,592 --> 00:21:19,050
+ajuda vocês com relação a tudo isso daí.
+
+471
+00:21:19,989 --> 00:21:21,588
+E para empresas também, acho
+
+472
+00:21:21,589 --> 00:21:23,168
+que funcionam no mesmo contexto.
+
+473
+00:21:24,347 --> 00:21:27,885
+Voltando pouco, por nossa treta,
+
+474
+00:21:28,504 --> 00:21:29,864
+essa relação de treinamento.
+
+475
+00:21:29,865 --> 00:21:31,863
+Agora eu tenho recebido também
+
+476
+00:21:31,864 --> 00:21:35,121
+uma certa resistência dos desenvolvedores.
+
+477
+00:21:35,809 --> 00:21:38,008
+Com relação aí, né?
+
+478
+00:21:38,009 --> 00:21:39,348
+Plataformas em específico.
+
+479
+00:21:40,087 --> 00:21:42,526
+Cold bashing, security journey, o que
+
+480
+00:21:42,527 --> 00:21:43,925
+não falta é plataforma, né?
+
+481
+00:21:43,926 --> 00:21:47,004
+O contra Tem o da Vera Code lá, o security
+
+482
+00:21:47,005 --> 00:21:50,362
+Labs mano, que não falta a plataforma que faça isso.
+
+483
+00:21:50,363 --> 00:21:52,901
+E os feedbacks são os mais variados.
+
+484
+00:21:55,109 --> 00:21:58,688
+Desde Desde Ah, o conteúdo é mais pra Júnior.
+
+485
+00:21:59,587 --> 00:22:01,106
+Sim, isso é muito novo.
+
+486
+00:22:01,107 --> 00:22:02,845
+As plataformas têm muito bug.
+
+487
+00:22:04,344 --> 00:22:09,421
+As lições são repetitivas ah mas putz mês aqui eu
+
+488
+00:22:09,422 --> 00:22:12,340
+fiquei fazendo mês e esgotei a plataforma não tenho coisa
+
+489
+00:22:12,341 --> 00:22:16,368
+nova já zerei, zerei o game, não tem conteúdo novo.
+
+490
+00:22:17,267 --> 00:22:19,226
+Outro que eu ouvi também de várias
+
+491
+00:22:19,227 --> 00:22:21,525
+plataformas, não só de uma, de várias.
+
+492
+00:22:22,564 --> 00:22:26,242
+Ah, na rede da empresa não funciona, porque
+
+493
+00:22:26,243 --> 00:22:28,501
+tem proxy, então monte de coisa não carrega.
+
+494
+00:22:29,139 --> 00:22:32,578
+Ou a plataforma A eu não deixo mexer no código,
+
+495
+00:22:32,579 --> 00:22:34,617
+eu sou do next, next, fim, se eu vou vendo.
+
+496
+00:22:34,618 --> 00:22:38,124
+A plataforma B eu consigo mexer no código, Mas a ideia é
+
+497
+00:22:38,125 --> 00:22:40,883
+uma bosta, não é uma ideia no browser, não é legal.
+
+498
+00:22:40,884 --> 00:22:47,098
+Então assim, é monte de coisinha, que se você passou a
+
+499
+00:22:47,099 --> 00:22:49,278
+gente tem uma Tá foda, desculpa, é o pessoal que?
+
+500
+00:22:50,417 --> 00:22:51,736
+Gripe não dá, não dá,
+
+501
+00:22:51,737 --> 00:22:52,486
+não dá.
+
+502
+00:22:54,075 --> 00:22:55,354
+É monte de coisinha que se você
+
+503
+00:22:55,355 --> 00:22:57,593
+for querer agradar todo mundo, não dá.
+
+504
+00:22:57,594 --> 00:22:58,632
+Você não vai deixar a
+
+505
+00:22:58,633 --> 00:23:00,691
+plataforma perfeita, não tem como.
+
+506
+00:23:01,231 --> 00:23:03,369
+O que eu vejo são as fichas dessas
+
+507
+00:23:03,370 --> 00:23:06,247
+plataformas entregam bastante coisa e ajudam o pessoal
+
+508
+00:23:06,248 --> 00:23:08,406
+a engajar, a participar, aquela coisa toda.
+
+509
+00:23:08,407 --> 00:23:10,974
+Mas tem muita coisinha ali que não sei mas uma
+
+510
+00:23:10,975 --> 00:23:14,173
+em comum que eu vi bastante é muito conteúdo para
+
+511
+00:23:14,174 --> 00:23:17,411
+Júnior muito conteúdo para quem é iniciante para quem é
+
+512
+00:23:17,412 --> 00:23:21,028
+desenvolvedor mais experiente Conteúdo deixa pouco a desejar.
+
+513
+00:23:21,029 --> 00:23:21,868
+Você chegou?
+
+514
+00:23:21,869 --> 00:23:23,488
+É a mesma coisa que tem ouvido?
+
+515
+00:23:24,187 --> 00:23:25,946
+O que você tem pra falar sobre isso aí?
+
+516
+00:23:25,947 --> 00:23:27,885
+Do feedback dos devs, né? Vamos lá.
+
+517
+00:23:29,004 --> 00:23:32,082
+Isso aí a gente já escutei bastante, teve
+
+518
+00:23:32,083 --> 00:23:34,481
+até uma implantação que eu estava fazendo, que
+
+519
+00:23:34,482 --> 00:23:36,649
+era fã não, É coisa pra Júnior.
+
+520
+00:23:36,650 --> 00:23:39,148
+Eu fiz aqui cinco, seis cursos já. Caraca.
+
+521
+00:23:39,687 --> 00:23:41,367
+Só que aí, quando a gente foi ver,
+
+522
+00:23:41,368 --> 00:23:43,335
+não é que só tenha conteúdo pra Júnior.
+
+523
+00:23:43,336 --> 00:23:46,613
+Se o cara pesquisar lá tem .NET por exemplo Só que
+
+524
+00:23:46,614 --> 00:23:50,909
+você tem .NET Advanced e você tem .NET Advanced 2 Então
+
+525
+00:23:50,910 --> 00:23:53,988
+tem conteúdo para quem já tem uma experiência maior.
+
+526
+00:23:53,989 --> 00:23:56,906
+Então já tem ali vamos supor que pleno.
+
+527
+00:23:56,907 --> 00:23:59,774
+Com cada cena, insiders caraja, que já tem
+
+528
+00:23:59,775 --> 00:24:03,652
+uma experiência em desenvolvimento seguro, eu acredito que
+
+529
+00:24:03,653 --> 00:24:06,000
+vai estar no nível para ele fácil.
+
+530
+00:24:06,001 --> 00:24:08,838
+Mas para quem está iniciando ou para quem é
+
+531
+00:24:08,839 --> 00:24:12,436
+pleno ali, os conteúdos do Advanced 2 são bem
+
+532
+00:24:12,437 --> 00:24:14,995
+complicados e fora isso tem o Challengers.
+
+533
+00:24:14,996 --> 00:24:18,663
+O Challengers são desafios pessoais que você tem.
+
+534
+00:24:18,664 --> 00:24:19,903
+Então, por exemplo, você escolheu
+
+535
+00:24:19,904 --> 00:24:21,742
+a linguagem do .NET ali.
+
+536
+00:24:21,743 --> 00:24:25,149
+Ele vai ter o Easy e o Heart As
+
+537
+00:24:25,150 --> 00:24:28,148
+perguntas mudam todas as vezes que você vai fazer
+
+538
+00:24:28,149 --> 00:24:30,687
+e você consegue ali entender pouquinho mais.
+
+539
+00:24:31,826 --> 00:24:36,364
+E se mesmo assim estiver muito fácil, tem treinamentos ali, que
+
+540
+00:24:36,365 --> 00:24:39,962
+você mesmo faz, que é os wargames ali, que aí sim,
+
+541
+00:24:39,963 --> 00:24:42,910
+é uma coisa ali para nível sênior para cima,
+
+542
+00:24:42,911 --> 00:24:45,548
+Se tiver muito fácil, stop, pega o repórter do
+
+543
+00:24:45,549 --> 00:24:47,187
+SAST e fala pros caras, tá tão fácil?
+
+544
+00:24:47,188 --> 00:24:49,486
+Custa, por que vocês estão querendo vulnerabilidade aí?
+
+545
+00:24:50,306 --> 00:24:51,246
+Simples assim.
+
+546
+00:24:52,264 --> 00:24:54,443
+Eu tive não cliente, né?
+
+547
+00:24:54,444 --> 00:24:55,862
+Não vou chamar de cliente que não era cliente,
+
+548
+00:24:55,863 --> 00:24:58,181
+mas era uma teve debate aí com prospect.
+
+549
+00:24:58,182 --> 00:25:00,539
+E Cara, fala, as lições são muito fáceis.
+
+550
+00:25:00,540 --> 00:25:03,858
+E a gente tava rodando o SAST no sistema dos caras.
+
+551
+00:25:03,859 --> 00:25:06,416
+E aí, mano, a segunda era habilidade é dar com pau.
+
+552
+00:25:06,417 --> 00:25:08,535
+E coisa idiota, SQL Injection.
+
+553
+00:25:08,536 --> 00:25:10,094
+Mano, Tá tão fácil o curso?
+
+554
+00:25:10,095 --> 00:25:11,013
+Então por que que vocês
+
+555
+00:25:11,014 --> 00:25:13,132
+continuam criando o Vindana R$1000? Olha o tanto!
+
+556
+00:25:13,133 --> 00:25:15,571
+Tipo, depois já do curso, né?
+
+557
+00:25:15,572 --> 00:25:17,240
+Aí, tipo, os caras ficam meio que
+
+558
+00:25:17,241 --> 00:25:19,398
+sem Porque assim, ninguém tava fazendo
+
+559
+00:25:19,399 --> 00:25:20,118
+sem reação.
+
+560
+00:25:20,119 --> 00:25:21,917
+Foi só que ela fala ah, vou navegar aqui, ver
+
+561
+00:25:21,918 --> 00:25:24,236
+qual é e tal, pra falar que não quer.
+
+562
+00:25:24,237 --> 00:25:26,235
+Obviamente, pra uma plataforma específica.
+
+563
+00:25:26,236 --> 00:25:28,943
+Então, acho que tem uma pegando esse ponto, né?
+
+564
+00:25:28,944 --> 00:25:29,823
+Tem uma combinação.
+
+565
+00:25:29,824 --> 00:25:32,342
+Acho que as plataformas ajudam a escalar, você
+
+566
+00:25:32,343 --> 00:25:34,101
+consegue deixar todo mundo no mesmo nível.
+
+567
+00:25:34,102 --> 00:25:35,799
+Ah, tá fácil, pra tá difícil pra outro beleza.
+
+568
+00:25:35,800 --> 00:25:36,439
+Mas não precisa
+
+569
+00:25:36,440 --> 00:25:37,678
+fazer emoji, né?
+
+570
+00:25:37,679 --> 00:25:39,117
+E você garante que todo mundo vai
+
+571
+00:25:39,118 --> 00:25:41,516
+participar, as plataformas te ajudam a coletar
+
+572
+00:25:41,517 --> 00:25:44,294
+métricas, equipiais, enfim, então você tem isso.
+
+573
+00:25:44,295 --> 00:25:48,053
+E aí você tem conteúdos extras ou exclusivos,
+
+574
+00:25:48,054 --> 00:25:50,931
+vamos falar assim, pra quem é de segurança.
+
+575
+00:25:50,932 --> 00:25:53,988
+O cara que vai trabalhar com o epicet, o
+
+576
+00:25:53,989 --> 00:25:56,907
+cara que é devops, você tem conteúdos estratégicos.
+
+577
+00:25:56,908 --> 00:25:58,946
+Agora, parar de criar uma nanaridade, corrigir
+
+578
+00:25:58,947 --> 00:26:00,875
+uma nanaridade é bem que padrão os
+
+579
+00:26:00,876 --> 00:26:02,993
+devs, você pega o ASP da vida.
+
+580
+00:26:02,994 --> 00:26:04,473
+É fácil ASPTOPTEN? É!
+
+581
+00:26:04,474 --> 00:26:06,152
+Mas tamo aí, mostra então como é
+
+582
+00:26:06,153 --> 00:26:08,251
+que corrigi uma falha de criptografia.
+
+583
+00:26:09,059 --> 00:26:09,999
+Escrito a graffiti.
+
+584
+00:26:10,539 --> 00:26:11,778
+Ah, o Brook é o take question.
+
+585
+00:26:11,779 --> 00:26:13,057
+Explica aí então pra mim.
+
+586
+00:26:13,058 --> 00:26:15,056
+É fácil na teoria, mas você vê na prática
+
+587
+00:26:15,057 --> 00:26:17,954
+do código, às vezes, Então, por isso que esse
+
+588
+00:26:17,955 --> 00:26:20,733
+treinamento, esses plataformas ajudam nessa questão da constância.
+
+589
+00:26:22,272 --> 00:26:24,990
+Fazer repetidas vezes, o mesmo conteúdo
+
+590
+00:26:24,991 --> 00:26:27,569
+às vezes, outros, né, inclusive variados,
+
+591
+00:26:27,570 --> 00:26:29,847
+mas estar sempre olhando pra isso.
+
+592
+00:26:29,848 --> 00:26:31,447
+Porque aí você vai fixar na sua
+
+593
+00:26:31,448 --> 00:26:33,785
+cabeça e parar de criar vulnerabilidade.
+
+594
+00:26:33,786 --> 00:26:35,664
+É esse o objetivo de treinamento de segurança para
+
+595
+00:26:35,665 --> 00:26:39,362
+desenvolvedor, que o cara pare de criar vulnerabilidades, e
+
+596
+00:26:40,381 --> 00:26:42,900
+corrige o backlog, porque já tem algumas coisas ali
+
+597
+00:26:42,901 --> 00:26:44,339
+e essa empresa já se preocupa.
+
+598
+00:26:44,340 --> 00:26:46,818
+Mas não necessariamente, ah tá
+
+599
+00:26:46,819 --> 00:26:48,856
+fácil, ah tá difícil, ótimo.
+
+600
+00:26:48,857 --> 00:26:50,056
+Então, vai fazendo, vai que
+
+601
+00:26:50,057 --> 00:26:51,595
+é praticamente, mas tá fácil.
+
+602
+00:26:52,314 --> 00:26:55,113
+Aí você fala, o que eu falei, mano, faz scanner
+
+603
+00:26:55,114 --> 00:26:56,712
+e SAST e vê se tá fácil mesmo, porque se
+
+604
+00:26:56,713 --> 00:26:59,690
+tiver muito problema no código, isso não tá se refletindo.
+
+605
+00:26:59,691 --> 00:27:00,929
+É uma forma de você cruzar o
+
+606
+00:27:00,930 --> 00:27:03,588
+aprendizado versus o que está produzindo.
+
+607
+00:27:04,327 --> 00:27:05,846
+Estão fazendo o curso? Estão.
+
+608
+00:27:05,847 --> 00:27:07,126
+Legal, mas estão introduzindo.
+
+609
+00:27:07,127 --> 00:27:09,914
+Vou dar uma novidade nova no no código.
+
+610
+00:27:09,915 --> 00:27:11,753
+Então peraí, então eu tô fazendo o curso
+
+611
+00:27:11,754 --> 00:27:13,432
+lá dando next e next finish, eu tô
+
+612
+00:27:13,433 --> 00:27:15,372
+fazendo o curso mesmo e aprendendo.
+
+613
+00:27:16,191 --> 00:27:19,899
+Então tem essa jogada falamos de apsec de uma
+
+614
+00:27:19,900 --> 00:27:24,936
+maneira geral, tanto estrategicamente das empresas investirem na plataforma
+
+615
+00:27:24,937 --> 00:27:28,253
+de treinamento, ou em qualquer treinamento que seja, necessariamente
+
+616
+00:27:28,254 --> 00:27:32,011
+na plataforma, o que for, mas também medir isso
+
+617
+00:27:32,012 --> 00:27:33,771
+com os times, se eles estão fazendo ou não
+
+618
+00:27:33,772 --> 00:27:35,880
+estão fazendo a efetividade disso.
+
+619
+00:27:35,881 --> 00:27:37,239
+Não vai dar pra agradar a questão,
+
+620
+00:27:37,240 --> 00:27:38,638
+não dá pra agradar todo mundo, né?
+
+621
+00:27:38,639 --> 00:27:42,057
+Mas acho que disponibilizar e ter isso é bom começo.
+
+622
+00:27:42,836 --> 00:27:43,236
+Sim?
+
+623
+00:27:43,237 --> 00:27:47,064
+É, eu falo que você falou o curso de plataforma é
+
+624
+00:27:47,065 --> 00:27:50,422
+nivelador, então ele vai nivelar, vai deixar todo mundo ali no
+
+625
+00:27:50,423 --> 00:27:54,278
+mesmo nível, no mesmo critério, então todo mundo vai ter start
+
+626
+00:27:54,279 --> 00:27:59,356
+ali, monte de partir, beleza, conhecimento médio ali da empresa, dos
+
+627
+00:27:59,357 --> 00:28:02,854
+squads é esse, e a partir dali você vai filtrando ali
+
+628
+00:28:02,855 --> 00:28:04,313
+quem são os melhores e piores.
+
+629
+00:28:06,092 --> 00:28:07,331
+Essa plataforma você vai até para
+
+630
+00:28:07,332 --> 00:28:09,191
+te ajudar a escolher security champions.
+
+631
+00:28:09,760 --> 00:28:12,318
+Então se você teve pessoas que estão indo
+
+632
+00:28:12,319 --> 00:28:15,597
+bem nos cursos e geram poucas vulnerabilidades ou
+
+633
+00:28:15,598 --> 00:28:18,075
+nenhuma, essa pessoa tem uma tendência a ser
+
+634
+00:28:18,076 --> 00:28:21,263
+secret champions e passar esse conhecimento para frente,
+
+635
+00:28:21,264 --> 00:28:24,942
+fazer treinamentos mais elaborados para esses squads.
+
+636
+00:28:24,943 --> 00:28:27,580
+Então, o pessoal está com mais dificuldade no
+
+637
+00:28:27,581 --> 00:28:30,589
+CruelSight Scripting, Se a pessoa vai elaborar curso
+
+638
+00:28:30,590 --> 00:28:33,307
+de cross site scripting E vai dar curso
+
+639
+00:28:33,308 --> 00:28:36,475
+dedicado para esse pessoal Acho que a plataforma
+
+640
+00:28:36,476 --> 00:28:39,393
+forma ajuda nisso também nesses treinamentos fazer esses
+
+641
+00:28:39,394 --> 00:28:41,672
+filtros e ajudar essa galera que já tem
+
+642
+00:28:41,673 --> 00:28:44,870
+essa tendência a passar informação para frente
+
+643
+00:28:44,871 --> 00:28:48,688
+boa e eu acho tem pouco do Pera aí, deixa eu fazer uma
+
+644
+00:28:48,689 --> 00:28:50,087
+Kevin Secoffs.
+
+645
+00:28:50,088 --> 00:28:51,027
+Kevin Secoffs.
+
+646
+00:28:52,006 --> 00:28:53,126
+É uma quebra aqui.
+
+647
+00:28:53,127 --> 00:28:56,254
+Eu acho que tem pouco também Você
+
+648
+00:28:56,255 --> 00:28:58,053
+até perdeu a raciocina onde quer falar.
+
+649
+00:28:58,054 --> 00:29:00,971
+Mas acho tão pouco também do sentido assim.
+
+650
+00:29:00,972 --> 00:29:03,189
+Galera, tem uma certa
+
+651
+00:29:03,190 --> 00:29:05,148
+popularidade de algumas vulnerabilidades.
+
+652
+00:29:05,149 --> 00:29:10,174
+Então quando você fala SQL Injection, CrossFit Script, já
+
+653
+00:29:10,175 --> 00:29:12,113
+como é que todo mundo já ouviu falar?
+
+654
+00:29:12,773 --> 00:29:16,531
+Então todo mundo até falando de desenvolvedor.
+
+655
+00:29:16,532 --> 00:29:18,690
+Então tem pouco dessa falsa sensação, ai eu sei
+
+656
+00:29:18,691 --> 00:29:22,208
+o que é, eu sei resolver, ou eu sei
+
+657
+00:29:22,209 --> 00:29:24,707
+criar código não vulnerável a essas rentabilidades.
+
+658
+00:29:25,566 --> 00:29:28,294
+Por que tem essa, talvez, falsa sensação.
+
+659
+00:29:28,295 --> 00:29:30,174
+Aí quando você roda SAST no código
+
+660
+00:29:30,175 --> 00:29:32,532
+do cara, tem lá SQL Injection, ou
+
+661
+00:29:32,533 --> 00:29:35,510
+Blider SQL Injection, ou Secondorder SQL Injection.
+
+662
+00:29:35,511 --> 00:29:37,269
+Que tem várias SQL Injection.
+
+663
+00:29:37,270 --> 00:29:38,428
+Aí você traz para o cara de
+
+664
+00:29:38,429 --> 00:29:40,707
+uma Putz cara, realmente nessa vulnerabilidade.
+
+665
+00:29:40,708 --> 00:29:43,026
+Então você vai ver que ele sabe o que é SQL Injection.
+
+666
+00:29:43,027 --> 00:29:47,343
+Mas as variações, as formas como aquela modalidade de poda
+
+667
+00:29:47,344 --> 00:29:51,730
+acontecer, que as plataformas trazem isso no curso no treinamento,
+
+668
+00:29:51,731 --> 00:29:53,609
+Esse é o valor de plataforma porque facilita a vida
+
+669
+00:29:53,610 --> 00:29:55,288
+de todo mundo, mas você quer criar o seu custo
+
+670
+00:29:55,289 --> 00:29:57,147
+na unha, na mão, também não tem problema.
+
+671
+00:29:57,686 --> 00:30:02,354
+Então, às vezes é essa falsa sensação ação de que eu
+
+672
+00:30:02,355 --> 00:30:06,592
+sei o que é ou até sei, mas não em nível
+
+673
+00:30:06,593 --> 00:30:09,151
+que eu deveria, eu sei o que é mais candidato, eu
+
+674
+00:30:09,152 --> 00:30:11,679
+sei beleza, mas pô eu não sei o que é, cada
+
+675
+00:30:11,680 --> 00:30:14,718
+categoria de SQL Injection, como é que eu trato cada deles,
+
+676
+00:30:14,719 --> 00:30:17,596
+se quando a gente está falando de banco não relacional de
+
+677
+00:30:17,597 --> 00:30:19,864
+jeito, no banco relacional de outro, né?
+
+678
+00:30:19,865 --> 00:30:22,343
+Pois minha aplicação já usa ORM, por que eu
+
+679
+00:30:22,344 --> 00:30:24,142
+tô com SQL Injection aqui no meu código?
+
+680
+00:30:24,143 --> 00:30:25,861
+Será que é o falso positivo?
+
+681
+00:30:25,862 --> 00:30:27,780
+Aí entra essa questão que eu queria trazer
+
+682
+00:30:27,781 --> 00:30:31,938
+aqui agora, o Senhor Marcos, Vinícius Silva Santos
+
+683
+00:30:31,939 --> 00:30:40,993
+Souza Prado esses treinamentos ajudam inclusive nessa parte
+
+684
+00:30:40,994 --> 00:30:42,372
+de análise de falso positivo.
+
+685
+00:30:44,271 --> 00:30:46,770
+A verdade é mentira, o falso positivo. Legal.
+
+686
+00:30:47,749 --> 00:30:48,988
+É verdade, ajuda.
+
+687
+00:30:48,989 --> 00:30:50,827
+Ajuda pra caramba ali na hora que
+
+688
+00:30:50,828 --> 00:30:52,527
+você está fazendo avaliação de vulnerabilidade.
+
+689
+00:30:54,164 --> 00:30:57,143
+Tem ferramentas, vou até usar o exemplo da Checkmarks,
+
+690
+00:30:57,802 --> 00:31:00,679
+onde ele é linkado com o code bastion, para
+
+691
+00:31:00,680 --> 00:31:03,278
+isso, para você aprender a filtrar a vulnerabilidade ali
+
+692
+00:31:03,279 --> 00:31:05,637
+e fazer a modificação de falso positivo.
+
+693
+00:31:05,638 --> 00:31:07,916
+Então dentro do check const tem botãozinho lá
+
+694
+00:31:07,917 --> 00:31:10,345
+para o code basting justamente por isso.
+
+695
+00:31:10,346 --> 00:31:12,184
+Você tem uma plataforma ou criando seu
+
+696
+00:31:12,185 --> 00:31:15,222
+próprio curso, ele ajuda o desenvolvedor a
+
+697
+00:31:15,223 --> 00:31:16,941
+hora que está ali a vulnerabilidade.
+
+698
+00:31:16,942 --> 00:31:18,641
+Pô, o Sasha retorna a vulnerabilidade.
+
+699
+00:31:19,280 --> 00:31:20,859
+Deixa eu conferir essa vulnerabilidade.
+
+700
+00:31:22,278 --> 00:31:23,557
+Então ele consegue ter o
+
+701
+00:31:23,558 --> 00:31:25,796
+discernimento sem verdadeiro ou não.
+
+702
+00:31:25,797 --> 00:31:27,356
+Dependendo do parâmetro, como está
+
+703
+00:31:27,357 --> 00:31:28,695
+vencendo o fita chamada.
+
+704
+00:31:28,696 --> 00:31:31,314
+Então é bem legal por isso também né, é
+
+705
+00:31:32,293 --> 00:31:35,171
+uma coisa que a gente fala, não adianta só
+
+706
+00:31:35,172 --> 00:31:37,870
+corrigir as vulnerabilidades, você não pode girar novamente,
+
+707
+00:31:38,680 --> 00:31:39,799
+essa é a ideia, né?
+
+708
+00:31:39,800 --> 00:31:42,957
+E essa é a questão do análise de falsopositivo, independente
+
+709
+00:31:42,958 --> 00:31:44,996
+da solução da ferramenta que a gente tá falando.
+
+710
+00:31:44,997 --> 00:31:48,394
+Se você sabe como a vulnerabilidade funciona, no sentido de
+
+711
+00:31:48,395 --> 00:31:51,992
+como explorála, como ela é explorada, como você se defende,
+
+712
+00:31:51,993 --> 00:31:54,311
+como é que você codifica seguro para se proteger daquilo,
+
+713
+00:31:54,312 --> 00:31:58,968
+para evitar que aquilo aconteça, naturalmente você é hábil, é
+
+714
+00:31:58,969 --> 00:32:05,225
+capaz de hábil não, você é habilitado, é capaz capacitado
+
+715
+00:32:06,404 --> 00:32:09,642
+fazer uma análise de falso positivo, porque é parte integral,
+
+716
+00:32:09,643 --> 00:32:11,761
+quando a gente está falando de pequeno ciclo de disco
+
+717
+00:32:11,762 --> 00:32:15,259
+de código, ou tira tudo isso do meio, tira tudo
+
+718
+00:32:15,260 --> 00:32:16,618
+de segurança do meio.
+
+719
+00:32:16,619 --> 00:32:18,257
+Processo simples de code review que
+
+720
+00:32:18,258 --> 00:32:19,537
+as empresas usam hoje em dia.
+
+721
+00:32:19,538 --> 00:32:21,096
+Code review, ó, fiz pull request
+
+722
+00:32:21,097 --> 00:32:22,475
+aqui, alguém tem que revisar.
+
+723
+00:32:23,034 --> 00:32:25,513
+Até esse processo da revisão do Pull Request,
+
+724
+00:32:25,514 --> 00:32:29,071
+code review do dia a dia, vai ganhar
+
+725
+00:32:29,072 --> 00:32:33,899
+força, vai ganhar mais corpo, porque aquele cara
+
+726
+00:32:33,900 --> 00:32:36,178
+tá fazendo review também de segurança.
+
+727
+00:32:36,179 --> 00:32:38,617
+Ele também sabe, opa, tá fazendo review do cara
+
+728
+00:32:38,618 --> 00:32:40,676
+que era método novo, esse método é sem vantagem.
+
+729
+00:32:41,375 --> 00:32:43,254
+Pode ter SQL Injection aqui.
+
+730
+00:32:43,255 --> 00:32:46,172
+Aí pode usar o SAST como suporte e tal, mas
+
+731
+00:32:46,173 --> 00:32:50,039
+o fato de ele ter feito esse treinamento enriquece né,
+
+732
+00:32:50,040 --> 00:32:52,678
+o conteúdo dele que você falou Spandyum, eu acho que
+
+733
+00:32:52,679 --> 00:32:56,316
+não usa essa palavra Spandyum, o conhecimento do cara, você
+
+734
+00:32:56,317 --> 00:33:00,234
+fala, fala palavrão e eu perdi, mas enfim, que, mano,
+
+735
+00:33:00,235 --> 00:33:02,313
+até nisso a empresa ganha.
+
+736
+00:33:02,314 --> 00:33:06,671
+Então não só, independente de segurança, SAST, independente
+
+737
+00:33:06,672 --> 00:33:08,969
+disso, Esse cara que é treinado, ele é
+
+738
+00:33:08,970 --> 00:33:11,168
+habilitado a fazer uma revisão de código melhor.
+
+739
+00:33:11,169 --> 00:33:12,247
+Ah, caso, mas eu não tenho
+
+740
+00:33:12,248 --> 00:33:13,966
+código review na minha empresa. Mano, fecha.
+
+741
+00:33:13,967 --> 00:33:15,045
+Fecha a porra.
+
+742
+00:33:15,046 --> 00:33:16,404
+Certeza aberta que não
+
+743
+00:33:16,405 --> 00:33:19,122
+tem o código review que você não usa pelo menos kit
+
+744
+00:33:19,123 --> 00:33:22,429
+hub ali você não bota uma verificaçãozinha que se quer.
+
+745
+00:33:22,430 --> 00:33:24,388
+E não, você põe o Equest, pode fechar.
+
+746
+00:33:24,389 --> 00:33:25,028
+Vai fazer igual.
+
+747
+00:33:25,029 --> 00:33:27,227
+Vai fazer costura, vai comprar a máquina de costura e
+
+748
+00:33:27,228 --> 00:33:29,706
+vai fazer meia touca, porque você não merece análise.
+
+749
+00:33:29,707 --> 00:33:30,265
+Ou vender a
+
+750
+00:33:30,266 --> 00:33:30,545
+caixa.
+
+751
+00:33:30,546 --> 00:33:31,745
+Deve ser copys.
+
+752
+00:33:31,746 --> 00:33:32,794
+Cresce e CCOPs.
+
+753
+00:33:34,333 --> 00:33:36,412
+Então a gente viu que essa questão de
+
+754
+00:33:36,413 --> 00:33:39,411
+treinamento de segurança é boa no sentido de
+
+755
+00:33:39,412 --> 00:33:43,098
+enriquecer o desenvolvedor, porque está capacitando aquele cara.
+
+756
+00:33:43,099 --> 00:33:45,737
+Enriquecer no desenvolvedor até, inclusive, porque o
+
+757
+00:33:45,738 --> 00:33:47,616
+cara que sabe código de segurança tem
+
+758
+00:33:47,617 --> 00:33:50,384
+que ganhar mais, então enriquece ele também.
+
+759
+00:33:50,385 --> 00:33:53,743
+Mas no sentido de parar de criar problemas,
+
+760
+00:33:53,744 --> 00:33:56,062
+ter o mindset problemas no sentido de bunda
+
+761
+00:33:56,063 --> 00:33:59,509
+na verdade, ter esse mindset de codificação segura
+
+762
+00:33:59,510 --> 00:34:03,267
+eu chamo de programação defensiva porque é literalmente
+
+763
+00:34:03,268 --> 00:34:05,906
+você programar se defendendo que você sabe que
+
+764
+00:34:05,907 --> 00:34:09,354
+pode acontecer ataques ali né ou expor vulnerabilidade.
+
+765
+00:34:11,093 --> 00:34:14,792
+Vimos que é importante essa questão do gamification,
+
+766
+00:34:15,331 --> 00:34:17,690
+coisas que vão ajudar os caras engajar varem
+
+767
+00:34:17,691 --> 00:34:20,088
+e tudo mais, mas com o suporte de
+
+768
+00:34:20,089 --> 00:34:23,047
+management porque a galera precisa planejar esse tempo.
+
+769
+00:34:23,048 --> 00:34:25,275
+Ninguém vai te perder uma hora por dia,
+
+770
+00:34:25,276 --> 00:34:28,953
+do desenvolvedor pra fazer treinamento que não tá
+
+771
+00:34:28,954 --> 00:34:32,031
+planejado, blábláblá e o cara vai deixar de
+
+772
+00:34:32,032 --> 00:34:33,510
+entregar alguma coisa no futuro.
+
+773
+00:34:33,511 --> 00:34:36,148
+Então tem que ter planejamento envolvido.
+
+774
+00:34:36,149 --> 00:34:38,947
+E vimos agora essa questão do falso positivo.
+
+775
+00:34:38,948 --> 00:34:41,164
+O falso positivo, qual de review, O
+
+776
+00:34:41,165 --> 00:34:42,963
+cara ganha super poder a mais, né?
+
+777
+00:34:42,964 --> 00:34:45,362
+O desenvolvedor separava o PC ali como o Batman, né?
+
+778
+00:34:45,363 --> 00:34:47,641
+É uma ferramenta nova ali, uma arma nova ali
+
+779
+00:34:47,642 --> 00:34:49,719
+que ele ganha no cinturão dele ali, que é
+
+780
+00:34:49,720 --> 00:34:52,418
+esse poder de segurança de fazer code review melhor
+
+781
+00:34:53,358 --> 00:34:55,237
+e uma análise melhor do dia a dia.
+
+782
+00:34:55,238 --> 00:34:56,796
+Posso até abrir adendo?
+
+783
+00:34:56,797 --> 00:34:58,804
+Ah, vindo muito adendo hoje.
+
+784
+00:34:58,805 --> 00:35:00,283
+Vai abrir, velho.
+
+785
+00:35:00,284 --> 00:35:03,202
+Além de ajudar no falso
+
+786
+00:35:03,203 --> 00:35:05,410
+positivo, ajuda no falso negativo.
+
+787
+00:35:05,411 --> 00:35:07,489
+Porque o cara ali, conforme eu vou fazendo
+
+788
+00:35:07,490 --> 00:35:10,927
+code review, está se habilitando em invulnerabilidades, pode
+
+789
+00:35:10,928 --> 00:35:13,086
+ser que ele pegue uma vulnerabilidade que uma
+
+790
+00:35:13,087 --> 00:35:14,625
+ferramenta de Sasha não pegou.
+
+791
+00:35:15,185 --> 00:35:16,824
+Ele bateu ali e ele fopou esse método
+
+792
+00:35:16,825 --> 00:35:18,163
+aqui e eu acho que tem vulnerabilidade.
+
+793
+00:35:18,983 --> 00:35:21,741
+O Sasha não está pegando por N motivos ali
+
+794
+00:35:21,742 --> 00:35:24,030
+ou com uma configuração que quer que seja.
+
+795
+00:35:24,031 --> 00:35:27,028
+Ele pode identificar essas vulnerabilidades que a ferramenta não
+
+796
+00:35:27,029 --> 00:35:30,347
+está buscando, justamente por estar sempre treinando ali, estar
+
+797
+00:35:30,348 --> 00:35:33,385
+sempre estudando ali e fazendo essa parte de code
+
+798
+00:35:33,386 --> 00:35:37,223
+review focado em segurança né então tem esse lado
+
+799
+00:35:37,224 --> 00:35:38,982
+também que o pessoal menos preza
+
+800
+00:35:38,983 --> 00:35:41,939
+eu quero fazer episódio dia O famoso
+
+801
+00:35:41,940 --> 00:35:43,538
+episódio vai fechar o podcast, que a
+
+802
+00:35:43,539 --> 00:35:45,737
+gente vai ser processado e vai fechar.
+
+803
+00:35:45,738 --> 00:35:49,076
+Pra falar do Vera Code, não, desculpa, do do Sonar.
+
+804
+00:35:49,724 --> 00:35:51,923
+Que eu queria falar dessa comunidade.
+
+805
+00:35:51,924 --> 00:35:53,723
+Eu queria falar exatamente isso.
+
+806
+00:35:53,724 --> 00:35:55,322
+Especialmente se você usa o sonar.
+
+807
+00:35:55,323 --> 00:35:56,921
+Ah, nossa, o sonar não pegou a mão na verdade.
+
+808
+00:35:56,922 --> 00:35:58,160
+E o cara fez review de Vip que
+
+809
+00:35:58,161 --> 00:35:59,849
+tem na máscara em Jet, por exemplo falando,
+
+810
+00:35:59,850 --> 00:36:01,088
+é óbvio que o funcionário não é
+
+811
+00:36:01,089 --> 00:36:02,188
+uma ferramenta de segurança.
+
+812
+00:36:02,728 --> 00:36:04,527
+Ele tem algumas regras de segurança,
+
+813
+00:36:04,528 --> 00:36:05,946
+mas é uma ferramenta de qualidade.
+
+814
+00:36:06,834 --> 00:36:10,493
+Lançar aí agora o Deep Sart dentro do SolarCube.
+
+815
+00:36:11,832 --> 00:36:13,551
+Na empresa que eu trabalho a gente usa o
+
+816
+00:36:13,552 --> 00:36:16,769
+Solar como qualidade, ver como que é esse GYPSAST
+
+817
+00:36:16,770 --> 00:36:19,048
+aí, ver se tem mesmo, tal, tal, tal.
+
+818
+00:36:19,049 --> 00:36:21,127
+Vamos ver se realmente vai virar a ferramenta de
+
+819
+00:36:21,128 --> 00:36:23,985
+segurança agora, porque essa é uma popularidade tão grande.
+
+820
+00:36:23,986 --> 00:36:26,104
+E todo mundo fala com desastre com o seu lar.
+
+821
+00:36:26,105 --> 00:36:28,443
+Mas, cara, não é segurança, não adianta.
+
+822
+00:36:30,461 --> 00:36:32,780
+É comparar o médico privado com o médico público.
+
+823
+00:36:32,781 --> 00:36:33,579
+O sonar não é nem
+
+824
+00:36:33,580 --> 00:36:35,558
+médico público, mano. Não é.
+
+825
+00:36:36,458 --> 00:36:37,417
+Não é, cara.
+
+826
+00:36:37,418 --> 00:36:39,256
+Ele é o técnico de informar
+
+827
+00:36:39,257 --> 00:36:41,076
+a Geni, que tá aprendendo pouquinho.
+
+828
+00:36:42,055 --> 00:36:44,933
+Ah, eu quis te falou, toma isso, toma aquilo, sabe?
+
+829
+00:36:46,033 --> 00:36:48,671
+Não é de todo ruim, não é de todo ruim, mas
+
+830
+00:36:48,672 --> 00:36:51,979
+não pode ser você é cara do BOPE e vai subir
+
+831
+00:36:51,980 --> 00:36:54,577
+o morro pra pra pra pro combate, sei lá, você não
+
+832
+00:36:54,578 --> 00:36:59,124
+vai pelado, você vai de escudo, você vai de caberão, você
+
+833
+00:36:59,125 --> 00:37:02,983
+vai de colete a prova de bala, blábláblá, você vai preparado.
+
+834
+00:37:03,642 --> 00:37:06,779
+O sonar não é essa ferramenta de que a
+
+835
+00:37:06,780 --> 00:37:08,658
+gente tem que confiar com relação à segurança.
+
+836
+00:37:08,659 --> 00:37:11,896
+Então, esse ponto você falou, falso negativo. Por quê?
+
+837
+00:37:11,897 --> 00:37:13,495
+Você rodou skill no Sasha, o Sasha
+
+838
+00:37:13,496 --> 00:37:15,424
+falou pra você, olha, 0 vulnerabilidade.
+
+839
+00:37:16,164 --> 00:37:18,163
+Opa, tô limpo? Não estourei.
+
+840
+00:37:18,164 --> 00:37:19,202
+Não tem problema nenhum.
+
+841
+00:37:19,203 --> 00:37:20,322
+Aí você lê o código que você
+
+842
+00:37:20,323 --> 00:37:22,410
+vê que você tem a vulnerabilidade. Tá claro.
+
+843
+00:37:22,411 --> 00:37:25,008
+Cara, caramba, por que que o Sasha não pegou?
+
+844
+00:37:25,009 --> 00:37:26,168
+N motivos, tá?
+
+845
+00:37:26,169 --> 00:37:28,247
+N motivos, sash, e quando a gente fala que o
+
+846
+00:37:28,248 --> 00:37:30,905
+sash, qualquer sash, n motivos ele pode não ter pego.
+
+847
+00:37:31,504 --> 00:37:34,223
+Mas essa questão do treinamento do cara, o seu
+
+848
+00:37:34,224 --> 00:37:37,062
+desenvolvedor está mais preparado pra olhar pra código e
+
+849
+00:37:37,063 --> 00:37:39,200
+falar que ele tem problema ou não, né?
+
+850
+00:37:39,201 --> 00:37:40,759
+Revisar aquele problema não?
+
+851
+00:37:40,760 --> 00:37:43,038
+Cara, só por isso, só por esse ponto
+
+852
+00:37:43,039 --> 00:37:45,817
+Java Ali pra você investir em treinamento de
+
+853
+00:37:46,914 --> 00:37:49,553
+É, tem até uma frase que eu
+
+854
+00:37:49,554 --> 00:37:52,232
+usei para cliente cis, peraí, peraí,
+
+855
+00:37:52,233 --> 00:37:53,031
+peraí, peraí.
+
+856
+00:37:53,032 --> 00:37:55,089
+Deixa eu preparar o terreno segurança
+
+857
+00:37:55,709 --> 00:37:57,848
+tecnologia deve ser copos
+
+858
+00:37:59,267 --> 00:38:01,506
+e eu cheguei para estar discutindo ali e
+
+859
+00:38:01,507 --> 00:38:07,222
+tal sobre vários processos e chega Cara, quando
+
+860
+00:38:07,223 --> 00:38:11,630
+você negligencia o treinamento, não é só erro.
+
+861
+00:38:11,631 --> 00:38:13,709
+É convite para o desastre.
+
+862
+00:38:13,710 --> 00:38:16,707
+Se sua empresa não investe em treinamento adequada,
+
+863
+00:38:16,708 --> 00:38:21,474
+você está destinado a não ter somente perca
+
+864
+00:38:21,475 --> 00:38:26,911
+financeira mas reputação também dos argumentos que eu
+
+865
+00:38:26,912 --> 00:38:28,679
+usei ali tudo com o cliente.
+
+866
+00:38:28,680 --> 00:38:30,758
+Fazer minuto de silêncio aqui porque
+
+867
+00:38:30,759 --> 00:38:33,677
+é esse convite para o desastre.
+
+868
+00:38:33,678 --> 00:38:35,844
+Cara, sem sensacional.
+
+869
+00:38:35,845 --> 00:38:40,162
+Eu tô procurando efeito de vídeo aqui pra rodar isso
+
+870
+00:38:40,163 --> 00:38:42,961
+aqui, mas não tem, mas fica aí minhas palavras.
+
+871
+00:38:42,962 --> 00:38:46,059
+Convite pro desastre são os seus
+
+872
+00:38:46,060 --> 00:38:49,917
+treinadores, os seus treinadores não desenvolvidos.
+
+873
+00:38:53,134 --> 00:38:54,194
+São sendo treinados.
+
+874
+00:38:58,731 --> 00:39:00,031
+Não sou sensível medo.
+
+875
+00:39:08,066 --> 00:39:11,545
+São seus desenvolvedores não treinados. Né? Exatamente.
+
+876
+00:39:12,164 --> 00:39:13,603
+É o convite pro desastre quando a
+
+877
+00:39:13,604 --> 00:39:16,682
+gente fala aí de desenvolvimento seguro, né?
+
+878
+00:39:16,683 --> 00:39:19,620
+E quando a gente fala, cara, pra finalizar aqui,
+
+879
+00:39:20,299 --> 00:39:22,618
+Tem se falado muito aí do shift shift e
+
+880
+00:39:22,619 --> 00:39:25,737
+blá blá blá mano, mais shift do que o
+
+881
+00:39:25,738 --> 00:39:27,695
+cara que senta para criar o seu código.
+
+882
+00:39:27,696 --> 00:39:29,174
+A partir do momento que ele começa a digitar
+
+883
+00:39:29,175 --> 00:39:32,612
+a primeira linha de código, aquele cara, aquele Senna,
+
+884
+00:39:32,613 --> 00:39:35,811
+aquela pessoa, ela já tem o seu DNA, na
+
+885
+00:39:35,812 --> 00:39:41,598
+sua expertise, na sua experiência, conhecimento suficiente para codar
+
+886
+00:39:41,599 --> 00:39:44,016
+de forma defensiva, codar de forma segura.
+
+887
+00:39:44,676 --> 00:39:48,624
+Isso é melhor do que sempre eu faço analogia do médico.
+
+888
+00:39:49,923 --> 00:39:51,762
+A gente vai no médico quando tem problema.
+
+889
+00:39:51,763 --> 00:39:53,201
+Depois quer dizer meio que a gente não
+
+890
+00:39:53,202 --> 00:39:54,960
+gosta, porque a gente sabe que tem problema,
+
+891
+00:39:54,961 --> 00:39:57,329
+vai ter aí tem tratamento, algum tratamento que
+
+892
+00:39:57,330 --> 00:40:00,727
+vai doer, é remédio, é injeção, beleza.
+
+893
+00:40:00,728 --> 00:40:02,246
+Então o que a gente tem que fazer?
+
+894
+00:40:02,247 --> 00:40:07,333
+Se alimentar bem, esporte, bla bla bla bla bla.
+
+895
+00:40:07,334 --> 00:40:08,593
+É isso que a gente faz.
+
+896
+00:40:09,852 --> 00:40:14,069
+Então se o desenvolvedor sabe desenvolver seguro, é esse
+
+897
+00:40:14,070 --> 00:40:16,268
+cara que se alimenta bem, que não fuma, que
+
+898
+00:40:16,269 --> 00:40:19,067
+não tem excesso de álcool, essas coisas, porque ele
+
+899
+00:40:19,068 --> 00:40:22,145
+já está criando aquele código da melhor forma possível.
+
+900
+00:40:22,146 --> 00:40:24,344
+O seu SAST e tudo mais, são ferramentas ali
+
+901
+00:40:24,345 --> 00:40:26,463
+de double checking, de teste mesmo pra garantir que
+
+902
+00:40:26,464 --> 00:40:28,142
+não tem problema pra que passou alguma coisa.
+
+903
+00:40:28,143 --> 00:40:29,581
+Mas aquele cara que tá querendo, aquele
+
+904
+00:40:29,582 --> 00:40:30,960
+já sabe o que ele tá fazendo.
+
+905
+00:40:30,961 --> 00:40:32,639
+É diferente do desenvolvedor novo,
+
+906
+00:40:32,640 --> 00:40:33,558
+que não conhece isso.
+
+907
+00:40:33,559 --> 00:40:35,078
+Por exemplo, ele está criando código
+
+908
+00:40:35,079 --> 00:40:37,736
+funcional, não necessariamente código seguro.
+
+909
+00:40:39,155 --> 00:40:44,342
+Então pensar nesse contexto aí do shift shift né cara
+
+910
+00:40:44,343 --> 00:40:47,540
+mais leve possível é aquele cara que chega e a
+
+911
+00:40:47,541 --> 00:40:50,689
+gente já sabe que é né codar de forma segura,
+
+912
+00:40:50,690 --> 00:40:53,848
+olhar para o requisito de segurança, fazer o code review
+
+913
+00:40:53,849 --> 00:40:56,286
+e validar, saber que está certo ou que não está.
+
+914
+00:40:56,287 --> 00:40:59,595
+Recusar o code review, recusar o código tá?
+
+915
+00:41:00,814 --> 00:41:02,613
+Sem segurança, vamos chamar assim, ou
+
+916
+00:41:02,614 --> 00:41:04,612
+que expõe uma vulnerabilidade, né?
+
+917
+00:41:04,613 --> 00:41:07,011
+Enfim, e até esse cara pode fazer parte do dia a
+
+918
+00:41:07,012 --> 00:41:10,098
+dia do Epsec, o cara que revisa o próprio resultado do
+
+919
+00:41:10,099 --> 00:41:12,897
+Sasha, o cara que endereça para o time e tal.
+
+920
+00:41:12,898 --> 00:41:15,764
+Enfim, isso é para fazer fechamento. Quer comentar?
+
+921
+00:41:15,765 --> 00:41:17,603
+Comentários finais, mandar falar.
+
+922
+00:41:17,604 --> 00:41:18,423
+Alô bonito.
+
+923
+00:41:19,602 --> 00:41:23,799
+Eu quero comentar, que até tem aí terceira
+
+924
+00:41:23,800 --> 00:41:27,157
+temporada a gente gravou ali, foi na quarta
+
+925
+00:41:27,158 --> 00:41:31,056
+temporada a gente falou sobre o Microsoft SDL,
+
+926
+00:41:31,924 --> 00:41:34,703
+O primeiro item é Provised Training.
+
+927
+00:41:35,442 --> 00:41:35,942
+Primeiro!
+
+928
+00:41:38,420 --> 00:41:41,318
+Se a Microsoft fala que precisa de treinamento,
+
+929
+00:41:42,178 --> 00:41:44,496
+não ache ter uma empresa de tecnologia maior
+
+930
+00:41:44,497 --> 00:41:45,916
+que ela que fale o contrário.
+
+931
+00:41:46,695 --> 00:41:48,365
+Nem adianta, mano, né?
+
+932
+00:41:48,984 --> 00:41:50,343
+É O topas dl, né?
+
+933
+00:41:50,344 --> 00:41:52,542
+Referência, modelo da referência da Microsoft,
+
+934
+00:41:52,543 --> 00:41:54,381
+há anos aí no mercado.
+
+935
+00:41:54,382 --> 00:41:55,341
+O que é que cê falou?
+
+936
+00:41:55,342 --> 00:41:57,400
+A primeira etapa lá é Provite Training.
+
+937
+00:41:58,010 --> 00:42:00,328
+E ali ele fala, né? Treinamento. Sim.
+
+938
+00:42:00,329 --> 00:42:01,808
+No contexto mais amplo, não
+
+939
+00:42:01,809 --> 00:42:03,007
+necessariamente só para o desenvolvedor.
+
+940
+00:42:03,008 --> 00:42:05,535
+A gente está falando que só o desenvolvedor, mas
+
+941
+00:42:05,536 --> 00:42:12,032
+É isso aí, você foi cirúrgico nesse comentário.
+
+942
+00:42:12,549 --> 00:42:16,028
+Não, o convite pro desastre é sensacional, cara.
+
+943
+00:42:16,029 --> 00:42:19,266
+O podcast tá cada vez, você vê que o Rodrigo sai, chega
+
+944
+00:42:19,267 --> 00:42:23,224
+a coisa boa, cada vez mais Como é que eu posso dizer?
+
+945
+00:42:23,225 --> 00:42:25,263
+Cada vez mais formal, cada vez
+
+946
+00:42:25,264 --> 00:42:28,821
+mais polido a linguagem nesse podcast.
+
+947
+00:42:28,822 --> 00:42:31,319
+Eu vou até me policiar para estar estando
+
+948
+00:42:31,320 --> 00:42:33,498
+falando da melhor forma daqui pra frente.
+
+949
+00:42:34,118 --> 00:42:35,677
+Vamos nos policiais falar da
+
+950
+00:42:35,678 --> 00:42:37,616
+maneira adequada dos nossos espectadores.
+
+951
+00:42:39,005 --> 00:42:41,343
+Creio que nossos espectadores odiarão.
+
+952
+00:42:41,883 --> 00:42:45,121
+Visto que são pessoas como nós que gostam
+
+953
+00:42:45,122 --> 00:42:48,069
+de falar da forma mais popular possível.
+
+954
+00:42:48,070 --> 00:42:51,648
+Portanto, solicituou que faltemos ao normal.
+
+955
+00:42:55,415 --> 00:42:56,454
+Precisar de audiência aqui, né?
+
+956
+00:42:56,455 --> 00:42:58,933
+Os caras só pra passar pra aula o dia, 15 palavras.
+
+957
+00:42:58,934 --> 00:43:00,152
+O que que tem que fazer?
+
+958
+00:43:01,332 --> 00:43:02,271
+Acabou já.
+
+959
+00:43:03,371 --> 00:43:04,820
+Bom, é isso, né?
+
+960
+00:43:05,339 --> 00:43:06,819
+Não, não é isso não.
+
+961
+00:43:06,820 --> 00:43:06,979
+Ah
+
+962
+00:43:06,980 --> 00:43:08,658
+lá, quem ouviu até aqui?
+
+963
+00:43:08,659 --> 00:43:10,217
+Aproveitou o conteúdo?
+
+964
+00:43:10,218 --> 00:43:13,975
+Compartilha, clica no gostei e se inscreve no canal
+
+965
+00:43:13,976 --> 00:43:16,604
+aí porque a gente tá trazendo sempre conteúdos aí
+
+966
+00:43:16,605 --> 00:43:20,202
+relevantes que vão te ajudar aí com sua vida
+
+967
+00:43:20,203 --> 00:43:24,479
+profissional então por favor compartilha seus amiguinhos aí, quem
+
+968
+00:43:24,480 --> 00:43:27,278
+tem interesse, clica no curtir e se inscreve no
+
+969
+00:43:27,279 --> 00:43:28,677
+canal aí pra dar uma força.
+
+970
+00:43:28,678 --> 00:43:31,036
+E entre a nossa comunidade do discord que cada
+
+971
+00:43:31,037 --> 00:43:34,094
+vez mais tem pessoas entrando, mas participar, que é
+
+972
+00:43:34,095 --> 00:43:36,053
+bom, a galera tá tanta tímida ainda.
+
+973
+00:43:36,054 --> 00:43:38,772
+Então, começar a engajar mais, fazer algumas coisas
+
+974
+00:43:38,773 --> 00:43:40,799
+ali, de qualquer forma tem bastante gente já
+
+975
+00:43:40,800 --> 00:43:42,979
+acho que cria networking bem bacana.
+
+976
+00:43:43,798 --> 00:43:44,717
+Com certeza.
+
+977
+00:43:44,718 --> 00:43:46,697
+E tem o OnlySect
+
+978
+00:43:47,845 --> 00:43:48,664
+Only sexy.
+
+979
+00:43:49,804 --> 00:43:50,403
+Não vai, mano.
+
+980
+00:43:50,404 --> 00:43:52,223
+Não me erra essa URL, que você erra essa URL.
+
+981
+00:43:52,224 --> 00:43:53,882
+Você vai ter uma dor de cabeça.
+
+982
+00:43:53,883 --> 00:43:55,241
+Only sexy.
+
+983
+00:43:55,242 --> 00:43:56,599
+Será que faz?
+
+984
+00:43:56,600 --> 00:43:57,799
+Não é sexy.
+
+985
+00:43:57,800 --> 00:44:00,757
+Não vai digitar OnlyFans ou só
+
+986
+00:44:00,758 --> 00:44:02,637
+OnlyFans não, não digita errado mano.
+
+987
+00:44:02,638 --> 00:44:05,424
+OnlyFans.com.br, entendeu?
+
+988
+00:44:05,425 --> 00:44:06,164
+Isso aí.
+
+989
+00:44:07,663 --> 00:44:09,582
+Fechou a gente? Fechou. Então
+
+990
+00:44:09,583 --> 00:44:11,022
+a gente se vê semana que vem.
+
+991
+00:44:11,023 --> 00:44:12,381
+Eu sou o Carlos Pereira.
+
+992
+00:44:12,382 --> 00:44:14,480
+Eu sou o Marcos Santos. Beijos.
+
+993
+00:44:15,180 --> 00:44:16,199
+Beijos de luz.
+
+994
+00:44:16,819 --> 00:44:18,258
+Termina aqui.
+
+995
+00:44:18,259 --> 00:44:19,617
+Deve ser copos.
+
+996
+00:44:19,618 --> 00:44:20,897
+Deve ser copos.
+
+997
+00:44:20,898 --> 00:44:23,396
+O seu podcast de segurança em tecnologia.
+
+998
+00:44:24,822 --> 00:44:24,997
+O que
