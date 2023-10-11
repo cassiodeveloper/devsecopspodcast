@@ -14,6 +14,7 @@ length: 45:02
 videoid: LA8vVBMpihg
 cover: "../assets/img/425.png"
 transcription: "../assets/transcriptions/4/25/25.srt"
+transcription_txt: "../assets/transcriptions/4/25/25.txt"
 ---
 
 Neste emocionante episódio do DevSecOps Podcast, mergulhamos fundo no mundo do treinamento de segurança para desenvolvedores. À medida que a segurança cibernética se torna uma preocupação cada vez mais premente, é essencial que os desenvolvedores estejam bem equipados para criar aplicativos e sistemas resistentes a ameaças. Nossos anfitriões experientes se juntam para discutir as principais questões e melhores práticas relacionadas ao treinamento de segurança. Abordamos tópicos como:
