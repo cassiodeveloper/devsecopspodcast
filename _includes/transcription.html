@@ -7,3 +7,11 @@
     <a href="{{include.transcription}}">Download da transcrição</a>
 </p>
 {% endif %}
+
+<div class="transcricao">
+    <h1>Texto da transcrição</h1>
+    {% assign arquivo = include.transcription %}
+    <pre>
+      {{ arquivo | newline_to_br }}
+    </pre>
+</div>
