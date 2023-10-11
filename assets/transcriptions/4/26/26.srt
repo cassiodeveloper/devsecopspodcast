@@ -1,0 +1,3663 @@
+1
+00:00:01,039 --> 00:00:01,759
+E novo a céu.
+
+2
+00:00:01,760 --> 00:00:04,477
+Segura programa seu. Tecnologia. Desenvolvimento.
+
+3
+00:00:04,478 --> 00:00:05,417
+Começa aqui.
+
+4
+00:00:06,916 --> 00:00:08,235
+Neve e secoms.
+
+5
+00:00:08,236 --> 00:00:09,544
+Neve e secoms.
+
+6
+00:00:09,545 --> 00:00:12,043
+O seu podcast de segurança em tecnologia.
+
+7
+00:00:21,077 --> 00:00:22,996
+Olá pessoal, tudo bem com vocês?
+
+8
+00:00:22,997 --> 00:00:24,795
+Espero que sim, estamos aqui para
+
+9
+00:00:24,796 --> 00:00:27,823
+mais episódio deve ser copyspodcast.
+
+10
+00:00:27,824 --> 00:00:29,883
+Aliás, esse é o episódio 788,
+
+11
+00:00:32,301 --> 00:00:34,360
+138 episódios deve ser copyspodcast.
+
+12
+00:00:34,919 --> 00:00:39,077
+Quatro temporadas, quatro anos nesta jornada.
+
+13
+00:00:39,078 --> 00:00:41,716
+É prazer estar aqui uma honra com
+
+14
+00:00:41,717 --> 00:00:43,315
+esses jovens que estão de volta.
+
+15
+00:00:43,316 --> 00:00:44,894
+Eu sou o Cássio Pereira.
+
+16
+00:00:44,895 --> 00:00:46,614
+Eu sou Marcos Santos.
+
+17
+00:00:46,615 --> 00:00:48,932
+E eu sou Rodrigo Balbini. Tudo bom?
+
+18
+00:00:48,933 --> 00:00:52,831
+Praticamente 4 anos já deu para formar plano já em
+
+19
+00:00:54,569 --> 00:00:56,209
+Eu diria que do jeito que a gente
+
+20
+00:00:56,210 --> 00:00:58,668
+traz conteúdo aqui, o sêniorzinho já por aí.
+
+21
+00:00:59,247 --> 00:00:59,807
+Sem a questão.
+
+22
+00:00:59,808 --> 00:01:01,686
+E o cara tem que ter a prática pra ser sênior, né?
+
+23
+00:01:01,687 --> 00:01:03,794
+Só na teoria aqui ele vai longe, viu?
+
+24
+00:01:03,795 --> 00:01:06,993
+É, mas do jeito que o mercado tá, o sênior fácil.
+
+25
+00:01:06,994 --> 00:01:08,912
+Ou o sênior fácil, muito caro.
+
+26
+00:01:08,913 --> 00:01:10,311
+Bom, começar a cobrar, então.
+
+27
+00:01:10,312 --> 00:01:12,390
+Você que ouviu todos os episódios, pague R$ 1
+
+28
+00:01:12,391 --> 00:01:14,749
+por episódio e já já ajuda a gente.
+
+29
+00:01:15,848 --> 00:01:18,487
+Por esse curso que foi vos dado.
+
+30
+00:01:18,488 --> 00:01:21,725
+Pessoal, mais episódio da Bc Class Podcast, antes de começar
+
+31
+00:01:21,726 --> 00:01:24,124
+o episódio de hoje, lembrar que o DevScore Podcast tem
+
+32
+00:01:24,125 --> 00:01:26,403
+o apoio da Checkmanx e da nova 8 que são
+
+33
+00:01:26,404 --> 00:01:29,801
+especializadas em segurança de sistemas e código seguro o link
+
+34
+00:01:29,802 --> 00:01:32,160
+da nova 8 que é a distribuidora da Checkmanx do
+
+35
+00:01:32,161 --> 00:01:35,108
+Brasil está abaixo aqui na descrição do episódio no youtube
+
+36
+00:01:35,109 --> 00:01:36,808
+também no site deve ser costpodcast.com.br.
+
+37
+00:01:38,227 --> 00:01:40,526
+Tá buscando soluções em Applications Security?
+
+38
+00:01:41,184 --> 00:01:44,583
+A vista UOL que tem portfólio completo pra você.
+
+39
+00:01:44,584 --> 00:01:47,301
+A Gote Security é especializada em Applications Security, que
+
+40
+00:01:47,302 --> 00:01:49,649
+é desenvolver software seguro, fale com a Goto, você
+
+41
+00:01:49,650 --> 00:01:52,368
+quis investir os melhores serviços pra te ajudar.
+
+42
+00:01:52,369 --> 00:01:56,446
+E tá procurando trampo, quer anunciar vaga, apsek.jobs, projetinho
+
+43
+00:01:56,447 --> 00:01:58,584
+paralelo que ainda tá no ar, até eu decidi
+
+44
+00:01:58,585 --> 00:02:01,143
+tirar do ar, mas está funcionando ainda, então anuncia
+
+45
+00:02:01,144 --> 00:02:03,682
+sua vaga e também procure emprego.
+
+46
+00:02:04,701 --> 00:02:06,020
+Antes de anunciar o tópico de
+
+47
+00:02:06,021 --> 00:02:07,400
+hoje eu queria fazer uma pergunta.
+
+48
+00:02:08,059 --> 00:02:12,097
+É uma verdade mentirosa, uma mentira verdadeira, é
+
+49
+00:02:12,098 --> 00:02:15,975
+falso motivo, positivo verdadeiro, ou só mais uma
+
+50
+00:02:15,976 --> 00:02:18,544
+faceta de segurança pra enganar desenvolvedores e dizer
+
+51
+00:02:18,545 --> 00:02:19,943
+que segurança vale a pena.
+
+52
+00:02:19,944 --> 00:02:23,901
+Hoje a gente vai falar sobre falsos positivos, o terror
+
+53
+00:02:23,902 --> 00:02:26,979
+dos falsos positivos pra quem é da área de security
+
+54
+00:02:26,980 --> 00:02:29,818
+de teste e sabe o que é falso positivo e
+
+55
+00:02:29,819 --> 00:02:32,816
+o trabalho que dá a resolver esses casos, a gente
+
+56
+00:02:32,817 --> 00:02:36,984
+vai falar pouquinho deles sobre pouquinho sobre isso hoje.
+
+57
+00:02:36,985 --> 00:02:38,783
+Eu tô tão ansioso aqui com a minha voz,
+
+58
+00:02:38,784 --> 00:02:40,942
+mas que a voz voltou no episódio, dois episódios
+
+59
+00:02:40,943 --> 00:02:43,021
+atrás no episódio da história tava tossindo, né Marcos?
+
+60
+00:02:43,022 --> 00:02:43,829
+Lembra?
+
+61
+00:02:43,830 --> 00:02:44,389
+Ah, tudo
+
+62
+00:02:44,390 --> 00:02:46,009
+lindo, tudo lindo, tudo lindo.
+
+63
+00:02:46,828 --> 00:02:49,706
+Tem que pegar leve na noitada, hein?
+
+64
+00:02:49,707 --> 00:02:52,974
+Não, não, agora estamos Então
+
+65
+00:02:52,975 --> 00:02:55,533
+vamos lá, jovens, falsos positivos.
+
+66
+00:02:55,534 --> 00:02:57,312
+Por que que é tão problemático?
+
+67
+00:02:57,852 --> 00:02:58,771
+Fala aí, por que você acha
+
+68
+00:02:58,772 --> 00:03:00,591
+que é tão problemático falso positivo?
+
+69
+00:03:01,130 --> 00:03:02,579
+Ah, preciso de uma ferramenta Sart.
+
+70
+00:03:02,580 --> 00:03:04,458
+Ah, mas tem muito falso positivo.
+
+71
+00:03:04,459 --> 00:03:06,417
+Ah, vou colocar dast. Ah, mas vai ter muito.
+
+72
+00:03:06,418 --> 00:03:07,857
+Como que é o falso positivo?
+
+73
+00:03:07,858 --> 00:03:10,244
+Ou então a clássica pergunta, Mas se
+
+74
+00:03:10,245 --> 00:03:12,123
+tem falso positivo na sua ferramenta?
+
+75
+00:03:12,124 --> 00:03:14,482
+É uma pergunta que eu quero responder na sequência.
+
+76
+00:03:14,483 --> 00:03:16,041
+Mas aí, o que vocês têm a falar sobre
+
+77
+00:03:16,042 --> 00:03:18,769
+falsos positivos para a gente introduzir o Cafuju?
+
+78
+00:03:18,770 --> 00:03:21,528
+Cara, assim, na minha visão, o porquê que o
+
+79
+00:03:21,529 --> 00:03:24,207
+pessoal é tão preocupado com o falso positivo, tá?
+
+80
+00:03:24,208 --> 00:03:27,125
+Primeiramente quer fazer code review, quem falar que é fácil
+
+81
+00:03:27,126 --> 00:03:29,754
+tá mentindo, o trabalho danado você pegar aquela pose que
+
+82
+00:03:29,755 --> 00:03:31,952
+ele pode ficar analisando ver se você encontra ali a
+
+83
+00:03:31,953 --> 00:03:36,259
+vulnerabilidade e comprovar que é uma vulnerabilidade Então o pessoal
+
+84
+00:03:36,260 --> 00:03:39,218
+acha que tem medo disso, do trabalho que dá Quando
+
+85
+00:03:39,219 --> 00:03:42,974
+você faz scan e você acha muitas vulnerabilidades Acho que
+
+86
+00:03:42,975 --> 00:03:45,733
+esse é o principal motivo do pessoal ter tanta preocupação
+
+87
+00:03:45,734 --> 00:03:49,651
+assim de querer o mínimo possível dentro de uma solução
+
+88
+00:03:49,652 --> 00:03:50,511
+ali de scanner.
+
+89
+00:03:52,079 --> 00:03:55,398
+Talvez a própria definição de falso positivo irá assustar,
+
+90
+00:03:55,399 --> 00:03:59,316
+porque o pessoal fala muito em falso positivo, mas
+
+91
+00:03:59,317 --> 00:04:01,784
+acaba não entendendo exatamente o que é.
+
+92
+00:04:01,785 --> 00:04:03,623
+O que eles acham é ah, a ferramenta
+
+93
+00:04:03,624 --> 00:04:05,603
+está trazendo muita coisa que não existe.
+
+94
+00:04:06,622 --> 00:04:08,621
+E daí, se você olhar com pouco mais de
+
+95
+00:04:08,622 --> 00:04:11,829
+atenção, aí você começa entender o porquê que existe.
+
+96
+00:04:12,808 --> 00:04:14,327
+Se a gente sabe que existe falso
+
+97
+00:04:14,328 --> 00:04:15,967
+positivo, por que não construir uma ferramenta
+
+98
+00:04:15,968 --> 00:04:17,386
+que ainda não tem falso positivo?
+
+99
+00:04:17,914 --> 00:04:22,952
+E daí, para dar exemplo simples, a ferramenta entende o
+
+100
+00:04:22,953 --> 00:04:26,110
+contexto do que está acontecendo, ela entende o contexto do
+
+101
+00:04:26,111 --> 00:04:29,038
+seu código, e às vezes ela não tem acesso.
+
+102
+00:04:29,039 --> 00:04:31,997
+Por exemplo, se você usa uma biblioteca externa, se
+
+103
+00:04:31,998 --> 00:04:34,476
+você usa algo que não está naquele contexto do
+
+104
+00:04:34,477 --> 00:04:39,242
+código, ele precisa sair, ele só seria analisado depois
+
+105
+00:04:39,243 --> 00:04:41,561
+de compilado, em tempo de execução, ele deveria estar
+
+106
+00:04:41,562 --> 00:04:44,129
+rodando, porque ele conseguiria entender todo o contexto.
+
+107
+00:04:44,130 --> 00:04:46,208
+Então a ferramenta não vai saber que
+
+108
+00:04:46,209 --> 00:04:47,648
+aquilo ali já está sendo corrigido.
+
+109
+00:04:47,649 --> 00:04:49,707
+Por exemplo, o cara está fazendo uma correção,
+
+110
+00:04:50,886 --> 00:04:53,954
+sei lá, ele está fazendo limpeza de dados.
+
+111
+00:04:53,955 --> 00:04:56,233
+E ele só vai acontecer em tempo de execução.
+
+112
+00:04:56,234 --> 00:04:57,793
+Então para a ferramenta olhando só
+
+113
+00:04:57,794 --> 00:05:00,871
+o código, aquilo ali é problema. Se ele vai olhar e vai
+
+114
+00:05:00,872 --> 00:05:02,910
+falar cara, tem uma vulnerabilidade aqui.
+
+115
+00:05:02,911 --> 00:05:04,619
+E talvez seja sido corrigida.
+
+116
+00:05:05,798 --> 00:05:09,996
+Ela vai aparecer a menos que depois que
+
+117
+00:05:09,997 --> 00:05:12,754
+você saiba sabe que aquilo ali existe e
+
+118
+00:05:12,755 --> 00:05:15,652
+é recorrente, você aponta na ferramenta.
+
+119
+00:05:17,431 --> 00:05:19,629
+Quando se fala de falso positivo, muitas
+
+120
+00:05:19,630 --> 00:05:21,508
+vezes a gente poderia falar ajuste da
+
+121
+00:05:21,509 --> 00:05:24,287
+ferramenta, então poderia ter nome separado.
+
+122
+00:05:24,826 --> 00:05:27,504
+É claro, tem outro falso positivo, que é a
+
+123
+00:05:27,505 --> 00:05:30,983
+ferramenta está apontando que é isso e não é.
+
+124
+00:05:30,984 --> 00:05:32,862
+Mas ele não está entendendo o conceito
+
+125
+00:05:32,863 --> 00:05:36,419
+daquele framework novo, conceito alguma mudança que
+
+126
+00:05:36,420 --> 00:05:38,418
+teve na linguagem, então ele até de
+
+127
+00:05:38,419 --> 00:05:41,177
+ser atualizado aquilo ainda é falso positivo.
+
+128
+00:05:41,178 --> 00:05:45,234
+Então acho que se a gente conseguir separar mais o
+
+129
+00:05:45,235 --> 00:05:48,593
+que realmente é falso positivo e o que é ajuste
+
+130
+00:05:48,594 --> 00:05:51,212
+de ferramenta, acho que o barulho seria diminuído.
+
+131
+00:05:52,779 --> 00:05:55,218
+Boa, agora eu vou dar a minha pitada
+
+132
+00:05:55,219 --> 00:05:57,157
+aqui de contribuição também para essa introdução.
+
+133
+00:05:58,696 --> 00:06:01,654
+Eu acho que antes a gente A parte
+
+134
+00:06:01,655 --> 00:06:03,833
+de contexto que o Rodrigo falou muito bem,
+
+135
+00:06:04,413 --> 00:06:06,552
+ela também envolve o contexto do teste.
+
+136
+00:06:07,211 --> 00:06:10,119
+Na minha visão, quando você tá falando de SAST, onde
+
+137
+00:06:10,120 --> 00:06:13,878
+a ferramenta tem acesso ao códigofonte inteiro, a tendência à
+
+138
+00:06:13,879 --> 00:06:16,516
+foto positiva é menor, porque ela tem o fluxo da
+
+139
+00:06:16,517 --> 00:06:19,564
+aplicação, ela vê quando você falou, uma classe chama outra,
+
+140
+00:06:19,565 --> 00:06:21,443
+método que chama outra, aquela coisa toda.
+
+141
+00:06:21,444 --> 00:06:24,482
+Então isso é contexto, ainda pode existir falso
+
+142
+00:06:24,483 --> 00:06:27,360
+positivo, porque os fluxos podem mudar, capacidade de
+
+143
+00:06:27,361 --> 00:06:29,449
+parâmetros, tal, tal, tal, tal, mas né?
+
+144
+00:06:30,189 --> 00:06:33,227
+Imagino que a tendência é a fase positiva seja menor.
+
+145
+00:06:33,228 --> 00:06:35,426
+Comparado a DAST, por exemplo.
+
+146
+00:06:35,427 --> 00:06:38,894
+Num DAST você tem uma ferramenta blackbox que vai
+
+147
+00:06:38,895 --> 00:06:41,812
+olhar para uma URL e fazer request muitas vezes
+
+148
+00:06:41,813 --> 00:06:44,611
+uma URL pura que tem ali formulário alguns campos
+
+149
+00:06:44,612 --> 00:06:47,289
+então você imagina campo string Quais?
+
+150
+00:06:47,290 --> 00:06:50,088
+Quantas possibilidades de string existem?
+
+151
+00:06:50,089 --> 00:06:51,647
+Mano, infinitas.
+
+152
+00:06:51,648 --> 00:06:52,707
+Infinitas existem.
+
+153
+00:06:53,326 --> 00:06:55,554
+De caractere a todos os bactérias
+
+154
+00:06:55,555 --> 00:06:58,633
+do teclado combinados em tamanhos infinitos.
+
+155
+00:06:58,634 --> 00:07:03,480
+Então, é impossível não ter falso positivo em DAST.
+
+156
+00:07:04,079 --> 00:07:06,178
+Impossível, matematicamente impossível.
+
+157
+00:07:06,838 --> 00:07:09,596
+Então o ponto é, a Rodrigo colocou, o
+
+158
+00:07:09,597 --> 00:07:13,554
+contexto e a configuração ajuda muito bem.
+
+159
+00:07:13,555 --> 00:07:16,193
+Porque se você configurou aquela scan de uma forma
+
+160
+00:07:16,194 --> 00:07:19,112
+correta de acordo com o profile daquela aplicação e
+
+161
+00:07:19,113 --> 00:07:22,159
+aí independente do teste dast sash o que for
+
+162
+00:07:22,160 --> 00:07:26,037
+vai ajudar a reduzir essa questão de fotos positivas.
+
+163
+00:07:26,038 --> 00:07:28,496
+Mas por que que o fotos positivas é problema?
+
+164
+00:07:29,134 --> 00:07:31,453
+Né e aí antes de entrar nessa próxima pergunta eu
+
+165
+00:07:31,454 --> 00:07:33,932
+vou trazer outro uma outra analogia aqui quando a gente
+
+166
+00:07:33,933 --> 00:07:35,931
+vai no médico por exemplo ele faz se fala no
+
+167
+00:07:35,932 --> 00:07:38,858
+exame exame de rotina, por exemplo, porque eu me acho
+
+168
+00:07:38,859 --> 00:07:41,597
+que fala, putz cara, você tá aqui com tá, diabetes,
+
+169
+00:07:42,777 --> 00:07:46,784
+sangue, me fala, açúcar, né?
+
+170
+00:07:46,785 --> 00:07:48,343
+Muita taxa de açúcar no sangue.
+
+171
+00:07:48,344 --> 00:07:49,622
+Vamos fazer mais teste, vamos.
+
+172
+00:07:49,623 --> 00:07:50,542
+Mas você faz mais teste?
+
+173
+00:07:50,543 --> 00:07:52,581
+Fala, na verdade não, na verdade a taxa tá normal.
+
+174
+00:07:52,582 --> 00:07:55,210
+Pô, vamos fazer terceiro, então, como contraprova,
+
+175
+00:07:55,211 --> 00:07:57,288
+e o terceiro também dá negativo.
+
+176
+00:07:57,289 --> 00:08:01,526
+Então aquele primeiro, ele foi tals positivo, tipo indício
+
+177
+00:08:01,527 --> 00:08:04,134
+de que você tava com falar diabetes, mas vai,
+
+178
+00:08:04,135 --> 00:08:06,493
+taxa de açúcar alta no sangue, na verdade não
+
+179
+00:08:06,494 --> 00:08:08,652
+estava, você fez mais dois testes na sequência, nas
+
+180
+00:08:08,653 --> 00:08:11,431
+mesmas condições e os testes eram negativos.
+
+181
+00:08:12,159 --> 00:08:13,918
+Neste contexto ele não é problema.
+
+182
+00:08:13,919 --> 00:08:15,118
+É mais fácil de você ir lá e
+
+183
+00:08:15,119 --> 00:08:17,657
+fazer o reteste, validar e tá tudo certo.
+
+184
+00:08:18,436 --> 00:08:21,234
+Ele passa a ser problema falsos positivos, passa a
+
+185
+00:08:21,235 --> 00:08:23,513
+ser problema no contexto de aplicar esse kit pra
+
+186
+00:08:23,514 --> 00:08:25,872
+nós aqui, que é a próxima pergunta.
+
+187
+00:08:25,873 --> 00:08:29,429
+Pela quantidade do volume de vulnerabilidades, Ou vocês
+
+188
+00:08:29,430 --> 00:08:31,688
+acham que é por alguma outra coisa? Falei Rodrigo.
+
+189
+00:08:32,268 --> 00:08:34,647
+Antes de entrar na pergunta, acho que você
+
+190
+00:08:35,426 --> 00:08:38,245
+fez uma analogia até interessante aí da diabetes.
+
+191
+00:08:38,794 --> 00:08:40,793
+Por isso que eu falei da configuração.
+
+192
+00:08:40,794 --> 00:08:42,952
+Por isso que quando você vai fazer teste,
+
+193
+00:08:42,953 --> 00:08:47,669
+exame de sangue, exame específico, tem algumas condições,
+
+194
+00:08:47,670 --> 00:08:50,467
+então você tem que a jejum, por exemplo.
+
+195
+00:08:50,468 --> 00:08:52,586
+Então você vai fazer teste de exame
+
+196
+00:08:52,587 --> 00:08:55,204
+de sangue e comer monte de doce.
+
+197
+00:08:55,205 --> 00:08:57,723
+Aí você chegou lá apareceu a taxa de açúcar
+
+198
+00:08:57,724 --> 00:09:01,081
+lá em cima então a configuração foi mal feita
+
+199
+00:09:01,082 --> 00:09:03,320
+né você se preparou mal para ir para fazer
+
+200
+00:09:03,321 --> 00:09:06,599
+esse teste então Isso é interessante.
+
+201
+00:09:06,600 --> 00:09:09,917
+E não que, nesse caso, não gerou falso positivo.
+
+202
+00:09:09,918 --> 00:09:10,937
+De fato, sua
+
+203
+00:09:12,834 --> 00:09:13,434
+né?
+
+204
+00:09:13,435 --> 00:09:15,793
+O que é só fazer parêntese, não perde mais você não.
+
+205
+00:09:15,794 --> 00:09:16,033
+O que
+
+206
+00:09:16,034 --> 00:09:17,512
+muitas vezes é problema também em
+
+207
+00:09:17,513 --> 00:09:19,471
+epicege, porque não é falso positivo.
+
+208
+00:09:19,472 --> 00:09:22,399
+O problema está lá Mas, de repente,
+
+209
+00:09:22,400 --> 00:09:24,518
+naquele contexto, por exemplo, ah, toma validação
+
+210
+00:09:24,519 --> 00:09:25,597
+aqui que não tá sendo feita.
+
+211
+00:09:25,598 --> 00:09:28,244
+Ah, não, mas eu sei o que tá vindo aqui, é só interno.
+
+212
+00:09:28,245 --> 00:09:28,924
+Tá, tá, tá, tá.
+
+213
+00:09:28,925 --> 00:09:30,763
+Beleza, o código está vulnerável.
+
+214
+00:09:30,764 --> 00:09:33,402
+Por mais que você saiba o que você está vindo aqui, né?
+
+215
+00:09:33,403 --> 00:09:36,310
+Então, enfim, só falta mais pimenta aí, né?
+
+216
+00:09:36,311 --> 00:09:39,028
+Eu já peguei referência do cara reclamar que
+
+217
+00:09:39,029 --> 00:09:41,307
+a ferramenta estava apontando o erro lá, estava
+
+218
+00:09:41,308 --> 00:09:44,364
+apontando a vulnerabilidade, é falso positivo, é falso
+
+219
+00:09:44,365 --> 00:09:46,523
+positivo, a gente já corrigiu, é falso positivo.
+
+220
+00:09:46,524 --> 00:09:48,662
+E toda vez que fazer o scan aparecia.
+
+221
+00:09:49,282 --> 00:09:51,041
+Aí Philipe, vamos sentar, gente.
+
+222
+00:09:51,042 --> 00:09:52,320
+Deixa eu ver o que você tá fazendo.
+
+223
+00:09:52,321 --> 00:09:55,258
+Aí pegava, rodava o scan e via lá a vulnerabilidade.
+
+224
+00:09:55,838 --> 00:09:57,637
+Aí o cara abriu o código e
+
+225
+00:09:57,638 --> 00:10:00,954
+mostrava cara, nem existe mais essa linha.
+
+226
+00:10:00,955 --> 00:10:03,433
+Aí qual era o problema?
+
+227
+00:10:03,434 --> 00:10:06,712
+O cara estava fazendo scan de uma branch
+
+228
+00:10:06,713 --> 00:10:09,949
+e estava e estava corrigindo o outro.
+
+229
+00:10:11,648 --> 00:10:15,386
+Mas aí entra também esse negócio do contexto.
+
+230
+00:10:15,965 --> 00:10:18,104
+Cara, você está olhando é para outra coisa.
+
+231
+00:10:18,105 --> 00:10:19,863
+Não é que você corrigia a vulnerabilidade.
+
+232
+00:10:19,864 --> 00:10:21,822
+A gente está fazendo teste aqui, que é esse
+
+233
+00:10:21,823 --> 00:10:26,340
+caso do cara com muita glicose no sangue.
+
+234
+00:10:27,019 --> 00:10:29,138
+Mas beleza, bora pra hamburguer que você
+
+235
+00:10:29,139 --> 00:10:30,697
+tava fazendo e eu tinha interrompido.
+
+236
+00:10:30,698 --> 00:10:31,657
+Não, mas como é que você
+
+237
+00:10:31,658 --> 00:10:32,936
+é comentário, eu me falei Marcos?
+
+238
+00:10:32,937 --> 00:10:35,504
+Não, eu queria comentar que assim, para mim é uma
+
+239
+00:10:35,505 --> 00:10:39,123
+junção dos dois do volume e também da configuração.
+
+240
+00:10:39,942 --> 00:10:42,881
+Acho que os dois ali que geram esse espaço positivo.
+
+241
+00:10:44,199 --> 00:10:46,478
+A gente sabe que tem ferramentas que permitem mais e
+
+242
+00:10:46,479 --> 00:10:49,836
+ferramentas que permitem menos configurações Então a partir do momento
+
+243
+00:10:49,837 --> 00:10:54,104
+que você faz ali uma limpeza no código retira arquivos
+
+244
+00:10:54,105 --> 00:10:58,062
+indesejados, arquivo de testes, tira arquivo de bibliotecas, no caso
+
+245
+00:10:58,063 --> 00:11:01,199
+do Sasha, você começa a tirar aquele monte de coisa
+
+246
+00:11:01,200 --> 00:11:03,998
+ali que não faz parte do scan de sash você
+
+247
+00:11:03,999 --> 00:11:07,556
+reduz o falso positivo só quando você tem volume muito
+
+248
+00:11:07,557 --> 00:11:12,383
+alto também é uma preocupação porque você tem super 1500
+
+249
+00:11:12,384 --> 00:11:15,382
+vulnerabilidades para olhar ali e classificar se é verdadeiro ou
+
+250
+00:11:15,383 --> 00:11:15,882
+não.
+
+251
+00:11:16,701 --> 00:11:18,839
+Aí que entra ajuste Então você vai ter que
+
+252
+00:11:18,840 --> 00:11:20,838
+ajustar a query de busca Ou você vai ter
+
+253
+00:11:20,839 --> 00:11:24,196
+que ajustar ali o preset de vulnerabilidade, beleza?
+
+254
+00:11:24,197 --> 00:11:26,635
+Trouxe 1.500, eu vou deixar só High Minion ali e
+
+255
+00:11:26,636 --> 00:11:29,853
+só as mais críticas para começar a filtrar e começar
+
+256
+00:11:29,854 --> 00:11:31,732
+a colocar ali o que é falsopositivo ou não para
+
+257
+00:11:31,733 --> 00:11:34,691
+ir reduzindo aos poucos então eu acho que é uma
+
+258
+00:11:34,692 --> 00:11:37,628
+junção dois, uma configuração e o volume alto que deixa
+
+259
+00:11:37,629 --> 00:11:41,367
+o pessoal mais assustado quando fala de falso positivo né?
+
+260
+00:11:41,906 --> 00:11:45,044
+Boa, eu trazer pouquinho mais de nessa fogueira aqui
+
+261
+00:11:45,045 --> 00:11:47,843
+é o seguinte, eu vejo, tem uma questão de
+
+262
+00:11:47,844 --> 00:11:51,361
+maturidade, empresas maduras, quando a gente fala de Applications
+
+263
+00:11:51,362 --> 00:11:55,528
+Security, elas têm o direito, olha o que eu
+
+264
+00:11:55,529 --> 00:11:58,846
+vou falar, irmã, elas têm o direito de contestar
+
+265
+00:11:58,847 --> 00:12:00,524
+isso, putz, Será que essa ferramenta não está me
+
+266
+00:12:00,525 --> 00:12:01,803
+trazendo muito falso positivo?
+
+267
+00:12:01,804 --> 00:12:03,323
+Como é que eu melhoro as configurações?
+
+268
+00:12:03,324 --> 00:12:05,362
+Como é que eu atuo no meu scan?
+
+269
+00:12:05,363 --> 00:12:07,461
+Ou como a gente colocou aqui agora?
+
+270
+00:12:08,069 --> 00:12:10,228
+Mas não é a realidade da maioria das
+
+271
+00:12:10,229 --> 00:12:13,147
+empresas que não estão maduras em desenvolvimento seguro.
+
+272
+00:12:13,148 --> 00:12:14,706
+E aí elas já começam a questionar,
+
+273
+00:12:14,707 --> 00:12:16,584
+mas eu tenho muito falso positivo?
+
+274
+00:12:16,585 --> 00:12:18,344
+Cara, questão tem que ser outra.
+
+275
+00:12:18,345 --> 00:12:21,782
+Você está pegando os seus verdadeiros positivos?
+
+276
+00:12:21,783 --> 00:12:23,901
+Você está achando os seus problemas primeiro
+
+277
+00:12:23,902 --> 00:12:25,600
+pra depois você começar a reclamar?
+
+278
+00:12:27,129 --> 00:12:30,567
+De falso positivo e tal, porque você não está nem
+
+279
+00:12:30,568 --> 00:12:33,235
+achando as coisas que você deveria achar os seus problemas.
+
+280
+00:12:33,236 --> 00:12:34,314
+Você já tá preocupado?
+
+281
+00:12:34,315 --> 00:12:36,273
+Nossa, mas eu vou ter problema que não é mentira.
+
+282
+00:12:36,274 --> 00:12:38,312
+Não, cara, calma, passo de cada vez.
+
+283
+00:12:38,313 --> 00:12:40,649
+Começa a encontrar seus problemas primeiro, Eu
+
+284
+00:12:40,650 --> 00:12:42,488
+tive cliente recente que era isso, o
+
+285
+00:12:42,489 --> 00:12:43,808
+cara não tá nem escaneando.
+
+286
+00:12:43,809 --> 00:12:46,007
+Aí lá, mas as ferramentas de teste trazem muito falso
+
+287
+00:12:46,008 --> 00:12:47,886
+positivo, eu falei qual foi a última que você usou?
+
+288
+00:12:47,887 --> 00:12:50,843
+A gente não usou Então, como é que você tá falando?
+
+289
+00:12:50,844 --> 00:12:51,783
+Você não me puxou?
+
+290
+00:12:52,403 --> 00:12:55,121
+Não, não sei aonde, mas o que você falou?
+
+291
+00:12:55,122 --> 00:12:56,899
+Não, então começa a fazer scan.
+
+292
+00:12:56,900 --> 00:13:01,457
+Analise os seus problemas depois você se preocupa com esse outro
+
+293
+00:13:01,458 --> 00:13:05,204
+problema se for caso que é como eu falei no SAST
+
+294
+00:13:05,205 --> 00:13:09,082
+a tendência de fotos positivas é bem menor, no DASH tendência
+
+295
+00:13:09,083 --> 00:13:11,939
+é maior, pela própria o contexto do scan.
+
+296
+00:13:11,940 --> 00:13:14,138
+Ainda assim, é possível você tunar, né?
+
+297
+00:13:14,139 --> 00:13:16,057
+E a AJUSTAÇÕES que é independente das
+
+298
+00:13:16,058 --> 00:13:18,976
+ferramentas que você usa pra melhorar esses
+
+299
+00:13:18,977 --> 00:13:20,295
+índices, vamos chamar assim, né?
+
+300
+00:13:20,296 --> 00:13:22,004
+Então, Obviamente também depende muito
+
+301
+00:13:22,005 --> 00:13:22,884
+da ferramenta que você usa.
+
+302
+00:13:22,885 --> 00:13:24,723
+Tem ferramenta que permite mais customização.
+
+303
+00:13:24,724 --> 00:13:26,302
+Tem exemplo clássico.
+
+304
+00:13:27,121 --> 00:13:28,681
+Ferramentas de SAST que permitem
+
+305
+00:13:28,682 --> 00:13:30,199
+você customizar as queries.
+
+306
+00:13:30,200 --> 00:13:34,237
+Elas tendem a você praticamente reduzirse seus próprios positivos,
+
+307
+00:13:34,238 --> 00:13:36,037
+porque onde ela tá trazendo os falsos positivos pra
+
+308
+00:13:36,038 --> 00:13:37,876
+você, ah, não tá achando que uma sanitização, não
+
+309
+00:13:37,877 --> 00:13:40,294
+tá achando uma validação, Cara customiza a regra pra
+
+310
+00:13:40,295 --> 00:13:42,213
+falar que aquilo é uma sensação e você tende
+
+311
+00:13:42,214 --> 00:13:43,612
+a reduzir a 0.
+
+312
+00:13:43,613 --> 00:13:45,731
+0 DASH é mais complicado pouquinho
+
+313
+00:13:45,732 --> 00:13:47,011
+e isso acaba não acontecendo.
+
+314
+00:13:47,012 --> 00:13:49,729
+Mas é possível chegar nesse livro.
+
+315
+00:13:49,730 --> 00:13:51,888
+Então acho que o volume, ele
+
+316
+00:13:51,889 --> 00:13:53,287
+voltando pra esse ponto, né?
+
+317
+00:13:53,288 --> 00:13:55,166
+O volume, ele assusta porque o pessoal tá muito
+
+318
+00:13:55,167 --> 00:13:57,085
+preocupado com você, eu vou ter mil vulnerabilidades, mas
+
+319
+00:13:57,086 --> 00:14:00,723
+na verdade dessas mil aqui, metade é falso positivo.
+
+320
+00:14:00,724 --> 00:14:04,721
+Porra, beleza, é justificável. A
+
+321
+00:14:04,722 --> 00:14:08,659
+gente vai colocar a ponta também, quando
+
+322
+00:14:08,660 --> 00:14:11,897
+Porque assim, tudo que você adicionar no
+
+323
+00:14:11,898 --> 00:14:14,964
+SDL é problema para o negócio.
+
+324
+00:14:14,965 --> 00:14:17,403
+Porque se você adicionou mais uma camada de alguma
+
+325
+00:14:17,404 --> 00:14:19,842
+coisa, quer dizer que você vai levar mais tempo.
+
+326
+00:14:19,843 --> 00:14:24,040
+Então, por exemplo, se você traz uma ferramenta que ela
+
+327
+00:14:24,041 --> 00:14:28,508
+vai vai levar uns dois minutos a mais na pipeline.
+
+328
+00:14:28,509 --> 00:14:29,567
+O cara já vai pensar.
+
+329
+00:14:30,227 --> 00:14:32,226
+Se ela adicionar mais tempo para o cara
+
+330
+00:14:32,227 --> 00:14:35,583
+ficar validando realmente é uma vulnerabilidade ou não.
+
+331
+00:14:35,584 --> 00:14:37,222
+Aí é mais tempo para o cara pensar.
+
+332
+00:14:37,223 --> 00:14:39,301
+Então, tudo que a gente colocar, se a gente tem
+
+333
+00:14:39,302 --> 00:14:42,129
+grande volume de falso positivo, está dizendo que o cara
+
+334
+00:14:42,130 --> 00:14:44,528
+vai perder muito tempo para ficar analisando aquilo.
+
+335
+00:14:44,529 --> 00:14:46,247
+Então acho que é dos problemas que o
+
+336
+00:14:46,248 --> 00:14:48,466
+pessoal já puts, aí vai ficar meio esquisito.
+
+337
+00:14:49,644 --> 00:14:52,203
+E tende a não querer utilizar tal ferramenta
+
+338
+00:14:52,204 --> 00:14:54,762
+por conta de falso positivo, seria isso.
+
+339
+00:14:54,763 --> 00:14:59,018
+Pará, Tem que parar alguém para validar se é ou não é.
+
+340
+00:14:59,019 --> 00:15:00,577
+E daí gera esse medo.
+
+341
+00:15:00,578 --> 00:15:04,554
+E daí acho que vai muito pelo por conta do
+
+342
+00:15:04,555 --> 00:15:06,433
+mundo real né que a gente vê se o mundo
+
+343
+00:15:06,434 --> 00:15:09,871
+ideal a gente vê que você ia fazer todas as
+
+344
+00:15:09,872 --> 00:15:14,768
+configurações possíveis quem está colocando os testes, sabe qual é
+
+345
+00:15:14,769 --> 00:15:21,555
+o escopo, sabe o que espera da ferramenta, sabe dosar
+
+346
+00:15:21,556 --> 00:15:25,553
+sabe utilizar a ferramenta para não pegar falso positivo, ou
+
+347
+00:15:25,554 --> 00:15:27,152
+pegar o mínimo possível.
+
+348
+00:15:27,153 --> 00:15:29,829
+Mas no mundo real, cara, primeiro os caras
+
+349
+00:15:29,830 --> 00:15:31,629
+tá rodando, o negócio tá bem demo e
+
+350
+00:15:31,630 --> 00:15:33,787
+daí eles colocam uma ferramenta no meio.
+
+351
+00:15:33,788 --> 00:15:36,106
+Joga tudo sem configuração nenhum, joga pro
+
+352
+00:15:36,107 --> 00:15:38,704
+default, aí o scan começa a demorar,
+
+353
+00:15:38,705 --> 00:15:40,384
+começa a trazer monte de falso positivo.
+
+354
+00:15:40,385 --> 00:15:42,742
+Aí pro cara já é alarme.
+
+355
+00:15:42,743 --> 00:15:45,741
+Cara, coloquei aqui pra melhorar a produtividade,
+
+356
+00:15:45,742 --> 00:15:48,160
+nesse caso seria a segurança ou qualidade.
+
+357
+00:15:48,959 --> 00:15:50,239
+E está atrapalhando.
+
+358
+00:15:50,240 --> 00:15:53,117
+Então acho que o medo vem muito disso, da falta
+
+359
+00:15:53,118 --> 00:15:55,616
+de maturidade para lidar com esse tipo de problema.
+
+360
+00:15:56,964 --> 00:15:58,763
+Mas maturidade ia pegar esse tipo
+
+361
+00:15:58,764 --> 00:16:00,362
+de coisa e falar Cara, beleza!
+
+362
+00:16:00,363 --> 00:16:03,019
+O primeiro escândalo demorou muito. O que aconteceu?
+
+363
+00:16:03,020 --> 00:16:04,179
+Por conta disso e isso aqui.
+
+364
+00:16:04,180 --> 00:16:06,418
+Beleza, tem muito falso posti, aconteceu.
+
+365
+00:16:06,419 --> 00:16:08,937
+Ah, eu coloquei no contexto todos
+
+366
+00:16:08,938 --> 00:16:11,495
+os diretórios, inclusive diretórios de imagens,
+
+367
+00:16:11,496 --> 00:16:13,094
+diretórios de PDF, diretório.
+
+368
+00:16:17,352 --> 00:16:19,959
+Acho que o Rodrigo tocou num ponto bom aqui.
+
+369
+00:16:19,960 --> 00:16:24,237
+Então esse ponto de maturidade que muitas empresas querem fazer
+
+370
+00:16:24,238 --> 00:16:26,596
+os scans ali estão preocupados com o dispositivo mas não
+
+371
+00:16:26,597 --> 00:16:30,334
+sabem nem configurar ali a ferramenta solução e até os
+
+372
+00:16:30,335 --> 00:16:35,012
+desenvolvedores não tem conhecimento nenhum de código seguro que a
+
+373
+00:16:35,013 --> 00:16:37,251
+gente volta lá para o começo pô se eu fizer
+
+374
+00:16:37,252 --> 00:16:40,319
+treinamento por causa do nível seguro e até pior, se
+
+375
+00:16:40,320 --> 00:16:43,397
+você não sabe configurar, se você não tem knowhow contrata
+
+376
+00:16:43,398 --> 00:16:45,476
+uma consultoria que ela vai te ajudar muito mais do
+
+377
+00:16:45,477 --> 00:16:48,475
+que você tentar fazer sozinho pra ela tá sozinho ali
+
+378
+00:16:48,476 --> 00:16:51,233
+Então acho que também tem esse ponto, o fosfolio está
+
+379
+00:16:51,234 --> 00:16:54,392
+meio gerado por isso, pela inexperiência De tentar colocar uma
+
+380
+00:16:54,393 --> 00:16:58,229
+ferramenta sem ter nenhum conhecimento para isso você tentar colocar,
+
+381
+00:16:58,230 --> 00:17:00,508
+a mesma coisa que você tentar se dirigir no carro
+
+382
+00:17:00,509 --> 00:17:02,947
+com 12 anos, sem nunca ter pego na vida, você
+
+383
+00:17:02,948 --> 00:17:05,644
+vai bater, a mesma coisa com a ferramenta, não tem
+
+384
+00:17:05,645 --> 00:17:09,682
+piloto bom ali Fazendo as configurações, analisando as vulnerabilidades, as
+
+385
+00:17:09,683 --> 00:17:13,490
+configurações Provavelmente você vai dar errado e você vai vai
+
+386
+00:17:13,491 --> 00:17:15,728
+estar ali com a ferramenta só por compliance né você
+
+387
+00:17:15,729 --> 00:17:20,126
+não vai estar usando ela da melhor maneira possível segurança
+
+388
+00:17:20,127 --> 00:17:22,185
+tecnologia deve ser copys
+
+389
+00:17:23,354 --> 00:17:24,614
+Linheta do cara.
+
+390
+00:17:27,352 --> 00:17:31,329
+Acho que o Marx falou, cara, já vi acontecer
+
+391
+00:17:31,330 --> 00:17:33,488
+bastante e acho que é problemão, que o pessoal
+
+392
+00:17:33,489 --> 00:17:36,087
+coloca as coisas por compliance, ou porque alguém mandou,
+
+393
+00:17:36,088 --> 00:17:40,484
+ou porque a empresa tá engajada naquilo, mas o
+
+394
+00:17:40,485 --> 00:17:43,443
+cara não sabe exatamente como funciona.
+
+395
+00:17:43,444 --> 00:17:45,682
+Então, por exemplo, já vi muita gente
+
+396
+00:17:45,683 --> 00:17:49,190
+reclamar Cara, quanto tempo ele demora?
+
+397
+00:17:49,191 --> 00:17:51,468
+Porque se demorar muito eu não vou contratar.
+
+398
+00:17:51,469 --> 00:17:54,707
+E daí você pensa, peraí, mas o DASH vai rodar com
+
+399
+00:17:54,708 --> 00:17:58,574
+a aplicação no ar e tudo mais, ele nem deveria impactar,
+
+400
+00:17:58,575 --> 00:18:03,171
+ele nem deveria impactar a esteira, porque ele não é cara
+
+401
+00:18:03,172 --> 00:18:07,289
+pra você esperar toda a análise dele para dar o ok.
+
+402
+00:18:07,290 --> 00:18:12,286
+E daí ele poderia fazer em ambiente de teste, em
+
+403
+00:18:12,287 --> 00:18:15,764
+ambiente de homologação, mas para o cara ele tem que
+
+404
+00:18:15,765 --> 00:18:18,282
+rodar na esteira, o cara fez o código, fez a
+
+405
+00:18:18,283 --> 00:18:21,121
+análise fácil, análise daste e aí depois ele vai dar
+
+406
+00:18:21,122 --> 00:18:23,340
+ok se o código pode subir ou não.
+
+407
+00:18:23,341 --> 00:18:25,039
+Ainda até adendo, legal.
+
+408
+00:18:25,738 --> 00:18:27,857
+Taxa é recomendado rodar num ambiente de
+
+409
+00:18:27,858 --> 00:18:29,456
+teste e não em produção, né?
+
+410
+00:18:29,457 --> 00:18:32,354
+A gente tem Fábrica de encomendas recomendam isso.
+
+411
+00:18:32,355 --> 00:18:34,633
+Porque senão você pode derrubar seu ambiente
+
+412
+00:18:34,634 --> 00:18:37,232
+produtivo, você pode atrapalhar ou você pode
+
+413
+00:18:37,233 --> 00:18:39,611
+gerar sujeira dentro do seu ambiente.
+
+414
+00:18:40,310 --> 00:18:44,338
+Então o pessoal por falta do conhecimento, por
+
+415
+00:18:44,339 --> 00:18:47,817
+falta da maturidade, acaba tomando decisões erradas.
+
+416
+00:18:47,818 --> 00:18:51,424
+E daí fala que a ferramenta não presta, ou
+
+417
+00:18:51,425 --> 00:18:55,422
+que aquilo ali tá devagar, ou sei lá, já
+
+418
+00:18:55,423 --> 00:18:58,330
+era barulho por falta de conhecimento, no caso.
+
+419
+00:18:58,331 --> 00:18:59,409
+Toda vez que eu tenho essa
+
+420
+00:18:59,410 --> 00:19:02,328
+discussão, Cara, isso faz falso positivo?
+
+421
+00:19:02,329 --> 00:19:04,047
+Ah, ferramenta, não tem muito falso positivo?
+
+422
+00:19:04,048 --> 00:19:06,744
+Cara, Primeiro que a minha alma
+
+423
+00:19:06,745 --> 00:19:08,643
+já é drenada, nessa pergunta.
+
+424
+00:19:09,183 --> 00:19:11,222
+Aí o segundo momento é reagir, cara.
+
+425
+00:19:11,223 --> 00:19:13,980
+Você tem maturidade de Epsex? Já faz? Como é que é?
+
+426
+00:19:13,981 --> 00:19:15,020
+Ah, não faço nada.
+
+427
+00:19:15,021 --> 00:19:16,529
+Então, Comece a achar seus problemas,
+
+428
+00:19:16,530 --> 00:19:17,648
+depois você se preocupa com isso.
+
+429
+00:19:17,649 --> 00:19:18,728
+Se o cara já tem livro de
+
+430
+00:19:18,729 --> 00:19:21,007
+maturidade, Opa, que solução você usa hoje?
+
+431
+00:19:21,008 --> 00:19:23,885
+Tá bem configurada, porque tem soluções no mercado também
+
+432
+00:19:23,886 --> 00:19:27,523
+que a gente sabe que não já são queimadas,
+
+433
+00:19:27,524 --> 00:19:30,602
+vamos dizer assim, que também depende de configuração e
+
+434
+00:19:30,603 --> 00:19:33,920
+contexto, mas enfim, então você já entre algumas questões
+
+435
+00:19:33,921 --> 00:19:38,098
+que você já começa a perceber qual é a
+
+436
+00:19:38,099 --> 00:19:40,657
+preocupação daquele cara de fato, é só falso positivo,
+
+437
+00:19:40,658 --> 00:19:44,634
+é melhoria das configurações, as vezes O próprio natureza
+
+438
+00:19:44,635 --> 00:19:47,273
+da aplicação do cara usa código legado aqui de
+
+439
+00:19:47,274 --> 00:19:49,092
+4 milhões de linhas em C++.
+
+440
+00:19:50,391 --> 00:19:51,950
+A tendência de ter muito foco positivo
+
+441
+00:19:51,951 --> 00:19:54,199
+é alta, código legado, coisa xiga, né?
+
+442
+00:19:54,200 --> 00:19:57,138
+Então isso também influencia bastante.
+
+443
+00:19:57,957 --> 00:20:00,685
+Eu queria fazer uma pausa aqui no podcast, só
+
+444
+00:20:01,484 --> 00:20:02,464
+Leve e Secops.
+
+445
+00:20:04,003 --> 00:20:04,803
+Recebemos
+
+446
+00:20:04,804 --> 00:20:07,422
+uma denúncia de ouvinte.
+
+447
+00:20:10,249 --> 00:20:13,487
+Denúncia, o ouvinte mandou pra gente aqui que é
+
+448
+00:20:13,488 --> 00:20:16,586
+o seguinte, ele falou Cássio, eu estava escutando podcast,
+
+449
+00:20:17,505 --> 00:20:19,144
+e a pessoa era de São Paulo.
+
+450
+00:20:19,145 --> 00:20:21,363
+Ela falou ela, é uma mulher inclusive.
+
+451
+00:20:22,062 --> 00:20:25,181
+Eu fui parar na brasilândia, sei lá que pai o que
+
+452
+00:20:25,182 --> 00:20:27,180
+era, porque não tem nada a ver com o roteiro dela,
+
+453
+00:20:27,181 --> 00:20:30,808
+mas porque ela perdeu a noção do caminho, ela tinha que
+
+454
+00:20:30,809 --> 00:20:32,647
+virar não sei onde e foi indo, indo, indo.
+
+455
+00:20:32,648 --> 00:20:35,684
+Só que você perde o ponto do ônibus, Ela fez
+
+456
+00:20:35,685 --> 00:20:38,623
+isso no carro, porque ela tava tão distraída ouvindo Ou
+
+457
+00:20:42,521 --> 00:20:45,119
+não sei se a minha voz é tão ativa assim?
+
+458
+00:20:45,120 --> 00:20:46,159
+Ou a do Marcos?
+
+459
+00:20:46,160 --> 00:20:47,838
+Ou a do Gabriel? Ou a do Gabriel?
+
+460
+00:20:47,839 --> 00:20:50,117
+Vai saber que episódio ela tava ouvindo.
+
+461
+00:20:50,118 --> 00:20:53,214
+Então, essa pausa é pra você que está ouvindo você gosta de
+
+462
+00:20:53,215 --> 00:20:55,893
+queixa agora você tá no trânsito aí agora ou na madrugada não
+
+463
+00:20:55,894 --> 00:20:59,331
+interessa para é isso mesmo que você tá fazendo você tem que
+
+464
+00:20:59,332 --> 00:21:02,339
+estar onde você tá aí Dá uma olhada, não, transa em 60,
+
+465
+00:21:02,340 --> 00:21:04,678
+e aí faz o check in aí, Josinha.
+
+466
+00:21:05,577 --> 00:21:06,976
+Volta para a idade.
+
+467
+00:21:06,977 --> 00:21:09,244
+Eu acho que ela tava mais sana,
+
+468
+00:21:09,245 --> 00:21:10,364
+no que é a resposta, mano?
+
+469
+00:21:10,365 --> 00:21:12,003
+Preciso de maluco que eu já porra nenhuma,
+
+470
+00:21:12,004 --> 00:21:13,802
+pera aí que eu vou escrever certo, agora
+
+471
+00:21:13,803 --> 00:21:15,721
+pode ser também. Pode ser também.
+
+472
+00:21:15,722 --> 00:21:18,659
+Mas a denúncia veio em Poxa, que achei tão bom que
+
+473
+00:21:18,660 --> 00:21:21,258
+eu perdi a noção de onde eu estava, fui parar no
+
+474
+00:21:21,259 --> 00:21:23,757
+céu, onde eu tive que voltar, pegar o retorno, enfim.
+
+475
+00:21:24,896 --> 00:21:26,804
+Então, não é assim, mas agora a gente vai introduzir
+
+476
+00:21:26,805 --> 00:21:30,342
+esse quadro aqui, alerta o 20, então para eu testar,
+
+477
+00:21:32,121 --> 00:21:34,490
+dá uma olhada no lugar que você deveria.
+
+478
+00:21:34,491 --> 00:21:37,808
+BOM VOLTANDO AQUI, LEGAL CARA, ACHO QUE ESSA
+
+479
+00:21:37,809 --> 00:21:42,605
+QUESTÃO DE FALSO POSITIVO ELA NEM POLÊMICA, MATEMATICAMENTE
+
+480
+00:21:42,606 --> 00:21:47,193
+EXISTE vai acontecer é só que talvez com
+
+481
+00:21:47,194 --> 00:21:52,888
+o AI agora tende a morrer reduzir muito,
+
+482
+00:21:52,889 --> 00:21:56,167
+não necessariamente morrer, é problema matemático ainda.
+
+483
+00:21:56,168 --> 00:22:00,194
+Mas Ainda é uma questão que
+
+484
+00:22:00,195 --> 00:22:01,633
+o pessoal não precisa se preocupar.
+
+485
+00:22:01,634 --> 00:22:03,912
+Se você não tem maturidade em Absek,
+
+486
+00:22:03,913 --> 00:22:06,290
+começa a se preocupar, é aquela história.
+
+487
+00:22:06,291 --> 00:22:07,769
+Esse dia estava assistindo, não sei quem
+
+488
+00:22:07,770 --> 00:22:09,928
+lembra no Brasil, passava aquele programa.
+
+489
+00:22:09,929 --> 00:22:12,686
+Quilos mortais. Lembra? Que eram as pessoas
+
+490
+00:22:12,687 --> 00:22:13,206
+que eram
+
+491
+00:22:13,207 --> 00:22:15,315
+muito, muito, muito, muito gordas.
+
+492
+00:22:15,316 --> 00:22:17,673
+E ia num médico lá específico e o médico humano, era
+
+493
+00:22:17,674 --> 00:22:22,071
+médico assim, ele era ele era o carisma em pessoa,
+
+494
+00:22:22,072 --> 00:22:23,809
+o doctor Now. Eu lembro
+
+495
+00:22:23,810 --> 00:22:25,368
+dia que a mulher fala assim Ah, eu não
+
+496
+00:22:25,369 --> 00:22:27,447
+quero essa comida, eu quero a comida do hospital.
+
+497
+00:22:27,448 --> 00:22:27,807
+Por quê?
+
+498
+00:22:27,808 --> 00:22:30,406
+A comida tem feijão, tem comida boa.
+
+499
+00:22:30,407 --> 00:22:31,735
+Ah, eu não gosto disso.
+
+500
+00:22:32,374 --> 00:22:34,353
+Vou morrer de fome.
+
+501
+00:22:35,373 --> 00:22:38,131
+Mano, você tem comida armazenada no seu corpo
+
+502
+00:22:38,132 --> 00:22:40,979
+pra mês, ficar sem comer mês, vai acontecer?
+
+503
+00:22:41,518 --> 00:22:43,018
+Nada com você. Nada.
+
+504
+00:22:43,637 --> 00:22:45,936
+Eu tenho comida que eu juro que você tem.
+
+505
+00:22:46,996 --> 00:22:47,924
+Não, sério.
+
+506
+00:22:47,925 --> 00:22:50,603
+Começa a comer direito porque o seu problema
+
+507
+00:22:50,604 --> 00:22:51,683
+não é o que você come, o seu
+
+508
+00:22:51,684 --> 00:22:54,382
+problema é a sua cabeça fraca, mentalidade fraca.
+
+509
+00:22:55,259 --> 00:22:59,297
+Então trazendo esse pedaço aí pro nosso contexto aqui,
+
+510
+00:22:59,298 --> 00:23:02,854
+eu acho que apsek tem pouco de maturidade.
+
+511
+00:23:02,855 --> 00:23:04,613
+Então tem uma questão de maturidade envolvida.
+
+512
+00:23:04,614 --> 00:23:07,132
+Muita empresa quer fazer porque tá preocupada mesmo.
+
+513
+00:23:07,133 --> 00:23:08,931
+Muita empresa tá na onda do compliance.
+
+514
+00:23:08,932 --> 00:23:11,760
+Muita empresa tá na onda de que tem budget quer gastar.
+
+515
+00:23:12,399 --> 00:23:16,077
+Então a preocupação com o falsopositivo ela vem em segundo
+
+516
+00:23:16,078 --> 00:23:20,424
+momento, após implantar upsack, após implantar scanners, né, percebe que
+
+517
+00:23:20,425 --> 00:23:22,983
+vai além de scan, né, mas depois você tem o
+
+518
+00:23:22,984 --> 00:23:25,102
+seu sash, o seu dast, no mínimo rodando, aí você
+
+519
+00:23:25,103 --> 00:23:27,439
+começa a se preocupar com o foco positivo se já
+
+520
+00:23:27,440 --> 00:23:30,638
+tem aí é que tornar a configuração, tem especialista ali
+
+521
+00:23:30,639 --> 00:23:32,217
+pra lidar com isso e tudo mais.
+
+522
+00:23:32,757 --> 00:23:35,235
+Mas parte deste processo de resolver
+
+523
+00:23:35,236 --> 00:23:38,584
+os passos positivos é ter processo
+
+524
+00:23:38,585 --> 00:23:42,622
+de gestão de vulnerabilidades, vulnerabilidade management.
+
+525
+00:23:42,623 --> 00:23:45,909
+Ou seja, o seu SAST vai cuspir lá na no
+
+526
+00:23:45,910 --> 00:23:48,788
+seu Jira, no seu Dash vai cuspir no seu Jira,
+
+527
+00:23:48,789 --> 00:23:51,787
+vai chegar tudo lá no seu Jira e de lá
+
+528
+00:23:51,788 --> 00:23:56,024
+alguém vai olhar Opa, isso aqui vai pro Rodrigo corrigir
+
+529
+00:23:56,025 --> 00:23:57,983
+isso aqui vai pro Marcos corrigir opa isso aqui é
+
+530
+00:23:57,984 --> 00:24:01,301
+falso positivo né fazer uma triagem né que a gente
+
+531
+00:24:01,302 --> 00:24:05,938
+chama Esse processo tem que ser maduro, eu diria que
+
+532
+00:24:05,939 --> 00:24:09,536
+ele independe de ferramentas, ele basicamente você só precisa centralizar
+
+533
+00:24:09,537 --> 00:24:13,553
+os suas output, suas scanners e fazer uma olhada.
+
+534
+00:24:14,172 --> 00:24:15,332
+O que vocês acham disso?
+
+535
+00:24:15,333 --> 00:24:18,529
+Vocês acham que é assim tem que ter essa
+
+536
+00:24:18,530 --> 00:24:21,328
+pessoa ou essas pessoas, ou o próprio time de
+
+537
+00:24:21,329 --> 00:24:24,126
+dev pode fazer essa triagem antes de corrigir.
+
+538
+00:24:24,127 --> 00:24:26,974
+Inclusive, o processo das Sans lá, o template
+
+539
+00:24:26,975 --> 00:24:29,333
+das Sans de vulnerabilidade management já contempla essa
+
+540
+00:24:29,334 --> 00:24:31,172
+parte na análise, se você pegou uma vulnerabilidade,
+
+541
+00:24:31,173 --> 00:24:32,420
+você faz uma análise dela.
+
+542
+00:24:32,421 --> 00:24:34,299
+Essa análise já contem para você falar cara
+
+543
+00:24:34,300 --> 00:24:36,338
+vou corrigir não vou corrigir porque eu não
+
+544
+00:24:36,339 --> 00:24:38,736
+quero porque é difícil porque demora ano ou
+
+545
+00:24:38,737 --> 00:24:41,184
+é fóssil positivo realmente não é uma vulnerabilidade.
+
+546
+00:24:41,844 --> 00:24:42,683
+O que vocês acham?
+
+547
+00:24:42,684 --> 00:24:43,882
+Tem que ter esse processo, tem que
+
+548
+00:24:43,883 --> 00:24:47,379
+ter essa pessoa, essas pessoas, ou Vocês
+
+549
+00:24:47,380 --> 00:24:50,258
+jogariam essa responsabilidade pras ferramentas de scan.
+
+550
+00:24:50,259 --> 00:24:52,477
+Elas têm que ter 0, eu falo positivo e ponto.
+
+551
+00:24:54,616 --> 00:24:58,223
+Calma, Calma, vamos brigar. Não vamos brigar.
+
+552
+00:24:59,922 --> 00:25:02,721
+Eu ia falar que precisa sim ter o time
+
+553
+00:25:02,722 --> 00:25:08,268
+de seque ali, seja voltado para fazer o cônjuge
+
+554
+00:25:08,269 --> 00:25:10,627
+ou pode estar ferramenta mas você precisa ter time
+
+555
+00:25:10,628 --> 00:25:13,086
+ali de segurança junto com o time de desenvolvimento
+
+556
+00:25:13,765 --> 00:25:15,843
+justamente para isso, para fazer essa filtragem.
+
+557
+00:25:15,844 --> 00:25:18,082
+Porque foi o que a gente falou, você joga a responsa
+
+558
+00:25:18,083 --> 00:25:20,990
+por Devil, mas o Devil não vai ter treinamento adequado.
+
+559
+00:25:20,991 --> 00:25:23,108
+Ou ainda não teve, se você está no começo ainda,
+
+560
+00:25:23,109 --> 00:25:26,067
+especialmente Se o seu desenvolvedor está acostumado a desenvolver de
+
+561
+00:25:26,068 --> 00:25:28,386
+uma maneira não segura De uma maneira que ele aprendeu
+
+562
+00:25:28,387 --> 00:25:30,225
+na faculdade e que ele foi levando o resto da
+
+563
+00:25:30,226 --> 00:25:34,373
+vida Então, se você não aplicou treinamento, se você não
+
+564
+00:25:34,374 --> 00:25:38,091
+tem essa estrutura, é legal você ter sim time de
+
+565
+00:25:38,092 --> 00:25:41,348
+segurança ali Para fazer esse stunts na ferramenta do quando
+
+566
+00:25:41,349 --> 00:25:45,267
+necessário E também fazer essa análise de vulnerabilidades E fazer
+
+567
+00:25:45,268 --> 00:25:48,345
+a gestão de vulnerabilidades da maneira correta, ajudar o time
+
+568
+00:25:48,346 --> 00:25:51,633
+com isso e depois você vai aprimorando esse processo, você
+
+569
+00:25:51,634 --> 00:25:54,092
+vai ver daqui, mas isso para mim é crucial.
+
+570
+00:25:54,752 --> 00:25:58,200
+Sem uma pessoa dedicada para isso, o processo não anda.
+
+571
+00:25:58,201 --> 00:26:00,718
+A gente tem experiência aí Rodrigo até mais
+
+572
+00:26:00,719 --> 00:26:03,397
+que eu com as implantações ali que sempre
+
+573
+00:26:03,398 --> 00:26:05,776
+alguém aí não vai não funciona
+
+574
+00:26:06,994 --> 00:26:09,873
+Eu acho que não precisa ser uma pessoa
+
+575
+00:26:09,874 --> 00:26:12,312
+específica para a Fossa Positiva, mas que tem
+
+576
+00:26:12,313 --> 00:26:14,511
+que estar parte do processo dela.
+
+577
+00:26:14,512 --> 00:26:19,107
+Então, uma das funções dela é analisar periodicamente a
+
+578
+00:26:19,108 --> 00:26:21,846
+quantidade de foco positivo ou ajuste da ferramenta.
+
+579
+00:26:22,475 --> 00:26:26,033
+Eu acho que a ferramenta vão melhorando com o
+
+580
+00:26:26,034 --> 00:26:29,471
+tempo e a tendência é ter menos falso positivo,
+
+581
+00:26:29,472 --> 00:26:32,110
+mas eu acho que zerar não acontece.
+
+582
+00:26:32,111 --> 00:26:34,908
+Porque sempre vai depender do contexto.
+
+583
+00:26:34,909 --> 00:26:38,646
+Às vezes, por exemplo, ele identificou uma vulnerabilidade
+
+584
+00:26:39,365 --> 00:26:43,123
+e a vulnerabilidade real, mas por exemplo, para
+
+585
+00:26:43,124 --> 00:26:45,502
+o time eles vão tratar como falso positivo.
+
+586
+00:26:46,121 --> 00:26:49,430
+Por exemplo, eles falam que você está
+
+587
+00:26:49,431 --> 00:26:52,308
+que você está pintando dados do usuário.
+
+588
+00:26:52,309 --> 00:26:54,427
+E quando você vai ver não são dados
+
+589
+00:26:54,428 --> 00:26:57,106
+do usuário, são dados fixos ou são dados
+
+590
+00:26:57,107 --> 00:26:59,335
+de tela, por exemplo, que já vi acontecer.
+
+591
+00:26:59,336 --> 00:27:02,473
+Então, a informação que ele recuperava era de Template.
+
+592
+00:27:03,093 --> 00:27:05,092
+Ah, é uma cor azul, é uma cor amarela.
+
+593
+00:27:05,093 --> 00:27:08,039
+Cara, pode soltar isso aqui, não tem problema.
+
+594
+00:27:08,040 --> 00:27:09,299
+Saindo print.
+
+595
+00:27:09,839 --> 00:27:11,578
+Eu sei que cliente é esse, hein?
+
+596
+00:27:12,637 --> 00:27:14,516
+Tem exemplo de cor aí do tipo de
+
+597
+00:27:14,517 --> 00:27:15,955
+usuário, eu sei que cliente é esse.
+
+598
+00:27:15,956 --> 00:27:17,535
+É uma discussão absurda.
+
+599
+00:27:18,424 --> 00:27:19,724
+Nesse caso aí lá.
+
+600
+00:27:20,303 --> 00:27:24,101
+Então, e aí gerou essa discussão, porque
+
+601
+00:27:24,102 --> 00:27:26,129
+pra ferramenta é falso positivo tipo.
+
+602
+00:27:26,130 --> 00:27:28,328
+E a nível de código é Aliás,
+
+603
+00:27:28,329 --> 00:27:29,948
+desculpa, pra mim não é fundamental.
+
+604
+00:27:31,047 --> 00:27:32,806
+E a nível de código, se você olhar
+
+605
+00:27:32,807 --> 00:27:36,374
+logicamente, realmente é, porque você não tava vindo
+
+606
+00:27:36,375 --> 00:27:40,532
+dado sem tratamento e identificou isso.
+
+607
+00:27:40,533 --> 00:27:42,589
+Ô cara, dados sem tratamento.
+
+608
+00:27:42,590 --> 00:27:45,068
+Você está mostrando dados do usuário, e
+
+609
+00:27:45,069 --> 00:27:47,107
+no final não era nada demais.
+
+610
+00:27:47,108 --> 00:27:49,146
+Cara, isso daí não interessa, pode mostrar, pode
+
+611
+00:27:49,147 --> 00:27:51,854
+deixar outdoor que não é uma vulnerabilidade.
+
+612
+00:27:52,554 --> 00:27:55,272
+Então, o ponto de coisa
+
+613
+00:27:55,273 --> 00:27:57,711
+que sempre vai aparecer na ferramenta.
+
+614
+00:27:57,712 --> 00:28:01,888
+Sim, e até o conceito de falso positivo ele
+
+615
+00:28:01,889 --> 00:28:06,526
+tem que ser cuidadosamente tratado porque veja ferramentas elas
+
+616
+00:28:06,527 --> 00:28:08,245
+vão dar a opção de você falar olha isso
+
+617
+00:28:08,246 --> 00:28:11,513
+aqui não é relevante pro meu contexto.
+
+618
+00:28:11,514 --> 00:28:14,652
+Outras ferramentas como checks, isso não é explorável.
+
+619
+00:28:15,511 --> 00:28:16,731
+Nota Explorer, tudo.
+
+620
+00:28:17,830 --> 00:28:18,820
+Falso positivo.
+
+621
+00:28:18,821 --> 00:28:21,138
+Então você vê que o conceito é diferente.
+
+622
+00:28:21,139 --> 00:28:22,298
+Esse exemplo que você deu aí,
+
+623
+00:28:22,299 --> 00:28:25,017
+cara, isso aqui não é relevante.
+
+624
+00:28:25,018 --> 00:28:27,314
+Pra mim, eu sei que a informação tá aqui, não é
+
+625
+00:28:27,315 --> 00:28:30,113
+código qualquer, é uma cor que tá sendo exibida ali.
+
+626
+00:28:30,114 --> 00:28:31,852
+Não quer dizer que é falso positivo.
+
+627
+00:28:32,392 --> 00:28:34,311
+A ferramenta olhou, fez o exame e
+
+628
+00:28:34,312 --> 00:28:37,179
+falou, tem dado vindo aqui sem tratamento. É problema.
+
+629
+00:28:37,180 --> 00:28:39,458
+Mas você falou não, eu sei que dado é, eu confio
+
+630
+00:28:39,459 --> 00:28:42,137
+na fonte, sei qual é a saída, então no meu contexto
+
+631
+00:28:42,138 --> 00:28:44,436
+não deixa de ser problema, então ele é irrelevante.
+
+632
+00:28:44,965 --> 00:28:46,244
+Não, é falsopositivo.
+
+633
+00:28:46,245 --> 00:28:48,163
+É igual eu falar pra você, cara, você tá com
+
+634
+00:28:48,164 --> 00:28:50,242
+a sua taxa de açúcar, tá alta no sangue.
+
+635
+00:28:50,243 --> 00:28:52,641
+Aí você Cara, legal, mas agora eu tenho
+
+636
+00:28:52,642 --> 00:28:54,950
+histórico, eu nasci assim, sempre foi isso.
+
+637
+00:28:54,951 --> 00:28:58,028
+E minha taxa normalmente é pouco mais alta mesmo.
+
+638
+00:28:58,029 --> 00:29:00,147
+Então não é falso positivo, o seu exame tá
+
+639
+00:29:00,148 --> 00:29:02,075
+lá, a sua taxa de açúcar tá maior.
+
+640
+00:29:02,076 --> 00:29:04,633
+Mas pra você é o seu normal, vamos dizer, né?
+
+641
+00:29:04,634 --> 00:29:05,992
+Pra sua genética, sei lá o que
+
+642
+00:29:05,993 --> 00:29:09,010
+tu tá dando uma ilustração aqui, né? Falei,
+
+643
+00:29:09,011 --> 00:29:11,488
+o exemplo do checkmax lá, por exemplo, quando ele está
+
+644
+00:29:11,489 --> 00:29:15,227
+configurado certinho, ele nem fala para você que aquilo ali
+
+645
+00:29:15,766 --> 00:29:18,005
+é a vulnerabilidade ou é o falso coaching.
+
+646
+00:29:18,006 --> 00:29:22,153
+Ele ele marca como tooverify, né?
+
+647
+00:29:22,154 --> 00:29:23,272
+Tipo, cara, alguém tem que
+
+648
+00:29:23,273 --> 00:29:25,191
+olhar e verificar isso daqui.
+
+649
+00:29:25,192 --> 00:29:27,550
+O que ele fala é assim, a tendência, cara, eu
+
+650
+00:29:27,551 --> 00:29:30,449
+tenho 100% de ser que isso daqui é uma vulnerabilidade.
+
+651
+00:29:31,228 --> 00:29:33,547
+Outros, se ele tem a confiabilidade baixa,
+
+652
+00:29:33,548 --> 00:29:34,947
+ele vai falar ó, to breaify.
+
+653
+00:29:34,948 --> 00:29:37,106
+Então ele precisa que alguém dá uma olhada,
+
+654
+00:29:37,107 --> 00:29:39,184
+ó, isso daqui é que pode problema.
+
+655
+00:29:39,185 --> 00:29:41,583
+E daí o desenvolvedor vai lá, olha e
+
+656
+00:29:41,584 --> 00:29:44,142
+fala cara, isso daqui não é problema.
+
+657
+00:29:44,143 --> 00:29:47,689
+E daí, para para acabar com o impasse entre
+
+658
+00:29:47,690 --> 00:29:50,767
+ferramenta e desenvolvedor, aí precisa de alguém de Si
+
+659
+00:29:50,768 --> 00:29:53,526
+para validar e falar cara, isso realmente é problema
+
+660
+00:29:53,527 --> 00:29:56,085
+ou isso daqui realmente não é problema.
+
+661
+00:29:56,086 --> 00:29:59,563
+Então, a ferramenta, ela dá para ajudar.
+
+662
+00:29:59,564 --> 00:30:02,961
+É claro que não existe ferramenta perfeita, todas as
+
+663
+00:30:02,962 --> 00:30:06,528
+ferramentas você precisa olhar ali e às vezes mandar
+
+664
+00:30:06,529 --> 00:30:09,967
+pro Cara, ele tá sempre falando aqui que é
+
+665
+00:30:09,968 --> 00:30:13,165
+falso positivo e não tem contexto nenhum, tá errado.
+
+666
+00:30:13,166 --> 00:30:17,373
+Cara, não sou hotfix, mas ele ainda
+
+667
+00:30:17,374 --> 00:30:20,171
+precisa da mão de obra humana ali.
+
+668
+00:30:20,172 --> 00:30:22,350
+Ele precisa que alguém vá lá e vá lite.
+
+669
+00:30:22,351 --> 00:30:23,989
+Acho que nesse caso, por exemplo, você
+
+670
+00:30:23,990 --> 00:30:25,728
+deu o exemplo da Inteligência Artificial.
+
+671
+00:30:27,227 --> 00:30:29,026
+Ela ainda vai precisar de
+
+672
+00:30:29,027 --> 00:30:30,775
+pessoas para ir treinando ela.
+
+673
+00:30:30,776 --> 00:30:33,013
+Até chegar a ponto que ela já entende o
+
+674
+00:30:33,014 --> 00:30:35,452
+que é e acabou, ela não precisa mais.
+
+675
+00:30:35,453 --> 00:30:37,451
+Mas ainda precisa dessa inteligência
+
+676
+00:30:37,452 --> 00:30:38,631
+de entender o contexto.
+
+677
+00:30:39,560 --> 00:30:43,917
+Acho que é interessante esse debate e acho que o
+
+678
+00:30:43,918 --> 00:30:46,116
+que vai mais interessante ainda é o que você falou
+
+679
+00:30:46,117 --> 00:30:49,314
+antes lá, que o que você está procurando.
+
+680
+00:30:49,315 --> 00:30:52,472
+Então às vezes tem muita coisa em cima
+
+681
+00:30:52,473 --> 00:30:56,439
+de falso positivo, sendo que ele Não é
+
+682
+00:30:56,440 --> 00:30:58,418
+que não causa, mas ele não está atrapalhando.
+
+683
+00:30:59,118 --> 00:31:00,837
+Porque você não está nem corrigindo
+
+684
+00:31:00,838 --> 00:31:03,136
+a vulnerabilidade, você só está identificando.
+
+685
+00:31:03,755 --> 00:31:07,073
+Então, Cara, antes de reclamar do falso positivo, antes
+
+686
+00:31:07,074 --> 00:31:09,412
+de falar, pô, a minha taxa de falso positivo
+
+687
+00:31:10,192 --> 00:31:12,471
+começa a olhar para o código, começa a tentar
+
+688
+00:31:12,472 --> 00:31:16,469
+validar, começa a corrigir, Aí sim, aí na correção
+
+689
+00:31:16,470 --> 00:31:18,947
+você vai ter número, aí vai vir naturalmente a
+
+690
+00:31:18,948 --> 00:31:21,106
+taxa de falsa positiva, porque aí você vai falar
+
+691
+00:31:21,107 --> 00:31:26,732
+cara, de 10 vulnerabilidade, uma era falso positivo.
+
+692
+00:31:26,733 --> 00:31:29,970
+Opa, então a ferramenta está com a tendência de 1%.
+
+693
+00:31:29,971 --> 00:31:34,278
+Aliás, 10% de falsa positiva, a gente precisa ajustar.
+
+694
+00:31:34,279 --> 00:31:35,437
+Aí vai lá, ajusta.
+
+695
+00:31:35,438 --> 00:31:37,316
+Então ela vai vir naturalmente e você vai
+
+696
+00:31:37,317 --> 00:31:39,935
+corrigindo ele naturalmente, vai ajustando ele naturalmente.
+
+697
+00:31:40,804 --> 00:31:41,764
+Boa, boa.
+
+698
+00:31:41,765 --> 00:31:42,744
+Macão, comentários.
+
+699
+00:31:44,403 --> 00:31:46,401
+Cara, acho que o Rodrigo explorou bem.
+
+700
+00:31:46,402 --> 00:31:48,979
+Acho que é isso mesmo, o meu pensamento
+
+701
+00:31:48,980 --> 00:31:51,537
+que eu tenho que você precisa ter alguém
+
+702
+00:31:51,538 --> 00:31:53,896
+para fazer essa conferência ali depois que a
+
+703
+00:31:53,897 --> 00:31:56,825
+ferramenta analisa antes e chegar no dev.
+
+704
+00:31:56,826 --> 00:31:59,763
+Ou não tem como você passar sem isso.
+
+705
+00:32:00,943 --> 00:32:04,410
+Inclusive, tem ferramentas hoje que já
+
+706
+00:32:04,411 --> 00:32:06,988
+fazendo bom uso de inteligência artificial.
+
+707
+00:32:07,928 --> 00:32:11,006
+Elas já primeiro, né?
+
+708
+00:32:11,007 --> 00:32:13,174
+Aquela história de O falso positivo em
+
+709
+00:32:13,175 --> 00:32:14,833
+geral é para reduzir o barulho.
+
+710
+00:32:15,613 --> 00:32:18,051
+O que eu já discordo pouco, vou colocar aqui
+
+711
+00:32:18,052 --> 00:32:20,519
+na parte final, mas muitas ferramentas de E.A e
+
+712
+00:32:20,520 --> 00:32:22,678
+elas já te dão conta, você tem mil vulnerabilidades.
+
+713
+00:32:22,679 --> 00:32:27,974
+Beleza, mas olha, 10 são críticas então tá no repositório
+
+714
+00:32:27,975 --> 00:32:30,673
+que você falou que é alto impacto no seu negócio,
+
+715
+00:32:31,812 --> 00:32:35,579
+são vulnerabilidades com o CVSS alto, blablablá e tal, você
+
+716
+00:32:35,580 --> 00:32:38,697
+tem mil, mas 10 são muito críticas, muito urgente.
+
+717
+00:32:38,698 --> 00:32:41,136
+Então você vai olhar pra 990 depois,
+
+718
+00:32:41,137 --> 00:32:42,775
+deixa pra lá, você vai focar nessas
+
+719
+00:32:42,776 --> 00:32:44,794
+10, porque aquela história actionable.
+
+720
+00:32:44,795 --> 00:32:45,834
+O que é acionável?
+
+721
+00:32:45,835 --> 00:32:47,793
+O que você consegue fazer agora?
+
+722
+00:32:47,794 --> 00:32:49,952
+Então, esse boom, uso DA e
+
+723
+00:32:49,953 --> 00:32:53,829
+algumas soluções ajudam muito nisso.
+
+724
+00:32:53,830 --> 00:32:56,587
+Acho que você poderia Só para complementar
+
+725
+00:32:56,588 --> 00:32:57,107
+o meu jejum.
+
+726
+00:32:57,108 --> 00:32:59,046
+Você poderia até trocar o AI
+
+727
+00:32:59,595 --> 00:33:01,094
+por alguém com mais experiência.
+
+728
+00:33:01,633 --> 00:33:03,013
+Sim, uma coisa é,
+
+729
+00:33:03,792 --> 00:33:05,911
+o time é uma experiência.
+
+730
+00:33:05,912 --> 00:33:07,710
+É, então, porque está rodando a ferramenta.
+
+731
+00:33:07,711 --> 00:33:10,349
+O time está vendo tantos de vulnerabilidade.
+
+732
+00:33:10,350 --> 00:33:12,348
+Precisa alguém parar ou você ter
+
+733
+00:33:12,349 --> 00:33:14,827
+o processo já definido, né?
+
+734
+00:33:14,828 --> 00:33:18,005
+Cara, por que vocês estão caçando mais vulnerabilidade
+
+735
+00:33:18,585 --> 00:33:21,703
+Sendo que você tem essa vulnerabilidade aqui, que
+
+736
+00:33:21,704 --> 00:33:23,502
+Cara, pode parar em três amanhã.
+
+737
+00:33:23,503 --> 00:33:24,821
+Vamos parar agora e vamos
+
+738
+00:33:24,822 --> 00:33:26,161
+correr atrás dessa vulnerabilidade.
+
+739
+00:33:26,780 --> 00:33:29,688
+Então, cara, ele quebrou o processo, por mais
+
+740
+00:33:29,689 --> 00:33:31,927
+que tenha processo definido ali e tal.
+
+741
+00:33:31,928 --> 00:33:33,326
+Ele quebra pra falar, cara, isso
+
+742
+00:33:33,327 --> 00:33:35,044
+daqui é urgente, você precisa disso.
+
+743
+00:33:35,045 --> 00:33:36,164
+E daí é o que você falou.
+
+744
+00:33:36,165 --> 00:33:37,763
+Tá vindo ferramenta, minha inteligência
+
+745
+00:33:37,764 --> 00:33:38,683
+artificial pra fazer isso.
+
+746
+00:33:38,684 --> 00:33:40,862
+Cara, esquece mil vulnerabilidades.
+
+747
+00:33:41,641 --> 00:33:44,589
+Essas três aqui. Corrigir agora. Porque senão
+
+748
+00:33:45,608 --> 00:33:46,888
+isso faz parte do processo
+
+749
+00:33:46,889 --> 00:33:48,607
+de gestão de vulnerabilidade também.
+
+750
+00:33:48,608 --> 00:33:49,926
+O cara tá fazendo isso, ele
+
+751
+00:33:49,927 --> 00:33:51,605
+vai priorizar lá a vulnerabilidade.
+
+752
+00:33:51,606 --> 00:33:53,714
+O que é mais importante ser corrigida.
+
+753
+00:33:53,715 --> 00:33:54,814
+Sim, sei lá também.
+
+754
+00:33:55,473 --> 00:33:57,332
+Aí entra exatamente nesse contexto.
+
+755
+00:33:58,432 --> 00:34:00,369
+Pra finalizar, eu queria trazer outro
+
+756
+00:34:00,370 --> 00:34:01,209
+ponto que eu falei, né?
+
+757
+00:34:01,210 --> 00:34:03,568
+Eu discordo dessa questão de fazer barulho. Por quê?
+
+758
+00:34:03,569 --> 00:34:05,886
+E aí vamos ver se vocês concordam ou discordam de mim.
+
+759
+00:34:05,887 --> 00:34:07,286
+Caso discordem podem procurar
+
+760
+00:34:07,287 --> 00:34:08,545
+outro podcast para participar.
+
+761
+00:34:11,043 --> 00:34:12,683
+Imagina que vocês foram no médico.
+
+762
+00:34:12,684 --> 00:34:14,881
+Você tá com a dor na barriga, toma com
+
+763
+00:34:14,882 --> 00:34:16,681
+a dor na barriga e fuma no médico.
+
+764
+00:34:16,682 --> 00:34:18,139
+Cara, Você tem gastrite?
+
+765
+00:34:18,140 --> 00:34:20,058
+Não, não deu nada mesmo. Aconteceu aqui agora.
+
+766
+00:34:20,059 --> 00:34:22,297
+Tô com dois de barriga, tá os dois, três dias aqui.
+
+767
+00:34:22,298 --> 00:34:22,857
+Beleza.
+
+768
+00:34:22,858 --> 00:34:24,656
+Vamos fazer o exame de sangue, vamos.
+
+769
+00:34:24,657 --> 00:34:26,535
+Aí no exame de sangue ele descobriu lá que
+
+770
+00:34:26,536 --> 00:34:29,563
+você tá com sei lá, tudo alto, né?
+
+771
+00:34:29,564 --> 00:34:33,641
+Colesterol, triglicérides, diabetes, tá tudo alto.
+
+772
+00:34:33,642 --> 00:34:36,160
+Aí pediu pra fazer ultrassom, descobriu que você tá
+
+773
+00:34:36,161 --> 00:34:38,298
+com chama não é gastrite, sei lá, fez ou
+
+774
+00:34:38,299 --> 00:34:40,217
+tá só não, não é que chama não, endoscopia.
+
+775
+00:34:40,218 --> 00:34:42,296
+Claro, fazendo endoscopia você tá com gastrite.
+
+776
+00:34:42,297 --> 00:34:45,055
+Mas cara, nessa endoscopia também, durante o processo, a gente
+
+777
+00:34:45,056 --> 00:34:47,774
+vê que a sua garganta aqui, tá com tumor.
+
+778
+00:34:48,753 --> 00:34:51,592
+É benigno, mas tem tumor na sua garganta.
+
+779
+00:34:51,593 --> 00:34:53,351
+Que tá pressionando, sei lá o que,
+
+780
+00:34:53,352 --> 00:34:55,130
+que vai dar problema no seu olho.
+
+781
+00:34:56,039 --> 00:34:57,998
+Vamos imaginar aqui, tá?
+
+782
+00:34:57,999 --> 00:35:00,717
+Imagina esse médico com esse relatório na mão, aí ele
+
+783
+00:35:00,718 --> 00:35:02,545
+vai chegar pra você e falar eu sou Rodrigo, a
+
+784
+00:35:02,546 --> 00:35:04,624
+sua dor de barriga é só uma gastrite toma esse
+
+785
+00:35:04,625 --> 00:35:08,102
+remédio aqui tá tudo certo ou é o que que
+
+786
+00:35:08,103 --> 00:35:10,299
+vocês acham aí se a gente ia fazer ou Porque
+
+787
+00:35:10,300 --> 00:35:12,179
+você chegou falando da dor na barriga, né?
+
+788
+00:35:12,180 --> 00:35:14,577
+Ou ele vai falar olha cara, na verdade assim, seu exame
+
+789
+00:35:14,578 --> 00:35:17,736
+de sangue deu tudo alterado, a dor na barriga é uma
+
+790
+00:35:17,737 --> 00:35:21,123
+gastrite, Você tá com o torr a goela porque durante o
+
+791
+00:35:21,124 --> 00:35:24,302
+endoscopia que a gente pode ver, vai ter que fazer cirurgia,
+
+792
+00:35:24,961 --> 00:35:27,060
+pode causar problema no seu olho futuramente.
+
+793
+00:35:27,870 --> 00:35:28,549
+O que você acha que o
+
+794
+00:35:28,550 --> 00:35:29,469
+médico deveria fazer?
+
+795
+00:35:29,470 --> 00:35:31,988
+Dá recorte completo de falar cara, você tem
+
+796
+00:35:31,989 --> 00:35:34,426
+todos esses problemas que você tem que tratar
+
+797
+00:35:34,427 --> 00:35:37,933
+alguns deles mais urgentes, outros, né?
+
+798
+00:35:37,934 --> 00:35:39,853
+Dá mais tempo de você cuidar.
+
+799
+00:35:39,854 --> 00:35:41,932
+Ou, não, não, você tá só com gastrite mesmo,
+
+800
+00:35:41,933 --> 00:35:44,499
+toma esse remédio aqui, tá tudo O que você
+
+801
+00:35:44,500 --> 00:35:47,138
+O que vocês acham, é cenário 1, cenário 2?
+
+802
+00:35:47,139 --> 00:35:49,057
+Cenário 2? Certeza.
+
+803
+00:35:49,058 --> 00:35:51,336
+Se eu fosse a vida de vocês, a vida de vocês.
+
+804
+00:35:51,337 --> 00:35:52,255
+Cenário 2 sabe?
+
+805
+00:35:52,256 --> 00:35:53,894
+Foi órgãos e você mais.
+
+806
+00:35:53,895 --> 00:35:55,613
+Acho que o 2, cara, com certeza.
+
+807
+00:35:55,614 --> 00:35:56,053
+O 2.
+
+808
+00:35:56,054 --> 00:35:57,332
+Eu voto pelo 2 também.
+
+809
+00:35:57,333 --> 00:35:58,672
+Eu voto pelo 2 também.
+
+810
+00:35:59,411 --> 00:36:03,548
+Por que aqui então Quando a gente faz scan, começa
+
+811
+00:36:03,549 --> 00:36:06,787
+em conta a epicege, traz, sei lá, mil vulnerabilidades.
+
+812
+00:36:06,788 --> 00:36:07,946
+Por que que as empresas não
+
+813
+00:36:07,947 --> 00:36:08,906
+querem ouvir sobre mil vulnerabilidades?
+
+814
+00:36:08,907 --> 00:36:09,585
+Isso aqui é duas.
+
+815
+00:36:09,586 --> 00:36:11,944
+Por que ela só quer duas? Ela não quer mil.
+
+816
+00:36:11,945 --> 00:36:13,943
+Você queria ouvir só uma vulnerabilidade sua?
+
+817
+00:36:13,944 --> 00:36:16,262
+Você quer saber de todas, porque você quer tratar. Sim.
+
+818
+00:36:16,263 --> 00:36:18,581
+Porque umas delas são mais, né, como a gente
+
+819
+00:36:18,582 --> 00:36:20,850
+falou aqui, umas são mais prioridade que a outra.
+
+820
+00:36:20,851 --> 00:36:22,649
+Umas são mais perigosas que eu.
+
+821
+00:36:22,650 --> 00:36:24,968
+Mas não quer dizer que você vai omitir isso,
+
+822
+00:36:24,969 --> 00:36:26,827
+não quer dizer que você não vai levar isso.
+
+823
+00:36:27,486 --> 00:36:29,245
+Então esse é o meu ponto em Apsek.
+
+824
+00:36:29,246 --> 00:36:32,043
+A gente faz o scan que for,
+
+825
+00:36:32,044 --> 00:36:34,182
+ele acha lá 50 mil vulnerabilidade.
+
+826
+00:36:35,482 --> 00:36:37,670
+Considerando já, fez uma análise de false positiva
+
+827
+00:36:37,671 --> 00:36:40,428
+ativa, uma beleza, tem 50 membros da verdade.
+
+828
+00:36:40,429 --> 00:36:41,768
+Elas não vão ser informadas?
+
+829
+00:36:42,707 --> 00:36:44,406
+Elas não vão ser levadas adiante?
+
+830
+00:36:45,095 --> 00:36:48,093
+Elas são riscos maiores ou menores, urgentes
+
+831
+00:36:48,094 --> 00:36:50,372
+ou menos urgentes, mas elas são riscos.
+
+832
+00:36:50,373 --> 00:36:52,531
+A empresa como negócio, a
+
+833
+00:36:52,532 --> 00:36:54,250
+corporação precisa saber disso.
+
+834
+00:36:54,251 --> 00:36:58,607
+Tá ciente disso cara você tem 50 mil beleza ó 3
+
+835
+00:36:58,608 --> 00:37:02,645
+delas é negócio assim tão absurdo que pode acontecer agora é
+
+836
+00:37:02,646 --> 00:37:05,943
+risco muito alto precisa resolver e é fácil resolver.
+
+837
+00:37:05,944 --> 00:37:08,862
+O resto é média e baixa, você pode resolver
+
+838
+00:37:08,863 --> 00:37:12,580
+ao longo do ano, priorizando, distribuindo tarefa com seus
+
+839
+00:37:12,581 --> 00:37:13,810
+times e tal, tal, tal, tal, tal.
+
+840
+00:37:13,811 --> 00:37:17,768
+Mas tem que saber essa história de ah vamos
+
+841
+00:37:17,769 --> 00:37:20,726
+reduzir o barulho vamos é a mesma coisa eu
+
+842
+00:37:20,727 --> 00:37:22,685
+tenho vontade de rastrear essas pessoas para quando ela
+
+843
+00:37:22,686 --> 00:37:25,364
+for no médico Não dá o relatório inteiro não.
+
+844
+00:37:25,365 --> 00:37:26,683
+Fala só, fala só.
+
+845
+00:37:26,684 --> 00:37:29,002
+Não dá. Não dá só
+
+846
+00:37:29,003 --> 00:37:30,062
+nesse caso aí.
+
+847
+00:37:31,419 --> 00:37:33,698
+Você não tem que tirar informação,
+
+848
+00:37:33,699 --> 00:37:36,017
+você tem que adicionar informação.
+
+849
+00:37:36,018 --> 00:37:41,014
+Então, por exemplo, tem milhão de vulnerabilidades, Porém, dez
+
+850
+00:37:41,015 --> 00:37:43,613
+delas é o que você precisa corrigir agora.
+
+851
+00:37:43,614 --> 00:37:46,909
+O cara não vai apagar o relatório, ele vai colocar
+
+852
+00:37:46,910 --> 00:37:49,468
+todo relatório, e daí ele vai adicionar, pode ser que
+
+853
+00:37:49,469 --> 00:37:53,206
+nem tenha na ferramenta, e daí é a maturidade dele
+
+854
+00:37:54,226 --> 00:37:57,663
+de Cara, adicionalmente, o que eu entendo daqui?
+
+855
+00:37:57,664 --> 00:37:59,502
+Deixa essas vulnerabilidades do corpo de
+
+856
+00:37:59,503 --> 00:38:01,501
+lado e vamos trabalhar nessa.
+
+857
+00:38:01,502 --> 00:38:03,540
+Depois que a gente corrigir essas, que é
+
+858
+00:38:03,541 --> 00:38:05,739
+as mais críticas, aí a gente volta e
+
+859
+00:38:05,740 --> 00:38:07,538
+começa a tirar esse relatório de novo.
+
+860
+00:38:07,539 --> 00:38:08,938
+Sabe, enquanto o nosso vlog
+
+861
+00:38:08,939 --> 00:38:11,845
+do zack, vamos dar uma segurada aqui.
+
+862
+00:38:11,846 --> 00:38:13,604
+Sabe onde acontece isso, de uma forma
+
+863
+00:38:13,605 --> 00:38:15,983
+mais clara, conservante mecânico com o carro.
+
+864
+00:38:16,562 --> 00:38:16,882
+Sim.
+
+865
+00:38:16,883 --> 00:38:18,641
+Você vai com o carro de barulho e
+
+866
+00:38:18,642 --> 00:38:20,200
+sempre tem duas, três coisas a mais.
+
+867
+00:38:20,201 --> 00:38:22,249
+E o mecânico mecânica honesto, eu sempre li
+
+868
+00:38:22,250 --> 00:38:25,007
+no mecânico conhecido, cara, se o rolamento está
+
+869
+00:38:25,008 --> 00:38:28,704
+com barulho, ele precisa trocar, custa 20 reais.
+
+870
+00:38:28,705 --> 00:38:31,823
+Mas ó, a sua suspensão, mano, já tá aqui 50
+
+871
+00:38:31,824 --> 00:38:35,101
+anos, você nunca mexeu, e isso aqui é custa principal.
+
+872
+00:38:35,102 --> 00:38:36,730
+E você precisa trocar a suspensão.
+
+873
+00:38:36,731 --> 00:38:40,608
+Você fala caramba velho suspensão negócio importante crítico mas eu
+
+874
+00:38:40,609 --> 00:38:42,966
+vou dar uma segurada troca aí o rolamento que custa
+
+875
+00:38:42,967 --> 00:38:45,595
+20 reais os outros 15 pau então eu faço depois
+
+876
+00:38:45,596 --> 00:38:48,873
+Então, é Enfim, tem essa questão que a gente dá
+
+877
+00:38:48,874 --> 00:38:50,792
+pra fazer episódio só disso, né?
+
+878
+00:38:50,793 --> 00:38:52,111
+Então, vamos lá, vamos lá.
+
+879
+00:38:52,112 --> 00:38:54,939
+Nesse caso aí, nesse nesse caso do meio clínico é
+
+880
+00:38:54,940 --> 00:38:59,177
+interessante porque ele é o cara que faz o diagnóstico
+
+881
+00:38:59,178 --> 00:39:01,016
+e é o cara que corrige e é o cara
+
+882
+00:39:01,017 --> 00:39:04,354
+que ele vai ele vai ganhar com aquilo.
+
+883
+00:39:04,355 --> 00:39:08,392
+Então tecnicamente é do interesse dele.
+
+884
+00:39:08,393 --> 00:39:10,911
+Nesses casos aí que a gente falou de médico ou da
+
+885
+00:39:10,912 --> 00:39:14,988
+empresa, o interesse já não é do cara, do desenvolvedor.
+
+886
+00:39:14,989 --> 00:39:16,067
+O interesse é alguma empresa,
+
+887
+00:39:16,068 --> 00:39:17,746
+mas o carro, dependendo do problema,
+
+888
+00:39:17,747 --> 00:39:19,366
+traz risco pra você também.
+
+889
+00:39:20,355 --> 00:39:23,353
+Acaba sendo interesse duplo ali, eu diria, né? Enfim.
+
+890
+00:39:23,354 --> 00:39:25,192
+Dá pra gerar episódio só disso.
+
+891
+00:39:25,193 --> 00:39:27,231
+Marcão, quer falar em alguma coisa?
+
+892
+00:39:27,232 --> 00:39:30,660
+Quero, quero ir pro final, pro final, a gente já
+
+893
+00:39:30,661 --> 00:39:33,898
+falou pra caramba aí nossos ouvidos já deve estar pouco
+
+894
+00:39:33,899 --> 00:39:36,896
+cansado acho que a gente explorou pra caramba esse tópico
+
+895
+00:39:36,897 --> 00:39:39,095
+e acho que dá pra fazer uma parte 2 depois
+
+896
+00:39:39,096 --> 00:39:41,384
+ou até a gente fazer algo
+
+897
+00:39:42,563 --> 00:39:44,163
+Eu nunca vi parte 2 de nada que
+
+898
+00:39:44,164 --> 00:39:45,862
+a gente fez aqui, a gente sempre
+
+899
+00:39:49,309 --> 00:39:51,828
+Não sai porque nunca participou. É.
+
+900
+00:39:51,829 --> 00:39:55,386
+Não sabe porque é falta no podcast. É. Beleza.
+
+901
+00:39:55,387 --> 00:39:57,805
+Pessoa que foi mais episódio do Você gosta de podcast.
+
+902
+00:39:58,845 --> 00:40:00,764
+CCC, curte, comenta, compartilha.
+
+903
+00:40:00,765 --> 00:40:03,383
+Se tá perdido aí para o carro, vê onde você tá.
+
+904
+00:40:04,162 --> 00:40:05,961
+Falsos positivos é tema importante.
+
+905
+00:40:05,962 --> 00:40:08,210
+Realmente dá pra fazer episódio só sobre isso.
+
+906
+00:40:08,211 --> 00:40:09,729
+Não senti não só de falta positivo,
+
+907
+00:40:09,730 --> 00:40:12,647
+mas essa de mostrar, reduzir ruído, enfim.
+
+908
+00:40:12,648 --> 00:40:14,486
+E é isso, eu sou o Cássio Pereira.
+
+909
+00:40:14,487 --> 00:40:16,086
+Eu sou o Marcos Santos
+
+910
+00:40:16,087 --> 00:40:17,565
+e eu sou Rodrigo Bauman.
+
+911
+00:40:17,566 --> 00:40:19,084
+E a gente se vê na semana que vem.
+
+912
+00:40:19,085 --> 00:40:21,043
+Valeu, Belos de luz.
+
+913
+00:40:21,044 --> 00:40:22,482
+Termina aqui.
+
+914
+00:40:22,483 --> 00:40:23,801
+Deve ser copos.
+
+915
+00:40:23,802 --> 00:40:25,614
+Deve e SECOPS, o seu
+
+916
+00:40:25,615 --> 00:40:27,673
+podcast de segurança em tecnologia.

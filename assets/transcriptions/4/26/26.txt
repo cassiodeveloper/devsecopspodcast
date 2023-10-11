@@ -1,0 +1,1832 @@
+E novo a céu.
+
+Segura programa seu. Tecnologia. Desenvolvimento.
+
+Começa aqui.
+
+Neve e secoms.
+
+Neve e secoms.
+
+O seu podcast de segurança em tecnologia.
+
+Olá pessoal, tudo bem com vocês?
+
+Espero que sim, estamos aqui para
+
+mais episódio deve ser copyspodcast.
+
+Aliás, esse é o episódio 788,
+
+138 episódios deve ser copyspodcast.
+
+Quatro temporadas, quatro anos nesta jornada.
+
+É prazer estar aqui uma honra com
+
+esses jovens que estão de volta.
+
+Eu sou o Cássio Pereira.
+
+Eu sou Marcos Santos.
+
+E eu sou Rodrigo Balbini. Tudo bom?
+
+Praticamente 4 anos já deu para formar plano já em
+
+Eu diria que do jeito que a gente
+
+traz conteúdo aqui, o sêniorzinho já por aí.
+
+Sem a questão.
+
+E o cara tem que ter a prática pra ser sênior, né?
+
+Só na teoria aqui ele vai longe, viu?
+
+É, mas do jeito que o mercado tá, o sênior fácil.
+
+Ou o sênior fácil, muito caro.
+
+Bom, começar a cobrar, então.
+
+Você que ouviu todos os episódios, pague R$ 1
+
+por episódio e já já ajuda a gente.
+
+Por esse curso que foi vos dado.
+
+Pessoal, mais episódio da Bc Class Podcast, antes de começar
+
+o episódio de hoje, lembrar que o DevScore Podcast tem
+
+o apoio da Checkmanx e da nova 8 que são
+
+especializadas em segurança de sistemas e código seguro o link
+
+da nova 8 que é a distribuidora da Checkmanx do
+
+Brasil está abaixo aqui na descrição do episódio no youtube
+
+também no site deve ser costpodcast.com.br.
+
+Tá buscando soluções em Applications Security?
+
+A vista UOL que tem portfólio completo pra você.
+
+A Gote Security é especializada em Applications Security, que
+
+é desenvolver software seguro, fale com a Goto, você
+
+quis investir os melhores serviços pra te ajudar.
+
+E tá procurando trampo, quer anunciar vaga, apsek.jobs, projetinho
+
+paralelo que ainda tá no ar, até eu decidi
+
+tirar do ar, mas está funcionando ainda, então anuncia
+
+sua vaga e também procure emprego.
+
+Antes de anunciar o tópico de
+
+hoje eu queria fazer uma pergunta.
+
+É uma verdade mentirosa, uma mentira verdadeira, é
+
+falso motivo, positivo verdadeiro, ou só mais uma
+
+faceta de segurança pra enganar desenvolvedores e dizer
+
+que segurança vale a pena.
+
+Hoje a gente vai falar sobre falsos positivos, o terror
+
+dos falsos positivos pra quem é da área de security
+
+de teste e sabe o que é falso positivo e
+
+o trabalho que dá a resolver esses casos, a gente
+
+vai falar pouquinho deles sobre pouquinho sobre isso hoje.
+
+Eu tô tão ansioso aqui com a minha voz,
+
+mas que a voz voltou no episódio, dois episódios
+
+atrás no episódio da história tava tossindo, né Marcos?
+
+Lembra?
+
+Ah, tudo
+
+lindo, tudo lindo, tudo lindo.
+
+Tem que pegar leve na noitada, hein?
+
+Não, não, agora estamos Então
+
+vamos lá, jovens, falsos positivos.
+
+Por que que é tão problemático?
+
+Fala aí, por que você acha
+
+que é tão problemático falso positivo?
+
+Ah, preciso de uma ferramenta Sart.
+
+Ah, mas tem muito falso positivo.
+
+Ah, vou colocar dast. Ah, mas vai ter muito.
+
+Como que é o falso positivo?
+
+Ou então a clássica pergunta, Mas se
+
+tem falso positivo na sua ferramenta?
+
+É uma pergunta que eu quero responder na sequência.
+
+Mas aí, o que vocês têm a falar sobre
+
+falsos positivos para a gente introduzir o Cafuju?
+
+Cara, assim, na minha visão, o porquê que o
+
+pessoal é tão preocupado com o falso positivo, tá?
+
+Primeiramente quer fazer code review, quem falar que é fácil
+
+tá mentindo, o trabalho danado você pegar aquela pose que
+
+ele pode ficar analisando ver se você encontra ali a
+
+vulnerabilidade e comprovar que é uma vulnerabilidade Então o pessoal
+
+acha que tem medo disso, do trabalho que dá Quando
+
+você faz scan e você acha muitas vulnerabilidades Acho que
+
+esse é o principal motivo do pessoal ter tanta preocupação
+
+assim de querer o mínimo possível dentro de uma solução
+
+ali de scanner.
+
+Talvez a própria definição de falso positivo irá assustar,
+
+porque o pessoal fala muito em falso positivo, mas
+
+acaba não entendendo exatamente o que é.
+
+O que eles acham é ah, a ferramenta
+
+está trazendo muita coisa que não existe.
+
+E daí, se você olhar com pouco mais de
+
+atenção, aí você começa entender o porquê que existe.
+
+Se a gente sabe que existe falso
+
+positivo, por que não construir uma ferramenta
+
+que ainda não tem falso positivo?
+
+E daí, para dar exemplo simples, a ferramenta entende o
+
+contexto do que está acontecendo, ela entende o contexto do
+
+seu código, e às vezes ela não tem acesso.
+
+Por exemplo, se você usa uma biblioteca externa, se
+
+você usa algo que não está naquele contexto do
+
+código, ele precisa sair, ele só seria analisado depois
+
+de compilado, em tempo de execução, ele deveria estar
+
+rodando, porque ele conseguiria entender todo o contexto.
+
+Então a ferramenta não vai saber que
+
+aquilo ali já está sendo corrigido.
+
+Por exemplo, o cara está fazendo uma correção,
+
+sei lá, ele está fazendo limpeza de dados.
+
+E ele só vai acontecer em tempo de execução.
+
+Então para a ferramenta olhando só
+
+o código, aquilo ali é problema. Se ele vai olhar e vai
+
+falar cara, tem uma vulnerabilidade aqui.
+
+E talvez seja sido corrigida.
+
+Ela vai aparecer a menos que depois que
+
+você saiba sabe que aquilo ali existe e
+
+é recorrente, você aponta na ferramenta.
+
+Quando se fala de falso positivo, muitas
+
+vezes a gente poderia falar ajuste da
+
+ferramenta, então poderia ter nome separado.
+
+É claro, tem outro falso positivo, que é a
+
+ferramenta está apontando que é isso e não é.
+
+Mas ele não está entendendo o conceito
+
+daquele framework novo, conceito alguma mudança que
+
+teve na linguagem, então ele até de
+
+ser atualizado aquilo ainda é falso positivo.
+
+Então acho que se a gente conseguir separar mais o
+
+que realmente é falso positivo e o que é ajuste
+
+de ferramenta, acho que o barulho seria diminuído.
+
+Boa, agora eu vou dar a minha pitada
+
+aqui de contribuição também para essa introdução.
+
+Eu acho que antes a gente A parte
+
+de contexto que o Rodrigo falou muito bem,
+
+ela também envolve o contexto do teste.
+
+Na minha visão, quando você tá falando de SAST, onde
+
+a ferramenta tem acesso ao códigofonte inteiro, a tendência à
+
+foto positiva é menor, porque ela tem o fluxo da
+
+aplicação, ela vê quando você falou, uma classe chama outra,
+
+método que chama outra, aquela coisa toda.
+
+Então isso é contexto, ainda pode existir falso
+
+positivo, porque os fluxos podem mudar, capacidade de
+
+parâmetros, tal, tal, tal, tal, mas né?
+
+Imagino que a tendência é a fase positiva seja menor.
+
+Comparado a DAST, por exemplo.
+
+Num DAST você tem uma ferramenta blackbox que vai
+
+olhar para uma URL e fazer request muitas vezes
+
+uma URL pura que tem ali formulário alguns campos
+
+então você imagina campo string Quais?
+
+Quantas possibilidades de string existem?
+
+Mano, infinitas.
+
+Infinitas existem.
+
+De caractere a todos os bactérias
+
+do teclado combinados em tamanhos infinitos.
+
+Então, é impossível não ter falso positivo em DAST.
+
+Impossível, matematicamente impossível.
+
+Então o ponto é, a Rodrigo colocou, o
+
+contexto e a configuração ajuda muito bem.
+
+Porque se você configurou aquela scan de uma forma
+
+correta de acordo com o profile daquela aplicação e
+
+aí independente do teste dast sash o que for
+
+vai ajudar a reduzir essa questão de fotos positivas.
+
+Mas por que que o fotos positivas é problema?
+
+Né e aí antes de entrar nessa próxima pergunta eu
+
+vou trazer outro uma outra analogia aqui quando a gente
+
+vai no médico por exemplo ele faz se fala no
+
+exame exame de rotina, por exemplo, porque eu me acho
+
+que fala, putz cara, você tá aqui com tá, diabetes,
+
+sangue, me fala, açúcar, né?
+
+Muita taxa de açúcar no sangue.
+
+Vamos fazer mais teste, vamos.
+
+Mas você faz mais teste?
+
+Fala, na verdade não, na verdade a taxa tá normal.
+
+Pô, vamos fazer terceiro, então, como contraprova,
+
+e o terceiro também dá negativo.
+
+Então aquele primeiro, ele foi tals positivo, tipo indício
+
+de que você tava com falar diabetes, mas vai,
+
+taxa de açúcar alta no sangue, na verdade não
+
+estava, você fez mais dois testes na sequência, nas
+
+mesmas condições e os testes eram negativos.
+
+Neste contexto ele não é problema.
+
+É mais fácil de você ir lá e
+
+fazer o reteste, validar e tá tudo certo.
+
+Ele passa a ser problema falsos positivos, passa a
+
+ser problema no contexto de aplicar esse kit pra
+
+nós aqui, que é a próxima pergunta.
+
+Pela quantidade do volume de vulnerabilidades, Ou vocês
+
+acham que é por alguma outra coisa? Falei Rodrigo.
+
+Antes de entrar na pergunta, acho que você
+
+fez uma analogia até interessante aí da diabetes.
+
+Por isso que eu falei da configuração.
+
+Por isso que quando você vai fazer teste,
+
+exame de sangue, exame específico, tem algumas condições,
+
+então você tem que a jejum, por exemplo.
+
+Então você vai fazer teste de exame
+
+de sangue e comer monte de doce.
+
+Aí você chegou lá apareceu a taxa de açúcar
+
+lá em cima então a configuração foi mal feita
+
+né você se preparou mal para ir para fazer
+
+esse teste então Isso é interessante.
+
+E não que, nesse caso, não gerou falso positivo.
+
+De fato, sua
+
+né?
+
+O que é só fazer parêntese, não perde mais você não.
+
+O que
+
+muitas vezes é problema também em
+
+epicege, porque não é falso positivo.
+
+O problema está lá Mas, de repente,
+
+naquele contexto, por exemplo, ah, toma validação
+
+aqui que não tá sendo feita.
+
+Ah, não, mas eu sei o que tá vindo aqui, é só interno.
+
+Tá, tá, tá, tá.
+
+Beleza, o código está vulnerável.
+
+Por mais que você saiba o que você está vindo aqui, né?
+
+Então, enfim, só falta mais pimenta aí, né?
+
+Eu já peguei referência do cara reclamar que
+
+a ferramenta estava apontando o erro lá, estava
+
+apontando a vulnerabilidade, é falso positivo, é falso
+
+positivo, a gente já corrigiu, é falso positivo.
+
+E toda vez que fazer o scan aparecia.
+
+Aí Philipe, vamos sentar, gente.
+
+Deixa eu ver o que você tá fazendo.
+
+Aí pegava, rodava o scan e via lá a vulnerabilidade.
+
+Aí o cara abriu o código e
+
+mostrava cara, nem existe mais essa linha.
+
+Aí qual era o problema?
+
+O cara estava fazendo scan de uma branch
+
+e estava e estava corrigindo o outro.
+
+Mas aí entra também esse negócio do contexto.
+
+Cara, você está olhando é para outra coisa.
+
+Não é que você corrigia a vulnerabilidade.
+
+A gente está fazendo teste aqui, que é esse
+
+caso do cara com muita glicose no sangue.
+
+Mas beleza, bora pra hamburguer que você
+
+tava fazendo e eu tinha interrompido.
+
+Não, mas como é que você
+
+é comentário, eu me falei Marcos?
+
+Não, eu queria comentar que assim, para mim é uma
+
+junção dos dois do volume e também da configuração.
+
+Acho que os dois ali que geram esse espaço positivo.
+
+A gente sabe que tem ferramentas que permitem mais e
+
+ferramentas que permitem menos configurações Então a partir do momento
+
+que você faz ali uma limpeza no código retira arquivos
+
+indesejados, arquivo de testes, tira arquivo de bibliotecas, no caso
+
+do Sasha, você começa a tirar aquele monte de coisa
+
+ali que não faz parte do scan de sash você
+
+reduz o falso positivo só quando você tem volume muito
+
+alto também é uma preocupação porque você tem super 1500
+
+vulnerabilidades para olhar ali e classificar se é verdadeiro ou
+
+não.
+
+Aí que entra ajuste Então você vai ter que
+
+ajustar a query de busca Ou você vai ter
+
+que ajustar ali o preset de vulnerabilidade, beleza?
+
+Trouxe 1.500, eu vou deixar só High Minion ali e
+
+só as mais críticas para começar a filtrar e começar
+
+a colocar ali o que é falsopositivo ou não para
+
+ir reduzindo aos poucos então eu acho que é uma
+
+junção dois, uma configuração e o volume alto que deixa
+
+o pessoal mais assustado quando fala de falso positivo né?
+
+Boa, eu trazer pouquinho mais de nessa fogueira aqui
+
+é o seguinte, eu vejo, tem uma questão de
+
+maturidade, empresas maduras, quando a gente fala de Applications
+
+Security, elas têm o direito, olha o que eu
+
+vou falar, irmã, elas têm o direito de contestar
+
+isso, putz, Será que essa ferramenta não está me
+
+trazendo muito falso positivo?
+
+Como é que eu melhoro as configurações?
+
+Como é que eu atuo no meu scan?
+
+Ou como a gente colocou aqui agora?
+
+Mas não é a realidade da maioria das
+
+empresas que não estão maduras em desenvolvimento seguro.
+
+E aí elas já começam a questionar,
+
+mas eu tenho muito falso positivo?
+
+Cara, questão tem que ser outra.
+
+Você está pegando os seus verdadeiros positivos?
+
+Você está achando os seus problemas primeiro
+
+pra depois você começar a reclamar?
+
+De falso positivo e tal, porque você não está nem
+
+achando as coisas que você deveria achar os seus problemas.
+
+Você já tá preocupado?
+
+Nossa, mas eu vou ter problema que não é mentira.
+
+Não, cara, calma, passo de cada vez.
+
+Começa a encontrar seus problemas primeiro, Eu
+
+tive cliente recente que era isso, o
+
+cara não tá nem escaneando.
+
+Aí lá, mas as ferramentas de teste trazem muito falso
+
+positivo, eu falei qual foi a última que você usou?
+
+A gente não usou Então, como é que você tá falando?
+
+Você não me puxou?
+
+Não, não sei aonde, mas o que você falou?
+
+Não, então começa a fazer scan.
+
+Analise os seus problemas depois você se preocupa com esse outro
+
+problema se for caso que é como eu falei no SAST
+
+a tendência de fotos positivas é bem menor, no DASH tendência
+
+é maior, pela própria o contexto do scan.
+
+Ainda assim, é possível você tunar, né?
+
+E a AJUSTAÇÕES que é independente das
+
+ferramentas que você usa pra melhorar esses
+
+índices, vamos chamar assim, né?
+
+Então, Obviamente também depende muito
+
+da ferramenta que você usa.
+
+Tem ferramenta que permite mais customização.
+
+Tem exemplo clássico.
+
+Ferramentas de SAST que permitem
+
+você customizar as queries.
+
+Elas tendem a você praticamente reduzirse seus próprios positivos,
+
+porque onde ela tá trazendo os falsos positivos pra
+
+você, ah, não tá achando que uma sanitização, não
+
+tá achando uma validação, Cara customiza a regra pra
+
+falar que aquilo é uma sensação e você tende
+
+a reduzir a 0.
+
+0 DASH é mais complicado pouquinho
+
+e isso acaba não acontecendo.
+
+Mas é possível chegar nesse livro.
+
+Então acho que o volume, ele
+
+voltando pra esse ponto, né?
+
+O volume, ele assusta porque o pessoal tá muito
+
+preocupado com você, eu vou ter mil vulnerabilidades, mas
+
+na verdade dessas mil aqui, metade é falso positivo.
+
+Porra, beleza, é justificável. A
+
+gente vai colocar a ponta também, quando
+
+Porque assim, tudo que você adicionar no
+
+SDL é problema para o negócio.
+
+Porque se você adicionou mais uma camada de alguma
+
+coisa, quer dizer que você vai levar mais tempo.
+
+Então, por exemplo, se você traz uma ferramenta que ela
+
+vai vai levar uns dois minutos a mais na pipeline.
+
+O cara já vai pensar.
+
+Se ela adicionar mais tempo para o cara
+
+ficar validando realmente é uma vulnerabilidade ou não.
+
+Aí é mais tempo para o cara pensar.
+
+Então, tudo que a gente colocar, se a gente tem
+
+grande volume de falso positivo, está dizendo que o cara
+
+vai perder muito tempo para ficar analisando aquilo.
+
+Então acho que é dos problemas que o
+
+pessoal já puts, aí vai ficar meio esquisito.
+
+E tende a não querer utilizar tal ferramenta
+
+por conta de falso positivo, seria isso.
+
+Pará, Tem que parar alguém para validar se é ou não é.
+
+E daí gera esse medo.
+
+E daí acho que vai muito pelo por conta do
+
+mundo real né que a gente vê se o mundo
+
+ideal a gente vê que você ia fazer todas as
+
+configurações possíveis quem está colocando os testes, sabe qual é
+
+o escopo, sabe o que espera da ferramenta, sabe dosar
+
+sabe utilizar a ferramenta para não pegar falso positivo, ou
+
+pegar o mínimo possível.
+
+Mas no mundo real, cara, primeiro os caras
+
+tá rodando, o negócio tá bem demo e
+
+daí eles colocam uma ferramenta no meio.
+
+Joga tudo sem configuração nenhum, joga pro
+
+default, aí o scan começa a demorar,
+
+começa a trazer monte de falso positivo.
+
+Aí pro cara já é alarme.
+
+Cara, coloquei aqui pra melhorar a produtividade,
+
+nesse caso seria a segurança ou qualidade.
+
+E está atrapalhando.
+
+Então acho que o medo vem muito disso, da falta
+
+de maturidade para lidar com esse tipo de problema.
+
+Mas maturidade ia pegar esse tipo
+
+de coisa e falar Cara, beleza!
+
+O primeiro escândalo demorou muito. O que aconteceu?
+
+Por conta disso e isso aqui.
+
+Beleza, tem muito falso posti, aconteceu.
+
+Ah, eu coloquei no contexto todos
+
+os diretórios, inclusive diretórios de imagens,
+
+diretórios de PDF, diretório.
+
+Acho que o Rodrigo tocou num ponto bom aqui.
+
+Então esse ponto de maturidade que muitas empresas querem fazer
+
+os scans ali estão preocupados com o dispositivo mas não
+
+sabem nem configurar ali a ferramenta solução e até os
+
+desenvolvedores não tem conhecimento nenhum de código seguro que a
+
+gente volta lá para o começo pô se eu fizer
+
+treinamento por causa do nível seguro e até pior, se
+
+você não sabe configurar, se você não tem knowhow contrata
+
+uma consultoria que ela vai te ajudar muito mais do
+
+que você tentar fazer sozinho pra ela tá sozinho ali
+
+Então acho que também tem esse ponto, o fosfolio está
+
+meio gerado por isso, pela inexperiência De tentar colocar uma
+
+ferramenta sem ter nenhum conhecimento para isso você tentar colocar,
+
+a mesma coisa que você tentar se dirigir no carro
+
+com 12 anos, sem nunca ter pego na vida, você
+
+vai bater, a mesma coisa com a ferramenta, não tem
+
+piloto bom ali Fazendo as configurações, analisando as vulnerabilidades, as
+
+configurações Provavelmente você vai dar errado e você vai vai
+
+estar ali com a ferramenta só por compliance né você
+
+não vai estar usando ela da melhor maneira possível segurança
+
+tecnologia deve ser copys
+
+Linheta do cara.
+
+Acho que o Marx falou, cara, já vi acontecer
+
+bastante e acho que é problemão, que o pessoal
+
+coloca as coisas por compliance, ou porque alguém mandou,
+
+ou porque a empresa tá engajada naquilo, mas o
+
+cara não sabe exatamente como funciona.
+
+Então, por exemplo, já vi muita gente
+
+reclamar Cara, quanto tempo ele demora?
+
+Porque se demorar muito eu não vou contratar.
+
+E daí você pensa, peraí, mas o DASH vai rodar com
+
+a aplicação no ar e tudo mais, ele nem deveria impactar,
+
+ele nem deveria impactar a esteira, porque ele não é cara
+
+pra você esperar toda a análise dele para dar o ok.
+
+E daí ele poderia fazer em ambiente de teste, em
+
+ambiente de homologação, mas para o cara ele tem que
+
+rodar na esteira, o cara fez o código, fez a
+
+análise fácil, análise daste e aí depois ele vai dar
+
+ok se o código pode subir ou não.
+
+Ainda até adendo, legal.
+
+Taxa é recomendado rodar num ambiente de
+
+teste e não em produção, né?
+
+A gente tem Fábrica de encomendas recomendam isso.
+
+Porque senão você pode derrubar seu ambiente
+
+produtivo, você pode atrapalhar ou você pode
+
+gerar sujeira dentro do seu ambiente.
+
+Então o pessoal por falta do conhecimento, por
+
+falta da maturidade, acaba tomando decisões erradas.
+
+E daí fala que a ferramenta não presta, ou
+
+que aquilo ali tá devagar, ou sei lá, já
+
+era barulho por falta de conhecimento, no caso.
+
+Toda vez que eu tenho essa
+
+discussão, Cara, isso faz falso positivo?
+
+Ah, ferramenta, não tem muito falso positivo?
+
+Cara, Primeiro que a minha alma
+
+já é drenada, nessa pergunta.
+
+Aí o segundo momento é reagir, cara.
+
+Você tem maturidade de Epsex? Já faz? Como é que é?
+
+Ah, não faço nada.
+
+Então, Comece a achar seus problemas,
+
+depois você se preocupa com isso.
+
+Se o cara já tem livro de
+
+maturidade, Opa, que solução você usa hoje?
+
+Tá bem configurada, porque tem soluções no mercado também
+
+que a gente sabe que não já são queimadas,
+
+vamos dizer assim, que também depende de configuração e
+
+contexto, mas enfim, então você já entre algumas questões
+
+que você já começa a perceber qual é a
+
+preocupação daquele cara de fato, é só falso positivo,
+
+é melhoria das configurações, as vezes O próprio natureza
+
+da aplicação do cara usa código legado aqui de
+
+4 milhões de linhas em C++.
+
+A tendência de ter muito foco positivo
+
+é alta, código legado, coisa xiga, né?
+
+Então isso também influencia bastante.
+
+Eu queria fazer uma pausa aqui no podcast, só
+
+Leve e Secops.
+
+Recebemos
+
+uma denúncia de ouvinte.
+
+Denúncia, o ouvinte mandou pra gente aqui que é
+
+o seguinte, ele falou Cássio, eu estava escutando podcast,
+
+e a pessoa era de São Paulo.
+
+Ela falou ela, é uma mulher inclusive.
+
+Eu fui parar na brasilândia, sei lá que pai o que
+
+era, porque não tem nada a ver com o roteiro dela,
+
+mas porque ela perdeu a noção do caminho, ela tinha que
+
+virar não sei onde e foi indo, indo, indo.
+
+Só que você perde o ponto do ônibus, Ela fez
+
+isso no carro, porque ela tava tão distraída ouvindo Ou
+
+não sei se a minha voz é tão ativa assim?
+
+Ou a do Marcos?
+
+Ou a do Gabriel? Ou a do Gabriel?
+
+Vai saber que episódio ela tava ouvindo.
+
+Então, essa pausa é pra você que está ouvindo você gosta de
+
+queixa agora você tá no trânsito aí agora ou na madrugada não
+
+interessa para é isso mesmo que você tá fazendo você tem que
+
+estar onde você tá aí Dá uma olhada, não, transa em 60,
+
+e aí faz o check in aí, Josinha.
+
+Volta para a idade.
+
+Eu acho que ela tava mais sana,
+
+no que é a resposta, mano?
+
+Preciso de maluco que eu já porra nenhuma,
+
+pera aí que eu vou escrever certo, agora
+
+pode ser também. Pode ser também.
+
+Mas a denúncia veio em Poxa, que achei tão bom que
+
+eu perdi a noção de onde eu estava, fui parar no
+
+céu, onde eu tive que voltar, pegar o retorno, enfim.
+
+Então, não é assim, mas agora a gente vai introduzir
+
+esse quadro aqui, alerta o 20, então para eu testar,
+
+dá uma olhada no lugar que você deveria.
+
+BOM VOLTANDO AQUI, LEGAL CARA, ACHO QUE ESSA
+
+QUESTÃO DE FALSO POSITIVO ELA NEM POLÊMICA, MATEMATICAMENTE
+
+EXISTE vai acontecer é só que talvez com
+
+o AI agora tende a morrer reduzir muito,
+
+não necessariamente morrer, é problema matemático ainda.
+
+Mas Ainda é uma questão que
+
+o pessoal não precisa se preocupar.
+
+Se você não tem maturidade em Absek,
+
+começa a se preocupar, é aquela história.
+
+Esse dia estava assistindo, não sei quem
+
+lembra no Brasil, passava aquele programa.
+
+Quilos mortais. Lembra? Que eram as pessoas
+
+que eram
+
+muito, muito, muito, muito gordas.
+
+E ia num médico lá específico e o médico humano, era
+
+médico assim, ele era ele era o carisma em pessoa,
+
+o doctor Now. Eu lembro
+
+dia que a mulher fala assim Ah, eu não
+
+quero essa comida, eu quero a comida do hospital.
+
+Por quê?
+
+A comida tem feijão, tem comida boa.
+
+Ah, eu não gosto disso.
+
+Vou morrer de fome.
+
+Mano, você tem comida armazenada no seu corpo
+
+pra mês, ficar sem comer mês, vai acontecer?
+
+Nada com você. Nada.
+
+Eu tenho comida que eu juro que você tem.
+
+Não, sério.
+
+Começa a comer direito porque o seu problema
+
+não é o que você come, o seu
+
+problema é a sua cabeça fraca, mentalidade fraca.
+
+Então trazendo esse pedaço aí pro nosso contexto aqui,
+
+eu acho que apsek tem pouco de maturidade.
+
+Então tem uma questão de maturidade envolvida.
+
+Muita empresa quer fazer porque tá preocupada mesmo.
+
+Muita empresa tá na onda do compliance.
+
+Muita empresa tá na onda de que tem budget quer gastar.
+
+Então a preocupação com o falsopositivo ela vem em segundo
+
+momento, após implantar upsack, após implantar scanners, né, percebe que
+
+vai além de scan, né, mas depois você tem o
+
+seu sash, o seu dast, no mínimo rodando, aí você
+
+começa a se preocupar com o foco positivo se já
+
+tem aí é que tornar a configuração, tem especialista ali
+
+pra lidar com isso e tudo mais.
+
+Mas parte deste processo de resolver
+
+os passos positivos é ter processo
+
+de gestão de vulnerabilidades, vulnerabilidade management.
+
+Ou seja, o seu SAST vai cuspir lá na no
+
+seu Jira, no seu Dash vai cuspir no seu Jira,
+
+vai chegar tudo lá no seu Jira e de lá
+
+alguém vai olhar Opa, isso aqui vai pro Rodrigo corrigir
+
+isso aqui vai pro Marcos corrigir opa isso aqui é
+
+falso positivo né fazer uma triagem né que a gente
+
+chama Esse processo tem que ser maduro, eu diria que
+
+ele independe de ferramentas, ele basicamente você só precisa centralizar
+
+os suas output, suas scanners e fazer uma olhada.
+
+O que vocês acham disso?
+
+Vocês acham que é assim tem que ter essa
+
+pessoa ou essas pessoas, ou o próprio time de
+
+dev pode fazer essa triagem antes de corrigir.
+
+Inclusive, o processo das Sans lá, o template
+
+das Sans de vulnerabilidade management já contempla essa
+
+parte na análise, se você pegou uma vulnerabilidade,
+
+você faz uma análise dela.
+
+Essa análise já contem para você falar cara
+
+vou corrigir não vou corrigir porque eu não
+
+quero porque é difícil porque demora ano ou
+
+é fóssil positivo realmente não é uma vulnerabilidade.
+
+O que vocês acham?
+
+Tem que ter esse processo, tem que
+
+ter essa pessoa, essas pessoas, ou Vocês
+
+jogariam essa responsabilidade pras ferramentas de scan.
+
+Elas têm que ter 0, eu falo positivo e ponto.
+
+Calma, Calma, vamos brigar. Não vamos brigar.
+
+Eu ia falar que precisa sim ter o time
+
+de seque ali, seja voltado para fazer o cônjuge
+
+ou pode estar ferramenta mas você precisa ter time
+
+ali de segurança junto com o time de desenvolvimento
+
+justamente para isso, para fazer essa filtragem.
+
+Porque foi o que a gente falou, você joga a responsa
+
+por Devil, mas o Devil não vai ter treinamento adequado.
+
+Ou ainda não teve, se você está no começo ainda,
+
+especialmente Se o seu desenvolvedor está acostumado a desenvolver de
+
+uma maneira não segura De uma maneira que ele aprendeu
+
+na faculdade e que ele foi levando o resto da
+
+vida Então, se você não aplicou treinamento, se você não
+
+tem essa estrutura, é legal você ter sim time de
+
+segurança ali Para fazer esse stunts na ferramenta do quando
+
+necessário E também fazer essa análise de vulnerabilidades E fazer
+
+a gestão de vulnerabilidades da maneira correta, ajudar o time
+
+com isso e depois você vai aprimorando esse processo, você
+
+vai ver daqui, mas isso para mim é crucial.
+
+Sem uma pessoa dedicada para isso, o processo não anda.
+
+A gente tem experiência aí Rodrigo até mais
+
+que eu com as implantações ali que sempre
+
+alguém aí não vai não funciona
+
+Eu acho que não precisa ser uma pessoa
+
+específica para a Fossa Positiva, mas que tem
+
+que estar parte do processo dela.
+
+Então, uma das funções dela é analisar periodicamente a
+
+quantidade de foco positivo ou ajuste da ferramenta.
+
+Eu acho que a ferramenta vão melhorando com o
+
+tempo e a tendência é ter menos falso positivo,
+
+mas eu acho que zerar não acontece.
+
+Porque sempre vai depender do contexto.
+
+Às vezes, por exemplo, ele identificou uma vulnerabilidade
+
+e a vulnerabilidade real, mas por exemplo, para
+
+o time eles vão tratar como falso positivo.
+
+Por exemplo, eles falam que você está
+
+que você está pintando dados do usuário.
+
+E quando você vai ver não são dados
+
+do usuário, são dados fixos ou são dados
+
+de tela, por exemplo, que já vi acontecer.
+
+Então, a informação que ele recuperava era de Template.
+
+Ah, é uma cor azul, é uma cor amarela.
+
+Cara, pode soltar isso aqui, não tem problema.
+
+Saindo print.
+
+Eu sei que cliente é esse, hein?
+
+Tem exemplo de cor aí do tipo de
+
+usuário, eu sei que cliente é esse.
+
+É uma discussão absurda.
+
+Nesse caso aí lá.
+
+Então, e aí gerou essa discussão, porque
+
+pra ferramenta é falso positivo tipo.
+
+E a nível de código é Aliás,
+
+desculpa, pra mim não é fundamental.
+
+E a nível de código, se você olhar
+
+logicamente, realmente é, porque você não tava vindo
+
+dado sem tratamento e identificou isso.
+
+Ô cara, dados sem tratamento.
+
+Você está mostrando dados do usuário, e
+
+no final não era nada demais.
+
+Cara, isso daí não interessa, pode mostrar, pode
+
+deixar outdoor que não é uma vulnerabilidade.
+
+Então, o ponto de coisa
+
+que sempre vai aparecer na ferramenta.
+
+Sim, e até o conceito de falso positivo ele
+
+tem que ser cuidadosamente tratado porque veja ferramentas elas
+
+vão dar a opção de você falar olha isso
+
+aqui não é relevante pro meu contexto.
+
+Outras ferramentas como checks, isso não é explorável.
+
+Nota Explorer, tudo.
+
+Falso positivo.
+
+Então você vê que o conceito é diferente.
+
+Esse exemplo que você deu aí,
+
+cara, isso aqui não é relevante.
+
+Pra mim, eu sei que a informação tá aqui, não é
+
+código qualquer, é uma cor que tá sendo exibida ali.
+
+Não quer dizer que é falso positivo.
+
+A ferramenta olhou, fez o exame e
+
+falou, tem dado vindo aqui sem tratamento. É problema.
+
+Mas você falou não, eu sei que dado é, eu confio
+
+na fonte, sei qual é a saída, então no meu contexto
+
+não deixa de ser problema, então ele é irrelevante.
+
+Não, é falsopositivo.
+
+É igual eu falar pra você, cara, você tá com
+
+a sua taxa de açúcar, tá alta no sangue.
+
+Aí você Cara, legal, mas agora eu tenho
+
+histórico, eu nasci assim, sempre foi isso.
+
+E minha taxa normalmente é pouco mais alta mesmo.
+
+Então não é falso positivo, o seu exame tá
+
+lá, a sua taxa de açúcar tá maior.
+
+Mas pra você é o seu normal, vamos dizer, né?
+
+Pra sua genética, sei lá o que
+
+tu tá dando uma ilustração aqui, né? Falei,
+
+o exemplo do checkmax lá, por exemplo, quando ele está
+
+configurado certinho, ele nem fala para você que aquilo ali
+
+é a vulnerabilidade ou é o falso coaching.
+
+Ele ele marca como tooverify, né?
+
+Tipo, cara, alguém tem que
+
+olhar e verificar isso daqui.
+
+O que ele fala é assim, a tendência, cara, eu
+
+tenho 100% de ser que isso daqui é uma vulnerabilidade.
+
+Outros, se ele tem a confiabilidade baixa,
+
+ele vai falar ó, to breaify.
+
+Então ele precisa que alguém dá uma olhada,
+
+ó, isso daqui é que pode problema.
+
+E daí o desenvolvedor vai lá, olha e
+
+fala cara, isso daqui não é problema.
+
+E daí, para para acabar com o impasse entre
+
+ferramenta e desenvolvedor, aí precisa de alguém de Si
+
+para validar e falar cara, isso realmente é problema
+
+ou isso daqui realmente não é problema.
+
+Então, a ferramenta, ela dá para ajudar.
+
+É claro que não existe ferramenta perfeita, todas as
+
+ferramentas você precisa olhar ali e às vezes mandar
+
+pro Cara, ele tá sempre falando aqui que é
+
+falso positivo e não tem contexto nenhum, tá errado.
+
+Cara, não sou hotfix, mas ele ainda
+
+precisa da mão de obra humana ali.
+
+Ele precisa que alguém vá lá e vá lite.
+
+Acho que nesse caso, por exemplo, você
+
+deu o exemplo da Inteligência Artificial.
+
+Ela ainda vai precisar de
+
+pessoas para ir treinando ela.
+
+Até chegar a ponto que ela já entende o
+
+que é e acabou, ela não precisa mais.
+
+Mas ainda precisa dessa inteligência
+
+de entender o contexto.
+
+Acho que é interessante esse debate e acho que o
+
+que vai mais interessante ainda é o que você falou
+
+antes lá, que o que você está procurando.
+
+Então às vezes tem muita coisa em cima
+
+de falso positivo, sendo que ele Não é
+
+que não causa, mas ele não está atrapalhando.
+
+Porque você não está nem corrigindo
+
+a vulnerabilidade, você só está identificando.
+
+Então, Cara, antes de reclamar do falso positivo, antes
+
+de falar, pô, a minha taxa de falso positivo
+
+começa a olhar para o código, começa a tentar
+
+validar, começa a corrigir, Aí sim, aí na correção
+
+você vai ter número, aí vai vir naturalmente a
+
+taxa de falsa positiva, porque aí você vai falar
+
+cara, de 10 vulnerabilidade, uma era falso positivo.
+
+Opa, então a ferramenta está com a tendência de 1%.
+
+Aliás, 10% de falsa positiva, a gente precisa ajustar.
+
+Aí vai lá, ajusta.
+
+Então ela vai vir naturalmente e você vai
+
+corrigindo ele naturalmente, vai ajustando ele naturalmente.
+
+Boa, boa.
+
+Macão, comentários.
+
+Cara, acho que o Rodrigo explorou bem.
+
+Acho que é isso mesmo, o meu pensamento
+
+que eu tenho que você precisa ter alguém
+
+para fazer essa conferência ali depois que a
+
+ferramenta analisa antes e chegar no dev.
+
+Ou não tem como você passar sem isso.
+
+Inclusive, tem ferramentas hoje que já
+
+fazendo bom uso de inteligência artificial.
+
+Elas já primeiro, né?
+
+Aquela história de O falso positivo em
+
+geral é para reduzir o barulho.
+
+O que eu já discordo pouco, vou colocar aqui
+
+na parte final, mas muitas ferramentas de E.A e
+
+elas já te dão conta, você tem mil vulnerabilidades.
+
+Beleza, mas olha, 10 são críticas então tá no repositório
+
+que você falou que é alto impacto no seu negócio,
+
+são vulnerabilidades com o CVSS alto, blablablá e tal, você
+
+tem mil, mas 10 são muito críticas, muito urgente.
+
+Então você vai olhar pra 990 depois,
+
+deixa pra lá, você vai focar nessas
+
+10, porque aquela história actionable.
+
+O que é acionável?
+
+O que você consegue fazer agora?
+
+Então, esse boom, uso DA e
+
+algumas soluções ajudam muito nisso.
+
+Acho que você poderia Só para complementar
+
+o meu jejum.
+
+Você poderia até trocar o AI
+
+por alguém com mais experiência.
+
+Sim, uma coisa é,
+
+o time é uma experiência.
+
+É, então, porque está rodando a ferramenta.
+
+O time está vendo tantos de vulnerabilidade.
+
+Precisa alguém parar ou você ter
+
+o processo já definido, né?
+
+Cara, por que vocês estão caçando mais vulnerabilidade
+
+Sendo que você tem essa vulnerabilidade aqui, que
+
+Cara, pode parar em três amanhã.
+
+Vamos parar agora e vamos
+
+correr atrás dessa vulnerabilidade.
+
+Então, cara, ele quebrou o processo, por mais
+
+que tenha processo definido ali e tal.
+
+Ele quebra pra falar, cara, isso
+
+daqui é urgente, você precisa disso.
+
+E daí é o que você falou.
+
+Tá vindo ferramenta, minha inteligência
+
+artificial pra fazer isso.
+
+Cara, esquece mil vulnerabilidades.
+
+Essas três aqui. Corrigir agora. Porque senão
+
+isso faz parte do processo
+
+de gestão de vulnerabilidade também.
+
+O cara tá fazendo isso, ele
+
+vai priorizar lá a vulnerabilidade.
+
+O que é mais importante ser corrigida.
+
+Sim, sei lá também.
+
+Aí entra exatamente nesse contexto.
+
+Pra finalizar, eu queria trazer outro
+
+ponto que eu falei, né?
+
+Eu discordo dessa questão de fazer barulho. Por quê?
+
+E aí vamos ver se vocês concordam ou discordam de mim.
+
+Caso discordem podem procurar
+
+outro podcast para participar.
+
+Imagina que vocês foram no médico.
+
+Você tá com a dor na barriga, toma com
+
+a dor na barriga e fuma no médico.
+
+Cara, Você tem gastrite?
+
+Não, não deu nada mesmo. Aconteceu aqui agora.
+
+Tô com dois de barriga, tá os dois, três dias aqui.
+
+Beleza.
+
+Vamos fazer o exame de sangue, vamos.
+
+Aí no exame de sangue ele descobriu lá que
+
+você tá com sei lá, tudo alto, né?
+
+Colesterol, triglicérides, diabetes, tá tudo alto.
+
+Aí pediu pra fazer ultrassom, descobriu que você tá
+
+com chama não é gastrite, sei lá, fez ou
+
+tá só não, não é que chama não, endoscopia.
+
+Claro, fazendo endoscopia você tá com gastrite.
+
+Mas cara, nessa endoscopia também, durante o processo, a gente
+
+vê que a sua garganta aqui, tá com tumor.
+
+É benigno, mas tem tumor na sua garganta.
+
+Que tá pressionando, sei lá o que,
+
+que vai dar problema no seu olho.
+
+Vamos imaginar aqui, tá?
+
+Imagina esse médico com esse relatório na mão, aí ele
+
+vai chegar pra você e falar eu sou Rodrigo, a
+
+sua dor de barriga é só uma gastrite toma esse
+
+remédio aqui tá tudo certo ou é o que que
+
+vocês acham aí se a gente ia fazer ou Porque
+
+você chegou falando da dor na barriga, né?
+
+Ou ele vai falar olha cara, na verdade assim, seu exame
+
+de sangue deu tudo alterado, a dor na barriga é uma
+
+gastrite, Você tá com o torr a goela porque durante o
+
+endoscopia que a gente pode ver, vai ter que fazer cirurgia,
+
+pode causar problema no seu olho futuramente.
+
+O que você acha que o
+
+médico deveria fazer?
+
+Dá recorte completo de falar cara, você tem
+
+todos esses problemas que você tem que tratar
+
+alguns deles mais urgentes, outros, né?
+
+Dá mais tempo de você cuidar.
+
+Ou, não, não, você tá só com gastrite mesmo,
+
+toma esse remédio aqui, tá tudo O que você
+
+O que vocês acham, é cenário 1, cenário 2?
+
+Cenário 2? Certeza.
+
+Se eu fosse a vida de vocês, a vida de vocês.
+
+Cenário 2 sabe?
+
+Foi órgãos e você mais.
+
+Acho que o 2, cara, com certeza.
+
+O 2.
+
+Eu voto pelo 2 também.
+
+Eu voto pelo 2 também.
+
+Por que aqui então Quando a gente faz scan, começa
+
+em conta a epicege, traz, sei lá, mil vulnerabilidades.
+
+Por que que as empresas não
+
+querem ouvir sobre mil vulnerabilidades?
+
+Isso aqui é duas.
+
+Por que ela só quer duas? Ela não quer mil.
+
+Você queria ouvir só uma vulnerabilidade sua?
+
+Você quer saber de todas, porque você quer tratar. Sim.
+
+Porque umas delas são mais, né, como a gente
+
+falou aqui, umas são mais prioridade que a outra.
+
+Umas são mais perigosas que eu.
+
+Mas não quer dizer que você vai omitir isso,
+
+não quer dizer que você não vai levar isso.
+
+Então esse é o meu ponto em Apsek.
+
+A gente faz o scan que for,
+
+ele acha lá 50 mil vulnerabilidade.
+
+Considerando já, fez uma análise de false positiva
+
+ativa, uma beleza, tem 50 membros da verdade.
+
+Elas não vão ser informadas?
+
+Elas não vão ser levadas adiante?
+
+Elas são riscos maiores ou menores, urgentes
+
+ou menos urgentes, mas elas são riscos.
+
+A empresa como negócio, a
+
+corporação precisa saber disso.
+
+Tá ciente disso cara você tem 50 mil beleza ó 3
+
+delas é negócio assim tão absurdo que pode acontecer agora é
+
+risco muito alto precisa resolver e é fácil resolver.
+
+O resto é média e baixa, você pode resolver
+
+ao longo do ano, priorizando, distribuindo tarefa com seus
+
+times e tal, tal, tal, tal, tal.
+
+Mas tem que saber essa história de ah vamos
+
+reduzir o barulho vamos é a mesma coisa eu
+
+tenho vontade de rastrear essas pessoas para quando ela
+
+for no médico Não dá o relatório inteiro não.
+
+Fala só, fala só.
+
+Não dá. Não dá só
+
+nesse caso aí.
+
+Você não tem que tirar informação,
+
+você tem que adicionar informação.
+
+Então, por exemplo, tem milhão de vulnerabilidades, Porém, dez
+
+delas é o que você precisa corrigir agora.
+
+O cara não vai apagar o relatório, ele vai colocar
+
+todo relatório, e daí ele vai adicionar, pode ser que
+
+nem tenha na ferramenta, e daí é a maturidade dele
+
+de Cara, adicionalmente, o que eu entendo daqui?
+
+Deixa essas vulnerabilidades do corpo de
+
+lado e vamos trabalhar nessa.
+
+Depois que a gente corrigir essas, que é
+
+as mais críticas, aí a gente volta e
+
+começa a tirar esse relatório de novo.
+
+Sabe, enquanto o nosso vlog
+
+do zack, vamos dar uma segurada aqui.
+
+Sabe onde acontece isso, de uma forma
+
+mais clara, conservante mecânico com o carro.
+
+Sim.
+
+Você vai com o carro de barulho e
+
+sempre tem duas, três coisas a mais.
+
+E o mecânico mecânica honesto, eu sempre li
+
+no mecânico conhecido, cara, se o rolamento está
+
+com barulho, ele precisa trocar, custa 20 reais.
+
+Mas ó, a sua suspensão, mano, já tá aqui 50
+
+anos, você nunca mexeu, e isso aqui é custa principal.
+
+E você precisa trocar a suspensão.
+
+Você fala caramba velho suspensão negócio importante crítico mas eu
+
+vou dar uma segurada troca aí o rolamento que custa
+
+20 reais os outros 15 pau então eu faço depois
+
+Então, é Enfim, tem essa questão que a gente dá
+
+pra fazer episódio só disso, né?
+
+Então, vamos lá, vamos lá.
+
+Nesse caso aí, nesse nesse caso do meio clínico é
+
+interessante porque ele é o cara que faz o diagnóstico
+
+e é o cara que corrige e é o cara
+
+que ele vai ele vai ganhar com aquilo.
+
+Então tecnicamente é do interesse dele.
+
+Nesses casos aí que a gente falou de médico ou da
+
+empresa, o interesse já não é do cara, do desenvolvedor.
+
+O interesse é alguma empresa,
+
+mas o carro, dependendo do problema,
+
+traz risco pra você também.
+
+Acaba sendo interesse duplo ali, eu diria, né? Enfim.
+
+Dá pra gerar episódio só disso.
+
+Marcão, quer falar em alguma coisa?
+
+Quero, quero ir pro final, pro final, a gente já
+
+falou pra caramba aí nossos ouvidos já deve estar pouco
+
+cansado acho que a gente explorou pra caramba esse tópico
+
+e acho que dá pra fazer uma parte 2 depois
+
+ou até a gente fazer algo
+
+Eu nunca vi parte 2 de nada que
+
+a gente fez aqui, a gente sempre
+
+Não sai porque nunca participou. É.
+
+Não sabe porque é falta no podcast. É. Beleza.
+
+Pessoa que foi mais episódio do Você gosta de podcast.
+
+CCC, curte, comenta, compartilha.
+
+Se tá perdido aí para o carro, vê onde você tá.
+
+Falsos positivos é tema importante.
+
+Realmente dá pra fazer episódio só sobre isso.
+
+Não senti não só de falta positivo,
+
+mas essa de mostrar, reduzir ruído, enfim.
+
+E é isso, eu sou o Cássio Pereira.
+
+Eu sou o Marcos Santos
+
+e eu sou Rodrigo Bauman.
+
+E a gente se vê na semana que vem.
+
+Valeu, Belos de luz.
+
+Termina aqui.
+
+Deve ser copos.
+
+Deve e SECOPS, o seu
+
+podcast de segurança em tecnologia.
+
