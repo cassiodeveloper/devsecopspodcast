@@ -47,7 +47,7 @@ layout: default
                 {% include guest.html guest = page.guest %}
         {% endif %}
         {% if page.transcription %}
-                {% include transcription.html transcription = page.transcription %}
+                {% include transcription.html transcription = page.transcription transcription_txt = page.transcription_txt %}
         {% endif %}        
 </div>
 {% if site.settings.disqus-shortname %}
