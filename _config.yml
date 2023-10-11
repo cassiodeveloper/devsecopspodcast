@@ -1,7 +1,7 @@
 # Site settings
 title: "DevSecOps Podcast"
 description: "O seu podcast sobre Segurança e Tecnologia"
-podcast-description: "DevSecOps de um jeito prático e descontraído. Um Dev e um AppSec debatendo as mais variadas formas de tornar um software mais seguro."
+podcast-description: "O DevSecOps Podcast é uma jornada empolgante pelo mundo da cibersegurança, com um foco especial em Application Security e DevSecOps. Neste podcast cativante, exploramos as mais recentes tendências, melhores práticas e desafios que cercam a proteção de aplicações e a integração da segurança não somente desde o início do ciclo de desenvolvimento de software., mas em toda sua execução Junte-se a especialistas do setor e líderes visionários enquanto discutem estratégias, ferramentas e insights essenciais para garantir que sua organização esteja à frente das ameaças cibernéticas. Se você está interessado em manter suas aplicações seguras e atualizado com as práticas mais recentes em segurança de desenvolvimento, o DevSecOps Podcast é o seu guia confiável."
 url:  "https://devsecopspodcast.com.br" # Actual base url of the website
 baseurl: "/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
@@ -46,8 +46,8 @@ podcast_title: DevSecOps Podcast
 podcast_author: Cássio Batista Pereira
 podcast_email: devsecopspodcast@gmail.com
 podcast_subtitle: "O seu podcast sobre Segurança e Tecnologia"
-podcast_summary: "DevSecOps de um jeito prático e descontraído. Um Dev e um AppSec debatendo as mais variadas formas de tornar um software mais seguro."
-podcast_description: "DevSecOps de um jeito prático e descontraído. Um Dev e um AppSec debatendo as mais variadas formas de tornar um software mais seguro."
+podcast_summary: "DevSecOps de um jeito prático e descontraído."
+podcast_description: "O DevSecOps Podcast é uma jornada empolgante pelo mundo da cibersegurança, com um foco especial em Application Security e DevSecOps. Neste podcast cativante, exploramos as mais recentes tendências, melhores práticas e desafios que cercam a proteção de aplicações e a integração da segurança não somente desde o início do ciclo de desenvolvimento de software., mas em toda sua execução Junte-se a especialistas do setor e líderes visionários enquanto discutem estratégias, ferramentas e insights essenciais para garantir que sua organização esteja à frente das ameaças cibernéticas. Se você está interessado em manter suas aplicações seguras e atualizado com as práticas mais recentes em segurança de desenvolvimento, o DevSecOps Podcast é o seu guia confiável."
 podcast_explicit: "no"
 podcast_type: serial 
 podcast_lang: pt
