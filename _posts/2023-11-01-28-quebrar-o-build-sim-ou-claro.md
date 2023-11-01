@@ -10,8 +10,8 @@ Ferramentas e Soluções - Apresentamos ferramentas e soluções que podem ser u
 Estudos de Caso e Lições Aprendidas - Compartilhamos exemplos reais de quebras de build em AppSec e como equipes ágeis resolveram esses problemas, mantendo a segurança em primeiro plano.
 Se você está interessado em aprender como a quebra de build se relaciona com a segurança do aplicativo e como implementar práticas sólidas de AppSec em seu processo de desenvolvimento, este episódio é uma leitura obrigatória.Junte-se a nós enquanto exploramos o emocionante mundo da segurança de aplicativos em DevSecOps e descubra como manter seu software seguro desde o início. Ouça agora e leve sua segurança de aplicativo a um novo patamar!"
 file: https://api.spreaker.com/v2/episodes/57471549/download.mp3
-length: 
-videoid: 
+length: 48:13
+videoid: lAfkWB1dJXM
 cover: "../assets/img/428.png"
 transcription: "../assets/transcriptions/4/28/28.srt"
 ---
