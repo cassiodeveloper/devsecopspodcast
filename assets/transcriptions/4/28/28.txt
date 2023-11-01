@@ -1,0 +1,2130 @@
+E inovação, tecnologia, desenvolvimento.
+
+DEVE SECOUNT,
+
+o seu podcast de segurança em tecnologia.
+
+Fala pessoal, tudo bem com vocês?
+
+Sejam muito bemvindos a mais mais deve ser
+
+copypodcast mais porque estamos no episódio eu não
+
+sei falar esse número nessa ordem mas é
+
+o cento e quarenta Cepilagésimo, quadrangésimo.
+
+Boa!
+
+Tô ficando esperto.
+
+Cepilagésimo e com o óleo.
+
+Que é o 28º da quarta temporada.
+
+Cara, quatro anos já fazendo isso aqui e
+
+hoje a gente tem uma novidade bacana, que
+
+foi o nosso convidado do episódio passado, episódio
+
+27, pra gente falar de apseque ali no
+
+alto nível, inclusive tem feedback muito bacana.
+
+Contratamos.
+
+Cara, contra já pagamos bônus adiantados
+
+para você contratar o cara não
+
+pagar meus salários desde a segunda
+
+nas más notícias depois.
+
+Não precisa falar nada agora ou
+
+não, depois você fala pro cara.
+
+Mas, beer, seja bemvindo aí, agora vamos
+
+gravar recorrente aqui no DevCore Podcast, pessoas
+
+já te conhecem do episódio passado.
+
+Mas seja bemvinda oficialmente aí pra gente começar a
+
+gravar e trazer o conteúdo enriquecer ainda mais né,
+
+acho que deve ser qualquer podcast também é a
+
+tua com a tua jornada, enfim.
+
+Fala umas palavras aí de boas vindas, pessoal.
+
+E aí, pessoas, beleza?
+
+Aqui é o Benjure, eu
+
+fico extremamente agradecido pela oportunidade.
+
+Eu gostei muito daquele pagamento de duas pizzas
+
+por semana chegando às vezes no geral, vai
+
+me ajudar a manter o físico.
+
+Que está em forma geométrica, redonda ali.
+
+E mais uma vez, obrigado, Ricardo,
+
+uma arte né, o Rodrigo também.
+
+Então, não pode estar aqui hoje, mas Fico muito feliz
+
+que a gente possa seguir por aí, porque, poxa, a
+
+gente tem assunto para carai pra frente, né?
+
+Brigadão mesmo.
+
+Bom, seja bemvindo mais uma vez, então, o que
+
+não falta é assunto mesmo, não é verdade?
+
+Então vamos lá, antes de falar do assunto de hoje,
+
+eu queria falar que deve ser que você pode questionar
+
+o apoio da Checkmates da nova 8 que são especializadas
+
+em segurança e sistemas e códigos seguros.
+
+O link da nova 8 que é a distribuidora da
+
+Checkmates no Brasil está abaixo aqui na descrição episódios no
+
+YouTube e também no meu site deve serclosspodcast.com.br.
+
+Tá buscando soluções de apsek?
+
+A Digital Huck tem portfólio completo pra você.
+
+A Gold Security, que é especializada em backend
+
+Security, que é desenvolver software seguro, fale com
+
+a Gold Security, seus melhores serviços para vocês.
+
+E O OnlySackfans, que é o seu clube de
+
+Application Security, conteúdo semanal, conteúdo exclusivo só para assinantes,
+
+assine agora apenas 2990 no plano anual e o
+
+negócio é o seguinte cara episódio de hoje é
+
+só uma interrupção aborrecimento simples bloqueio ou uma forma
+
+responsável automática e eficaz de evitar cagadas alheias.
+
+No episódio de hoje a gente
+
+vai falar sobre quebra de build.
+
+Tema polêmica, eu já quebra ou não quebra?
+
+Quebra, build ou não quebra?
+
+Será que a gente não quer falar de política?
+
+É menos treta do que a quebra de build.
+
+E aí, quebra, não quebra.
+
+Ah, cara.
+
+Só pouco depois de corrigir.
+
+Eu vou estar respondendo, moleque.
+
+Vamos construir a resposta vamos construir a resposta então vamos
+
+lá o que que vocês acham de empresas que pedem,
+
+geralmente eu já vi né, já trabalhei em alguns lugares
+
+que a pessoa falava sempre o tipo de segurança, eu
+
+quero que quebra a pipeline, quero que quebra o meu
+
+build, quero que errompa o meu processo.
+
+O que vocês acham dessa abordagem?
+
+Ou do contrário.
+
+Não pode quebrar nada, não pode quebrar
+
+a build porque vai atrapalhar as entregas.
+
+Como é que vocês enxergam isso?
+
+Vou começar a ordem alfabética?
+
+Bayour depois do Marcos, pode ser?
+
+Fechou? Bora aí?
+
+Bora aí. Cara, olha só.
+
+Eu acho que esse desejo de Ah,
+
+eu quero que quebre o build.
+
+Na minha visão ele é desejo de atingir nível
+
+de maturidade muito mais do que querer atingir ah
+
+eu quero sim ou não, Por exemplo, eu quero
+
+que a minha paleta de cores tenha verde.
+
+Na qual tu sai do ponto 0 definindo uma coisa, né?
+
+Eu acho que é desejo no ponto de vista de maturidade.
+
+Então, por exemplo, eu quero
+
+realmente que quebre o build.
+
+Ok, show de bola e entendi o teu desejo.
+
+Acho que a partir daí o profissional, o Japsek, a
+
+área Japsek, ele tem que entender e fazer o estudo
+
+e, digamos, fazer o desenho de arquitetura do que é
+
+necessário para atingir esse plano de maturidade.
+
+Por quê?
+
+O que é esse ponto de maturidade?
+
+Eu entendi a ação que eu quero quando eu
+
+quero ela porque eu quero ela e eu ter
+
+visibilidade dos impactos da minha tomada de decisão.
+
+Poxa, me que tá quebrando a build, agora eu quebrei
+
+a build e aí quando dá problema que é conhecido
+
+de Cara, o time de desenvolvimento não tá conseguindo tocar
+
+correções no termo que a gente precisa e isso está
+
+minando a força de trabalho da empresa para disponibilizar novos
+
+negócios no começo, até te responder uma atividade, não ser
+
+tão dolorido, ou não custar a cabeça, muitas vezes, de
+
+alguém tomou essa decisão que quebrar o vídeo a partir
+
+de amanhã.
+
+Boa boa, deixei no mudo onde está falando.
+
+Boa, gostei dessa ideia aí do qual é o
+
+meu ponto 0, por que eu quero fazer isso,
+
+não simplesmente eu vou quebrar e não vou quebrar.
+
+Gostei da construção, vamos segurar esse pedacinho.
+
+Marcos, o que você acha?
+
+Cara, eu acho que igual o senhor falou, depende muito
+
+da má autoridade da empresa, eu acho que não adianta
+
+o cara começou hoje, sabe o seguro acidente da empresa,
+
+começou a fazer psek, já querer quebrar o build, isso
+
+não vai funcionar, isso vai dar trabalho, o desenvolvedor vai
+
+ficar puto da vida, nem vai pedir demissão, você não
+
+vai conseguir entregar mais nada.
+
+Assim que acontece, mas depende da maturidade da empresa e
+
+depende da onde a empresa quer chegar com isso.
+
+Não adianta ela quebrar ali vulnerabilidades, tendo poucas vulnerabilidades, não
+
+faz sentido, mas fácil, o Open falou, colocar isso em
+
+uma fila ou colocar isso em outro lugar ali backlog
+
+para correção do que você quebrar a quebra de build
+
+acho que vai ser mais eficaz a partir do momento
+
+que você já tem mapeado Você sabe dos problemas, não
+
+está sendo corrigido E você já tem uma maturidade suficiente
+
+e fala Ó, tem 50 raios aqui, tem 50 altos
+
+eu não quero gerar a 51 então eu faço a
+
+quebra ali para não gerar novas vulnerabilidades enquanto eu faço
+
+tratativo do backlog Aí sim eu acho que faz sentido
+
+porque seus desenvolvedores não tem a cultura, sua empresa não
+
+tem cultura, você precisa quebrar para não gerar coisas novas.
+
+Mas já chegar querendo quebrar ali, acho
+
+que é pesadelo, aí o Jacquin vai
+
+entrar lá, vai quebrar tudo, não rola.
+
+Boa, boa, eu acho que eu compartilho pouco
+
+da opinião de vocês, mas eu acrescentaríamos terceiro
+
+fator aí também, segundo o terceiro fator, que
+
+talvez seja a criticidade do próprio negócio.
+
+Por que isso?
+
+Eu trabalhei, eu trabalhei em ecommerces, por exemplo, que
+
+o foco era vender e estar no ar.
+
+O foco não era se preocupar com risco de
+
+segurança, por mais que esse risco fosse crítico, sei
+
+lá, a chama que eu ia SQL Injection na
+
+página de pesquisa, cara, negócio assim, de escancarado, simples,
+
+o cara chega numa quantidade.
+
+Beleza, o importante é estar
+
+no ar as pessoas comprando.
+
+Então o negócio tinha entendido que o risco era
+
+aceitável, ia fazer deploy, ia subir produção, independente de
+
+qualquer coisa, e qualquer coisa que fosse encontrada, crítica
+
+ou não, aí entrava no processo de gestão de
+
+vulnerabilidades, esse crítico, pra ver se corrige hoje, pra
+
+ver se corrige amanhã, pra ver se vai com
+
+backlog e tudo mais.
+
+Hoje, por exemplo, eu trabalho numa empresa que
+
+entrega software de infraestrutura crítica, vai, sei lá,
+
+o software vai controlar uma fábrica de carro,
+
+uma montadora, vai controlar uma empresa de energia,
+
+usina, então é impacto pouco maior.
+
+Então neste contexto, o negócio não aceita que vulnerabilidades
+
+altas e críticas, dependeram de contas até médias, e
+
+que elas estejam no software, por mais que não
+
+tem impacto de negócio, elas não podem estar lá.
+
+Não é impacto de negócio até outra coisa.
+
+Putz, tem heap inspecion aqui.
+
+Ah, mas vai pegar uma senha do negócio que
+
+não vale nada, não interessa, é uma senha, vai
+
+gerar risco x, não é pra estar lá.
+
+Então o negócio Eu acho que deveria
+
+drivar, se é que existe esse verbo.
+
+O negócio deveria drivar nesse sentido de meu.
+
+Ó a gente trabalha exemplo clássico né fazendo
+
+uma analogia aqui não pode faltar energia no
+
+hospital Então o hospital tem gerador, porque as
+
+pessoas estão na UTI, dependendo da máquina de
+
+respiração, de pressão, de coração, sei lá.
+
+Ou o cara está na cirurgia lá, acaba a luz, putz,
+
+aí daqui a pouco volta a luz que termina essa energia.
+
+Não existe isso.
+
+Então tem que ter gerador de alta, umas
+
+de eletricidade, mas alta potência, ultra disponibilidade, bla
+
+bla bla porque é inaceitável, né? O que fala?
+
+Acho que é isso mesmo, inaceitável
+
+ficar sem energia naquele contexto.
+
+Em compensação no bar, a esquina
+
+Tudo bem se acabar a energia.
+
+O cara não vai comprar gerador, o outro, né?
+
+É mais caro que o negócio dele. Entende?
+
+Então, acho que o negócio ele drive esse baseline.
+
+Cara, aqui a gente quebra build por
+
+isso, porque a gente tinha negócio crítico.
+
+Ou outro negócio, cara, não.
+
+A gente não quebra porque a gente não é negócio crítico
+
+mesmo que aquele negócio que irá quebrar né o exemplo do
+
+ecommerce que eu falei ah agora a gente ia começar a
+
+quebrar o build aí entre esses pedaços que o Baillie falou
+
+e que o Marcos Complementou da maturidade.
+
+Cara, beleza, seu negócio não é crítico,
+
+mas você quer quebrar build, beleza.
+
+Então como que a gente vai fazer isso?
+
+Aí entra na minha segunda pergunta agora
+
+segurança
+
+tecnologia deve ser copos
+
+como que a gente faz como é que a gente chega
+
+E eu acho que o Beer podia começar essa resposta.
+
+Ele falava, a gente sai de 1.0 até algum
+
+lugar do porquê que eu quero fazer isso.
+
+Então, beleza, decidi que quero.
+
+Porque eu quero melhorar a qualidade do meu
+
+negócio, eu quero melhorar o nível de exposição,
+
+não quero estar tão exposto com tantas vulnerabilidades,
+
+e enxerguei isso na sequência de maturidade.
+
+Saí do 0, tô indo para o nível 1.
+
+Como é que eu faço isso agora?
+
+Como é que eu começo?
+
+Sair do ponto A e ir nesse ponto B?
+
+Essa é a maneira porque ela abre abre o mundo
+
+de pecinha de Lego, digamos assim, em cima da mesa
+
+e agora tem que definir ok o que que eu
+
+preciso pegar aqui para mim que é mais crítico né
+
+primeiro de tudo acho que é traçar roadmap de duas
+
+coisas Que riscos eu tenho aqui dentro?
+
+Que são imediatamente direcionados a quebrar build, né?
+
+Porque eu não vou pegar risco de fraude que
+
+eu não consigo automatizar usar dentro da minha esteira
+
+para quebrar, então beleza, dentro desse contexto de olha.
+
+O que a gente consegue resolver dentro
+
+da esteira, de desenvolvimento ali, né?
+
+Dentro do nosso CI digamos assim.
+
+Quem eu vou se criar action para resolver isso?
+
+Dentro daquilo, quais são os principais riscos que a gente tem,
+
+que detona o nosso negócio e aí a gente começa a
+
+tem até meia base assim que ah não sei como é
+
+que eu faço minha visão Cara, primeiro de tudo, uma coisa
+
+que é o mais simples, secret detection, se você não tem,
+
+então Primeiro de tudo ser capaz de entender se tem alguma
+
+coisa vazando que dê acesso à sua infraestrutura, a alguma plataforma,
+
+alguma coisa em geral.
+
+Que você tenha conhecimento de
+
+onde estão as coisas, né?
+
+Depois, agora começa o padrãozinho de eu tenho risco,
+
+eu defino motivo de mitigação, depois a gente pode
+
+dar lip dive em cada assim, né?
+
+Mas segredos SA, SAST, depois o DAST ou ASP
+
+ou NAST, enfim, a gente vai subindo na cadeia.
+
+A questão que eu levaria muito em consideração
+
+nesse ponto é entender os Kikiwins dessa implementação.
+
+O que eu digo Kikiwins?
+
+Que eu consigo implementar que eu consigo
+
+ter ganho bom com menor esforço de
+
+implementação e com menor atrito na implementação.
+
+Por exemplo, se eu colocar SAST direto que
+
+eu ainda não tenha capacidade de gerenciar, por
+
+exemplo, falsos positivos, que não tem a capacidade
+
+de o desenvolvedor ler o report do SAST.
+
+E ele saber ok, tem corrigir
+
+isso aqui, porque ele não escalo.
+
+Daí eu jogo todo o problema de ser
+
+profissional de apsek, e que são poucos, né?
+
+Normalmente a gente ainda tem 0.5, 0.2% da empresa
+
+que são seus profissionais, eu vou perder no tempo.
+
+Porque esse tempo ele pode chegar com uma informação
+
+para área de cima de uma forma diferente.
+
+Olha pessoal, nós colocamos o SAST aqui e tá
+
+levando três meses para corrigir uma vulnerabilidade, mas a
+
+gente não se ligou que tá levando três meses
+
+porque porque a gente não deu escala e aí
+
+a gente vai pode quebrar nesse ponto então para
+
+mim esse roadmap antes da implementação para entender esforço
+
+ganho e atrito ele é fundamental, sempre vinculado a
+
+comentário muito bom ali no risco do negócio, porque
+
+o negócio ele pode ter várias áreas ali dentro
+
+pode até separar diferente né o risco de cada
+
+marca diretamente vinculado a objetivo e conhecimento da empresa.
+
+O que a empresa já tem?
+
+A empresa já conhece, né?
+
+E claro, talvez nada disso funcione em uma
+
+transação de map se o pipeline está integrado,
+
+né?
+
+Boa.
+
+A automação tá passando a chave de tudo
+
+isso também, senão você não consegue integrar nada.
+
+Não, você
+
+não consegue fazer nada.
+
+E você, Maqui, o que você acha desse ponto?
+
+Como é que a gente atingiria esse nível, né, cara?
+
+Beleza, decidimos que quero quebrar e como é que
+
+você enxerga essa implementação, o que fazer nesse contexto?
+
+Cara, concordo muito com o que o Bangle disse muito
+
+mesmo, acho que faço das palavras dele a minha, Basicamente
+
+isso, a única coisa que eu acrescentaria é se uma
+
+empresa não tem costume, ela não ela está iniciando, ela
+
+quer fazer essa quebra, ela deveria procurar algum framework de
+
+compliance para poder se guiar.
+
+Então pegar ASP SAM, pegar for caso, banco IPCA,
+
+alguma coisa, para ela ter pelo menos norte, porque
+
+ela pode ter toda estratégia, pode ter que querer
+
+fazer, só que sem o norte, sem saber como
+
+tratar isso, vai ficar complicado.
+
+Então ela tem pegando aspissanni, botando em vir maturidade, pensando
+
+em sei lá, vou pensar no nosso top tank, o
+
+que a gente tem de mais fácil hoje ali para
+
+centralizar Então, começar ali quebrando o nosso top tank, começar
+
+a corrigir no nosso top team ou algum outro framework
+
+mais simples e depois ir escalando isso para para modelo
+
+geral da empresa, eu acho que também é caminho que
+
+dá para se seguir, acho que dá para começar por
+
+ali, para ter norte, que é difícil você começar alguma
+
+coisa sem conhecimento nenhum, sem nenhum norte, sem nada.
+
+Então acho complicado.
+
+Para finalizar esse tema Acho que esse
+
+ponto você falou agora, quero quebrar build.
+
+É muito simples você falar assim, ah, vou
+
+quebrar qual é a minha métrica, né?
+
+Vou quebrar com a vulnerabilidade alta. Mas da onde?
+
+Do SA? Do SAST?
+
+O BAIR colocou muito bem. Qual etapa?
+
+Qual teste de segurança é mais crítico pra mim?
+
+A gente chegou a falar isso no episódio passado.
+
+Putz cara, tivesse uma coisa pra investir,
+
+era educação, não sei o quê.
+
+Cara, é CA.
+
+Eu vou fazer teste, cara, é CA.
+
+Então, beleza, é CA importante pra mim porque eu
+
+não quero supatia em prol da Supatia, não quero
+
+minhas bibliotecas em risco, tal, tal, tal, tal.
+
+Então, se tiver alguma probabilidade
+
+crítica no MSA, eu quebro.
+
+Mas o SAST não, porque o SAST, né?
+
+Talvez você faça mais sentido, o Bailor colocou muito
+
+bem, eu tenho que analisar falso positivo, diria quase
+
+0, né, mas é cara crachá ali, mas o
+
+imposto não tá, não tem muito segredo.
+
+No SAST já tem que analisar, putz, cara,
+
+é uma banalidade de baixa, numa classe nada
+
+a ver no código no CA aonde.
+
+Então você tem SLA, tem tempo
+
+ali de processar, mastigar aquilo.
+
+No SA não, carteira, levo na verdade
+
+crítica, é componente de dependência direta, por
+
+exemplo, as ferramentas te dão essas métricas?
+
+Não, o logo vai fugir, Cassyah.
+
+A pouco tempo,
+
+porque acaba mais fácil de olhar pra isso.
+
+Cara, isso aqui eu quebro.
+
+Acho que o Beyru usou o termo Aqui a gente
+
+fala Loheng fruits, as frutas que você pega na mão,
+
+eles usam os quickwings, a mesma coisa, cara, isso aqui
+
+é mais fácil de fazer, no SAST é mais complicado.
+
+E AST ele te dá menos o dispositivo também.
+
+Mas por teste mais demorado, enfim, então acho que
+
+esses aspectos de qual teste é crítico, ou qual
+
+ponto desse teste é crítico no meu negócio, no
+
+meu processo, para que eu possa fazer isso.
+
+E claro, se eu tenho CICD, maduro.
+
+Porque às vezes o cara tá rodando CI,
+
+rodando uma pipeline pra fazer deploy e dev.
+
+Você vai quebrar, mano?
+
+O cara tá num cs de produção, ele tá
+
+rodando numa pyp line que vai compilar, fazer tudo
+
+ali da aplicação e fazer uma produção.
+
+Aí sim, lá é contexto de cara.
+
+Vamos testar garantia, vamos quebrar neste contexto
+
+aqui, e aí eu acho que faz
+
+mais sentido a gente pensar nessa quebra.
+
+No dia a dia ali, ambientes de desenvolvimento,
+
+homologação, préprodução, enfim, não sei se faz sentido
+
+trazer essa quebra, porque quando a gente leva
+
+essa maturidade de produção, né?
+
+Sim, traria o alerta.
+
+E Isso, joga lipídios.
+
+Diz que é pro cara, cara, não tem problema aqui.
+
+Verifica, mas não quebrar, você
+
+interromper o trabalho dele, necessariamente.
+
+É, tenta trazer caso aqui que eu dei bastante
+
+risada, que tava atendendo cliente aqui e o cara
+
+faz 80 pull request por dia em produção.
+
+Como que eu vou quebrar a build?
+
+Cara, sem parar o trabalho dele. Agora dá
+
+uma paciência pra rodar a SAP.
+
+Entendeu?
+
+Então, chega esse tipo de casa.
+
+Aí quando você fala pro cara, não,
+
+você não vai quebrar a build agora.
+
+E o cara já chegou, não.
+
+Eu quero comprar porque eu quero quebrar a build, cara.
+
+80.000.000.000.000.000.000.000.000.000.000.000.000 é isso que a
+
+gente faz de maturidade também.
+
+Aliás,
+
+e processo, né?
+
+Tem que ajustar esse processo, tá
+
+errado e tem linguagem de produção.
+
+E eu diria o seguinte, a gente tá falando aqui de
+
+quebra de building, a gente sempre imagina ter esse SD.
+
+Quando você traz isso pra nível abaixo, que
+
+é o Pull Request, isso muda de figura.
+
+Os Pull Request são maiores.
+
+O
+
+número de pull request são maiores durante o dia.
+
+E eles não humaniosamente estão indo pra produção.
+
+Pull request no ambiente, no
+
+código, tal, tal, tal, tal.
+
+Aí talvez será que os cheques de pull request?
+
+E aí essa quebra se aplicam nesse contexto?
+
+Você acha que vale trazer essa discussão de meu?
+
+Eu quebro meu build de produção,
+
+estou integrando só com produção.
+
+Vale quebrar esse build? Isso é uma coisa.
+
+Outro é, o dia a dia do
+
+desenvolvedor, ele fez pull request, vale quebrar?
+
+Que cheques que você vai colocar
+
+lá, Bailee trouxe muito bem.
+
+Assassin's Khan.
+
+Cara, secret pra mim, o boicote já tem que quebrar.
+
+Porque eu quero evitar aquela base.
+
+Não deveria nem subir, deveria
+
+comprar
+
+commit nada escuro, sabe?
+
+Inclusive o GitHub, acho que você comprar o
+
+GitHub de this security na versão Enterprise, ele
+
+tem uma feature lá que chama push Protection.
+
+Então quando você faz o push pra uma branch X,
+
+ele faz essa validação e não deixa fazer o push.
+
+Se tiver uma Secret, por exemplo.
+
+Mas acaba sendo pré commit hulk mais ou
+
+menos, mas ele acaba atuando no server.
+
+Enfim, E aí, como é que tá
+
+essa discussão no nível do pull request?
+
+Porque aí o 'impar', o 'beer' falou.
+
+Uma coisa é, eu sei que eu tenho meu CI
+
+aqui, apertei o botão e estou fazendo deploy para produção.
+
+É aceitável que eu faça várias validações,
+
+que é uma pipeline que vai demorar
+
+muito mais e que eu possa quebrála.
+
+Mais ou menos.
+
+No pull request, esse impacto é muito maior, porque
+
+ele é o dia a dia dos desenvolvedores.
+
+O cara tá entregando ali.
+
+E dá pra filtrar também, cara, pull request na
+
+massa, na branch, desenvolvimento, onde você está fazendo isso.
+
+Então essa discussão tem impacto maior quando
+
+ela desce por nível de desenvolvedor.
+
+Eu, minha humilde contribuição é O cara já está
+
+acostumado a apertar o era desenvolvedor do Atnet, então
+
+você aperta F5 para compilar, ou Ctrl+Shift+B.
+
+Lembra dos atalhos, hein?
+
+Você deu na F5? Não compilou.
+
+Então você tem que parar e
+
+fazer compilar, arrumar o código.
+
+Aí compilou, agora você mandou rodar, putz, a
+
+feature tá com bugzinho aqui, não tá do
+
+jeito que eu preciso, volta, arruma.
+
+É, o feature test unitário, putz, o
+
+fashion tá passando vou ajustar o teste.
+
+Então você já tem diversas
+
+validações daquilo que você fez.
+
+Só que a segurança ela nunca tá ali.
+
+O compilador está checando o Spaning da linguagem, você
+
+tem teste unitário se é o caso da sua
+
+empresa, a própria feature que você vai ter testado,
+
+último de QA, depois vai andar isso, usuário, enfim.
+
+Por que segurança nunca, ninguém aceita que seja
+
+Quem entra nesse contexto cara, ó, tem teste
+
+aqui de SAST, você tem uma vulnerabilidade alta
+
+e vai quebrar o seu currículo, por exemplo.
+
+Por que essa fricção como é que vocês enxergam isso
+
+por que que tem essa eu já aceito que eu
+
+não vou compilar eu já aceito que eu não tenho
+
+teste passando mas segurança eu não aceito quero deixar pra
+
+depois, eu vou continuar no meu dia a dia.
+
+Como é que vocês enxergam essa
+
+fricção, eu diria, né, necessariamente.
+
+O que vocês acham?
+
+Mim, meus filhos científicos.
+
+Eu acho que envolve duas questões principais se
+
+eu fosse dividir em dois grupos, tá?
+
+Assim, primeiro de tudo eu acho que é legado
+
+cultural, que é antigo tipo, segurança não te interessa
+
+o tá acontecendo só tem que arrumar.
+
+Ninguém explica o porquê porque tinha tempo atrás
+
+ali pelo menos aquela caixinha de Não, segurança,
+
+só a gente sabe, ninguém sabe, toma aqui
+
+a ação, cala a tua boca e faça.
+
+E aí isso aí inevitavelmente vai gerando uma cultura
+
+que quando você chega e não sabe explicar o
+
+porquê que aquilo precisa ser feito, não dá visibilidade.
+
+E aí é importante você ter o conhecimento do
+
+ponto de vista atacante para que você consiga olhar
+
+esse fluxo, mas também precisa entender o lado do
+
+desenvolvedor e consiga colar as duas plaquinhas, quando você
+
+cola os dois da forma de o desenvolvedor entender
+
+aquilo e conseguir enxergar e cenário em outros lugares,
+
+cara, sucesso, né?
+
+Pode tirar aí o dia de folga,
+
+você ganhou esse grande bônus, né?
+
+Porque você trouxe o risco, o problema fez ele entender
+
+e visualizar, e agora nos próximos segundos você vai começar
+
+a ganhar esse cara primeira questão que eu gostaria de
+
+colocar na caixinha é uma herança cultural.
+
+A segunda eu gostaria de me colocar numa outra visão.
+
+Por exemplo.
+
+Imagina que a gente está fazendo a
+
+gestão de programa de bugbout, tá?
+
+E aí o filho da puta, ela vai lá, roda Dasse
+
+muito local, pega o report e abre tudo no nosso programa
+
+de bodybuck, sem se entriar porra nenhuma, tá ligado?
+
+Eu te garanto que lá pelo segundo mês você já vai
+
+querer clicar o cara do seu programa de bug balde.
+
+Porque tem monte de falso postinho, monte de
+
+coisa que você aplica, não sei o que,
+
+a gente não pode ser esse cara.
+
+E aí quando a gente entrar na esteira,
+
+a gente precisa se preocupar com o resultado
+
+do que a gente está entregando.
+
+E a assertividade do nosso resultado.
+
+E esse resultado leva para duas vertentes.
+
+Eu estou maduro o suficiente
+
+na qualidade do meu resultado.
+
+Para quebrar?
+
+Se não, qual que é a minha política de remediação?
+
+Então se eu não vou quebrar na hora, eu
+
+entendo que eu vou conviver com aquilo em produção.
+
+Se eu vou conviver com a introdução
+
+qual que é a minha política de
+
+convivência com bugs de segurança em produção.
+
+A história do apetite de risco, né?
+
+Sei que isso é risco, foi pra produção,
+
+como é que eu vivo com ele, né?
+
+Vivo com isso, por quê?
+
+Eu tenho uma falta de assertividade.
+
+E esse é indicador importante que dentro da gestão,
+
+na gerência de Epstein é importante que qual que
+
+é a nossa porcentagem de assertividade em uma tomada
+
+de decisão automatizada em cima de uma ferramenta.
+
+Isso é uma estatística tem que ter quando
+
+fala da gestão e gerenciamento de hexágon.
+
+E no momento que a gente olha
+
+assim cara, tá abaixo de 90%, tá?
+
+Então provavelmente tu não vai quebrar e tu vai
+
+ter uma política de remediação forte, tem 90, 92%.
+
+Por exemplo, se encontra uma vulnerabilidade crítica, a
+
+gente não vai bloquear, mas tem dois dias
+
+para ser para ser corrigido, para não impactar
+
+o negócio, o negócio em ter noção disso.
+
+Quando a gente aumentar para 95%,
+
+97%, a gente passa a quebrar.
+
+Então, essa é aquela questão da maturidade que a
+
+gente estava conversando ali no começo do episódio.
+
+E vale lembrar ainda que você tem esse
+
+período, por exemplo, rodei meu build, meu CI
+
+hoje, fiz Scan e tenho uma modalidade crítica.
+
+Tenho dois dias para corrigir, desde que seja
+
+uma modalidade mesmo e não falso positivo.
+
+Então hoje eu subi com a produção e
+
+após uma análise foi identificado que é falso
+
+positivo, não é uma vulnerabilidade, por exemplo.
+
+Então nem estava em risco no primeiro momento.
+
+Agora, se sim era problema, aí deu dois
+
+dias pra corrigir, eu fiquei dois dias numa
+
+jornada à disposição, o que é aceitável, dependendo
+
+do negócio, aquela coisa toda.
+
+Você tem esse 5050 ainda, né?
+
+Se estava mesmo em risco ou não estava em risco, né?
+
+Sim,
+
+E eu
+
+acho que o importante é só pra complementar.
+
+Que essa porcentagem não é o SAST inteiro.
+
+O SAST em qual parte?
+
+Cara, essa linha Jackson a gente tem 100%
+
+de assertividade aqui, o 98% vai quebrar.
+
+Cara, serverside request forgrid, a gente tem 85%, tá?
+
+Esse não vai quebrar, esse vai entrar numa análise.
+
+Então pegar toda a cachora assim, a SAST.
+
+SAST não vai quebrar por Não, calma aí.
+
+Que tipo de vulnerabilidade dentro daquele SAST, o
+
+que tipo de risco que a gente consegue
+
+identificar, qual que é a porcentagem de probabilidade?
+
+Daqueles tipo de escape daquele tipo de vulnerabilidade
+
+que a gente está buscando, daquele tipo de
+
+vetor ataque que a gente está analisando.
+
+Que daí é mais fácil a gente progredir, né?
+
+Porque senão, por exemplo, poxa, olha a caragada de
+
+teste que o site é capaz de fazer.
+
+Aí se tu botar ele num balaio de gato e
+
+dizer só como os ratos estiverem com 98% de coisa
+
+que a gente vai Claro, não vai conseguir ver.
+
+E até eu acho que o Marcos gravou muito bem na
+
+fala dele antes, você poderia ter uma estratégia até de cara,
+
+não sei o seguinte, a gente pegou as tops aqui, a
+
+gente quebra o astop tem, porque a gente já tá mais
+
+maduro, porque a gente né, é mais difícil a falta positiva,
+
+então o astop tem a gente quebra, Fora disso a gente
+
+não quebra, a gente vai analisar, então nessa ideia que você
+
+colocou aí do SLA de análise e tal.
+
+Marcos quer complementar esse ponto aí, o que você acha?
+
+Cara, eu acho O Bangor ficou bem,
+
+só que eu mudaria algumas coisinhas.
+
+Não, não é treta não.
+
+Vou ver pra caramba.
+
+Concordo com boa parte ali.
+
+A única coisa que eu mudaria assim.
+
+Ele até voltando o exemplo que eu falei do cara ali
+
+que tinha 80 pull request na master ali por dia.
+
+O cara desse não tem condição de quebrar.
+
+O build no pull request. Ele não tem.
+
+Se ele quebrar no pull request ele não sobra
+
+mais nada para a produção por bom período ali.
+
+Então no caso desse cara aí eu faria uma
+
+estratégia diferente e talvez eu quebraria por exemplo no
+
+merge quebraria em algum outro ponto ali, pensa em
+
+uma estratégia com ele, onde a gente conseguiria detectar
+
+as vulnerabilidades, mas sem stopar o desenvolvedor dele.
+
+O desenvolvedor continua entregando ali.
+
+Então acho que a quebra de build nesse caso esse cara
+
+aí como são muitos pull requests deve sim ocorrer mas em
+
+momentos diferentes teria que pensar, analisável junto com a empresa, qual
+
+que é esse momento que a gente conseguiria fazer isso com
+
+o menor dano possível, e ainda pensando, pô, não dá pra
+
+quebrar tudo, igual o Bill falou, não faz sentido, por exemplo,
+
+eu quebrar cross site script que eu tenho 50% ali, eu
+
+vou quebrar para quê?
+
+Você nunca pode ter 50% de depósito positivo.
+
+Então não quebra, deixa eu passar
+
+aí que entra outro ponto.
+
+E além de você pensar num framework, além de você
+
+pensar em alguma coisa pra você te guiar nesse momento,
+
+também entra a questão de você analisar que tipo de
+
+vulnerabilidade eu quero quebrar nesse primeiro momento.
+
+Quando eu falo nisso, eu estou pensando no sentido
+
+de que Cara, eu tenho ali SQL Injection, que
+
+eu sei que vai ter impacto grande.
+
+E eu sei que eu posso ter algum
+
+outro problema pensando num SSRF, por exemplo, que
+
+o impacto vai ser pouco menor.
+
+Tem a necessidade de quebrar o SSRF
+
+nesse momento ou somente o SQL Injection?
+
+Somente SQL Injection. Show de bola.
+
+Só que o SQLJack, a gente tem o
+
+Blind, a gente tem o SQLJack padrão.
+
+Qual desses tem mais impacto dentro da minha companhia?
+
+E também pensar nos scanners, igual o Benju já colocou
+
+ali, se eu vou quebrar mais sash com as S.A.
+
+Na minha visão, esse é a quebra
+
+sempre, mas não sabemos que é assim.
+
+Só pensando nessa parte dos scanners.
+
+Muito bem colocado aí.
+
+Boa, boa, boa.
+
+Aliás, você queria trazer outro ponto aqui?
+
+Levy C Cops.
+
+Levy C Cops.
+
+Que essa é uma pergunta muito simples.
+
+Se uma ovelha faz uma casa com seu
+
+próprio pelo, qual é o nome da casa?
+
+Eu não estava esperando por essa.
+
+Nenhuma ideia, ovelha fez uma casa com o próprio pelo.
+
+Qual o nome da casa?
+
+Novelho?
+
+Malanhouse.
+
+Ah, sô! Caralho!
+
+É muito duro, é muito bom.
+
+É muito grande o que é muito duro. Não,
+
+não.
+
+Mandaram num grupo do WhatsApp, porque eu
+
+fiquei com essa porra na cabeça, eu
+
+tinha que compartilhar com alguém,
+
+entendeu?
+
+Eu vou entrar nisso, eu vou fazer a pergunta
+
+É a
+
+mesma coisa aqui.
+
+Aproveita essa oportunidade pra você que tá ouvindo a
+
+gente, a gente tá se perdendo no caminho, para.
+
+Olha o mapa de novo, volta pra onde você
+
+está indo, então não vai se perder na conversa,
+
+nunca conversa muito boa aqui, e eu queria puxar
+
+agora pra outro outro uma outra parte aqui.
+
+A gente entendeu que, beleza, quebrar não é uma
+
+simples decisão, a gente precisa avaliar o impacto disso,
+
+por que eu quero fazer isso, etc, etc.
+
+Eu já tive clientes, por exemplo, Eu quero quebrar
+
+porque desenvolvedores aqui estão acostumados a subir qualquer coisa,
+
+ninguém vai lidar nada, então a gente começar a
+
+meio que criar uns portões para os caras.
+
+Aí eu tirei da cartola, tipo assim, mano, então quebra aí
+
+ó quebra faz a regrinha do 1053 10 vulnerabilidades baixas 5
+
+médias e 3 altas esse é o seu 3 show de
+
+passou disso, você quebra, dentro disso você assenta.
+
+Tirei da cabeça, literalmente, não tem
+
+nenhuma métrica ou nada disso.
+
+E acabou que depois o dia não tinha
+
+tanta vulnerabilidade, né, mil vulnerabilidade e tal, não.
+
+Acabou que ficou isso definido e
+
+começou a funcionar muito bem lá.
+
+Mas em empresas que o cara nunca fez SAST
+
+na vida e começa a fazer esse cão, já
+
+acha 500 vulnerabilidades, esse trecho de ele é praticamente
+
+a gente imaginar, nunca vai chegar nisso.
+
+É muito difícil resolver o backlog,
+
+fazer tudo uma análise, tudo mais.
+
+E aí eu tive outro, jogar
+
+essa discussão aqui pra vocês agora.
+
+Eu tive outro cliente que o cara falou assim, cara, a
+
+gente tem uma maturidade aqui, como é que a gente faz?
+
+Apertou o botãozinho da esteira, vai rodar
+
+o teste do SAST por exemplo.
+
+Na verdade vários testes não só de segurança, tá?
+
+Mas no final da esteira dele,
+
+aquele pacote ia ter uma nota.
+
+Vamos lá, eu não lembro.
+
+Elas são os índices deles. Ah, mas vamos lá. Dez.
+
+Carol, rodou os testes unitários, Passou
+
+tudo, então continua com 0.
+
+Olha, rodou o SAST que tem uma
+
+vulnerabilidade alta, então você ganhou ponto.
+
+Rodou S.A.
+
+Uma banana de alta, né?
+
+A questão era, no final da esteira,
+
+qual era a nota daquele pacote?
+
+Em de 0 a 3 subia direto para a produção
+
+porque passou todos os testes estava tudo bonitinho de 3
+
+a 6 ou a 7 ele ia pra uma análise.
+
+Porque cara, ó, vai ter uma aprovação manual.
+
+Porque ah, tem uma vulnerabilidade aqui, algum
+
+teste não passou ali, alguém vai ter
+
+uma decisão cara, sobe ou não sobe.
+
+E de 7 pra cima, 7 a 10, quer dizer,
+
+acumulou muitas notas ao longo dos testes, bloqueio automático.
+
+Já teve como eu falei, ou
+
+segurança, ou outros testes também.
+
+E a esteira do cara, literalmente, é vários
+
+testes várias coisas, era banco, então tinha teste
+
+de performance, testes de compras, testes de segurança,
+
+vários testes de segurança, testes de acesso, testes
+
+de acesso, enfim, muitas coisas no meio ali.
+
+E eu gostei dessa abordagem, tá?
+
+Porque ele te traz assim, cara, ele
+
+te traz préshow de pro negócio.
+
+Você definiu ele, cara, tá do 0 até três
+
+quer dizer tudo passou bonitinho passou liso vai que
+
+vai agora passou disso eu preciso avaliar ou chegou
+
+livro que quem aceitava bloqueia automaticamente alguém precisa rever
+
+esse pacote que está com muito problema.
+
+E de novo, cada ferramenta tinha peso.
+
+Como a gente colocou aqui agora. O curso S.A.
+
+É mais crítico pra gente, porque a gente imagina
+
+o Sasha nem tanto, o Dashi isso e aquilo.
+
+O que vocês acham desse contexto?
+
+Obviamente eu não posso falar quem era o cliente, quem
+
+era o banco, imagina banco muito famoso do Brasil.
+
+E não privado.
+
+Pra facilitar a vida da galera. E não privado.
+
+Facilidade demais, cara, só gosto de falar
+
+com a
+
+levada. Já tá fácil.
+
+Então assim, eles têm essa maturidade lá, obviamente
+
+não tinha detalhe de como funcionava, mas era
+
+mais ou menos isso ao longo da esteira
+
+ali acumulando notas de acordo com cada teste.
+
+Como é que vocês enxergam isso?
+
+Eu gostei muito da abordagem, Obviamente depende
+
+muito, mas o que vocês acham?
+
+Eu achei muito a maneira a questão do Score, né?
+
+E tu definir a política do score, né?
+
+Por exemplo, olha só, bro, mas se a
+
+hardcoded aqui é oito pontos, abraço pra você. É, gente.
+
+A gente vai rodar, já vai rodar na aplicação já, né?
+
+Achei bem legal, cara. Achei bem legal.
+
+E uma coisa que tu comentou, cara também
+
+que é bacana, que é o checks de
+
+segurança eles estarem ali como totalmente separado, né?
+
+Porque daí o time de segurança consegue
+
+evoluir o produto sabendo que não vai
+
+ter mais tanto atrito na esteira, né? Porque?
+
+Na esteira, tu tem várias partes e em uma
+
+empresa fumadora cara, assim ó, 100% é o Mister
+
+Agiliza por time normalmente de plataforma que vai estar
+
+tudo bonitinho e se precisar colocar ponto mais tem
+
+estudo, tem uma análise, etc.
+
+Aí você tem o ponto de intersecção.
+
+Olha, aqui eu quero checks de segurança, e eu vou tomar
+
+cerca de dez a quinze minutos, dependendo da complexidade aqui da
+
+matéria, aqui na complexidade de cada item, para definir o termo
+
+que eu vou ficar ali, Olha, a partir daqui é o
+
+ponto de intersecção, que a partir daqui eu faço tudo aqui
+
+dentro, aí aqui é minha caixinha, se eu quiser rodar 10
+
+ferramentas ao 5 a decisão é minha, só coloca ou ou
+
+na minha caixinha e eu acho que ficou legal essa questão
+
+do score Porque Como você dá score como qualquer questão de
+
+SEO, né?
+
+Por exemplo, pega o meu site, coloca o meu analisador
+
+de SEO, eu vejo lá o score, a primeira coisa
+
+saber por que eu estou com esse score.
+
+Eu não sabia já, vou estar lá ainda novo.
+
+De eu entender porque eu estou com esse score
+
+e o que está impactando o meu score, ou
+
+o que está impactando mais o meu score. Né?
+
+Aí eu vou olhar assim ah, isso aqui.
+
+Tá, ok.
+
+E aí eu começo a botar aquilo na cabeça.
+
+Cara, eu não preciso isso aqui porque eu
+
+vou tomar score 8º maior score ruim, né?
+
+8º maior score ruim.
+
+E aí acho que Acho que fica legal porque primeiro
+
+de tudo, tu não botou 8º ou seja, cara, não
+
+vai agora todo mundo aí se vira e tu tá
+
+tendo uma margem de flexibilidade para as pessoas olharem mas
+
+ao mesmo tempo isso pode virar inclusive indicador de score
+
+entre as equipes de desenvolvimento acho que isso é muito
+
+importante, porque quando gerente de dev chega assim cara, nossa
+
+Score de Segurança tá sempre zeradinho, sempre 100%, pode virar
+
+uma métrica para os gerentes de desenvolvimento apresentarem no seu
+
+final do ano, no seu quarter review
+
+I, né?
+
+É, eu acho que isso que é o mais foda, tá ligado?
+
+Porque daí tu ganha pelo menos abraço da galera. E
+
+tá linda, né?
+
+Você pode aplicar essa matriz, ela
+
+pode vir, ela pode ser corporativa.
+
+Como eu falei, de 0 a 3 sobe,
+
+de 3 a sete analisas, acima disso bloqueia.
+
+Mas isso por exemplo do banco, isso por internet
+
+banking é uma coisa, por sistema backoffce é outra.
+
+Isso é uma back office é menos ele não é tão
+
+risco, ele não é acesso direto à internet, por exemplo.
+
+Então o thresh out dele pode ser maior, né?
+
+Pode não ter análise manual, por exemplo, ele vai dentro do
+
+automático, é de 0 a 5, sobe, 6 pra cima bloqueia.
+
+Então você pode aplicar isso
+
+ainda de diferentes produtos.
+
+Como você falou, times, squads, enfim, acho
+
+que dá pra fazer essa quebra aí.
+
+Marcos, eu não sei se você lembra de que
+
+cliente é esse, a gente trabalha junto, mas
+
+o que você acha? O que
+
+você acha desse contexto aí
+
+sem falar o cliente obviamente?
+
+Não, não.
+
+É coisa boa, né?
+
+Tu pode falar, mas não
+
+vamos expor como é que os caras trabalham.
+
+Mas é tenso,
+
+exatamente.
+
+Assim, eu acho super maneiro, eu acho top pra caramba.
+
+Só que eu acho que depende de
+
+maturidade da empresa e também de você
+
+ter uma cultura de segurança nos desenvolvedores.
+
+O vendedor estarem treinados para conseguir aplicar isso
+
+aí de uma maneira prática e funcional.
+
+Então se você aí tá iniciando, vamos pensar numa
+
+empresa que tá começando agora com isso, eu acho
+
+que vai falhar, eu acho que a tendência dessa
+
+empresa não conseguir implantar isso bem, acabado existindo e
+
+partir para algum outro tipo de métrica.
+
+Agora se você já está maturando sua
+
+equipe, já está o seu time.
+
+O pessoal está estudando, está dando curso, está
+
+dando palestra, workshops, fazendo uma série de processos
+
+para quem que a maturidade de segurança e
+
+de desenvolvimento seguro com qualidade entre dentro da
+
+empresa, essa métrica vai funcionar muito melhor.
+
+Então o processo que você vai adotar para
+
+chegar nisso Vai ser o diferencial para isso
+
+funcionar ou não Então acho que tem muito
+
+disso ainda, porque igual a gente falou, a
+
+gente não acha nem profissional capacitado e percebe,
+
+imagina o desenvolvedor com desenvolvimento seguro. Né?
+
+Mas tem que ser isso, né?
+
+Eu deveria aprender a conviver com isso já.
+
+Então, para banco ali que já está 60 anos, 70
+
+anos, já pensando em segurança muito antes das empresas comuns,
+
+é sistema que funciona bem e vai ter uma tendência
+
+funcionar melhor a empresa que já tem essa maturidade.
+
+Vão ter uma tendência a falhar até conseguir
+
+chegar nesse nível de maturidade mais alto.
+
+Eu vejo esse modelo, ele tem uma grande desvantagem.
+
+Se enxergaram alguma coisa nesse modelo de notas e tal?
+
+Cara, eu cheguei uma desvantagem que na minha
+
+visão não sei se é essa que você
+
+vai falar, que é basicamente você estar botando
+
+ali os scanners separados aumentando pode ser.
+
+Não sei se é só isso também.
+
+Pode ser, mas não era essa?
+
+Bemurdel, algumas desvantagens de
+
+se encherem nesse contexto.
+
+O tempo de esteira eu consideraria ele de acordo com a
+
+questão cidade do do cara que a gente tá fazendo, saca?
+
+Porque vou dar exemplo.
+
+Tem vez que a gente tem em Gemoji.
+
+Entendo as questões, né?
+
+Então o cara não tem nada pior
+
+do que você passar uma remode.
+
+E depois tomar Block na no CEC.
+
+Cara, não tem nada pior, porque vai passar por
+
+todo esse fucking processo de novo, tá ligado?
+
+É chato.
+
+Então assim.
+
+Isso é foda.
+
+É, isso é bem foda.
+
+Então em alguns lugares, principalmente se tem CSI e
+
+DSS, dificilmente está fugindo de gemova de vai fugir
+
+de bordo de aprovação, vai fugir de processo de
+
+agriment do que está subindo, do que não está,
+
+vai subir de processo de roubar né?
+
+Porque eu acho que isso é uma questão interessante, né?
+
+A gente às vezes vê a questão evolutiva e
+
+depois não precisa de robe que a gente não
+
+tem os mesmos checks de segurança, né?
+
+Do rollback ali, né?
+
+Porque, por exemplo, o que acontece?
+
+A gente tá com uma falha de segurança, né?
+
+Algum problema, ou uma versão que tá com problema de
+
+segurança, aí vai subir uma versão que tem vários fixes
+
+de produto em geral mas também tem a falha de
+
+segurança aí ela sobe, aí dá pau em alguma questão
+
+que era do produto, tomou o rollback e o bagulho
+
+de segurança vulgabilidade de volta,
+
+continua lá. Então,
+
+o que eu entendo é que hoje O maior
+
+ponto que dói assim é o tempo, a maturidade
+
+aplicada no começo ela é muito desgastante.
+
+Mas ela vai evoluindo.
+
+E aí eu acho que tem poucas empresas,
+
+a gente em geral precisa se acostumar a
+
+crescer ser nessa dor da maturidade, sabe?
+
+Eu acho que hoje a gente toma uma decisão muito
+
+precipitada com os dados que a gente tem, não precisa
+
+amadurecer, acho que isso é Mas não achou?
+
+Boa.
+
+Só pra gente encerrar aqui o ponto que
+
+eu queria comentar de desvantagem desse modelo de
+
+score é as ferramentas que tu usa.
+
+Imagina como é que você tá na pipeline,
+
+imagina você pega coletar a saída de uma
+
+ferramenta, puts, não tem vulnerabilidade, é 0.
+
+Puta tem, então é é dois, né?
+
+Onde você vai montar essa
+
+matriz para classificar essas notas.
+
+Então depende da ferramenta que está usando, como é
+
+que você faz essa análise do resultado final, a
+
+ferramenta X no exporta JSON, A ferramenta isso não
+
+tem CLI, eu só consigo integrar na API.
+
+Então até você construir esse Score que é muito
+
+louco na teoria, dependendo da ferramenta que você tem,
+
+vai te dar uma dor de cabeça.
+
+Não do lado do CI, né?
+
+Cara, Jenkins, sei que você é qualquer cara
+
+desses aí, você faz script, faz qualquer coisa.
+
+Mas as ferramentas de segurança em si, as ferramentas de
+
+teste que tá rodando, os output delas, e como é
+
+que cê vai capturar tudo isso pra montar o seu
+
+score no meu final, é a desvantagem.
+
+Isso não existe automaticamente.
+
+Alguém tem que construir isso.
+
+Então a ideia é muito boa, mas é uma desvantagem.
+
+Você tem que construir isso.
+
+A dor não dá o amadurecimento, né?
+
+Descolocar esse modelo ali dentro, o modelo acho que
+
+por si só ele se vende muito bem, né?
+
+Esse mesmo score tem uma coisa que eu acho que
+
+foi muito bacana que é esse próprio score e o
+
+porquê dos score podem virar indicadores de treinamento podem virar
+
+indicadores de olha cara vamos focar aqui né olha esse
+
+produto é fácil vincular né qual que é o risco
+
+desse produto, a de 0 a 10 ele é 9,
+
+então aqui o score desse cara aceitava a segurança X,
+
+ele faz a taxa de conversão sacar, e facilita a
+
+criação de políticas dentro da empresa, né?
+
+Porque você ancora nas coisas.
+
+Então, isso acho que é maneiro, mas com certeza.
+
+Imagina assim, aí tu pega uma empresa tem
+
+uma boa governança de software, olha, aqui é
+
+só X linguagem de programação, X Frameworks.
+
+Tem outras empresas, velho, que é fácil que
+
+tu queres, pois é tudo da lei.
+
+Que inevitavelmente até tu descobrir qual que
+
+é a melhor SAST para irlang. Isso
+
+esquece, né?
+
+Vários tempos
+
+de maturidade brother, entendeu?
+
+Eu tô apressada muitas vezes.
+
+Porque imagina, se o cara é de upsec, se tiver
+
+o cara conseguiu olhar todos cara paga salário de presidente
+
+para esse cara porque você já vai Nas ferramentas, todas
+
+as linguagens, todas as nossas redes, vamos lá, cara.
+
+É verdade.
+
+Possível, né?
+
+Então vai precisar de alguém, de outro
+
+lado, pra te ajudar nisso, né?
+
+Apesar de não ser programa bom, de ser
+
+time que pode te ajudar na análise pra
+
+tu construir em conjunto e não tomar todo.
+
+Não, não, agora isso aqui é só
+
+comigo e saiu o que fazer isso.
+
+Boa!
+
+Tem tema bom, tem passa rápido, mas chegou ao fim,
+
+que deu para elucidar que não quebra não quebra não
+
+chega a uma conclusão acho que tem maturidade tem empresa
+
+empresa tem negócio negócio maturidade de equipe, enfim.
+
+Então acho que vale você analisar na sua
+
+empresa o que você quer fazer, como você
+
+quer fazer, isso faz sentido você fazer.
+
+Às vezes como segurança, eu quero quebrar.
+
+Mas cara, você tá num ecommerce que vende borda
+
+de gude, mas vai quebrar a build pra quê?
+
+Deixa o boca ficar no ar
+
+vendendo, algumas religiões já eram.
+
+Agora você tá numa estrutura crítica, né?
+
+Ou num banco e tal, então o teu negócio
+
+te dar esse insight natural de como você tem
+
+que talvez até conduzir essas coisas, vir como conclusão,
+
+a gente pode chegar nesse contexto.
+
+Então é isso que é mandar
+
+aí, que é mandar beijinho, agradecimentos,
+
+pessoas mais ou menos eu tô obrigado por
+
+me dar oportunidade de fazer parte do teste
+
+aqui queria agradecer imensamente vocês para essa oportunidade
+
+inclusive por poder estar aqui junto com vocês
+
+vendo essas visões assim porque acho que agrega
+
+demais mano agrega demais a gente aprende demais
+
+enriquece bastante
+
+Obrigado, vamos
+
+juntos, vamos juntos falar em Marcos,
+
+tá bom.
+
+Só pedir pessoal, por favor, compartilhar isso aí pra
+
+para quem está tendo dificuldade com o quebra de
+
+briga que quer entender pouquinho mais de esteiras, porque
+
+o assunto foi bom, queríamos falar mais, mas temos
+
+o tempo limitado com os UFOs horários e tudo
+
+mais, mas é tema top pra caramba que é
+
+legal de discutir ter a presença de dois mestres
+
+aqui, duas pessoas excepcionais, ajuda bastante.
+
+Boa, boa.
+
+Quero ter cinema pessoal, mais uma vez das boas vindas,
+
+o Benjour que está se juntando ao elenco aqui, então
+
+uma hora a ele, o autor é o Marcos, o
+
+autor é o Rodrigo Gabriel, cada hora a gente grava
+
+com o que o importante é que deve ser aquela
+
+podcast não para de trazer conteúdo pra galera e pra
+
+enriquecer o mundo do jepsec tá precisando bastante.
+
+Então esse foi o episódio ceptogésimo, quadragésimo, deve
+
+ser o que eu acho que é o
+
+podcast de quarta temporada, 28 da quarta temporada.
+
+A gente vai por aqui.
+
+Se tiver semana que vem, eu sou o Carlos Pereira.
+
+Eu sou o Bangor e eu sou o Marcos Santos.
+
+Beijo galera, a gente vê na semana que vem.
+
+Valeu, pessoal. Beijo.
+
+Termina aqui, deve ser copos, deve ser copos,
+
+o seu podcast de segurança e tecnologia.
+

@@ -1,0 +1,4259 @@
+1
+00:00:01,359 --> 00:00:04,298
+E inovação, tecnologia, desenvolvimento.
+
+2
+00:00:08,564 --> 00:00:09,924
+DEVE SECOUNT,
+
+3
+00:00:09,925 --> 00:00:12,383
+o seu podcast de segurança em tecnologia.
+
+4
+00:00:20,618 --> 00:00:22,337
+Fala pessoal, tudo bem com vocês?
+
+5
+00:00:22,338 --> 00:00:26,514
+Sejam muito bemvindos a mais mais deve ser
+
+6
+00:00:26,515 --> 00:00:30,432
+copypodcast mais porque estamos no episódio eu não
+
+7
+00:00:30,433 --> 00:00:32,351
+sei falar esse número nessa ordem mas é
+
+8
+00:00:32,352 --> 00:00:34,439
+o cento e quarenta Cepilagésimo, quadrangésimo.
+
+9
+00:00:35,858 --> 00:00:36,378
+Boa!
+
+10
+00:00:36,379 --> 00:00:37,398
+Tô ficando esperto.
+
+11
+00:00:38,017 --> 00:00:40,316
+Cepilagésimo e com o óleo.
+
+12
+00:00:41,414 --> 00:00:44,133
+Que é o 28º da quarta temporada.
+
+13
+00:00:44,134 --> 00:00:46,012
+Cara, quatro anos já fazendo isso aqui e
+
+14
+00:00:46,013 --> 00:00:48,519
+hoje a gente tem uma novidade bacana, que
+
+15
+00:00:48,520 --> 00:00:51,478
+foi o nosso convidado do episódio passado, episódio
+
+16
+00:00:51,479 --> 00:00:53,557
+27, pra gente falar de apseque ali no
+
+17
+00:00:53,558 --> 00:00:55,876
+alto nível, inclusive tem feedback muito bacana.
+
+18
+00:00:55,877 --> 00:00:56,715
+Contratamos.
+
+19
+00:00:56,716 --> 00:00:59,614
+Cara, contra já pagamos bônus adiantados
+
+20
+00:01:01,313 --> 00:01:02,792
+para você contratar o cara não
+
+21
+00:01:02,793 --> 00:01:05,651
+pagar meus salários desde a segunda
+
+22
+00:01:06,629 --> 00:01:07,829
+nas más notícias depois.
+
+23
+00:01:07,830 --> 00:01:08,868
+Não precisa falar nada agora ou
+
+24
+00:01:08,869 --> 00:01:10,148
+não, depois você fala pro cara.
+
+25
+00:01:10,149 --> 00:01:12,147
+Mas, beer, seja bemvindo aí, agora vamos
+
+26
+00:01:12,148 --> 00:01:14,345
+gravar recorrente aqui no DevCore Podcast, pessoas
+
+27
+00:01:14,346 --> 00:01:15,954
+já te conhecem do episódio passado.
+
+28
+00:01:15,955 --> 00:01:18,393
+Mas seja bemvinda oficialmente aí pra gente começar a
+
+29
+00:01:18,394 --> 00:01:21,312
+gravar e trazer o conteúdo enriquecer ainda mais né,
+
+30
+00:01:21,313 --> 00:01:23,071
+acho que deve ser qualquer podcast também é a
+
+31
+00:01:23,072 --> 00:01:24,979
+tua com a tua jornada, enfim.
+
+32
+00:01:24,980 --> 00:01:27,697
+Fala umas palavras aí de boas vindas, pessoal.
+
+33
+00:01:27,698 --> 00:01:28,817
+E aí, pessoas, beleza?
+
+34
+00:01:28,818 --> 00:01:29,856
+Aqui é o Benjure, eu
+
+35
+00:01:29,857 --> 00:01:33,253
+fico extremamente agradecido pela oportunidade.
+
+36
+00:01:33,254 --> 00:01:35,372
+Eu gostei muito daquele pagamento de duas pizzas
+
+37
+00:01:35,373 --> 00:01:37,291
+por semana chegando às vezes no geral, vai
+
+38
+00:01:37,292 --> 00:01:38,791
+me ajudar a manter o físico.
+
+39
+00:01:39,699 --> 00:01:42,278
+Que está em forma geométrica, redonda ali.
+
+40
+00:01:44,017 --> 00:01:46,416
+E mais uma vez, obrigado, Ricardo,
+
+41
+00:01:46,417 --> 00:01:47,754
+uma arte né, o Rodrigo também.
+
+42
+00:01:47,755 --> 00:01:51,272
+Então, não pode estar aqui hoje, mas Fico muito feliz
+
+43
+00:01:51,273 --> 00:01:53,031
+que a gente possa seguir por aí, porque, poxa, a
+
+44
+00:01:53,032 --> 00:01:56,509
+gente tem assunto para carai pra frente, né?
+
+45
+00:01:56,510 --> 00:01:57,509
+Brigadão mesmo.
+
+46
+00:01:57,510 --> 00:01:59,388
+Bom, seja bemvindo mais uma vez, então, o que
+
+47
+00:01:59,389 --> 00:02:01,107
+não falta é assunto mesmo, não é verdade?
+
+48
+00:02:01,108 --> 00:02:02,986
+Então vamos lá, antes de falar do assunto de hoje,
+
+49
+00:02:02,987 --> 00:02:04,934
+eu queria falar que deve ser que você pode questionar
+
+50
+00:02:04,935 --> 00:02:07,173
+o apoio da Checkmates da nova 8 que são especializadas
+
+51
+00:02:07,174 --> 00:02:09,052
+em segurança e sistemas e códigos seguros.
+
+52
+00:02:09,053 --> 00:02:10,971
+O link da nova 8 que é a distribuidora da
+
+53
+00:02:10,972 --> 00:02:13,459
+Checkmates no Brasil está abaixo aqui na descrição episódios no
+
+54
+00:02:13,460 --> 00:02:15,359
+YouTube e também no meu site deve serclosspodcast.com.br.
+
+55
+00:02:16,938 --> 00:02:18,577
+Tá buscando soluções de apsek?
+
+56
+00:02:18,578 --> 00:02:21,554
+A Digital Huck tem portfólio completo pra você.
+
+57
+00:02:21,555 --> 00:02:23,793
+A Gold Security, que é especializada em backend
+
+58
+00:02:23,794 --> 00:02:25,952
+Security, que é desenvolver software seguro, fale com
+
+59
+00:02:25,953 --> 00:02:28,351
+a Gold Security, seus melhores serviços para vocês.
+
+60
+00:02:28,352 --> 00:02:30,968
+E O OnlySackfans, que é o seu clube de
+
+61
+00:02:30,969 --> 00:02:36,406
+Application Security, conteúdo semanal, conteúdo exclusivo só para assinantes,
+
+62
+00:02:36,407 --> 00:02:40,134
+assine agora apenas 2990 no plano anual e o
+
+63
+00:02:40,135 --> 00:02:42,373
+negócio é o seguinte cara episódio de hoje é
+
+64
+00:02:42,374 --> 00:02:46,879
+só uma interrupção aborrecimento simples bloqueio ou uma forma
+
+65
+00:02:46,880 --> 00:02:50,517
+responsável automática e eficaz de evitar cagadas alheias.
+
+66
+00:02:50,518 --> 00:02:51,637
+No episódio de hoje a gente
+
+67
+00:02:51,638 --> 00:02:53,776
+vai falar sobre quebra de build.
+
+68
+00:02:54,684 --> 00:02:58,842
+Tema polêmica, eu já quebra ou não quebra?
+
+69
+00:02:58,843 --> 00:03:00,182
+Quebra, build ou não quebra?
+
+70
+00:03:00,761 --> 00:03:02,741
+Será que a gente não quer falar de política?
+
+71
+00:03:04,499 --> 00:03:12,314
+É menos treta do que a quebra de build.
+
+72
+00:03:12,315 --> 00:03:13,574
+E aí, quebra, não quebra.
+
+73
+00:03:16,073 --> 00:03:16,733
+Ah, cara.
+
+74
+00:03:17,312 --> 00:03:18,891
+Só pouco depois de corrigir.
+
+75
+00:03:19,751 --> 00:03:21,370
+Eu vou estar respondendo, moleque.
+
+76
+00:03:23,948 --> 00:03:27,466
+Vamos construir a resposta vamos construir a resposta então vamos
+
+77
+00:03:27,467 --> 00:03:31,984
+lá o que que vocês acham de empresas que pedem,
+
+78
+00:03:32,683 --> 00:03:34,842
+geralmente eu já vi né, já trabalhei em alguns lugares
+
+79
+00:03:34,843 --> 00:03:36,521
+que a pessoa falava sempre o tipo de segurança, eu
+
+80
+00:03:36,522 --> 00:03:38,859
+quero que quebra a pipeline, quero que quebra o meu
+
+81
+00:03:38,860 --> 00:03:40,938
+build, quero que errompa o meu processo.
+
+82
+00:03:40,939 --> 00:03:42,637
+O que vocês acham dessa abordagem?
+
+83
+00:03:43,337 --> 00:03:45,234
+Ou do contrário.
+
+84
+00:03:45,235 --> 00:03:46,874
+Não pode quebrar nada, não pode quebrar
+
+85
+00:03:46,875 --> 00:03:48,653
+a build porque vai atrapalhar as entregas.
+
+86
+00:03:49,552 --> 00:03:51,152
+Como é que vocês enxergam isso?
+
+87
+00:03:51,153 --> 00:03:52,631
+Vou começar a ordem alfabética?
+
+88
+00:03:52,632 --> 00:03:54,530
+Bayour depois do Marcos, pode ser?
+
+89
+00:03:55,139 --> 00:03:56,259
+Fechou? Bora aí?
+
+90
+00:03:56,260 --> 00:03:58,698
+Bora aí. Cara, olha só.
+
+91
+00:03:58,699 --> 00:04:01,256
+Eu acho que esse desejo de Ah,
+
+92
+00:04:01,257 --> 00:04:02,876
+eu quero que quebre o build.
+
+93
+00:04:03,634 --> 00:04:07,512
+Na minha visão ele é desejo de atingir nível
+
+94
+00:04:07,513 --> 00:04:11,191
+de maturidade muito mais do que querer atingir ah
+
+95
+00:04:11,192 --> 00:04:14,239
+eu quero sim ou não, Por exemplo, eu quero
+
+96
+00:04:14,240 --> 00:04:16,557
+que a minha paleta de cores tenha verde.
+
+97
+00:04:16,558 --> 00:04:20,014
+Na qual tu sai do ponto 0 definindo uma coisa, né?
+
+98
+00:04:20,015 --> 00:04:22,853
+Eu acho que é desejo no ponto de vista de maturidade.
+
+99
+00:04:22,854 --> 00:04:24,572
+Então, por exemplo, eu quero
+
+100
+00:04:24,573 --> 00:04:27,029
+realmente que quebre o build.
+
+101
+00:04:27,030 --> 00:04:29,188
+Ok, show de bola e entendi o teu desejo.
+
+102
+00:04:29,189 --> 00:04:32,227
+Acho que a partir daí o profissional, o Japsek, a
+
+103
+00:04:32,228 --> 00:04:35,065
+área Japsek, ele tem que entender e fazer o estudo
+
+104
+00:04:35,066 --> 00:04:38,723
+e, digamos, fazer o desenho de arquitetura do que é
+
+105
+00:04:38,724 --> 00:04:42,361
+necessário para atingir esse plano de maturidade.
+
+106
+00:04:42,362 --> 00:04:43,061
+Por quê?
+
+107
+00:04:43,769 --> 00:04:45,469
+O que é esse ponto de maturidade?
+
+108
+00:04:46,008 --> 00:04:50,606
+Eu entendi a ação que eu quero quando eu
+
+109
+00:04:50,607 --> 00:04:54,234
+quero ela porque eu quero ela e eu ter
+
+110
+00:04:54,235 --> 00:04:57,692
+visibilidade dos impactos da minha tomada de decisão.
+
+111
+00:04:59,831 --> 00:05:02,109
+Poxa, me que tá quebrando a build, agora eu quebrei
+
+112
+00:05:02,110 --> 00:05:04,907
+a build e aí quando dá problema que é conhecido
+
+113
+00:05:04,908 --> 00:05:08,524
+de Cara, o time de desenvolvimento não tá conseguindo tocar
+
+114
+00:05:08,525 --> 00:05:12,023
+correções no termo que a gente precisa e isso está
+
+115
+00:05:12,562 --> 00:05:16,929
+minando a força de trabalho da empresa para disponibilizar novos
+
+116
+00:05:16,930 --> 00:05:20,247
+negócios no começo, até te responder uma atividade, não ser
+
+117
+00:05:20,248 --> 00:05:23,326
+tão dolorido, ou não custar a cabeça, muitas vezes, de
+
+118
+00:05:23,327 --> 00:05:25,664
+alguém tomou essa decisão que quebrar o vídeo a partir
+
+119
+00:05:25,665 --> 00:05:26,244
+de amanhã.
+
+120
+00:05:28,862 --> 00:05:30,970
+Boa boa, deixei no mudo onde está falando.
+
+121
+00:05:31,849 --> 00:05:33,848
+Boa, gostei dessa ideia aí do qual é o
+
+122
+00:05:33,849 --> 00:05:35,927
+meu ponto 0, por que eu quero fazer isso,
+
+123
+00:05:35,928 --> 00:05:38,146
+não simplesmente eu vou quebrar e não vou quebrar.
+
+124
+00:05:38,654 --> 00:05:41,453
+Gostei da construção, vamos segurar esse pedacinho.
+
+125
+00:05:41,454 --> 00:05:42,832
+Marcos, o que você acha?
+
+126
+00:05:43,692 --> 00:05:46,690
+Cara, eu acho que igual o senhor falou, depende muito
+
+127
+00:05:46,691 --> 00:05:49,748
+da má autoridade da empresa, eu acho que não adianta
+
+128
+00:05:49,749 --> 00:05:53,067
+o cara começou hoje, sabe o seguro acidente da empresa,
+
+129
+00:05:53,068 --> 00:05:56,054
+começou a fazer psek, já querer quebrar o build, isso
+
+130
+00:05:56,055 --> 00:05:58,652
+não vai funcionar, isso vai dar trabalho, o desenvolvedor vai
+
+131
+00:05:58,653 --> 00:06:01,211
+ficar puto da vida, nem vai pedir demissão, você não
+
+132
+00:06:01,212 --> 00:06:02,690
+vai conseguir entregar mais nada.
+
+133
+00:06:03,689 --> 00:06:09,686
+Assim que acontece, mas depende da maturidade da empresa e
+
+134
+00:06:09,687 --> 00:06:12,544
+depende da onde a empresa quer chegar com isso.
+
+135
+00:06:12,545 --> 00:06:17,902
+Não adianta ela quebrar ali vulnerabilidades, tendo poucas vulnerabilidades, não
+
+136
+00:06:17,903 --> 00:06:20,959
+faz sentido, mas fácil, o Open falou, colocar isso em
+
+137
+00:06:20,960 --> 00:06:24,198
+uma fila ou colocar isso em outro lugar ali backlog
+
+138
+00:06:24,199 --> 00:06:26,956
+para correção do que você quebrar a quebra de build
+
+139
+00:06:26,957 --> 00:06:28,635
+acho que vai ser mais eficaz a partir do momento
+
+140
+00:06:28,636 --> 00:06:31,494
+que você já tem mapeado Você sabe dos problemas, não
+
+141
+00:06:31,495 --> 00:06:34,732
+está sendo corrigido E você já tem uma maturidade suficiente
+
+142
+00:06:34,733 --> 00:06:38,299
+e fala Ó, tem 50 raios aqui, tem 50 altos
+
+143
+00:06:38,300 --> 00:06:41,658
+eu não quero gerar a 51 então eu faço a
+
+144
+00:06:41,659 --> 00:06:44,896
+quebra ali para não gerar novas vulnerabilidades enquanto eu faço
+
+145
+00:06:44,897 --> 00:06:48,754
+tratativo do backlog Aí sim eu acho que faz sentido
+
+146
+00:06:48,755 --> 00:06:51,552
+porque seus desenvolvedores não tem a cultura, sua empresa não
+
+147
+00:06:51,553 --> 00:06:54,931
+tem cultura, você precisa quebrar para não gerar coisas novas.
+
+148
+00:06:56,049 --> 00:06:58,128
+Mas já chegar querendo quebrar ali, acho
+
+149
+00:06:58,129 --> 00:07:01,407
+que é pesadelo, aí o Jacquin vai
+
+150
+00:07:01,408 --> 00:07:03,946
+entrar lá, vai quebrar tudo, não rola.
+
+151
+00:07:04,925 --> 00:07:07,274
+Boa, boa, eu acho que eu compartilho pouco
+
+152
+00:07:07,275 --> 00:07:10,352
+da opinião de vocês, mas eu acrescentaríamos terceiro
+
+153
+00:07:10,353 --> 00:07:13,089
+fator aí também, segundo o terceiro fator, que
+
+154
+00:07:13,090 --> 00:07:15,269
+talvez seja a criticidade do próprio negócio.
+
+155
+00:07:16,088 --> 00:07:16,768
+Por que isso?
+
+156
+00:07:16,769 --> 00:07:20,006
+Eu trabalhei, eu trabalhei em ecommerces, por exemplo, que
+
+157
+00:07:20,007 --> 00:07:22,034
+o foco era vender e estar no ar.
+
+158
+00:07:22,035 --> 00:07:23,874
+O foco não era se preocupar com risco de
+
+159
+00:07:23,875 --> 00:07:26,192
+segurança, por mais que esse risco fosse crítico, sei
+
+160
+00:07:26,193 --> 00:07:28,071
+lá, a chama que eu ia SQL Injection na
+
+161
+00:07:28,072 --> 00:07:31,719
+página de pesquisa, cara, negócio assim, de escancarado, simples,
+
+162
+00:07:31,720 --> 00:07:33,238
+o cara chega numa quantidade.
+
+163
+00:07:33,239 --> 00:07:34,438
+Beleza, o importante é estar
+
+164
+00:07:34,439 --> 00:07:35,698
+no ar as pessoas comprando.
+
+165
+00:07:36,237 --> 00:07:40,035
+Então o negócio tinha entendido que o risco era
+
+166
+00:07:40,036 --> 00:07:44,703
+aceitável, ia fazer deploy, ia subir produção, independente de
+
+167
+00:07:44,704 --> 00:07:47,461
+qualquer coisa, e qualquer coisa que fosse encontrada, crítica
+
+168
+00:07:47,462 --> 00:07:49,820
+ou não, aí entrava no processo de gestão de
+
+169
+00:07:49,821 --> 00:07:52,249
+vulnerabilidades, esse crítico, pra ver se corrige hoje, pra
+
+170
+00:07:52,250 --> 00:07:53,648
+ver se corrige amanhã, pra ver se vai com
+
+171
+00:07:53,649 --> 00:07:55,167
+backlog e tudo mais.
+
+172
+00:07:55,168 --> 00:07:57,286
+Hoje, por exemplo, eu trabalho numa empresa que
+
+173
+00:07:57,287 --> 00:08:00,574
+entrega software de infraestrutura crítica, vai, sei lá,
+
+174
+00:08:00,575 --> 00:08:03,053
+o software vai controlar uma fábrica de carro,
+
+175
+00:08:03,054 --> 00:08:07,311
+uma montadora, vai controlar uma empresa de energia,
+
+176
+00:08:07,970 --> 00:08:11,458
+usina, então é impacto pouco maior.
+
+177
+00:08:11,459 --> 00:08:15,496
+Então neste contexto, o negócio não aceita que vulnerabilidades
+
+178
+00:08:15,497 --> 00:08:18,634
+altas e críticas, dependeram de contas até médias, e
+
+179
+00:08:18,635 --> 00:08:20,633
+que elas estejam no software, por mais que não
+
+180
+00:08:20,634 --> 00:08:22,952
+tem impacto de negócio, elas não podem estar lá.
+
+181
+00:08:22,953 --> 00:08:24,671
+Não é impacto de negócio até outra coisa.
+
+182
+00:08:24,672 --> 00:08:26,310
+Putz, tem heap inspecion aqui.
+
+183
+00:08:26,311 --> 00:08:28,319
+Ah, mas vai pegar uma senha do negócio que
+
+184
+00:08:28,320 --> 00:08:30,678
+não vale nada, não interessa, é uma senha, vai
+
+185
+00:08:30,679 --> 00:08:33,297
+gerar risco x, não é pra estar lá.
+
+186
+00:08:33,836 --> 00:08:36,834
+Então o negócio Eu acho que deveria
+
+187
+00:08:36,835 --> 00:08:39,133
+drivar, se é que existe esse verbo.
+
+188
+00:08:39,872 --> 00:08:43,549
+O negócio deveria drivar nesse sentido de meu.
+
+189
+00:08:43,550 --> 00:08:47,068
+Ó a gente trabalha exemplo clássico né fazendo
+
+190
+00:08:47,069 --> 00:08:49,986
+uma analogia aqui não pode faltar energia no
+
+191
+00:08:49,987 --> 00:08:52,784
+hospital Então o hospital tem gerador, porque as
+
+192
+00:08:52,785 --> 00:08:54,863
+pessoas estão na UTI, dependendo da máquina de
+
+193
+00:08:54,864 --> 00:08:57,621
+respiração, de pressão, de coração, sei lá.
+
+194
+00:08:57,622 --> 00:09:00,350
+Ou o cara está na cirurgia lá, acaba a luz, putz,
+
+195
+00:09:00,351 --> 00:09:02,428
+aí daqui a pouco volta a luz que termina essa energia.
+
+196
+00:09:02,429 --> 00:09:03,068
+Não existe isso.
+
+197
+00:09:03,069 --> 00:09:05,667
+Então tem que ter gerador de alta, umas
+
+198
+00:09:05,668 --> 00:09:09,294
+de eletricidade, mas alta potência, ultra disponibilidade, bla
+
+199
+00:09:09,295 --> 00:09:12,373
+bla bla porque é inaceitável, né? O que fala?
+
+200
+00:09:12,374 --> 00:09:14,172
+Acho que é isso mesmo, inaceitável
+
+201
+00:09:14,173 --> 00:09:16,131
+ficar sem energia naquele contexto.
+
+202
+00:09:16,132 --> 00:09:18,370
+Em compensação no bar, a esquina
+
+203
+00:09:18,371 --> 00:09:19,409
+Tudo bem se acabar a energia.
+
+204
+00:09:19,410 --> 00:09:21,648
+O cara não vai comprar gerador, o outro, né?
+
+205
+00:09:21,649 --> 00:09:24,327
+É mais caro que o negócio dele. Entende?
+
+206
+00:09:24,328 --> 00:09:28,343
+Então, acho que o negócio ele drive esse baseline.
+
+207
+00:09:28,344 --> 00:09:30,102
+Cara, aqui a gente quebra build por
+
+208
+00:09:30,103 --> 00:09:32,042
+isso, porque a gente tinha negócio crítico.
+
+209
+00:09:32,941 --> 00:09:34,680
+Ou outro negócio, cara, não.
+
+210
+00:09:34,681 --> 00:09:37,118
+A gente não quebra porque a gente não é negócio crítico
+
+211
+00:09:37,119 --> 00:09:41,396
+mesmo que aquele negócio que irá quebrar né o exemplo do
+
+212
+00:09:41,397 --> 00:09:43,195
+ecommerce que eu falei ah agora a gente ia começar a
+
+213
+00:09:43,196 --> 00:09:46,563
+quebrar o build aí entre esses pedaços que o Baillie falou
+
+214
+00:09:46,564 --> 00:09:48,802
+e que o Marcos Complementou da maturidade.
+
+215
+00:09:48,803 --> 00:09:50,801
+Cara, beleza, seu negócio não é crítico,
+
+216
+00:09:50,802 --> 00:09:52,360
+mas você quer quebrar build, beleza.
+
+217
+00:09:52,361 --> 00:09:54,290
+Então como que a gente vai fazer isso?
+
+218
+00:09:54,291 --> 00:09:57,088
+Aí entra na minha segunda pergunta agora
+
+219
+00:09:57,089 --> 00:09:58,048
+segurança
+
+220
+00:09:58,049 --> 00:10:00,267
+tecnologia deve ser copos
+
+221
+00:10:00,926 --> 00:10:03,824
+como que a gente faz como é que a gente chega
+
+222
+00:10:03,825 --> 00:10:06,183
+E eu acho que o Beer podia começar essa resposta.
+
+223
+00:10:06,184 --> 00:10:08,222
+Ele falava, a gente sai de 1.0 até algum
+
+224
+00:10:08,223 --> 00:10:09,981
+lugar do porquê que eu quero fazer isso.
+
+225
+00:10:09,982 --> 00:10:12,250
+Então, beleza, decidi que quero.
+
+226
+00:10:12,251 --> 00:10:14,209
+Porque eu quero melhorar a qualidade do meu
+
+227
+00:10:14,210 --> 00:10:18,526
+negócio, eu quero melhorar o nível de exposição,
+
+228
+00:10:18,527 --> 00:10:20,586
+não quero estar tão exposto com tantas vulnerabilidades,
+
+229
+00:10:21,095 --> 00:10:22,854
+e enxerguei isso na sequência de maturidade.
+
+230
+00:10:22,855 --> 00:10:24,413
+Saí do 0, tô indo para o nível 1.
+
+231
+00:10:24,414 --> 00:10:25,932
+Como é que eu faço isso agora?
+
+232
+00:10:25,933 --> 00:10:26,852
+Como é que eu começo?
+
+233
+00:10:26,853 --> 00:10:28,991
+Sair do ponto A e ir nesse ponto B?
+
+234
+00:10:32,088 --> 00:10:36,406
+Essa é a maneira porque ela abre abre o mundo
+
+235
+00:10:36,407 --> 00:10:38,725
+de pecinha de Lego, digamos assim, em cima da mesa
+
+236
+00:10:38,726 --> 00:10:40,804
+e agora tem que definir ok o que que eu
+
+237
+00:10:40,805 --> 00:10:44,262
+preciso pegar aqui para mim que é mais crítico né
+
+238
+00:10:45,401 --> 00:10:48,120
+primeiro de tudo acho que é traçar roadmap de duas
+
+239
+00:10:48,121 --> 00:10:52,358
+coisas Que riscos eu tenho aqui dentro?
+
+240
+00:10:52,359 --> 00:10:55,476
+Que são imediatamente direcionados a quebrar build, né?
+
+241
+00:10:55,477 --> 00:10:57,515
+Porque eu não vou pegar risco de fraude que
+
+242
+00:10:57,516 --> 00:10:59,564
+eu não consigo automatizar usar dentro da minha esteira
+
+243
+00:10:59,565 --> 00:11:02,443
+para quebrar, então beleza, dentro desse contexto de olha.
+
+244
+00:11:02,444 --> 00:11:04,202
+O que a gente consegue resolver dentro
+
+245
+00:11:04,203 --> 00:11:06,281
+da esteira, de desenvolvimento ali, né?
+
+246
+00:11:06,282 --> 00:11:08,199
+Dentro do nosso CI digamos assim.
+
+247
+00:11:08,200 --> 00:11:10,558
+Quem eu vou se criar action para resolver isso?
+
+248
+00:11:10,559 --> 00:11:14,776
+Dentro daquilo, quais são os principais riscos que a gente tem,
+
+249
+00:11:15,554 --> 00:11:18,673
+que detona o nosso negócio e aí a gente começa a
+
+250
+00:11:18,674 --> 00:11:21,191
+tem até meia base assim que ah não sei como é
+
+251
+00:11:21,192 --> 00:11:25,109
+que eu faço minha visão Cara, primeiro de tudo, uma coisa
+
+252
+00:11:25,110 --> 00:11:29,107
+que é o mais simples, secret detection, se você não tem,
+
+253
+00:11:29,108 --> 00:11:34,993
+então Primeiro de tudo ser capaz de entender se tem alguma
+
+254
+00:11:34,994 --> 00:11:39,990
+coisa vazando que dê acesso à sua infraestrutura, a alguma plataforma,
+
+255
+00:11:39,991 --> 00:11:41,250
+alguma coisa em geral.
+
+256
+00:11:41,899 --> 00:11:43,339
+Que você tenha conhecimento de
+
+257
+00:11:43,340 --> 00:11:45,278
+onde estão as coisas, né?
+
+258
+00:11:46,017 --> 00:11:52,444
+Depois, agora começa o padrãozinho de eu tenho risco,
+
+259
+00:11:52,445 --> 00:11:55,322
+eu defino motivo de mitigação, depois a gente pode
+
+260
+00:11:55,323 --> 00:11:57,961
+dar lip dive em cada assim, né?
+
+261
+00:11:57,962 --> 00:12:05,567
+Mas segredos SA, SAST, depois o DAST ou ASP
+
+262
+00:12:05,568 --> 00:12:08,386
+ou NAST, enfim, a gente vai subindo na cadeia.
+
+263
+00:12:09,294 --> 00:12:13,173
+A questão que eu levaria muito em consideração
+
+264
+00:12:13,174 --> 00:12:17,210
+nesse ponto é entender os Kikiwins dessa implementação.
+
+265
+00:12:17,211 --> 00:12:18,390
+O que eu digo Kikiwins?
+
+266
+00:12:19,199 --> 00:12:24,197
+Que eu consigo implementar que eu consigo
+
+267
+00:12:24,198 --> 00:12:27,694
+ter ganho bom com menor esforço de
+
+268
+00:12:27,695 --> 00:12:30,832
+implementação e com menor atrito na implementação.
+
+269
+00:12:31,732 --> 00:12:33,931
+Por exemplo, se eu colocar SAST direto que
+
+270
+00:12:33,932 --> 00:12:36,969
+eu ainda não tenha capacidade de gerenciar, por
+
+271
+00:12:36,970 --> 00:12:40,007
+exemplo, falsos positivos, que não tem a capacidade
+
+272
+00:12:40,008 --> 00:12:44,186
+de o desenvolvedor ler o report do SAST.
+
+273
+00:12:44,914 --> 00:12:46,594
+E ele saber ok, tem corrigir
+
+274
+00:12:46,595 --> 00:12:48,033
+isso aqui, porque ele não escalo.
+
+275
+00:12:48,034 --> 00:12:49,792
+Daí eu jogo todo o problema de ser
+
+276
+00:12:49,793 --> 00:12:52,151
+profissional de apsek, e que são poucos, né?
+
+277
+00:12:52,152 --> 00:12:57,488
+Normalmente a gente ainda tem 0.5, 0.2% da empresa
+
+278
+00:12:57,489 --> 00:13:01,386
+que são seus profissionais, eu vou perder no tempo.
+
+279
+00:13:02,154 --> 00:13:07,272
+Porque esse tempo ele pode chegar com uma informação
+
+280
+00:13:07,273 --> 00:13:09,131
+para área de cima de uma forma diferente.
+
+281
+00:13:09,829 --> 00:13:13,747
+Olha pessoal, nós colocamos o SAST aqui e tá
+
+282
+00:13:13,748 --> 00:13:17,225
+levando três meses para corrigir uma vulnerabilidade, mas a
+
+283
+00:13:17,226 --> 00:13:20,004
+gente não se ligou que tá levando três meses
+
+284
+00:13:20,005 --> 00:13:23,562
+porque porque a gente não deu escala e aí
+
+285
+00:13:23,563 --> 00:13:28,539
+a gente vai pode quebrar nesse ponto então para
+
+286
+00:13:28,540 --> 00:13:33,856
+mim esse roadmap antes da implementação para entender esforço
+
+287
+00:13:33,857 --> 00:13:38,893
+ganho e atrito ele é fundamental, sempre vinculado a
+
+288
+00:13:38,894 --> 00:13:42,651
+comentário muito bom ali no risco do negócio, porque
+
+289
+00:13:42,652 --> 00:13:44,740
+o negócio ele pode ter várias áreas ali dentro
+
+290
+00:13:44,741 --> 00:13:46,819
+pode até separar diferente né o risco de cada
+
+291
+00:13:46,820 --> 00:13:54,564
+marca diretamente vinculado a objetivo e conhecimento da empresa.
+
+292
+00:13:54,565 --> 00:13:55,603
+O que a empresa já tem?
+
+293
+00:13:55,604 --> 00:13:57,282
+A empresa já conhece, né?
+
+294
+00:13:57,283 --> 00:13:59,961
+E claro, talvez nada disso funcione em uma
+
+295
+00:13:59,962 --> 00:14:02,160
+transação de map se o pipeline está integrado,
+
+296
+00:14:02,161 --> 00:14:02,390
+né?
+
+297
+00:14:03,429 --> 00:14:03,789
+Boa.
+
+298
+00:14:03,790 --> 00:14:05,488
+A automação tá passando a chave de tudo
+
+299
+00:14:05,489 --> 00:14:07,587
+isso também, senão você não consegue integrar nada.
+
+300
+00:14:07,588 --> 00:14:07,907
+Não, você
+
+301
+00:14:07,908 --> 00:14:09,445
+não consegue fazer nada.
+
+302
+00:14:09,446 --> 00:14:11,044
+E você, Maqui, o que você acha desse ponto?
+
+303
+00:14:11,045 --> 00:14:13,562
+Como é que a gente atingiria esse nível, né, cara?
+
+304
+00:14:13,563 --> 00:14:15,721
+Beleza, decidimos que quero quebrar e como é que
+
+305
+00:14:15,722 --> 00:14:19,059
+você enxerga essa implementação, o que fazer nesse contexto?
+
+306
+00:14:19,060 --> 00:14:22,178
+Cara, concordo muito com o que o Bangle disse muito
+
+307
+00:14:22,179 --> 00:14:26,915
+mesmo, acho que faço das palavras dele a minha, Basicamente
+
+308
+00:14:28,294 --> 00:14:31,652
+isso, a única coisa que eu acrescentaria é se uma
+
+309
+00:14:31,653 --> 00:14:35,349
+empresa não tem costume, ela não ela está iniciando, ela
+
+310
+00:14:35,350 --> 00:14:38,707
+quer fazer essa quebra, ela deveria procurar algum framework de
+
+311
+00:14:38,708 --> 00:14:40,127
+compliance para poder se guiar.
+
+312
+00:14:40,946 --> 00:14:44,514
+Então pegar ASP SAM, pegar for caso, banco IPCA,
+
+313
+00:14:44,515 --> 00:14:47,752
+alguma coisa, para ela ter pelo menos norte, porque
+
+314
+00:14:47,753 --> 00:14:49,911
+ela pode ter toda estratégia, pode ter que querer
+
+315
+00:14:49,912 --> 00:14:53,008
+fazer, só que sem o norte, sem saber como
+
+316
+00:14:53,009 --> 00:14:55,567
+tratar isso, vai ficar complicado.
+
+317
+00:14:55,568 --> 00:14:59,365
+Então ela tem pegando aspissanni, botando em vir maturidade, pensando
+
+318
+00:14:59,366 --> 00:15:01,504
+em sei lá, vou pensar no nosso top tank, o
+
+319
+00:15:01,505 --> 00:15:04,182
+que a gente tem de mais fácil hoje ali para
+
+320
+00:15:04,183 --> 00:15:08,909
+centralizar Então, começar ali quebrando o nosso top tank, começar
+
+321
+00:15:08,910 --> 00:15:13,467
+a corrigir no nosso top team ou algum outro framework
+
+322
+00:15:13,468 --> 00:15:18,124
+mais simples e depois ir escalando isso para para modelo
+
+323
+00:15:18,125 --> 00:15:21,202
+geral da empresa, eu acho que também é caminho que
+
+324
+00:15:21,203 --> 00:15:24,081
+dá para se seguir, acho que dá para começar por
+
+325
+00:15:24,082 --> 00:15:26,939
+ali, para ter norte, que é difícil você começar alguma
+
+326
+00:15:26,940 --> 00:15:29,537
+coisa sem conhecimento nenhum, sem nenhum norte, sem nada.
+
+327
+00:15:29,538 --> 00:15:31,157
+Então acho complicado.
+
+328
+00:15:33,256 --> 00:15:35,640
+Para finalizar esse tema Acho que esse
+
+329
+00:15:35,641 --> 00:15:37,773
+ponto você falou agora, quero quebrar build.
+
+330
+00:15:38,313 --> 00:15:40,192
+É muito simples você falar assim, ah, vou
+
+331
+00:15:40,193 --> 00:15:41,831
+quebrar qual é a minha métrica, né?
+
+332
+00:15:41,832 --> 00:15:44,219
+Vou quebrar com a vulnerabilidade alta. Mas da onde?
+
+333
+00:15:44,220 --> 00:15:45,898
+Do SA? Do SAST?
+
+334
+00:15:45,899 --> 00:15:47,737
+O BAIR colocou muito bem. Qual etapa?
+
+335
+00:15:47,738 --> 00:15:49,856
+Qual teste de segurança é mais crítico pra mim?
+
+336
+00:15:49,857 --> 00:15:51,815
+A gente chegou a falar isso no episódio passado.
+
+337
+00:15:51,816 --> 00:15:53,924
+Putz cara, tivesse uma coisa pra investir,
+
+338
+00:15:53,925 --> 00:15:55,403
+era educação, não sei o quê.
+
+339
+00:15:55,404 --> 00:15:56,602
+Cara, é CA.
+
+340
+00:15:56,603 --> 00:15:58,681
+Eu vou fazer teste, cara, é CA.
+
+341
+00:15:58,682 --> 00:16:01,200
+Então, beleza, é CA importante pra mim porque eu
+
+342
+00:16:01,201 --> 00:16:03,229
+não quero supatia em prol da Supatia, não quero
+
+343
+00:16:03,230 --> 00:16:04,708
+minhas bibliotecas em risco, tal, tal, tal, tal.
+
+344
+00:16:04,709 --> 00:16:06,307
+Então, se tiver alguma probabilidade
+
+345
+00:16:06,308 --> 00:16:08,386
+crítica no MSA, eu quebro.
+
+346
+00:16:08,387 --> 00:16:11,414
+Mas o SAST não, porque o SAST, né?
+
+347
+00:16:11,415 --> 00:16:13,853
+Talvez você faça mais sentido, o Bailor colocou muito
+
+348
+00:16:13,854 --> 00:16:18,809
+bem, eu tenho que analisar falso positivo, diria quase
+
+349
+00:16:18,810 --> 00:16:20,768
+0, né, mas é cara crachá ali, mas o
+
+350
+00:16:20,769 --> 00:16:22,967
+imposto não tá, não tem muito segredo.
+
+351
+00:16:22,968 --> 00:16:25,166
+No SAST já tem que analisar, putz, cara,
+
+352
+00:16:25,167 --> 00:16:27,474
+é uma banalidade de baixa, numa classe nada
+
+353
+00:16:27,475 --> 00:16:29,054
+a ver no código no CA aonde.
+
+354
+00:16:29,055 --> 00:16:31,253
+Então você tem SLA, tem tempo
+
+355
+00:16:31,254 --> 00:16:33,531
+ali de processar, mastigar aquilo.
+
+356
+00:16:33,532 --> 00:16:36,129
+No SA não, carteira, levo na verdade
+
+357
+00:16:36,130 --> 00:16:38,408
+crítica, é componente de dependência direta, por
+
+358
+00:16:38,409 --> 00:16:40,567
+exemplo, as ferramentas te dão essas métricas?
+
+359
+00:16:40,568 --> 00:16:42,486
+Não, o logo vai fugir, Cassyah.
+
+360
+00:16:42,487 --> 00:16:43,205
+A pouco tempo,
+
+361
+00:16:43,206 --> 00:16:48,602
+porque acaba mais fácil de olhar pra isso.
+
+362
+00:16:48,603 --> 00:16:49,882
+Cara, isso aqui eu quebro.
+
+363
+00:16:49,883 --> 00:16:52,960
+Acho que o Beyru usou o termo Aqui a gente
+
+364
+00:16:52,961 --> 00:16:55,749
+fala Loheng fruits, as frutas que você pega na mão,
+
+365
+00:16:55,750 --> 00:16:58,187
+eles usam os quickwings, a mesma coisa, cara, isso aqui
+
+366
+00:16:58,188 --> 00:17:00,586
+é mais fácil de fazer, no SAST é mais complicado.
+
+367
+00:17:00,587 --> 00:17:03,194
+E AST ele te dá menos o dispositivo também.
+
+368
+00:17:03,195 --> 00:17:06,793
+Mas por teste mais demorado, enfim, então acho que
+
+369
+00:17:06,794 --> 00:17:10,849
+esses aspectos de qual teste é crítico, ou qual
+
+370
+00:17:10,850 --> 00:17:12,848
+ponto desse teste é crítico no meu negócio, no
+
+371
+00:17:12,849 --> 00:17:14,488
+meu processo, para que eu possa fazer isso.
+
+372
+00:17:14,489 --> 00:17:19,854
+E claro, se eu tenho CICD, maduro.
+
+373
+00:17:19,855 --> 00:17:21,893
+Porque às vezes o cara tá rodando CI,
+
+374
+00:17:21,894 --> 00:17:24,012
+rodando uma pipeline pra fazer deploy e dev.
+
+375
+00:17:24,013 --> 00:17:25,271
+Você vai quebrar, mano?
+
+376
+00:17:25,890 --> 00:17:32,846
+O cara tá num cs de produção, ele tá
+
+377
+00:17:32,847 --> 00:17:35,634
+rodando numa pyp line que vai compilar, fazer tudo
+
+378
+00:17:35,635 --> 00:17:37,493
+ali da aplicação e fazer uma produção.
+
+379
+00:17:38,233 --> 00:17:40,272
+Aí sim, lá é contexto de cara.
+
+380
+00:17:40,273 --> 00:17:44,908
+Vamos testar garantia, vamos quebrar neste contexto
+
+381
+00:17:44,909 --> 00:17:45,947
+aqui, e aí eu acho que faz
+
+382
+00:17:45,948 --> 00:17:47,787
+mais sentido a gente pensar nessa quebra.
+
+383
+00:17:47,788 --> 00:17:50,385
+No dia a dia ali, ambientes de desenvolvimento,
+
+384
+00:17:50,386 --> 00:17:54,423
+homologação, préprodução, enfim, não sei se faz sentido
+
+385
+00:17:54,424 --> 00:17:56,342
+trazer essa quebra, porque quando a gente leva
+
+386
+00:17:56,343 --> 00:17:58,501
+essa maturidade de produção, né?
+
+387
+00:17:58,502 --> 00:17:59,901
+Sim, traria o alerta.
+
+388
+00:17:59,902 --> 00:18:01,949
+E Isso, joga lipídios.
+
+389
+00:18:01,950 --> 00:18:03,628
+Diz que é pro cara, cara, não tem problema aqui.
+
+390
+00:18:03,629 --> 00:18:04,948
+Verifica, mas não quebrar, você
+
+391
+00:18:04,949 --> 00:18:06,587
+interromper o trabalho dele, necessariamente.
+
+392
+00:18:06,588 --> 00:18:09,785
+É, tenta trazer caso aqui que eu dei bastante
+
+393
+00:18:09,786 --> 00:18:14,013
+risada, que tava atendendo cliente aqui e o cara
+
+394
+00:18:14,014 --> 00:18:16,292
+faz 80 pull request por dia em produção.
+
+395
+00:18:16,293 --> 00:18:17,691
+Como que eu vou quebrar a build?
+
+396
+00:18:17,692 --> 00:18:21,028
+Cara, sem parar o trabalho dele. Agora dá
+
+397
+00:18:21,029 --> 00:18:22,547
+uma paciência pra rodar a SAP.
+
+398
+00:18:22,548 --> 00:18:23,047
+Entendeu?
+
+399
+00:18:24,866 --> 00:18:26,954
+Então, chega esse tipo de casa.
+
+400
+00:18:26,955 --> 00:18:28,273
+Aí quando você fala pro cara, não,
+
+401
+00:18:28,274 --> 00:18:30,192
+você não vai quebrar a build agora.
+
+402
+00:18:30,193 --> 00:18:31,512
+E o cara já chegou, não.
+
+403
+00:18:31,513 --> 00:18:34,060
+Eu quero comprar porque eu quero quebrar a build, cara.
+
+404
+00:18:34,939 --> 00:18:39,737
+80.000.000.000.000.000.000.000.000.000.000.000.000 é isso que a
+
+405
+00:18:39,738 --> 00:18:41,755
+gente faz de maturidade também.
+
+406
+00:18:41,756 --> 00:18:42,255
+Aliás,
+
+407
+00:18:42,914 --> 00:18:43,794
+e processo, né?
+
+408
+00:18:43,795 --> 00:18:45,233
+Tem que ajustar esse processo, tá
+
+409
+00:18:45,234 --> 00:18:47,312
+errado e tem linguagem de produção.
+
+410
+00:18:47,313 --> 00:18:49,471
+E eu diria o seguinte, a gente tá falando aqui de
+
+411
+00:18:49,472 --> 00:18:52,599
+quebra de building, a gente sempre imagina ter esse SD.
+
+412
+00:18:52,600 --> 00:18:54,518
+Quando você traz isso pra nível abaixo, que
+
+413
+00:18:54,519 --> 00:18:56,837
+é o Pull Request, isso muda de figura.
+
+414
+00:18:56,838 --> 00:18:58,176
+Os Pull Request são maiores.
+
+415
+00:18:58,814 --> 00:18:58,974
+O
+
+416
+00:18:58,975 --> 00:19:01,013
+número de pull request são maiores durante o dia.
+
+417
+00:19:01,014 --> 00:19:03,612
+E eles não humaniosamente estão indo pra produção.
+
+418
+00:19:03,613 --> 00:19:05,091
+Pull request no ambiente, no
+
+419
+00:19:05,092 --> 00:19:06,350
+código, tal, tal, tal, tal.
+
+420
+00:19:06,949 --> 00:19:11,487
+Aí talvez será que os cheques de pull request?
+
+421
+00:19:12,267 --> 00:19:15,554
+E aí essa quebra se aplicam nesse contexto?
+
+422
+00:19:15,555 --> 00:19:18,193
+Você acha que vale trazer essa discussão de meu?
+
+423
+00:19:18,194 --> 00:19:20,391
+Eu quebro meu build de produção,
+
+424
+00:19:20,392 --> 00:19:22,190
+estou integrando só com produção.
+
+425
+00:19:22,191 --> 00:19:24,569
+Vale quebrar esse build? Isso é uma coisa.
+
+426
+00:19:24,570 --> 00:19:25,769
+Outro é, o dia a dia do
+
+427
+00:19:25,770 --> 00:19:28,268
+desenvolvedor, ele fez pull request, vale quebrar?
+
+428
+00:19:29,047 --> 00:19:30,406
+Que cheques que você vai colocar
+
+429
+00:19:30,407 --> 00:19:32,184
+lá, Bailee trouxe muito bem.
+
+430
+00:19:32,185 --> 00:19:34,423
+Assassin's Khan.
+
+431
+00:19:34,424 --> 00:19:37,421
+Cara, secret pra mim, o boicote já tem que quebrar.
+
+432
+00:19:37,422 --> 00:19:39,241
+Porque eu quero evitar aquela base.
+
+433
+00:19:40,289 --> 00:19:41,888
+Não deveria nem subir, deveria
+
+434
+00:19:41,889 --> 00:19:42,528
+comprar
+
+435
+00:19:42,529 --> 00:19:44,107
+commit nada escuro, sabe?
+
+436
+00:19:45,486 --> 00:19:47,725
+Inclusive o GitHub, acho que você comprar o
+
+437
+00:19:47,726 --> 00:19:50,224
+GitHub de this security na versão Enterprise, ele
+
+438
+00:19:50,225 --> 00:19:52,303
+tem uma feature lá que chama push Protection.
+
+439
+00:19:52,304 --> 00:19:55,221
+Então quando você faz o push pra uma branch X,
+
+440
+00:19:55,222 --> 00:19:58,200
+ele faz essa validação e não deixa fazer o push.
+
+441
+00:19:58,201 --> 00:20:00,039
+Se tiver uma Secret, por exemplo.
+
+442
+00:20:00,040 --> 00:20:02,597
+Mas acaba sendo pré commit hulk mais ou
+
+443
+00:20:02,598 --> 00:20:04,516
+menos, mas ele acaba atuando no server.
+
+444
+00:20:04,517 --> 00:20:06,134
+Enfim, E aí, como é que tá
+
+445
+00:20:06,135 --> 00:20:07,773
+essa discussão no nível do pull request?
+
+446
+00:20:07,774 --> 00:20:09,413
+Porque aí o 'impar', o 'beer' falou.
+
+447
+00:20:09,414 --> 00:20:10,932
+Uma coisa é, eu sei que eu tenho meu CI
+
+448
+00:20:10,933 --> 00:20:13,500
+aqui, apertei o botão e estou fazendo deploy para produção.
+
+449
+00:20:13,501 --> 00:20:15,658
+É aceitável que eu faça várias validações,
+
+450
+00:20:15,659 --> 00:20:17,018
+que é uma pipeline que vai demorar
+
+451
+00:20:17,019 --> 00:20:18,597
+muito mais e que eu possa quebrála.
+
+452
+00:20:19,816 --> 00:20:20,824
+Mais ou menos.
+
+453
+00:20:20,825 --> 00:20:23,063
+No pull request, esse impacto é muito maior, porque
+
+454
+00:20:23,064 --> 00:20:24,483
+ele é o dia a dia dos desenvolvedores.
+
+455
+00:20:25,062 --> 00:20:26,981
+O cara tá entregando ali.
+
+456
+00:20:26,982 --> 00:20:28,940
+E dá pra filtrar também, cara, pull request na
+
+457
+00:20:28,941 --> 00:20:32,128
+massa, na branch, desenvolvimento, onde você está fazendo isso.
+
+458
+00:20:32,129 --> 00:20:35,566
+Então essa discussão tem impacto maior quando
+
+459
+00:20:35,567 --> 00:20:37,226
+ela desce por nível de desenvolvedor.
+
+460
+00:20:38,174 --> 00:20:42,612
+Eu, minha humilde contribuição é O cara já está
+
+461
+00:20:42,613 --> 00:20:45,171
+acostumado a apertar o era desenvolvedor do Atnet, então
+
+462
+00:20:45,172 --> 00:20:47,150
+você aperta F5 para compilar, ou Ctrl+Shift+B.
+
+463
+00:20:48,159 --> 00:20:49,499
+Lembra dos atalhos, hein?
+
+464
+00:20:51,118 --> 00:20:53,597
+Você deu na F5? Não compilou.
+
+465
+00:20:53,598 --> 00:20:54,876
+Então você tem que parar e
+
+466
+00:20:54,877 --> 00:20:56,955
+fazer compilar, arrumar o código.
+
+467
+00:20:56,956 --> 00:20:59,593
+Aí compilou, agora você mandou rodar, putz, a
+
+468
+00:20:59,594 --> 00:21:01,152
+feature tá com bugzinho aqui, não tá do
+
+469
+00:21:01,153 --> 00:21:02,752
+jeito que eu preciso, volta, arruma.
+
+470
+00:21:02,753 --> 00:21:05,070
+É, o feature test unitário, putz, o
+
+471
+00:21:05,071 --> 00:21:06,619
+fashion tá passando vou ajustar o teste.
+
+472
+00:21:06,620 --> 00:21:09,098
+Então você já tem diversas
+
+473
+00:21:09,099 --> 00:21:11,157
+validações daquilo que você fez.
+
+474
+00:21:11,696 --> 00:21:13,596
+Só que a segurança ela nunca tá ali.
+
+475
+00:21:14,194 --> 00:21:17,033
+O compilador está checando o Spaning da linguagem, você
+
+476
+00:21:17,034 --> 00:21:18,952
+tem teste unitário se é o caso da sua
+
+477
+00:21:18,953 --> 00:21:21,460
+empresa, a própria feature que você vai ter testado,
+
+478
+00:21:21,461 --> 00:21:24,698
+último de QA, depois vai andar isso, usuário, enfim.
+
+479
+00:21:24,699 --> 00:21:28,625
+Por que segurança nunca, ninguém aceita que seja
+
+480
+00:21:28,626 --> 00:21:30,863
+Quem entra nesse contexto cara, ó, tem teste
+
+481
+00:21:30,864 --> 00:21:33,262
+aqui de SAST, você tem uma vulnerabilidade alta
+
+482
+00:21:33,263 --> 00:21:35,781
+e vai quebrar o seu currículo, por exemplo.
+
+483
+00:21:35,782 --> 00:21:38,479
+Por que essa fricção como é que vocês enxergam isso
+
+484
+00:21:38,480 --> 00:21:40,318
+por que que tem essa eu já aceito que eu
+
+485
+00:21:40,319 --> 00:21:42,077
+não vou compilar eu já aceito que eu não tenho
+
+486
+00:21:42,078 --> 00:21:45,154
+teste passando mas segurança eu não aceito quero deixar pra
+
+487
+00:21:45,155 --> 00:21:46,833
+depois, eu vou continuar no meu dia a dia.
+
+488
+00:21:46,834 --> 00:21:49,112
+Como é que vocês enxergam essa
+
+489
+00:21:49,113 --> 00:21:50,951
+fricção, eu diria, né, necessariamente.
+
+490
+00:21:50,952 --> 00:21:51,971
+O que vocês acham?
+
+491
+00:21:53,269 --> 00:21:55,049
+Mim, meus filhos científicos.
+
+492
+00:21:56,308 --> 00:21:58,787
+Eu acho que envolve duas questões principais se
+
+493
+00:21:58,788 --> 00:22:00,734
+eu fosse dividir em dois grupos, tá?
+
+494
+00:22:00,735 --> 00:22:04,333
+Assim, primeiro de tudo eu acho que é legado
+
+495
+00:22:04,334 --> 00:22:10,250
+cultural, que é antigo tipo, segurança não te interessa
+
+496
+00:22:10,251 --> 00:22:12,679
+o tá acontecendo só tem que arrumar.
+
+497
+00:22:13,538 --> 00:22:16,057
+Ninguém explica o porquê porque tinha tempo atrás
+
+498
+00:22:16,058 --> 00:22:19,294
+ali pelo menos aquela caixinha de Não, segurança,
+
+499
+00:22:19,295 --> 00:22:22,053
+só a gente sabe, ninguém sabe, toma aqui
+
+500
+00:22:22,054 --> 00:22:23,972
+a ação, cala a tua boca e faça.
+
+501
+00:22:23,973 --> 00:22:28,598
+E aí isso aí inevitavelmente vai gerando uma cultura
+
+502
+00:22:28,599 --> 00:22:32,996
+que quando você chega e não sabe explicar o
+
+503
+00:22:32,997 --> 00:22:37,014
+porquê que aquilo precisa ser feito, não dá visibilidade.
+
+504
+00:22:37,794 --> 00:22:40,632
+E aí é importante você ter o conhecimento do
+
+505
+00:22:40,633 --> 00:22:44,011
+ponto de vista atacante para que você consiga olhar
+
+506
+00:22:44,680 --> 00:22:47,998
+esse fluxo, mas também precisa entender o lado do
+
+507
+00:22:47,999 --> 00:22:52,884
+desenvolvedor e consiga colar as duas plaquinhas, quando você
+
+508
+00:22:52,885 --> 00:22:56,482
+cola os dois da forma de o desenvolvedor entender
+
+509
+00:22:56,483 --> 00:23:00,281
+aquilo e conseguir enxergar e cenário em outros lugares,
+
+510
+00:23:00,282 --> 00:23:01,739
+cara, sucesso, né?
+
+511
+00:23:01,740 --> 00:23:03,259
+Pode tirar aí o dia de folga,
+
+512
+00:23:03,260 --> 00:23:04,978
+você ganhou esse grande bônus, né?
+
+513
+00:23:04,979 --> 00:23:08,416
+Porque você trouxe o risco, o problema fez ele entender
+
+514
+00:23:08,417 --> 00:23:10,695
+e visualizar, e agora nos próximos segundos você vai começar
+
+515
+00:23:10,696 --> 00:23:12,364
+a ganhar esse cara primeira questão que eu gostaria de
+
+516
+00:23:12,365 --> 00:23:14,503
+colocar na caixinha é uma herança cultural.
+
+517
+00:23:15,362 --> 00:23:18,870
+A segunda eu gostaria de me colocar numa outra visão.
+
+518
+00:23:18,871 --> 00:23:19,869
+Por exemplo.
+
+519
+00:23:19,870 --> 00:23:21,308
+Imagina que a gente está fazendo a
+
+520
+00:23:21,309 --> 00:23:24,287
+gestão de programa de bugbout, tá?
+
+521
+00:23:24,986 --> 00:23:28,764
+E aí o filho da puta, ela vai lá, roda Dasse
+
+522
+00:23:28,765 --> 00:23:34,042
+muito local, pega o report e abre tudo no nosso programa
+
+523
+00:23:34,043 --> 00:23:38,060
+de bodybuck, sem se entriar porra nenhuma, tá ligado?
+
+524
+00:23:38,749 --> 00:23:40,948
+Eu te garanto que lá pelo segundo mês você já vai
+
+525
+00:23:40,949 --> 00:23:43,168
+querer clicar o cara do seu programa de bug balde.
+
+526
+00:23:43,747 --> 00:23:45,666
+Porque tem monte de falso postinho, monte de
+
+527
+00:23:45,667 --> 00:23:46,865
+coisa que você aplica, não sei o que,
+
+528
+00:23:46,866 --> 00:23:48,285
+a gente não pode ser esse cara.
+
+529
+00:23:48,964 --> 00:23:51,883
+E aí quando a gente entrar na esteira,
+
+530
+00:23:51,884 --> 00:23:56,880
+a gente precisa se preocupar com o resultado
+
+531
+00:23:56,881 --> 00:23:58,150
+do que a gente está entregando.
+
+532
+00:23:58,151 --> 00:23:59,969
+E a assertividade do nosso resultado.
+
+533
+00:24:00,668 --> 00:24:03,487
+E esse resultado leva para duas vertentes.
+
+534
+00:24:06,075 --> 00:24:07,854
+Eu estou maduro o suficiente
+
+535
+00:24:08,553 --> 00:24:10,093
+na qualidade do meu resultado.
+
+536
+00:24:11,232 --> 00:24:11,972
+Para quebrar?
+
+537
+00:24:13,071 --> 00:24:16,349
+Se não, qual que é a minha política de remediação?
+
+538
+00:24:17,888 --> 00:24:19,847
+Então se eu não vou quebrar na hora, eu
+
+539
+00:24:19,848 --> 00:24:22,105
+entendo que eu vou conviver com aquilo em produção.
+
+540
+00:24:22,106 --> 00:24:23,744
+Se eu vou conviver com a introdução
+
+541
+00:24:23,745 --> 00:24:25,023
+qual que é a minha política de
+
+542
+00:24:25,024 --> 00:24:29,421
+convivência com bugs de segurança em produção.
+
+543
+00:24:29,422 --> 00:24:32,090
+A história do apetite de risco, né?
+
+544
+00:24:32,091 --> 00:24:33,849
+Sei que isso é risco, foi pra produção,
+
+545
+00:24:33,850 --> 00:24:35,568
+como é que eu vivo com ele, né?
+
+546
+00:24:35,569 --> 00:24:37,367
+Vivo com isso, por quê?
+
+547
+00:24:37,368 --> 00:24:40,145
+Eu tenho uma falta de assertividade.
+
+548
+00:24:40,804 --> 00:24:43,663
+E esse é indicador importante que dentro da gestão,
+
+549
+00:24:44,642 --> 00:24:47,599
+na gerência de Epstein é importante que qual que
+
+550
+00:24:47,600 --> 00:24:50,878
+é a nossa porcentagem de assertividade em uma tomada
+
+551
+00:24:50,879 --> 00:24:53,676
+de decisão automatizada em cima de uma ferramenta.
+
+552
+00:24:53,677 --> 00:24:55,874
+Isso é uma estatística tem que ter quando
+
+553
+00:24:55,875 --> 00:24:58,593
+fala da gestão e gerenciamento de hexágon.
+
+554
+00:24:58,594 --> 00:25:00,672
+E no momento que a gente olha
+
+555
+00:25:00,673 --> 00:25:03,809
+assim cara, tá abaixo de 90%, tá?
+
+556
+00:25:03,810 --> 00:25:06,687
+Então provavelmente tu não vai quebrar e tu vai
+
+557
+00:25:06,688 --> 00:25:11,813
+ter uma política de remediação forte, tem 90, 92%.
+
+558
+00:25:11,814 --> 00:25:15,331
+Por exemplo, se encontra uma vulnerabilidade crítica, a
+
+559
+00:25:15,332 --> 00:25:17,450
+gente não vai bloquear, mas tem dois dias
+
+560
+00:25:17,451 --> 00:25:21,448
+para ser para ser corrigido, para não impactar
+
+561
+00:25:21,449 --> 00:25:23,447
+o negócio, o negócio em ter noção disso.
+
+562
+00:25:23,448 --> 00:25:25,366
+Quando a gente aumentar para 95%,
+
+563
+00:25:25,367 --> 00:25:28,074
+97%, a gente passa a quebrar.
+
+564
+00:25:28,075 --> 00:25:30,433
+Então, essa é aquela questão da maturidade que a
+
+565
+00:25:30,434 --> 00:25:32,352
+gente estava conversando ali no começo do episódio.
+
+566
+00:25:32,353 --> 00:25:34,391
+E vale lembrar ainda que você tem esse
+
+567
+00:25:34,392 --> 00:25:37,619
+período, por exemplo, rodei meu build, meu CI
+
+568
+00:25:37,620 --> 00:25:40,857
+hoje, fiz Scan e tenho uma modalidade crítica.
+
+569
+00:25:40,858 --> 00:25:43,936
+Tenho dois dias para corrigir, desde que seja
+
+570
+00:25:43,937 --> 00:25:45,875
+uma modalidade mesmo e não falso positivo.
+
+571
+00:25:46,424 --> 00:25:49,263
+Então hoje eu subi com a produção e
+
+572
+00:25:49,264 --> 00:25:51,462
+após uma análise foi identificado que é falso
+
+573
+00:25:51,463 --> 00:25:53,021
+positivo, não é uma vulnerabilidade, por exemplo.
+
+574
+00:25:53,022 --> 00:25:54,860
+Então nem estava em risco no primeiro momento.
+
+575
+00:25:55,499 --> 00:25:57,978
+Agora, se sim era problema, aí deu dois
+
+576
+00:25:57,979 --> 00:25:59,497
+dias pra corrigir, eu fiquei dois dias numa
+
+577
+00:25:59,498 --> 00:26:02,296
+jornada à disposição, o que é aceitável, dependendo
+
+578
+00:26:02,297 --> 00:26:03,945
+do negócio, aquela coisa toda.
+
+579
+00:26:03,946 --> 00:26:06,343
+Você tem esse 5050 ainda, né?
+
+580
+00:26:06,344 --> 00:26:08,462
+Se estava mesmo em risco ou não estava em risco, né?
+
+581
+00:26:08,463 --> 00:26:08,542
+Sim,
+
+582
+00:26:09,582 --> 00:26:09,821
+E eu
+
+583
+00:26:09,822 --> 00:26:11,561
+acho que o importante é só pra complementar.
+
+584
+00:26:12,200 --> 00:26:17,417
+Que essa porcentagem não é o SAST inteiro.
+
+585
+00:26:18,356 --> 00:26:19,635
+O SAST em qual parte?
+
+586
+00:26:19,636 --> 00:26:21,913
+Cara, essa linha Jackson a gente tem 100%
+
+587
+00:26:21,914 --> 00:26:24,972
+de assertividade aqui, o 98% vai quebrar.
+
+588
+00:26:25,831 --> 00:26:30,178
+Cara, serverside request forgrid, a gente tem 85%, tá?
+
+589
+00:26:30,179 --> 00:26:32,497
+Esse não vai quebrar, esse vai entrar numa análise.
+
+590
+00:26:32,498 --> 00:26:34,636
+Então pegar toda a cachora assim, a SAST.
+
+591
+00:26:35,315 --> 00:26:37,993
+SAST não vai quebrar por Não, calma aí.
+
+592
+00:26:37,994 --> 00:26:40,552
+Que tipo de vulnerabilidade dentro daquele SAST, o
+
+593
+00:26:40,553 --> 00:26:42,191
+que tipo de risco que a gente consegue
+
+594
+00:26:42,192 --> 00:26:44,529
+identificar, qual que é a porcentagem de probabilidade?
+
+595
+00:26:44,530 --> 00:26:47,648
+Daqueles tipo de escape daquele tipo de vulnerabilidade
+
+596
+00:26:47,649 --> 00:26:50,287
+que a gente está buscando, daquele tipo de
+
+597
+00:26:50,288 --> 00:26:51,986
+vetor ataque que a gente está analisando.
+
+598
+00:26:53,004 --> 00:26:54,883
+Que daí é mais fácil a gente progredir, né?
+
+599
+00:26:54,884 --> 00:26:58,242
+Porque senão, por exemplo, poxa, olha a caragada de
+
+600
+00:26:58,243 --> 00:27:00,410
+teste que o site é capaz de fazer.
+
+601
+00:27:00,411 --> 00:27:02,049
+Aí se tu botar ele num balaio de gato e
+
+602
+00:27:02,050 --> 00:27:05,047
+dizer só como os ratos estiverem com 98% de coisa
+
+603
+00:27:05,048 --> 00:27:07,725
+que a gente vai Claro, não vai conseguir ver.
+
+604
+00:27:07,726 --> 00:27:09,604
+E até eu acho que o Marcos gravou muito bem na
+
+605
+00:27:09,605 --> 00:27:12,442
+fala dele antes, você poderia ter uma estratégia até de cara,
+
+606
+00:27:12,443 --> 00:27:14,990
+não sei o seguinte, a gente pegou as tops aqui, a
+
+607
+00:27:14,991 --> 00:27:16,789
+gente quebra o astop tem, porque a gente já tá mais
+
+608
+00:27:16,790 --> 00:27:20,347
+maduro, porque a gente né, é mais difícil a falta positiva,
+
+609
+00:27:20,348 --> 00:27:22,784
+então o astop tem a gente quebra, Fora disso a gente
+
+610
+00:27:22,785 --> 00:27:25,663
+não quebra, a gente vai analisar, então nessa ideia que você
+
+611
+00:27:25,664 --> 00:27:28,061
+colocou aí do SLA de análise e tal.
+
+612
+00:27:28,062 --> 00:27:30,620
+Marcos quer complementar esse ponto aí, o que você acha?
+
+613
+00:27:31,499 --> 00:27:34,778
+Cara, eu acho O Bangor ficou bem,
+
+614
+00:27:34,779 --> 00:27:36,877
+só que eu mudaria algumas coisinhas.
+
+615
+00:27:39,094 --> 00:27:40,733
+Não, não é treta não.
+
+616
+00:27:40,734 --> 00:27:42,013
+Vou ver pra caramba.
+
+617
+00:27:42,014 --> 00:27:44,232
+Concordo com boa parte ali.
+
+618
+00:27:45,331 --> 00:27:47,390
+A única coisa que eu mudaria assim.
+
+619
+00:27:48,020 --> 00:27:50,178
+Ele até voltando o exemplo que eu falei do cara ali
+
+620
+00:27:50,179 --> 00:27:53,817
+que tinha 80 pull request na master ali por dia.
+
+621
+00:27:53,818 --> 00:27:56,154
+O cara desse não tem condição de quebrar.
+
+622
+00:27:56,155 --> 00:27:58,393
+O build no pull request. Ele não tem.
+
+623
+00:27:58,394 --> 00:28:00,192
+Se ele quebrar no pull request ele não sobra
+
+624
+00:28:00,193 --> 00:28:02,611
+mais nada para a produção por bom período ali.
+
+625
+00:28:03,250 --> 00:28:05,688
+Então no caso desse cara aí eu faria uma
+
+626
+00:28:05,689 --> 00:28:09,686
+estratégia diferente e talvez eu quebraria por exemplo no
+
+627
+00:28:09,687 --> 00:28:13,513
+merge quebraria em algum outro ponto ali, pensa em
+
+628
+00:28:13,514 --> 00:28:16,471
+uma estratégia com ele, onde a gente conseguiria detectar
+
+629
+00:28:16,472 --> 00:28:20,348
+as vulnerabilidades, mas sem stopar o desenvolvedor dele.
+
+630
+00:28:20,349 --> 00:28:23,507
+O desenvolvedor continua entregando ali.
+
+631
+00:28:23,508 --> 00:28:27,513
+Então acho que a quebra de build nesse caso esse cara
+
+632
+00:28:27,514 --> 00:28:31,112
+aí como são muitos pull requests deve sim ocorrer mas em
+
+633
+00:28:31,113 --> 00:28:35,428
+momentos diferentes teria que pensar, analisável junto com a empresa, qual
+
+634
+00:28:35,429 --> 00:28:39,266
+que é esse momento que a gente conseguiria fazer isso com
+
+635
+00:28:39,267 --> 00:28:43,223
+o menor dano possível, e ainda pensando, pô, não dá pra
+
+636
+00:28:43,224 --> 00:28:46,622
+quebrar tudo, igual o Bill falou, não faz sentido, por exemplo,
+
+637
+00:28:46,623 --> 00:28:50,349
+eu quebrar cross site script que eu tenho 50% ali, eu
+
+638
+00:28:50,350 --> 00:28:51,229
+vou quebrar para quê?
+
+639
+00:28:51,230 --> 00:28:53,948
+Você nunca pode ter 50% de depósito positivo.
+
+640
+00:28:53,949 --> 00:28:56,147
+Então não quebra, deixa eu passar
+
+641
+00:28:56,148 --> 00:28:57,806
+aí que entra outro ponto.
+
+642
+00:28:58,485 --> 00:29:02,602
+E além de você pensar num framework, além de você
+
+643
+00:29:02,603 --> 00:29:06,061
+pensar em alguma coisa pra você te guiar nesse momento,
+
+644
+00:29:06,600 --> 00:29:11,037
+também entra a questão de você analisar que tipo de
+
+645
+00:29:11,038 --> 00:29:13,696
+vulnerabilidade eu quero quebrar nesse primeiro momento.
+
+646
+00:29:14,304 --> 00:29:16,663
+Quando eu falo nisso, eu estou pensando no sentido
+
+647
+00:29:16,664 --> 00:29:21,181
+de que Cara, eu tenho ali SQL Injection, que
+
+648
+00:29:21,182 --> 00:29:23,000
+eu sei que vai ter impacto grande.
+
+649
+00:29:24,069 --> 00:29:25,748
+E eu sei que eu posso ter algum
+
+650
+00:29:25,749 --> 00:29:29,426
+outro problema pensando num SSRF, por exemplo, que
+
+651
+00:29:29,427 --> 00:29:31,126
+o impacto vai ser pouco menor.
+
+652
+00:29:31,874 --> 00:29:34,473
+Tem a necessidade de quebrar o SSRF
+
+653
+00:29:34,474 --> 00:29:37,192
+nesse momento ou somente o SQL Injection?
+
+654
+00:29:37,193 --> 00:29:39,979
+Somente SQL Injection. Show de bola.
+
+655
+00:29:39,980 --> 00:29:41,538
+Só que o SQLJack, a gente tem o
+
+656
+00:29:41,539 --> 00:29:44,377
+Blind, a gente tem o SQLJack padrão.
+
+657
+00:29:44,378 --> 00:29:47,276
+Qual desses tem mais impacto dentro da minha companhia?
+
+658
+00:29:49,314 --> 00:29:52,273
+E também pensar nos scanners, igual o Benju já colocou
+
+659
+00:29:52,274 --> 00:29:54,691
+ali, se eu vou quebrar mais sash com as S.A.
+
+660
+00:29:55,350 --> 00:29:56,749
+Na minha visão, esse é a quebra
+
+661
+00:29:56,750 --> 00:29:59,048
+sempre, mas não sabemos que é assim.
+
+662
+00:30:00,067 --> 00:30:02,365
+Só pensando nessa parte dos scanners.
+
+663
+00:30:02,366 --> 00:30:04,164
+Muito bem colocado aí.
+
+664
+00:30:04,165 --> 00:30:05,203
+Boa, boa, boa.
+
+665
+00:30:05,204 --> 00:30:07,922
+Aliás, você queria trazer outro ponto aqui?
+
+666
+00:30:07,923 --> 00:30:09,281
+Levy C Cops.
+
+667
+00:30:09,282 --> 00:30:10,520
+Levy C Cops.
+
+668
+00:30:10,521 --> 00:30:12,310
+Que essa é uma pergunta muito simples.
+
+669
+00:30:13,149 --> 00:30:15,388
+Se uma ovelha faz uma casa com seu
+
+670
+00:30:15,389 --> 00:30:17,487
+próprio pelo, qual é o nome da casa?
+
+671
+00:30:19,825 --> 00:30:21,524
+Eu não estava esperando por essa.
+
+672
+00:30:25,102 --> 00:30:28,340
+Nenhuma ideia, ovelha fez uma casa com o próprio pelo.
+
+673
+00:30:28,341 --> 00:30:29,520
+Qual o nome da casa?
+
+674
+00:30:30,269 --> 00:30:30,769
+Novelho?
+
+675
+00:30:31,629 --> 00:30:32,588
+Malanhouse.
+
+676
+00:30:32,589 --> 00:30:34,907
+Ah, sô! Caralho!
+
+677
+00:30:34,908 --> 00:30:36,346
+É muito duro, é muito bom.
+
+678
+00:30:36,347 --> 00:30:38,875
+É muito grande o que é muito duro. Não,
+
+679
+00:30:45,291 --> 00:30:45,791
+não.
+
+680
+00:30:47,460 --> 00:30:48,939
+Mandaram num grupo do WhatsApp, porque eu
+
+681
+00:30:48,940 --> 00:30:50,218
+fiquei com essa porra na cabeça, eu
+
+682
+00:30:50,219 --> 00:30:51,838
+tinha que compartilhar com alguém,
+
+683
+00:30:52,417 --> 00:30:52,917
+entendeu?
+
+684
+00:30:53,497 --> 00:30:55,635
+Eu vou entrar nisso, eu vou fazer a pergunta
+
+685
+00:30:57,714 --> 00:30:58,033
+É a
+
+686
+00:30:58,034 --> 00:30:59,793
+mesma coisa aqui.
+
+687
+00:30:59,794 --> 00:31:01,991
+Aproveita essa oportunidade pra você que tá ouvindo a
+
+688
+00:31:01,992 --> 00:31:03,980
+gente, a gente tá se perdendo no caminho, para.
+
+689
+00:31:03,981 --> 00:31:06,058
+Olha o mapa de novo, volta pra onde você
+
+690
+00:31:06,059 --> 00:31:08,057
+está indo, então não vai se perder na conversa,
+
+691
+00:31:08,058 --> 00:31:10,296
+nunca conversa muito boa aqui, e eu queria puxar
+
+692
+00:31:10,297 --> 00:31:13,823
+agora pra outro outro uma outra parte aqui.
+
+693
+00:31:13,824 --> 00:31:16,782
+A gente entendeu que, beleza, quebrar não é uma
+
+694
+00:31:16,783 --> 00:31:20,718
+simples decisão, a gente precisa avaliar o impacto disso,
+
+695
+00:31:20,719 --> 00:31:22,637
+por que eu quero fazer isso, etc, etc.
+
+696
+00:31:22,638 --> 00:31:25,036
+Eu já tive clientes, por exemplo, Eu quero quebrar
+
+697
+00:31:25,037 --> 00:31:27,533
+porque desenvolvedores aqui estão acostumados a subir qualquer coisa,
+
+698
+00:31:27,534 --> 00:31:29,492
+ninguém vai lidar nada, então a gente começar a
+
+699
+00:31:29,493 --> 00:31:31,332
+meio que criar uns portões para os caras.
+
+700
+00:31:31,333 --> 00:31:34,039
+Aí eu tirei da cartola, tipo assim, mano, então quebra aí
+
+701
+00:31:34,040 --> 00:31:39,636
+ó quebra faz a regrinha do 1053 10 vulnerabilidades baixas 5
+
+702
+00:31:39,637 --> 00:31:42,685
+médias e 3 altas esse é o seu 3 show de
+
+703
+00:31:42,686 --> 00:31:45,463
+passou disso, você quebra, dentro disso você assenta.
+
+704
+00:31:46,363 --> 00:31:48,042
+Tirei da cabeça, literalmente, não tem
+
+705
+00:31:48,043 --> 00:31:49,700
+nenhuma métrica ou nada disso.
+
+706
+00:31:49,701 --> 00:31:52,058
+E acabou que depois o dia não tinha
+
+707
+00:31:52,059 --> 00:31:54,137
+tanta vulnerabilidade, né, mil vulnerabilidade e tal, não.
+
+708
+00:31:54,138 --> 00:31:56,456
+Acabou que ficou isso definido e
+
+709
+00:31:56,457 --> 00:31:58,764
+começou a funcionar muito bem lá.
+
+710
+00:31:58,765 --> 00:32:01,243
+Mas em empresas que o cara nunca fez SAST
+
+711
+00:32:01,244 --> 00:32:02,842
+na vida e começa a fazer esse cão, já
+
+712
+00:32:02,843 --> 00:32:05,710
+acha 500 vulnerabilidades, esse trecho de ele é praticamente
+
+713
+00:32:05,711 --> 00:32:07,269
+a gente imaginar, nunca vai chegar nisso.
+
+714
+00:32:07,270 --> 00:32:09,208
+É muito difícil resolver o backlog,
+
+715
+00:32:09,828 --> 00:32:12,106
+fazer tudo uma análise, tudo mais.
+
+716
+00:32:12,107 --> 00:32:14,394
+E aí eu tive outro, jogar
+
+717
+00:32:14,395 --> 00:32:15,874
+essa discussão aqui pra vocês agora.
+
+718
+00:32:15,875 --> 00:32:18,232
+Eu tive outro cliente que o cara falou assim, cara, a
+
+719
+00:32:18,233 --> 00:32:21,270
+gente tem uma maturidade aqui, como é que a gente faz?
+
+720
+00:32:21,271 --> 00:32:23,868
+Apertou o botãozinho da esteira, vai rodar
+
+721
+00:32:23,869 --> 00:32:25,507
+o teste do SAST por exemplo.
+
+722
+00:32:25,508 --> 00:32:27,946
+Na verdade vários testes não só de segurança, tá?
+
+723
+00:32:27,947 --> 00:32:29,705
+Mas no final da esteira dele,
+
+724
+00:32:29,706 --> 00:32:31,804
+aquele pacote ia ter uma nota.
+
+725
+00:32:32,463 --> 00:32:33,583
+Vamos lá, eu não lembro.
+
+726
+00:32:33,584 --> 00:32:35,901
+Elas são os índices deles. Ah, mas vamos lá. Dez.
+
+727
+00:32:35,902 --> 00:32:38,689
+Carol, rodou os testes unitários, Passou
+
+728
+00:32:38,690 --> 00:32:40,368
+tudo, então continua com 0.
+
+729
+00:32:40,369 --> 00:32:41,928
+Olha, rodou o SAST que tem uma
+
+730
+00:32:41,929 --> 00:32:44,446
+vulnerabilidade alta, então você ganhou ponto.
+
+731
+00:32:44,447 --> 00:32:45,555
+Rodou S.A.
+
+732
+00:32:45,556 --> 00:32:47,354
+Uma banana de alta, né?
+
+733
+00:32:47,355 --> 00:32:49,752
+A questão era, no final da esteira,
+
+734
+00:32:49,753 --> 00:32:52,691
+qual era a nota daquele pacote?
+
+735
+00:32:53,250 --> 00:32:56,268
+Em de 0 a 3 subia direto para a produção
+
+736
+00:32:56,808 --> 00:33:00,606
+porque passou todos os testes estava tudo bonitinho de 3
+
+737
+00:33:00,607 --> 00:33:03,874
+a 6 ou a 7 ele ia pra uma análise.
+
+738
+00:33:04,493 --> 00:33:07,412
+Porque cara, ó, vai ter uma aprovação manual.
+
+739
+00:33:07,413 --> 00:33:09,690
+Porque ah, tem uma vulnerabilidade aqui, algum
+
+740
+00:33:09,691 --> 00:33:11,329
+teste não passou ali, alguém vai ter
+
+741
+00:33:11,330 --> 00:33:13,248
+uma decisão cara, sobe ou não sobe.
+
+742
+00:33:13,249 --> 00:33:15,367
+E de 7 pra cima, 7 a 10, quer dizer,
+
+743
+00:33:15,368 --> 00:33:18,545
+acumulou muitas notas ao longo dos testes, bloqueio automático.
+
+744
+00:33:19,264 --> 00:33:21,903
+Já teve como eu falei, ou
+
+745
+00:33:21,904 --> 00:33:24,222
+segurança, ou outros testes também.
+
+746
+00:33:24,223 --> 00:33:26,301
+E a esteira do cara, literalmente, é vários
+
+747
+00:33:26,302 --> 00:33:29,338
+testes várias coisas, era banco, então tinha teste
+
+748
+00:33:29,339 --> 00:33:31,897
+de performance, testes de compras, testes de segurança,
+
+749
+00:33:31,898 --> 00:33:33,416
+vários testes de segurança, testes de acesso, testes
+
+750
+00:33:33,417 --> 00:33:35,434
+de acesso, enfim, muitas coisas no meio ali.
+
+751
+00:33:35,435 --> 00:33:37,273
+E eu gostei dessa abordagem, tá?
+
+752
+00:33:37,274 --> 00:33:39,273
+Porque ele te traz assim, cara, ele
+
+753
+00:33:39,274 --> 00:33:41,871
+te traz préshow de pro negócio.
+
+754
+00:33:41,872 --> 00:33:44,169
+Você definiu ele, cara, tá do 0 até três
+
+755
+00:33:44,170 --> 00:33:47,048
+quer dizer tudo passou bonitinho passou liso vai que
+
+756
+00:33:47,049 --> 00:33:51,004
+vai agora passou disso eu preciso avaliar ou chegou
+
+757
+00:33:51,005 --> 00:33:53,603
+livro que quem aceitava bloqueia automaticamente alguém precisa rever
+
+758
+00:33:53,604 --> 00:33:55,182
+esse pacote que está com muito problema.
+
+759
+00:33:56,242 --> 00:33:58,830
+E de novo, cada ferramenta tinha peso.
+
+760
+00:33:58,831 --> 00:34:00,469
+Como a gente colocou aqui agora. O curso S.A.
+
+761
+00:34:00,470 --> 00:34:03,028
+É mais crítico pra gente, porque a gente imagina
+
+762
+00:34:03,029 --> 00:34:06,006
+o Sasha nem tanto, o Dashi isso e aquilo.
+
+763
+00:34:06,715 --> 00:34:09,113
+O que vocês acham desse contexto?
+
+764
+00:34:09,114 --> 00:34:10,953
+Obviamente eu não posso falar quem era o cliente, quem
+
+765
+00:34:10,954 --> 00:34:14,089
+era o banco, imagina banco muito famoso do Brasil.
+
+766
+00:34:14,090 --> 00:34:14,909
+E não privado.
+
+767
+00:34:15,609 --> 00:34:18,507
+Pra facilitar a vida da galera. E não privado.
+
+768
+00:34:21,135 --> 00:34:23,693
+Facilidade demais, cara, só gosto de falar
+
+769
+00:34:23,694 --> 00:34:23,853
+com a
+
+770
+00:34:23,854 --> 00:34:26,112
+levada. Já tá fácil.
+
+771
+00:34:27,292 --> 00:34:29,850
+Então assim, eles têm essa maturidade lá, obviamente
+
+772
+00:34:29,851 --> 00:34:31,749
+não tinha detalhe de como funcionava, mas era
+
+773
+00:34:31,750 --> 00:34:33,428
+mais ou menos isso ao longo da esteira
+
+774
+00:34:33,429 --> 00:34:35,587
+ali acumulando notas de acordo com cada teste.
+
+775
+00:34:35,588 --> 00:34:36,826
+Como é que vocês enxergam isso?
+
+776
+00:34:36,827 --> 00:34:39,604
+Eu gostei muito da abordagem, Obviamente depende
+
+777
+00:34:39,605 --> 00:34:41,264
+muito, mas o que vocês acham?
+
+778
+00:34:42,962 --> 00:34:45,530
+Eu achei muito a maneira a questão do Score, né?
+
+779
+00:34:45,531 --> 00:34:47,369
+E tu definir a política do score, né?
+
+780
+00:34:47,370 --> 00:34:49,408
+Por exemplo, olha só, bro, mas se a
+
+781
+00:34:49,409 --> 00:34:52,286
+hardcoded aqui é oito pontos, abraço pra você. É, gente.
+
+782
+00:34:52,287 --> 00:34:55,215
+A gente vai rodar, já vai rodar na aplicação já, né?
+
+783
+00:34:56,534 --> 00:34:58,173
+Achei bem legal, cara. Achei bem legal.
+
+784
+00:34:58,174 --> 00:34:59,972
+E uma coisa que tu comentou, cara também
+
+785
+00:34:59,973 --> 00:35:03,291
+que é bacana, que é o checks de
+
+786
+00:35:03,292 --> 00:35:07,798
+segurança eles estarem ali como totalmente separado, né?
+
+787
+00:35:07,799 --> 00:35:09,597
+Porque daí o time de segurança consegue
+
+788
+00:35:09,598 --> 00:35:11,196
+evoluir o produto sabendo que não vai
+
+789
+00:35:11,197 --> 00:35:14,015
+ter mais tanto atrito na esteira, né? Porque?
+
+790
+00:35:14,016 --> 00:35:17,333
+Na esteira, tu tem várias partes e em uma
+
+791
+00:35:17,334 --> 00:35:22,099
+empresa fumadora cara, assim ó, 100% é o Mister
+
+792
+00:35:22,100 --> 00:35:24,618
+Agiliza por time normalmente de plataforma que vai estar
+
+793
+00:35:24,619 --> 00:35:28,794
+tudo bonitinho e se precisar colocar ponto mais tem
+
+794
+00:35:28,795 --> 00:35:30,554
+estudo, tem uma análise, etc.
+
+795
+00:35:30,555 --> 00:35:32,233
+Aí você tem o ponto de intersecção.
+
+796
+00:35:32,234 --> 00:35:36,311
+Olha, aqui eu quero checks de segurança, e eu vou tomar
+
+797
+00:35:36,312 --> 00:35:41,578
+cerca de dez a quinze minutos, dependendo da complexidade aqui da
+
+798
+00:35:41,579 --> 00:35:46,096
+matéria, aqui na complexidade de cada item, para definir o termo
+
+799
+00:35:46,097 --> 00:35:48,834
+que eu vou ficar ali, Olha, a partir daqui é o
+
+800
+00:35:48,835 --> 00:35:51,353
+ponto de intersecção, que a partir daqui eu faço tudo aqui
+
+801
+00:35:51,354 --> 00:35:53,831
+dentro, aí aqui é minha caixinha, se eu quiser rodar 10
+
+802
+00:35:53,832 --> 00:35:57,119
+ferramentas ao 5 a decisão é minha, só coloca ou ou
+
+803
+00:35:57,120 --> 00:36:03,276
+na minha caixinha e eu acho que ficou legal essa questão
+
+804
+00:36:03,277 --> 00:36:08,953
+do score Porque Como você dá score como qualquer questão de
+
+805
+00:36:08,954 --> 00:36:09,392
+SEO, né?
+
+806
+00:36:09,393 --> 00:36:11,671
+Por exemplo, pega o meu site, coloca o meu analisador
+
+807
+00:36:11,672 --> 00:36:14,530
+de SEO, eu vejo lá o score, a primeira coisa
+
+808
+00:36:14,531 --> 00:36:16,349
+saber por que eu estou com esse score.
+
+809
+00:36:17,568 --> 00:36:19,207
+Eu não sabia já, vou estar lá ainda novo.
+
+810
+00:36:19,208 --> 00:36:20,607
+De eu entender porque eu estou com esse score
+
+811
+00:36:20,608 --> 00:36:22,086
+e o que está impactando o meu score, ou
+
+812
+00:36:22,087 --> 00:36:25,794
+o que está impactando mais o meu score. Né?
+
+813
+00:36:25,795 --> 00:36:27,713
+Aí eu vou olhar assim ah, isso aqui.
+
+814
+00:36:27,714 --> 00:36:28,952
+Tá, ok.
+
+815
+00:36:28,953 --> 00:36:30,752
+E aí eu começo a botar aquilo na cabeça.
+
+816
+00:36:30,753 --> 00:36:31,951
+Cara, eu não preciso isso aqui porque eu
+
+817
+00:36:31,952 --> 00:36:34,689
+vou tomar score 8º maior score ruim, né?
+
+818
+00:36:34,690 --> 00:36:36,208
+8º maior score ruim.
+
+819
+00:36:36,209 --> 00:36:39,806
+E aí acho que Acho que fica legal porque primeiro
+
+820
+00:36:39,807 --> 00:36:43,174
+de tudo, tu não botou 8º ou seja, cara, não
+
+821
+00:36:43,175 --> 00:36:46,892
+vai agora todo mundo aí se vira e tu tá
+
+822
+00:36:46,893 --> 00:36:50,680
+tendo uma margem de flexibilidade para as pessoas olharem mas
+
+823
+00:36:50,681 --> 00:36:55,757
+ao mesmo tempo isso pode virar inclusive indicador de score
+
+824
+00:36:55,758 --> 00:36:58,724
+entre as equipes de desenvolvimento acho que isso é muito
+
+825
+00:36:58,725 --> 00:37:02,043
+importante, porque quando gerente de dev chega assim cara, nossa
+
+826
+00:37:02,044 --> 00:37:07,369
+Score de Segurança tá sempre zeradinho, sempre 100%, pode virar
+
+827
+00:37:07,370 --> 00:37:11,407
+uma métrica para os gerentes de desenvolvimento apresentarem no seu
+
+828
+00:37:11,408 --> 00:37:13,626
+final do ano, no seu quarter review
+
+829
+00:37:14,525 --> 00:37:15,515
+I, né?
+
+830
+00:37:15,516 --> 00:37:17,873
+É, eu acho que isso que é o mais foda, tá ligado?
+
+831
+00:37:17,874 --> 00:37:21,492
+Porque daí tu ganha pelo menos abraço da galera. E
+
+832
+00:37:23,040 --> 00:37:23,599
+tá linda, né?
+
+833
+00:37:23,600 --> 00:37:25,998
+Você pode aplicar essa matriz, ela
+
+834
+00:37:25,999 --> 00:37:27,378
+pode vir, ela pode ser corporativa.
+
+835
+00:37:27,997 --> 00:37:30,436
+Como eu falei, de 0 a 3 sobe,
+
+836
+00:37:30,437 --> 00:37:34,563
+de 3 a sete analisas, acima disso bloqueia.
+
+837
+00:37:34,564 --> 00:37:37,482
+Mas isso por exemplo do banco, isso por internet
+
+838
+00:37:37,483 --> 00:37:40,700
+banking é uma coisa, por sistema backoffce é outra.
+
+839
+00:37:40,701 --> 00:37:43,098
+Isso é uma back office é menos ele não é tão
+
+840
+00:37:43,099 --> 00:37:45,577
+risco, ele não é acesso direto à internet, por exemplo.
+
+841
+00:37:45,578 --> 00:37:47,696
+Então o thresh out dele pode ser maior, né?
+
+842
+00:37:47,697 --> 00:37:50,115
+Pode não ter análise manual, por exemplo, ele vai dentro do
+
+843
+00:37:50,116 --> 00:37:54,432
+automático, é de 0 a 5, sobe, 6 pra cima bloqueia.
+
+844
+00:37:54,433 --> 00:37:55,712
+Então você pode aplicar isso
+
+845
+00:37:55,713 --> 00:37:56,791
+ainda de diferentes produtos.
+
+846
+00:37:56,792 --> 00:37:58,830
+Como você falou, times, squads, enfim, acho
+
+847
+00:37:58,831 --> 00:38:00,549
+que dá pra fazer essa quebra aí.
+
+848
+00:38:00,550 --> 00:38:02,268
+Marcos, eu não sei se você lembra de que
+
+849
+00:38:02,269 --> 00:38:04,667
+cliente é esse, a gente trabalha junto, mas
+
+850
+00:38:04,668 --> 00:38:05,467
+o que você acha? O que
+
+851
+00:38:05,468 --> 00:38:06,746
+você acha desse contexto aí
+
+852
+00:38:06,747 --> 00:38:08,215
+sem falar o cliente obviamente?
+
+853
+00:38:08,216 --> 00:38:08,854
+Não, não.
+
+854
+00:38:08,855 --> 00:38:09,774
+É coisa boa, né?
+
+855
+00:38:09,775 --> 00:38:10,813
+Tu pode falar, mas não
+
+856
+00:38:10,814 --> 00:38:12,652
+vamos expor como é que os caras trabalham.
+
+857
+00:38:12,653 --> 00:38:13,452
+Mas é tenso,
+
+858
+00:38:13,453 --> 00:38:13,952
+exatamente.
+
+859
+00:38:14,811 --> 00:38:18,349
+Assim, eu acho super maneiro, eu acho top pra caramba.
+
+860
+00:38:18,350 --> 00:38:20,948
+Só que eu acho que depende de
+
+861
+00:38:20,949 --> 00:38:23,787
+maturidade da empresa e também de você
+
+862
+00:38:23,788 --> 00:38:26,006
+ter uma cultura de segurança nos desenvolvedores.
+
+863
+00:38:26,575 --> 00:38:30,253
+O vendedor estarem treinados para conseguir aplicar isso
+
+864
+00:38:30,254 --> 00:38:32,312
+aí de uma maneira prática e funcional.
+
+865
+00:38:33,291 --> 00:38:36,319
+Então se você aí tá iniciando, vamos pensar numa
+
+866
+00:38:36,320 --> 00:38:38,997
+empresa que tá começando agora com isso, eu acho
+
+867
+00:38:38,998 --> 00:38:42,196
+que vai falhar, eu acho que a tendência dessa
+
+868
+00:38:42,197 --> 00:38:45,754
+empresa não conseguir implantar isso bem, acabado existindo e
+
+869
+00:38:45,755 --> 00:38:47,853
+partir para algum outro tipo de métrica.
+
+870
+00:38:48,473 --> 00:38:51,791
+Agora se você já está maturando sua
+
+871
+00:38:51,792 --> 00:38:54,189
+equipe, já está o seu time.
+
+872
+00:38:54,190 --> 00:38:56,308
+O pessoal está estudando, está dando curso, está
+
+873
+00:38:56,309 --> 00:38:59,706
+dando palestra, workshops, fazendo uma série de processos
+
+874
+00:38:59,707 --> 00:39:03,033
+para quem que a maturidade de segurança e
+
+875
+00:39:03,034 --> 00:39:05,872
+de desenvolvimento seguro com qualidade entre dentro da
+
+876
+00:39:05,873 --> 00:39:09,010
+empresa, essa métrica vai funcionar muito melhor.
+
+877
+00:39:09,520 --> 00:39:11,678
+Então o processo que você vai adotar para
+
+878
+00:39:11,679 --> 00:39:16,476
+chegar nisso Vai ser o diferencial para isso
+
+879
+00:39:16,477 --> 00:39:19,574
+funcionar ou não Então acho que tem muito
+
+880
+00:39:19,575 --> 00:39:21,772
+disso ainda, porque igual a gente falou, a
+
+881
+00:39:21,773 --> 00:39:24,051
+gente não acha nem profissional capacitado e percebe,
+
+882
+00:39:24,052 --> 00:39:26,680
+imagina o desenvolvedor com desenvolvimento seguro. Né?
+
+883
+00:39:26,681 --> 00:39:28,139
+Mas tem que ser isso, né?
+
+884
+00:39:28,998 --> 00:39:31,377
+Eu deveria aprender a conviver com isso já.
+
+885
+00:39:32,197 --> 00:39:36,774
+Então, para banco ali que já está 60 anos, 70
+
+886
+00:39:36,775 --> 00:39:41,452
+anos, já pensando em segurança muito antes das empresas comuns,
+
+887
+00:39:41,453 --> 00:39:44,569
+é sistema que funciona bem e vai ter uma tendência
+
+888
+00:39:44,570 --> 00:39:46,688
+funcionar melhor a empresa que já tem essa maturidade.
+
+889
+00:39:46,689 --> 00:39:52,824
+Vão ter uma tendência a falhar até conseguir
+
+890
+00:39:52,825 --> 00:39:55,283
+chegar nesse nível de maturidade mais alto.
+
+891
+00:39:56,342 --> 00:39:59,641
+Eu vejo esse modelo, ele tem uma grande desvantagem.
+
+892
+00:40:00,200 --> 00:40:03,178
+Se enxergaram alguma coisa nesse modelo de notas e tal?
+
+893
+00:40:04,677 --> 00:40:11,114
+Cara, eu cheguei uma desvantagem que na minha
+
+894
+00:40:11,115 --> 00:40:12,393
+visão não sei se é essa que você
+
+895
+00:40:12,394 --> 00:40:16,031
+vai falar, que é basicamente você estar botando
+
+896
+00:40:16,032 --> 00:40:19,170
+ali os scanners separados aumentando pode ser.
+
+897
+00:40:19,949 --> 00:40:21,528
+Não sei se é só isso também.
+
+898
+00:40:23,587 --> 00:40:24,746
+Pode ser, mas não era essa?
+
+899
+00:40:24,747 --> 00:40:26,146
+Bemurdel, algumas desvantagens de
+
+900
+00:40:26,147 --> 00:40:27,245
+se encherem nesse contexto.
+
+901
+00:40:31,973 --> 00:40:37,050
+O tempo de esteira eu consideraria ele de acordo com a
+
+902
+00:40:37,051 --> 00:40:42,597
+questão cidade do do cara que a gente tá fazendo, saca?
+
+903
+00:40:42,598 --> 00:40:44,156
+Porque vou dar exemplo.
+
+904
+00:40:44,157 --> 00:40:45,776
+Tem vez que a gente tem em Gemoji.
+
+905
+00:40:46,724 --> 00:40:48,603
+Entendo as questões, né?
+
+906
+00:40:48,604 --> 00:40:50,483
+Então o cara não tem nada pior
+
+907
+00:40:50,484 --> 00:40:52,102
+do que você passar uma remode.
+
+908
+00:40:54,600 --> 00:40:56,679
+E depois tomar Block na no CEC.
+
+909
+00:40:56,680 --> 00:40:58,838
+Cara, não tem nada pior, porque vai passar por
+
+910
+00:40:58,839 --> 00:41:01,615
+todo esse fucking processo de novo, tá ligado?
+
+911
+00:41:01,616 --> 00:41:02,174
+É chato.
+
+912
+00:41:02,175 --> 00:41:02,854
+Então assim.
+
+913
+00:41:02,855 --> 00:41:03,893
+Isso é foda.
+
+914
+00:41:03,894 --> 00:41:05,213
+É, isso é bem foda.
+
+915
+00:41:05,214 --> 00:41:07,772
+Então em alguns lugares, principalmente se tem CSI e
+
+916
+00:41:07,773 --> 00:41:12,009
+DSS, dificilmente está fugindo de gemova de vai fugir
+
+917
+00:41:12,010 --> 00:41:15,168
+de bordo de aprovação, vai fugir de processo de
+
+918
+00:41:15,169 --> 00:41:17,526
+agriment do que está subindo, do que não está,
+
+919
+00:41:17,527 --> 00:41:19,315
+vai subir de processo de roubar né?
+
+920
+00:41:19,316 --> 00:41:21,473
+Porque eu acho que isso é uma questão interessante, né?
+
+921
+00:41:21,474 --> 00:41:23,712
+A gente às vezes vê a questão evolutiva e
+
+922
+00:41:23,713 --> 00:41:25,151
+depois não precisa de robe que a gente não
+
+923
+00:41:25,152 --> 00:41:27,189
+tem os mesmos checks de segurança, né?
+
+924
+00:41:27,190 --> 00:41:28,349
+Do rollback ali, né?
+
+925
+00:41:28,350 --> 00:41:30,388
+Porque, por exemplo, o que acontece?
+
+926
+00:41:30,389 --> 00:41:33,067
+A gente tá com uma falha de segurança, né?
+
+927
+00:41:33,068 --> 00:41:35,825
+Algum problema, ou uma versão que tá com problema de
+
+928
+00:41:35,826 --> 00:41:40,303
+segurança, aí vai subir uma versão que tem vários fixes
+
+929
+00:41:40,842 --> 00:41:43,721
+de produto em geral mas também tem a falha de
+
+930
+00:41:43,722 --> 00:41:49,177
+segurança aí ela sobe, aí dá pau em alguma questão
+
+931
+00:41:49,178 --> 00:41:52,696
+que era do produto, tomou o rollback e o bagulho
+
+932
+00:41:52,697 --> 00:41:55,184
+de segurança vulgabilidade de volta,
+
+933
+00:41:55,185 --> 00:41:56,643
+continua lá. Então,
+
+934
+00:42:00,621 --> 00:42:04,039
+o que eu entendo é que hoje O maior
+
+935
+00:42:04,040 --> 00:42:09,116
+ponto que dói assim é o tempo, a maturidade
+
+936
+00:42:09,117 --> 00:42:11,176
+aplicada no começo ela é muito desgastante.
+
+937
+00:42:12,255 --> 00:42:13,574
+Mas ela vai evoluindo.
+
+938
+00:42:13,575 --> 00:42:15,593
+E aí eu acho que tem poucas empresas,
+
+939
+00:42:16,213 --> 00:42:19,291
+a gente em geral precisa se acostumar a
+
+940
+00:42:19,292 --> 00:42:22,648
+crescer ser nessa dor da maturidade, sabe?
+
+941
+00:42:22,649 --> 00:42:26,046
+Eu acho que hoje a gente toma uma decisão muito
+
+942
+00:42:26,047 --> 00:42:28,046
+precipitada com os dados que a gente tem, não precisa
+
+943
+00:42:28,047 --> 00:42:30,754
+amadurecer, acho que isso é Mas não achou?
+
+944
+00:42:30,755 --> 00:42:31,633
+Boa.
+
+945
+00:42:31,634 --> 00:42:33,313
+Só pra gente encerrar aqui o ponto que
+
+946
+00:42:33,314 --> 00:42:35,512
+eu queria comentar de desvantagem desse modelo de
+
+947
+00:42:35,513 --> 00:42:37,931
+score é as ferramentas que tu usa.
+
+948
+00:42:38,640 --> 00:42:40,279
+Imagina como é que você tá na pipeline,
+
+949
+00:42:40,280 --> 00:42:42,118
+imagina você pega coletar a saída de uma
+
+950
+00:42:42,119 --> 00:42:45,836
+ferramenta, puts, não tem vulnerabilidade, é 0.
+
+951
+00:42:45,837 --> 00:42:48,265
+Puta tem, então é é dois, né?
+
+952
+00:42:48,266 --> 00:42:49,304
+Onde você vai montar essa
+
+953
+00:42:49,305 --> 00:42:50,983
+matriz para classificar essas notas.
+
+954
+00:42:50,984 --> 00:42:53,182
+Então depende da ferramenta que está usando, como é
+
+955
+00:42:53,183 --> 00:42:55,381
+que você faz essa análise do resultado final, a
+
+956
+00:42:55,382 --> 00:42:58,509
+ferramenta X no exporta JSON, A ferramenta isso não
+
+957
+00:42:58,510 --> 00:43:01,008
+tem CLI, eu só consigo integrar na API.
+
+958
+00:43:02,187 --> 00:43:04,946
+Então até você construir esse Score que é muito
+
+959
+00:43:04,947 --> 00:43:08,534
+louco na teoria, dependendo da ferramenta que você tem,
+
+960
+00:43:08,535 --> 00:43:10,173
+vai te dar uma dor de cabeça.
+
+961
+00:43:10,174 --> 00:43:11,292
+Não do lado do CI, né?
+
+962
+00:43:11,293 --> 00:43:13,611
+Cara, Jenkins, sei que você é qualquer cara
+
+963
+00:43:13,612 --> 00:43:15,580
+desses aí, você faz script, faz qualquer coisa.
+
+964
+00:43:15,581 --> 00:43:18,378
+Mas as ferramentas de segurança em si, as ferramentas de
+
+965
+00:43:18,379 --> 00:43:21,257
+teste que tá rodando, os output delas, e como é
+
+966
+00:43:21,258 --> 00:43:23,136
+que cê vai capturar tudo isso pra montar o seu
+
+967
+00:43:23,137 --> 00:43:24,654
+score no meu final, é a desvantagem.
+
+968
+00:43:25,514 --> 00:43:26,613
+Isso não existe automaticamente.
+
+969
+00:43:27,153 --> 00:43:28,632
+Alguém tem que construir isso.
+
+970
+00:43:28,633 --> 00:43:30,711
+Então a ideia é muito boa, mas é uma desvantagem.
+
+971
+00:43:30,712 --> 00:43:31,670
+Você tem que construir isso.
+
+972
+00:43:32,229 --> 00:43:34,308
+A dor não dá o amadurecimento, né?
+
+973
+00:43:34,309 --> 00:43:37,027
+Descolocar esse modelo ali dentro, o modelo acho que
+
+974
+00:43:37,028 --> 00:43:39,115
+por si só ele se vende muito bem, né?
+
+975
+00:43:39,116 --> 00:43:41,633
+Esse mesmo score tem uma coisa que eu acho que
+
+976
+00:43:41,634 --> 00:43:44,672
+foi muito bacana que é esse próprio score e o
+
+977
+00:43:44,673 --> 00:43:48,339
+porquê dos score podem virar indicadores de treinamento podem virar
+
+978
+00:43:48,340 --> 00:43:52,217
+indicadores de olha cara vamos focar aqui né olha esse
+
+979
+00:43:52,218 --> 00:43:54,976
+produto é fácil vincular né qual que é o risco
+
+980
+00:43:54,977 --> 00:43:57,353
+desse produto, a de 0 a 10 ele é 9,
+
+981
+00:43:57,354 --> 00:44:00,232
+então aqui o score desse cara aceitava a segurança X,
+
+982
+00:44:00,233 --> 00:44:02,711
+ele faz a taxa de conversão sacar, e facilita a
+
+983
+00:44:02,712 --> 00:44:04,510
+criação de políticas dentro da empresa, né?
+
+984
+00:44:04,511 --> 00:44:05,719
+Porque você ancora nas coisas.
+
+985
+00:44:05,720 --> 00:44:10,557
+Então, isso acho que é maneiro, mas com certeza.
+
+986
+00:44:10,558 --> 00:44:12,445
+Imagina assim, aí tu pega uma empresa tem
+
+987
+00:44:12,446 --> 00:44:15,123
+uma boa governança de software, olha, aqui é
+
+988
+00:44:15,124 --> 00:44:17,562
+só X linguagem de programação, X Frameworks.
+
+989
+00:44:17,563 --> 00:44:19,521
+Tem outras empresas, velho, que é fácil que
+
+990
+00:44:19,522 --> 00:44:21,630
+tu queres, pois é tudo da lei.
+
+991
+00:44:21,631 --> 00:44:24,148
+Que inevitavelmente até tu descobrir qual que
+
+992
+00:44:24,149 --> 00:44:26,687
+é a melhor SAST para irlang. Isso
+
+993
+00:44:28,946 --> 00:44:30,475
+esquece, né?
+
+994
+00:44:30,476 --> 00:44:32,474
+Vários tempos
+
+995
+00:44:32,475 --> 00:44:34,153
+de maturidade brother, entendeu?
+
+996
+00:44:34,154 --> 00:44:35,232
+Eu tô apressada muitas vezes.
+
+997
+00:44:35,233 --> 00:44:37,931
+Porque imagina, se o cara é de upsec, se tiver
+
+998
+00:44:38,911 --> 00:44:45,147
+o cara conseguiu olhar todos cara paga salário de presidente
+
+999
+00:44:45,148 --> 00:44:47,734
+para esse cara porque você já vai Nas ferramentas, todas
+
+1000
+00:44:47,735 --> 00:44:50,892
+as linguagens, todas as nossas redes, vamos lá, cara.
+
+1001
+00:44:50,893 --> 00:44:51,372
+É verdade.
+
+1002
+00:44:51,373 --> 00:44:52,692
+Possível, né?
+
+1003
+00:44:52,693 --> 00:44:54,531
+Então vai precisar de alguém, de outro
+
+1004
+00:44:54,532 --> 00:44:55,990
+lado, pra te ajudar nisso, né?
+
+1005
+00:44:55,991 --> 00:44:58,628
+Apesar de não ser programa bom, de ser
+
+1006
+00:44:58,629 --> 00:45:00,907
+time que pode te ajudar na análise pra
+
+1007
+00:45:00,908 --> 00:45:02,526
+tu construir em conjunto e não tomar todo.
+
+1008
+00:45:02,527 --> 00:45:03,586
+Não, não, agora isso aqui é só
+
+1009
+00:45:03,587 --> 00:45:05,125
+comigo e saiu o que fazer isso.
+
+1010
+00:45:06,104 --> 00:45:06,604
+Boa!
+
+1011
+00:45:08,503 --> 00:45:12,600
+Tem tema bom, tem passa rápido, mas chegou ao fim,
+
+1012
+00:45:12,601 --> 00:45:17,037
+que deu para elucidar que não quebra não quebra não
+
+1013
+00:45:17,038 --> 00:45:20,196
+chega a uma conclusão acho que tem maturidade tem empresa
+
+1014
+00:45:20,197 --> 00:45:23,624
+empresa tem negócio negócio maturidade de equipe, enfim.
+
+1015
+00:45:23,625 --> 00:45:26,263
+Então acho que vale você analisar na sua
+
+1016
+00:45:26,264 --> 00:45:29,381
+empresa o que você quer fazer, como você
+
+1017
+00:45:29,382 --> 00:45:31,290
+quer fazer, isso faz sentido você fazer.
+
+1018
+00:45:31,291 --> 00:45:33,648
+Às vezes como segurança, eu quero quebrar.
+
+1019
+00:45:33,649 --> 00:45:36,807
+Mas cara, você tá num ecommerce que vende borda
+
+1020
+00:45:36,808 --> 00:45:38,366
+de gude, mas vai quebrar a build pra quê?
+
+1021
+00:45:38,367 --> 00:45:39,445
+Deixa o boca ficar no ar
+
+1022
+00:45:39,446 --> 00:45:42,504
+vendendo, algumas religiões já eram.
+
+1023
+00:45:42,505 --> 00:45:44,503
+Agora você tá numa estrutura crítica, né?
+
+1024
+00:45:44,504 --> 00:45:46,802
+Ou num banco e tal, então o teu negócio
+
+1025
+00:45:47,440 --> 00:45:49,478
+te dar esse insight natural de como você tem
+
+1026
+00:45:49,479 --> 00:45:51,917
+que talvez até conduzir essas coisas, vir como conclusão,
+
+1027
+00:45:51,918 --> 00:45:53,597
+a gente pode chegar nesse contexto.
+
+1028
+00:45:53,598 --> 00:45:54,596
+Então é isso que é mandar
+
+1029
+00:45:54,597 --> 00:45:56,255
+aí, que é mandar beijinho, agradecimentos,
+
+1030
+00:45:58,424 --> 00:46:00,863
+pessoas mais ou menos eu tô obrigado por
+
+1031
+00:46:00,864 --> 00:46:03,621
+me dar oportunidade de fazer parte do teste
+
+1032
+00:46:03,622 --> 00:46:06,340
+aqui queria agradecer imensamente vocês para essa oportunidade
+
+1033
+00:46:06,341 --> 00:46:09,299
+inclusive por poder estar aqui junto com vocês
+
+1034
+00:46:09,300 --> 00:46:11,977
+vendo essas visões assim porque acho que agrega
+
+1035
+00:46:11,978 --> 00:46:15,616
+demais mano agrega demais a gente aprende demais
+
+1036
+00:46:15,617 --> 00:46:16,635
+enriquece bastante
+
+1037
+00:46:17,435 --> 00:46:18,594
+Obrigado, vamos
+
+1038
+00:46:18,595 --> 00:46:20,233
+juntos, vamos juntos falar em Marcos,
+
+1039
+00:46:20,234 --> 00:46:21,193
+tá bom.
+
+1040
+00:46:21,194 --> 00:46:25,010
+Só pedir pessoal, por favor, compartilhar isso aí pra
+
+1041
+00:46:25,011 --> 00:46:26,849
+para quem está tendo dificuldade com o quebra de
+
+1042
+00:46:26,850 --> 00:46:30,007
+briga que quer entender pouquinho mais de esteiras, porque
+
+1043
+00:46:30,008 --> 00:46:33,275
+o assunto foi bom, queríamos falar mais, mas temos
+
+1044
+00:46:33,276 --> 00:46:35,713
+o tempo limitado com os UFOs horários e tudo
+
+1045
+00:46:35,714 --> 00:46:39,432
+mais, mas é tema top pra caramba que é
+
+1046
+00:46:39,433 --> 00:46:42,219
+legal de discutir ter a presença de dois mestres
+
+1047
+00:46:42,220 --> 00:46:46,397
+aqui, duas pessoas excepcionais, ajuda bastante.
+
+1048
+00:46:50,304 --> 00:46:51,504
+Boa, boa.
+
+1049
+00:46:51,505 --> 00:46:53,983
+Quero ter cinema pessoal, mais uma vez das boas vindas,
+
+1050
+00:46:53,984 --> 00:46:57,000
+o Benjour que está se juntando ao elenco aqui, então
+
+1051
+00:46:57,001 --> 00:46:58,119
+uma hora a ele, o autor é o Marcos, o
+
+1052
+00:46:58,120 --> 00:46:59,998
+autor é o Rodrigo Gabriel, cada hora a gente grava
+
+1053
+00:46:59,999 --> 00:47:01,677
+com o que o importante é que deve ser aquela
+
+1054
+00:47:01,678 --> 00:47:04,156
+podcast não para de trazer conteúdo pra galera e pra
+
+1055
+00:47:04,157 --> 00:47:06,895
+enriquecer o mundo do jepsec tá precisando bastante.
+
+1056
+00:47:06,896 --> 00:47:10,213
+Então esse foi o episódio ceptogésimo, quadragésimo, deve
+
+1057
+00:47:10,214 --> 00:47:10,813
+ser o que eu acho que é o
+
+1058
+00:47:10,814 --> 00:47:13,531
+podcast de quarta temporada, 28 da quarta temporada.
+
+1059
+00:47:13,532 --> 00:47:14,211
+A gente vai por aqui.
+
+1060
+00:47:14,212 --> 00:47:16,070
+Se tiver semana que vem, eu sou o Carlos Pereira.
+
+1061
+00:47:16,920 --> 00:47:19,678
+Eu sou o Bangor e eu sou o Marcos Santos.
+
+1062
+00:47:19,679 --> 00:47:21,597
+Beijo galera, a gente vê na semana que vem.
+
+1063
+00:47:21,598 --> 00:47:22,617
+Valeu, pessoal. Beijo.
+
+1064
+00:47:24,084 --> 00:47:28,122
+Termina aqui, deve ser copos, deve ser copos,
+
+1065
+00:47:28,123 --> 00:47:30,701
+o seu podcast de segurança e tecnologia.
