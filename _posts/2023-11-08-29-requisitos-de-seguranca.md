@@ -10,8 +10,8 @@ Casos de uso reais de como a negligência dos requisitos de segurança pode resu
 Dicas valiosas sobre as melhores práticas para manter seus aplicativos seguros ao longo do tempo.
 Não perca este episódio informativo e inspirador enquanto navegamos pelas águas turbulentas da segurança de aplicações e descobrimos como os requisitos de segurança são a âncora que mantém seu projeto protegido. Ouça agora e fortaleça suas defesas em AppSec!"
 file: https://api.spreaker.com/v2/episodes/57558017/download.mp3
-length: 
-videoid: 
+length: 53:00
+videoid: Katdivop5bc
 cover: "../assets/img/429.png"
 transcription: "../assets/transcriptions/4/29/29.srt"
 ---
