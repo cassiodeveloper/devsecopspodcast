@@ -1,0 +1,2406 @@
+E novo a segurança.
+
+Chegamos à tecnologia.
+
+Começa aqui.
+
+O seu podcast de segurança em tecnologia.
+
+Olá pessoal tudo bem com vocês?
+
+Sejam muito bemvindos a mais
+
+episódio deve ser copos podcasts.
+
+Eu sou Cássio Pereira.
+
+Eu sou o Beyor.
+
+E eu sou o Mark Santos.
+
+Muito bom.
+
+Uma hora a gente acerta essa essa introdução aqui.
+
+Vai mudando os nomes, vai mudando os nomes.
+
+É verdade, mas faz parte.
+
+Pessoal, o negócio é o seguinte, antes de começar
+
+o episódio de hoje eu adiciono os recados que
+
+é o seguinte, o da psicóloga podcast tem apoio
+
+da Champions League na Void, especializadas em segurança de
+
+sistemas de código seguro, link da Ana Goethe, que
+
+é a distribuidora da tecla.
+
+Mas o Brasil está baixo na descrição do
+
+episódio lá no YouTube, ou no nosso site
+
+deve ser a Call of podcast, com.br.
+
+Buscando soluções de apsek, a distaloca
+
+é portfólio completo pra você.
+
+A GoA do Security é especializada
+
+em application Security, quer desenvolver software
+
+seguro, fale com algum security.
+
+E o OnlySect Plus, o seu clube
+
+de apsect, não fique de fora.
+
+Jovens, mais peso para o desenvolvimento, mais uma task
+
+no Jira, mais horas para o projeto, ou a
+
+matériaprima de todo o software existente que já existiu
+
+e virá a existir neste planeta arredores.
+
+Hoje falaremos sobre requisitos de segurança, a importância
+
+deles, se são mesmo importantes ou não, talvez
+
+tenhamos opiniões divergentes aqui, aí o caos estará
+
+instaurado podcasts, mas a ideia é a gente
+
+debater sobre o tema de requisito de segurança.
+
+E eu vou começar sempre com uma pergunta clássica, O
+
+que é requisito de segurança na opinião dos senhores?
+
+Bem, o que é requisito de segurança?
+
+Como é que a gente pode definir isso?
+
+Vou começar com a minha principal opinião sobre
+
+o que é o requisito de segurança.
+
+Sem uma ameaça, é segurança por obscuridade.
+
+Eu não sei o que eu tô tratando, não sei
+
+o que eu tô colocando, coloca o captim do decola?
+
+Não, Então assim, para mim, requisito de segurança ele
+
+vem como principal objetivo de propor uma forma de
+
+mitigar uma ameaça visível e entendível por todos, que
+
+estão naquela mesa, então momento que eu for colocar
+
+por exemplo ou dar requisito de segurança aqui que
+
+é todas as chaves de acesso a essa API
+
+de API gateway, por exemplo, ou de appeat de
+
+pagamento, whatever, elas têm que estar dentro desse voult
+
+aqui ou dentro desse Secret Manager.
+
+Esse porque para mim é
+
+o principal requisito de segurança.
+
+Boa!
+
+Bota só a cabecinha, Marcos.
+
+Traz o resto, hein?
+
+E boa.
+
+Cara, quando você fala de requisito de segurança, pra
+
+mim já me puxa assim o ASP SAN, né?
+
+Então pra mim o Hicks de segurança é
+
+a necessidade de identificar controle de segurança que
+
+são importantes dentro do contexto de uma criação
+
+de software, segurança de software.
+
+Então na minha cabeça é mais isso, né?
+
+Preciso de objetivo, o requisito de segurança me ajuda
+
+a chegar nesse objetivo que deve ser cumprido, né?
+
+Acho que o Maitê vai ter mais isso.
+
+Boa!
+
+Então o Baillie trouxe a cabeça,
+
+você trouxe com o caule.
+
+Vamos falar, vamos chamar de caule.
+
+Eu vou trazendo as uvas, não é pra complementar, né?
+
+Mas A minha opinião pode ser polêmica, mas A minha
+
+visão é que o requisito de segurança tem que acabar.
+
+A gente não deveria ter requisitos de segurança.
+
+Talvez eu explique mais detalhes ao longo do episódio, mas
+
+é pelo simples fato de que tudo que tem, tudo
+
+que é separado do core do software, O teste.
+
+É negócio de qualidade.
+
+Dá para passar. A segurança.
+
+Dá para deixar para depois. A qualidade. A saca?
+
+Então o requisito de segurança em si ele não
+
+deveria existir, ele deveria fazer parte do requisito funcional.
+
+E aí junta exatamente como que vocês vão falar, né?
+
+O próprio Baill colocou muito bem.
+
+Tem que ter uma ameaça, né?
+
+Por que que eu preciso disso, sabe?
+
+Por conta disso, disso daquilo, ó. Beleza.
+
+Mas isso deve ter que ser
+
+parte de requisito funcional para mim.
+
+Aí faria mais sentido olhando pra frente, né?
+
+Porque a galera faz muito bypass, deixa pra
+
+depois, eu não vou implementar, eu acho que
+
+alguém colocou aí, ah, eu preciso de cap. Ah, beleza.
+
+Por quê?
+
+Ah, pra proteger contra bote, por exemplo.
+
+Tem uma tela de login. Legal.
+
+Mas é uma ameaça real pra esse ecommerce aqui ou
+
+pra essa Beleza, é uma ameaça, vamos colocar o caption.
+
+Ele é requisito de segurança, mas o software funciona
+
+sem o caption, porque você precisa de login funcional.
+
+Então, dado prazo, usado aquela coisa toda, alguém vai
+
+chegar em algum momento pra gente tratar atrasado e
+
+vão falar assim, ah, põe capita depois.
+
+Esse depois muitas vezes nunca chega o requisito de segurança
+
+que é super importante foi né feito uma análise de
+
+ameaça vem de alguém falar para o cara precisa de
+
+escape aqui ele já é despriorizado, alguém vai por dia,
+
+dependendo de como a aplicação foi construída, pra colocar cápsula
+
+vai ser o caos, porque mexe em coisas,
+
+a pandemia de risco aceito, adoro.
+
+Vai, arrisco aceito, tá difícil, tá tudo certo.
+
+Então, minha opinião é que o requisito é muito
+
+importante mas ele deveria não ser algo separado deveria
+
+existir uma união aí não sei quem que é
+
+o dono da UNL ou da engenharia de software
+
+né para Cara, mudou, requisito funcional, agora não existe
+
+mais, é requisito funcional, requisito s funcional, né?
+
+Com segurança, você já junta ali.
+
+Bom, beleza, então a gente deu essa introduzida aqui,
+
+agora eu queria perguntar pra vocês o seguinte.
+
+Entendemos que eu preciso de
+
+certo modo, ter esse porquê.
+
+Por que eu preciso de tal
+
+controle de segurança ou mitigação?
+
+Como que eu chego nesse porquê?
+
+Eu acho que existem algumas formas, a
+
+gente vai tratar algumas delas, mas eu
+
+queria conversar com o Marcos agora.
+
+Como é que eu chego nesse Por quê?
+
+Exemplo que o Beer trouxe.
+
+Eu tenho uma tela de login e eu quero botar caption lá.
+
+Por quê?
+
+Como é que a gente chega nesse por quê?
+
+Tanto pra levar esses produtos desenvolvedores, ou pra quem quer
+
+que seja, porque queira ou não, mas sem mais horas
+
+no projeto, é tempo a mais de desenvolvimento, seja minuto,
+
+uma hora, dia, é tempo a mais e que muitas
+
+vezes ninguém tá disposto a pagar esse preço, né?
+
+Esse preço financeiro, de fato, às vezes, do tempo.
+
+Então como é que a gente chega nesse porquê?
+
+Como é que a gente convence a
+
+galera desse porquê dele ser importante, né?
+
+Por isso que ele está lá, né?
+
+O que você acha mais?
+
+Cara, assim, eu acho que o porquê começa
+
+quando você está fazendo a mensagem de ameaça.
+
+Então você já tem ameaças que são existentes, você
+
+já ouviu falar, e que você na hora que
+
+está fazendo a modelagem ameaça ali para o software
+
+fala pô seria legal ter caption porque já houveram
+
+ali tentativa você tem Brute Force, você tem Injecto,
+
+você tem alguma coisa que já foi detectada no
+
+futuro por outras empresas, pelo próprio Rasp no passado.
+
+O raciocínio tá pouco mais rápido do que as
+
+palavras mas já foi identificado sabese do risco Por
+
+isso você está colocando ali Porque você já tem
+
+uma justificativa prévia De que isso já aconteceu em
+
+outros locais e você tem a premissa de que
+
+você está garantindo a segurança e colocando aquelas medidas
+
+que já foram identificadas são eficazes.
+
+Tá?
+
+Pra controlar o risco, né?
+
+Quando você for lá,
+
+tem
+
+risco.
+
+Então, o porquê eu explicar com base num risco.
+
+Beleza, eu tenho risco No caso, Ah, eu tenho
+
+uma tela de login, eu quero o Captur. Por quê?
+
+Cara, porque Bot vão ficar varrendo essa tela
+
+de login para tranacessar o meu sistema.
+
+O Captur vai inibir isso ou
+
+já tá fazendo protegeu pouco mais.
+
+E pra chegar nesse porque você
+
+falou de modelagem de ameaças, né?
+
+Beleza, acho que concordo. Né, concordo.
+
+Vou pra próxima, vamos pro próximo aqui.
+
+Bem, o que você acha?
+
+Como é que você chega nesse porquê aí?
+
+O porquê, pra mim, eu começam a
+
+entrar na classificação, categorização, esforço daquela medida
+
+que a gente tá querendo mitigar, né?
+
+Da mitigação ali, vou dar exemplo.
+
+Qual que é a probabilidade de essa ameaça ocorrer?
+
+Então, ou seja, encontrar a data de login, eu
+
+não tenho o Antibot, eu disparantativa de login.
+
+Vai levar 50 minutos depois que eu colocar esse site
+
+no ar para começar a tomar esse free ataque. É padrão.
+
+A questão agora é, qual que é o
+
+esforço, custo e impacto para implementar essa medida?
+
+Então porque por exemplo uma implementação correta de
+
+caption depois que você contratou a solução de
+
+caption e você colocou ela ali, cara, é
+
+uma tagzinha no front, uma validação chamada de
+
+API no back, cara, fechou, abraço, entendeu?
+
+Então é algo assim, ó, morre numa arquitetura muito
+
+complexa e tu levar dia pra colocar isso, sabe?
+
+Numa arquitetura muito complexa.
+
+Né, numa arquitetura normal, o fast food,
+
+cada duas horas tá pronta, brincadeira, entendeu?
+
+Então, porque o que eu digo muito complexo é pode
+
+ter tanto automatizado em cima disso, que agora vai quebrar
+
+ele, tu vai precisar comunicar a galera de QA.
+
+Olha, a partir de agora, a gente vai precisar
+
+gerar uma build X, uma build Y aqui de
+
+tal forma, mas enfim né outra questão é momento
+
+que você já tem essa medida lembrando que o
+
+requisito de segurança ele tem como objetivo o bloquear
+
+algo ou detectar algo, ou alertar algo, né?
+
+Então, por exemplo
+
+Eu diria eu, né?
+
+Ou, ou, ou, ou, ou, ou, ou, ou, ou, por
+
+exemplo, assim, eu vou botar capte a ideia é bloquear
+
+no começo né esse meu capte a falhar é cara
+
+é problema que eu tenho na solução se ela deve
+
+ser corrigida né não vou saindo colocando 50 mil coisas
+
+de log visualização etc em cima numa falha que cara
+
+se falhou uma vez tá errado tem que parar ali
+
+a solução tá errada muito comum os testes de conhecimento
+
+facial também, que é outro risco de segurança, né?
+
+Que é outro movimento que são os
+
+direitos de segurança que é reconhecimento facial.
+
+Agora, por exemplo, diferente do chegar num
+
+porquê de uma possível decepção de fraude.
+
+Aonde eu tenho diversas informações, diversas ações do meu sistema,
+
+que eu preciso vincular os dados, para poder saber se
+
+eu tô tendo uma fraude ou não, que aí eu
+
+envolva base de dados, eu envolva Analytics, eu envolva cruzamento
+
+de dados, eu vou processar aumento em tempo real, porque
+
+não adianta a gente cobrir uma frase, uma fraude seis
+
+meses depois tomando o ataque, né?
+
+Então para chegar no porque inevitavelmente eu tenho
+
+que entender o que que eu vou impactar
+
+Que risco que eu tô me xingando?
+
+Qual que é o custo e esforço daquilo?
+
+Para que, para vez eu tô tocando
+
+no lugar certo também de forma correta.
+
+Essa tecnologia.
+
+Deve ser copy.
+
+Muito.
+
+É fazer uma salva de palmas aqui.
+
+Muito boa essa introdução, cara.
+
+Gostei, gostei.
+
+Como eu falei, deve ser classificado que a
+
+gente passa a ser pago em alguns episódios,
+
+porque o nível tá muito elevado aqui.
+
+Cara, legal.
+
+Agora eu tenho uma preocupação.
+
+Dá trabalho, né?
+
+Eu era desenvolvedor, eu lembro das minhas aulas
+
+de engenharia de software com a professora, que
+
+Shany, The Shany Packer lá na FIAP.
+
+Cara, ela ensinava assim absurdamente bem o ML,
+
+a parte de gerente de software mesmo, e
+
+eu aprendi a fazer requisitos com ela.
+
+Lembro a tela, cara, tinha que descrever o requisito.
+
+Como é que o software vai funcionar?
+
+Como é que a tela de login vai funcionar?
+
+O requisito funcional.
+
+Cara, você precisa do campo A, o campo
+
+login, o campo B, o campo senha.
+
+É o tamanho tal, vai receber email, vai receber
+
+uma senha de x caracteres, então você descreve como
+
+aquela funcionalidade vai ser executado, porque alguém lê aquilo
+
+e transforma em código e daí faça a mágica
+
+quando você lê e transforma aquilo em software.
+
+Então não é trabalho.
+
+O requisito de segurança não é o mesmo trabalho.
+
+O mesmo esforço eu diria.
+
+A diferença é que profissional de segurança fazendo,
+
+muitas vezes dá pra arquiteto fazer, dá pra
+
+deve fazer, mas ele precisa ter esse conhecimento
+
+de segurança pra fazer isso.
+
+E aí, por experiência, eu já fiz a
+
+requisito de segurança e de duas formas.
+
+Uma commodalar de ameaça, que o Marcos trouxe bem, né?
+
+Então você faz ali uma modelagem mescla, framework
+
+que for, com a ferramenta que for, ela
+
+vai te dar as ameaças e para aquelas
+
+ameaças sem implementos e requisitos de segurança.
+
+Putz, tem aqui uma ameaça de temperinho cara então eu
+
+preciso validar os dados né de lado para verificar se
+
+eu não tô tendo uma uma adulteração ali do payload
+
+e tudo mais aquela coisa tudo validar no back End,
+
+não no front end, blá blá blá.
+
+Mas esse processo de ter requisito funcional
+
+já, eu vou chegar na pergunta, tá?
+
+Tem o requisito funcional que o business, que o
+
+usuário, que alguém trouxe pro time de produto.
+
+Já teve tempo envolvido nisso, já virou uma
+
+sprint já estão desenvolvendo o time de desenvolvimento
+
+vai ter que desenvolvimento junto com segurança vai
+
+ter que entender esse requisito baseado numa arquitetura
+
+já criar uma modelagem ameaça para aí então
+
+ter output que seria os requisitos de segurança.
+
+Entre aspas, já tá tarde no processo.
+
+Na tarde, obviamente, a gente tá no
+
+mais leve possível, mas já tá tarde.
+
+Então esse processo de faz modelagem pega os
+
+requisitos implementam, eu acho que já tá tarde.
+
+Por tarde no sentido de depois ver a backlog,
+
+dia implementa na próximo sprint blá blá blá blá.
+
+Por isso que eu falei requisitos
+
+foram seguras que tem que acabar.
+
+Porque eu acho que com uma lista de requisitos
+
+funcionais em mãos, uma lista de requisitos funcionais em
+
+mãos, que arqueiro não é a matériaprima de software,
+
+é o requisito funcional, os requisitos de sistema, requisitos
+
+de desempenho, requisitos secundários, mas o que eles funcionam
+
+e a matéria prima de software.
+
+E se Como já essa lista de
+
+requisitos funcionais em mãos, pudéssemos elaborar nossa
+
+lista de requisitos de segurança.
+
+E aí incorporálos no próprio requisito funcional.
+
+Exemplo mais claro aqui.
+
+Eu fiz uma palestra na USP aqui na
+
+Polônia, e a palestra é exatamente sobre isso.
+
+E eu tinha exemplo lá do requisito da tela de login.
+
+Cara, se tem campo assim, o campo
+
+passado clica no botão Valido os dados.
+
+Tá lá, o requisito tá descrito, qualquer vai
+
+fazer essa tela vai fazer ela funcionar.
+
+Mas e se?
+
+Olha, é uma tela do sistema administrativo, eu preciso de
+
+caput porque tem risco de ter bote, ou tentativas de
+
+boot force, eu preciso ter áudio de te log, porque
+
+eu quero logar todas as tentativas de login, sucesso ou
+
+não, pra ver se eu não estou tendo ataque de
+
+brute force ou coisa do tipo.
+
+Você já não vai passar, por exemplo, no meu Captur.
+
+É usuário e senha.
+
+Então, de acordo com a nossa legislação precisa ser encriptado
+
+esse dado usando o algoritmo A, B e C.
+
+Então essas coisas que eu coloquei, elas acabam sendo
+
+requisito de segurança, que viriam depois no processo.
+
+E esse depois é o depois que pode nunca chegar.
+
+E o sistema vai estar sempre
+
+em risco, alguém aceita tudo certo.
+
+Mas se a gente já tem essa lista e faz
+
+brainstorming em cima dela, opa, tela de login, Capture, log,
+
+Waff, sei lá, já bota uma listinha de coisa ali,
+
+por isso que esse professor da segurança é importante neste
+
+momento, porque ele já tem de cabeça, já tem o
+
+Mark trouxe muito bem os ataques comuns, já tem coisa
+
+que acontece, o Baillie colocou, cara, você subiu na tela
+
+de login e em 15 minutos eu tô escaneando lá
+
+a sua página pra tentar fazer alguma coisa.
+
+Então, esses problemas comuns ou até problemas
+
+mais profundos, que demandam esse problema de
+
+segurança, poderiam já nessa lista de requisitos
+
+fazer esse brainstorming, ou até ainda modelagem
+
+ameaça, mesmo que seja em alto nível.
+
+Você não tem arquitetura da aplicação ainda, porque de
+
+repente software novo e tudo mais, mas você já
+
+tem uma ideia, vai ser micro serviço, vai ser
+
+API, vai ser tal, tal, tal, tal.
+
+Você sabe mais ou menos, dá pra você criar
+
+ali certo modo, diagramas em geral em algumas ameaças,
+
+dependendo do framework que você está usando do modelário.
+
+Então, o meu próximo ponto é esse.
+
+Esse trabalho que dá para elaborar os requisitos de segurança
+
+porque dá trabalho vocês acham que faria sentido para decidir
+
+que eu coloquei né fazer esse merge, né?
+
+Junto com o requisito funcional.
+
+Inclusive você ganha lá na frente, né?
+
+Porque cara, então não vai ter bypass.
+
+Ah, depois vê o CAPS, não.
+
+Cara, ele faz parte do requisito funcional.
+
+Você não tá lá, o software não tá pronto, né?
+
+O Definition of Dani, aquela coisa toda.
+
+Você não tá lá, não tá pronto, né?
+
+No teste de o teste funcional vai passar, enfim, não
+
+foi o que o usuário pediu no app tá descrito.
+
+Então você ganha nesse ponto também, obviamente
+
+você perde mais, também tem mais tempo
+
+de desenvolvimento, aquela coisa toda.
+
+Vocês acham que faria sentido esse merge ou ou e
+
+ou e ou também definir uma lista baseline vamos chamar
+
+assim de requisitos padrões por exemplo não pode ter senha
+
+chumbada no código é requisito da segurança. Não
+
+é nem requisito, é isso aí.
+
+Se o cara fizer isso
+
+aí, pode existir, cara.
+
+Acredite, Nada é como vincular esse ai,
+
+eu acredito que eu tenha chegado, né?
+
+E já pegamos esse ai commit chamando.
+
+É, a boité, boité, vamos desenvolver o projeto desse.
+
+Jovem padawan, essas coisas acontecem.
+
+Então o que vocês acham?
+
+Tem uma lista de requisitos base, cara,
+
+nenhum software nessa empresa, vai ser desenvolvido
+
+sem esse mínimo, sem esse baseline aqui.
+
+Então não tem 100 coisas que todo mundo vai
+
+ler, entender como o Bale colocou no começo, ter
+
+porquê daquilo e já criar essa cultura.
+
+Nesse caso, o cara para de chumbassem e usa VOLT.
+
+Mas em outros casos, por exemplo, cara, você vai usar
+
+uma criptografia, você tem que usar o algoritmo ABC.
+
+Então, o Pavelês tá aqui na biblioteca, tá aqui no
+
+time de arquitetura definido, esse é o componente que você
+
+usa, vai uma coisa, usa isso aqui, tal, tal.
+
+Como é que vocês enxergam esse monte
+
+de coisa que eu falei, né?
+
+Lista de rebase line de requisitos, mais juntar
+
+o requisito de segurança com o requisito funcional.
+
+Vou escolher quem quer começar.
+
+Eu não vou editar não.
+
+Recomeçar a fazer isso.
+
+E olha só, vou separar em dois pontos aqui.
+
+Primeiro estudo eu concordo 1 milhão por cento e não
+
+ter os requisitos de segurança e os do software né
+
+Eu acho que na verdade os requisitos são requisitos, só
+
+eles são gerados por pontos de vistas diferentes.
+
+Tem o requisito cara de UX, o
+
+requisito cara de qualidade, o requisito cara
+
+de performance, o requisito cara de segurança.
+
+Então, Da mesma forma, como a engenheira de
+
+software, por exemplo, a gente vai ter uma
+
+cobertura de 95% de testes unitários.
+
+Poxa, é requisito da qualidade
+
+e mantelabilidade do software.
+
+Então acho que essa é uma questão bem bacana.
+
+Se você quiser ter só só para o software funcionar.
+
+E eles têm a sua prioridade, a
+
+sua complexa cidade, o seu custo de
+
+implementação, como todos os requisitos tem, né?
+
+Por uma questão de verificarmos e
+
+sua obrigatoriedade ou não, né?
+
+E gerado ponto de vista diferente.
+
+Uma questão dos requisitos do ponto de vista de segurança, a
+
+primeira coisa eu colocaria o que nós temos Secure de Falts
+
+e o que não entende então porque vou dar exemplo né
+
+cara olha só toda a comunicação que a gente for fazer
+
+para fora ou seja request que a gente for fazer para
+
+fora da nossa infraestrutura se não passar por esse proxy aqui
+
+não vai sair né para que a gente possa monitorar a
+
+chamada que eu tô saindo daqui Então, no momento que a
+
+gente está fazendo olhando o sistema, olha, poxa, aqui tem uma
+
+chamada para serviço de email ou para serviço de status que
+
+é externa da infraestrutura.
+
+Se a gente não tem o Secure Standard, olha, chamadas
+
+para serviços externos é assim que a gente faz.
+
+O nosso requisito ele vai ser sempre
+
+criado na hora, sempre pensado na hora.
+
+E isso é o que mais dá trabalho na hora
+
+de gerar requisito de segurança a gente tem que sempre
+
+explicar muito o porquê para todo mundo sempre ter que
+
+definir o requisito, o modelo e porque ele existe naquela
+
+hora ali, e às vezes a gente tem esse label,
+
+as 20, 30 requisitos, num projeto num projeto assim e
+
+aí a gente só vai nossa vamos terminar de escrever
+
+esse requisito quando você vai começar a iniciar o software
+
+Então, a gente precisa ser capaz de abstrair alguns requisitos
+
+para standard segurança.
+
+Por exemplo, pessoal, do que o esquema de segredo, né?
+
+A gente já tem standard para isso, nosso standard é
+
+pré commit e não vai subir caso bapa branch, né?
+
+Isso já não deveria estar no requisito
+
+de software, porque a gente deveria ser
+
+capaz de mitigar burly, capaz de mitigar
+
+de forma automatizada, não deveria ser requisito.
+
+O requisito seria todos os desenvolvedores utilizarem o
+
+précomit definido pelo standard, e nós estarmos no
+
+meio desse vai rodar Lynch, vai rodar Put
+
+que pariu ali, inclusive a verificação de Disecrets.
+
+Esse deveria ser o requisito.
+
+Né, e não de fato desenhar ele todo sempre.
+
+Talvez a primeira vez ele vai ser desenhada
+
+porque ele não existe, mas ele já deveria
+
+ser pensado da abstração para todas as equipes
+
+Top Concordo com vocês dois só que eu
+
+colocaria depende porque assim é muito bonito é
+
+muito legal concordo 100% que deveria estar junto
+
+Só que depende da maturidade da empresa.
+
+Às vezes uma empresa, uma startup está
+
+começando, não tem cara de segurança.
+
+Cara não vai ter não vai nem conseguir colocar
+
+o requisito de segurança junto com o requisito funcional
+
+exame da aplicação do software então eu acho que
+
+depende de uma empresa já estruturada, que já tenha
+
+o time de segurança ali é super legal, vai
+
+funcionar bem e deveria ser assim, se eles levantaram
+
+ponto muito bom, poderia, evitaria muitos problemas à frente
+
+e evitaria também muita refatoração de código ficar codando
+
+de novo voltar código Então evitaria muita coisa, só
+
+que pra mim ainda tem essa maturidade.
+
+Eu pego muitos clientes que não tem nenhuma
+
+maturidade, não tem nenhum tipo de segurança.
+
+Cara, como que eu vou colocar segurança no Mysteira?
+
+Não faço a menor ideia.
+
+Então, pra esse cara, como que eu vou colocar
+
+a primeira vez?
+
+Como que eu vou falar para esse cara?
+
+Não, vamos tentar fazer o Rex de segurança junto com o
+
+Rex de funcionar aqui, enquanto com o Rex de software.
+
+É difícil.
+
+Mas eu concordo.
+
+Ele é o melhor dos mundos, só que
+
+nem sempre tem o profissional de segurança para
+
+poder fazer essa jogada e ajudar a implantar.
+
+Leve e Secops.
+
+Lev e Secops.
+
+Tudo bom, muito bom.
+
+Cara, eu tive uma para não falar o nome da
+
+empresa né mas é uma empresa com três letras que
+
+eu trabalhei só dando uma enquete de itens tem duas
+
+tem duas não tô falando tem duas representa com três
+
+letras que é havia uma lista de requisitos de 200
+
+requisitos, 280 requisitos lá, era basilar, então todo produto, todo
+
+software era desenvolvido, tinha que ter aqueles requisitos.
+
+Obviamente ou outro ali não era aplicável
+
+e tal, mas tinha lá os requisitos.
+
+Então tinha coisas como, por exemplo, não pode ter
+
+senha chumbada, se você usa certificado, o certificado tem
+
+que ser manipulado assim, assado, se você usa todos
+
+os inputs tem que ser validado, blá blá blá.
+
+E no final de cada entrega, cada release dessa empresa,
+
+vocês tinham acesso a gente pra ver esse cara.
+
+Todos os requisitos foram feitos,
+
+todos os que eram aplicáveis.
+
+Tinha requisito lá, por exemplo, você tá usando VM, fazer
+
+deploy, a VM tem que ser assim, assim, assim, sabe.
+
+E às vezes o cara tá subindo na Cloud e não serve.
+
+Não tem VM de fato.
+
+Então, esse requisito era aplicável, né?
+
+O cara colocava lá no aplicativo.
+
+Só que eu quero o problema.
+
+Todo time, o problema dos times era,
+
+cara, mas é 200 e poucos requisitos.
+
+Toda vez que a gente tem que ver isso,
+
+Toda vez que tem que fazer isso, hora uma
+
+planilha, hora no Azure, tanto faz, né?
+
+Toda vez que tem que ler eu sei que
+
+existe, toda vez que existe, porque toda a versão
+
+do software tinha que ter esse acesso.
+
+Versão 1.0 e a versão 1.1, o ticket é o acesso, porque
+
+a gente cara, a versão 1.1 tá compliance com a parada.
+
+E a empresa já era madura, eu já tinha
+
+tempo Caralho, velho, você faz isso uma vez.
+
+O seu time lê aqueles requisitos e entende ele uma vez.
+
+E você implementa.
+
+Os requisitos são mínimos, então eles são obrigatórios.
+
+Ah, putz, não vou conseguir fazer esse
+
+primeiro release, não vou conseguir todos. Beleza?
+
+Alguém vai provar?
+
+É você sobe na próxima versão, simplesmente o
+
+restante, mas você já sabe que tá lá,
+
+você já mapeou, porque não muda nada, né?
+
+Não sei o que são o mesmo.
+
+E na sua versão 1 bilhão lá na
+
+frente, provavelmente você vai ter aplicado todos.
+
+Você leu eles uma vez e foi
+
+aplicando eles ao longo de suas evoluções.
+
+Mas essa era todo o Ah, mas é muito requisito para ler.
+
+Ah, mas eu não entendi o que o requisito tal
+
+fala, então a gente resolveu não fazer ou coloca aqui
+
+no era aplicável, cara, mas você não perguntou com o
+
+time de segurança, tem o time de segurança pra perguntar.
+
+Então, por isso que eu joguei essa questão
+
+de ter baseline, o que vocês achavam?
+
+Porque é legal, o Beauty colocou
+
+muito bem, o Security Standards.
+
+Cara, aqui a gente vai ter chamada pra
+
+fora, vai passar por esse proxy aqui.
+
+Fora isso, não tem deploy, não vai subir,
+
+não vai passar, o standard é esse.
+
+E o porque já está lá, ou qualquer comunicação
+
+do serviço aqui é a HTTPS, é encriptado. Por quê?
+
+Porque se tiver ataque na rede, o cara não faz sniff.
+
+Por quê?
+
+Porque tem que ser assim e acabou.
+
+Tem vários porquês.
+
+Mas você faz uma vez e os
+
+times entendem aquilo e seguem aquilo.
+
+Tem coisa que acaba sendo lei,
+
+o regra, vamos chamar assim.
+
+Mas a gente teve essa dificuldade dos caras.
+
+Cara, mas é muito requisito.
+
+Todos os requisitos eram relevantes.
+
+Obviamente muita coisa lá não aplicava
+
+às vezes para software ou outro.
+
+Muita coisa contabilizada também para o
+
+pessoal subir em docker e tal.
+
+Muita coisa não se aplicava mais.
+
+Mas questão de aplicação sim.
+
+Então eu tinha ótimo me falando cara você fez o
+
+sétimo e fiz passou em tudo passei todos aqui você
+
+fez fiz e esse aqui de não ter senha chumbada
+
+não fiz também rodavam escanzinho no repositório do cara cheia
+
+de sica, cheia de coisa lá, né?
+
+Pra mano, então você tá respondendo só por responder.
+
+De fato, você tá usando essa
+
+má prática aqui, importante você implementar.
+
+Então como é que vocês veem essa questão de baseline?
+
+Como é que você resolveria isso?
+
+Esses standard, por exemplo? Por que?
+
+Nesse exemplo que eu citei, nessa
+
+empresa, não tinha suporte executivo.
+
+Então se o time não fez, tava tudo bem.
+
+Ah, putz cara, não fiz. Ah, beleza.
+
+Faz na próxima, e na próxima, e nunca fazia.
+
+Agora se é lei se você tem suporte
+
+se tem
+
+comitê de gestão de mudança vai ser aprovado não
+
+vai o cara de segurança e outras pessoas envolvidos
+
+vai olhar para quem falar cara não está de
+
+acordo com os nossos standard então não vai subir
+
+ou você vai pedir aprovação do dono da empresa
+
+né risco aceito, o que for para isso passar,
+
+senão está completamente fora do nosso standard aqui.
+
+Como é que vocês veem isso?
+
+Esse suporte executivo ou autoescalão é fundamental ou vocês
+
+acham que os times eu odeio essa palavra, que
+
+os times são empoderados o suficiente pra implementar segurança
+
+ou qualquer outra questão que seja.
+
+O meio tinha colocado, tem requisitos de UX, tem requisitos
+
+Beleza, mas cada que é a sua prioridade no fim
+
+das contas, tudo que não é do requisito funcional cai,
+
+porque tá atrasado, porque tem que entregar pro negócio mais
+
+importante, é o que acontece no dia a dia.
+
+E aí, como é que vocês veem?
+
+Esse suporte de cima, né?
+
+É fundamental, ou os times são ou deveriam
+
+ser empoderados de visitas pra fazer, pra implementar,
+
+sei lá, como é que vocês enxergam assim?
+
+De cada vez
+
+vamos lá cara assim na minha visão tá
+
+posta errado, aposentado, depois a gente está discutida.
+
+Primeiramente, teria que ter alguma coisa
+
+no CI servir para bloquear isso.
+
+Você ter ferramentas e segurança apropriadas Não é
+
+colocar sonar ali, colocar alguma coisa muito simples
+
+Ter ferramentas específicos para detecção se você está
+
+procurando ciclista, tem uma ferramenta de verificação de
+
+ciclistas ali no seu CACD pra poder bloquear
+
+esse tipo de coisa, passwords e tudo mais.
+
+Então você tem uma esteira bem montada.
+
+E tem comitê executivo te apoiando, é fundamental.
+
+Sem isso no nada, a gente é desenvolvedor
+
+passou por isso a gente vai dar bypass
+
+em tudo que a gente conseguir.
+
+É simples assim.
+
+Não tem o que falar.
+
+Se eu tiver uma entrega para fazer o meu chefe
+
+me cobrando e eu tiver que vai passar ali qualquer
+
+coisa da maneira mais escrota possível, vai passar.
+
+Esse é o pensamento.
+
+Então você tem uma esteira blindada, vamos dizer assim,
+
+igual a gente falou no último episódio que acho
+
+que você até que colocasse do score ali na
+
+esteira, cara seria excelente você ter ali tudo modelado
+
+bonitinho com os scores ali pô não tem secrets
+
+bateu ali não tem pressa, hoje não tem injection,
+
+então o Benjure colocou também no último episódio.
+
+Cara, dependendo da vulnerabilidade, a gente aplica em 95%
+
+de acessibilidade, outros são 70, 80 Então você ter
+
+ali a esteira moldada, preparada para receber esse tipo
+
+de coisa é o caminho inicial e ter também
+
+suporte executivo Sem isso não funciona Às vezes você
+
+precisa de topdown ali para tudo funcionar corretamente Infelizmente,
+
+o mundo funciona assim em alguns momentos.
+
+Acho que o Marcos foi muito muito certeiro.
+
+Nesse ponto do tipo, a empresa tem que estar
+
+alinhada de que vão existir requisitos vindo do time
+
+de segurança, eles têm que ser abraçados, né?
+
+Acho que ponto alto nessa questão.
+
+Uma questão que eu enxergo é que
+
+os requisitos eles tendem a serem afunilados.
+
+O que eu digo afunilados?
+
+A gente pode começar com a questão de secret,
+
+de bibliotecas Beleza, em determinado momento, nós só precisaríamos
+
+colocar o olha, dentro do CID tem que rodar
+
+a action de seque sabe e aquela action vai
+
+resolver vários desses requisitos entende?
+
+E aí tu afunilou tudo ali, ah tem que usar
+
+lá o pré commit, tu afunilou vários daquele ali.
+
+Outra questão, tem que passar por penteste antes
+
+de sair a produção 100% dos usuários.
+
+É requisito de segurança dependendo às vezes vai pegar
+
+a PSAIA por compliance aí tu pega o compliance
+
+foi nas costas que sempre te ajuda priorizar.
+
+Então se você tem uma legislação,
+
+comprar isso alguma documentação, algum risco
+
+assim, sempre vai acabar ajudando.
+
+Outro ponto importante é os requisitos de
+
+segurança, se eles não ensinarem estimulo de
+
+desenvolvimento, alguma coisa que tá faltando, né?
+
+Por isso que esse porque tem
+
+que tá muito claro assim, né?
+
+Poxa cara, olha só, depois dessa etapa aqui,
+
+tem que ter uma verificação de duplo fator.
+
+Bom já vou fazer uma transferência
+
+acima de 5 mil reais.
+
+Cara, aqui ele precisa colocar segundo fator. Por quê?
+
+Na verdade, isso deveria virar requisito de
+
+segurança standard que qualquer operação financeira nos
+
+usuários que envolverem mais de X% da
+
+sua capacidade financeira deveriam exigir segundo fator.
+
+E esse requisito pode atravessar ele para a empresa
+
+como todo né e ter o baseline eu acho
+
+ele indispensável mas para mim o baseline deveria ele
+
+deveria ser devorado com o tempo por Secure Standard
+
+né e aos poucos os outros aqui de segurança
+
+eles seriam muito customizados para uma funcionalidade em si
+
+dentro da modalidade de ameaça. Por quê?
+
+Porque a gente teria o ciclismo standard da empresa.
+
+Outro exemplo, o esquema do HTTPS, né?
+
+Eu a minha cloud não deveria aceitar
+
+uma conexão CHTPS então isso não deveria
+
+em algum determinado momento ser requisito porque
+
+eu teria automaticamente mitigado, saca?
+
+Forma aqui de novo, peraí.
+
+Esse ponto é muito alto.
+
+Esse ponto é ele é uma discussão ampla, porque de
+
+fato ele pode se aplicar numa empresa, na outra não.
+
+Num time ele aplica, no outro não aplica, né?
+
+Dependendo da criticidade do negócio, por exemplo.
+
+Como eu falei, né?
+
+Eu trabalhei trabalha em empresa, essa dá
+
+pra falar porque não vou falar problemas,
+
+mas trabalha na CVC uma época.
+
+E você tinha lá o produto hotel, produto aéreo,
+
+produto pacote, Cada time era responsável por produto, então
+
+pesquisa de hotel e aéreo tinha uma prioridade, pagamento
+
+tinha uma outra prioridade, o time de pacotes era
+
+outra prioridade, então dependendo do produto, tinha prioridade diferente
+
+da outra, e coisas aplicáveis à outra.
+
+Obviamente, existem coisas comuns para todos os produtos,
+
+é o prato dos times, vamos chamar assim,
+
+mas obviamente tem coisas que acabam sendo customizadas
+
+ali, mas essas coisas comuns, elas viraram standard,
+
+E aí é aquela lei da empresa, né?
+
+Todo mundo segue e já sabe por
+
+que e tá todo mundo alinhado.
+
+Igual, por exemplo, cara, o pagamento cai no dia 20.
+
+Por que?
+
+Porque o RH definiu sim que a empresa paga no dia 20.
+
+Ah, mas eu quero o dia 10.
+
+Nossa, não quer nada, mano.
+
+Você quer ir à batalha do lugar e acabou.
+
+Tipo, é dia 20, mano. Sabe?
+
+É isso que me perturba muitas vezes.
+
+Muitas vezes a segurança é questionada.
+
+E aí, eu descobri o Beyworth trouxe agora como
+
+exemplo, que eu vou fazer uma analogia, né?
+
+Quando você vai no médico, sempre o médico, né?
+
+É bom que eu mexo com a vida, né? Nem quer morrer.
+
+Eu sou católico, mas até quem sabe
+
+que vai pro céu, não quer morrer.
+
+Vou esperar mais, né, mano? Vai que, né?
+
+Vai acontecer igual, né? Então pode
+
+acontecer.
+
+Deixa eu explicar pouquinho.
+
+Às vezes você espera pouquinho, né?
+
+Mas você vai no médico e o médico ele fala cara, o negócio
+
+é o seguinte, é para de fumar e beber e tal, tal.
+
+Hoje é agora, seguir tua vida vai fazer exercício, vai
+
+ter uma dieta especial, tá, tá, tá, tá, tá, tá.
+
+Ele tá te passando ali baseline.
+
+Cara, o seu baseline agora é álcool, 0.
+
+Água com gás no máximo.
+
+Refrigerante também é açúcar, sei lá.
+
+E você tem aquela opção de fazer ou não.
+
+Na sua casa você faz ou não.
+
+Mas o médico te recomendou.
+
+Muitas vezes a responsabilidade dele já está toda boa,
+
+mas você faz se você quiser ou não.
+
+Normalmente o pessoal faz ou
+
+não, normalmente o pessoal segue.
+
+Normalmente, E você não foi questionando o médico.
+
+Mas por que, doutor?
+
+Até o Bear colocou bem.
+
+Você tem que falar o porquê do requisito.
+
+Ele vai te falar.
+
+Cara, o seu fígado está com cirrose.
+
+Se você não parar de beber, vai destruir
+
+seu fim e você morre em 3 meses.
+
+Se você parar de beber.
+
+Ah, tá bom.
+
+Entendi o risco, a gravidade.
+
+Vou seguir sua recomendação.
+
+Mas segurança, não tem isso.
+
+Você fala o porquê, você quer caption na tela de login.
+
+Por quê?
+
+Porque tem bot, porque a nossa aplicação é exposta pra
+
+internet, a gente tá num maior ecommerce do planeta, ou
+
+numa loja, ou sei lá, banco, tem que ter cara.
+
+Ah, mas vai demorar pra fazer?
+
+Ah, mas olha o Sexteto.
+
+Ah, mas custa o cara.
+
+Ah, mas Mano, mano, sabe?
+
+Tem coisa que não tem.
+
+Quando é que é segurança?
+
+Talvez não segurança como todo.
+
+E aí, pergunta polêmica, né?
+
+Quando é que a segurança vai começar
+
+a ser enxergada como o cara?
+
+Os caras estão falando, vamos
+
+fazer parado que é importante.
+
+Mas nunca é assim.
+
+Obviamente, não segurança como área, mas obviamente
+
+coisas muito específicas, como esse caso aí
+
+que a gente colocou, né?
+
+Elas estão requisitos que, cara, que ou se na
+
+vulnerabilidade você precisa corrigir, porque ela é crítica.
+
+Por quê?
+
+Porque é crítica isso e isso, dálhes os motivos,
+
+mas mesmo com esse é o meu ponto, né?
+
+Às vezes mesmo com os motivos mesmo com os
+
+porquês, o time de segurança é muito questionado.
+
+Você não questiona o médico.
+
+Mas doutor, será que se eu tomar por
+
+dia, umas Não vai dar certo comigo, não.
+
+É três meses pra você viver, para de beber hoje, seis.
+
+Sei lá, é caso extremo.
+
+Ah, então eu vou parar, né?
+
+Você não fica questionando, mas será
+
+que o exame tá certo?
+
+Vou buscar uma segunda opinião.
+
+Até algumas pessoas vão, mas você
+
+vai na segunda opinião aí.cabu.
+
+Mas você não fica questionando, você obedece.
+
+Insegurança não, não que a gente seja os reis da verdade,
+
+não é esse o ponto que eu tô colocando aqui.
+
+Mas às vezes a gente traz esse porquê que a gente
+
+introduziu muito bem o virtuos muito bem a gente traz esses
+
+porquês mas ainda assim tem essa questão Ah, mas vai levar
+
+tempo, é o custo, é não sei o que.
+
+Vocês acham que é relevante isso que eu tô falando?
+
+É loucura?
+
+Como é que vocês enxergam isso?
+
+Você acha que segurança tinha que
+
+ser enxergada alguns pontos, né?
+
+Dentre aspas de novo, alguns pontos segurança.
+
+Deveria ser enxerged como essa com
+
+esse médico, nesse exemplo, ou não.
+
+Negócio sempre vai correr risco, negócio que
+
+decide, está tudo certo, Como vocês acham?
+
+O que vocês acham disso?
+
+Cara, assim, deveriam ser enxergados como os
+
+médicos, só que tem problema em segurança
+
+que em outras áreas você consegue justificar
+
+bem, que é o retorno sobre investimento.
+
+Então na área de segurança, como que você consegue
+
+provar que aquela sua medida de segurança poupou tanto
+
+de dinheiro lá na frente o problema tá aí
+
+Se você Deixa eu te fazer parênteses.
+
+Você vai fazer outro exemplo muito
+
+mais claro, beber e dirigir. Está na frente.
+
+Se você Se você for pego alcoolizado, você
+
+perde a carteira, o carro vai aprendendo. Sim.
+
+Mas se você não for pego,
+
+você bebe direito, está tudo certo.
+
+Qual é o risco?
+
+Você bate o carro, causa o acidente e
+
+mata alguém blá blá blá blá blá.
+
+Beleza, quem decide se bebe ou dirige ou não?
+
+Você, o condutor, Muitas vezes você assuma o risco.
+
+Ah, bebe só uma latinha, vou
+
+dar aqui em casa, vou dirigir.
+
+Ou, semanas, virei três garrafas de
+
+vodka, tô na Polônia mesmo. Vou dirigir.
+
+Mas você só vai saber o retorno sobre esse investimento
+
+nesse exemplo se deu problema ou não você ter bebido?
+
+Se você tiver acidente.
+
+Se você não tiver acidente, você vai ficar
+
+aquela você precisa de ah, tá tudo certo,
+
+eu dirijo bem, é caminho curto.
+
+Cara, 1 metro a 1 quilômetro, só
+
+precisa de 1 segundo o presidente acontecer.
+
+Então você sempre quer ver porque
+
+você não quer pagar esse preço.
+
+Mas é que você falou, é perfeito isso, não é?
+
+É o retorno sobre investimento, mas Não qual
+
+é o
+
+retorno do seu seguro que você paga do carro?
+
+Se você nunca for roubado, sem ter
+
+retorno nenhum, você foi só gastou?
+
+Só querem quitar?
+
+A sensação de que aquilo nunca vai acontecer contigo é
+
+muito maior do que tipo cara eu vou investir 100
+
+mil dólares aqui para prevenir algo que pode vir acontecer
+
+Ninguém pensa que vai acontecer aquilo comigo.
+
+Ninguém pensa isso, nenhuma empresa pensa.
+
+Por isso acontece.
+
+Na verdade, por isso que os empresários acontecem.
+
+Então,
+
+só que aí, os números ainda são, pô,
+
+dependendo da empresa, o impacto maior era menor.
+
+Então, às vezes, o impacto do cara foi, sei lá,
+
+vai ser de 30 mil dólares, o cara investiu 100.
+
+A ferramenta não se entende, o custo de reparar que
+
+o dano foi menor do que o dano de potássio
+
+a ferramenta então o cara assume o risco pensando no
+
+quanto ele vai ter de problema ali o quanto que
+
+vai custar para ele do que investir numa ferramenta ou
+
+implantar uma segurança boa ali, né?
+
+De qualidade dentro do parque tecnológico dele.
+
+Então tem esse lado ainda.
+
+Até tô com ponto legal que isso quer questão do Poxa,
+
+o problema que eu posso ter versus é o custo alimentar.
+
+Eu lembro de uma vez de acesso a insegurança
+
+que estava fazendo, que tinha que implementar a LGPD.
+
+Né?
+
+Que lindo óbvio que é mais uma
+
+tarefa do cara de upsec, né?
+
+E aí uma das coisas da LGPD é sabe aquele
+
+botãozinho que você seb aceita receber as newsletter e tal
+
+e não sei o que essa operadora aí beleza esse
+
+botão para o padrão tem que vir desabilitado né era
+
+20 e poucos por cento da receita da empresa eles
+
+tinham valor de mercado muito, muito forte em marketing.
+
+Essa propaganda por email e por comunicação
+
+geração, gerava muita revenda, muita compra.
+
+De galera que não solicitou, mas o botão já tava ativo.
+
+Agora que a família já chegou lá o cara compra.
+
+E aí o que acontece?
+
+Aí eu vou chegar para o cara dizendo que
+
+eu ia conseguir segurança aquele gpd que tem aquele
+
+botãozinho desligado vai ser eu entendeu então assim cara
+
+nesse Mas nesse caso você tá
+
+bem armado, porque é lei, né?
+
+Não, exato.
+
+É mesmo assim, agora com a puta da LGPD.
+
+E quanto que O cara
+
+me pediu, o cara vai abrir. Ele vai abrir o outro.
+
+Ele vai abrir o outro, né?
+
+Repagado, né?
+
+Porque era 20% do faturamento da
+
+empresa, era a porra desse checkbox.
+
+Cara, era checkbox que não podia falhar.
+
+Sistema objetar off, mas o checkbox da internet
+
+pode falhar, eu olhei aqui e achei bizarro.
+
+E aí o que acontece?
+
+Agora entra outra questão que é importantíssima, por isso
+
+que aqui no começo a gente estava falando sobre
+
+a comunicação correta para o entendimento de todos, que
+
+é o de entendimento de todos.
+
+Cara o arquiteto software tem que entender o cara de UX
+
+tem que entender o cara do produto tem que entender do
+
+risco o Sisu tem que entender pra quando for conversar no
+
+board pedir o apoio da galera de engenharia, né?
+
+Do cto, lá etc.
+
+A
+
+galera tem que entender comunicação
+
+tem que fluir, por quê?
+
+Porque quando se todo mundo entendeu o risco
+
+que a gente está correndo para reverter a
+
+química de segurança, a tomada de decisão do
+
+aceite de risco é muito diferente.
+
+No momento que tu olha assim ó, sabe se não botar
+
+ou vão pegar o capte para cima aqui né se tu
+
+não colocar o capte aqui no login você pode ter em
+
+período de 24 ou 48 horas X clientes teus impactados com
+
+isso né que é o perfil e isso pode levar a
+
+essa situação aqui que vai te levar a tu ficar tomar
+
+uma possível embargos judicial por causa desse tipo de vazamento de
+
+informação, porque basta que login seja comprometido e tenha vazamento de
+
+informação e a pessoa seja alvo de fishing pra chegar uma
+
+auditoria e ver isso aqui e esse vai ser o impacto.
+
+Beleza, entendeu isso? Entendeu.
+
+Nossa ação mitigatória é essa, o esforço é esse.
+
+Aí tu acha que esse esforço vale a tua
+
+noite de sono ou não vale, então é aí
+
+onde entra o entendimento, porque Eu vejo hoje uma
+
+falha muito foda na comunicação, tá ligado? De tu gerar
+
+surda. É, absurda.
+
+Velho, o que tu conseguir matar de requisito de segurança com
+
+o seguro standard tipo o h que estão ali do https
+
+cara conversa com cara de plataforma conversa com o cara de
+
+infra, conversa com o cara de devolve o meu.
+
+Tem como todos os serviços que a gente
+
+subir agora, já subir em KTPS pro padrão.
+
+Ah cara, tem? Tá?
+
+Quanto a gente leva pra definir isso por padrão?
+
+A cara a gente leva aqui em uma semana.
+
+Então, cara, é uma semana de cara
+
+ou dois caras configurando essa caralha que
+
+vai usar pra empresa toda, tá ligado?
+
+Chega perto das áreas, né?
+
+Chega pro cara lá do Cobernest e falou meu,
+
+quanto custa pra gente usar ou secrets de forma
+
+correta ou plugar gerenciador de segredos aqui ó.
+
+Cara, isso aqui vai custar mês de implementação e 20 dias
+
+de migração dos secrets para cá tá show de bola beleza
+
+e qual que eu ganho que cara a partir de agora
+
+que a Secret tem que entrar no Secret Manager e a
+
+partir de hoje a gente consegue rotacionar ele assim e aí
+
+a gente começa a colocar isso no impacto de quando em
+
+caso de vazamento de circuito quanto tempo a gente consegue responder
+
+a isso sei lá 15 segundos e aí beleza o tu
+
+começa a diminuir a quantidade de requisitos para ser cristã da
+
+minha neném e o que tem de requisito de fato aí
+
+tu comunica com a comunicação pra todos, cara, mas assim, pra
+
+mim isso, essa comunicação precisa mais difícil, de todos assim, sabe?
+
+Por isso galera, a galera não tem comprado muito, porque na
+
+realidade, se tu não vender aquilo da forma correta, e quando
+
+eu digo cara, o cara tem que sentir a dor ou
+
+a necessidade, se ele não sentiu Eu acho que é muito
+
+fácil a gente ficar, jogar o martelo do cara do City
+
+ou Lights e tu que não entende, tá ligado?
+
+Acho
+
+que tem que tem que trabalhar em conjunto.
+
+Como agora eu consigo gerar uma métrica foda para
+
+o cara de dev, que ele implementou algo de
+
+segurança para a empresa como todo e isso vai
+
+ajudar ele a produzir na carreira dele.
+
+Pro gerente sênior de desenvolvimento, pro cara sênior
+
+de infraestrutura, que indicador eu consigo colocar para
+
+ele subir na empresa tá ligado acho que
+
+tem que ter uma política aí no meio
+
+porque somos pessoas numa empresa gigante todo mundo
+
+quer dinheiro e a política ser envolvida nisso.
+
+Boa, por favor.
+
+O episódio vai ser assim, vai ser 15 minutos de
+
+episódio, os outros o restante a pessoa paga, paga valor
+
+aí que faculdade nenhuma no planeta, não, talvez Harvard esses
+
+caras, mas faculdade de nenhuma ensino isso que a gente
+
+tá falando aqui cara é muita experiência é coisa do
+
+dia a dia é coisa que a gente já viveu
+
+né experiência minha do Marcos do Beiru do Rodrigo do
+
+Gabriel pessoal que já passou por aqui.
+
+E de fato, cara, acho que esse é o objetivo
+
+do davcalls pode questione, vai essa vivência, né, cara, o
+
+Marx tem a dele, eu tenho a minha, eu tenho
+
+a dele, de empresas que a gente já trabalhou e
+
+tal, e a gente chega na maturidade que a gente
+
+tem hoje, pra falar nesse alto nível, né mano?
+
+Como é que você?
+
+Pra você que acha você, você que está aí
+
+ouvindo agora, achava que o profissional de epicé, que
+
+é o cara que roda esse cante, dá relatório
+
+IPF e tá tudo certo, chupa ela.
+
+Tem 140 episódios.
+
+E você tem que ver que não é só isso.
+
+Se for só isso e não precisava da gente, eu
+
+rodava a cor da ferramenta e exportava automático, né?
+
+Em PDF, em JSON, o cara lá que você quiser.
+
+Mas enfim, então precisa entender
+
+o nível da discussão aqui.
+
+Bom, dê o tempo, vou me encerrar, eu
+
+queria trazer só exemplo aqui de caso que
+
+A gente tava falando que veio na campanha.
+
+Não tem nada a ver com o tema,
+
+mas tem a ver com o MapSack.
+
+Eu lembro que eu cheguei pro pessoal Cara,
+
+a gente fez scan aqui aplicação, então era
+
+literalmente uma SQL Injection numa tela de pesquisa
+
+idiota, bagulho bem idiota, né?
+
+Cara, tem SQL Injection aqui, vamos corrigir, é crítica,
+
+a base de dados é crítica, tal, tal, tal.
+
+Aí o cara falou assim, cara, eu juro
+
+mano, o cara falou com essas palavras.
+
+Não precisa corrigir.
+
+Falei mano, por quê?
+
+Porque está na documentação do aplicativo.
+
+Eu tô lendo
+
+isso em casa, hein?
+
+Eu falei pra você, né?
+
+Porque está na documentação da
+
+aplicação que tem essa falha.
+
+E é uma aplicação pública e tal.
+
+Quando tá na documentação que pode entrar
+
+esses caracteres, Mano, Não falei mano, porque
+
+era gringo, né, mas Brawl. Brawl.
+
+O hacker vai ler porra da documentação
+
+Nem marido, fazer?
+
+Aí eu
+
+dou usei esse assim, pô.
+
+Eu falei, mano, imagina o seguinte, ó.
+
+A gente tá aqui na época, eu tava na Europa já.
+
+Falei, mano.
+
+Imagina, a gente tá aqui na Europa.
+
+O cara lá da Rússia.
+
+Tá puta, ele quer invadir a nossa empresa.
+
+Você acha que ele vai ler da comida só e falar? Puta!
+
+O cara documentou que não
+
+podia colocar esse cara teres.
+
+Ah, mano, me pegou, hein?
+
+Não vou colocar, então.
+
+Puts, vou ter que arcar com a outra empresa.
+
+Eu usei esse exemplo, cara.
+
+Aí o cara parou, você não entendeu? Eu fico, mano.
+
+Verdade, né?
+
+Tá bom, a gente já foi mandando uma validação, então.
+
+Mas literalmente a primeira resposta, ele
+
+foi mandado, está na documentação.
+
+E o caralho, velho, isso é louco.
+
+Também tá na lei que eu não posso
+
+te matar agora, porque você falou essa rasteira.
+
+Mas se alguém me pegar, eu vou preso.
+
+Não existe isso, nem sim. É que eu acho
+
+que tem uma coisa legal.
+
+E até queria retornar à questão do médico, né?
+
+Essa é a recomendação, depois vamos corrigir
+
+isso aqui, porque isso aqui pra dar
+
+uma estragou a diferença, que eu acho
+
+que galera precisa dominar o internadizado, assim.
+
+É que quando mexe na recomendação para ti e você
+
+não faz diretamente parece que o único fodido é você
+
+Diferente do processo.
+
+Agora coloca na situação de que você é o provedor
+
+da sua família e se você morrer, a sua mulher,
+
+os seus filhos, vão cair numa merda fodida, whatever.
+
+Começa a entender pouco melhor
+
+porque inevitavelmente risco assumido, né?
+
+Risco assumido sei o que vai acontecer, mas se
+
+deixar a empresa 13 de AOFF não vai ser
+
+a sua cabeça que vai rolar, né?
+
+Então eu odeio ter que ler dentro de
+
+segurança esse discurso do filho da puta, se
+
+eu fizer, isso aqui vai pro saco.
+
+Mas, vamos lá, às vezes,
+
+porque ela é verdade.
+
+É, mas às vezes o cara precisa
+
+falar uma merda dessa, tá ligado?
+
+Então, saber que ele também tem responsabilidade não só
+
+por ele não só porque ele tá empregando mas
+
+pela corporação empresa que ele tá trabalhando Ele também
+
+tem que zelar por isso, né?
+
+Então, precisa sair fora pouquinho do ácido, eu não
+
+entregasse a fita de novo, ganhar meu bônus.
+
+Talvez não vai entregar nenhuma filha, talvez vai
+
+entregar que dia não vai ser usado, né?
+
+Eu adoro falar sobre esse ponto, a
+
+gente ia encerrar mais pra fechar, né?
+
+Agora fazer invertido, você trouxe o caule, eu
+
+vou pôr a cabeça solta aqui em cima.
+
+Eu vou além dessa questão porque é o seguinte.
+
+Eu tenho slogan que eu sempre falo, cara,
+
+a segurança e a responsabilidade de todos.
+
+E esse ponto do cocô foi lá, uma
+
+coisa é você morrer sozinha e fodase, outra
+
+coisa é o provedor de família, né?
+
+As pessoas vão sentir falta de impacto é
+
+maior e você se preocupa pouco mais.
+
+Trazendo esse mesmo contexto pra segurança, você olha
+
+pra Cara, se a minha empresa ficar fora,
+
+o que é que eu impacto na sociedade?
+
+E aí, por exemplo, eu trabalho num banco.
+
+Meu banco tá fora por causa de ataque.
+
+E o cara tá na China, na puta que
+
+pariu, precisa sacar conta dele, de acessar o cartão
+
+de crédito, o cara não consegue pagar bagulho, ele
+
+tá preso numa estação, não sei.
+
+Sabe, imagina as pessoas que dependem daquele
+
+serviço naquele momento o impacto pra elas.
+
+Hoje eu trabalho em empresa de infraestrutura crítica.
+
+Se dos meus clientes for atacado por causa
+
+do meu software, eu paro uma cidade de
+
+distribuir água, eu paro uma cidade de produzir
+
+energia, eu explodo uma energia, uma usina elétrica.
+
+Então, qual é o impacto que o meu negócio parado ou fora
+
+do ar ou com o ataque que ele tem na sociedade.
+
+Porque às vezes a gente pensa ah mas a
+
+empresa parou ela perde dinheiro tá mas e as
+
+pessoas empregadas e se elas perderam emprego por causa
+
+daquilo ou o metrô de São Paulo.
+
+O metrô foi hackeado e parou. Pô, você parou?
+
+Qual que é a cidade que tem metrô?
+
+A maior metrópole do Brasil, cara.
+
+Não tem como você imaginar, parou a empresa
+
+para perder uma grana, não é uma.
+
+Qual impacto na sociedade?
+
+Às vezes olhar por esse ângulo Ajude,
+
+você deve desenvolver dor, segurança, programador.
+
+Quem quer que seja envolvido aí
+
+no ciclo de desenvolvimento de software?
+
+A olhar pra segurança com mais carinho.
+
+Não só o cara quer que eu faça requisito a mais.
+
+Mas cara, se eu não fizer isso aqui, qual é
+
+o impacto que eu possa ter na sociedade, olha com
+
+esse ângulo, talvez te traga mais sensibilidade, né?
+
+Isso porque o bem me trouxe muito bem.
+
+Mas fechou, acho que é isso, Quer
+
+mandar beijo, mandar abraço especial hoje, não?
+
+Ah, mandar o pessoal curtir e compartilhar
+
+isso aí, porque o episódio Ópíssimo.
+
+O que a gente fala mantra? O
+
+C.
+
+O
+
+Faz o CCC aí, por favor, e divulgar para os
+
+amiguinhos da área de segurança, área de tecnologia no geral
+
+para isso ter entendimento pouco mais aprofundado né?
+
+Como eu diria, teve Lu, busque conhecimento.
+
+Busque conhecimento.
+
+Boa pessoal, então a gente fala sobre requisitos de segurança,
+
+que eu acho que tem que acabar, tinha que ser
+
+requisito só, mas a gente segue a vida.
+
+Eu sou Caspereira.
+
+Eu sou o Senhor.
+
+E eu sou o Marcos Santos.
+
+Beijos, então a gente vê na semana que vem, pessoal.
+
+Beijos de luz.
+
+Termina aqui.
+
+Deve ser cóccix.
+
+Deve SECOMS, o seu podcast de segurança em tecnologia.
+

@@ -1,0 +1,4811 @@
+1
+00:00:01,039 --> 00:00:02,278
+E novo a segurança.
+
+2
+00:00:02,279 --> 00:00:03,218
+Chegamos à tecnologia.
+
+3
+00:00:04,437 --> 00:00:05,377
+Começa aqui.
+
+4
+00:00:09,564 --> 00:00:12,063
+O seu podcast de segurança em tecnologia.
+
+5
+00:00:21,467 --> 00:00:23,106
+Olá pessoal tudo bem com vocês?
+
+6
+00:00:23,107 --> 00:00:24,785
+Sejam muito bemvindos a mais
+
+7
+00:00:25,314 --> 00:00:27,114
+episódio deve ser copos podcasts.
+
+8
+00:00:27,115 --> 00:00:28,293
+Eu sou Cássio Pereira.
+
+9
+00:00:29,193 --> 00:00:30,052
+Eu sou o Beyor.
+
+10
+00:00:30,672 --> 00:00:32,311
+E eu sou o Mark Santos.
+
+11
+00:00:32,312 --> 00:00:32,871
+Muito bom.
+
+12
+00:00:32,872 --> 00:00:35,429
+Uma hora a gente acerta essa essa introdução aqui.
+
+13
+00:00:36,448 --> 00:00:38,707
+Vai mudando os nomes, vai mudando os nomes.
+
+14
+00:00:39,727 --> 00:00:41,654
+É verdade, mas faz parte.
+
+15
+00:00:41,655 --> 00:00:43,414
+Pessoal, o negócio é o seguinte, antes de começar
+
+16
+00:00:43,415 --> 00:00:45,293
+o episódio de hoje eu adiciono os recados que
+
+17
+00:00:45,294 --> 00:00:47,731
+é o seguinte, o da psicóloga podcast tem apoio
+
+18
+00:00:47,732 --> 00:00:50,699
+da Champions League na Void, especializadas em segurança de
+
+19
+00:00:50,700 --> 00:00:52,538
+sistemas de código seguro, link da Ana Goethe, que
+
+20
+00:00:52,539 --> 00:00:53,617
+é a distribuidora da tecla.
+
+21
+00:00:53,618 --> 00:00:55,177
+Mas o Brasil está baixo na descrição do
+
+22
+00:00:55,178 --> 00:00:56,976
+episódio lá no YouTube, ou no nosso site
+
+23
+00:00:56,977 --> 00:00:59,604
+deve ser a Call of podcast, com.br.
+
+24
+00:00:59,605 --> 00:01:02,003
+Buscando soluções de apsek, a distaloca
+
+25
+00:01:02,004 --> 00:01:03,922
+é portfólio completo pra você.
+
+26
+00:01:03,923 --> 00:01:05,521
+A GoA do Security é especializada
+
+27
+00:01:05,522 --> 00:01:07,640
+em application Security, quer desenvolver software
+
+28
+00:01:07,641 --> 00:01:09,689
+seguro, fale com algum security.
+
+29
+00:01:09,690 --> 00:01:12,407
+E o OnlySect Plus, o seu clube
+
+30
+00:01:12,408 --> 00:01:16,144
+de apsect, não fique de fora.
+
+31
+00:01:16,145 --> 00:01:20,982
+Jovens, mais peso para o desenvolvimento, mais uma task
+
+32
+00:01:20,983 --> 00:01:24,329
+no Jira, mais horas para o projeto, ou a
+
+33
+00:01:24,330 --> 00:01:27,768
+matériaprima de todo o software existente que já existiu
+
+34
+00:01:27,769 --> 00:01:31,166
+e virá a existir neste planeta arredores.
+
+35
+00:01:31,167 --> 00:01:35,713
+Hoje falaremos sobre requisitos de segurança, a importância
+
+36
+00:01:35,714 --> 00:01:38,792
+deles, se são mesmo importantes ou não, talvez
+
+37
+00:01:38,793 --> 00:01:41,670
+tenhamos opiniões divergentes aqui, aí o caos estará
+
+38
+00:01:41,671 --> 00:01:44,459
+instaurado podcasts, mas a ideia é a gente
+
+39
+00:01:44,460 --> 00:01:46,538
+debater sobre o tema de requisito de segurança.
+
+40
+00:01:46,539 --> 00:01:51,044
+E eu vou começar sempre com uma pergunta clássica, O
+
+41
+00:01:51,045 --> 00:01:54,443
+que é requisito de segurança na opinião dos senhores?
+
+42
+00:01:54,444 --> 00:01:58,560
+Bem, o que é requisito de segurança?
+
+43
+00:01:58,561 --> 00:02:00,110
+Como é que a gente pode definir isso?
+
+44
+00:02:00,669 --> 00:02:03,228
+Vou começar com a minha principal opinião sobre
+
+45
+00:02:03,229 --> 00:02:05,727
+o que é o requisito de segurança.
+
+46
+00:02:06,746 --> 00:02:09,684
+Sem uma ameaça, é segurança por obscuridade.
+
+47
+00:02:10,503 --> 00:02:12,383
+Eu não sei o que eu tô tratando, não sei
+
+48
+00:02:12,384 --> 00:02:17,500
+o que eu tô colocando, coloca o captim do decola?
+
+49
+00:02:17,501 --> 00:02:21,208
+Não, Então assim, para mim, requisito de segurança ele
+
+50
+00:02:21,209 --> 00:02:26,326
+vem como principal objetivo de propor uma forma de
+
+51
+00:02:26,327 --> 00:02:35,641
+mitigar uma ameaça visível e entendível por todos, que
+
+52
+00:02:35,642 --> 00:02:40,028
+estão naquela mesa, então momento que eu for colocar
+
+53
+00:02:40,029 --> 00:02:42,946
+por exemplo ou dar requisito de segurança aqui que
+
+54
+00:02:42,947 --> 00:02:48,183
+é todas as chaves de acesso a essa API
+
+55
+00:02:48,184 --> 00:02:50,582
+de API gateway, por exemplo, ou de appeat de
+
+56
+00:02:50,583 --> 00:02:54,860
+pagamento, whatever, elas têm que estar dentro desse voult
+
+57
+00:02:54,861 --> 00:02:56,789
+aqui ou dentro desse Secret Manager.
+
+58
+00:02:59,527 --> 00:03:01,486
+Esse porque para mim é
+
+59
+00:03:01,487 --> 00:03:03,066
+o principal requisito de segurança.
+
+60
+00:03:03,984 --> 00:03:04,704
+Boa!
+
+61
+00:03:04,705 --> 00:03:06,183
+Bota só a cabecinha, Marcos.
+
+62
+00:03:06,184 --> 00:03:07,223
+Traz o resto, hein?
+
+63
+00:03:07,224 --> 00:03:07,842
+E boa.
+
+64
+00:03:08,502 --> 00:03:11,259
+Cara, quando você fala de requisito de segurança, pra
+
+65
+00:03:11,260 --> 00:03:15,337
+mim já me puxa assim o ASP SAN, né?
+
+66
+00:03:15,338 --> 00:03:17,936
+Então pra mim o Hicks de segurança é
+
+67
+00:03:17,937 --> 00:03:22,123
+a necessidade de identificar controle de segurança que
+
+68
+00:03:22,124 --> 00:03:25,802
+são importantes dentro do contexto de uma criação
+
+69
+00:03:25,803 --> 00:03:28,279
+de software, segurança de software.
+
+70
+00:03:28,280 --> 00:03:31,178
+Então na minha cabeça é mais isso, né?
+
+71
+00:03:31,958 --> 00:03:34,876
+Preciso de objetivo, o requisito de segurança me ajuda
+
+72
+00:03:34,877 --> 00:03:38,184
+a chegar nesse objetivo que deve ser cumprido, né?
+
+73
+00:03:38,185 --> 00:03:40,782
+Acho que o Maitê vai ter mais isso.
+
+74
+00:03:40,783 --> 00:03:41,022
+Boa!
+
+75
+00:03:41,023 --> 00:03:42,741
+Então o Baillie trouxe a cabeça,
+
+76
+00:03:42,742 --> 00:03:44,460
+você trouxe com o caule.
+
+77
+00:03:44,461 --> 00:03:46,289
+Vamos falar, vamos chamar de caule.
+
+78
+00:03:46,290 --> 00:03:50,508
+Eu vou trazendo as uvas, não é pra complementar, né?
+
+79
+00:03:51,447 --> 00:03:54,854
+Mas A minha opinião pode ser polêmica, mas A minha
+
+80
+00:03:54,855 --> 00:03:57,713
+visão é que o requisito de segurança tem que acabar.
+
+81
+00:03:58,652 --> 00:04:00,912
+A gente não deveria ter requisitos de segurança.
+
+82
+00:04:01,699 --> 00:04:05,098
+Talvez eu explique mais detalhes ao longo do episódio, mas
+
+83
+00:04:05,099 --> 00:04:08,576
+é pelo simples fato de que tudo que tem, tudo
+
+84
+00:04:08,577 --> 00:04:12,284
+que é separado do core do software, O teste.
+
+85
+00:04:12,285 --> 00:04:13,683
+É negócio de qualidade.
+
+86
+00:04:13,684 --> 00:04:15,642
+Dá para passar. A segurança.
+
+87
+00:04:15,643 --> 00:04:19,300
+Dá para deixar para depois. A qualidade. A saca?
+
+88
+00:04:19,301 --> 00:04:21,578
+Então o requisito de segurança em si ele não
+
+89
+00:04:21,579 --> 00:04:24,917
+deveria existir, ele deveria fazer parte do requisito funcional.
+
+90
+00:04:26,394 --> 00:04:28,833
+E aí junta exatamente como que vocês vão falar, né?
+
+91
+00:04:28,834 --> 00:04:30,193
+O próprio Baill colocou muito bem.
+
+92
+00:04:30,194 --> 00:04:31,332
+Tem que ter uma ameaça, né?
+
+93
+00:04:31,333 --> 00:04:32,431
+Por que que eu preciso disso, sabe?
+
+94
+00:04:32,432 --> 00:04:34,379
+Por conta disso, disso daquilo, ó. Beleza.
+
+95
+00:04:34,380 --> 00:04:35,659
+Mas isso deve ter que ser
+
+96
+00:04:35,660 --> 00:04:38,138
+parte de requisito funcional para mim.
+
+97
+00:04:38,139 --> 00:04:42,234
+Aí faria mais sentido olhando pra frente, né?
+
+98
+00:04:42,235 --> 00:04:44,233
+Porque a galera faz muito bypass, deixa pra
+
+99
+00:04:44,234 --> 00:04:46,432
+depois, eu não vou implementar, eu acho que
+
+100
+00:04:46,433 --> 00:04:48,929
+alguém colocou aí, ah, eu preciso de cap. Ah, beleza.
+
+101
+00:04:48,930 --> 00:04:49,169
+Por quê?
+
+102
+00:04:49,170 --> 00:04:50,888
+Ah, pra proteger contra bote, por exemplo.
+
+103
+00:04:50,889 --> 00:04:53,167
+Tem uma tela de login. Legal.
+
+104
+00:04:53,168 --> 00:04:55,966
+Mas é uma ameaça real pra esse ecommerce aqui ou
+
+105
+00:04:55,967 --> 00:05:00,443
+pra essa Beleza, é uma ameaça, vamos colocar o caption.
+
+106
+00:05:00,444 --> 00:05:03,441
+Ele é requisito de segurança, mas o software funciona
+
+107
+00:05:03,442 --> 00:05:05,980
+sem o caption, porque você precisa de login funcional.
+
+108
+00:05:06,549 --> 00:05:10,348
+Então, dado prazo, usado aquela coisa toda, alguém vai
+
+109
+00:05:10,349 --> 00:05:12,786
+chegar em algum momento pra gente tratar atrasado e
+
+110
+00:05:12,787 --> 00:05:14,406
+vão falar assim, ah, põe capita depois.
+
+111
+00:05:15,504 --> 00:05:19,622
+Esse depois muitas vezes nunca chega o requisito de segurança
+
+112
+00:05:19,623 --> 00:05:22,301
+que é super importante foi né feito uma análise de
+
+113
+00:05:22,302 --> 00:05:24,540
+ameaça vem de alguém falar para o cara precisa de
+
+114
+00:05:24,541 --> 00:05:28,728
+escape aqui ele já é despriorizado, alguém vai por dia,
+
+115
+00:05:28,729 --> 00:05:31,566
+dependendo de como a aplicação foi construída, pra colocar cápsula
+
+116
+00:05:31,567 --> 00:05:33,924
+vai ser o caos, porque mexe em coisas,
+
+117
+00:05:33,925 --> 00:05:36,803
+a pandemia de risco aceito, adoro.
+
+118
+00:05:36,804 --> 00:05:39,921
+Vai, arrisco aceito, tá difícil, tá tudo certo.
+
+119
+00:05:39,922 --> 00:05:41,729
+Então, minha opinião é que o requisito é muito
+
+120
+00:05:41,730 --> 00:05:44,767
+importante mas ele deveria não ser algo separado deveria
+
+121
+00:05:44,768 --> 00:05:47,166
+existir uma união aí não sei quem que é
+
+122
+00:05:47,167 --> 00:05:49,325
+o dono da UNL ou da engenharia de software
+
+123
+00:05:49,326 --> 00:05:51,544
+né para Cara, mudou, requisito funcional, agora não existe
+
+124
+00:05:51,545 --> 00:05:54,622
+mais, é requisito funcional, requisito s funcional, né?
+
+125
+00:05:54,623 --> 00:05:57,580
+Com segurança, você já junta ali.
+
+126
+00:05:57,581 --> 00:06:00,298
+Bom, beleza, então a gente deu essa introduzida aqui,
+
+127
+00:06:00,299 --> 00:06:02,837
+agora eu queria perguntar pra vocês o seguinte.
+
+128
+00:06:03,497 --> 00:06:05,754
+Entendemos que eu preciso de
+
+129
+00:06:05,755 --> 00:06:07,354
+certo modo, ter esse porquê.
+
+130
+00:06:07,355 --> 00:06:08,753
+Por que eu preciso de tal
+
+131
+00:06:08,754 --> 00:06:10,332
+controle de segurança ou mitigação?
+
+132
+00:06:11,032 --> 00:06:13,169
+Como que eu chego nesse porquê?
+
+133
+00:06:13,170 --> 00:06:15,848
+Eu acho que existem algumas formas, a
+
+134
+00:06:15,849 --> 00:06:17,567
+gente vai tratar algumas delas, mas eu
+
+135
+00:06:17,568 --> 00:06:18,927
+queria conversar com o Marcos agora.
+
+136
+00:06:18,928 --> 00:06:21,264
+Como é que eu chego nesse Por quê?
+
+137
+00:06:21,265 --> 00:06:22,983
+Exemplo que o Beer trouxe.
+
+138
+00:06:22,984 --> 00:06:26,102
+Eu tenho uma tela de login e eu quero botar caption lá.
+
+139
+00:06:26,103 --> 00:06:26,941
+Por quê?
+
+140
+00:06:26,942 --> 00:06:29,089
+Como é que a gente chega nesse por quê?
+
+141
+00:06:29,090 --> 00:06:32,608
+Tanto pra levar esses produtos desenvolvedores, ou pra quem quer
+
+142
+00:06:32,609 --> 00:06:34,967
+que seja, porque queira ou não, mas sem mais horas
+
+143
+00:06:34,968 --> 00:06:37,965
+no projeto, é tempo a mais de desenvolvimento, seja minuto,
+
+144
+00:06:37,966 --> 00:06:40,734
+uma hora, dia, é tempo a mais e que muitas
+
+145
+00:06:40,735 --> 00:06:43,172
+vezes ninguém tá disposto a pagar esse preço, né?
+
+146
+00:06:43,173 --> 00:06:46,011
+Esse preço financeiro, de fato, às vezes, do tempo.
+
+147
+00:06:46,012 --> 00:06:48,039
+Então como é que a gente chega nesse porquê?
+
+148
+00:06:48,040 --> 00:06:49,039
+Como é que a gente convence a
+
+149
+00:06:49,040 --> 00:06:51,238
+galera desse porquê dele ser importante, né?
+
+150
+00:06:51,239 --> 00:06:52,477
+Por isso que ele está lá, né?
+
+151
+00:06:52,478 --> 00:06:53,617
+O que você acha mais?
+
+152
+00:06:54,356 --> 00:06:57,353
+Cara, assim, eu acho que o porquê começa
+
+153
+00:06:57,354 --> 00:06:59,672
+quando você está fazendo a mensagem de ameaça.
+
+154
+00:06:59,673 --> 00:07:02,911
+Então você já tem ameaças que são existentes, você
+
+155
+00:07:02,912 --> 00:07:05,299
+já ouviu falar, e que você na hora que
+
+156
+00:07:05,300 --> 00:07:07,698
+está fazendo a modelagem ameaça ali para o software
+
+157
+00:07:07,699 --> 00:07:11,416
+fala pô seria legal ter caption porque já houveram
+
+158
+00:07:11,417 --> 00:07:15,453
+ali tentativa você tem Brute Force, você tem Injecto,
+
+159
+00:07:15,454 --> 00:07:18,532
+você tem alguma coisa que já foi detectada no
+
+160
+00:07:18,533 --> 00:07:22,190
+futuro por outras empresas, pelo próprio Rasp no passado.
+
+161
+00:07:25,078 --> 00:07:27,197
+O raciocínio tá pouco mais rápido do que as
+
+162
+00:07:27,198 --> 00:07:33,103
+palavras mas já foi identificado sabese do risco Por
+
+163
+00:07:33,104 --> 00:07:35,422
+isso você está colocando ali Porque você já tem
+
+164
+00:07:35,423 --> 00:07:38,501
+uma justificativa prévia De que isso já aconteceu em
+
+165
+00:07:38,502 --> 00:07:41,009
+outros locais e você tem a premissa de que
+
+166
+00:07:41,010 --> 00:07:44,167
+você está garantindo a segurança e colocando aquelas medidas
+
+167
+00:07:44,168 --> 00:07:45,987
+que já foram identificadas são eficazes.
+
+168
+00:07:46,654 --> 00:07:46,814
+Tá?
+
+169
+00:07:46,815 --> 00:07:47,934
+Pra controlar o risco, né?
+
+170
+00:07:47,935 --> 00:07:50,473
+Quando você for lá,
+
+171
+00:07:50,474 --> 00:07:50,973
+tem
+
+172
+00:07:52,085 --> 00:07:52,891
+risco.
+
+173
+00:07:52,892 --> 00:07:55,410
+Então, o porquê eu explicar com base num risco.
+
+174
+00:07:55,411 --> 00:07:57,559
+Beleza, eu tenho risco No caso, Ah, eu tenho
+
+175
+00:07:57,560 --> 00:07:59,558
+uma tela de login, eu quero o Captur. Por quê?
+
+176
+00:07:59,559 --> 00:08:01,437
+Cara, porque Bot vão ficar varrendo essa tela
+
+177
+00:08:01,438 --> 00:08:03,036
+de login para tranacessar o meu sistema.
+
+178
+00:08:03,037 --> 00:08:05,184
+O Captur vai inibir isso ou
+
+179
+00:08:05,185 --> 00:08:07,104
+já tá fazendo protegeu pouco mais.
+
+180
+00:08:07,105 --> 00:08:09,182
+E pra chegar nesse porque você
+
+181
+00:08:09,183 --> 00:08:11,022
+falou de modelagem de ameaças, né?
+
+182
+00:08:11,023 --> 00:08:13,599
+Beleza, acho que concordo. Né, concordo.
+
+183
+00:08:13,600 --> 00:08:15,278
+Vou pra próxima, vamos pro próximo aqui.
+
+184
+00:08:15,279 --> 00:08:16,118
+Bem, o que você acha?
+
+185
+00:08:16,119 --> 00:08:17,897
+Como é que você chega nesse porquê aí?
+
+186
+00:08:19,276 --> 00:08:21,314
+O porquê, pra mim, eu começam a
+
+187
+00:08:21,315 --> 00:08:26,592
+entrar na classificação, categorização, esforço daquela medida
+
+188
+00:08:26,593 --> 00:08:28,151
+que a gente tá querendo mitigar, né?
+
+189
+00:08:28,152 --> 00:08:29,930
+Da mitigação ali, vou dar exemplo.
+
+190
+00:08:31,299 --> 00:08:35,637
+Qual que é a probabilidade de essa ameaça ocorrer?
+
+191
+00:08:36,257 --> 00:08:38,176
+Então, ou seja, encontrar a data de login, eu
+
+192
+00:08:38,177 --> 00:08:41,754
+não tenho o Antibot, eu disparantativa de login.
+
+193
+00:08:42,333 --> 00:08:44,852
+Vai levar 50 minutos depois que eu colocar esse site
+
+194
+00:08:44,853 --> 00:08:47,819
+no ar para começar a tomar esse free ataque. É padrão.
+
+195
+00:08:48,839 --> 00:08:50,958
+A questão agora é, qual que é o
+
+196
+00:08:50,959 --> 00:08:55,005
+esforço, custo e impacto para implementar essa medida?
+
+197
+00:08:56,044 --> 00:09:00,522
+Então porque por exemplo uma implementação correta de
+
+198
+00:09:00,523 --> 00:09:03,600
+caption depois que você contratou a solução de
+
+199
+00:09:03,601 --> 00:09:07,458
+caption e você colocou ela ali, cara, é
+
+200
+00:09:07,459 --> 00:09:10,097
+uma tagzinha no front, uma validação chamada de
+
+201
+00:09:10,098 --> 00:09:13,514
+API no back, cara, fechou, abraço, entendeu?
+
+202
+00:09:13,515 --> 00:09:17,313
+Então é algo assim, ó, morre numa arquitetura muito
+
+203
+00:09:17,314 --> 00:09:19,911
+complexa e tu levar dia pra colocar isso, sabe?
+
+204
+00:09:19,912 --> 00:09:21,790
+Numa arquitetura muito complexa.
+
+205
+00:09:21,791 --> 00:09:23,509
+Né, numa arquitetura normal, o fast food,
+
+206
+00:09:23,510 --> 00:09:25,848
+cada duas horas tá pronta, brincadeira, entendeu?
+
+207
+00:09:26,387 --> 00:09:29,474
+Então, porque o que eu digo muito complexo é pode
+
+208
+00:09:29,475 --> 00:09:31,993
+ter tanto automatizado em cima disso, que agora vai quebrar
+
+209
+00:09:31,994 --> 00:09:34,712
+ele, tu vai precisar comunicar a galera de QA.
+
+210
+00:09:34,713 --> 00:09:36,551
+Olha, a partir de agora, a gente vai precisar
+
+211
+00:09:36,552 --> 00:09:38,750
+gerar uma build X, uma build Y aqui de
+
+212
+00:09:38,751 --> 00:09:43,657
+tal forma, mas enfim né outra questão é momento
+
+213
+00:09:43,658 --> 00:09:49,504
+que você já tem essa medida lembrando que o
+
+214
+00:09:49,505 --> 00:09:54,541
+requisito de segurança ele tem como objetivo o bloquear
+
+215
+00:09:54,542 --> 00:09:58,698
+algo ou detectar algo, ou alertar algo, né?
+
+216
+00:09:58,699 --> 00:10:00,177
+Então, por exemplo
+
+217
+00:10:00,178 --> 00:10:01,377
+Eu diria eu, né?
+
+218
+00:10:01,378 --> 00:10:04,375
+Ou, ou, ou, ou, ou, ou, ou, ou, ou, por
+
+219
+00:10:04,376 --> 00:10:07,753
+exemplo, assim, eu vou botar capte a ideia é bloquear
+
+220
+00:10:07,754 --> 00:10:11,911
+no começo né esse meu capte a falhar é cara
+
+221
+00:10:11,912 --> 00:10:13,950
+é problema que eu tenho na solução se ela deve
+
+222
+00:10:13,951 --> 00:10:17,248
+ser corrigida né não vou saindo colocando 50 mil coisas
+
+223
+00:10:17,249 --> 00:10:20,767
+de log visualização etc em cima numa falha que cara
+
+224
+00:10:20,768 --> 00:10:23,005
+se falhou uma vez tá errado tem que parar ali
+
+225
+00:10:23,006 --> 00:10:26,074
+a solução tá errada muito comum os testes de conhecimento
+
+226
+00:10:26,075 --> 00:10:28,832
+facial também, que é outro risco de segurança, né?
+
+227
+00:10:28,833 --> 00:10:30,152
+Que é outro movimento que são os
+
+228
+00:10:30,153 --> 00:10:32,449
+direitos de segurança que é reconhecimento facial.
+
+229
+00:10:32,450 --> 00:10:35,608
+Agora, por exemplo, diferente do chegar num
+
+230
+00:10:35,609 --> 00:10:39,346
+porquê de uma possível decepção de fraude.
+
+231
+00:10:41,184 --> 00:10:46,621
+Aonde eu tenho diversas informações, diversas ações do meu sistema,
+
+232
+00:10:46,622 --> 00:10:51,449
+que eu preciso vincular os dados, para poder saber se
+
+233
+00:10:51,450 --> 00:10:53,807
+eu tô tendo uma fraude ou não, que aí eu
+
+234
+00:10:53,808 --> 00:10:57,054
+envolva base de dados, eu envolva Analytics, eu envolva cruzamento
+
+235
+00:10:57,055 --> 00:10:59,333
+de dados, eu vou processar aumento em tempo real, porque
+
+236
+00:10:59,334 --> 00:11:01,572
+não adianta a gente cobrir uma frase, uma fraude seis
+
+237
+00:11:01,573 --> 00:11:03,731
+meses depois tomando o ataque, né?
+
+238
+00:11:03,732 --> 00:11:09,807
+Então para chegar no porque inevitavelmente eu tenho
+
+239
+00:11:09,808 --> 00:11:11,704
+que entender o que que eu vou impactar
+
+240
+00:11:11,705 --> 00:11:13,264
+Que risco que eu tô me xingando?
+
+241
+00:11:13,265 --> 00:11:15,143
+Qual que é o custo e esforço daquilo?
+
+242
+00:11:15,144 --> 00:11:16,502
+Para que, para vez eu tô tocando
+
+243
+00:11:16,503 --> 00:11:18,321
+no lugar certo também de forma correta.
+
+244
+00:11:19,079 --> 00:11:20,799
+Essa tecnologia.
+
+245
+00:11:20,800 --> 00:11:22,478
+Deve ser copy.
+
+246
+00:11:22,479 --> 00:11:22,838
+Muito.
+
+247
+00:11:22,839 --> 00:11:24,777
+É fazer uma salva de palmas aqui.
+
+248
+00:11:25,836 --> 00:11:27,515
+Muito boa essa introdução, cara.
+
+249
+00:11:27,516 --> 00:11:28,495
+Gostei, gostei.
+
+250
+00:11:29,065 --> 00:11:30,504
+Como eu falei, deve ser classificado que a
+
+251
+00:11:30,505 --> 00:11:33,102
+gente passa a ser pago em alguns episódios,
+
+252
+00:11:33,103 --> 00:11:35,242
+porque o nível tá muito elevado aqui.
+
+253
+00:11:36,581 --> 00:11:37,610
+Cara, legal.
+
+254
+00:11:37,611 --> 00:11:39,269
+Agora eu tenho uma preocupação.
+
+255
+00:11:41,608 --> 00:11:42,987
+Dá trabalho, né?
+
+256
+00:11:43,726 --> 00:11:45,765
+Eu era desenvolvedor, eu lembro das minhas aulas
+
+257
+00:11:45,766 --> 00:11:47,595
+de engenharia de software com a professora, que
+
+258
+00:11:47,596 --> 00:11:50,033
+Shany, The Shany Packer lá na FIAP.
+
+259
+00:11:50,034 --> 00:11:53,032
+Cara, ela ensinava assim absurdamente bem o ML,
+
+260
+00:11:53,033 --> 00:11:54,551
+a parte de gerente de software mesmo, e
+
+261
+00:11:54,552 --> 00:11:56,199
+eu aprendi a fazer requisitos com ela.
+
+262
+00:11:56,200 --> 00:11:57,799
+Lembro a tela, cara, tinha que descrever o requisito.
+
+263
+00:11:57,800 --> 00:11:59,198
+Como é que o software vai funcionar?
+
+264
+00:11:59,199 --> 00:12:01,037
+Como é que a tela de login vai funcionar?
+
+265
+00:12:01,038 --> 00:12:02,196
+O requisito funcional.
+
+266
+00:12:02,197 --> 00:12:04,195
+Cara, você precisa do campo A, o campo
+
+267
+00:12:04,196 --> 00:12:06,225
+login, o campo B, o campo senha.
+
+268
+00:12:06,226 --> 00:12:09,263
+É o tamanho tal, vai receber email, vai receber
+
+269
+00:12:09,264 --> 00:12:11,902
+uma senha de x caracteres, então você descreve como
+
+270
+00:12:11,903 --> 00:12:14,879
+aquela funcionalidade vai ser executado, porque alguém lê aquilo
+
+271
+00:12:14,880 --> 00:12:17,078
+e transforma em código e daí faça a mágica
+
+272
+00:12:17,079 --> 00:12:18,717
+quando você lê e transforma aquilo em software.
+
+273
+00:12:18,718 --> 00:12:20,076
+Então não é trabalho.
+
+274
+00:12:20,077 --> 00:12:22,424
+O requisito de segurança não é o mesmo trabalho.
+
+275
+00:12:22,425 --> 00:12:23,744
+O mesmo esforço eu diria.
+
+276
+00:12:23,745 --> 00:12:26,023
+A diferença é que profissional de segurança fazendo,
+
+277
+00:12:26,024 --> 00:12:28,102
+muitas vezes dá pra arquiteto fazer, dá pra
+
+278
+00:12:28,103 --> 00:12:29,861
+deve fazer, mas ele precisa ter esse conhecimento
+
+279
+00:12:29,862 --> 00:12:31,780
+de segurança pra fazer isso.
+
+280
+00:12:32,339 --> 00:12:34,938
+E aí, por experiência, eu já fiz a
+
+281
+00:12:34,939 --> 00:12:36,777
+requisito de segurança e de duas formas.
+
+282
+00:12:36,778 --> 00:12:39,534
+Uma commodalar de ameaça, que o Marcos trouxe bem, né?
+
+283
+00:12:39,535 --> 00:12:41,573
+Então você faz ali uma modelagem mescla, framework
+
+284
+00:12:41,574 --> 00:12:43,013
+que for, com a ferramenta que for, ela
+
+285
+00:12:43,014 --> 00:12:45,411
+vai te dar as ameaças e para aquelas
+
+286
+00:12:45,412 --> 00:12:47,410
+ameaças sem implementos e requisitos de segurança.
+
+287
+00:12:47,411 --> 00:12:51,488
+Putz, tem aqui uma ameaça de temperinho cara então eu
+
+288
+00:12:51,489 --> 00:12:54,247
+preciso validar os dados né de lado para verificar se
+
+289
+00:12:54,248 --> 00:12:56,966
+eu não tô tendo uma uma adulteração ali do payload
+
+290
+00:12:56,967 --> 00:12:59,284
+e tudo mais aquela coisa tudo validar no back End,
+
+291
+00:12:59,285 --> 00:13:01,583
+não no front end, blá blá blá.
+
+292
+00:13:02,483 --> 00:13:07,120
+Mas esse processo de ter requisito funcional
+
+293
+00:13:07,121 --> 00:13:08,989
+já, eu vou chegar na pergunta, tá?
+
+294
+00:13:08,990 --> 00:13:11,228
+Tem o requisito funcional que o business, que o
+
+295
+00:13:11,229 --> 00:13:13,727
+usuário, que alguém trouxe pro time de produto.
+
+296
+00:13:14,426 --> 00:13:16,734
+Já teve tempo envolvido nisso, já virou uma
+
+297
+00:13:16,735 --> 00:13:19,813
+sprint já estão desenvolvendo o time de desenvolvimento
+
+298
+00:13:19,814 --> 00:13:22,012
+vai ter que desenvolvimento junto com segurança vai
+
+299
+00:13:22,013 --> 00:13:25,339
+ter que entender esse requisito baseado numa arquitetura
+
+300
+00:13:25,340 --> 00:13:27,818
+já criar uma modelagem ameaça para aí então
+
+301
+00:13:27,819 --> 00:13:30,397
+ter output que seria os requisitos de segurança.
+
+302
+00:13:31,345 --> 00:13:33,644
+Entre aspas, já tá tarde no processo.
+
+303
+00:13:34,183 --> 00:13:35,942
+Na tarde, obviamente, a gente tá no
+
+304
+00:13:35,943 --> 00:13:38,949
+mais leve possível, mas já tá tarde.
+
+305
+00:13:38,950 --> 00:13:41,788
+Então esse processo de faz modelagem pega os
+
+306
+00:13:41,789 --> 00:13:44,047
+requisitos implementam, eu acho que já tá tarde.
+
+307
+00:13:44,787 --> 00:13:47,945
+Por tarde no sentido de depois ver a backlog,
+
+308
+00:13:47,946 --> 00:13:50,654
+dia implementa na próximo sprint blá blá blá blá.
+
+309
+00:13:50,655 --> 00:13:52,073
+Por isso que eu falei requisitos
+
+310
+00:13:52,893 --> 00:13:54,372
+foram seguras que tem que acabar.
+
+311
+00:13:54,373 --> 00:13:56,691
+Porque eu acho que com uma lista de requisitos
+
+312
+00:13:56,692 --> 00:13:59,899
+funcionais em mãos, uma lista de requisitos funcionais em
+
+313
+00:13:59,900 --> 00:14:03,657
+mãos, que arqueiro não é a matériaprima de software,
+
+314
+00:14:03,658 --> 00:14:06,954
+é o requisito funcional, os requisitos de sistema, requisitos
+
+315
+00:14:06,955 --> 00:14:09,952
+de desempenho, requisitos secundários, mas o que eles funcionam
+
+316
+00:14:09,953 --> 00:14:11,591
+e a matéria prima de software.
+
+317
+00:14:11,592 --> 00:14:14,139
+E se Como já essa lista de
+
+318
+00:14:14,140 --> 00:14:17,897
+requisitos funcionais em mãos, pudéssemos elaborar nossa
+
+319
+00:14:17,898 --> 00:14:19,574
+lista de requisitos de segurança.
+
+320
+00:14:19,575 --> 00:14:22,893
+E aí incorporálos no próprio requisito funcional.
+
+321
+00:14:22,894 --> 00:14:24,332
+Exemplo mais claro aqui.
+
+322
+00:14:24,333 --> 00:14:26,011
+Eu fiz uma palestra na USP aqui na
+
+323
+00:14:26,012 --> 00:14:28,139
+Polônia, e a palestra é exatamente sobre isso.
+
+324
+00:14:28,140 --> 00:14:30,298
+E eu tinha exemplo lá do requisito da tela de login.
+
+325
+00:14:30,299 --> 00:14:31,658
+Cara, se tem campo assim, o campo
+
+326
+00:14:31,659 --> 00:14:33,617
+passado clica no botão Valido os dados.
+
+327
+00:14:33,618 --> 00:14:35,816
+Tá lá, o requisito tá descrito, qualquer vai
+
+328
+00:14:35,817 --> 00:14:37,704
+fazer essa tela vai fazer ela funcionar.
+
+329
+00:14:37,705 --> 00:14:38,644
+Mas e se?
+
+330
+00:14:39,384 --> 00:14:43,461
+Olha, é uma tela do sistema administrativo, eu preciso de
+
+331
+00:14:43,462 --> 00:14:47,769
+caput porque tem risco de ter bote, ou tentativas de
+
+332
+00:14:47,770 --> 00:14:50,807
+boot force, eu preciso ter áudio de te log, porque
+
+333
+00:14:50,808 --> 00:14:53,526
+eu quero logar todas as tentativas de login, sucesso ou
+
+334
+00:14:53,527 --> 00:14:55,344
+não, pra ver se eu não estou tendo ataque de
+
+335
+00:14:55,345 --> 00:14:56,583
+brute force ou coisa do tipo.
+
+336
+00:14:56,584 --> 00:14:59,082
+Você já não vai passar, por exemplo, no meu Captur.
+
+337
+00:15:00,021 --> 00:15:01,101
+É usuário e senha.
+
+338
+00:15:01,102 --> 00:15:03,828
+Então, de acordo com a nossa legislação precisa ser encriptado
+
+339
+00:15:03,829 --> 00:15:06,287
+esse dado usando o algoritmo A, B e C.
+
+340
+00:15:07,586 --> 00:15:10,225
+Então essas coisas que eu coloquei, elas acabam sendo
+
+341
+00:15:10,226 --> 00:15:13,733
+requisito de segurança, que viriam depois no processo.
+
+342
+00:15:13,734 --> 00:15:16,692
+E esse depois é o depois que pode nunca chegar.
+
+343
+00:15:16,693 --> 00:15:17,731
+E o sistema vai estar sempre
+
+344
+00:15:17,732 --> 00:15:19,569
+em risco, alguém aceita tudo certo.
+
+345
+00:15:19,570 --> 00:15:21,568
+Mas se a gente já tem essa lista e faz
+
+346
+00:15:21,569 --> 00:15:26,934
+brainstorming em cima dela, opa, tela de login, Capture, log,
+
+347
+00:15:26,935 --> 00:15:29,133
+Waff, sei lá, já bota uma listinha de coisa ali,
+
+348
+00:15:29,134 --> 00:15:31,372
+por isso que esse professor da segurança é importante neste
+
+349
+00:15:31,373 --> 00:15:33,971
+momento, porque ele já tem de cabeça, já tem o
+
+350
+00:15:33,972 --> 00:15:36,618
+Mark trouxe muito bem os ataques comuns, já tem coisa
+
+351
+00:15:36,619 --> 00:15:39,097
+que acontece, o Baillie colocou, cara, você subiu na tela
+
+352
+00:15:39,098 --> 00:15:41,964
+de login e em 15 minutos eu tô escaneando lá
+
+353
+00:15:41,965 --> 00:15:45,003
+a sua página pra tentar fazer alguma coisa.
+
+354
+00:15:45,004 --> 00:15:47,762
+Então, esses problemas comuns ou até problemas
+
+355
+00:15:47,763 --> 00:15:49,641
+mais profundos, que demandam esse problema de
+
+356
+00:15:49,642 --> 00:15:52,319
+segurança, poderiam já nessa lista de requisitos
+
+357
+00:15:52,320 --> 00:15:55,837
+fazer esse brainstorming, ou até ainda modelagem
+
+358
+00:15:55,838 --> 00:15:57,236
+ameaça, mesmo que seja em alto nível.
+
+359
+00:15:57,237 --> 00:15:59,144
+Você não tem arquitetura da aplicação ainda, porque de
+
+360
+00:15:59,145 --> 00:16:01,383
+repente software novo e tudo mais, mas você já
+
+361
+00:16:01,384 --> 00:16:03,382
+tem uma ideia, vai ser micro serviço, vai ser
+
+362
+00:16:03,383 --> 00:16:04,742
+API, vai ser tal, tal, tal, tal.
+
+363
+00:16:04,743 --> 00:16:06,741
+Você sabe mais ou menos, dá pra você criar
+
+364
+00:16:06,742 --> 00:16:09,738
+ali certo modo, diagramas em geral em algumas ameaças,
+
+365
+00:16:09,739 --> 00:16:12,337
+dependendo do framework que você está usando do modelário.
+
+366
+00:16:12,338 --> 00:16:15,305
+Então, o meu próximo ponto é esse.
+
+367
+00:16:15,306 --> 00:16:17,983
+Esse trabalho que dá para elaborar os requisitos de segurança
+
+368
+00:16:17,984 --> 00:16:22,141
+porque dá trabalho vocês acham que faria sentido para decidir
+
+369
+00:16:22,142 --> 00:16:24,299
+que eu coloquei né fazer esse merge, né?
+
+370
+00:16:24,300 --> 00:16:25,818
+Junto com o requisito funcional.
+
+371
+00:16:25,819 --> 00:16:27,417
+Inclusive você ganha lá na frente, né?
+
+372
+00:16:27,418 --> 00:16:29,216
+Porque cara, então não vai ter bypass.
+
+373
+00:16:29,217 --> 00:16:30,696
+Ah, depois vê o CAPS, não.
+
+374
+00:16:30,697 --> 00:16:32,554
+Cara, ele faz parte do requisito funcional.
+
+375
+00:16:32,555 --> 00:16:34,953
+Você não tá lá, o software não tá pronto, né?
+
+376
+00:16:34,954 --> 00:16:36,992
+O Definition of Dani, aquela coisa toda.
+
+377
+00:16:36,993 --> 00:16:38,432
+Você não tá lá, não tá pronto, né?
+
+378
+00:16:38,433 --> 00:16:41,089
+No teste de o teste funcional vai passar, enfim, não
+
+379
+00:16:41,090 --> 00:16:43,008
+foi o que o usuário pediu no app tá descrito.
+
+380
+00:16:43,009 --> 00:16:45,007
+Então você ganha nesse ponto também, obviamente
+
+381
+00:16:45,008 --> 00:16:46,406
+você perde mais, também tem mais tempo
+
+382
+00:16:46,407 --> 00:16:47,735
+de desenvolvimento, aquela coisa toda.
+
+383
+00:16:48,494 --> 00:16:53,185
+Vocês acham que faria sentido esse merge ou ou e
+
+384
+00:16:53,186 --> 00:16:59,219
+ou e ou também definir uma lista baseline vamos chamar
+
+385
+00:16:59,220 --> 00:17:05,415
+assim de requisitos padrões por exemplo não pode ter senha
+
+386
+00:17:05,416 --> 00:17:08,964
+chumbada no código é requisito da segurança. Não
+
+387
+00:17:09,983 --> 00:17:11,102
+é nem requisito, é isso aí.
+
+388
+00:17:11,103 --> 00:17:12,022
+Se o cara fizer isso
+
+389
+00:17:12,023 --> 00:17:13,361
+aí, pode existir, cara.
+
+390
+00:17:14,461 --> 00:17:18,788
+Acredite, Nada é como vincular esse ai,
+
+391
+00:17:18,789 --> 00:17:20,347
+eu acredito que eu tenha chegado, né?
+
+392
+00:17:20,348 --> 00:17:22,386
+E já pegamos esse ai commit chamando.
+
+393
+00:17:22,387 --> 00:17:25,334
+É, a boité, boité, vamos desenvolver o projeto desse.
+
+394
+00:17:25,335 --> 00:17:27,513
+Jovem padawan, essas coisas acontecem.
+
+395
+00:17:28,453 --> 00:17:29,812
+Então o que vocês acham?
+
+396
+00:17:29,813 --> 00:17:32,200
+Tem uma lista de requisitos base, cara,
+
+397
+00:17:32,201 --> 00:17:34,638
+nenhum software nessa empresa, vai ser desenvolvido
+
+398
+00:17:34,639 --> 00:17:37,117
+sem esse mínimo, sem esse baseline aqui.
+
+399
+00:17:37,118 --> 00:17:39,836
+Então não tem 100 coisas que todo mundo vai
+
+400
+00:17:39,837 --> 00:17:43,403
+ler, entender como o Bale colocou no começo, ter
+
+401
+00:17:43,404 --> 00:17:45,562
+porquê daquilo e já criar essa cultura.
+
+402
+00:17:45,563 --> 00:17:48,610
+Nesse caso, o cara para de chumbassem e usa VOLT.
+
+403
+00:17:48,611 --> 00:17:50,369
+Mas em outros casos, por exemplo, cara, você vai usar
+
+404
+00:17:50,370 --> 00:17:52,847
+uma criptografia, você tem que usar o algoritmo ABC.
+
+405
+00:17:52,848 --> 00:17:55,006
+Então, o Pavelês tá aqui na biblioteca, tá aqui no
+
+406
+00:17:55,007 --> 00:17:57,165
+time de arquitetura definido, esse é o componente que você
+
+407
+00:17:57,166 --> 00:17:59,893
+usa, vai uma coisa, usa isso aqui, tal, tal.
+
+408
+00:17:59,894 --> 00:18:01,653
+Como é que vocês enxergam esse monte
+
+409
+00:18:01,654 --> 00:18:02,732
+de coisa que eu falei, né?
+
+410
+00:18:02,733 --> 00:18:05,779
+Lista de rebase line de requisitos, mais juntar
+
+411
+00:18:05,780 --> 00:18:08,618
+o requisito de segurança com o requisito funcional.
+
+412
+00:18:08,619 --> 00:18:10,017
+Vou escolher quem quer começar.
+
+413
+00:18:10,018 --> 00:18:11,556
+Eu não vou editar não.
+
+414
+00:18:12,744 --> 00:18:15,663
+Recomeçar a fazer isso.
+
+415
+00:18:15,664 --> 00:18:19,010
+E olha só, vou separar em dois pontos aqui.
+
+416
+00:18:19,011 --> 00:18:22,328
+Primeiro estudo eu concordo 1 milhão por cento e não
+
+417
+00:18:22,329 --> 00:18:26,235
+ter os requisitos de segurança e os do software né
+
+418
+00:18:26,236 --> 00:18:32,032
+Eu acho que na verdade os requisitos são requisitos, só
+
+419
+00:18:32,033 --> 00:18:34,750
+eles são gerados por pontos de vistas diferentes.
+
+420
+00:18:34,751 --> 00:18:36,229
+Tem o requisito cara de UX, o
+
+421
+00:18:36,230 --> 00:18:38,108
+requisito cara de qualidade, o requisito cara
+
+422
+00:18:38,109 --> 00:18:40,967
+de performance, o requisito cara de segurança.
+
+423
+00:18:41,786 --> 00:18:44,014
+Então, Da mesma forma, como a engenheira de
+
+424
+00:18:44,015 --> 00:18:45,573
+software, por exemplo, a gente vai ter uma
+
+425
+00:18:45,574 --> 00:18:48,472
+cobertura de 95% de testes unitários.
+
+426
+00:18:49,011 --> 00:18:50,451
+Poxa, é requisito da qualidade
+
+427
+00:18:50,452 --> 00:18:52,350
+e mantelabilidade do software.
+
+428
+00:18:52,351 --> 00:18:54,469
+Então acho que essa é uma questão bem bacana.
+
+429
+00:18:54,470 --> 00:18:56,947
+Se você quiser ter só só para o software funcionar.
+
+430
+00:18:56,948 --> 00:18:58,946
+E eles têm a sua prioridade, a
+
+431
+00:18:58,947 --> 00:19:01,104
+sua complexa cidade, o seu custo de
+
+432
+00:19:01,105 --> 00:19:03,943
+implementação, como todos os requisitos tem, né?
+
+433
+00:19:03,944 --> 00:19:05,981
+Por uma questão de verificarmos e
+
+434
+00:19:05,982 --> 00:19:08,630
+sua obrigatoriedade ou não, né?
+
+435
+00:19:08,631 --> 00:19:10,269
+E gerado ponto de vista diferente.
+
+436
+00:19:10,270 --> 00:19:15,306
+Uma questão dos requisitos do ponto de vista de segurança, a
+
+437
+00:19:15,307 --> 00:19:18,695
+primeira coisa eu colocaria o que nós temos Secure de Falts
+
+438
+00:19:18,696 --> 00:19:22,673
+e o que não entende então porque vou dar exemplo né
+
+439
+00:19:24,811 --> 00:19:29,368
+cara olha só toda a comunicação que a gente for fazer
+
+440
+00:19:29,369 --> 00:19:32,606
+para fora ou seja request que a gente for fazer para
+
+441
+00:19:32,607 --> 00:19:36,063
+fora da nossa infraestrutura se não passar por esse proxy aqui
+
+442
+00:19:36,064 --> 00:19:39,102
+não vai sair né para que a gente possa monitorar a
+
+443
+00:19:39,103 --> 00:19:42,279
+chamada que eu tô saindo daqui Então, no momento que a
+
+444
+00:19:42,280 --> 00:19:45,638
+gente está fazendo olhando o sistema, olha, poxa, aqui tem uma
+
+445
+00:19:45,639 --> 00:19:48,996
+chamada para serviço de email ou para serviço de status que
+
+446
+00:19:48,997 --> 00:19:50,135
+é externa da infraestrutura.
+
+447
+00:19:51,325 --> 00:19:54,963
+Se a gente não tem o Secure Standard, olha, chamadas
+
+448
+00:19:54,964 --> 00:19:57,582
+para serviços externos é assim que a gente faz.
+
+449
+00:19:58,500 --> 00:20:00,938
+O nosso requisito ele vai ser sempre
+
+450
+00:20:00,939 --> 00:20:04,377
+criado na hora, sempre pensado na hora.
+
+451
+00:20:04,378 --> 00:20:06,824
+E isso é o que mais dá trabalho na hora
+
+452
+00:20:06,825 --> 00:20:10,902
+de gerar requisito de segurança a gente tem que sempre
+
+453
+00:20:10,903 --> 00:20:14,409
+explicar muito o porquê para todo mundo sempre ter que
+
+454
+00:20:14,410 --> 00:20:17,528
+definir o requisito, o modelo e porque ele existe naquela
+
+455
+00:20:17,529 --> 00:20:20,486
+hora ali, e às vezes a gente tem esse label,
+
+456
+00:20:20,487 --> 00:20:24,523
+as 20, 30 requisitos, num projeto num projeto assim e
+
+457
+00:20:24,524 --> 00:20:26,602
+aí a gente só vai nossa vamos terminar de escrever
+
+458
+00:20:26,603 --> 00:20:29,769
+esse requisito quando você vai começar a iniciar o software
+
+459
+00:20:29,770 --> 00:20:34,467
+Então, a gente precisa ser capaz de abstrair alguns requisitos
+
+460
+00:20:35,087 --> 00:20:36,266
+para standard segurança.
+
+461
+00:20:36,925 --> 00:20:40,103
+Por exemplo, pessoal, do que o esquema de segredo, né?
+
+462
+00:20:41,122 --> 00:20:43,801
+A gente já tem standard para isso, nosso standard é
+
+463
+00:20:43,802 --> 00:20:48,449
+pré commit e não vai subir caso bapa branch, né?
+
+464
+00:20:49,308 --> 00:20:50,987
+Isso já não deveria estar no requisito
+
+465
+00:20:50,988 --> 00:20:52,187
+de software, porque a gente deveria ser
+
+466
+00:20:52,188 --> 00:20:55,585
+capaz de mitigar burly, capaz de mitigar
+
+467
+00:20:55,586 --> 00:20:58,394
+de forma automatizada, não deveria ser requisito.
+
+468
+00:20:59,053 --> 00:21:02,212
+O requisito seria todos os desenvolvedores utilizarem o
+
+469
+00:21:02,213 --> 00:21:05,890
+précomit definido pelo standard, e nós estarmos no
+
+470
+00:21:05,891 --> 00:21:09,588
+meio desse vai rodar Lynch, vai rodar Put
+
+471
+00:21:09,589 --> 00:21:12,807
+que pariu ali, inclusive a verificação de Disecrets.
+
+472
+00:21:13,546 --> 00:21:15,534
+Esse deveria ser o requisito.
+
+473
+00:21:15,535 --> 00:21:18,693
+Né, e não de fato desenhar ele todo sempre.
+
+474
+00:21:18,694 --> 00:21:20,452
+Talvez a primeira vez ele vai ser desenhada
+
+475
+00:21:20,453 --> 00:21:22,291
+porque ele não existe, mas ele já deveria
+
+476
+00:21:22,292 --> 00:21:25,189
+ser pensado da abstração para todas as equipes
+
+477
+00:21:26,688 --> 00:21:31,334
+Top Concordo com vocês dois só que eu
+
+478
+00:21:31,335 --> 00:21:35,452
+colocaria depende porque assim é muito bonito é
+
+479
+00:21:35,453 --> 00:21:38,709
+muito legal concordo 100% que deveria estar junto
+
+480
+00:21:38,710 --> 00:21:41,328
+Só que depende da maturidade da empresa.
+
+481
+00:21:42,108 --> 00:21:43,787
+Às vezes uma empresa, uma startup está
+
+482
+00:21:43,788 --> 00:21:45,406
+começando, não tem cara de segurança.
+
+483
+00:21:46,034 --> 00:21:49,313
+Cara não vai ter não vai nem conseguir colocar
+
+484
+00:21:49,314 --> 00:21:51,432
+o requisito de segurança junto com o requisito funcional
+
+485
+00:21:51,433 --> 00:21:54,989
+exame da aplicação do software então eu acho que
+
+486
+00:21:54,990 --> 00:21:58,547
+depende de uma empresa já estruturada, que já tenha
+
+487
+00:21:58,548 --> 00:22:01,884
+o time de segurança ali é super legal, vai
+
+488
+00:22:01,885 --> 00:22:05,242
+funcionar bem e deveria ser assim, se eles levantaram
+
+489
+00:22:05,243 --> 00:22:10,020
+ponto muito bom, poderia, evitaria muitos problemas à frente
+
+490
+00:22:10,021 --> 00:22:16,736
+e evitaria também muita refatoração de código ficar codando
+
+491
+00:22:16,737 --> 00:22:20,663
+de novo voltar código Então evitaria muita coisa, só
+
+492
+00:22:20,664 --> 00:22:22,822
+que pra mim ainda tem essa maturidade.
+
+493
+00:22:22,823 --> 00:22:24,541
+Eu pego muitos clientes que não tem nenhuma
+
+494
+00:22:24,542 --> 00:22:26,321
+maturidade, não tem nenhum tipo de segurança.
+
+495
+00:22:27,669 --> 00:22:30,268
+Cara, como que eu vou colocar segurança no Mysteira?
+
+496
+00:22:30,269 --> 00:22:31,747
+Não faço a menor ideia.
+
+497
+00:22:31,748 --> 00:22:33,506
+Então, pra esse cara, como que eu vou colocar
+
+498
+00:22:33,507 --> 00:22:34,486
+a primeira vez?
+
+499
+00:22:35,885 --> 00:22:37,684
+Como que eu vou falar para esse cara?
+
+500
+00:22:37,685 --> 00:22:40,722
+Não, vamos tentar fazer o Rex de segurança junto com o
+
+501
+00:22:40,723 --> 00:22:43,920
+Rex de funcionar aqui, enquanto com o Rex de software.
+
+502
+00:22:43,921 --> 00:22:44,580
+É difícil.
+
+503
+00:22:45,340 --> 00:22:46,279
+Mas eu concordo.
+
+504
+00:22:47,059 --> 00:22:49,018
+Ele é o melhor dos mundos, só que
+
+505
+00:22:49,019 --> 00:22:50,897
+nem sempre tem o profissional de segurança para
+
+506
+00:22:50,898 --> 00:22:53,916
+poder fazer essa jogada e ajudar a implantar.
+
+507
+00:22:55,144 --> 00:22:56,463
+Leve e Secops.
+
+508
+00:22:56,464 --> 00:22:57,443
+Lev e Secops.
+
+509
+00:22:58,063 --> 00:22:59,582
+Tudo bom, muito bom.
+
+510
+00:22:59,583 --> 00:23:02,929
+Cara, eu tive uma para não falar o nome da
+
+511
+00:23:02,930 --> 00:23:04,848
+empresa né mas é uma empresa com três letras que
+
+512
+00:23:04,849 --> 00:23:07,806
+eu trabalhei só dando uma enquete de itens tem duas
+
+513
+00:23:07,807 --> 00:23:12,664
+tem duas não tô falando tem duas representa com três
+
+514
+00:23:12,665 --> 00:23:19,119
+letras que é havia uma lista de requisitos de 200
+
+515
+00:23:19,120 --> 00:23:23,197
+requisitos, 280 requisitos lá, era basilar, então todo produto, todo
+
+516
+00:23:23,198 --> 00:23:25,815
+software era desenvolvido, tinha que ter aqueles requisitos.
+
+517
+00:23:25,816 --> 00:23:27,893
+Obviamente ou outro ali não era aplicável
+
+518
+00:23:27,894 --> 00:23:30,292
+e tal, mas tinha lá os requisitos.
+
+519
+00:23:30,293 --> 00:23:32,211
+Então tinha coisas como, por exemplo, não pode ter
+
+520
+00:23:32,212 --> 00:23:35,568
+senha chumbada, se você usa certificado, o certificado tem
+
+521
+00:23:35,569 --> 00:23:39,686
+que ser manipulado assim, assado, se você usa todos
+
+522
+00:23:39,687 --> 00:23:42,785
+os inputs tem que ser validado, blá blá blá.
+
+523
+00:23:43,594 --> 00:23:46,953
+E no final de cada entrega, cada release dessa empresa,
+
+524
+00:23:46,954 --> 00:23:48,672
+vocês tinham acesso a gente pra ver esse cara.
+
+525
+00:23:48,673 --> 00:23:50,031
+Todos os requisitos foram feitos,
+
+526
+00:23:50,032 --> 00:23:51,351
+todos os que eram aplicáveis.
+
+527
+00:23:51,352 --> 00:23:54,169
+Tinha requisito lá, por exemplo, você tá usando VM, fazer
+
+528
+00:23:54,170 --> 00:23:55,768
+deploy, a VM tem que ser assim, assim, assim, sabe.
+
+529
+00:23:55,769 --> 00:23:58,207
+E às vezes o cara tá subindo na Cloud e não serve.
+
+530
+00:23:58,208 --> 00:23:59,366
+Não tem VM de fato.
+
+531
+00:23:59,367 --> 00:24:01,165
+Então, esse requisito era aplicável, né?
+
+532
+00:24:01,166 --> 00:24:02,595
+O cara colocava lá no aplicativo.
+
+533
+00:24:03,114 --> 00:24:04,394
+Só que eu quero o problema.
+
+534
+00:24:04,395 --> 00:24:06,313
+Todo time, o problema dos times era,
+
+535
+00:24:06,314 --> 00:24:07,792
+cara, mas é 200 e poucos requisitos.
+
+536
+00:24:07,793 --> 00:24:09,680
+Toda vez que a gente tem que ver isso,
+
+537
+00:24:09,681 --> 00:24:11,119
+Toda vez que tem que fazer isso, hora uma
+
+538
+00:24:11,120 --> 00:24:13,438
+planilha, hora no Azure, tanto faz, né?
+
+539
+00:24:13,439 --> 00:24:14,637
+Toda vez que tem que ler eu sei que
+
+540
+00:24:14,638 --> 00:24:16,956
+existe, toda vez que existe, porque toda a versão
+
+541
+00:24:16,957 --> 00:24:18,825
+do software tinha que ter esse acesso.
+
+542
+00:24:18,826 --> 00:24:21,423
+Versão 1.0 e a versão 1.1, o ticket é o acesso, porque
+
+543
+00:24:21,424 --> 00:24:23,922
+a gente cara, a versão 1.1 tá compliance com a parada.
+
+544
+00:24:25,381 --> 00:24:27,020
+E a empresa já era madura, eu já tinha
+
+545
+00:24:27,021 --> 00:24:30,988
+tempo Caralho, velho, você faz isso uma vez.
+
+546
+00:24:30,989 --> 00:24:34,226
+O seu time lê aqueles requisitos e entende ele uma vez.
+
+547
+00:24:34,227 --> 00:24:35,126
+E você implementa.
+
+548
+00:24:35,784 --> 00:24:38,103
+Os requisitos são mínimos, então eles são obrigatórios.
+
+549
+00:24:38,104 --> 00:24:39,463
+Ah, putz, não vou conseguir fazer esse
+
+550
+00:24:39,464 --> 00:24:41,342
+primeiro release, não vou conseguir todos. Beleza?
+
+551
+00:24:41,343 --> 00:24:42,181
+Alguém vai provar?
+
+552
+00:24:42,182 --> 00:24:44,449
+É você sobe na próxima versão, simplesmente o
+
+553
+00:24:44,450 --> 00:24:46,128
+restante, mas você já sabe que tá lá,
+
+554
+00:24:46,129 --> 00:24:48,007
+você já mapeou, porque não muda nada, né?
+
+555
+00:24:48,008 --> 00:24:48,966
+Não sei o que são o mesmo.
+
+556
+00:24:48,967 --> 00:24:50,486
+E na sua versão 1 bilhão lá na
+
+557
+00:24:50,487 --> 00:24:52,395
+frente, provavelmente você vai ter aplicado todos.
+
+558
+00:24:53,074 --> 00:24:54,394
+Você leu eles uma vez e foi
+
+559
+00:24:54,395 --> 00:24:56,513
+aplicando eles ao longo de suas evoluções.
+
+560
+00:24:56,514 --> 00:25:00,910
+Mas essa era todo o Ah, mas é muito requisito para ler.
+
+561
+00:25:00,911 --> 00:25:02,349
+Ah, mas eu não entendi o que o requisito tal
+
+562
+00:25:02,350 --> 00:25:04,388
+fala, então a gente resolveu não fazer ou coloca aqui
+
+563
+00:25:04,389 --> 00:25:06,027
+no era aplicável, cara, mas você não perguntou com o
+
+564
+00:25:06,028 --> 00:25:07,926
+time de segurança, tem o time de segurança pra perguntar.
+
+565
+00:25:08,574 --> 00:25:10,453
+Então, por isso que eu joguei essa questão
+
+566
+00:25:10,454 --> 00:25:12,372
+de ter baseline, o que vocês achavam?
+
+567
+00:25:12,373 --> 00:25:15,091
+Porque é legal, o Beauty colocou
+
+568
+00:25:15,092 --> 00:25:16,490
+muito bem, o Security Standards.
+
+569
+00:25:16,491 --> 00:25:18,569
+Cara, aqui a gente vai ter chamada pra
+
+570
+00:25:18,570 --> 00:25:20,208
+fora, vai passar por esse proxy aqui.
+
+571
+00:25:20,209 --> 00:25:22,127
+Fora isso, não tem deploy, não vai subir,
+
+572
+00:25:22,128 --> 00:25:24,846
+não vai passar, o standard é esse.
+
+573
+00:25:24,847 --> 00:25:27,614
+E o porque já está lá, ou qualquer comunicação
+
+574
+00:25:27,615 --> 00:25:30,413
+do serviço aqui é a HTTPS, é encriptado. Por quê?
+
+575
+00:25:30,414 --> 00:25:33,211
+Porque se tiver ataque na rede, o cara não faz sniff.
+
+576
+00:25:33,212 --> 00:25:33,651
+Por quê?
+
+577
+00:25:33,652 --> 00:25:35,180
+Porque tem que ser assim e acabou.
+
+578
+00:25:35,699 --> 00:25:36,679
+Tem vários porquês.
+
+579
+00:25:37,339 --> 00:25:39,897
+Mas você faz uma vez e os
+
+580
+00:25:39,898 --> 00:25:42,136
+times entendem aquilo e seguem aquilo.
+
+581
+00:25:42,137 --> 00:25:43,695
+Tem coisa que acaba sendo lei,
+
+582
+00:25:43,696 --> 00:25:45,205
+o regra, vamos chamar assim.
+
+583
+00:25:45,206 --> 00:25:47,763
+Mas a gente teve essa dificuldade dos caras.
+
+584
+00:25:47,764 --> 00:25:49,283
+Cara, mas é muito requisito.
+
+585
+00:25:49,284 --> 00:25:51,082
+Todos os requisitos eram relevantes.
+
+586
+00:25:51,083 --> 00:25:52,909
+Obviamente muita coisa lá não aplicava
+
+587
+00:25:52,910 --> 00:25:53,709
+às vezes para software ou outro.
+
+588
+00:25:53,710 --> 00:25:55,188
+Muita coisa contabilizada também para o
+
+589
+00:25:55,189 --> 00:25:56,268
+pessoal subir em docker e tal.
+
+590
+00:25:56,269 --> 00:25:57,787
+Muita coisa não se aplicava mais.
+
+591
+00:25:57,788 --> 00:25:59,685
+Mas questão de aplicação sim.
+
+592
+00:25:59,686 --> 00:26:01,524
+Então eu tinha ótimo me falando cara você fez o
+
+593
+00:26:01,525 --> 00:26:04,362
+sétimo e fiz passou em tudo passei todos aqui você
+
+594
+00:26:04,363 --> 00:26:07,241
+fez fiz e esse aqui de não ter senha chumbada
+
+595
+00:26:07,242 --> 00:26:10,978
+não fiz também rodavam escanzinho no repositório do cara cheia
+
+596
+00:26:10,979 --> 00:26:12,458
+de sica, cheia de coisa lá, né?
+
+597
+00:26:12,459 --> 00:26:14,736
+Pra mano, então você tá respondendo só por responder.
+
+598
+00:26:14,737 --> 00:26:16,016
+De fato, você tá usando essa
+
+599
+00:26:16,017 --> 00:26:17,795
+má prática aqui, importante você implementar.
+
+600
+00:26:18,355 --> 00:26:20,633
+Então como é que vocês veem essa questão de baseline?
+
+601
+00:26:20,634 --> 00:26:22,233
+Como é que você resolveria isso?
+
+602
+00:26:22,234 --> 00:26:24,871
+Esses standard, por exemplo? Por que?
+
+603
+00:26:24,872 --> 00:26:26,590
+Nesse exemplo que eu citei, nessa
+
+604
+00:26:26,591 --> 00:26:29,299
+empresa, não tinha suporte executivo.
+
+605
+00:26:29,300 --> 00:26:31,978
+Então se o time não fez, tava tudo bem.
+
+606
+00:26:31,979 --> 00:26:33,777
+Ah, putz cara, não fiz. Ah, beleza.
+
+607
+00:26:33,778 --> 00:26:36,716
+Faz na próxima, e na próxima, e nunca fazia.
+
+608
+00:26:37,404 --> 00:26:39,903
+Agora se é lei se você tem suporte
+
+609
+00:26:41,362 --> 00:26:41,802
+se tem
+
+610
+00:26:41,803 --> 00:26:44,281
+comitê de gestão de mudança vai ser aprovado não
+
+611
+00:26:44,282 --> 00:26:47,098
+vai o cara de segurança e outras pessoas envolvidos
+
+612
+00:26:47,099 --> 00:26:49,137
+vai olhar para quem falar cara não está de
+
+613
+00:26:49,138 --> 00:26:51,856
+acordo com os nossos standard então não vai subir
+
+614
+00:26:51,857 --> 00:26:54,415
+ou você vai pedir aprovação do dono da empresa
+
+615
+00:26:54,416 --> 00:26:57,323
+né risco aceito, o que for para isso passar,
+
+616
+00:26:57,324 --> 00:27:00,442
+senão está completamente fora do nosso standard aqui.
+
+617
+00:27:00,443 --> 00:27:01,860
+Como é que vocês veem isso?
+
+618
+00:27:02,659 --> 00:27:07,897
+Esse suporte executivo ou autoescalão é fundamental ou vocês
+
+619
+00:27:07,898 --> 00:27:11,603
+acham que os times eu odeio essa palavra, que
+
+620
+00:27:11,604 --> 00:27:16,929
+os times são empoderados o suficiente pra implementar segurança
+
+621
+00:27:16,930 --> 00:27:18,089
+ou qualquer outra questão que seja.
+
+622
+00:27:18,090 --> 00:27:21,047
+O meio tinha colocado, tem requisitos de UX, tem requisitos
+
+623
+00:27:21,048 --> 00:27:23,526
+Beleza, mas cada que é a sua prioridade no fim
+
+624
+00:27:23,527 --> 00:27:26,084
+das contas, tudo que não é do requisito funcional cai,
+
+625
+00:27:26,085 --> 00:27:28,403
+porque tá atrasado, porque tem que entregar pro negócio mais
+
+626
+00:27:28,404 --> 00:27:30,561
+importante, é o que acontece no dia a dia.
+
+627
+00:27:30,562 --> 00:27:31,641
+E aí, como é que vocês veem?
+
+628
+00:27:31,642 --> 00:27:33,759
+Esse suporte de cima, né?
+
+629
+00:27:33,760 --> 00:27:36,997
+É fundamental, ou os times são ou deveriam
+
+630
+00:27:36,998 --> 00:27:40,076
+ser empoderados de visitas pra fazer, pra implementar,
+
+631
+00:27:40,077 --> 00:27:41,915
+sei lá, como é que vocês enxergam assim?
+
+632
+00:27:44,273 --> 00:27:45,133
+De cada vez
+
+633
+00:27:47,432 --> 00:27:51,270
+vamos lá cara assim na minha visão tá
+
+634
+00:27:51,989 --> 00:27:54,888
+posta errado, aposentado, depois a gente está discutida.
+
+635
+00:27:56,867 --> 00:27:59,226
+Primeiramente, teria que ter alguma coisa
+
+636
+00:27:59,227 --> 00:28:00,965
+no CI servir para bloquear isso.
+
+637
+00:28:01,814 --> 00:28:04,693
+Você ter ferramentas e segurança apropriadas Não é
+
+638
+00:28:04,694 --> 00:28:07,931
+colocar sonar ali, colocar alguma coisa muito simples
+
+639
+00:28:07,932 --> 00:28:10,869
+Ter ferramentas específicos para detecção se você está
+
+640
+00:28:10,870 --> 00:28:15,067
+procurando ciclista, tem uma ferramenta de verificação de
+
+641
+00:28:15,068 --> 00:28:17,106
+ciclistas ali no seu CACD pra poder bloquear
+
+642
+00:28:17,107 --> 00:28:19,645
+esse tipo de coisa, passwords e tudo mais.
+
+643
+00:28:19,646 --> 00:28:21,424
+Então você tem uma esteira bem montada.
+
+644
+00:28:22,323 --> 00:28:26,022
+E tem comitê executivo te apoiando, é fundamental.
+
+645
+00:28:26,561 --> 00:28:28,700
+Sem isso no nada, a gente é desenvolvedor
+
+646
+00:28:28,701 --> 00:28:30,299
+passou por isso a gente vai dar bypass
+
+647
+00:28:30,300 --> 00:28:31,658
+em tudo que a gente conseguir.
+
+648
+00:28:31,659 --> 00:28:32,678
+É simples assim.
+
+649
+00:28:33,657 --> 00:28:34,877
+Não tem o que falar.
+
+650
+00:28:35,985 --> 00:28:38,223
+Se eu tiver uma entrega para fazer o meu chefe
+
+651
+00:28:38,224 --> 00:28:40,982
+me cobrando e eu tiver que vai passar ali qualquer
+
+652
+00:28:40,983 --> 00:28:44,340
+coisa da maneira mais escrota possível, vai passar.
+
+653
+00:28:44,341 --> 00:28:45,320
+Esse é o pensamento.
+
+654
+00:28:45,970 --> 00:28:48,608
+Então você tem uma esteira blindada, vamos dizer assim,
+
+655
+00:28:48,609 --> 00:28:51,687
+igual a gente falou no último episódio que acho
+
+656
+00:28:51,688 --> 00:28:53,926
+que você até que colocasse do score ali na
+
+657
+00:28:53,927 --> 00:28:58,503
+esteira, cara seria excelente você ter ali tudo modelado
+
+658
+00:28:58,504 --> 00:29:01,821
+bonitinho com os scores ali pô não tem secrets
+
+659
+00:29:01,822 --> 00:29:04,729
+bateu ali não tem pressa, hoje não tem injection,
+
+660
+00:29:05,268 --> 00:29:08,307
+então o Benjure colocou também no último episódio.
+
+661
+00:29:08,308 --> 00:29:11,885
+Cara, dependendo da vulnerabilidade, a gente aplica em 95%
+
+662
+00:29:13,054 --> 00:29:16,533
+de acessibilidade, outros são 70, 80 Então você ter
+
+663
+00:29:16,534 --> 00:29:20,091
+ali a esteira moldada, preparada para receber esse tipo
+
+664
+00:29:20,092 --> 00:29:23,138
+de coisa é o caminho inicial e ter também
+
+665
+00:29:23,139 --> 00:29:26,177
+suporte executivo Sem isso não funciona Às vezes você
+
+666
+00:29:26,178 --> 00:29:30,665
+precisa de topdown ali para tudo funcionar corretamente Infelizmente,
+
+667
+00:29:31,684 --> 00:29:33,823
+o mundo funciona assim em alguns momentos.
+
+668
+00:29:36,242 --> 00:29:40,559
+Acho que o Marcos foi muito muito certeiro.
+
+669
+00:29:41,619 --> 00:29:43,857
+Nesse ponto do tipo, a empresa tem que estar
+
+670
+00:29:43,858 --> 00:29:47,034
+alinhada de que vão existir requisitos vindo do time
+
+671
+00:29:47,035 --> 00:29:48,873
+de segurança, eles têm que ser abraçados, né?
+
+672
+00:29:48,874 --> 00:29:54,351
+Acho que ponto alto nessa questão.
+
+673
+00:29:54,352 --> 00:29:56,649
+Uma questão que eu enxergo é que
+
+674
+00:29:56,650 --> 00:30:00,247
+os requisitos eles tendem a serem afunilados.
+
+675
+00:30:00,248 --> 00:30:01,847
+O que eu digo afunilados?
+
+676
+00:30:01,848 --> 00:30:04,514
+A gente pode começar com a questão de secret,
+
+677
+00:30:04,515 --> 00:30:11,431
+de bibliotecas Beleza, em determinado momento, nós só precisaríamos
+
+678
+00:30:11,432 --> 00:30:15,248
+colocar o olha, dentro do CID tem que rodar
+
+679
+00:30:15,249 --> 00:30:19,966
+a action de seque sabe e aquela action vai
+
+680
+00:30:19,967 --> 00:30:23,524
+resolver vários desses requisitos entende?
+
+681
+00:30:23,525 --> 00:30:26,682
+E aí tu afunilou tudo ali, ah tem que usar
+
+682
+00:30:26,683 --> 00:30:29,081
+lá o pré commit, tu afunilou vários daquele ali.
+
+683
+00:30:29,082 --> 00:30:33,488
+Outra questão, tem que passar por penteste antes
+
+684
+00:30:33,489 --> 00:30:36,326
+de sair a produção 100% dos usuários.
+
+685
+00:30:36,327 --> 00:30:39,974
+É requisito de segurança dependendo às vezes vai pegar
+
+686
+00:30:39,975 --> 00:30:42,732
+a PSAIA por compliance aí tu pega o compliance
+
+687
+00:30:42,733 --> 00:30:45,789
+foi nas costas que sempre te ajuda priorizar.
+
+688
+00:30:45,790 --> 00:30:47,428
+Então se você tem uma legislação,
+
+689
+00:30:47,429 --> 00:30:50,107
+comprar isso alguma documentação, algum risco
+
+690
+00:30:50,108 --> 00:30:52,046
+assim, sempre vai acabar ajudando.
+
+691
+00:30:53,745 --> 00:30:57,863
+Outro ponto importante é os requisitos de
+
+692
+00:30:57,864 --> 00:31:02,701
+segurança, se eles não ensinarem estimulo de
+
+693
+00:31:02,702 --> 00:31:06,118
+desenvolvimento, alguma coisa que tá faltando, né?
+
+694
+00:31:06,119 --> 00:31:07,318
+Por isso que esse porque tem
+
+695
+00:31:07,319 --> 00:31:09,677
+que tá muito claro assim, né?
+
+696
+00:31:09,678 --> 00:31:12,225
+Poxa cara, olha só, depois dessa etapa aqui,
+
+697
+00:31:12,226 --> 00:31:14,644
+tem que ter uma verificação de duplo fator.
+
+698
+00:31:15,303 --> 00:31:17,022
+Bom já vou fazer uma transferência
+
+699
+00:31:17,023 --> 00:31:18,961
+acima de 5 mil reais.
+
+700
+00:31:19,719 --> 00:31:22,798
+Cara, aqui ele precisa colocar segundo fator. Por quê?
+
+701
+00:31:22,799 --> 00:31:24,957
+Na verdade, isso deveria virar requisito de
+
+702
+00:31:24,958 --> 00:31:28,983
+segurança standard que qualquer operação financeira nos
+
+703
+00:31:28,984 --> 00:31:32,542
+usuários que envolverem mais de X% da
+
+704
+00:31:32,543 --> 00:31:35,720
+sua capacidade financeira deveriam exigir segundo fator.
+
+705
+00:31:35,721 --> 00:31:38,758
+E esse requisito pode atravessar ele para a empresa
+
+706
+00:31:38,759 --> 00:31:44,174
+como todo né e ter o baseline eu acho
+
+707
+00:31:44,175 --> 00:31:48,372
+ele indispensável mas para mim o baseline deveria ele
+
+708
+00:31:48,373 --> 00:31:52,450
+deveria ser devorado com o tempo por Secure Standard
+
+709
+00:31:52,451 --> 00:31:56,478
+né e aos poucos os outros aqui de segurança
+
+710
+00:31:56,479 --> 00:32:00,036
+eles seriam muito customizados para uma funcionalidade em si
+
+711
+00:32:00,037 --> 00:32:01,824
+dentro da modalidade de ameaça. Por quê?
+
+712
+00:32:01,825 --> 00:32:04,183
+Porque a gente teria o ciclismo standard da empresa.
+
+713
+00:32:04,184 --> 00:32:07,682
+Outro exemplo, o esquema do HTTPS, né?
+
+714
+00:32:09,129 --> 00:32:11,328
+Eu a minha cloud não deveria aceitar
+
+715
+00:32:11,329 --> 00:32:15,486
+uma conexão CHTPS então isso não deveria
+
+716
+00:32:15,487 --> 00:32:17,765
+em algum determinado momento ser requisito porque
+
+717
+00:32:17,766 --> 00:32:20,234
+eu teria automaticamente mitigado, saca?
+
+718
+00:32:25,410 --> 00:32:26,989
+Forma aqui de novo, peraí.
+
+719
+00:32:27,768 --> 00:32:29,168
+Esse ponto é muito alto.
+
+720
+00:32:29,169 --> 00:32:31,846
+Esse ponto é ele é uma discussão ampla, porque de
+
+721
+00:32:31,847 --> 00:32:34,545
+fato ele pode se aplicar numa empresa, na outra não.
+
+722
+00:32:35,374 --> 00:32:37,773
+Num time ele aplica, no outro não aplica, né?
+
+723
+00:32:37,774 --> 00:32:40,292
+Dependendo da criticidade do negócio, por exemplo.
+
+724
+00:32:40,293 --> 00:32:41,091
+Como eu falei, né?
+
+725
+00:32:41,092 --> 00:32:42,669
+Eu trabalhei trabalha em empresa, essa dá
+
+726
+00:32:42,670 --> 00:32:44,428
+pra falar porque não vou falar problemas,
+
+727
+00:32:44,429 --> 00:32:46,067
+mas trabalha na CVC uma época.
+
+728
+00:32:46,068 --> 00:32:48,786
+E você tinha lá o produto hotel, produto aéreo,
+
+729
+00:32:48,787 --> 00:32:52,633
+produto pacote, Cada time era responsável por produto, então
+
+730
+00:32:52,634 --> 00:32:55,552
+pesquisa de hotel e aéreo tinha uma prioridade, pagamento
+
+731
+00:32:55,553 --> 00:32:58,310
+tinha uma outra prioridade, o time de pacotes era
+
+732
+00:32:58,311 --> 00:33:02,018
+outra prioridade, então dependendo do produto, tinha prioridade diferente
+
+733
+00:33:02,019 --> 00:33:04,497
+da outra, e coisas aplicáveis à outra.
+
+734
+00:33:04,498 --> 00:33:07,584
+Obviamente, existem coisas comuns para todos os produtos,
+
+735
+00:33:07,585 --> 00:33:09,263
+é o prato dos times, vamos chamar assim,
+
+736
+00:33:09,264 --> 00:33:12,102
+mas obviamente tem coisas que acabam sendo customizadas
+
+737
+00:33:12,103 --> 00:33:15,001
+ali, mas essas coisas comuns, elas viraram standard,
+
+738
+00:33:15,760 --> 00:33:18,318
+E aí é aquela lei da empresa, né?
+
+739
+00:33:18,319 --> 00:33:20,117
+Todo mundo segue e já sabe por
+
+740
+00:33:20,118 --> 00:33:21,457
+que e tá todo mundo alinhado.
+
+741
+00:33:22,156 --> 00:33:24,805
+Igual, por exemplo, cara, o pagamento cai no dia 20.
+
+742
+00:33:24,806 --> 00:33:25,244
+Por que?
+
+743
+00:33:25,245 --> 00:33:28,563
+Porque o RH definiu sim que a empresa paga no dia 20.
+
+744
+00:33:28,564 --> 00:33:29,722
+Ah, mas eu quero o dia 10.
+
+745
+00:33:29,723 --> 00:33:30,722
+Nossa, não quer nada, mano.
+
+746
+00:33:30,723 --> 00:33:32,841
+Você quer ir à batalha do lugar e acabou.
+
+747
+00:33:32,842 --> 00:33:35,899
+Tipo, é dia 20, mano. Sabe?
+
+748
+00:33:37,198 --> 00:33:39,597
+É isso que me perturba muitas vezes.
+
+749
+00:33:39,598 --> 00:33:41,576
+Muitas vezes a segurança é questionada.
+
+750
+00:33:42,544 --> 00:33:44,783
+E aí, eu descobri o Beyworth trouxe agora como
+
+751
+00:33:44,784 --> 00:33:47,462
+exemplo, que eu vou fazer uma analogia, né?
+
+752
+00:33:47,463 --> 00:33:49,861
+Quando você vai no médico, sempre o médico, né?
+
+753
+00:33:49,862 --> 00:33:52,140
+É bom que eu mexo com a vida, né? Nem quer morrer.
+
+754
+00:33:52,859 --> 00:33:54,898
+Eu sou católico, mas até quem sabe
+
+755
+00:33:54,899 --> 00:33:56,638
+que vai pro céu, não quer morrer.
+
+756
+00:33:57,297 --> 00:34:00,064
+Vou esperar mais, né, mano? Vai que, né?
+
+757
+00:34:00,065 --> 00:34:02,143
+Vai acontecer igual, né? Então pode
+
+758
+00:34:02,144 --> 00:34:02,743
+acontecer.
+
+759
+00:34:02,744 --> 00:34:04,702
+Deixa eu explicar pouquinho.
+
+760
+00:34:04,703 --> 00:34:06,870
+Às vezes você espera pouquinho, né?
+
+761
+00:34:06,871 --> 00:34:09,668
+Mas você vai no médico e o médico ele fala cara, o negócio
+
+762
+00:34:09,669 --> 00:34:12,067
+é o seguinte, é para de fumar e beber e tal, tal.
+
+763
+00:34:12,068 --> 00:34:17,063
+Hoje é agora, seguir tua vida vai fazer exercício, vai
+
+764
+00:34:17,064 --> 00:34:19,062
+ter uma dieta especial, tá, tá, tá, tá, tá, tá.
+
+765
+00:34:19,063 --> 00:34:20,981
+Ele tá te passando ali baseline.
+
+766
+00:34:20,982 --> 00:34:23,040
+Cara, o seu baseline agora é álcool, 0.
+
+767
+00:34:23,679 --> 00:34:25,079
+Água com gás no máximo.
+
+768
+00:34:25,080 --> 00:34:27,358
+Refrigerante também é açúcar, sei lá.
+
+769
+00:34:27,359 --> 00:34:30,436
+E você tem aquela opção de fazer ou não.
+
+770
+00:34:30,437 --> 00:34:31,725
+Na sua casa você faz ou não.
+
+771
+00:34:31,726 --> 00:34:32,944
+Mas o médico te recomendou.
+
+772
+00:34:33,684 --> 00:34:35,842
+Muitas vezes a responsabilidade dele já está toda boa,
+
+773
+00:34:35,843 --> 00:34:37,122
+mas você faz se você quiser ou não.
+
+774
+00:34:37,123 --> 00:34:38,281
+Normalmente o pessoal faz ou
+
+775
+00:34:38,282 --> 00:34:39,081
+não, normalmente o pessoal segue.
+
+776
+00:34:39,082 --> 00:34:42,069
+Normalmente, E você não foi questionando o médico.
+
+777
+00:34:42,070 --> 00:34:43,129
+Mas por que, doutor?
+
+778
+00:34:44,028 --> 00:34:45,067
+Até o Bear colocou bem.
+
+779
+00:34:45,068 --> 00:34:46,307
+Você tem que falar o porquê do requisito.
+
+780
+00:34:46,308 --> 00:34:46,946
+Ele vai te falar.
+
+781
+00:34:46,947 --> 00:34:50,315
+Cara, o seu fígado está com cirrose.
+
+782
+00:34:50,316 --> 00:34:52,034
+Se você não parar de beber, vai destruir
+
+783
+00:34:52,035 --> 00:34:53,633
+seu fim e você morre em 3 meses.
+
+784
+00:34:53,634 --> 00:34:55,072
+Se você parar de beber.
+
+785
+00:34:55,073 --> 00:34:56,072
+Ah, tá bom.
+
+786
+00:34:56,073 --> 00:34:57,831
+Entendi o risco, a gravidade.
+
+787
+00:34:57,832 --> 00:34:59,010
+Vou seguir sua recomendação.
+
+788
+00:34:59,919 --> 00:35:02,518
+Mas segurança, não tem isso.
+
+789
+00:35:02,519 --> 00:35:07,236
+Você fala o porquê, você quer caption na tela de login.
+
+790
+00:35:07,237 --> 00:35:07,765
+Por quê?
+
+791
+00:35:07,766 --> 00:35:10,284
+Porque tem bot, porque a nossa aplicação é exposta pra
+
+792
+00:35:10,285 --> 00:35:13,222
+internet, a gente tá num maior ecommerce do planeta, ou
+
+793
+00:35:13,882 --> 00:35:17,249
+numa loja, ou sei lá, banco, tem que ter cara.
+
+794
+00:35:18,389 --> 00:35:20,767
+Ah, mas vai demorar pra fazer?
+
+795
+00:35:21,347 --> 00:35:22,546
+Ah, mas olha o Sexteto.
+
+796
+00:35:22,547 --> 00:35:24,265
+Ah, mas custa o cara.
+
+797
+00:35:24,266 --> 00:35:26,874
+Ah, mas Mano, mano, sabe?
+
+798
+00:35:26,875 --> 00:35:27,993
+Tem coisa que não tem.
+
+799
+00:35:27,994 --> 00:35:29,173
+Quando é que é segurança?
+
+800
+00:35:29,912 --> 00:35:31,951
+Talvez não segurança como todo.
+
+801
+00:35:31,952 --> 00:35:33,640
+E aí, pergunta polêmica, né?
+
+802
+00:35:33,641 --> 00:35:35,439
+Quando é que a segurança vai começar
+
+803
+00:35:35,440 --> 00:35:38,277
+a ser enxergada como o cara?
+
+804
+00:35:38,278 --> 00:35:39,477
+Os caras estão falando, vamos
+
+805
+00:35:39,478 --> 00:35:40,836
+fazer parado que é importante.
+
+806
+00:35:40,837 --> 00:35:42,165
+Mas nunca é assim.
+
+807
+00:35:42,166 --> 00:35:45,163
+Obviamente, não segurança como área, mas obviamente
+
+808
+00:35:45,164 --> 00:35:46,962
+coisas muito específicas, como esse caso aí
+
+809
+00:35:46,963 --> 00:35:47,802
+que a gente colocou, né?
+
+810
+00:35:47,803 --> 00:35:49,390
+Elas estão requisitos que, cara, que ou se na
+
+811
+00:35:49,391 --> 00:35:51,348
+vulnerabilidade você precisa corrigir, porque ela é crítica.
+
+812
+00:35:51,349 --> 00:35:51,668
+Por quê?
+
+813
+00:35:51,669 --> 00:35:54,427
+Porque é crítica isso e isso, dálhes os motivos,
+
+814
+00:35:54,428 --> 00:35:56,506
+mas mesmo com esse é o meu ponto, né?
+
+815
+00:35:56,507 --> 00:35:58,574
+Às vezes mesmo com os motivos mesmo com os
+
+816
+00:35:58,575 --> 00:36:01,093
+porquês, o time de segurança é muito questionado.
+
+817
+00:36:01,094 --> 00:36:02,372
+Você não questiona o médico.
+
+818
+00:36:02,373 --> 00:36:04,931
+Mas doutor, será que se eu tomar por
+
+819
+00:36:04,932 --> 00:36:08,089
+dia, umas Não vai dar certo comigo, não.
+
+820
+00:36:08,828 --> 00:36:12,607
+É três meses pra você viver, para de beber hoje, seis.
+
+821
+00:36:13,306 --> 00:36:15,015
+Sei lá, é caso extremo.
+
+822
+00:36:15,016 --> 00:36:17,014
+Ah, então eu vou parar, né?
+
+823
+00:36:17,015 --> 00:36:18,093
+Você não fica questionando, mas será
+
+824
+00:36:18,094 --> 00:36:18,932
+que o exame tá certo?
+
+825
+00:36:18,933 --> 00:36:20,692
+Vou buscar uma segunda opinião.
+
+826
+00:36:20,693 --> 00:36:22,211
+Até algumas pessoas vão, mas você
+
+827
+00:36:22,212 --> 00:36:23,920
+vai na segunda opinião aí.cabu.
+
+828
+00:36:23,921 --> 00:36:26,858
+Mas você não fica questionando, você obedece.
+
+829
+00:36:27,797 --> 00:36:30,996
+Insegurança não, não que a gente seja os reis da verdade,
+
+830
+00:36:30,997 --> 00:36:33,265
+não é esse o ponto que eu tô colocando aqui.
+
+831
+00:36:33,266 --> 00:36:36,703
+Mas às vezes a gente traz esse porquê que a gente
+
+832
+00:36:36,704 --> 00:36:39,502
+introduziu muito bem o virtuos muito bem a gente traz esses
+
+833
+00:36:39,503 --> 00:36:43,489
+porquês mas ainda assim tem essa questão Ah, mas vai levar
+
+834
+00:36:43,490 --> 00:36:45,408
+tempo, é o custo, é não sei o que.
+
+835
+00:36:45,409 --> 00:36:48,407
+Vocês acham que é relevante isso que eu tô falando?
+
+836
+00:36:48,408 --> 00:36:49,106
+É loucura?
+
+837
+00:36:49,945 --> 00:36:51,224
+Como é que vocês enxergam isso?
+
+838
+00:36:51,225 --> 00:36:52,463
+Você acha que segurança tinha que
+
+839
+00:36:52,464 --> 00:36:54,542
+ser enxergada alguns pontos, né?
+
+840
+00:36:54,543 --> 00:36:56,541
+Dentre aspas de novo, alguns pontos segurança.
+
+841
+00:36:56,542 --> 00:36:58,450
+Deveria ser enxerged como essa com
+
+842
+00:36:58,451 --> 00:37:01,968
+esse médico, nesse exemplo, ou não.
+
+843
+00:37:01,969 --> 00:37:04,286
+Negócio sempre vai correr risco, negócio que
+
+844
+00:37:04,287 --> 00:37:07,304
+decide, está tudo certo, Como vocês acham?
+
+845
+00:37:07,305 --> 00:37:08,463
+O que vocês acham disso?
+
+846
+00:37:08,464 --> 00:37:12,621
+Cara, assim, deveriam ser enxergados como os
+
+847
+00:37:12,622 --> 00:37:15,240
+médicos, só que tem problema em segurança
+
+848
+00:37:15,910 --> 00:37:18,069
+que em outras áreas você consegue justificar
+
+849
+00:37:18,070 --> 00:37:20,288
+bem, que é o retorno sobre investimento.
+
+850
+00:37:21,227 --> 00:37:24,944
+Então na área de segurança, como que você consegue
+
+851
+00:37:24,945 --> 00:37:28,142
+provar que aquela sua medida de segurança poupou tanto
+
+852
+00:37:28,143 --> 00:37:31,180
+de dinheiro lá na frente o problema tá aí
+
+853
+00:37:31,181 --> 00:37:33,458
+Se você Deixa eu te fazer parênteses.
+
+854
+00:37:33,459 --> 00:37:34,858
+Você vai fazer outro exemplo muito
+
+855
+00:37:34,859 --> 00:37:38,096
+mais claro, beber e dirigir. Está na frente.
+
+856
+00:37:38,097 --> 00:37:41,264
+Se você Se você for pego alcoolizado, você
+
+857
+00:37:41,265 --> 00:37:43,103
+perde a carteira, o carro vai aprendendo. Sim.
+
+858
+00:37:43,104 --> 00:37:44,262
+Mas se você não for pego,
+
+859
+00:37:44,263 --> 00:37:46,220
+você bebe direito, está tudo certo.
+
+860
+00:37:46,221 --> 00:37:47,379
+Qual é o risco?
+
+861
+00:37:47,380 --> 00:37:49,538
+Você bate o carro, causa o acidente e
+
+862
+00:37:49,539 --> 00:37:51,417
+mata alguém blá blá blá blá blá.
+
+863
+00:37:51,418 --> 00:37:54,415
+Beleza, quem decide se bebe ou dirige ou não?
+
+864
+00:37:54,416 --> 00:37:58,463
+Você, o condutor, Muitas vezes você assuma o risco.
+
+865
+00:37:58,464 --> 00:37:59,823
+Ah, bebe só uma latinha, vou
+
+866
+00:37:59,824 --> 00:38:01,622
+dar aqui em casa, vou dirigir.
+
+867
+00:38:01,623 --> 00:38:03,701
+Ou, semanas, virei três garrafas de
+
+868
+00:38:03,702 --> 00:38:05,969
+vodka, tô na Polônia mesmo. Vou dirigir.
+
+869
+00:38:06,869 --> 00:38:11,207
+Mas você só vai saber o retorno sobre esse investimento
+
+870
+00:38:11,906 --> 00:38:15,683
+nesse exemplo se deu problema ou não você ter bebido?
+
+871
+00:38:15,684 --> 00:38:16,943
+Se você tiver acidente.
+
+872
+00:38:18,042 --> 00:38:19,441
+Se você não tiver acidente, você vai ficar
+
+873
+00:38:19,442 --> 00:38:21,459
+aquela você precisa de ah, tá tudo certo,
+
+874
+00:38:21,460 --> 00:38:23,777
+eu dirijo bem, é caminho curto.
+
+875
+00:38:23,778 --> 00:38:25,417
+Cara, 1 metro a 1 quilômetro, só
+
+876
+00:38:25,418 --> 00:38:28,285
+precisa de 1 segundo o presidente acontecer.
+
+877
+00:38:28,286 --> 00:38:29,684
+Então você sempre quer ver porque
+
+878
+00:38:29,685 --> 00:38:31,683
+você não quer pagar esse preço.
+
+879
+00:38:31,684 --> 00:38:35,481
+Mas é que você falou, é perfeito isso, não é?
+
+880
+00:38:35,482 --> 00:38:37,720
+É o retorno sobre investimento, mas Não qual
+
+881
+00:38:37,721 --> 00:38:37,880
+é o
+
+882
+00:38:37,881 --> 00:38:40,038
+retorno do seu seguro que você paga do carro?
+
+883
+00:38:40,039 --> 00:38:41,638
+Se você nunca for roubado, sem ter
+
+884
+00:38:41,639 --> 00:38:44,116
+retorno nenhum, você foi só gastou?
+
+885
+00:38:44,117 --> 00:38:45,135
+Só querem quitar?
+
+886
+00:38:45,136 --> 00:38:48,893
+A sensação de que aquilo nunca vai acontecer contigo é
+
+887
+00:38:48,894 --> 00:38:51,371
+muito maior do que tipo cara eu vou investir 100
+
+888
+00:38:51,372 --> 00:38:54,630
+mil dólares aqui para prevenir algo que pode vir acontecer
+
+889
+00:38:55,200 --> 00:38:57,598
+Ninguém pensa que vai acontecer aquilo comigo.
+
+890
+00:38:57,599 --> 00:38:59,957
+Ninguém pensa isso, nenhuma empresa pensa.
+
+891
+00:38:59,958 --> 00:39:00,897
+Por isso acontece.
+
+892
+00:39:02,476 --> 00:39:04,685
+Na verdade, por isso que os empresários acontecem.
+
+893
+00:39:04,686 --> 00:39:05,185
+Então,
+
+894
+00:39:06,004 --> 00:39:08,163
+só que aí, os números ainda são, pô,
+
+895
+00:39:08,164 --> 00:39:10,722
+dependendo da empresa, o impacto maior era menor.
+
+896
+00:39:10,723 --> 00:39:13,210
+Então, às vezes, o impacto do cara foi, sei lá,
+
+897
+00:39:13,211 --> 00:39:15,848
+vai ser de 30 mil dólares, o cara investiu 100.
+
+898
+00:39:15,849 --> 00:39:19,087
+A ferramenta não se entende, o custo de reparar que
+
+899
+00:39:19,088 --> 00:39:21,155
+o dano foi menor do que o dano de potássio
+
+900
+00:39:21,156 --> 00:39:25,313
+a ferramenta então o cara assume o risco pensando no
+
+901
+00:39:25,314 --> 00:39:28,111
+quanto ele vai ter de problema ali o quanto que
+
+902
+00:39:28,112 --> 00:39:31,099
+vai custar para ele do que investir numa ferramenta ou
+
+903
+00:39:31,100 --> 00:39:34,977
+implantar uma segurança boa ali, né?
+
+904
+00:39:34,978 --> 00:39:38,385
+De qualidade dentro do parque tecnológico dele.
+
+905
+00:39:38,386 --> 00:39:40,084
+Então tem esse lado ainda.
+
+906
+00:39:41,183 --> 00:39:46,239
+Até tô com ponto legal que isso quer questão do Poxa,
+
+907
+00:39:46,240 --> 00:39:48,878
+o problema que eu posso ter versus é o custo alimentar.
+
+908
+00:39:48,879 --> 00:39:50,717
+Eu lembro de uma vez de acesso a insegurança
+
+909
+00:39:50,718 --> 00:39:53,576
+que estava fazendo, que tinha que implementar a LGPD.
+
+910
+00:39:54,304 --> 00:39:54,784
+Né?
+
+911
+00:39:54,785 --> 00:39:56,743
+Que lindo óbvio que é mais uma
+
+912
+00:39:56,744 --> 00:39:58,362
+tarefa do cara de upsec, né?
+
+913
+00:39:59,102 --> 00:40:02,060
+E aí uma das coisas da LGPD é sabe aquele
+
+914
+00:40:02,061 --> 00:40:08,128
+botãozinho que você seb aceita receber as newsletter e tal
+
+915
+00:40:08,129 --> 00:40:11,126
+e não sei o que essa operadora aí beleza esse
+
+916
+00:40:11,127 --> 00:40:16,093
+botão para o padrão tem que vir desabilitado né era
+
+917
+00:40:16,094 --> 00:40:23,589
+20 e poucos por cento da receita da empresa eles
+
+918
+00:40:23,590 --> 00:40:28,967
+tinham valor de mercado muito, muito forte em marketing.
+
+919
+00:40:29,546 --> 00:40:31,905
+Essa propaganda por email e por comunicação
+
+920
+00:40:31,906 --> 00:40:34,803
+geração, gerava muita revenda, muita compra.
+
+921
+00:40:35,623 --> 00:40:38,301
+De galera que não solicitou, mas o botão já tava ativo.
+
+922
+00:40:38,302 --> 00:40:40,700
+Agora que a família já chegou lá o cara compra.
+
+923
+00:40:40,701 --> 00:40:41,890
+E aí o que acontece?
+
+924
+00:40:41,891 --> 00:40:43,009
+Aí eu vou chegar para o cara dizendo que
+
+925
+00:40:43,010 --> 00:40:45,088
+eu ia conseguir segurança aquele gpd que tem aquele
+
+926
+00:40:45,089 --> 00:40:50,365
+botãozinho desligado vai ser eu entendeu então assim cara
+
+927
+00:40:50,366 --> 00:40:53,533
+nesse Mas nesse caso você tá
+
+928
+00:40:54,713 --> 00:40:56,512
+bem armado, porque é lei, né?
+
+929
+00:40:56,513 --> 00:40:57,431
+Não, exato.
+
+930
+00:40:57,432 --> 00:41:00,330
+É mesmo assim, agora com a puta da LGPD.
+
+931
+00:41:00,331 --> 00:41:01,689
+E quanto que O cara
+
+932
+00:41:01,690 --> 00:41:03,808
+me pediu, o cara vai abrir. Ele vai abrir o outro.
+
+933
+00:41:03,809 --> 00:41:04,488
+Ele vai abrir o outro, né?
+
+934
+00:41:04,489 --> 00:41:05,417
+Repagado, né?
+
+935
+00:41:05,418 --> 00:41:09,304
+Porque era 20% do faturamento da
+
+936
+00:41:09,305 --> 00:41:11,023
+empresa, era a porra desse checkbox.
+
+937
+00:41:11,024 --> 00:41:14,810
+Cara, era checkbox que não podia falhar.
+
+938
+00:41:14,811 --> 00:41:17,629
+Sistema objetar off, mas o checkbox da internet
+
+939
+00:41:18,408 --> 00:41:20,767
+pode falhar, eu olhei aqui e achei bizarro.
+
+940
+00:41:20,768 --> 00:41:21,726
+E aí o que acontece?
+
+941
+00:41:21,727 --> 00:41:25,034
+Agora entra outra questão que é importantíssima, por isso
+
+942
+00:41:25,035 --> 00:41:27,233
+que aqui no começo a gente estava falando sobre
+
+943
+00:41:27,234 --> 00:41:30,231
+a comunicação correta para o entendimento de todos, que
+
+944
+00:41:30,232 --> 00:41:31,890
+é o de entendimento de todos.
+
+945
+00:41:31,891 --> 00:41:35,967
+Cara o arquiteto software tem que entender o cara de UX
+
+946
+00:41:35,968 --> 00:41:39,246
+tem que entender o cara do produto tem que entender do
+
+947
+00:41:39,247 --> 00:41:42,913
+risco o Sisu tem que entender pra quando for conversar no
+
+948
+00:41:42,914 --> 00:41:46,551
+board pedir o apoio da galera de engenharia, né?
+
+949
+00:41:46,552 --> 00:41:47,871
+Do cto, lá etc.
+
+950
+00:41:47,872 --> 00:41:47,991
+A
+
+951
+00:41:47,992 --> 00:41:49,769
+galera tem que entender comunicação
+
+952
+00:41:49,770 --> 00:41:52,288
+tem que fluir, por quê?
+
+953
+00:41:52,289 --> 00:41:55,526
+Porque quando se todo mundo entendeu o risco
+
+954
+00:41:55,527 --> 00:41:57,165
+que a gente está correndo para reverter a
+
+955
+00:41:57,166 --> 00:42:00,423
+química de segurança, a tomada de decisão do
+
+956
+00:42:00,424 --> 00:42:02,163
+aceite de risco é muito diferente.
+
+957
+00:42:03,582 --> 00:42:06,620
+No momento que tu olha assim ó, sabe se não botar
+
+958
+00:42:06,621 --> 00:42:08,859
+ou vão pegar o capte para cima aqui né se tu
+
+959
+00:42:08,860 --> 00:42:13,016
+não colocar o capte aqui no login você pode ter em
+
+960
+00:42:13,017 --> 00:42:19,083
+período de 24 ou 48 horas X clientes teus impactados com
+
+961
+00:42:19,084 --> 00:42:22,921
+isso né que é o perfil e isso pode levar a
+
+962
+00:42:22,922 --> 00:42:26,499
+essa situação aqui que vai te levar a tu ficar tomar
+
+963
+00:42:26,500 --> 00:42:32,914
+uma possível embargos judicial por causa desse tipo de vazamento de
+
+964
+00:42:32,915 --> 00:42:36,432
+informação, porque basta que login seja comprometido e tenha vazamento de
+
+965
+00:42:36,433 --> 00:42:39,769
+informação e a pessoa seja alvo de fishing pra chegar uma
+
+966
+00:42:39,770 --> 00:42:42,188
+auditoria e ver isso aqui e esse vai ser o impacto.
+
+967
+00:42:42,768 --> 00:42:45,606
+Beleza, entendeu isso? Entendeu.
+
+968
+00:42:45,607 --> 00:42:48,305
+Nossa ação mitigatória é essa, o esforço é esse.
+
+969
+00:42:49,374 --> 00:42:51,293
+Aí tu acha que esse esforço vale a tua
+
+970
+00:42:51,294 --> 00:42:54,292
+noite de sono ou não vale, então é aí
+
+971
+00:42:54,293 --> 00:42:58,619
+onde entra o entendimento, porque Eu vejo hoje uma
+
+972
+00:42:58,620 --> 00:43:01,817
+falha muito foda na comunicação, tá ligado? De tu gerar
+
+973
+00:43:01,818 --> 00:43:03,597
+surda. É, absurda.
+
+974
+00:43:04,136 --> 00:43:08,144
+Velho, o que tu conseguir matar de requisito de segurança com
+
+975
+00:43:08,145 --> 00:43:11,322
+o seguro standard tipo o h que estão ali do https
+
+976
+00:43:11,942 --> 00:43:15,299
+cara conversa com cara de plataforma conversa com o cara de
+
+977
+00:43:15,300 --> 00:43:17,418
+infra, conversa com o cara de devolve o meu.
+
+978
+00:43:17,419 --> 00:43:19,417
+Tem como todos os serviços que a gente
+
+979
+00:43:19,418 --> 00:43:21,676
+subir agora, já subir em KTPS pro padrão.
+
+980
+00:43:22,576 --> 00:43:23,825
+Ah cara, tem? Tá?
+
+981
+00:43:23,826 --> 00:43:25,824
+Quanto a gente leva pra definir isso por padrão?
+
+982
+00:43:25,825 --> 00:43:27,703
+A cara a gente leva aqui em uma semana.
+
+983
+00:43:27,704 --> 00:43:29,502
+Então, cara, é uma semana de cara
+
+984
+00:43:29,503 --> 00:43:31,421
+ou dois caras configurando essa caralha que
+
+985
+00:43:31,422 --> 00:43:33,360
+vai usar pra empresa toda, tá ligado?
+
+986
+00:43:34,529 --> 00:43:36,608
+Chega perto das áreas, né?
+
+987
+00:43:36,609 --> 00:43:38,767
+Chega pro cara lá do Cobernest e falou meu,
+
+988
+00:43:38,768 --> 00:43:43,024
+quanto custa pra gente usar ou secrets de forma
+
+989
+00:43:43,025 --> 00:43:45,862
+correta ou plugar gerenciador de segredos aqui ó.
+
+990
+00:43:45,863 --> 00:43:50,599
+Cara, isso aqui vai custar mês de implementação e 20 dias
+
+991
+00:43:53,218 --> 00:43:56,776
+de migração dos secrets para cá tá show de bola beleza
+
+992
+00:43:56,777 --> 00:43:59,205
+e qual que eu ganho que cara a partir de agora
+
+993
+00:43:59,206 --> 00:44:02,763
+que a Secret tem que entrar no Secret Manager e a
+
+994
+00:44:02,764 --> 00:44:05,082
+partir de hoje a gente consegue rotacionar ele assim e aí
+
+995
+00:44:05,083 --> 00:44:07,780
+a gente começa a colocar isso no impacto de quando em
+
+996
+00:44:07,781 --> 00:44:10,298
+caso de vazamento de circuito quanto tempo a gente consegue responder
+
+997
+00:44:10,299 --> 00:44:15,814
+a isso sei lá 15 segundos e aí beleza o tu
+
+998
+00:44:15,815 --> 00:44:18,653
+começa a diminuir a quantidade de requisitos para ser cristã da
+
+999
+00:44:18,654 --> 00:44:22,629
+minha neném e o que tem de requisito de fato aí
+
+1000
+00:44:22,630 --> 00:44:26,227
+tu comunica com a comunicação pra todos, cara, mas assim, pra
+
+1001
+00:44:26,228 --> 00:44:32,034
+mim isso, essa comunicação precisa mais difícil, de todos assim, sabe?
+
+1002
+00:44:32,035 --> 00:44:34,593
+Por isso galera, a galera não tem comprado muito, porque na
+
+1003
+00:44:34,594 --> 00:44:40,599
+realidade, se tu não vender aquilo da forma correta, e quando
+
+1004
+00:44:40,600 --> 00:44:44,417
+eu digo cara, o cara tem que sentir a dor ou
+
+1005
+00:44:44,418 --> 00:44:49,684
+a necessidade, se ele não sentiu Eu acho que é muito
+
+1006
+00:44:49,685 --> 00:44:52,402
+fácil a gente ficar, jogar o martelo do cara do City
+
+1007
+00:44:52,403 --> 00:44:54,561
+ou Lights e tu que não entende, tá ligado?
+
+1008
+00:44:54,562 --> 00:44:54,761
+Acho
+
+1009
+00:44:54,762 --> 00:44:57,309
+que tem que tem que trabalhar em conjunto.
+
+1010
+00:44:58,208 --> 00:45:03,366
+Como agora eu consigo gerar uma métrica foda para
+
+1011
+00:45:03,367 --> 00:45:06,884
+o cara de dev, que ele implementou algo de
+
+1012
+00:45:06,885 --> 00:45:08,763
+segurança para a empresa como todo e isso vai
+
+1013
+00:45:08,764 --> 00:45:10,682
+ajudar ele a produzir na carreira dele.
+
+1014
+00:45:10,683 --> 00:45:13,681
+Pro gerente sênior de desenvolvimento, pro cara sênior
+
+1015
+00:45:13,682 --> 00:45:17,149
+de infraestrutura, que indicador eu consigo colocar para
+
+1016
+00:45:17,150 --> 00:45:19,307
+ele subir na empresa tá ligado acho que
+
+1017
+00:45:19,308 --> 00:45:21,187
+tem que ter uma política aí no meio
+
+1018
+00:45:21,188 --> 00:45:24,494
+porque somos pessoas numa empresa gigante todo mundo
+
+1019
+00:45:24,495 --> 00:45:26,793
+quer dinheiro e a política ser envolvida nisso.
+
+1020
+00:45:27,733 --> 00:45:28,812
+Boa, por favor.
+
+1021
+00:45:28,813 --> 00:45:30,771
+O episódio vai ser assim, vai ser 15 minutos de
+
+1022
+00:45:30,772 --> 00:45:34,218
+episódio, os outros o restante a pessoa paga, paga valor
+
+1023
+00:45:34,219 --> 00:45:39,376
+aí que faculdade nenhuma no planeta, não, talvez Harvard esses
+
+1024
+00:45:39,377 --> 00:45:41,424
+caras, mas faculdade de nenhuma ensino isso que a gente
+
+1025
+00:45:41,425 --> 00:45:44,182
+tá falando aqui cara é muita experiência é coisa do
+
+1026
+00:45:44,183 --> 00:45:45,822
+dia a dia é coisa que a gente já viveu
+
+1027
+00:45:45,823 --> 00:45:48,620
+né experiência minha do Marcos do Beiru do Rodrigo do
+
+1028
+00:45:48,621 --> 00:45:51,139
+Gabriel pessoal que já passou por aqui.
+
+1029
+00:45:51,140 --> 00:45:53,178
+E de fato, cara, acho que esse é o objetivo
+
+1030
+00:45:53,179 --> 00:45:58,434
+do davcalls pode questione, vai essa vivência, né, cara, o
+
+1031
+00:45:58,435 --> 00:46:00,393
+Marx tem a dele, eu tenho a minha, eu tenho
+
+1032
+00:46:00,394 --> 00:46:02,352
+a dele, de empresas que a gente já trabalhou e
+
+1033
+00:46:02,353 --> 00:46:04,671
+tal, e a gente chega na maturidade que a gente
+
+1034
+00:46:04,672 --> 00:46:07,079
+tem hoje, pra falar nesse alto nível, né mano?
+
+1035
+00:46:07,080 --> 00:46:07,978
+Como é que você?
+
+1036
+00:46:08,838 --> 00:46:11,197
+Pra você que acha você, você que está aí
+
+1037
+00:46:11,198 --> 00:46:13,574
+ouvindo agora, achava que o profissional de epicé, que
+
+1038
+00:46:13,575 --> 00:46:15,333
+é o cara que roda esse cante, dá relatório
+
+1039
+00:46:15,334 --> 00:46:18,152
+IPF e tá tudo certo, chupa ela.
+
+1040
+00:46:19,310 --> 00:46:20,789
+Tem 140 episódios.
+
+1041
+00:46:20,790 --> 00:46:22,428
+E você tem que ver que não é só isso.
+
+1042
+00:46:22,429 --> 00:46:24,347
+Se for só isso e não precisava da gente, eu
+
+1043
+00:46:24,348 --> 00:46:26,706
+rodava a cor da ferramenta e exportava automático, né?
+
+1044
+00:46:26,707 --> 00:46:29,145
+Em PDF, em JSON, o cara lá que você quiser.
+
+1045
+00:46:29,146 --> 00:46:30,584
+Mas enfim, então precisa entender
+
+1046
+00:46:30,585 --> 00:46:32,123
+o nível da discussão aqui.
+
+1047
+00:46:32,783 --> 00:46:34,782
+Bom, dê o tempo, vou me encerrar, eu
+
+1048
+00:46:34,783 --> 00:46:37,180
+queria trazer só exemplo aqui de caso que
+
+1049
+00:46:37,181 --> 00:46:38,579
+A gente tava falando que veio na campanha.
+
+1050
+00:46:38,580 --> 00:46:39,978
+Não tem nada a ver com o tema,
+
+1051
+00:46:39,979 --> 00:46:41,338
+mas tem a ver com o MapSack.
+
+1052
+00:46:41,339 --> 00:46:44,216
+Eu lembro que eu cheguei pro pessoal Cara,
+
+1053
+00:46:44,217 --> 00:46:46,034
+a gente fez scan aqui aplicação, então era
+
+1054
+00:46:46,035 --> 00:46:48,793
+literalmente uma SQL Injection numa tela de pesquisa
+
+1055
+00:46:48,794 --> 00:46:50,952
+idiota, bagulho bem idiota, né?
+
+1056
+00:46:50,953 --> 00:46:53,111
+Cara, tem SQL Injection aqui, vamos corrigir, é crítica,
+
+1057
+00:46:53,112 --> 00:46:54,690
+a base de dados é crítica, tal, tal, tal.
+
+1058
+00:46:54,691 --> 00:46:56,568
+Aí o cara falou assim, cara, eu juro
+
+1059
+00:46:56,569 --> 00:46:58,588
+mano, o cara falou com essas palavras.
+
+1060
+00:46:59,607 --> 00:47:01,246
+Não precisa corrigir.
+
+1061
+00:47:01,247 --> 00:47:02,425
+Falei mano, por quê?
+
+1062
+00:47:02,426 --> 00:47:04,144
+Porque está na documentação do aplicativo.
+
+1063
+00:47:04,145 --> 00:47:04,703
+Eu tô lendo
+
+1064
+00:47:04,704 --> 00:47:05,343
+isso em casa, hein?
+
+1065
+00:47:05,344 --> 00:47:06,103
+Eu falei pra você, né?
+
+1066
+00:47:06,104 --> 00:47:07,502
+Porque está na documentação da
+
+1067
+00:47:07,503 --> 00:47:09,881
+aplicação que tem essa falha.
+
+1068
+00:47:10,420 --> 00:47:11,979
+E é uma aplicação pública e tal.
+
+1069
+00:47:11,980 --> 00:47:14,018
+Quando tá na documentação que pode entrar
+
+1070
+00:47:14,019 --> 00:47:17,874
+esses caracteres, Mano, Não falei mano, porque
+
+1071
+00:47:17,875 --> 00:47:20,693
+era gringo, né, mas Brawl. Brawl.
+
+1072
+00:47:21,352 --> 00:47:23,911
+O hacker vai ler porra da documentação
+
+1073
+00:47:23,912 --> 00:47:25,029
+Nem marido, fazer?
+
+1074
+00:47:25,030 --> 00:47:25,269
+Aí eu
+
+1075
+00:47:25,270 --> 00:47:26,029
+dou usei esse assim, pô.
+
+1076
+00:47:26,030 --> 00:47:27,428
+Eu falei, mano, imagina o seguinte, ó.
+
+1077
+00:47:27,429 --> 00:47:29,747
+A gente tá aqui na época, eu tava na Europa já.
+
+1078
+00:47:29,748 --> 00:47:29,947
+Falei, mano.
+
+1079
+00:47:29,948 --> 00:47:31,426
+Imagina, a gente tá aqui na Europa.
+
+1080
+00:47:31,427 --> 00:47:33,015
+O cara lá da Rússia.
+
+1081
+00:47:33,016 --> 00:47:35,893
+Tá puta, ele quer invadir a nossa empresa.
+
+1082
+00:47:35,894 --> 00:47:38,312
+Você acha que ele vai ler da comida só e falar? Puta!
+
+1083
+00:47:39,212 --> 00:47:40,611
+O cara documentou que não
+
+1084
+00:47:40,612 --> 00:47:42,019
+podia colocar esse cara teres.
+
+1085
+00:47:42,020 --> 00:47:43,419
+Ah, mano, me pegou, hein?
+
+1086
+00:47:43,420 --> 00:47:44,618
+Não vou colocar, então.
+
+1087
+00:47:44,619 --> 00:47:46,297
+Puts, vou ter que arcar com a outra empresa.
+
+1088
+00:47:46,298 --> 00:47:47,497
+Eu usei esse exemplo, cara.
+
+1089
+00:47:47,498 --> 00:47:49,845
+Aí o cara parou, você não entendeu? Eu fico, mano.
+
+1090
+00:47:49,846 --> 00:47:50,564
+Verdade, né?
+
+1091
+00:47:50,565 --> 00:47:52,523
+Tá bom, a gente já foi mandando uma validação, então.
+
+1092
+00:47:52,524 --> 00:47:54,122
+Mas literalmente a primeira resposta, ele
+
+1093
+00:47:54,123 --> 00:47:55,382
+foi mandado, está na documentação.
+
+1094
+00:47:55,922 --> 00:47:57,620
+E o caralho, velho, isso é louco.
+
+1095
+00:47:57,621 --> 00:47:59,099
+Também tá na lei que eu não posso
+
+1096
+00:47:59,100 --> 00:48:01,498
+te matar agora, porque você falou essa rasteira.
+
+1097
+00:48:01,499 --> 00:48:03,317
+Mas se alguém me pegar, eu vou preso.
+
+1098
+00:48:06,164 --> 00:48:08,523
+Não existe isso, nem sim. É que eu acho
+
+1099
+00:48:08,524 --> 00:48:09,863
+que tem uma coisa legal.
+
+1100
+00:48:11,322 --> 00:48:13,901
+E até queria retornar à questão do médico, né?
+
+1101
+00:48:15,829 --> 00:48:17,708
+Essa é a recomendação, depois vamos corrigir
+
+1102
+00:48:17,709 --> 00:48:18,707
+isso aqui, porque isso aqui pra dar
+
+1103
+00:48:18,708 --> 00:48:20,466
+uma estragou a diferença, que eu acho
+
+1104
+00:48:20,467 --> 00:48:23,244
+que galera precisa dominar o internadizado, assim.
+
+1105
+00:48:23,245 --> 00:48:26,003
+É que quando mexe na recomendação para ti e você
+
+1106
+00:48:26,004 --> 00:48:29,781
+não faz diretamente parece que o único fodido é você
+
+1107
+00:48:30,779 --> 00:48:31,959
+Diferente do processo.
+
+1108
+00:48:34,937 --> 00:48:38,304
+Agora coloca na situação de que você é o provedor
+
+1109
+00:48:38,305 --> 00:48:40,783
+da sua família e se você morrer, a sua mulher,
+
+1110
+00:48:40,784 --> 00:48:45,161
+os seus filhos, vão cair numa merda fodida, whatever.
+
+1111
+00:48:46,049 --> 00:48:47,808
+Começa a entender pouco melhor
+
+1112
+00:48:47,809 --> 00:48:52,846
+porque inevitavelmente risco assumido, né?
+
+1113
+00:48:52,847 --> 00:48:55,014
+Risco assumido sei o que vai acontecer, mas se
+
+1114
+00:48:55,015 --> 00:48:57,773
+deixar a empresa 13 de AOFF não vai ser
+
+1115
+00:48:57,774 --> 00:48:59,972
+a sua cabeça que vai rolar, né?
+
+1116
+00:48:59,973 --> 00:49:02,029
+Então eu odeio ter que ler dentro de
+
+1117
+00:49:02,030 --> 00:49:03,988
+segurança esse discurso do filho da puta, se
+
+1118
+00:49:03,989 --> 00:49:06,347
+eu fizer, isso aqui vai pro saco.
+
+1119
+00:49:06,348 --> 00:49:08,266
+Mas, vamos lá, às vezes,
+
+1120
+00:49:08,267 --> 00:49:09,734
+porque ela é verdade.
+
+1121
+00:49:09,735 --> 00:49:12,213
+É, mas às vezes o cara precisa
+
+1122
+00:49:12,214 --> 00:49:13,612
+falar uma merda dessa, tá ligado?
+
+1123
+00:49:13,613 --> 00:49:20,318
+Então, saber que ele também tem responsabilidade não só
+
+1124
+00:49:20,319 --> 00:49:22,777
+por ele não só porque ele tá empregando mas
+
+1125
+00:49:23,916 --> 00:49:27,224
+pela corporação empresa que ele tá trabalhando Ele também
+
+1126
+00:49:27,225 --> 00:49:28,984
+tem que zelar por isso, né?
+
+1127
+00:49:28,985 --> 00:49:34,101
+Então, precisa sair fora pouquinho do ácido, eu não
+
+1128
+00:49:34,102 --> 00:49:36,230
+entregasse a fita de novo, ganhar meu bônus.
+
+1129
+00:49:36,231 --> 00:49:37,989
+Talvez não vai entregar nenhuma filha, talvez vai
+
+1130
+00:49:37,990 --> 00:49:40,267
+entregar que dia não vai ser usado, né?
+
+1131
+00:49:40,268 --> 00:49:41,827
+Eu adoro falar sobre esse ponto, a
+
+1132
+00:49:41,828 --> 00:49:43,346
+gente ia encerrar mais pra fechar, né?
+
+1133
+00:49:43,347 --> 00:49:45,345
+Agora fazer invertido, você trouxe o caule, eu
+
+1134
+00:49:45,346 --> 00:49:47,234
+vou pôr a cabeça solta aqui em cima.
+
+1135
+00:49:48,214 --> 00:49:50,293
+Eu vou além dessa questão porque é o seguinte.
+
+1136
+00:49:50,294 --> 00:49:52,012
+Eu tenho slogan que eu sempre falo, cara,
+
+1137
+00:49:52,013 --> 00:49:53,910
+a segurança e a responsabilidade de todos.
+
+1138
+00:49:53,911 --> 00:49:55,429
+E esse ponto do cocô foi lá, uma
+
+1139
+00:49:55,430 --> 00:49:57,148
+coisa é você morrer sozinha e fodase, outra
+
+1140
+00:49:57,149 --> 00:49:58,587
+coisa é o provedor de família, né?
+
+1141
+00:49:58,588 --> 00:50:00,146
+As pessoas vão sentir falta de impacto é
+
+1142
+00:50:00,147 --> 00:50:01,846
+maior e você se preocupa pouco mais.
+
+1143
+00:50:02,525 --> 00:50:06,003
+Trazendo esse mesmo contexto pra segurança, você olha
+
+1144
+00:50:06,004 --> 00:50:08,142
+pra Cara, se a minha empresa ficar fora,
+
+1145
+00:50:09,002 --> 00:50:10,621
+o que é que eu impacto na sociedade?
+
+1146
+00:50:11,400 --> 00:50:13,879
+E aí, por exemplo, eu trabalho num banco.
+
+1147
+00:50:13,880 --> 00:50:15,997
+Meu banco tá fora por causa de ataque.
+
+1148
+00:50:15,998 --> 00:50:17,637
+E o cara tá na China, na puta que
+
+1149
+00:50:17,638 --> 00:50:19,574
+pariu, precisa sacar conta dele, de acessar o cartão
+
+1150
+00:50:19,575 --> 00:50:21,693
+de crédito, o cara não consegue pagar bagulho, ele
+
+1151
+00:50:21,694 --> 00:50:23,532
+tá preso numa estação, não sei.
+
+1152
+00:50:23,533 --> 00:50:25,611
+Sabe, imagina as pessoas que dependem daquele
+
+1153
+00:50:25,612 --> 00:50:28,829
+serviço naquele momento o impacto pra elas.
+
+1154
+00:50:28,830 --> 00:50:31,227
+Hoje eu trabalho em empresa de infraestrutura crítica.
+
+1155
+00:50:31,228 --> 00:50:33,386
+Se dos meus clientes for atacado por causa
+
+1156
+00:50:33,387 --> 00:50:35,344
+do meu software, eu paro uma cidade de
+
+1157
+00:50:35,345 --> 00:50:37,863
+distribuir água, eu paro uma cidade de produzir
+
+1158
+00:50:37,864 --> 00:50:40,962
+energia, eu explodo uma energia, uma usina elétrica.
+
+1159
+00:50:41,581 --> 00:50:45,518
+Então, qual é o impacto que o meu negócio parado ou fora
+
+1160
+00:50:45,519 --> 00:50:47,817
+do ar ou com o ataque que ele tem na sociedade.
+
+1161
+00:50:48,916 --> 00:50:50,304
+Porque às vezes a gente pensa ah mas a
+
+1162
+00:50:50,305 --> 00:50:54,022
+empresa parou ela perde dinheiro tá mas e as
+
+1163
+00:50:54,023 --> 00:50:56,581
+pessoas empregadas e se elas perderam emprego por causa
+
+1164
+00:50:56,582 --> 00:50:59,249
+daquilo ou o metrô de São Paulo.
+
+1165
+00:50:59,250 --> 00:51:02,007
+O metrô foi hackeado e parou. Pô, você parou?
+
+1166
+00:51:02,008 --> 00:51:03,806
+Qual que é a cidade que tem metrô?
+
+1167
+00:51:03,807 --> 00:51:05,905
+A maior metrópole do Brasil, cara.
+
+1168
+00:51:06,885 --> 00:51:08,764
+Não tem como você imaginar, parou a empresa
+
+1169
+00:51:08,765 --> 00:51:10,403
+para perder uma grana, não é uma.
+
+1170
+00:51:10,404 --> 00:51:12,162
+Qual impacto na sociedade?
+
+1171
+00:51:12,163 --> 00:51:15,669
+Às vezes olhar por esse ângulo Ajude,
+
+1172
+00:51:15,670 --> 00:51:18,907
+você deve desenvolver dor, segurança, programador.
+
+1173
+00:51:18,908 --> 00:51:20,307
+Quem quer que seja envolvido aí
+
+1174
+00:51:20,308 --> 00:51:22,015
+no ciclo de desenvolvimento de software?
+
+1175
+00:51:22,016 --> 00:51:24,093
+A olhar pra segurança com mais carinho.
+
+1176
+00:51:24,094 --> 00:51:26,772
+Não só o cara quer que eu faça requisito a mais.
+
+1177
+00:51:26,773 --> 00:51:28,451
+Mas cara, se eu não fizer isso aqui, qual é
+
+1178
+00:51:28,452 --> 00:51:31,239
+o impacto que eu possa ter na sociedade, olha com
+
+1179
+00:51:31,240 --> 00:51:34,077
+esse ângulo, talvez te traga mais sensibilidade, né?
+
+1180
+00:51:34,078 --> 00:51:36,356
+Isso porque o bem me trouxe muito bem.
+
+1181
+00:51:36,357 --> 00:51:40,443
+Mas fechou, acho que é isso, Quer
+
+1182
+00:51:40,444 --> 00:51:43,002
+mandar beijo, mandar abraço especial hoje, não?
+
+1183
+00:51:43,003 --> 00:51:44,801
+Ah, mandar o pessoal curtir e compartilhar
+
+1184
+00:51:44,802 --> 00:51:47,299
+isso aí, porque o episódio Ópíssimo.
+
+1185
+00:51:48,119 --> 00:51:49,478
+O que a gente fala mantra? O
+
+1186
+00:51:50,718 --> 00:51:51,218
+C.
+
+1187
+00:51:52,517 --> 00:51:53,017
+O
+
+1188
+00:51:54,124 --> 00:51:56,843
+Faz o CCC aí, por favor, e divulgar para os
+
+1189
+00:51:56,844 --> 00:51:59,562
+amiguinhos da área de segurança, área de tecnologia no geral
+
+1190
+00:51:59,563 --> 00:52:02,930
+para isso ter entendimento pouco mais aprofundado né?
+
+1191
+00:52:02,931 --> 00:52:06,048
+Como eu diria, teve Lu, busque conhecimento.
+
+1192
+00:52:06,049 --> 00:52:07,108
+Busque conhecimento.
+
+1193
+00:52:07,967 --> 00:52:10,854
+Boa pessoal, então a gente fala sobre requisitos de segurança,
+
+1194
+00:52:10,855 --> 00:52:12,533
+que eu acho que tem que acabar, tinha que ser
+
+1195
+00:52:12,534 --> 00:52:15,332
+requisito só, mas a gente segue a vida.
+
+1196
+00:52:15,333 --> 00:52:16,611
+Eu sou Caspereira.
+
+1197
+00:52:16,612 --> 00:52:17,959
+Eu sou o Senhor.
+
+1198
+00:52:17,960 --> 00:52:19,439
+E eu sou o Marcos Santos.
+
+1199
+00:52:19,440 --> 00:52:21,557
+Beijos, então a gente vê na semana que vem, pessoal.
+
+1200
+00:52:21,558 --> 00:52:22,537
+Beijos de luz.
+
+1201
+00:52:23,676 --> 00:52:24,956
+Termina aqui.
+
+1202
+00:52:24,957 --> 00:52:26,275
+Deve ser cóccix.
+
+1203
+00:52:26,276 --> 00:52:30,137
+Deve SECOMS, o seu podcast de segurança em tecnologia.
