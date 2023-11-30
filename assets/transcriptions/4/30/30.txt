@@ -1,0 +1,408 @@
+00:08.92
+Idan Elor
+Essentials.
+
+00:18.18
+cassiodeveloper
+Hello everyone thank you for watching and of course listening to us 1 more time. This is the dev seops podcast I'm casa perreo and today it's it's very good day actually because I have guests I will introduce them in a minute. And also I don't have my team that guys doesn't like to work so it's actually it's a good good episode. Yeah, just guest and myself which is perfect episode I would say no I'm just kidding. You can send message to the guys after guys first to introduce before introduce our guest. It's also an opportunity to talk about. Nova eight and Checkmarks which is our sponsor and is providing us a lot of how to say engagement in the community itself if you are interested in checkmers. You can talk to novi 8 team in Brazil or you can talk to novi a team in Poland as well. Also if you are interested of course in looking for your jobs or you want to announce your appssec opportunities you can go to appsac jobs and you have free opportunity to find a job but of course post your opportunities there as a company. Also talk about go security if you are looking for Appsic Appsac Services you can talk to go security. They have specialized professionals to help you and digital awoke if you are looking for apps sex solutions. They have a full portfolio to cover your apps. Yeah don't don't miss up this this this specific words. Okay.
+
+01:39.69
+cassiodeveloper
+So guys today are going to be talking about appse challenges and for that I had I invited 2 of of recent friends I could say that I met and they are here to today to talk if you're on a Youtube for of course you can see their faces already. But I will invite them to introduce theirs themselves. First. Thank you for joining. Thank you for the time. Thank you for array scheduling and so on and so forth. But finally here we are and welcome eat them and Simon please introduce yourself say anything that you want this stage is yours.
+
+02:14.12
+Idan Elor
+All right I'll go first. Thanks ah Cassie for having us today. My name is hian I've been a pii boy most of my life and then started my journey in the software development. Both of my time I've been like a a team leader I've been a software developer living like the startup world. The enterprise world. And then I started like my journey in security started like in the mobile security space which was a really very cool experience were really cool and complex attacks. Then we we moved to the application security space being in one of the vendors specifically in the ca space csa. Some of the challenges and started to experience themselves and then I correrelated back to my time as and developer. So I think now I'm today I'm a director of solution engineering at the piro. And where we basically we going to discuss about the upset and some of the challenges that we have seen. After probably hundreds of conversations with different practitioners across the globe.
+
+03:11.00
+cassiodeveloper
+Awesome! Awesome Welcome welcome again and where are you based just for out ins can know where you from.
+
+03:17.22
+Idan Elor
+Yeah, so I'm based in Tel Aviv in Israel nice sunny day here. So yep.
+
+03:24.76
+cassiodeveloper
+Goods. Actually it's sunny day. But despite the problems that you're having in Israel but hope everything thats fine as possible for you? Yeah again, thank you for the time and everything so simon we were. You're the next one.
+
+03:36.20
+Simon Price
+Yeah, hey, hey Cassio thank you my friend and thank you for ah, inviting us along to this. This this webinar today. Yeah so I'm I'm Simon I'm based in the Uk I'm leading some of the cells effort here for a piro within the emir region. Just quick backdrop on me I've been working my good friend a Dan for all I was thinking other day maybe eight eight plus years possibly so we we started our our relationship back in semantic and prior to that I was selling mobile or helping organizations secure that mobile security.
+
+03:57.75
+cassiodeveloper
+Um, no.
+
+04:08.62
+Simon Price
+Posture if you like and more recently I've spent probably 4 5 years within the application security space. So a couple of years previously at sneak and then two years here within apiro where we're taking quite, a unique approach to solving what is a. Ah, longstanding problem in terms of you know identifying risks within software development. So really excited about the conversation today and yeah, looking forward.
+
+04:30.50
+cassiodeveloper
+Awesome! Awesome if I'm not mistaken I think is the first time that we have someone from Uk and someone from Israel if I'm not mistaken probably I had someone from Israel in the past. But anyway, let's consider you a first. Okay, even don't no worries. Yeah, so yes, again, guys. Thank you for the time. Thank you for everything and you. Let's start introducing this conversation with 1 question, you just mentioned that you were working in apiro and you base from you ba you back from is sneak as well. So big vendors and and specific. Let's say companies focus on appeck problems. So you have your. Hope also the item was a software developer as well. So you have the whole idea on how software development work and then how to do secured on top of that. So the question I would say the question to start this. This conversation is with your experience and the whole background and this vendors the whole career that you have guys. What do you think is the most easy part of doing application security because usually we talk about challenges. Yeah I understand we all get there. But what do you think it's like this is easy. Everybody accepts everybody wants this easy to install or to set up or to define a process. What do would say that. Okay, this is easy in appsack. Do you have something mind.
+
+05:45.33
+Idan Elor
+This is a great question over what is easy I can tell you what? Yeah what are what is the most common driver I'm not sure the most easiest thing. Unfortunately there is no easy upsak if you think about it because of the complexity diiest thing hey my boss told me we need to meet so to type to a certificate. And these are the things that I need to have in place before we speak about prioritization before we speak about enrollment before we speak about how we engage development to that process I can go and buy any tool I can go and buy my se scanner that will start to find problems I can go to pay someone to my pantheer to go and start and find problems. What I will do with them after this is a whole different complex conversation but buying is easy getting a service is easy, starting to get a glance over some security problems that you might have within YourSdC or your play or or your application code. This is the about. And let's call it like a getting the start getting visibility over what you're facing with.
+
+06:42.19
+cassiodeveloper
+Okay, Simon Do you agree or we're gonna have a fight right now.
+
+06:46.56
+Simon Price
+Yeah, no yeah I absolutely agree I mean it's it's easy to buy a tool maybe less easy to deploy but to to to a Dan's point and we're seeing us across all the organizations we're working with today. There's lots of point solutions out there. Lots of noise. What what do you do.
+
+06:47.44
+Idan Elor
+Are.
+
+07:04.29
+Simon Price
+Ah, an an alert that comes from a tool right? How do you make sense of it. How do you prioritize? How do you contextualize and that's a lot of the conversations we're having are around that pain point right? So people have deployed lots of different tools. Um at different parts of the development lifecycle but making sense of those alerts and. Knowing what you prioritize from a remediation standpoint is it is a core pain point today.
+
+07:26.96
+cassiodeveloper
+Okay, I Also agree I think it's easy to start looking for problems and usually start comparing Appsac life with our personal lives. For example, you have a pain or some uncomfortable stuff then you go to the doctor. It's really easy. You go to the doctor set an appointment and discover the problems.
+
+07:43.94
+Simon Price
+I.
+
+07:44.59
+cassiodeveloper
+I mean usually you you easily discover their problems. You do their exams and you know what's the problem is then it comes the challenges there. How you treat how you treat that specific symptoms or or problems depends on the root cause and so on. So if we come to appac as item just just said. It's easy to set up an se or a saast or whatever a scanner. It is or a pen test or and have thousands of alerts then comes to the challenge and I would text the next next question how you think that this challenge that comes now we can and enumerate them and so on. But. Which one you'd say okay, this is the most difficult part now I understand my problems I have a bunch of alerts. What's the next step. What I have to do in order to smoothly treat my my my problems let's say yeah.
+
+08:23.50
+Idan Elor
+And all is.
+
+08:34.41
+Idan Elor
+So here's what we're seeing many times and I've seen many organizations go through the same cycle day. One. You don't know what you have you went invested a tool you had to buy at se because your head of devops told you that we must meet a soc tool or we have a pc along the way these are the tools that we need to have in place. Cool you rolled them out the auditor signed off, you're good to go three months after where everything is being rolled out. You end up with so many problems and these are going back to your analogy and so many symptoms so many problems see bad signals all the way from bad blood test to bad backs-ray goes everywhere. And now you're trying to question yourself. How should I even go and and and get on this mess right? because your boss will say oh my god we have 3000 problems across our far codebase or of course our dependencies. How should we go in and and and and tackle it and this is where the pain starts right? because.
+
+09:24.62
+Simon Price
+Um.
+
+09:30.95
+Idan Elor
+Now if I put myself in the shoes of that a practitioner I wouldn't say poor but poor practitioner he needs to go and figure out all right, but let's let's go step back? What is our our organization looks like how many developers are working on that environment. How many business units. What are the business goals where are my critical assets right? Like if I have 100 services right? Not all of them are equal important when it come to risk like in your mindset you are starting to take a risk based approach I I do like 1 pause in my past I've been like ah and. Ah Qa manager right? They've been ah automation and stuff like that and there are so many bugs and quality bugs in your product. How many of them are important. What are the bugs that will be in your end-to-end flow and that your users will mean because those are the one that you need to bioize first. So their understanding is that the people that are going to fix problems are developers. Developers don't have all the time to fix all the problems so you need to help them to choose the most important problems that they need to go and fix first. For example, if your heart is not working. You didn't go and put a band on ah on some injury that you got. So so this is where this is where it start to get complex because now you need to go and start and do some kind of cannot reconnaiss sense to understand. Um, how your environment looks like where the raise what of most critical assets and I guess this is the starting point.
+
+10:54.32
+cassiodeveloper
+Okay, go simo 70 on top of that.
+
+10:59.98
+Simon Price
+Yeah, so I thought I think Dan touched on some some great points there. so so yeah again we and the earlier question took you know it's not just tooling that solves the problem right? You need to look at the processes and I think that's what we'll see where a Dan was touching on there and ah often those. Risk assessment those appse processes today are often typically very manual very repetitive and they don't necessarily give the right visibility or or context of of the changes that might have been made so we we talk here and appear a lot about context the importance of context. But I think the point being is. You know it's not just the tooluring. It's the processes unique leading it and look at it I guess at a wider with a wider lens if you like as to you know business impact things like that.
+
+11:45.58
+cassiodeveloper
+Okay, you had a good introduction but let's go deeper and I have some concern on my own as an appach engineer for for companies and as well. Usually I highlight like I hear like we can't have much noise I get it like we can't have thousands of vulnerabilities. We're not fixing all of them. That's fine. But then I come back to the doctor example. Yeah you go to the doctor and then they discover you have a kidney problem I don't know kidney stones inflammation whatever and then you discover also that and this can be dangerous after a time. Yeah, and then you discover. Also I don't know heart problem that can if you don't treat you know 1 year it can kill you. That's fine and I imagine you go to the doctor and this doctor knows all this information about you and this doctor is going to say you know man stop smoking go to the gym drink more water but he doesn't actually said to you. You have a very. Strong kidney problem or you have a very a heart attack condition. Ah heart heart condition that can kills you or even how to say dismiss some information like you know you're goingnna die in 1 year but let's ah, let's do the best as you can in this in this year my my point is usually in Appse. We are dismissing a lot of alerts yes because they are false positives because they are out of context these ones I agree but so we have a bunch of ones that they are part of the problem as well and they must be fixed fixed either today are they tomorrow but they must be informed.
+
+13:19.60
+cassiodeveloper
+The Developers Sisil management whoever because these are the guys with the symptoms and if they don't treat it to more can be.. It can be worse like I had Kidney stones myself so I need to drink a lot over I need to do a lot of things in order to don't get worse and I hopefully will survive So My point is what do you think like. On this dismissing some specific information on appseck you you think that we should as a patient come on doctor hit me, tell me everything How much time I have what I have to do what the treatment Medicine. Whatever or no give me just the worst problem that I will focus now. But then I might not have time tomorrow to fix other problems that can be important as Well. You know what do?? What do you think about this.
+
+14:04.98
+Idan Elor
+Um, my my take. I guess to to this one is is a couple of things when you think about upse in Theim They just not just about as you said not accepting killing the backlog find what to Close. It's also Fine. What actually impose risk. Your business right? to to the organization to your environment and in order to do so you you need to understand like how your environment looks like right? like if I thinking about my house where are the windows where are the doors where do I have locks where I don't have locks. Where I have I don't know I didn't close the door properly. So now someone can go and get in. And sometimes it might be a combination the door in the building is open and my door is open as well and only when I have that Combination. It's Risky. So So first of all I'm I'm trying to in my mind to paint a map and to put things on a graph and then try to to understand what is the path that an attacker. Try and go and attack my my environment and what are is entry point. For example, if we go more more more deeper and and what kind of data you will try to get into and what are the things that you will try to to fetch during his his journey would it be I don't know um and and high privileges. Would it be a key to my sensitive storage bucket there. There were so many attacks when you just delivered the mobile client and then when someone just like I did reverse engineering very simple one with strings. Nothing fancy just got like a a key to some internal services to some storage database and then it could have accessed.
+
+15:33.34
+Idan Elor
+Everyone database so that put my jeopardized like I Love the thing that that it might risk so the question would be how am I able to to paint and find those common attacks that attackers would try to do and then try to clean those up along the way from production to application code to the way the developers behave Yes, so this probably would be. But I will be after.
+
+15:54.45
+cassiodeveloper
+Um, okay.
+
+15:54.76
+Simon Price
+And I guess just just to add to that I'm just thinking think trying to think of and great analogies guys. So I haven't got an analogy I'm afraid but but but I think too I just to build on business. You know, understanding the business impact understanding. The full stack is super important. But I think you touched on vulnerabilities right? so. So much in appseck is focused on vulnerabilities. And it has been for many years right? and and vulnerabilities be it in an open source dependency of proprietary code or wherever that's only part of the problem and I think starting to to a Dan's point and understanding getting a full application inventory. Before you even start to break it down across risks. You know, understanding all the code components things like Apis data models. All of that. That's that's the foundational layer if you like of understanding what you have from a visibility perspective and then you can start to. Break it down across what your potential risks are of which vulnerabilities are a core component to that.
+
+16:51.44
+cassiodeveloper
+Okay, I also think that and and this keeping the same analogy. For example I see some companies like this kind of person that are afraid of going to the doctor because they know they have problems and they will discover this problem and they are afraid of the results. Ah, and sometimes I see companies like. You know, maybe we not have the the good saast or s ca whatever because if you start scanny I know you're gonna have a lot of problems then we need to fix this problem and so on so they they prefer to just omit I think this this kind of processes and and ma improving the ma material level on appeck to. To keep hiding these problems even though they know that they are there. But one day they will pop up as a exploitation or a business impact an attack or something like this just like a disease. Yeah, you have a condition one day to pop up and can be a problem. Yeah. And okay, we we got this map mindetting in mind that as as good describe now now I would ask a specific question about apiro where you are were based today or you are working today. How you think that apiro can contribute contribute to this specific problem like Ida mentioned. Okay I want to discover my assets or I want to to know my business impact business units and so on how does the specific solution or a process approach help the companies to do that. Okay, what are my assets or okay, this is the assets I know this is important what I need to look here what I know.
+
+18:18.59
+cassiodeveloper
+I'm a human I go to the doctor. What I need to check I need to check my brain my heart my whole body. What I need to check you know sometimes companies get lost with these exoms that they need to do and we need to help them. Okay, guys. It's important an se because we use 80% of our software is composed by 30 party libraries. So we need to check this this guys. Yeah. So what? What do you think what? How how appear is contributing to the companies achieve that.
+
+18:46.42
+Idan Elor
+So no trip time when you want to take it first but ah.
+
+18:49.54
+Simon Price
+Yeah, yeah, sorry I was I was wait for you. So, well listens I think, there's ah, there's a few areas we're we're helping with and I've ah I've touched the one already right? So it's that we start with visibility right? So by yeah, gaining a full. Understanding of of all your code components. Yeah, being able to run that and and deliver that build that visibility automatically, that's the I guess the first foundational layer and once we built you know once a piro or at all like Cappiros built that visibility that. Tracked all material code changes and and start to break down all those code components and and then we start to run that automated risk assessment. So I spoke about some of those typical manual processes that are in place today we can automate a lot of that right? So being able to tie and associate but risks with potential code owners. So helping, cut down remediate meantime to remediate time. So so for us, it's visibility. It's running an automated risk assessment and then the third piece and again this is all just on that automation theme if you like is once we've we've built that that inventory run that risk assessment.
+
+19:54.76
+Idan Elor
+Um, most.
+
+20:00.44
+Simon Price
+How do you automate? How do you trigger some of the specific developer flows automatically and maybe a Dan you can you can talk through that in a little bit more detail in terms of some of that automation. Perhaps.
+
+20:11.73
+Idan Elor
+I'll get I'll go even before I speak about appearance and how we contribute and the different tooling. Let's go 1 step back about upse right? like abse today work in 2 streams before I'm speaking about dev se cops initiative and all of that good stuff. A I want to discover the symptoms. So I getting tools I get Pentist reports I'm trying to to identify where I have bad signals that I need to go with and do after in Pavland there is another manual stream that hasn't been changing the past twenty five years and this is go about risk assessment like we some each one of us will call it a different name. All of us are doing it. So I will go and the architects and I will go and try to understand what is the inventory of assets or what are the technologies where my application is hosted how the architecture looks like I'm trying to to understand like what are the different components that process I can't do it on my own unless I have tons of time. I can go through the backlog time is stopping. Development is not continuing to deliver more more features. Maybe I can do this 1 time mapping but this is not reality, especially not in cloud native form. So the next step would be okay so I need to ask people and like. If I'm a developer and I'm going back to my early days as a developer and I've been requested hey you then you've been that a huge feature. Um I have a bunch of security related questions. So first and I'm nave I'm answering everything properly then the app tell me? oh so now we need to do a threat modeling a design review and did you had this control on that Api and did you put all of those good stuff.
+
+21:38.23
+Idan Elor
+So oh no, but I but I've done this like three sprints ago I don't even remember what they've done and and then it starts to create that friction. So for us at a period. This is the first thing that when we're thinking about the visibility and context. It's exactly that let me understand how the application looks like today. Without they need to go and ask someone and and again even as a developer won't have visibility to the entire codebase and only when I understand what are the different components and now how potentially they are linked between them and which code modules have sensitive data which repositoryies even active right? Most organizations.
+
+21:59.52
+Simon Price
+Um.
+
+22:11.90
+Idan Elor
+60% of the repositories. No one pushed code in the past like one year right? like this the reality and it's just like a larger attack surface so being able to map that initially automatically and also being able to trek after changes right? because our applications are constantly being updated. There are new code changes every code changes is classified differently if I just say I don't know change the color of a button in a a css file item care as a security person. But if I did a new database technology hey there are a couple of action that I need to take is it encrypted at rest. How is it deployed like let's talk about it right? It's and it's an security interesting event. So from our perspective. It's being able to help you and and raise a flag hey something meaningful has been changed There is a new risk here. Someone added a new exposed secret in a critical repositor that attacks the sensitive data points. And and then this is like the foundation that helps you to build your upset I guess at scale and more effectively at. For today's yeah
+
+23:10.45
+Simon Price
+So.
+
+23:13.25
+cassiodeveloper
+That's very good I need to just have a break because one of our our listeners once sent a message that oh I was so deep in the episode listen to you guys and I got lost in the traffic in San Paulo so you that are listening us now. Just check your Gps if you're in the right way. Yeah, just check double check then you can keep listening so I want to to bring another another point now I had the opportunity to to to test a piro I didn't have the opportunity to buy it. Unfortunately it was not the the money owner let's say but I remember 1 good feature which was the I think it's a timeline.
+
+23:30.83
+Simon Price
+Um.
+
+23:35.39
+Simon Price
+So.
+
+23:48.80
+cassiodeveloper
+It could check for a specific developer for example and you have the timeline of commits and so on so per each commit or each activity. Let's say it was pointing like okay cassio as developer has ah done this pull request and there was a secret on the code or and the other pull requests. There was a saas finding or in this other one a component with Vulnerability. So. This was a very good feature where I could not track my users but understand which which of which of them like need training for example or improvement on security skews and this kind of things which is something that I don't see in any kind of solutions. How can I. Assess the developer if he knows about security checking checking the code itself or code review but it can take time and this kind of of feature was to me was like magic like okay I can just track and look what who from my team I should provide I don't know sq injection training or ah. That's practice security training. Whatever just based on this specific information. Um, and then comes to the question Now. Do you think this is a good approach like tracking this guy somehow to provide training because can be Also. Offensive for developers I was developer I hateed when someone Cameuno your code has a vo that a bit it like what I did the perfect code. It's working they tested I don't care about Security. It was on the past. But now as I have the background and I see how is the app se challenged nowadays. This is one very good point like.
+
+25:17.16
+cassiodeveloper
+Hey Developers your code is perfect smells good. Perfect. It's beautiful, but there is some secure flaws that we should improve because in my for my perspective secure Appsac is like about stopping creating the problems. These tools are there. They are all good to check and so on like doctor. Yeah, you go to the doctor and have problems you do the exams. But the good thing is like go to the Gym. Don't eat bacon. No No keep eating bacon but you go to the gym eat healthy and so on and so Forth. So Do you think it's a good approach like to check these developers and. To provide these trainings not that because I'm I'm not fan of this tracking like just to point the finger you are coding to much Vulnerabilities. You are pushing too much shit code. How do you see this guy.
+
+25:57.26
+Idan Elor
+Um, so look about it from another point of view right? like you're youre an upset you you don't inside the development team sometimes you even need to support multiple the unit right? like the ratio is is ridiculous. 1 upset for every 160 developers think about the velocity. It's something which is non-manageable with that state. So. You faced the problem. Okay, you you got like from your scanner told you that you have a critical rc with ability at 1 of your dependencies before you raise all of your organizations on their legs and you stop everyone blocking everyone for continuinging the work you want say let's have a conversation with the person who did it? How do you get to that work person. So you will go and speak with a product owner who will refer you back to the engineering manager who will say oh my god that cassio guy again and then he will send you to someone else and further down the line after you slow down everyone not intentionally because you're trying to to improve security. Ah you will get to the right person. So the ability to associate a change. Not necessarily vulnerability because from a pivot point of view. You have vulnerabilities vulnerability or clear is it is it impact my business call. Mr. Developer please go and fix it or Mr tea person go and and upgrade that that environment but there are some other elements of risky changes right? Like if I did an api.
+
+27:01.34
+Simon Price
+Ah.
+
+27:14.44
+Idan Elor
+This is the behavior. This is what the Pm asked me but it might impose risk and here I want to take additional measurements so it's not just about pointing fingers and say hey this is the developer that introduced the mode vulnerabilitbilities. Maybe it would be like your top engineer who pushed 60% of the code. So for sure we will introduce vulnerabilities and by the way and and if we. To the se example I didn't make any change in my code. There was a vulnerability that got introduced like in the day after so so being able to get to the right person helps you to close loops faster and it's all about that.
+
+27:43.73
+Simon Price
+And I guess just to add ah add to that point I think the you know we to as zadan said there's not about pointing the faint finger proportion in Blaine right? which is ah you know so a culture of of helping build better more secure code right. I guess the other flip of that right is with this profiling that tools like apira can potentially do is. You're able to do a couple of things 1 you can identify good good practice right? and and potentially identify security champions if you have a security champions program identify those those developers that are committing good secure code and may. Have an interest in security and potentially that may be a career aspiration or you just fundamentally scaling your your appsec function using a security champions program conversely, you know we we you know, hooking into training platforms. You can make sure that developers get the right contextually assign. Training materials based on. Maybe some some bad code that they've they've they've but or some some issues they may have introduced so it's it's all about you know helping and and it's certainly not finger pointing exercises in terms of apportioning blame.
+
+28:53.55
+cassiodeveloper
+Yeah I brought this up because usually I I see companies asking for trainings and so on and I ah I also see trainings of 16 hours 30 hours 40 hours and if you come to a developer like you know you have this training to do if you will not happen. But if you come to the same guy and look. I see that your code has secret problems. You are hardcoded credentialious too much look to this 5 minutes video here I think it's it's changed the game you know because you know the flaw with the context for that specific person. Of course after item mention you can talk to the manager etc to to approach that specific person like. Let's improve this specific part with with Simon mentioneds like with the context. Yeah, and this ah changed the game exactly on on the appsac on the development team because as I said I was developer as well and I hated to be interrupted to break my flow to come back to things that I did one month ago or something like this. But if I have 5 minutes conversation or less on our video. It's totally different than 40 hours training on whole security stuff to learn about fiwa networking it like doesn't matter. Yeah, so this specific approach I think it's the is the best. The best thing as well. Okay, the next point I want to touch is. Ah, you, you might know a lot of companies and and people around in the industry. What do you think that is the one skew if you if you had the power of clap your fingers for example and this is the new skew that ever developer as is going to have.
+
+30:23.68
+cassiodeveloper
+Which skill would be that treaty one.
+
+30:29.13
+Idan Elor
+Ah, this is an ah like what let the developer should have.
+
+30:36.24
+cassiodeveloper
+Can be can be a hard skew technical stuff Soft skew. What do you think like every developer should have just like that.
+
+30:44.93
+Idan Elor
+Um, I think that developers. They they develop expertise in their domain and sometimes even within a product not not need to be a huge product you have expertise in a very specific area the problem and I've seen it also like when I when I looked about it from a quality point of view. Developers don't know how the application looks like they don't know how the users are using it the application and the more knowledge you gain on the application on the architecture on the users. It helps you to be more effective when a you building your product. Just an example we're seeing this a lot um in other companies like work on a feature. Then you do it to you get it to an Mvp layer level then did anyone ever think about how that should work at scale right? Those are the type of questions that that that you might want to ask from a qualiative standpoint of view.
+
+31:25.71
+cassiodeveloper
+Um.
+
+31:41.53
+Idan Elor
+From a security stand point of view. You might just introduce a new completely new service. Very big processing sensitive data customers data banking accounts whatever and then you said all right? This is an internal It's it communicating with my internal service then you expose some of that elements from an Api to to your users because this is the business requirement. But you never put some thoughts about security around because whenever you say oh this is the mess that I have in my room I'm not going to clean it up I don't even think that's one of my visitors will come and open the door and see all of that mess. So I will I will clean only what is ah externally facing and then you might generate by design. Back door to something sensitive and you never put security in place. So only when you understand how your users are going to use the product and only when you understand what are the different services and how they speak with each other then you can get better decisions in design in your coding phase when it comes to security when it comes to quality. It's like changing everything. But it's hard because ah services are complex right? but this is what I would probably ask I want some drink.
+
+32:42.41
+cassiodeveloper
+Cool Simo some some trick.
+
+32:44.71
+Simon Price
+Know? No you well like this. Ah just with this security lens on it right? So I again Dan and I have been in the app sex space for for a few years now and and you know it's with with security. It's not that developers don't necessarily care. About security is not their day job right? They're building product. They're writing code. So I think any developers is got more of an awareness of you know what? what secure coding means I think is a good thing and again I talk we talk a lot with clients. You know the security champion program if if. Yeah, your your clients out. There are listening I think yeah for us that's a really really good way to scale your app set program and embed security within within development teams so identifying those personas that that are interested in security and getting them involved as early as possible I think is a good a good thing to do.
+
+33:37.16
+cassiodeveloper
+Cool if I might contribute to this one I would say that when you understand the because now I have changed my mind for example before I was okay I focus on the company or I focus on my code I need to focus on my business impact. Yeah, this is 1 thing but after working for a critical industry I know that. My company is delivering a product which is going to run a factory or an energy plant or like things that can stop ah a city things that can benefit one or another in in a war for example so after coming to this kind of industry then I realized like okay. So if my code has a breach It's not about my pocket or my employees or something actually I kind of I kind of be responsible for the society itself for a problem on the society if I work in a bank and the bank system is down. People are not able to get their money or pay for for the bills or whatever. Yeah.
+
+34:16.44
+Simon Price
+So.
+
+34:34.10
+cassiodeveloper
+So with this mindset like okay what the impact my business has on the society itself I would say that that that skew would be for not only for developers like but everybody on the software development lifecycle should have in mind. What can we damage outside. Not only our company. Yes, it's important our pockets business. That that's very important. But what's the impact on the society itself either if you are a bank or ecommerce or a car Whatever so that's Keyw it I would if I have the magic I would put this this seed in everybody's mind. Yeah, okay, what now. Just go into let's me see the time. Yeah, go to the to the end. What's the thing that you you think that makes you okay companies know that they need security. Everybody knows already. It's it's rare companies that oh do I need secure they they accept already that they need 2 scanners.
+
+35:11.81
+Idan Elor
+You be.
+
+35:28.26
+cassiodeveloper
+That's fine, but still, there's a challenge selling security. Not so not solutions itself. But I know you weren't so on the solution side I know it's hard to sell security even entirely ah to the company. It's hard to sell new process hard to sell and and new new ability and and kind of such things like that. What what other talent challenge on this side for you as a vendor that you face on the companies to like guys why you need this solution this kind of solution can be. Yours can be other prices is 1 thing but what are the challenges on this side to convince people that they they need this kind of solutions.
+
+35:56.15
+Simon Price
+Yeah.
+
+36:05.52
+Simon Price
+Yeah, us um, is it's great and and listen I guess we're in unusual times right? There's there's there's wars unfortunately going on in the world. There's lots of macro factors right? So and the economy is is is in pretty poor shape right? So, the organizations we work with be it large or small. Are frankly you know looking to typically trim costs from their trim trim from their budgets right? So that could mean tool consolidation. It could be often just sticking with a tool that may not be fit for purpose but they're just going to get just going to renew for another year because you know running a poc or running an evaluation or a procurement process costs money so we're seeing some of that right? But I think for us is I you know there's with ah with a tool like well let's talk about the application security posture management market per se right there there is you know that's a clear. Direction the market's moving in and there's some clear pain that that you know technologies like a peer r out to solve and for us it's focusing on things like you know, improving our operational efficiencies but but fundamentally as well reducing risk posture and that's still. Ah top priority for for seesos across across all enterprises today. So I think and again the other thing as well. You know in terms of you know, leveraging existing investments that's important as well. So something we we have ah I guess a mantra here within apiro is you know.
+
+37:33.48
+Simon Price
+Let's leverage your existing investments in appse tools. Be it Saas se Dast etc and let's contextualize those findings and help you prioritize to cut through the alerts and actually identify what's business impacting from a ah risk perspective. But I think yeah, it's I think it's tough times for every. Vendor out there in the market today. But I think it's hooking on some number one hooking on some some some core pain points that that that particular client has but then you know it's some fundamentally risk reduction in operational efficiencies in terms of you know, fundamentally helping them build and release code as quickly as possible.
+
+38:09.20
+Idan Elor
+And I also think that we need a I guess to be honest with ourself. There are few drivers that the organizations start to care about security a it's a bridge. No one not to get bridged. It's it's embarrassing. Ah it puts some people the role at stake. For for companies who went to ipo it reduced the stock dramatically if some sense like it has a financial impact from a risk liability point. The second thing so we talked about bridge this is 1 thing. The second thing is compliance right? like. I need to meet the cook brand standout in order to meet that competent standouts I need to take seriously the data that I'm processing my customers information the company that I'm involved in I need to improve my security posture. Um, if I won't do it I want me by compliance. Usually it's a very like low dominator third piece and it's the most important one is trust. With my customers right? if I'm going to do a business with the very loud financial organization and in appeal. For example, we scan code right? like it's the most sensitive ip for every software organization if they won't trust us that we take super seriously and and cautiously like the way that that we manage and protect their code.
+
+39:05.75
+Simon Price
+This.
+
+39:22.75
+Idan Elor
+Who can access to it. What are the security procedures who can access production like all of that good stuff how we develop our own software how we are making sure that it's clear of of vulnerabilities in our containers in the development and the the developers ability feedback project so generating that trust in order the free to close business critical and. 4 of points which I didn't plan but it's and also very good point and ah also going back to your previous comment about impact to the society right? So we have today this executive order of Biden right? there fourteen zero to 8 speaks about a growing complexity and cybersecurity threats and how organizations should embrace. And improve their cyber security ah practices in order to prevent those very complex attacks and it's it's a delayed approach you can protect it in one layer so you need to have that layer and you need to change your culture and you need to enable your developers and it's an ongoing repeatedly and repeatable process and if it wasn't that way. So. You didn't have a job I didn't have a job and we do it and we will never need like applications if with engineers and devsops guys and everyone who can touch and and push security forward. It's a it's a hard task. But yeah.
+
+40:29.84
+cassiodeveloper
+Cool now I want to bring 1 question that I did before just in another way if you had the power to set up a skew to every app sack professional which skew would be that.
+
+40:44.92
+Idan Elor
+I Let Simon go first now while I'm yeah.
+
+40:50.20
+Simon Price
+Um, I said I 12
+
+40:54.26
+cassiodeveloper
+Um I can say this one very easy ah know how to code every security guy should know how to code not not the whole development process but know how to code and how code works.
+
+40:56.94
+Simon Price
+No yeah, yeah yeah.
+
+40:57.14
+Idan Elor
+You.
+
+41:05.10
+Idan Elor
+The.
+
+41:05.12
+cassiodeveloper
+Easy.
+
+41:05.52
+Simon Price
+Yeah, yeah, I think yeah I think you're absolutely right I think and and I think rather than adding another point just to build on the point you made it absolutely and and we and ah and and another point there in terms of Appse folks. You know we there aren't enough good apps set for. Prep professionals in the market today without by buying stretch of the imagination we have probably daily conversations with the clients we're working with to say hey do you know? do you know any good appset folks because we we can't yeah we can't irony. So um, if there's any younger folks listening. The podcast. Maybe that's ah, a career path. You might want to think about, but but no, you're absolutely right? You know an app professional with you know, a background in development. Absolutely again itan runs the r ourselves engineering team and and you know that's that's a super strong quality to that I know.
+
+41:42.38
+cassiodeveloper
+Um, yeah.
+
+41:58.30
+Simon Price
+Dan looks for in his team members is you know some at least some some background in potentially coding of of or some yeah some software development back could be because without that you know building that trust as an aset practitioner. As you're engaging with these the with the development teams. It's it's it's it's ah it's a lot more difficult right? You're not talking their language. You're not and understanding their day to day right? So yeah, that's a great point.
+
+42:20.19
+Idan Elor
+I think we have a consensus I must say that when you first asked that question this was the first thing that I had in mind like code but I had to think about it and I agree and I think the reason that we need upset to know to code is to create that mutual language and trust with developers.
+
+42:27.16
+Simon Price
+I love.
+
+42:36.58
+Idan Elor
+Right? Because in the end of the day if you want to engage someone if I need now to give you more work or interrupt you as a developers when we know that caio we never being measured about how secure our code is and sometimes not even how much a buggy it is or not how fast did we deliver it to production but to customers. This is the only thing that we're getting measured on.
+
+42:51.42
+cassiodeveloper
+Um, yeah.
+
+42:55.30
+Idan Elor
+So That means that in order to improve Security. So when I think about it like what's in it for me I need to know that. Okay so casy is my upsset guy I want I'm trusting here because whenever we have that Conversation. He knows what? what are my concerns and he knows, How to address things and how to how a developer would look like. And these things and it can generate that mutual language and and and and help to challenge me So I agree votingdding would be that I think and.
+
+43:18.21
+Simon Price
+Um.
+
+43:18.52
+cassiodeveloper
+Cool going to the end of the episode is there anything else guys that you wanted to to say to pop up like we could say talk about this talk but we have 2 three more minutes but any topic that you want or if not, you can just say goodbye send links. Whatever follow me. Anything any final message that you want to to to say to the audience please feel free.
+
+43:42.56
+Simon Price
+Well, no, no. Ah I think for me probably but probably have to do a quick plug um to on on a pi in a moment but um, Benno Cassio listen you're you're you're a superstar. So thank you for inviting us along to this and for the for the great discussion. Those folks that don't know a piro. You know we're a cloud native application security platform and that you know helps secure your development from design to code to cloud and that's sort of what we're doing pioneer in the aspn market but love to um, you know love love to talk to any of your listeners if they're interested simon at apiro.com is my. Ah, email. It down maybe a funnel few words from you.
+
+44:22.87
+Idan Elor
+Yeah, well first of all cassio. Thank you for having us. Ah, it was a great conversation and I learned a lot also from you and it's very interesting to uncover some of the challenges that that we face all of us in upset I always urge more people and more ah, great and talented people to join this community. Of security and application security because it's really hard task and there is tons to do and I definitely said that within these conversations and other conversations with other practitioners. We just find more creative ways on on how to to improve security and improve our application security practices. Each one of us in in this role. Um, again, if you want to to to chat more can reach me out in Linkedin. You can find me in Facebook and find me probably almost everywhere. Yeah, and again, thank you casia.
+
+45:09.42
+Simon Price
+Okay.
+
+45:09.74
+cassiodeveloper
+Um, yeah I think one also important question from the elder is like. Are you hiring so where they can send Cvs and so on.
+
+45:16.11
+Simon Price
+I Think we're we're always hiring I think so yeah, if but yeah I think it and probably probably. You're the man for that.
+
+45:18.29
+Idan Elor
+Um, so.
+
+45:23.59
+Idan Elor
+Yeah, definitely like a have anyone who wants to get me a himself working for a bureau just send us as severe rich just in Linkedin we will connect it with the right people. We always looking for talented people to join our team. So yeah, thanks for checking.
+
+45:39.59
+cassiodeveloper
+Good and if you mentioned that you heard about this on the deficit cot podcast you have already, you skip one process of the interview. Ah, it's it's easy like a discount like from the black Friday no just kidding guys. Thank you for for the time again. Thank you for sharing this knowledge I think it's it's very important to talk more to discover and all.
+
+45:46.66
+Simon Price
+Ah.
+
+45:56.54
+cassiodeveloper
+Small part of peace on the daily basis is also to to share with the community and and to the to the industry that are facing the same problems and so again, thank you. This was I think it's 140 episodes of devs cup podcast already on fourth season. Ah, we are having a break from December and January so we will be back in February but this is the double episode. We have this episode in 1 another episode that we recorded just a recap from the year but this is a goodbye from 2023 for our audience and everybody. So. See everybody on the next year and you guys are already invited. So if you have new topics anything that you want to discuss February we are back is can we can record again. So thank you, we see you next year guys bye bye.
+
+46:38.18
+Simon Price
+Preset it.
+
+46:38.25
+Idan Elor
+Um, thanks.
+
+46:42.55
+Idan Elor
+Um I.
+
