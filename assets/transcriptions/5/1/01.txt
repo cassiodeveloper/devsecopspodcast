@@ -1,0 +1,604 @@
+00:18.74
+cassiodeveloper
+Hello everyone. It's a pleasure to be back for the fifth season of devsecops podcast I'm cassip perrea I was missing so much this audience because you know this podcast just exists because of the audience because people are listening asking for this kind of content. So.
+
+00:26.52
+Marcos
+I I'm Microsoftandos.
+
+00:38.43
+cassiodeveloper
+It's really a pleasure to be here for the fifth fifth season which means we are here 5 years already Marcus can you believe that where were you were you were you missing me to be honest to be honest, yeah I would say the same.
+
+00:47.10
+Marcos
+I or at I don't believe 5 years oh my god it's a long time. Um, no no no I don't miss you and Rorigo and the Gabriel don't go back bears like bear good.
+
+00:57.84
+cassiodeveloper
+Gabrieo but but Why'm missing Bay you were because he's a nice guy. Yeah, apart apart from you and the guests. He's a nice guy. No I'm kiny with.
+
+01:04.32
+Marcos
+I Like it too much. Yeah, yeah, that's good. Let's go see replace.
+
+01:10.47
+cassiodeveloper
+Um ki you have a very nice guest today that I introduced in a moment but before I need to mention that the defici cops podcast has the full support from novi eight and Checkmarks which are specialized in application security. So if you need get in touch with them. Talk to Nova Eight.com and you will find a lot of. Interesting information about checkmarks and other solutions as well. If you are looking for Let's say application secret consute and so you can talk to the go security fellows. Also if you are interested in other. Kind of divisions of application security. You can also talk to the guys from dsh to woak. They are all there to help you achieve your goals or your let's say address your problems on application security either in the brazilian supermarket and in Brazil market also some ero market as well. Ah, so here today guys we are going to be talking about application security versus kind of developer experience because we know that has this fight I would say between developers security devops manager and everybody developers like to fight with everybody. That's the truth when I was developer at least I was doing like this. But to talk about this very deep and special topic I have a special guest here which is a pleasure to have her here. It was hard to you know to scared though and so on she's a very busy woman dedicated to the market as well. So rass thank you for joining us.
+
+02:34.45
+cassiodeveloper
+Please feel free to introduce yourself then we start the discussion.
+
+02:37.45
+Raz Probstein
+So hi. Thank you so much for having me casio. So hi I'm Raz I'm a solution engineer at je almost year and a half of the company before that was a full stack engineer ad Itt as well. So I decided to kind of shift shift and mix things up a little bit. Yeah I have a wide background both like in engineering and cybersecurity from both the offensive and defensive side and on my spare time I like to to talk at ah community events like oas but like the aws community open source experience the open source summit like you name it.
+
+03:16.87
+cassiodeveloper
+Awesome again. Thank you for your time. It's a pleasure to have you here like a lot of other guests that we have over this five years and on the on the devsecops podcast but you are becoming more international. So after fourf season I'd say and when I move to the Europe so we bring more english content.
+
+03:17.16
+Raz Probstein
+And that's it. Thank you so much for having me.
+
+03:35.80
+cassiodeveloper
+Because mostly was a brazilia market. So everything portuguese people maybe will not understand everything especially Marcus because he doesn't even know how to speak in portuguese so and Marcus but.
+
+03:44.21
+Marcos
+And I didn't speak portuguese even in English This is terrible.
+
+03:51.19
+cassiodeveloper
+But let's see. Okay, so today we're going to be talking about application security and developer experienceing I would start with a first question maybe to our guest maybe Microsoft you can you can answer as well. Which is one very important thing. Do you do both. But maybe we'll start with with Ras or our guest. You also believe that we have because it's my believer. You also believe that you have this fight I use this word but let's say this they treat as enemies the security team and developer teams. Do you do have this feeling as well as your experience. So you think no I'm wrong. This is the opposite. They are all friends. They love each other.
+
+04:28.75
+Raz Probstein
+So No I completely agree I think that there is ah there is a big friction right? between the security team and the engineering team because it seems like they have separate goals and they're interfering interfering with each other on getting to their goal. So The security team wants to secure your. Product right? They want to make sure that we're developing a secured code that our cloud is secured as well. But the engineering team is mostly focused on delivering as fast as possible, right? They don't want anyone or anything to stop them or to slow them down and it seems like the goals are clashing. And quite frankly, the tools that the industry has been using until now they're not contributing to solving this friction. They're actually like, strengthening right? The fight. So Yeah I completely agree with you. It's out there.
+
+05:16.37
+cassiodeveloper
+Cool Marcus you were being fighting with some developers as well.
+
+05:21.31
+Marcos
+I Hate the defend person and a joke. But but I agree with your position and normally and developers and save security guys is not a very good relationship. Normally the guys from Developers. Don't like the security requirements don't like program with yeah, good security code is it just terrible is that it's not good.
+
+05:47.87
+cassiodeveloper
+okay okay I agree I agree I would say that I've I've been feeling this the same and there has just mentioned ah friction. Yeah, between these two between these 2 teams and you you also believe that there is a friction in the process. So for example, I'm colding and I need to. Finish this Um, this feature this whatever this bug fixed today. But then oh, but then there's a code scan that bring me a vulnerability. So with that. You think that's a problem of the security itself. It's a problem of the toolss itself. Where is the problem because I agree that there is this friction but is the same as you are living your life I think I talked about this in the the previous episode you're living your life and then one day you wake copy. You have a pain somewhere in your body. You have a pain and you are planning to go to the beach or whatever shopping mode doesn't matter. But with this pain you can't so you go to the doctor you need to check you do some aoms and you realize that you have a problem and you need to fix it. It's normal. Yeah, it happens in life and you don't even if you're you're going to be upset about that because nobody wants to be seek or have ah ah, big problems but developers they seem to be upset with this. Oh. There is a code scan and I have a voon that I built it now that I need to fix which means I will not go to the beach today or I will not finish this feature today. So how do you see this friction. How can we improve their lives or what can we do.
+
+07:13.22
+Raz Probstein
+So I think that the friction is not because security is something that developers don't want to do. It's not like they don't want to write a security code. It's just that the current process that most companies are are you know leveraging and the current tools this would cause the friction it. It's interfering with their day-to-day tests because the developers needs to go to third party ui they need to switch context. It's not in their natural environments and this makes like the security team the bottleneck right? They're the bad guy who saying no, you cannot deploy. No, you cannot merge. And this is what causes the friction there because developers if we'll provide them with the right tool with the right developer experience. They have no problems with writing secured code. They why not right? because the same is key way if if ah if we're comparing it. Qa used to be like a separate process right? It used to be like a different team that did the review. And now everything is shift Leftft the developers are doing their own Qa right? They're doing the cr process they're are reviewing each other pr's the same needs to be done for security. It does not need. To be like a separate process like the bottleneck does not need to change what they're doing right now and taking them out of context and sending them to to Google to search us cv and how to handle it. So yeah.
+
+08:34.71
+cassiodeveloper
+I got it I got it Michael you have a different opinion on that or not.
+
+08:36.85
+Marcos
+And I grew to let with rass with the points. But for me I think his 2 points is most important for these and the friction with developers and secure things is the future. The future of In Defensive program I think is not is not explorer very well inside the enterprises inside the companies and training I think the developers don't have a substain training through program program safety. Yeah.
+
+09:02.65
+cassiodeveloper
+Um, who.
+
+09:12.74
+cassiodeveloper
+Um, enough training took to do this defensive colding. For example.
+
+09:15.96
+Marcos
+Yeah, yes, perfect I think if you we had just just 2 points. We have less less friction with with the 2 things. But if you don't fix. This is the probably we we have more and more and more friction.
+
+09:26.18
+cassiodeveloper
+Um, nope.
+
+09:34.16
+Marcos
+If we cite the things and about the discussions about the points the problems and from these 2 points is mostly important in these moments. So.
+
+09:39.16
+cassiodeveloper
+Um, ah okay.
+
+09:40.60
+Raz Probstein
+I I agree with that and I also think that the training part is also a pain point for the companies because you don't necessarily have enough budget to go and and take all the developers to security class right? Go learn what you need to do so this is like a big gap that we need to fill in. And not all companies have like the ability to actually do that and if I'm comparing it to what we're doing. For example, Atit we don't want the developers to go to a class and learn about security. We want to make them security experts without the company having to spend the time and money on on training the developers. Because the training can can happen over time right? If we're providing enough information on the detected vulnerabilities if we're explaining what happens and this is what we're doing. We're leaving a comment in the pr keeping them in context only the changes and the comment is very easy to understand. We're describing the problem. Developers learn from that they probably won't do it again next time they're they're coding so you see the learning curve. There is a training on the fly right on the going and you're making them a security expert without wasting the company resources. You may say yeah.
+
+10:52.73
+cassiodeveloper
+I I fully agree with this point I would just add maybe more more how to how to say more wood to this fireplace. Ah, because for example, I don't need to go to a doctor I have a problem to realize that I need to eat healthy. Or go to the gym or whatever and what you said is like okay I will get vulnerabilited the solutions are going to bring me the enough the details for that which is perfect so I will learn from this fix this problem that I have now and probably will not do it again. I think this is perfect. But then you are depending on the problem to be there. Right instead of like what I think that Marco said is something like okay, let's know what is for example, last top 10 oh this is the top 10 vulnerabilit but you might not have ever seen them on your code itself. But you know in theory at least how it happens how is to be there and so on i. Just put at this point because I think there is this 2 points. Ah as you said on jet you are providing a lot of feedback I had the opportunity to test the solution I think I will come back to develop code just to use this kind of tools again. But the the point is there is this kind of of training like you learned by your doing and some mistakes I would say. And also the preventive training or something like you don't need to see to have a vulnerability to fix it but you need to know how it happens it's more or less what red teams are doing. Yeah they're finding some problems attacking and then it provides some specific reports. Okay, you should do something like this or something like this in the code.
+
+12:27.81
+cassiodeveloper
+Even though, um, the exploitation itself might not happen through the application but through some other other other places or whatever but okay, just to close this topic I wanted to bring another thing. Don't you think guys that might have overload on the developer side because as Ras pointed very well and I agree. Developers are responsible for the code they are creating that code. But what if now they have to deal with q and a now they need to deal with unit tests they need to do a full stack frontend backend database now security is 1 more thing. Don't you think that will be. They will be overloaded.
+
+13:08.22
+Raz Probstein
+Yes, this is what happened right now right in the industry. This is what we're hearing the developers are overwhelmed. They don't want to deal with it because they have too much to handle so we need to have like a lot of stuff during our process to make sure we're not just flooding them with vulnerabilities. So we need to make sure that we're if we're scanning the Pr. For example, we're only commenting on the changes right? I don't want to be triggered I don't want to know that I have vulnerabilit abilities in the legacy code or something that someone else wrote right now I'm working on a feature I have a Pr just tell me what's wrong with my Pr right now. Okay, the other thing is introducing context. We want to add context to the vulnerabilities. It's not just saying okay I have a higher critical vulnerabilities because for example, Jit only alerts on high and critical but we found out that you need to add a bit more information on top of that to make sure that you. Get the developers to only handle. What's really really, really is exploitable and threatening your code your product. This is what's what's important right? If a vulnerability is like in a publicly exposed repository. It's gonna be high priority. None. Like compared to our vulnerability that is see. It's not publicly exposed not in a public repository so we need to add that to the developers to also reduce the noise because what happens right now is they're using tools that are just flooding them with vulnerabilities on any location in the repo.
+
+14:25.63
+cassiodeveloper
+Um, oh.
+
+14:39.63
+Raz Probstein
+And low and info and Medium. It has no context at all so they don't want to do it So We really really focused on building a context engine and this is like the new thing that we've added to add to the vulnerabilities. The context that needed in order to prioritize correctly and and reduce the headache for the developers and help them adopt the tools.
+
+15:01.41
+cassiodeveloper
+Cool marcos do you know that? Also this context bringing context to the vulnerability is also important because as I said in the in previous episodes. Ah you go to the doctor and you have 10 different problems. 1 of them can kill you. But. As a human you want to know that all the problems that you have in order to try to fix them. Yeah, you know like you you can have a heart attack next month you don't stop eating bacon but you are drinking too. Ma also so your liver might have a problem in a few years ah so even it's a medium vulnerability. We still want to know because tomorrow can be a high vulnerability. Yeah. And I agree definitely with this context reducing noise and this kind of things but I also ah it's hard to agree with 2 things. But I also agree that somehow we should inform maybe not the developers. Maybe it's a discussion here like maybe not the developers like okay, you have 1000 v rabis no in yourpi, you have 1 to fix but in the application for the po for the Ceo. Whatever like guys you have big problems here now they are not priority now but they are there and somehow you need to handle mars how do you see this you agree with me, you disagree you want to be fired from this devafak of podcast tell me now. Yeah, it.
+
+16:14.97
+Marcos
+Let's put fire here and I agree with the position because in the future this medium vulnerabilit bits probably is take home a high vulnerability and you have a problem in the future must probably or or if and not a hype probably create core. Or or other things. But I think the print of the process when you have to fix these vulnerabilities in the time because okay, we have a critical can height to fixing the in at this moment and to have the middle and load put in the backlog and okay and how many times. My backlog needs to stay quiet and how many time I need to fix this vulnerabilit if I have a good time for months or weeks to fix. That's okay for if you have ah ears to fix. It's not good. Probably you have most a lot of problems and probably your enterprise receiver a lot of.
+
+16:56.65
+cassiodeveloper
+Um.
+
+17:02.28
+cassiodeveloper
+Shift of.
+
+17:11.52
+Marcos
+Problems with you hackers and other things and this is not a good in the your reputation and your money and you solve a lot of re hesors to fix this and depends the process for me is more in the process then the vulnerability see.
+
+17:20.38
+cassiodeveloper
+Okay, so.
+
+17:25.96
+cassiodeveloper
+Okay I got it so vulnerability management would be the perfect thing like to address this thing and I love Jit because exactly because of this because you have the okay your Pr has this problems you focus on this but doesn't mean that your application or.
+
+17:30.66
+Marcos
+Yeah. Okay.
+
+17:44.49
+cassiodeveloper
+Full app or if fullapp has other problems that you should look into it after maybe not now. But after and this I think if I'm not mistaken it brings by the fall. Yeah, like as soon as you enable it it to start scanning not the whole application but Brs and so on and so forth. That's good I have 1 other point.
+
+18:02.72
+Raz Probstein
+And it actually scans all of the code base and cloud accounts once you onboard so when you select your scans you if you want Saas you want to say you want infrastructure as code. For example, it's automatically scanning everything that you have takes the vulnerability that already exists right? this.
+
+18:03.46
+cassiodeveloper
+That's ah, ah, go go on gone.
+
+18:06.53
+Marcos
+I.
+
+18:20.45
+cassiodeveloper
+Um.
+
+18:21.33
+Raz Probstein
+That Marcus talked about and creates for you a unified backlog to manage all of the tools so you don't have to manage like 12 different dashboards in them so instead of doing that you have 1 backlog and simultaneously it happens like on the same time.
+
+18:29.20
+cassiodeveloper
+Oh la Gourd please.
+
+18:30.27
+Marcos
+Oh my god.
+
+18:39.81
+Raz Probstein
+We're helping you with the Prs. So don't introduce new vulnerabilities to the backlog. But the other stream is help you fix and clean the backlogb because as market Marcus mentioned. Yes, it's gonna become a problem someday and we need to fix this at some point and we want to help you do that as well. So it's important to work in both board.
+
+18:56.39
+cassiodeveloper
+Awesome! awesome.
+
+18:57.44
+Marcos
+Yeah, it's a good point because Ibra Brazil will have a problem when um, a lot of enterprise makes the greatest ice scans and put the vulnerability it's in in of read management but never fix because only for compliance is there a bigger problem.
+
+18:58.16
+Raz Probstein
+Both work strings.
+
+19:10.29
+cassiodeveloper
+You know? yeah you have a backlog of a huge backlog that is just there nobody cares. That's all yeah, it's interesting.
+
+19:17.20
+Marcos
+Yeah, yes, and never put the threshold never put a I stop a pipeline because of this. Okay I have a lot of nervous bits. But only for compliance. Thank you I.
+
+19:25.99
+cassiodeveloper
+Um, yeah, go? 1 one other I think important topic that we should bring to this discussion is how we could balance for example because. 1 thing is developing things development teams and another thing is security teams. Let's say appe teams because usually corporateper has the security guysnetworksecurityaccessmanagement a lot of people but application security is 1 or 2 maximal as I as I saw and how do we. Balance this is it possible because there is this How to say statistics or something like this about like you have 1 app sack for 150 developers 200 developers something like that and developers. They are like gremlins you know this this movies from the past gremlins they are multiplied by water you put water on their back and they multiply so developers are like this and application secret is the opposite like the more water you drink the more you vanish it's something like that. So how we we have this balance how I mean Ras up to you. How. How we fix this if.
+
+20:37.59
+Raz Probstein
+It? So yes, it happens and then like the security team feels attacked and then the the engineering feel like they have power over security team because they're more than them. So I think that like shifting left and moving the responsibility. From like solely the security team to the developers would help kind of balance and and level the playing field because this is what we need to do. We need to make sure that the security team is not the only team in the in the company who is in charge of security. The developers should take responsibility for the code they're writing. Just like they won't introduce a bug to production they should care about introducing vulnerability and the security team needs to handle what they should handle which is managing the backlog which is getting you to your ah compliance needs like this is the company's business outcome that is relevant for them. And the the development team needs to handle security also on their own.
+
+21:34.85
+cassiodeveloper
+Cool I agree. Also I see a lot of app sec people struggling with development things like okay we might contribute for that. But it's maybe it's not our own job to set up the scans. I mean install and integrate and everything it's like Dev ops activity and developers because it's their process itself Application Security should be focus. Okay, what we're going to is Scan what we need to be compliant is these scans performing. Well not performing well false pauses these kind of things. And of course helping Okay I don't know how to fix this sql injection here help me okay to fix a sql injection apart from the from the de details that solutions provide to us we we should know that to to help the developers as Well. But not struggle with that activity itself. Yeah, it's like devops activities Source C Icd Activitiess Whatever each company has different names nowadays but you got the point. Microsofts you see also like this or or how you not to Add. Ah.
+
+22:35.35
+Marcos
+You know, no no I completely agree with rest completely not in this point that ah.
+
+22:43.68
+cassiodeveloper
+Perfect, perfect, perfect because sometimes I feel. Also there is, a feeling of competition like developers and and security and we are talking about. Let's say developer experience and as you said yeah I think Ras mentioned in the beginning. I'm hearing with my visor studio open coding I want to control control shift b and and compile application and Ram Application it's done I don't want to go to Jira I don't want to go to excel or it's give leave me on my place or or it's vis to the ide or or the reposory that that maximum 2 things and the browser to to to. Stackover fool or something like that and this kind of of competition is because okay Laa developer security team is coming to a report a pdf from the pen testing that I need to open this pdf and check whatever is there and. How do you see this ras this problem of competition feeling I think Marcos touched that like future futures one point on top of that. Do you see the same like people should be more trained I don't know well educated about this how you see this competition.
+
+23:50.48
+Raz Probstein
+I yeah I agree it feels like the developers don't know what to do? They don't want to go to a pdf for our excel and like seems like the security team Mark chasing them. Please help me do that please. Help me fix the vulnerability I have to be covered on the os facevs because a customer asked for that. So it's like they're bagging and they're winning because they don't do it. So I think that if we'll provide the developers with the right experience on their natural environments which is as you've mentioned the ide like. In the vs code stay near in github in your pr if we'll provide them with the ideal experience that will probably resolve the competition and and make the the security team to be the good guy. Not the bad guy and we also need to help the security team because as you've mentioned they have a lot to implement. But there as well. They have a lot like to to handle and it's hard to implement a security program right because they have to handle like a spreadsheets as well. Not just the developers with the Cvs they have to to manage spreadsheets they get like security requirements. And this this security program is completely managed in a spreadsheet and we want to help them automate this as well because they cannot maintain it so they are overwhelmed as well. So we need to find the right tool the right balance between helping the developers and also helping the security team and making sure everyone everyone is happy.
+
+25:23.56
+Raz Probstein
+This way will create like a a better work work work balance better work culture. And we need to train the developers as well help the security team train the developers they should not be like the teacher in in school right coming in and yelling at them. You did this and that we need to come from ah from a positive place. Need to help them train it train the developers in the most fun and and an exciting way possible.
+
+25:50.10
+cassiodeveloper
+I wish I have a sound effect here for sorry this fer tales. You know everybody happy. So she was it was amazing. This send doesnt now like everybody happy. Don't talk to allll of them. But I agree. Also it's just Marcos you in your experience as pre sales guy.
+
+25:52.80
+Marcos
+Very, it's and. Oh no.
+
+26:09.94
+cassiodeveloper
+What you get from the customers. They are okay I I want this kind of solution I want to I need to start scanning my code and so on and so forth and but I know that they are also bag for this okay help my teams because developers don't want to fix and we need to we need to fix how how is that. You bring you want to bring something to this point as well.
+
+26:31.65
+Marcos
+Yeah, yes, um I totally agree with you will when Rae because if you have a solution if you good points in the id if it helping you help you to fix for vulnerability. It's in the id or in the other. Place and when the developer is more comfortable I think it's better for you introducing and reduce these problems inside the company with the security things but you need to train in the the developers you need to put the more challengers put.
+
+26:59.50
+cassiodeveloper
+Can hit hit.
+
+27:06.96
+Marcos
+But internally bug bound I think is a good point for your training gammification. For example I think it's okay, the idea is a good point and the you stay your developer comfortable and the in the right place but you need to put these these little challengers.
+
+27:09.69
+cassiodeveloper
+Um, gamifications. For example.
+
+27:24.92
+Marcos
+To the developer. Okay I need to considerization I need to put the awareness inside the head and okay I need to think now how to I code it with security how I code seek inside the company and how I.
+
+27:28.44
+cassiodeveloper
+Um, our weariness. Our awareness is.
+
+27:41.85
+Marcos
+State this being Enterprise more security with my codes and with my job I think it's more more about this point. Yeah, you know.
+
+27:44.91
+cassiodeveloper
+Um, okay, make sure that what I'm doing is not bringing risks for example or something like this.
+
+27:53.80
+Raz Probstein
+I love the gamification that you've mentioned I have to say because developers love to compete with each other so we need to help them compete on the stuff that help us right? that is beneficial for us. Let's be a little bit only thinking about ourself for a second and and let's leverage the fact that they're competitive. So for example, if you'll be able to get the teams the development teams to compete with each other on who has the like the the cleanest and most secured repositories who is the most secure team the developers would also like to help you not just fix the stuff as part of the pr but also clean the backlog. So for example. We have like a leaderterboards in the platform. So we help you see for each team who what are the like the related repositories for the team give a security score based on the existing vulnerabilities and we show you the the leaderter boards on who is the most secure team the the top 4 teams for example, then. You can create a process in the company say each two weeks let's do like a competition. Let's show the entire dev organization who are the top 4 teams they want to help you after that they want to be on the on the leader board. They want to show the entire company like I'm the best and they will help you. Fix vulnerabilities. They want to be the security champion. They want to handle the security debt each each your each iteration because it's going to be beneficial for them eventually.
+
+29:14.83
+cassiodeveloper
+I know I don't know if it's around the world but in brazilian macdonds we have a employee of the month so you have the picture of the employee of the month on the on the wall of each store. Yeah I don't know if it's around the word I never.
+
+29:28.33
+Marcos
+It won't be um.
+
+29:30.15
+cassiodeveloper
+Realize outside here but I browser is like this. So I think it's gamification brings this power like okay this team is super secure on the other hand this team is bringing more vulnerabilitbilities or the code basee has a lot of problems. They're not fixing. It's also part of exposing somehow you can control that somehow inside the company. And 1 company that I worked is the biggest tourism company latin in America I will not mention the name because we have a lot of problems in the past but still I was trying to do a gamification there when in the end of the year did more security. Let's say we're fixing more or introducing nicephone database. We will get a a package for traveling. Like flight tickets hotel anywhere where they wanted especially on the for example, as brazilians destination like us or central America caribbe and this kind of stuff of stuff but I left the company so no travel still wound that I bit. It's that's all.
+
+30:24.36
+Raz Probstein
+And I hope you got to win at least 1 time.
+
+30:25.30
+cassiodeveloper
+I was I was upset so I could not win I was this deal. Yeah I was designing the program itself but okay I think it's it's a good point here that we brought but I would like to know how Jit because a ra is from jit she was mentioning before what if you. If you can talk to usler. Let's say people listening you want to try jet is it free. Do I need to pay can I have a tri versions there. They are wondering how they can have better experience as security people or or developers know what and talk about some features I would say. Interesting things I know all of them because I was trying but I'll lit this for you.
+
+31:07.48
+Raz Probstein
+It amazing. So yeah, first of all, check us out jit io we have all the information we have a product demo within the the website and you can contact us and we'll help you see all the the benefits of jit and yes of course we have a trial period because. You need to fall in love with the tool before you decide to move forward with it and we believe you'll fall in love. So like give you the highlights of jit we are helping not just the developers but also the security team so we're helping you implement an entire security program within minutes. So it's across all the the product layers. It's not just the appe tools. It's not just saas and a ca in secrets. It's the cloud. The infrastructure is code the da as well and the ciccd security which is something that you normally don't even start to come to consider and we do this in a way that it's very business outcome driven. Because you want to be sucked to compliant you want to be hippa compliant. You want to be a waspace vs. For example, you need to maintain it as we said in spreadsheets and with Jit you get like an automated security program. All you have to do is few clicks and the main focus of jet is to empower the developers to. Develop secure code but faster so our developer experience is top notch and as a developer as a developer I can say that I don't hate it and this is like the the best thing for a security tool because we leave inside of Github. So the developers are writing the code they're opening fpr.
+
+32:42.91
+Raz Probstein
+They'll get notified only on the delta right? only on the changes with logs that they can understand we provide auto remediation for them so they don't have to go and find out on their own how to fix the vulnerability we provide them 1 click commit suggestion and the vulnerability is fixed. You know pre-production. And for the security team. We also have auto remediation for the backlog so they can fix what going on in the backlog and we have an ide plugin so when when they're writing the code they get notified about the vulnerabilities and they can fix that with auto a remediation as well. So it's kind of. Enter security across the entire sdlc with no overhead and without to actually need to manage the the different dashboards and the headache because you get 1 unified experience with one platform. And of course like that the most I think exciting thing that I think you liked cassio. Is the fact that we're open so we're not developing our own tools. We're not purchasing them. We have the ability to orchestrate any tool out there open source commercial cloud native you name it even homegrown tools as long as you can wrap it around in a container jit can orchestrate it for you. So we're not locked into any vendor. And you can build your own security program based on your security stack without the overhead without the learn how to configure and implement and manage and maintain this is all done automatically for you using jit so I think that we really found the right balance between security teams.
+
+34:14.63
+Raz Probstein
+And the developers because we really focused on both with a big emphasize on the developers I think that from you know my mya knowledge of the industry. Our developers experience is the only one that actually was built for Developers. And I can say it because I hear the feedback I know the other tools out there and I really do encourage you just to try and give me your feedback so you can contact me give me your feedback I Want to hear it.
+
+34:40.16
+cassiodeveloper
+I awesome awesome I yeah we are in the industry. We know a lot of different solutions and tools and I can say that Jet is one of of 1 of the most impressive to me. Yeah, coming from the past other solutions. Let's not name them to don't create a competition here but coming from the past tools. It was a lot of.
+
+34:55.96
+Marcos
+We have looks.
+
+34:59.72
+cassiodeveloper
+Problems with scans. Ah long scans taking hours who kind of code and this kind of thing and it's problematic because of what we said in this 35 minutes yeah have friction in the process integration competition, blah blah blah cool. Cool so people try jet I'll put the links on the description of the of this video of this episode as well. Of course you will not find the link on Spotify or something but you can go to the Youtube channel then they find this the link but the jit.ionot so hard to find out. Cool. We talk about. We talked about how to bring these amazing things to developers and and security teams. That's fine. But I have a specific question. Maybe I start from marcos now then ask an answer then I can put my point as well. Why.
+
+35:35.44
+Marcos
+And RuWind
+
+35:53.22
+cassiodeveloper
+Do we need to implement security in the first place. Why do we need to put security at all why why? Marcus why you put security. Let's let's put security.
+
+35:58.24
+Marcos
+I Don't know for me. It's a good point. Why why don't put that out why I need to put in specific points for me is start the application of security since the threat Modeler wants you the vulnerabilitability management. All the points need to put secure.
+
+36:10.58
+cassiodeveloper
+Um, who.
+
+36:18.13
+Marcos
+Why don't create the application and think secret secure together is not a requirement is ah Applications Stin see in security I don't know why it's a good point. Yeah yes, we need security.
+
+36:27.24
+cassiodeveloper
+Um, for you must be secured. That's all, Okay, fair, fair enough ras.
+
+36:37.78
+Raz Probstein
+So if we're looking at it from a business perspective right? You want to add security because you want to be secured. This is nice, right? This is the the security team most desired dream I just want to be secured. But then you have business business needs. You have a customer that is requesting you to have the to be covered on the osp top 10 for example, you need to provide this. You need to make sure that you're covered for the osp top 10 if you want to sign this customer if you are in specific industry and you have specific regulations that you need to to pass. This is. Like I think that the first starter to implement security and this is exactly where you need to make sure that you have a security program that is built for your needs and that is aligned with the developers as well. But you know it's it's business. It's everything is business out there right now.
+
+37:30.48
+cassiodeveloper
+Okay I would say that I had that I had the 2 mindsets of you I was like just like Marcus shut up boot secure. That's all you block everything if there is a vulnerability don't deploy doesn't there is no discussion. Also I was ah.
+
+37:34.34
+Marcos
+I.
+
+37:45.22
+cassiodeveloper
+On this the mindset of Ras for example, yeah, business will drive like okay I have a bank I have regulations I can't escape from them so I need to at least be compliant with that or I'm on the critical infrastructure side or I need to protect my assets and my customers something like this I was there in this 2 words but now I'm kind of. Transcending if it's if it's possible I'm transcending to a different word of this which is yes I agree with both but I think it's a business itself or companies. They should think about the impact that they bring to the society.
+
+38:06.91
+Marcos
+Oh my god.
+
+38:20.62
+cassiodeveloper
+So for example, yeah, you are a bank you you need to be competitiveed with some regulations that's fine. But what happens if youre bank. It's offline people lose their money. You werent you are I don't know if you're in you know and an airport you need to travel need to pay for something and you can't pay because your bank is offline or your accounthouse got hacked and you don't have money I don't know. Or you are a big e-commerce Amazon or I don't know allegro here in Poland or Mercado liveing Brazil for example and you are offline. So and you are Christmas time people are buying gifts for everybody so your gift will be delayed. People will not get their gifts on on time before Christmas so you know it's it's this mindset of okay. What impact does my business bring to the society itself. Okay I'm a car I'm a car factory and if my car fail because of a cyber attack. People's life is at at risk or I don't know I'm a city a power plant. Whatever. So once you have this mindset I would say what damage do I bring to people that uses my product. Okay I have an ecommerce I don't want to be secure at all I just want to sell that's fine. But what happened if you are offline is not only you are losing money but what damage you bring to your customers. Your employees your your I don't know this word in english but people who buy the shares of the company this guys and holders I think holders whatever so I think this is the mindset that should drive this this secure decision not only business. Criticality. Yes.
+
+39:40.67
+Marcos
+1
+
+39:51.31
+cassiodeveloper
+Also the Marcos mindset must be secured yes, but I would say that business also will say yeah we don't have money. We just have to sell. That's all that's fine. It's our decision. But then what damages can you bring to the society. So yeah I'm I'm I'm meditating on this I don't know if with side I am I'm transcending as i.
+
+40:02.89
+Marcos
+Moved. Okay, but I don't know if you you have a time to watching the new film in the Netflix is exactly about when you talk the world is the okay but you are hack a group. Our hacker group.
+
+40:18.78
+cassiodeveloper
+Um, which which movie.
+
+40:25.65
+Marcos
+Hackard the planet and the outest services around the woodst stop it tes of vehicles networking sattleities and the other things stop. Yeah everything stop it and you back to ah and.
+
+40:26.52
+cassiodeveloper
+Um.
+
+40:35.63
+cassiodeveloper
+Um, satellites everything.
+
+40:39.82
+cassiodeveloper
+90 years in the past and before fire let's say but what's the name of the movie. What's the name.
+
+40:43.51
+Marcos
+I then I don't know yes and last years ah ago. Yes I don't talk more about the fume you need to watch and the we talk about other okay, let me take let me take because I do to remember.
+
+40:53.60
+Raz Probstein
+I I forgot the name I knew it as well as that one of Julia Ro earth ride and you want.
+
+40:56.57
+cassiodeveloper
+Yeah now now we did the name. Yeah, okay, okay I will watch it I'll watch it. That's cool. Let's cool. So we we come to the iron men perspective. We should have Horon to protect everything. Okay.
+
+41:01.23
+Marcos
+Yeah, doesn't take here. Yeah with with take yeah, leave the world behind you know.
+
+41:07.25
+Raz Probstein
+No, but I agree with you. It's a community. We're a global community right? We're all connected. We have internet now. It's not like the the olden days we're all connected. Our information is out there I want to be secured so I'm doing the best thing that I can.
+
+41:18.11
+Marcos
+Again.
+
+41:18.79
+cassiodeveloper
+Um.
+
+41:26.90
+Raz Probstein
+And I'm a good person and just like I want to be secured other people want to be secured so I'll make sure that my product is secured and I hope that other people would secure their product. So I know that I'm covered so I agree we're a community. We're all human beings and we want to be safe and secured.
+
+41:38.87
+cassiodeveloper
+Um, yeah, yeah, even in times I mean it's it's hard not to mention but even in times of war. For example I'm in Poland right next to the Ukraine and this russian stuff.
+
+41:49.55
+Marcos
+A man.
+
+41:50.19
+cassiodeveloper
+Braids in Israel with all this stuff happening we are in Brazil right next to we are from Brazil right next to Venezuela and guana with this new. Whatever. So even these things because they there are cyber attacks. Also yeah, between these wars not only missiles and bullets and this shit but there are also this cyber stuff.
+
+41:53.99
+Marcos
+Yes, yeah, no here.
+
+42:09.73
+cassiodeveloper
+Which is attacking creature infrastructure supply food supply and all these things that will damage the country that will damage the people and society itself and so when I when my my perspective nowadays about security is exact like this what we protect we are protecting ourselves I'm using our smartwatch. My data is there somewhere or I'm using a email service. Whatever is there. It's my life on it either a bank account or whatever so Marcus you have the name of the movie or not let's watch. Let's watch. Okay.
+
+42:36.54
+Marcos
+Yes, leave the word behind try to watch and do talk about the very very good move? Yeah, okay, but now I have 1 question for.
+
+42:45.54
+cassiodeveloper
+With were with 1 year daughter now it's hard to watch anything but I will try I would try let's cool. Please please.
+
+42:55.69
+Marcos
+For you 2 yes and in your opinion. What's the next step or next tools when Application secret guys need to stood or to learning because in the past we have you a asked solution and the word don't like to mer and they stopped the development. And what to think is the future was the thing is the new solution for we study.
+
+43:18.69
+cassiodeveloper
+You ras you want to you want to start with this. But I think we should study I think we should study how to turn off computers on the energy then we'll be safe. No I'm kidding.
+
+43:21.49
+Raz Probstein
+No no, you go gusso I want to hear what you.
+
+43:33.56
+Marcos
+I.
+
+43:35.42
+cassiodeveloper
+I think one one important thing is like everything now is code even before it was application and infrastructure. It was very clear separated nowadays is the opposite is everything code you were I was I remember I was setting up fire rules by coding or waft rules by coding so everything is code. So. I think everybody everybody. Let's say on this interest you know this area they should know coding say especially security people a lot of us don't doesn't don't know how code works maybe one two scripts or 1 hello word here or hello word. There. But how. Actually code works how logics work and algorithms and these things I think this is an important thing not only for driving whatever we need to do automation etc. Blah blah blah blues. Also how to fix these things because if we know how it works It's also easy to know how to protect or how to fix a problem. But which is also a problem of the developers. They know how to code but they don't know how some attacks ah happen. That's why we're talking about training like okay what is a Sql injection. What is a cross-size regress forgery how it happens I can't understand so once they know it? Now I need to validate this parameters string parameter here. Super easy to do a validation but maybe before it was not there in his head that an attack could happen. So I would say this colding cold ba and so on would be the skill for every child in the in the school.
+
+45:05.93
+cassiodeveloper
+Apart from english.
+
+45:07.69
+Marcos
+And multiwood.
+
+45:08.78
+Raz Probstein
+You know I think that you're correct, the answer lies in code. But I think that we're moving to an era that is like filled with Ai so even the developers not always coding because they know how to code they're using a lot of tools a lot of Ai to code. So yeah, like.
+
+45:22.86
+cassiodeveloper
+Um, copilots and so on.
+
+45:24.39
+Marcos
+You know, black box and others.
+
+45:26.70
+Raz Probstein
+The open chat gpd. How do I write this in that function. Yeah, so like we need to make sure that even if the developers are not like the best programmers because they now have Ai right? So it's going to take off a little bit of the stress from them training. On security making sure that we have security tools implemented to help the developers and educate them on security. This is what's gonna be like the life changing thing for us because they don't need to learn how to code in my opinion they need to learn how to protect the code they're using because it's not even not just ai. They. Copy and paste from stack overflow we want to make sure that they know what they're doing in terms of security right? because we have tests the tests will tell them if they have something wrong with the logic but they won't tell them if they have something wrong with security so we need to be very careful with. Like the power that we're giving developers right now we're giving them Ai, we're giving them the full internet like the mind we need to make sure that we're not like over giving them power without also like controlling what we're doing.
+
+46:34.28
+cassiodeveloper
+Um, okay, okay, marqui it in you and what's your opinion. What's this queue, you should learn what's coming.
+
+46:36.97
+Marcos
+I okay, that's good. I have the the both opinion because I think he's more in the ai I think he the eyes the future and we need to talk about it in need twist. Third.
+
+46:56.15
+Marcos
+And any video says is stop the graphkied area and the starts. The new one is ah Ai and starts to developer more and they improve more assert desire I think is the future is the Ai and the out application security guys. Needs to started improve the knowledgement inside this I think is the future.
+
+47:16.46
+cassiodeveloper
+Um, okay, okay, just wrapping up now to go to an end. Yes, every every nice journey has an end so we need to we need to finish. But I would put one one last point here which is I think that as you mentioned I we ask it about toolss as well. And I think this centralization or consolidation of ah of security things especially on the application side is one gap now that jit and other solutions they are trying to solve like I orchestrate everything to you? Yes, you need to scan your code. Also your libraries. Also your Apis running also your cloud stuff. Also your machines blah blah blah and and just grows yeah and the more power you have in 1 place like you push 1 button and you fix all that or you check all that the best. Because otherwise we we are already overwhelmed with a lot of tools sa that ca dust I asked last whatever and it's already a paininess to manage everything to scan everything false positives here false positives there blah blah blah so I would say 1 thing coming which is already here. But. More comem is this consolidation or orchestration of everything to make secret life easier.
+
+48:35.70
+Raz Probstein
+So I completely agree with you I think that right now there is a pain security teams need help. They're drowning and the only way to help them is giving them 1 place to live in just like the developers needs to stay in github the security team needs to have 1 place to go to. Ah, help them with the duplications. 1 place to manage everything across all the product layers and this would be the only way for us to keep surviving. You know if if not the attack vectors and the attack surfaces are gonna continue to grow and we cannot keep you know we cannot keep maintaining. All those attack vectors and different tools. Separately. So yeah.
+
+49:14.14
+cassiodeveloper
+Know cool Marcus and Ross thank you for the time you want to send kisses to anybody links propagan whatever feel free Ras may be our guest first let's be let's be polite Marcus. Okay.
+
+49:29.00
+Raz Probstein
+Yeah, no I want to I Want to thank you all I Want to thank you both. Thank you so much for having me and for the people watching listening reach out connect. Let's learn from each other. We're all a community.
+
+49:31.38
+Marcos
+No problem ladies first please. Ah.
+
+49:33.12
+cassiodeveloper
+Hit.
+
+49:46.35
+Raz Probstein
+And check us out at you thought io and yeah to my to my friends and family in Israel I'm sending all my love and support and hopefully things will be better soon.
+
+49:53.29
+cassiodeveloper
+Cool Marcos any less message when we need to buy a lomborghiinea please do that for we need reach yes guys.
+
+49:58.98
+Marcos
+Everybody please share the video comment and subscribe please help us to continue with this work. Yes I need my lumber again please?
+
+50:11.20
+cassiodeveloper
+Like as well. Cool cool, cool guys again. Thank you Ross for for joining us. Thank you for our time Marcos again. Thank um, our time for further support. This is the fifth season. We're just coming back every Wednesday we try to have a new episode.
+
+50:15.99
+Marcos
+A. Thank you very much for us.
+
+50:26.35
+Marcos
+Yeah.
+
+50:27.34
+cassiodeveloper
+Because this guys also they don't like to record they don't like to work I'm paying very good salary for them and they are not here. But let's see. Yeah, so every Wednesday everyone you have you have a new episode on desakops podcast. You can. Also you can check us on all the platforms Spotify these are Amazon Youtube only fans no only the fence is just a joke.
+
+50:35.14
+Marcos
+Um, wait for the first salary yet.
+
+50:46.40
+cassiodeveloper
+But you can you can find us around there. Yes, please share comment and so on and so forth for us again. Thank you 1 more time Marcus again think 1 more time see you next week guys bye bye.
+
+50:54.67
+Raz Probstein
+I I Thank you so much.
+
+50:55.58
+Marcos
+You Bye bye.
+
