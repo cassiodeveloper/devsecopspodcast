@@ -1,0 +1,612 @@
+00:18.70
+cassiodeveloper
+Hello everyone. It's a pleasure to have you here again for our fifth season of devsecups podcast I'm cassip perreta.
+
+00:26.55
+Ben_Hur
+I Am bayard.
+
+00:29.93
+cassiodeveloper
+And it's it's, it's a pleasure to have this episode today because we have a friend here that we' will be introducing in a moment. But first we need to talk about our partners which is important as well for our leaving and the devfsecop podcast is supported by checkmarks and nova eight and nova it' cyber security. Who are specialized in cs andx code. So the link of navi and checkmer distributor in bro you in Europe asu as well. It's below the episode description in the Youtube also in devsecopspodcast.com but br if you are looking for applicationsec security solutions dtao has a complete portfolio for you. Also go secured specialized in application security. Do you want to develop secure code or secure software talk to good security as well. So guys today. The episode is a legend that nobody knows if it's true or a real problem that only security teams can see it. Or the reality of hundreds of companies around the world today. We're going to be talking about sea level and application security is that a problem there is that a balance. What can we do about it. But first I want to introduce our guest yode welcome. Thank you for our time. Thank you for being here. Please introduce yourself to the audience then we can start our conversation. Welcome again.
+
+01:41.39
+Yoad
+Awesome! So first of all, thank you for having me really appreciate. It. So my name is youad I'm the Ceo and co-founder of mirror security. Um I come from a long background of it. It security def seop started from the. On-premise world. You know the data centers networking virtualization slowly migrated to to cloud like most israelis I've I've worked for the government in the in one of the special units and a few corporate few startups and um. In my last role I led a group of devops engineers at Microsoft cloud application security and we were. We were one of the companies that's been hit by the solo winds attack over there and I was looking for a solution that can kind of tackle this problem and I couldn't find anything so I decided. Decided to you know to teach the good corporate life and start my own company to treat that solution.
+
+02:40.70
+cassiodeveloper
+Cool cool. So again, welcome to for for being here reverse and dedicate your time and let's start our conversation I think we have a bunch of topics that we would like to cover the time is limited. So let's try to to fit to the islands. What is most value for them.
+
+02:47.93
+Yoad
+Um.
+
+02:51.91
+Yoad
+Um, yeah.
+
+02:58.94
+cassiodeveloper
+But I think 1 thing that we discussed and we agreed to start is 1 thing on some concerns on your side as ah as, let's say a product developer. Let's say or ah, a new product on the market that you want to put you want to understand some challenge. Let's say from our side like me and Ben you as well. That we are inside companies and what kind of challenge. Do you have do you have specific questions around this or can you start describing some things like this.
+
+03:25.93
+Yoad
+Yeah I think so so I think um, a lot a lot of founders that listen to the podcast and specifically in cybersecurity would love to learn how you work. Specifically you know it's really hard to reach your kind of people because you're getting spent I think at least 30 messages a day from vendors a lot of them were kind of like are looking for feedback which is great but you don't have the capacity you know I'm I'm getting the same as as a Ceo from other vendors. So I think it it might be a good opportunity to kind of describe. First of all, how do you guys manage your application security program as a whole right? How do you work with your executives and. Kind of this balance of how you define a security program and how you execute it and how you affect your sea level and your basic challenges you there today right? because there are tons and we don't have enough time ah just kind of to elaborate. What are you guys doing today. What keeps you awake at night. What are you kind of running in your program today.
+
+04:36.68
+cassiodeveloper
+Um, that's good bayer. Do you want to start this they you you can also tell us the company that you work and so on. So I think it will be good for the audience to know about Mercado Livevre that I know but it's the part for the houses.
+
+04:39.56
+Ben_Hur
+You you you can? also.
+
+04:41.97
+Yoad
+So.
+
+04:50.81
+Ben_Hur
+Yeah, you know I am application security leader here at mercado libre it's one of the greatest ecommerce and banking companies in Brazil and South America principally here here in Brazil we are the top 1 seller in the part of Ecommerce and as a big company with 16000 people in ninety and development we separate so security in different sections. Okay, what's my section. For example. I am responsible for securing the code everything that's writing code not infrastructure, not cloud security not Kubernetes or everythingness. Just what's is in the code and. I started to talk about it because we need to limit it. What's the bounce of what you are managing the the application security or cyber security in which area and we have bunch of things but I like to put. 5 things in the first place first education cyber security education. This is the main the main topic because we are talking about developers and they are writing code they installing libraries and it and other bunch of things like that.
+
+06:20.78
+Ben_Hur
+So we need to secure the the the code from the knowledge of the time of all the threads that we could have in code first. This is first. This knowledge should be shared. The second is. What can we scale with technology sast se secret scanning dust etc something that we can attack the bunch of applications without need manually reviewing all the things because we can scale with that. We are one. Hundred to have more than hundred people in application security. But for more than 10000 people in development. It's it would impossible to do the things manly after that you need specialized capacities for difficult things. So tread modeling and testing securing code in architecturey review. So this is the 5 things. That's the most important right now in the context of application security First developers knowledgement second. Automatations automation in in every place that we can scale and then epeize it things like chart modeling. Fantastic.
+
+07:45.69
+Yoad
+Ah, but I been I have 1 question specifically about the education part. So do you feel today that you work with I I guess like security champions in your development teams right.
+
+08:00.87
+Ben_Hur
+Um, yeah.
+
+08:00.94
+Yoad
+Ah, do you feel. It's working. Well do you do you feel that kind of developers actually get the sense that they care about security or you say okay I got to a point that I understand they don't really care security but they need to run fast right? They have a manager and they manage their run features and customers want box Fixes. And then you say okay have to move to a level down and just enforce automation. Otherwise I'm doomed right? So That's what that's my main question I think.
+
+08:26.80
+Ben_Hur
+Perfect. 1 thing that it's personally my opinion is we need to separate 2 things. What is knowledgement that appsec professionals should have and what security knowledge and the development should have. So we have 2 things and 1 mistake in the past that is commonly I commonly see in every company is let me try to make this developer a security professional and for me this is a big mistake because they should be good. Developers. Excellent. Developers and as application security specialist. We need to create software and skills that could be absorbed in development and not transform developer into security professionals. So we need to separate what is the What's the main acknowledgement that developers should have and we need toolss for that For example, we're going to talk about shift lefting probably in the past we are talking about saas. Okay, now we are not talking about sat now now we are talking about. Vs code extensions with Ai to provide runtime acknowledgment and auto fixes for security when we are working when we are developing and not start developing submit the code to a cloud run a bunch of scripts.
+
+10:03.67
+Ben_Hur
+And then we have a feedback and and sometimes in 1 hour two hours after the code is pushed so we need to write code and get feedback instantly. So um, if we work.
+
+10:09.95
+Yoad
+Yes.
+
+10:22.21
+Ben_Hur
+Directly in this part. Yes, we are good. But if we think that with one talk a month let's talk about security one once a month probably we will not continue if a good security champion program. So we need to be. Constantly with the developer and we acknowledge that matters for the development team not trying to make a developer fifth time development fifth penteer.
+
+10:54.96
+cassiodeveloper
+Cool I would add to this point as well. The fact we discussed it this I think in the last episodes of fourth season exactly this point developer should code. Yes, it's important. It's the main job but how he can code.
+
+10:55.44
+Yoad
+Yep, Totally agree.
+
+11:13.79
+cassiodeveloper
+Avoiding risks or avoiding problems that hecoding can bring to the product itself and yes, Ca Saas Whatever name it. It. It should be there as an automation part of the pipeline cicd, etc. Etc. Yeah this this should be there to ensure that things are not the not missing. Yeah. But when creating a code when actually typing the code itself is the exact moment that this developer should know what he's doing and I I would say that a basic yeah basic advance we can discuss on that but knowing the vna bit. It's what they are how they happen and. How that method that you are writing right now can expose your product to a specific vulnerability. It's already good enough to make that developer. Okay I'm coding here a parameter that I should validate or I'm adding a library that I did not check before. So Let me check this library before wizing whatever two it is.
+
+11:58.75
+Yoad
+The.
+
+12:07.46
+cassiodeveloper
+Let me ah validate this parameter instead of of just pushing the code and and and moving forward with the deliverance. So so this mindset is not not so far lets let's say we I was developer before it's not so far this vulnerability knowledge ah together with the code excuses itself.
+
+12:18.85
+Yoad
+Yeah.
+
+12:27.30
+cassiodeveloper
+But when I see a lot of companies doing that when they expect developers to implement monarchy then they need to scan of the a cate on the black duck then they need to go to the pipeline and push 10 different tasks to its scanda code or something and they need to connect this to Jira and you cannot spec this from the developer itself. This I would say that this is the appse team dev ops team to make these integrations configuration and so the developer should code with the as I say defensive programming in mind so he will code avoiding vulnerability. That's all that's all we should expect from them. Yeah, as as developers itself. And of course they know that the code will be tested that the product will be tested and so on it's the same thing that you go to the doctor you are fat and the doctors say look man, you need to eat healthy. Go to the gym. Maybe you didn't know this information before now you know now we start going to the gene and it's healthy. But.
+
+13:18.49
+Yoad
+Yes.
+
+13:23.94
+cassiodeveloper
+Ah, when you go back to the doctor again with the same problem. The doctor looked the same doctor who looked to her face like man I dont you know what? you must be doing and you are not doing with the developers says the same thing sometimes they don't have this security knowledge talking about vulnerabilities itself and then we're going to find vulnerabilities come back to the process Now we need to fix.
+
+13:30.41
+Yoad
+Yeah.
+
+13:42.98
+cassiodeveloper
+A bunch of vulnerabilities and so on. But then when he knows as you said this future and and and education when he knows how the vulnerabilit builds Happen. He will probably most of the time stop coding like that and coding more so more secure way without Saas without these things is how they how they code you. And then we have I would say the real security that where we stop introducing your vulnerabilities. The doctor is there whenever you need you go there. You have a consultation but doesn't mean you leave with you? Yeah you you don't have a personal doctor. It's It's not like that. But you know now you have the knowledge to stop eating not healthier. Not going to the gym or something like that I think it's the same parallel that we could We could bring here.
+
+14:25.53
+Yoad
+By the way ever I want to just double click on what you said have a technical question. Maybe that might interest the the audience. So let's take talk like very shift left as you as you mentioned first party code right? So you have says. Do you feel that today in almost twenty Twenty four in modern, high-level languages. Do you see a lot of ah, coding kind of security mistakes that developers do or because the languages are so already. Modern and it's harder right? It's much much harder to implement security hours in the code or you do see. It's still the same. So let's say in python I wouldn't see a lot of developers doing evil on on a stream right? We're not there anymore. I'm wondering. Are you still seeing that or it's going going less and less and in terms of you know the quality. The quantity.
+
+15:26.63
+cassiodeveloper
+That's a good point. Also I would say that we still have the problems because the is the same people doing the same things. So for example I used to to be developer as csharp and dot net ecosystem. Let's say and Donet was abstracting. A lot of things like access access protection I don't know cook stuff authentication. A lot of things are there in the framework. You just make use of it. But I saw a lot of developers including myself in the past like using the wrong encryption way or the encryption algorithm. So it was able to decrypt.
+
+15:46.39
+Yoad
+Exactly.
+
+15:56.24
+Yoad
+Okay.
+
+16:01.41
+cassiodeveloper
+Or implementing the authorization with hardcoded session for example because it will be faster or disabling by the fo. The protection against crossite scripting because I needed to test something local host and I needed to change domains to do a request and these things was being disabled. Ah, from the default protection to the development purpose that that's normal say but still I going to production like this without double validation without my knowledge sometimes that okay I shouldn't disable that actually my development environment should be already adapted to the real production environment. To make easier also for me to test the application itself and to keep the protection a lot of things languages are being are evolving to avoid developers to do some specific problems but still a lot of things are there that you can just disable them. Or not make use of them and I would as you said you are not doing Evo in Python anymore. Yeah, but then you have another, you still have a parameter that you will do something with that parameter and how you validate that if you don't implement the validation in yourself or using a method on the framework to do that validation. Against Whateverq injection. Let's say it. It will be stupid there that sequence Injection. Ah, but I'm using ah or M Ah, but I'm using no Sql doesn't Matter. It will be there. Yeah so I think this education point comes together again with this developers must have this education around appse.
+
+17:34.86
+cassiodeveloper
+Which is 1 challenge that I can I can bring deeper but on the other hand also languages and frameworks are saving a lot of time and a lot of work I'd say because they are implementing secure by the fours security measures. Let's say there.
+
+17:35.52
+Yoad
+Yeah, yeah.
+
+17:49.43
+Yoad
+Great. And yeah, sorry, go go ahead then.
+
+17:54.26
+Ben_Hur
+That perfect? Yeah I think have different kinds of vulnerability that are harder now to exploit. For example, if you are writing rest code and trying to explore a buffer overflow will be extremely hard. Okay, and.
+
+18:08.32
+Yoad
+Yeah.
+
+18:12.21
+Ben_Hur
+But hardcoded credentials is something that exactly you can write text files with that. So the language did not not matter in this case in my opinion. Okay, other thing that is.
+
+18:17.38
+Yoad
+Um, every day.
+
+18:23.42
+Yoad
+Um, yeah.
+
+18:30.83
+Ben_Hur
+We are working for so many times with new developers with orms for example to manage database connections and que and when these guys that migrate from one language or 1 framework to another. Because they are they are changing their jobs and the new company has another stack of technology and now we are not dealing with a database library here. We write queries in the role format. This guy knows. How to write secure queries in ral form because they learned how to work only placed glily with rm for example and for cross-site scripting. Well off sure. React angular are the most common frameworks worked good until. The product towner ask for a text a box that you can put format bold italic and etc and they simply do not know how to protect from these kind of things and just make a unsafe render here. Because we need but do not know inclusive what is unsafe means so the sharp answer is depends but at 10% depends depends on the language and some kind of vulnerability but the most vulnerabilit bits.
+
+20:04.69
+Ben_Hur
+For example I saw in last two three years bro practically I don't see any any kind of evolution in prevent insecure code. No I'm not seeing it.
+
+20:17.85
+Yoad
+Okay.
+
+20:20.57
+cassiodeveloper
+Coming coming back 1 one one part when Youad mentioned about the challenge and so on as we face with sea levels and executive likes one 1 thing that I faced is last two years working for for global company and so on it's like yes you have. You have your mission as an app second engineer. Okay, this is the company. this is the process that we have this is the solutions that we have what can we do better then I I kind of create a map. Okay, we can do better saast. We can do better education. We can do better vulnerability management. We are doing good saast. But we are we can improve but we are doing good or we don't have at all some specific tool for secret scanning. For example, as you mentioned now and from this mapping. Okay, what can we do now because a lot of things I just go and do myself with the tools that I have for example. I connected my different 12 tools that I have with a python script just to get the vulnerabilities from there and send to azure boards it to me is easy to do but not not every app stack engineer has coding skills on the other hand. Not all the tools that you have are able to expose on an Api or whatever. Yeah, so.
+
+21:29.77
+Yoad
+Exactly.
+
+21:37.70
+cassiodeveloper
+Okay I was I was able to manage. But if I buy an sc aspm would be much better much easier for me and we can scale and have Keeppi eyess and so on. But then that is 1 challenge when we come to the management back like okay from my mapping and the needs that we have and for thousands of things that we can improve few of them requires. Budget and part of this budget. It was not even expected that you would ask at least in mine. It was my my my situation and then okay I can have a better sauce I can have a better spm or I can do a better vulnerability management and so on but a lot of things you need to. Or even develop something or even buy a solution and budget is always a problem not because you need to convince them because again as a technical and as the security guy you already know the need you are just saying guys I need 1101000 whatever I need it because of this.
+
+22:27.40
+Yoad
+Um, yeah.
+
+22:35.21
+cassiodeveloper
+You want to follow this or not no, this is not priority for us or we don't have money for these. We have money for that. So this is one challenge that I I don't know actually how to fix it because sometimes you have budget you have 1000000? Okay, you spread this one million between the things that you that you want or. You have one Miller for saas yeah, but saas we are okay, we can improve a lot of Thousand. No no, no, no, we want to spend this money on saas so sometimes you don't have this clear direction at least for me I'm not sea leveled on this company. So I don't have the clear direction what they expect what they want. Sometimes I have the feeling that is just to be compliant. Okay, so if we have so cube we are compliant doesn't mean that we can do better. We can have checkmarks. We can have sneak. Whatever yeah so but we have sonar we are compliant so sometimes the comp itself they don't want to. Put more like it's working why we need to change. It's.
+
+23:31.81
+Yoad
+So if I'm hearing right? It's kind of there's kind of those checkmarks that you have to do on the compliance level once you've done that you're good. So there are times and and and Ben feel free to cause you work in a big organization as well. Sometimes you guys say okay listen we we so we've marked those checkmarks where wherever we need it. But there's 2 or 3 big concerns that we see recently and we're not protected against that and it's important because you can hurt the company. It can. Create a brand damage. It can be a financial damage and all in all with the cost I think it's worth it. But you you say you might face an obstacle right.
+
+24:19.15
+cassiodeveloper
+Exactly That's a point where like I'm I'm also moving company exactly because of that because in one company if you is stuck that you can't do much you know the needs a lot of things can be improved the things that was let's say under my my low hang fruits under my reach. It was perfect because I just create a script talk to the team talk to another Team. You have this this freedom to do it. But for the things that you actually need budget either high budget or low but doesn't matter. Yeah, it was a problem in this specific company but the other one that I'm moving. The the speech is different. They have this startup mindset always Improving. We want to do better every day this this and that thing we have already some good solutions but some things also require some I don't know automation and everything I'm not talking about okay give me infinite in Infinite pocket and I want to do. It's not about this.
+
+25:10.39
+Yoad
+Um, everything. Yeah.
+
+25:15.82
+cassiodeveloper
+It's about okay guys we can do a small training. For example, as you mentioned education from from mayor we can talk to the developers weekly. Let's create a meetup and talk to the developers weekly per squad per team per product so we can talk about vulnerability. It doesn't cost anything.
+
+25:31.77
+Yoad
+Yeah.
+
+25:33.64
+cassiodeveloper
+We can use the the time for work. Ah, the the powerpoint and that that's all, but sometimes even this kind of initiatives the company would say. Ah yeah, but you know it's going to take time from the developers they need to code they need to deliver. But yes and if my answer is always in if you got a hand and if they treat they stop at our operations. It's also not be Delivered. So what you prefer to invest in preventive ah way or and a reactive way. So this this challenge also bothers me a lot, especially big companies because they have the money the little hides from someone is just.
+
+26:06.58
+Yoad
+Yeah I think it's what Ben who may and mentioned before that you do threat modeling and you kind of you present that to who. However, you need to present that and and it may it usually makes sense because you guys specifically you are. Both technical so you know exactly what needs to be done. It's not that you're coming up with some buzzword but and you kind of say okay we need to do Ai security because we read a lot of kind of blogs about it right? because there's a specific concern that I've seen in the organization after. I've been doing some thread modeling and this is what we need to do.
+
+26:47.90
+Ben_Hur
+So like the end.
+
+26:48.65
+cassiodeveloper
+You exactly and and one point that I would just so conclude by your I would say that this is the real shift left when you do the threat modeling based on the functional requirements for example because the the product the user. Whatever they they have the requirements. Just by reading those requirements you can create a lot of a lot of security requirements based on that. Ah we need a new logging page. Ah Okay, so we need waff Bot Protection capture. You have some things from your mind already just for being a security professional and then the functional requirement itself.
+
+27:15.50
+Yoad
+Yeah.
+
+27:22.31
+cassiodeveloper
+Will be already covered by the specific secret requirements because if they are separate you have the secret requirement then the functional requirement secret will be dropped whenever it's needed because it's hush because they need to deliver whatever. But if the requirement itself like guys I need a logging page with bot protection bot prevention. I need a logging page with Captcha a logging page. It's user and password needs to be encrypted using this and or that output it if it's there the definition of done the testing case and everything in the process will be covering that thing and it will not be delivered because the functional requirement itself is not done. So this is 1 big discussion also because a lot of a lot of companies. They don't want to bring more load to the requirement itself because there is a user history user history everything written and so on but and to bring this load more to the pos or developers and so on. It's also problematic also sometimes you need the security professional there to bring these questions or these things up and we can't scale you as bayer mentioned he has I don't know 10000 developers for first 2 3 guys and it's also hired there to to coordinate these things maybe for 1 specific squad. I don't know part of your problem. But for the whole organization. These things can be can be possible to achieve it go and be your sorry I interrupted you.
+
+28:46.73
+Ben_Hur
+I nothing 1 thing about the conversation with sea levels. Let me split in two sea levels. Okay, first we are talking with a cyber security sea level or we are talking about business level. So the conversation are.
+
+29:06.50
+Yoad
+Um, yeah.
+
+29:06.64
+Ben_Hur
+Completely different because if we if we talk with cybersec securityity level a c so we could talk about bro. We need to validate all dependencies that developers are installed and we practically do not need to talk about the risk because the rig simplicit itself. Because this guy have the knowledge about it. Ah, but if we are talking with a Ceo or us ah some business or itorc or something like that they could not know the risks so in this view. Talk about the sea levels. We need to talk about risks first then what we can meet implement to mitigate at risk. For example, supply chain attack and ca and libraries. Okay, if I go to a sea level. Say oh and talk about we need $2000000 to implement an se in our company I will never get this budget. Did this budget for that. But first when we talk about oh we talk with sea levels of business levels. They need to understand what is the appsac maturity model because they do not have any reference. So what will when we will know how much we are security or not in application security stick. Okay, which percentage.
+
+30:38.70
+Ben_Hur
+Of security we are. What's the good indication 9% because a hundred of percent is a topic we know but securities do not have any and anything like that. So 9% is good. Okay, how do we measure this 9% we will use oasp sum.
+
+30:43.50
+Yoad
+Um, yeah.
+
+30:57.45
+Ben_Hur
+We will cover our own topics based on our organization what we will use to provide the statistics about the maturity modeling application security in our company. Okay, we have a baseline right now. Good. Talking about essay. For example, is we have at ca or not no, the first level is every fucking software developing our company as for the same ci we have the vision of all the software is delivered in norring. Environment. Yeah good plus 5%. Okay, perfect. How do we detect malicials package. That's a question malicials package is a threat how we can detect. We have something installed in no applications. Okay, now we have we can detect 100 % of our application that we are styling malicious packages. This is another target this is another men perfect if something goes wrong. Like we installed a bad library. How many times we can fix it. This is another measure so that risk approach measures we are the risk incentric and we are asking questions too.
+
+32:33.95
+Ben_Hur
+Prevent to fix and recover from that threat from that threat. So we have different conversation with sea levels. That's the main point.
+
+32:46.59
+Yoad
+And I think what you've mentioned is and cassio you mentioned it like a few minutes ago in my opinion. An application security expert should be technical doesn't have to be the perfect coder. But from the you know past 30 minutes all you've mentioned is a run risk but that risk that you've mentioned it all comes. It's derived from understanding exactly what developers do because if you don't understand it I like when you spoke about the web application and and Ben when you just spoke you know? ah.
+
+33:24.86
+Yoad
+About the cicd and malicious packages. It's because and you understand how it works and if you're just ah, trying to come up with the application security program without understanding the technicalities. It will be not efficient at all.
+
+33:38.52
+cassiodeveloper
+I and I I would I love to bring other aus to to our apps Backckward because when you talk about security everybody is ah my God No, we don't want and it's but yes, but but everywhere we have this. For example, if you go to? um.
+
+33:40.76
+Ben_Hur
+Um, the present.
+
+33:48.90
+Ben_Hur
+We we need to go first.
+
+33:53.00
+Yoad
+Um, and.
+
+33:56.10
+cassiodeveloper
+I don't know the word in english but maybe it's the semi-portuguese when you go to this 3 star michelon restaurant. They have this this kind of stars they to have that stars. It's a fucking hard because they need to assure that they have the experience.
+
+34:01.94
+Yoad
+Ah.
+
+34:10.58
+cassiodeveloper
+The process of cleaning of how they slice the the fucking onion. Whatever yeah, and every dish that comes from the kitchen to the customer is properly super super visionate by the chef by by the whole team and so on doesn't mean that the the guy's cooking.
+
+34:13.89
+Yoad
+Yet.
+
+34:28.41
+cassiodeveloper
+Not good that doesn't know how to cook they know, but the chef is going to see all the parts of the process and say okay, this dish is okay, can go to the customer because imagine customer ask it something and he has allergy to some specific ingredient. It can't have failure. He can die simple as that.
+
+34:41.54
+Yoad
+Yeah.
+
+34:45.40
+cassiodeveloper
+So all the process how we know that how you take the order how we go to the key chain. How it's notified someone before delivering check out this customer order without gluten whatever cheese muke. Whatever. So yes, we did without you. Okay, so we can go otherwise we're gonna cu someone. So everybody accept that. But in security say like guys your code has a problem I no no way to deliver what the fuck it's like companies are losing their minds on the okay I just but I just care about making my business work I just actually don't care if it's safe. I would say also the same as cars cars has all the security measures you have the seatbelt brakes the best brakes sensors automation my car even if it's raining. It's raining. Okay I can see it's raining you don't need to tell me but but okay so you have a lot of measures but still some motherfucker are going to drink. Drive at two hundred miles per hour and cu himself or kill somebody so it always comes to this part of of people do shit. It's it's okay, um, purpose are and are not so when we bring this security concerns. It's like guys we need to automate the way we want to check these things to. Process strategies. Whatever and we need solutions for that. But it's also about people where they they need to know that guy. Okay, you are a developer here. You're not the Ceo and the Ceo said that we know that not deliver unsecure product. So it doesn't matter out that developers do not like this tool or this experience fuck you.
+
+36:18.98
+cassiodeveloper
+You're not delivery sheet Code. So I I think Also we lack part of this support from sea level from business side Cesars Noses cits knows but this business guys. Also they they they must say Okay, my business will be secure or. Whatever Security is as as beingit. Not 100% secure. Okay, but my business makes sure that you are doing everything possible to avoid some threats to ourselves and to our customers as I know you are working a bank so you need to make sure that people's money are safe see plus that are you working a car Factory. You need to make sure that that car or not.
+
+36:52.82
+Yoad
+Yep.
+
+36:56.79
+cassiodeveloper
+Fail some software there and people will lose their lives so it's business drive these things and in on the other hand they take risks I like okay we need to we need this feature brings value b bleak the screen whatever customers. Love that's fine and we are okay with this risk being there. As soon as we fix tomorrow. That's also okay, yeah, business humanity is driving by this. We are going the past hunting this huge animals few of these guys are not coming back home and today we have on the supermarket on an easy way. We don't need to hunt anymore. So taking risks is what is part of the money itself.
+
+37:29.63
+Yoad
+Here.
+
+37:35.35
+cassiodeveloper
+But when it comes to neglecting I would say like okay we know the risk but leave it That's the that's the thing and that's the challenge because I would say that's that's Ben. You mentioned the risk itself itself the risk sells like guys you want to deliver this. That's fine. The risk is we can stop the operation. So let's let's double check or the risk of this is this database which is has no senseive information can be leaked. Okay, we can leave with that with that risk. But as soon as everybody take this decision together. It can't be only security pointing the finger that. Problems are there because it's easy to find as problems It's also about how business care about the stick there what you want to deliver as as a product to the to the society. So to the customer and so on.
+
+38:20.27
+Ben_Hur
+I.
+
+38:21.65
+Yoad
+Yeah I hear it's coming from your stomach. So ah.
+
+38:25.40
+cassiodeveloper
+Um, that's true.
+
+38:26.80
+Ben_Hur
+You I think that what kases mentioning is about a future that secret created in the past that now we should have worked that is. We are the security guys Security is our job and we are defining all the fucking rules here and shut up that was like a legacy from Cybersec Securityity in the past that we need to change because if we need people to have involved in Cybersecurity. They should be.
+
+38:50.33
+Yoad
+Yeah.
+
+39:01.79
+Ben_Hur
+Part of the cybersec security and what's be part is define solutions is's proposing. Some things is's getting involved so in the past we some we simply throw we we are simply throwing. Bunch of security requirements that you should implement if you want to leave or die so we should change a little bit about it and why because right now we are talking about 2 things. First thing is the shift left threat modeling the security in the product requirements like casso said we are talking about security advisement when we are coding for example to prevent. Malicia's library. Why to run na ca in the ci. If we are running Npm install and why we can prevent from that moment. For example, when why is when when I want to install a library. Well I get advice from that point.
+
+40:05.76
+Yoad
+Yeah, what?? what?? why? wait for the why wait for it to be merged into the mainstream brand when you can already you know, detect it and prevent the frustration of the same developer that have to now replace a library or get a new version which even. Might not even exist or there's no fix etc.
+
+40:23.32
+Ben_Hur
+Exactly and that's a good point that you mentioned because okay, this library have a vulnerability. Okay, it's in the first class vulnerability of is a trans dependency vulnerability and how this. Factness. It's it's exploitable from no kind of application or for or or not how could I make this decision. So another thing that is challenging about talking for budget things.
+
+40:50.80
+Yoad
+Yep.
+
+41:01.50
+Ben_Hur
+With sea levels are is this to really solves our problem or making our percentage of we are securing greater it the coast. It's it's okay. For that game or not for example and we are talking about taking decision. For example, we are. We are styling a library and it has some some um, some vulnerability in that we are taking the decision of keeping that library. Are not and that decision should be baseded on some acknowledgement or something that could be provided for the 2 this library has a bit but not affect your environment. Okay.
+
+41:55.16
+Yoad
+Exactly by the way that's that that's something that I wanted to double cle because you mentioned it I think that today and I don't know if how much time you guys spend on triaging. But.
+
+41:58.30
+Ben_Hur
+The.
+
+42:10.60
+Yoad
+I feel like this is what this is one of the biggest pain I had in Microsoft I spent 50% of my time I know my manager came up and you know we had customers. We have. We had a seven days sla and fix everything and I told them listen I know for sure, we're not using that in the code. The production server that we're deploying to is not exposed on the relevant port and it's a yamma library but we're not parsing any yamls. But again that I think that's I couldn't prove I I could prove to him because we were both technical. He was the. Technical sea level but he said you know what we have the customers you need some way to actually explain the customer if you provide that to customer which is most of the cases that it's not exploitable or not reachable for example and that's a big problem.
+
+43:01.72
+Ben_Hur
+Exactly exactly and taking that decision cost time and if we cost time we are not working in some cases that really need attention to work on.
+
+43:08.69
+Yoad
+Yes.
+
+43:21.67
+Ben_Hur
+Let me check and review this library with this will the fuck vulnerabilitability but okay, okay, and we have all the education and security approachments and tre model etc. We are not taking action on that because you are reviewing the fucking library so reducing the.
+
+43:32.65
+Yoad
+Um, yeah.
+
+43:41.21
+Ben_Hur
+Decision making costing. For example, if a developer are writing code and then the developer has an advice automatically in their code that is vulnerable. That's a decision making I will was set this suggestion or not. And why and if we reducing the time for this decision making we are making money because the developer is writing code faster is not taking too many time to decide something. We will not call the appsec guy.
+
+44:09.68
+Yoad
+Yep.
+
+44:19.20
+Ben_Hur
+Let me review this and then thepse guy has a thousand messages and its like that for the same fucking question that should be on call and explain and whatever. But and we are losing money in this money. Could be use it for software cubu for any other finger happy hour is is good. it's it's good
+
+44:37.97
+Yoad
+Um, happy happy hours.
+
+44:40.46
+cassiodeveloper
+Happy hour but before I mean we are spending 45 minutes already on this. It's it's super nice. We can spend our lives here.
+
+44:53.39
+Yoad
+Um, yeah, okay.
+
+44:57.20
+cassiodeveloper
+But as you said we could spend money and time with of other things before before I bring a question to o so then we can close up I would add something to this point which is also when we talk about education and future and so on. Like yo is based in Israel. Yeah, every as far as I know every people in Israel you go to the army. Yeah, you spendt like 2 2 years in the army everybody for the whole history of the country and so on I'm from san paulolo in Brazil so we we know how to use to walk on the street at night and look into your shoulders. You know if there is no pick pockets.
+
+45:25.51
+Yoad
+Then.
+
+45:28.71
+cassiodeveloper
+If there is nobody trying to rape you or whatever you don't stop in the red light with your car. For example, after ten p M we we know these things it it's on our blood. Yeah and when I came to europe, here's this here's safer in general. Yeah, and.
+
+45:39.14
+Yoad
+Um, Smith.
+
+45:43.54
+Yoad
+Um, yeah.
+
+45:46.35
+cassiodeveloper
+Also the people bring this mindset to the coding when I was coding when I was calleding Brazil and talking security brazil is 1 discussion here in Europe it's another. It is different so it's also this where you are I would say that also influences.
+
+45:54.17
+Yoad
+Interesting.
+
+46:03.88
+cassiodeveloper
+How you behave professionally how you code how you deliver product. Whatever this also has some some impact Somehow how you you drive how you act as as a human being So this.
+
+46:13.11
+Yoad
+You say after after 10 p m people like code sql injection.
+
+46:17.85
+cassiodeveloper
+Yeah, something like that I would say something like that. Yeah, so this is also and and a thing that we should consider like I mean okay, well who is this developer I know it's it's a guy from Europe or it's a guy from Israel or it's a guy from Brazil or it's a guy from us. So. I would say that this also has some impact if if you are a psychologist psychiatrist and you are listening to this come to record with us. We can talk about people's mind human mind how this can be can be true. Yeah.
+
+46:44.70
+Yoad
+In different regions. Definitely listen. It's the first time I've been you know it's a it's a super important point never touch that before that that's a whole discussion.
+
+46:54.54
+cassiodeveloper
+Yeah I think also makes sense because I saw one one discussion between the developers here I bring them one vulnerability. It was a secret injection and they said we know about that and it's documented and I said okay, it's documented for who. He said Publicly. So Oh it's it's something like dear Hacker we have a secret injection. Please do not exploit it What the hell man are you crazy really and I took some time to process and understand if there are saying through it and it was the mindset was like but people here.
+
+47:15.50
+Yoad
+Have.
+
+47:30.58
+cassiodeveloper
+They respect they are more polite. Well they will read and not abuse that I said. Yeah yeah, okay so I don't trust me because now I'm a bad employee I don't want to screw the company so please fix that so I will not be temptated to do it.
+
+47:44.38
+Yoad
+And exactly it.
+
+47:46.84
+cassiodeveloper
+So I think it's it's a point also that we could discuss but okay now I have a question to to ya around. We discuss a lot of things and 1 is what as ah, what is a Ceo on on a product, a security product ah company what you are trying to achieve I know yeah you you try to get. Pains and so on from the from the customers this is important but what we are trying to achieve with mirror mirror security now that it's it's important from your perspective as as as we met in blackhead it was blind spot then then yeah that there is some changes and what catches my eyes.
+
+48:20.82
+Yoad
+Yep.
+
+48:25.88
+cassiodeveloper
+Was exactly like we will get your packages and protect against temporary like okay I downloaded the G query version one and when I build my application and release it. You'll and make sure that this package was not tempered by my team or something inside my company. This was awesome because I never heard about it. Nobody's doing this and tell us about your product What you are trying to solve each other.
+
+48:51.90
+Yoad
+So you just mentioned everything. So thank you bye bye now I'm kidding. So yeah, actually so it was as I mentioned I had two problems in life and Ben you were kind of.
+
+49:05.57
+Yoad
+It's a problem because you mentioned you want to go as shift left as possible. But as a startup. It's really hard because we can't develop a plugin for every id so which ride going as shift left as possible I think that the the most shift left after the id is the pull request. So you I mean it's not the the base case scenario because you want to be integrated with Vm and vs code and Intel J and webtor but if not I think we're at that place that checks everything before it's being merged with the option branch and the intention here is. You probably heard about two weeks ago about the the ledger connect kit attacked with the malicious package and the 600 k theft. So I'm still speaking with c specifically especially with sisos but with security professionals in general. And I'm asking them. Why didn't your sneak. Why wouldn't it detect it. No answer there is kind of a full sense of security in the in the industry where people think if I have, an sda today I'm protected but. The world is not only vulnerabilities. So the way we see it. You have to you have to be protected against vulnerabilities. You have to be protected against zero days which is fine but there are malicious actors that try to kind of go under the water and.
+
+50:38.61
+Yoad
+Where it's hidden and we're seeing it more and more we've seen it with compromised packages like ua parcel like the ledger connected co js r cgs we're seeing that with c icd attacks like 3 seeks jump cloud with the distribution server and of course the solo winds attack. And so I think those two use cases need to be combined together and that's what we're doing so in the vulnerability engine That's what you both mentioned, you need a way to do triaging. So we we try to do the traaging for you. First of all, let you know? are you using that vulnerability not the maliciousness the vulnerability in your code. Is it exploitable is it open to the internet is it is it is it even deployed in production is it the test case or not so you can actually focus on attacks. And in the attacks matter we try to understand if somebody might inject a compromise package like happened with the ledger connect kit with somebody like spefished one of the former employees and uploaded a new package to n pm. How would you know about it. It's a compiled package. It doesn't it isn't found in the source code and even if it's found. Yeah, you've seen the actual code that's been added. It looks totally legitimate and and it's only increasing so I think um 1 thing I want to do is just kind of educate educate people around that be con size. Just.
+
+52:09.54
+Yoad
+Be conscious of that right? No there are those kind of attacks in the industry and our intention is to eventually have upset people like you spend less and less time on remediation triaging and put as much as automation as possible because you have. Enough work to do and you have enough. You you better spend your time on architecture and best practices and secure by default and not fixing issues after they happen.
+
+52:41.70
+cassiodeveloper
+And that's good Bayru You can buy already the new solution implementing me Meraddo delivery.
+
+52:45.63
+Yoad
+Yeah I and I'm sure there's a there's a short sense like a third like I mean this? youtubeank.
+
+52:53.14
+cassiodeveloper
+Yeah, yeah, no, that's cool because yeah triage is 1 big problem. Actually I would say that I worked in a company that they were afraid of bringing good security tools that would float the developers after with a lot of vulnerabilitna. But.
+
+53:09.43
+Yoad
+There.
+
+53:11.83
+cassiodeveloper
+And I was like okay guys. It's like you were telling me so you have a pain you can die but you don't want to go to the doctor because you are afraid of the doctor say oh you have cancer God them and you you need to go know the problem and start fixing it. Yeah, they write a plan and and act on it. So this is also.
+
+53:24.40
+Yoad
+Yeah, it's it's It's not that hard. You just have to you know, pay attention to it. That's all.
+
+53:29.67
+cassiodeveloper
+Yeah, exactly exactly guys times runs fast I think we covered a lot of things we have a lot of things to to talk but let's let's see Vita red yo for the for another episode. Yeah maybe some sponsorship who knows.
+
+53:39.00
+Yoad
+A family.
+
+53:47.30
+cassiodeveloper
+And and then we can We can cover of course a lot of other things but we don't want to keep long Episodes. So guys who are listening to us. Thank you for the for the audience. Yeah, Thank you for listening and to here I So I made a mistake usually in the middle of episode. We give a warning. For people who are distracted and listening to us and getting lost on the traffic for example because we have got some some complaints for some listeners that oh I was so excited listening to you that I got I lost my train or I lost the car I got okay guys so take that t-shirt.
+
+54:19.10
+Yoad
+Ah.
+
+54:19.96
+cassiodeveloper
+Have a break stop for a second but it's already too late if you are missing your train for sure' in another station already guys. You have final words something that you'd like to consider to bringing send Hugs Kisses to families.
+
+54:31.46
+Yoad
+Yeah, of course and just hugs and Kisses and always and just wanted to take both of thank both of you I mean it's always nice to speak with you know, security experts especially technical experts I learned a lot So I appreciate it.
+
+54:48.80
+cassiodeveloper
+Um, well mayor.
+
+54:51.18
+Ben_Hur
+Bankard for your presentation today was amazing. This is my first podcast in english language. So yeah, yeah, so thank you? But for for you and Casia for the invite of curse and.
+
+54:59.79
+Yoad
+Um, the f.
+
+55:08.61
+Ben_Hur
+Ah, stock in the future for what we are expecting in the next year for software supply chain se in this challenge you world off malicials packages that will. We know what it is but it's still a challenge to solve like.
+
+55:28.32
+cassiodeveloper
+Yeah, cool guys. Thank you again for having for for joining us again yode Ben you I will put the links from ah from your security yo link ed will be there on on the Youtube channel also devoppocast.com.br, that's it I think we see you next week on the next episode I'm cassip perrea and yode again. Thank you for a time and thank you for joining us.
+
+55:48.35
+Ben_Hur
+I I am Bayor or.
+
+55:52.42
+Yoad
+Thank you guys appreciate it.
+
