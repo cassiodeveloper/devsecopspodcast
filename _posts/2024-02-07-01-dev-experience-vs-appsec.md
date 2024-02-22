@@ -8,6 +8,7 @@ length: 52:03
 videoid: jdzkBkrXvF4
 cover: "../assets/img/501.png"
 transcription: "../assets/transcriptions/5/1/01.txt"
+guest: "https://www.linkedin.com/in/raz-probstein-0b4763233/"
 ---
 
 In this episode, our hosts delve into the dynamic interplay between Developer Experience (DevX) and Application Security practices, exploring how these two crucial elements can coexist harmoniously in the fast-paced world of software development. Joined by a seasoned guest expert in the field Raz Probstein, they dissect the challenges developers face in maintaining a seamless user experience while also prioritizing robust security measures. From discussing the latest trends in DevX to dissecting innovative approaches to application security, this episode provides valuable insights for tech enthusiasts, developers, and security professionals alike. Tune in to discover the delicate balance required to achieve both an optimal developer experience and an airtight security framework in today's rapidly evolving digital landscape.

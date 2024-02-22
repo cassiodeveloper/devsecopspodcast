@@ -22,6 +22,7 @@ websites-podcast:
 
 translate-date: true #See _includes/date.html to translate the months' name
 shownotes: true
+ai: true
 
 #Disqus
 disqus:

@@ -35,7 +35,11 @@ layout: default
         {% endif %}
 
         <!-- {{ content }} -->
-
+        {% if site.data.settings.ai == true %}
+                {% if page.ai %}
+                        {% include ai.html %}
+                {% endif %}
+        {% endif %}
         {% if site.data.settings.shownotes == true %}
                 {% if page.extralink %}
                         {% include shownotes.html extralink = page.extralink %}
