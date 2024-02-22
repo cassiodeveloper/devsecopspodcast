@@ -36,7 +36,7 @@ layout: default
 
         <!-- {{ content }} -->
         {% if site.data.settings.ai == true %}
-                {% if page.ai %}
+                {% if page.ai == true %}
                         {% include ai.html %}
                 {% endif %}
         {% endif %}
