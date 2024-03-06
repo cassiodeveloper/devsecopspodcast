@@ -7,7 +7,7 @@ file: https://api.spreaker.com/v2/episodes/58946420/download.mp3
 length: 
 videoid: 
 cover: "../assets/img/504.png"
-transcription: "../assets/transcriptions/5/4/04.txt"
+transcription: "https://podcasts-embed.musixmatch.com/t/01HRA92TGGP4CN9262V24FKJQN.srt"
 ai: true
 resumo: "O podcast discute a importância de encontrar um propósito na carreira, além de apenas ganhar dinheiro e aprender. O palestrante, Cássio Batista Pereira, compartilha sua experiência em diversas empresas e como percebeu a importância de contribuir para a sociedade através do seu trabalho como desenvolvedor. Ele destaca a importância de vender segurança dentro da empresa, protegendo a sociedade e garantindo a qualidade dos produtos e serviços oferecidos. Cássio enfatiza a necessidade de entender o propósito do negócio em que se trabalha e como isso pode impactar positivamente a sociedade. Ele encoraja os profissionais a identificarem seu papel na proteção da empresa e a contribuírem para um ambiente mais seguro. A mensagem principal é entender o propósito do trabalho e utilizá-lo como uma forma de vender segurança dentro da empresa, visando o bem-estar da sociedade"
 capitulos: "<ul>
