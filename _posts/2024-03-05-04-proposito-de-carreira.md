@@ -4,8 +4,8 @@ layout: post
 type: main
 description: "No episódio mais recente do DevSecOps Podcast, mergulhamos no fascinante mundo do propósito de carreira e sua relação com a segurança da informação. Um renomado especialista em segurança cibernética e coach de carreira hahaha, compartilha insights valiosos sobre como alinhar seu propósito pessoal com suas atividades profissionais em segurança. Descubra como identificar seu propósito de carreira e como isso pode servir como um impulso poderoso para melhorar a postura de segurança da sua organização. Aprenda como encontrar significado em seu trabalho diário e como isso pode inspirar uma abordagem mais proativa para proteger os ativos digitais da sua empresa. Junte-se a nós neste episódio emocionante enquanto exploramos o papel do propósito de carreira na criação de uma cultura de segurança forte e resiliente. Se você está interessado em elevar sua carreira em segurança da informação enquanto encontra maior significado em seu trabalho, este episódio é para você!"
 file: https://api.spreaker.com/v2/episodes/58946420/download.mp3
-length: 
-videoid: 
+length: 34:46
+videoid: gDLRa6QD_PU
 cover: "../assets/img/504.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HRA92TGGP4CN9262V24FKJQN.srt"
 ai: true
