@@ -8,46 +8,35 @@ length: 52:22
 videoid: YRG5x2AxlgY
 cover: "../assets/img/506.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HSZ1ZSNZVAW0990ZH8V0XTRB.srt"
-ai: false
-resumo: ""
+ai: true
+resumo: "O podcast apresentou uma discussão entre os palestrantes Cássio, Beno e Thiago sobre eventos de segurança e testes automatizados. Eles abordaram a saturação de eventos de segurança, a importância da configuração correta das ferramentas de teste e a necessidade de combinar testes automatizados com ajustes manuais. A questão dos falsos positivos e negativos foi destacada, assim como a importância de testar tanto a API quanto a interface do usuário. A interação entre diferentes ferramentas de segurança foi enfatizada como essencial para obter resultados eficazes. A discussão abordou a complexidade dos testes automatizados e a necessidade de complementaridade entre as ferramentas. A importância de manter a qualidade e a comunicação entre as ferramentas foi ressaltada, assim como a necessidade de abordar diferentes aspectos dos testes de segurança. O episódio terminou com a promessa de continuar a discussão no próximo episódio."
 capitulos: "<ul>
-<li>
+<li>12:16 - Desafios de falsos positivos</li>
+<li>18:19 - Clientes e testes automatizados</li>
+<li>24:41 - Configuração e resultados de ST</li>
+<li>30:10 - Superfície de ataque e testes</li>
+<li>37:03 - Combinação de testes manuais</li>
+<li>43:34 - Complementaridade de ferramentas</li>
 </ul>"
 licoes: "<ul>
-<li>Qual é a motivação para as empresas fazerem errado na área de TI?
-Uma das motivações é a falta de preparo dos profissionais e a pressa em implementar soluções.
+<li>Qual é o tema principal discutido no podcast?
+O tema principal discutido no podcast é a segurança de dados e testes de segurança.
 </li>
 <li>
-Quais são os riscos que uma empresa corre ao não investir em segurança na área de TI?
-Alguns riscos incluem senhas fracas, falta de criptografia e falta de camadas de segurança para proteger informações sensíveis.
+Por que os participantes mencionam a saturação de eventos de segurança?
+Os participantes mencionam a saturação de eventos de segurança devido à quantidade de eventos e à falta de diferenciação entre eles.
 </li>
 <li>
-Como a falta de preparo dos profissionais pode afetar a segurança na área de TI?
-Profissionais despreparados podem não entender a estrutura abstrata da área e acabar implementando soluções inadequadas.
+Por que é importante entender a cobertura de testes ao implementar uma ferramenta de segurança?
+É importante entender a cobertura de testes ao implementar uma ferramenta de segurança para garantir a eficácia e identificar possíveis falsos positivos e negativos.
 </li>
 <li>
-Quais são os desafios enfrentados na evolução de sistemas de TI?
-Alguns desafios incluem a necessidade de integração com novas tecnologias e a falta de conhecimento atualizado dos profissionais.
+Qual é a dificuldade em automatizar testes de segurança em relação à comunicação com o servidor?
+A dificuldade em automatizar testes de segurança em relação à comunicação com o servidor está na necessidade de ajustes manuais para garantir a sequência correta de testes.
 </li>
 <li>
-Por que é importante focar em segurança na área de desenvolvimento de software?
-Focar em segurança na área de desenvolvimento de software é essencial para evitar problemas futuros e garantir a proteção dos dados e sistemas.
-</li>
-<li>
-De onde vem a motivação para as pessoas fazerem errado na área de TI?
-A motivação para fazer errado na área de TI pode vir de despreparo profissional, migração de profissionais de outras áreas e falta de conhecimento técnico adequado.
-</li>
-<li>
-Qual a importância da padronização na área de TI?
-A padronização na área de TI é uma tentativa de organização que visa facilitar a gestão e garantir a uniformidade nos processos e procedimentos.
-</li>
-<li>
-Como a simplicidade pode contribuir para a segurança na programação?
-A simplicidade na programação pode reduzir a complexidade do código, minimizando pontos de falha e vulnerabilidades, o que contribui para a segurança dos sistemas.
-</li>
-<li>
-Por que é fundamental considerar a finalidade e necessidades específicas de um projeto de desenvolvimento de software?
-Considerar a finalidade e necessidades específicas de um projeto de desenvolvimento de software é essencial para garantir que as soluções desenvolvidas atendam de forma eficaz e segura aos requisitos do negócio.
+Por que os participantes destacam a importância de ter várias ferramentas de segurança complementares?
+Os participantes destacam a importância de ter várias ferramentas de segurança complementares para obter resultados mais eficazes e abrangentes na proteção de dados.
 </li>
 </ul>
 "
