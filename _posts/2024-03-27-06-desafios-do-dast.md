@@ -7,7 +7,7 @@ file: https://api.spreaker.com/v2/episodes/59185424/download.mp3
 length: 52:22
 videoid: YRG5x2AxlgY
 cover: "../assets/img/506.png"
-transcription: ""
+transcription: "https://podcasts-embed.musixmatch.com/t/01HSZ1ZSNZVAW0990ZH8V0XTRB.srt"
 ai: false
 resumo: ""
 capitulos: "<ul>
