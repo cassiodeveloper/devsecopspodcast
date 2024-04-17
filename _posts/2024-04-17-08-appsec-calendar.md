@@ -42,7 +42,7 @@ O podcast App Seca é uma versão solo, sem patrocínio ou convidados, com epis�
 notes: "**DevSecOps Podcast - Episódio #05-08 - AppSec Calendar**
 
 **Introdução:**
-- Neste episódio do podcast "DevSecOps", o apresentador Casio Pereira discute o tema "AppSec Calendar" e a importância de realizar testes de segurança de forma regular.
+- Neste episódio do podcast DevSecOps, o apresentador Casio Pereira discute o tema AppSec Calendar e a importância de realizar testes de segurança de forma regular.
 
 **Principais Tópicos Discutidos:**
 - A importância de ter um calendário de segurança de aplicativos (AppSec Calendar).
@@ -57,12 +57,12 @@ notes: "**DevSecOps Podcast - Episódio #05-08 - AppSec Calendar**
 - Recomendação de revisão diária das atividades de segurança.
 - Realização de testes de segurança de forma automatizada.
 - Importância de reportar e corrigir vulnerabilidades identificadas.
-- Lançamento do novo podcast "AppSec" com episódios mais curtos e diretos ao ponto.
+- Lançamento do novo podcast AppSec com episódios mais curtos e diretos ao ponto.
 
 **Conclusão:**
 - O episódio abordou a importância de manter um calendário de segurança de aplicativos e realizar testes de forma regular para garantir a proteção do sistema.
 - A automação de testes de segurança e o uso de ferramentas apropriadas foram destacados como essenciais para manter a segurança do aplicativo.
-- Os ouvintes foram incentivados a acompanhar o novo podcast "AppSec" para conteúdos mais concisos sobre segurança de aplicativos.
+- Os ouvintes foram incentivados a acompanhar o novo podcast AppSec para conteúdos mais concisos sobre segurança de aplicativos.
 
 **Nota:** As informações foram apresentadas de forma clara e objetiva, destacando a importância da segurança de aplicativos e a necessidade de práticas regulares para garantir a proteção dos sistemas."
 ---
