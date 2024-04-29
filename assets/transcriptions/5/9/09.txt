@@ -1,0 +1,436 @@
+00:18.58
+cassiodeveloper
+Hello everyone how are you? It's a very good. It's a pleasure to be here again once again for 1 more episode of deva cops podcast. Actually this is the episode number 152 if I'm not mistaken which is a good thing means that we are doing good. Or we are very persistent I would say it's a pleasure again today because we have a very nice guest that we introduce in a moment. It's also ah, very nice to say that I'm doing this episode today by myself. The guys are not here like venure. Not here. Mars are not here because they're on the vacations and so on you know. I pay them good so they don't work. That's the that's the thing so guys before I started the episode Today. It's worth to mention that Defsakos Podcast has the support from checkmarks and novi eight novi. It's the distributor of checkments in the brazilian market and in polish market as well. You can find their link on the website. That's a copy. Ah, podcast dot br also on the Youtube on the description of the video. Okay today's episode we're going be talking about automation and not automation in a way that we already discussed here like scripting coding and these kind of things. Yes, it's important. I'm doing myself. But today we have a guest that will bring kind of a revolution I would say on this area which is super cool because they have a very nice solution I had the pleasure to test myself not to buy yet. But hopefully one one of the boss will will release some money and I will be able to use it properly.
+
+01:54.51
+cassiodeveloper
+So today we have layer here there again. Thank you for our time. Thank you for joining us, please introduce yourself feel free to tell where you're from where you're going to what you're doing and then we start our discussion and again once once again, thank you for your time. So.
+
+02:09.60
+Leor Golan
+Sure and thanks for having me cassio. It's a real pleasure hi everybody. My name is Leor Golan I'm a director of sales over here at blink operations ah blink is a security automation platform that is basically. So easy that not only does it replace soar tools but it also you know allows other teams in all areas of security to automate their workflows as well. So my background I I came from a number of startups the last one was acquired by Palo Alto Networks and worked there for a bunch and then now I got to blink same founders as the guys who started that startup that was acquired by a pallo alto so really interesting stuff. We're we're really doing some interesting stuff and that's kind of why we're here today. I'm based out of Tel Aviv 35 with 35 years old with two lovely kids so pleasure and thanks for having me.
+
+03:11.68
+cassiodeveloper
+It Cool cool and you just mentioned that you have kids and yeah's ah I would say that it's the security challenge in our lives. Yeah, we need to keep secure all the way all the time. It's It's what do you think it's easier to secure the kids life or to secure our softwares What you say.
+
+03:26.16
+Leor Golan
+Um, software hands down software. But.
+
+03:30.68
+cassiodeveloper
+Ah, it's much easier we I would say that with in software development. We could see the we could predict some things with kids. It's unpredictable the time. Yeah they they are always ready to do something new. So.
+
+03:40.79
+Leor Golan
+Yeah, yeah, yeah, it's it's it's the kind of ah you know threats and attacks that have no, it's like the Joker said in that movie or or they said in the batman movie right? where they said that ah some people just want to see the earth.
+
+03:53.39
+cassiodeveloper
+And I yeah exactly exactly good analogy good and I'll ah that's true. That's true.
+
+03:56.33
+Leor Golan
+The the world burn but look on my kid's face when I catch him with the crayon on the wall. You know.
+
+04:08.61
+cassiodeveloper
+Okay, that's good Leo again. Thank you for our time. Thank you for the introduction. Thank you for for parent it time to share some knowledge of course to talk about the the blink as well and to to bring some knowledge to our audience which is mainly as I said mainly we have developers security people a lot of students people that we want to to. Start the career so we'll be talking about a few things. But first question I would I'll bring to you and to to this conversation I think would be around the the automation itself I'm really fan of automating like everything especially because I was developer so I kind of lazy. So ah, if I could spend 20 hours to automate a 1 hour test I would probably spend this 20 hours to automate something because I know that we'll save more time on on the long term and that's that's the question. What do you think it's ah it's a challenge for the security teams today. It is automation itself. It is to have people to work too many things to. Carrie. How do you see this this challenge today I mean you have contact with customers and and other markets. How do you see this and.
+
+05:07.47
+Leor Golan
+Sure sure so you know what you what you described in your question is something that every security practitioner does right? They they decide. Is it worth it for me to spend the time into building the automation because you could build automation even without ah a platform like blink without sword tools and Whatnot. You could just code it but the question is what's what's the tradeoff is it is it worth spending the time now a platform like blink and and I'll talk about you know where blink comes in. Is lowering that threshold of how much time investment you need to make in order to build your Automation. So The decision becomes much clear and that's our vision right today. The bar for building automations the the amount of time and investment and headache that it takes to automate stuff is very high. Um, you know we have the soar tools out there I don't need to say all the different names and I'm sure your your audience are are aware of them and probably most of them even are using some.
+
+06:06.52
+cassiodeveloper
+And.
+
+06:11.63
+Leor Golan
+They they had a promise of we're going to help you automate this stuff and save you time on alerts and such and we're going to make the world look a lot easier for you but in the end of the day and I sold soar for years. So I'm very very familiar with how they work I'm very familiar with my competitors and such I sold it for years. But.
+
+06:22.70
+cassiodeveloper
+And.
+
+06:31.38
+Leor Golan
+And the end of the day they don't answer on the promise as well as they should you know? maybe they lowered the bar from here the threshold from here to here. But that's not enough. It's it's enough for the sock but barely right? they within the sock you have people that know how to program. Um, and and outside the sock not as much but even within the sock. Not everybody knows how to program and even if you know how to program it's still complicated to work with so in my experience I've seen companies you know sock teams and security teams. Will use a sort tool and they'll build build maybe a few use cases that they actually automate end to end within a year of of the license right? that they that they acquire and that's a problem that that we're not getting to the utopian holy land of automation where we all want to be.
+
+07:10.84
+cassiodeveloper
+And.
+
+07:21.44
+Leor Golan
+And so what we need is something that's simpler to work with now before I even touch on openai and you know the revolution that Gen ai has done here. That's that's helped move things forward even before Gen ai um, blink specifically.
+
+07:26.65
+cassiodeveloper
+And.
+
+07:38.20
+Leor Golan
+You know we came to the market with a platform that we've already precoded the the steps you you know within blink you just kind of drag and drop things and you put together the workflow you want. So you know in my experience from having sold sore I have customers today than A P Oc of
+
+07:42.78
+cassiodeveloper
+And.
+
+07:57.81
+Leor Golan
+2 sometimes three weeks they build more workflows than some of my sore customers built in a year of license. It's it's a dramatic change now what does that mean, that's great for the sock team. That's great for the incident responders. Wonderful. But suddenly now we're actually opening the door to a whole other area that previously wasn't wasn't reasonable which is automation for the security professionals that maybe don't know how to program that. That you know sor was way too complicated for them to even consider it right? That's also by the way why source specifically targets suck because they know that there there' is more people that use that that know how to program and can deal with the complexity relatively deal with the complexity. So at blink. You know our platform is not just for the sock anybody and everybody under the seeso can use it so we have you know grc teams that use the platform to do their compliance needs. We have vulnerability management teams identity and access management. It security cloud security saas security really anything. Under the security umbrella that that is the cezo can use the platform to automate their needs. So it's really interesting stuff. That's the revolution. It's simplicity so that you can build in a couple um few months time a few dozen automated workflows real easy.
+
+09:29.98
+Leor Golan
+And the fact that it's not just for incident response and just to give you a couple of examples. You know I have ah in blink for example and cast you and I talked about this offline before. Our our cto you know when we have to do our soc 2 compliance or ezo two seven zero zero one compliance we don't have to spend the amount of time that we would have without blink and what I mean by that is we built a workflow that goes out retrieves the information that we need to know are we meeting certain controls are we not. And then automatically remediates it and just updates the cto on slack with a very organized report hey here are the things that were not met and here are and and we've remediated them right? So we've killed the or or removed the exposure of publicly exposed s 3 buckets or whatnot and so not only is it. Automated the checks. Not only is the remediation of them automated. He has them running scheduled daily so that these checks are we no longer have a problem of having to wait till the end of the year to do soc two compliance. Most of it is every day within 24 hours is place so there's lots of use cases. Lots of examples. That's just one in the in the compliance space. Really interesting stuff.
+
+10:44.54
+cassiodeveloper
+Cool I think it's a a good introduction I say for that for the topic and you were mentioning everything and I was catching some parts of it and I really remember 1 use case that I had I was working as as already a security engineer in ah and a tourism company in in the brazilian market as well. And. A lot of developers were creating EC2 virtual machines on the on the a Aws yeah, and they were creating exposure to the internet. We had few incidents and so on then what we did because the teams they they could have the permission to create whatever they want. We couldn't block them through policies and it would be a way out i' would say but. Instead what we did was like we were I created some python scripts to consume the aws api every minute to check if there was new ah new e c 2 exposed if they were I was alerted this person was alerted on the slack channel for example. And then I was already changing the security groups. For example, so the machine was be accessible only through the vpn, etc, etc to me was easy to do because I was developer I know how to code to consume an api I don't know it took ah half an hour to do this to get it done but then in the other day. Oh we could do something else one more half an hour one more hour oh but this all alerts could be better and and then becomes a software development itself and for that specific team I could code myself for other teams. They didn't have developers so then they were starting using my time.
+
+12:16.78
+cassiodeveloper
+And then I became a bottleneck for the whole automation stuff even though they were working but they needed to wait a lot of time to have one simple script done and that's the one point that you touch it like with Ai and all these kind of things it becomes easier to do at these kind of things. Not only for lat say myself that I know how to code and that's the second question who would be the target to use this kind of solutions since we're talking about automation so people might expect that ah know you you need to know have some knowledge on scripting on coding and so on. And I would argue that maybe not yeah what how? how do you see this? How do you Ah, address this this issue road saying so.
+
+13:00.68
+Leor Golan
+Sure you know look you have to think of it like this when you have a no code platform. That's that's the you know the the type of platform that you could you could? That's that's kind of like how you label these types of Technologies I have others in non-security areas like zapier and.
+
+13:13.59
+cassiodeveloper
+I.
+
+13:19.34
+Leor Golan
+And and the like but they work for you know they're geared to different areas of the business. So with no code technology. First of all, it's important to understand that you still have all the ability within blink to write python scripts and and get really really deep down technical if there are things that we don't have within right? so. And we like to say no code but low code. If yeah, if you want to and code if you really really need to so you can do all that within the platform. Um but getting to your question. So if you are an advanced coder like yourself and you know how to build this stuff.
+
+13:58.10
+Leor Golan
+You're going to get advantages in the form of well it's no longer scripts that you have to come back to after six months and dive into and understand exactly and make the tweaks that you need to It's precoded steps drag and drop. it's really simple and easy to understand also it's really simple and easy to understand for coworkers or for once you leave your position somebody else that wants to come and understand what's happening so for you and and and you don't have to deal with you know, um, runtime environment dependency. You don't have to deal with any of that you don't have to deal with integrations. If Aws or somebody changes something in their integration in their Api. You don't have to worry about that blink is kind of your outsourced integration provider. We have a team you know each person has a few integrations that they own and they're responsible for making sure that they're constantly working right? so. You as ah as a expert would instead of being able to automate I'm just giving ah an idea 1 thing a month with blink. You'll be able to do 10 things a month right? or 20 the month or 50 things a month so you as an a pro are going to get.
+
+15:00.98
+cassiodeveloper
+Um.
+
+15:04.93
+cassiodeveloper
+A.
+
+15:12.27
+Leor Golan
+That much more out of your time and the person who doesn't know how to code doesn't know what to program will will say the ah the simpler user as far as ah as programming is concerned. You know maybe just a person in the in the compliance team for example for them. It's it's. Building a couple of automations in a year that normally they wouldn't have been able to do at all or they'd have to wait for someone like you casio and for you to build it for them with case your' autonack et cetera etc. Um, and by the way customer success of ours. You know we we give lots of services to our customers. We actually helped them build stuff. Um.
+
+15:37.92
+cassiodeveloper
+A a.
+
+15:49.29
+Leor Golan
+But yeah, like you know there's the experts that end up doing a tremendous amount and the ones who are not experts that they still get a lot of value because otherwise they wouldn't have been able to do anything or they would have to wait for someone else to do it for them.
+
+15:58.92
+cassiodeveloper
+Okay, okay, so this this I would say it's very beneficial because as not I would say it's already a challenge in the security realm that not a lot of security people knows how to code which is already a problem I would say especially for our app se engineers that they should know to. Deal with vulnerabilities in the code and this kind of of things but still automation. It's part of our lives nowadays doesn't I would say not doesn't matter more or less the departments of the company but here are there and the financial in the hr and the security there's there's always something that can be automated to save someone's time. Ah, or to to save some money and and this kind of things and when it comes to to security I would say it's even critical more critical because as as I yeah I used to say here in here in the podcast as well like we as defenders. We need to know all all of our problems. The attackers just they just need to know one exactly and this kind of solution or automation I'd say they help us with this visibility as well to cover as much as we can and to don't miss something as you said oh you'll need to monitor the aws whatever. And then they change the Api. Oh you break already that one day that it's broken. You need to fix something you might have an incident you're gonna miss it and with this kind of of approach then you make sure that okay you will not miss it. It will be there. You you catch it. You be alerted and so on because this is this is the thing on the security I think people.
+
+17:34.43
+cassiodeveloper
+Sometimes they they lose this sensibility that security is critical by definition. It's security like it's usually I say you don't go to the car and don't put the sit belt and sometimes people say yeah, it's just 1 kilometter. It's just 5 minutes but it just take one second that accident happened and you lose your life or some damage and exactly there's there. There are research about this exactly and when it comes to automation I really like to say I really love to say that whatever you can do and how much you can do to.
+
+17:53.35
+Leor Golan
+Um, most most accidents happen in the last kilometer of your drive.
+
+18:09.50
+cassiodeveloper
+Save this kind of time and to make sure that we're cover everything. It's worth.. It's already worth a try and and B link as as we're mentioning and of course we already discussed Offline. It's something that I really see a value on this that could could benefit benefit security teams and and other areas and the the next thing I would I would. Say or or ask it's like it's regarding the the need of the company to do such a thing because sometimes they they might think like okay I don't need automation I have people to do everything that I want everything that I that I do. Either man or job either. These people are would okay I have good developers I have people scripting I don't need this kind of solutions. What do you say or how your how is your approach to this kind of companies that we we got our ass covered. Let's say we can do ourselves and.
+
+18:50.48
+Leor Golan
+Awesome.
+
+19:03.66
+cassiodeveloper
+What what is your approach to them like no I can do better for you I can make your life even better. How how it's going to be.
+
+19:08.73
+Leor Golan
+Well between you and me I would say to them good luck but but but honestly like you know if if I'm if I'm in front of a customer that's telling me like hey I've got a cover I don't need automation. That's that's a pretty extreme position I don't I don't usually see that. But if ah if someone really is adamant about that then I would say how many people are you paying to make sure you have all that covered and not just that does this mean that you have a room full of like 200 people that are all day. Just. Going through alerts and manually doing this stuff. Do you have a bunch of people that are just just stuck in the code and you know the way I see it. It's out of scope of what their job entails right? You and other professionals should not be so.
+
+19:56.26
+cassiodeveloper
+And here I.
+
+20:02.13
+Leor Golan
+Spending time on the I like to say the logistics or the ah the dirty work of in automation to work right? and let me give an analogy here to to to make the point analogy Good analogy I like to use imagine a professional kitchen.
+
+20:09.67
+cassiodeveloper
+In.
+
+20:19.66
+Leor Golan
+Right? at like a Michelin star restaurant at the moment because of lack of automation for for companies that aren't using tools like hours. It's it's like you know you have the morning and the afternoon the early afternoon where all of the chefs and sioux chefs come in. And they have to do a lot of the prep work cut all the carrots cut all the onions. You know all that stuff and so what I would say to a person like that is you guys are spending the entire morning and early afternoon prepping and you're dealing with that getting ready to cook you haven't even cooked yet. You spend most of your day just prepping.
+
+20:37.22
+cassiodeveloper
+A.
+
+20:50.14
+cassiodeveloper
+So.
+
+20:55.60
+Leor Golan
+I Want to get you to a place where you're all cooking and with a tool like Blink. It's taking you from a sous chef that's spending most of the morning prepping to free you up from that we're doing that for you and now you can spend your time on experimenting on on the more interesting tasks. The more important tasks. What what kind of menu. Do I Want to create for tomorrow. What kind of new Ingredients. Do I Want to play with. Let me let me play with some stuff and see what I can do here. You know for a special menu. So it's It's a whole other way of working. It's.
+
+21:20.37
+cassiodeveloper
+So yeah.
+
+21:29.31
+Leor Golan
+Taking your team that may have their head down and are doing some work that they're not so happy about it's very tiring and frustrating and most of the time Alerts don't really lead to anything and whatnot ah and and moving them to a place of let automation handle that let's use your human brain and your analytical skills. To work on more creative stuff. So That's kind of what blink is doing to Security. It's taking the the the chef who's a real professional and saying you don't need to chop carrots and do that prep Work. You can now focus on the interesting Stuff. It's saying that people. That are not Chefs. They're the the Junior Junior Soou Chef that starting his in stadist. He you know it's It's a stad. It's his persa internship and we're telling him you can even create you can cook yourself too like you can do these things too. So um.
+
+22:06.65
+cassiodeveloper
+E.
+
+22:18.25
+cassiodeveloper
+And and.
+
+22:22.87
+Leor Golan
+That's what I That's what I would say to someone who's kind of anti-automation is you can get way more efficiency I don't need to pitch if automation efficiency and such but your team will be much happier. They'll be working on the stuff they want to. They will be rather than the. I'm trying to think of what what is that called when you have a a play with the dolls puppets right.
+
+22:45.68
+cassiodeveloper
+Ah, yeah, yeah, yeah I know the word in Portuguese I I missed in English but yeah pop kind of pupets. A.
+
+22:50.67
+Leor Golan
+Yeah, rather than you being the puppets that are doing the work. We're going to make you the puppet master and you decide like your work will move from handling these tasks and even building the automations with code to what do I want to automate. What? What's an okay, what's the next thing in my list that I can do to automate that from now on is going to do a lot better for the organization. Maybe from now on I want to create an automation that every time a Google drive folder or a outlook. Ah Microsoft you know folder is here.
+
+23:24.58
+cassiodeveloper
+Any office and.
+
+23:28.29
+Leor Golan
+Office yeah, shared that I want an approval process to go through security or maybe we want to give them some leeway so it'll get shared but after seven days a message will be sent to the user that'll ask you hey do you still need this and if they say yes then it stays open for another seven days and if no.
+
+23:45.31
+cassiodeveloper
+Oh.
+
+23:45.93
+Leor Golan
+If they don't answer then we remove the share things like that you know I come up with you Just come up with these ideas of okay where can I add more policies and by the way that's something that we see with you know the security decision makers. You know I Love to say to them think of any policy any policy that you want to enforce in your organization.
+
+23:52.55
+cassiodeveloper
+Yeah.
+
+24:05.89
+Leor Golan
+When something happens in your company. There are security ramifications for that and I'm sure that there is some kind of policy you would define there right? and it's the same thing for the security practitioners because they've usually get the marching orders from from their bosses like like everybody so with Blink. You can build that out the seeso could almost build that out himself. You wouldn't do that because it's he or she wouldn't do it because it's spending some time but it's almost that simple I'm a sales guy and I build workflows really fast and really easy. So if I can do it I think most people can do it.
+
+24:27.30
+cassiodeveloper
+And.
+
+24:36.74
+cassiodeveloper
+So cool cool. that's that's the I would say it's the looks very good to be true I would say yeah of course I know the solution but I need to talk to the audience exactly like this looks looks awesome to be true. And it will will will get to so to some point just I need some break. Yeah now I have we had the break of our voices ah layer I would bring ah another topic for for our discussion which would be something related to. Development because there are a lot of possibilities I would say on this kind of word and developers. They are still there. Yeah and and the the whole podcast here we have this mission kind of to help developers to build secure software because. The end of the day those softwares are controlling or facilitate our lives through the payments through the supply chain of food or whatever and do have some use case or whatever could be helpful or interesting to the developers itself. For example today I have a manual. Slash automated task that whenever a branch on the github repos or. For example, they're not protected which means someone is directly putting code to the main branch I get a notification and from that notification I approach this developer like why you did that.
+
+26:04.82
+cassiodeveloper
+You had. Okay, you have the permission but what was the reason and from this reason I put this information in in somewhere as a log because on the audit team. The auditors we need to look into this. Yeah, there was a bypass on this specific protection here's the reason everything fine So This is when I would say. Daily job that could connect developers that they could do this automatically somehow yeah or not even do this. They bypassed something already happened. They put Justification somewhere what use case or what examples you could bring to development to developers itself that they could benefit.
+
+26:41.12
+Leor Golan
+Sure Yeah, look So they first of all the use case. You explained you could automate that in blink right? and you could even go a step further right? and this is this is something that would be more a high level decision that the company the organization would have to take but.
+
+26:41.25
+cassiodeveloper
+Consideringsecurity Of course I mean Blink its all about security. But and so.
+
+27:00.39
+Leor Golan
+You know you can automate that. But if you wanted to go that step further and and and really revolutionize how you work and we see some customers of ours doing that is that they say I'm going to take a position of a bit more you know, 0 trust style where within the organization. I Forgot how you mentioned that it started what what the user did but instead of them having permissions to do that. Okay, just openly and that sounds like I'm going to say Oh Now you're going to make it hard for me to work but just air with me for a second instead of it being open just like that within blink.
+
+27:24.78
+cassiodeveloper
+If a.
+
+27:36.23
+Leor Golan
+There's a self-service portal that has automated workflows that the builders of automated workflows put behind them. So the way some of our customers are are changing how they work is that they're saying wait a second I'm not just going to give people access to do everything. I had to because I needed them to be able to you know work speed a business right? speed of business but versus security but I'm going to instead remove access and all of the things that they should be able to do in that platform I'm going to build an automated process. That includes security guardrails and processes and approvals if needed. Okay, and even if not without approvals was just automated but then at least it's Audited. It's documented. We know who did what and when and they have to provide justifications maybe and I will expose that in a self service portal. So. If a developer needs something. It doesn't matter what it is if they want to do something or whatnot. Ah they could go into the self-service portal they click the you know and I gave this example to you the other day. Ah, for example, ah getting access to a database right. So that's ah, that's a use case where you know today they'll reach out to devops and devops will provide that to them. You know once they come back from lunch or from holiday or once they get to it and then they'll tell them here's access. Please don't break anything don't touch anything and then two months later three months later.
+
+29:01.70
+Leor Golan
+Security finds out about it in the hallway and they get upset because we were exposed for no reason and you know I'm glad nothing happened because otherwise you know people would have been upset here and instead of working that way you could build a workflow that is sits within the self-service portal that the developer can access. And can say okay I want access to from a dropdown the production database I want access for 2 hours right and you can have justification there here's the reason why I need this run and now devops doesn't even need to handle it. They can get it themselves like the workflow will do it themselves give them access and then and then take down. Access after the 2 hours or 6 hours whatever they click and but more than that and this is where it becomes really interesting with security. We. We're kind of bringing both worlds together is that security might say again like I mentioned before when something like this happens there are security ramifications. How? what would I do in that scenario to make this a secure process. Well besides just giving them access maybe from a security perspective. We need approval. We want we need to approve it so before access is given a team's message is sent to or or a slack message is sent on the channel for security that includes. All the information about what the user is requesting so leor is requesting access for 2 hours to the production database here's his justification and at the bottom have button options approved. Don't approve only approve for 30 minutes ask for more information and based on the button I click it'll continue.
+
+30:33.42
+Leor Golan
+The workflow it'll handle it for me but even more than that I can even do more enrichment right? like the step before I get that message I can have my crowd strike or my sentinel one or or Microsoft Atp or cortex xdr whatever can check hey does this user have an active agent on their endpoint that is. That is active and include that in the message leor 2 hours wants access to production database his we checked his xdr is active. Do you approve not approve, etc, etc, etc. So we're able to improve the speed of business right? Developers are able to get faster what they need because those. You know processes that otherwise they were dependent on bottlenecks such as devops and and others they no longer have to wait for it automated ah and security can get what they want by including the guardrails that are necessary right? And by the way in some cases I gave an example where there is ah an approval in the middle but not always right? Sometimes security will say. We really don't want to impede speed of business. So we'll just leave it without approval. But we want the message to come to us anyway or open a ticket or something or even if it's just in blink. It's already documented that it's been run. We'll have everything so we'll know you know who did what and when for the sake of.
+
+31:50.69
+cassiodeveloper
+I Yeah yeah and this this point that you describe it is like I see it even bringing more value as you said, for example, okay, this guy is like asking for specific permission for something but his machine as you said.
+
+31:50.69
+Leor Golan
+And issue if there is in the future. So there there are lots of things that can be done.
+
+32:09.20
+cassiodeveloper
+The agent of sentinel one or whatever is disabled or not active. Whatever not collecting So let's reject by the foe send this user a message for example or let's try to enable already. Automatically this agent and if some error then we got like you bring more things.
+
+32:28.76
+cassiodeveloper
+To the like someone from the from the service desk would read the sticked out someone needs approval. Ah yeah, he cannot have access as approved but all these checks they are not there or this person would do it manually I would say even if it's necessary.
+
+32:39.98
+Leor Golan
+And you know what? so here here's this is the stuff that I love right? It's this is why I'm very enthusiastic about this because what just what you just went through right now was one of those scenarios you're like oh here's how I would do it and you came up with with ideas right? I didn't give that an example, it's a great idea.
+
+32:55.48
+cassiodeveloper
+E.
+
+32:58.36
+Leor Golan
+And and let me share kind of my knowledge about blink about how I would take what you just did and and and add it to the mix now when I have when if there's a scenario and I would add this in blink if you know before sending the teams message if there's a if the agent if the crowd strike is. Inactive then I'm going to put an if there that that runs my deploy crowds strikeke agent to this user right? So I will build a totally separate workflow which I'll use for whenever I want to deploy you know a crowd strike agent and. Now I'm going to include it I'm going to put this workflow within the workflow so that before continuing before even sending me a message. How about have blink try at least to deploy the agent and if it succeeds then I'll get the message and it'll Show. It's active and and you know give them permission. And if not then I can even have the message say it's this. Ah, it's inactive their agent and we've tried and we've failed to edit which is another like oh I should go and fix this now like. Like I just discovered that I have a user in my environment that for some reason I can't get my Ed active on him which is which is a problem. So yeah, whenever and the beauty of it is so blink is trying to give you a tool that.
+
+34:28.35
+Leor Golan
+Is as fast as your creativity. So if you have a creative idea if you have an idea of what my process should look like it should be just as easy to go and blink drag and drop that into place and now it's going to be done like that before. We weren't able to do that because to do that meant I have to spend 30 minutes or a few hours writing code and figuring it all out as opposed to just dragging and dropping clicking play. You know on that specific step just to make sure it works.
+
+34:52.10
+cassiodeveloper
+A.
+
+35:04.58
+cassiodeveloper
+Yeah, for example, you just coming back to the topic that I that I brought with this question. We're using slack in our company today and for example, when I got this notification from this bypass on the brand protection I need to talk to this developer. So every time is someone that I need to.
+
+35:04.73
+Leor Golan
+Great, Wonderful publish done.
+
+35:24.26
+cassiodeveloper
+Hey hello you did this on this repository y more or less the same message so I created because like has also some workflows so there was some workflow that I put the username. The reppo url and who to contact I put the 3 parameters hit play and he will got the specific message already. He need to reply to me regarding the what the action that he did so small things that save my time to search for this guy name send a message wait for reply and so on because on this automatic message is already there you have this Sla if you don't contact me then I hit play again. It yeah, it already escalates. So. It's small things. But what's the problem I cannot connect a slack workflow with the alert alerts that I get so I still need to act myself there if I have $1000000 alerts I need to to hit 1000000 buttons. It could be already linked everything and do it for me automatically. So it's small things that when we see.
+
+36:10.23
+Leor Golan
+Um, yeah.
+
+36:21.94
+cassiodeveloper
+The whole company and we imagine a company like let's say 2000 people if everybody has already won one 1 just one small task that they need to do like this every day it's already saving a lot of time and as you said you are discussing something that ideas come up and you you use this very good like. Blink is as fast as your creativity is so if you have time to be creative. You will be also having time to improve your process itself and not not only execute what you're doing already. But oh I could do this I could do that could be better like this better like that and the limit is as you said the limit is is your creativity and to bring. Also. Then we we come to the close of the pro of of the topic. Yeah because the main topic is security. We want to be secure. We want to make sure that things are there running checking in place alerting whatever and with this kind of enablers I would say or enablement. Then you'll be you finally be able to have everything in place I I love to say about about ah the knowledge about car. For example, you are driving your car. You don't need to stop every 5 minutes to check the tires or to check the engine or you have the dashboard who is telling you this speed. You are how much fewer you have. Yeah, um, how much rotations per minute your your engine, whatever temperature, etc, etc, etc. So you don't need to manually check this if you have a problem you get an alert then you go to a specialist and check something It's exactly this as secret should be. You have your let's say dashboard or whatever and you get informations when you have a problem.
+
+37:54.80
+cassiodeveloper
+If You have a problem or information informational information alerts or let's say so that's the beauty of of security and I love to bring this topic always to the to the audience like guys. So again, we as defenders we need to know all our problems attackers just need to know one. So. The more benefits we can get the more we can enrich our our our security strategy I would say it's worth Yeah, please do it with blink. Whatever it's scripting but really yeah, but have this mindset of this bringingion.
+
+38:23.12
+Leor Golan
+With whatever. Yeah.
+
+38:30.85
+cassiodeveloper
+That will will be will be helpful for you. Ah now one last topic because when I know that time is money and still is not automated process to record the podcast so we need to talk for for some minutes. Um layer. What do you think it's It's a good approach for ah for for the companies itself like. Usually I say that if you try to automate everything. It can be a problem but this problem is regarding. You don't have someone to do this or you not have you notice escalate this Yeah, you're going to have a problem but it seems that with blink this idea that I have it's already gone like. You can actually automate everything is that true.
+
+39:11.78
+Leor Golan
+Look so you can't you can't automate everything everything right there there are limits at the end of the day you know like with sock 2 for example, we we don't we're not able to check if there's a key pad on the on the front door of the office that you have to swipe your card right? We can't. We can't do you know use cases like that unless maybe one day that company creates an api in which case you know protect the but but there there are limits to the platform. You know what? what? I say to my customers and how our customers usually use. The platform is you know they.
+
+39:34.58
+cassiodeveloper
+Yeah, yeah.
+
+39:47.41
+Leor Golan
+First of all, we'll still like to be in the loop of things you can do automation which is fully fully autonomous and runs by itself unsupervised I wouldn't recommend it. It's something that most customers don't do so they'll have a team's message come to them or a slack message or what ah ticket will be opened in service now or Jira. Whenever something happens so that they can take the action but the idea is let's keep the brain the human brain in the process and all the other stuff the bringing it to them and the execution or the remediation afterwards. Let's automate that so we'll give you button options that you click and decide what happens. And then you know it'll go out and get more information. Come back to you and say here's what we found. We did the the difficult work for you the the time-consuming work. How would you like to proceed so that's that's 1 thing I wanted to mention because that's something I've seen with our customers. Another thing is. You know it's it's quite a simple process usually that we go through with our customers. We'll make a list and always ask them. You know what are the and I there 3 areas specifically what are the most annoying tasks that you're dealing with your day to day make a list of those. What are the tasks that are. Taking up the most time in your day-to-day and what are the tasks that happen that are recurring um, very much right? So those 3 pillars you know they'll come up with a list of their top 10 and then we'll start to work on those. Let's automate those.
+
+41:20.11
+Leor Golan
+Once we finish that do build a list of the next 10 right? and so we kind of chip away at this tree that we're trying to chop down which is overload of work and what's interesting is you see how over time the customers start to say I am. Free suddenly to do this this and this and now I can forget 10 let's make the next list of 20 because I have more time you know so it's it's really ah It's really interesting. it's really interesting um but yeah.
+
+41:55.33
+cassiodeveloper
+Cool and 1 less thing just to to to finalize to finalize. There is a copilot as well. Right? like I can just chat basically and automation will be done right.
+
+42:08.68
+Leor Golan
+Yeah, so um, this is obviously with openai. It came out. You know we like every other vendor out there. We add there their layer of Copilot You know we have what's called Blink coppilot.
+
+42:14.80
+cassiodeveloper
+Yeah, everybody's doing the yeah.
+
+42:23.66
+Leor Golan
+Which takes openai and some of the others you know in the market throws up and top some IPOfHours and and some training and basically when you come into b blank and you want to build a workflow and this is why you can really say with blank. It's no code for for those that needed to be um, you just free text explain the process you want to automate you click.
+
+42:25.17
+cassiodeveloper
+So.
+
+42:34.67
+cassiodeveloper
+So.
+
+42:43.23
+Leor Golan
+Generate workflow and it creates the workflow for you now. It'll be like eighty five ninety percent of the way there right? because it hallucinates which is bad and good right? because sometimes it'll miss some things but it'll also add things that you didn't think of and you're like wow but that's a good idea for how this process should look.
+
+42:57.80
+cassiodeveloper
+And.
+
+43:03.31
+Leor Golan
+But then you drag and drop and just do the last final tweaks ah in that easy user, friendly manner. But it's a great tool it I build workflows all the time with it when I'm doing demos for customers when I'm in a conference. It's It's really interesting to see the results.
+
+43:19.26
+cassiodeveloper
+Ah, it's I would say that is the automation of automating. Ah somehow ah go cool. The guys automated the process of automating something. Yeah, it's it's It's pretty nice.
+
+43:21.42
+Leor Golan
+Um, yeah, yeah, yeah, yeah, yeah, you know there there are Microsoft coppiloott and there are copilots out there whose job is to be more of a query engine for what's going on in your environment.
+
+43:37.61
+cassiodeveloper
+Yeah.
+
+43:40.78
+Leor Golan
+Which is 1 thing one way of doing things trying to get that complicated and and give you kind of oh we have some secret sauce for how we do this stuff copilot with us is is strictly a platform and strictly a tool to help you build the workflow. So it just helps you kind of save extra time on how you automate like you said it helps you automate the automating.
+
+44:03.13
+cassiodeveloper
+Yeah, yeah, awesome. Awesome! Cool. We are 1 minute of the time. So I don't want to to have a a long shot. So ah I mean just thank you le for the time you want to add something more I want to say something more you want to give some tips I mean I'm already trying to. Find my credit card to to buy but still ill maybe I'll try to from from my seeso so you would add something more. We want to recommend something or.
+
+44:30.40
+Leor Golan
+Um, well for for the users for for for the folks out there I would just say in general and it's just reiteating rear reiterating what you mentioned before automation is super important. It helps you save a lot of time and. You know I've seen a number of people that have jumped in the organization specifically because of you know this additional layer of security that they've they've been able to provide the organization. So even if it's not with blink I recommend you guys to look into it. It's super important. Um, but and if you decide that while this sounds interesting blink could be ah, a game changer for us feel free to reach out to me feel free to reach out to us. Our website is Blinkop.com we are happy to have a conversation and discuss.
+
+45:16.88
+cassiodeveloper
+Go it will be all these links will be also on the description of this episode on the website that's aopspodcast.com.pr also in the Youtube description of the video and just 1 more use case to the end so we can finalize I just wrote a book. Which is is in portuguese sorry for the further folks in english but it will be an english version soon. But it was like open open written so people on the internet they were giving topics so I was writing the book so during the production they could have access to the book before even the the release of the book. Now. It's released it is on Amazon so on. But basically whoever was buying the book during the production as you mentioned zapier. For example I was using zaapper so whenever I have a payment on the stripe account then it was an automation process already to get this person email and add to the Google docs sharing so they could have access access to the book to the document. Yeah. I could not have this manually I have 100 emails then 1 by 1 adding to the to the so even to the to the lifestyle life stuff I would say automation is necessary either if you are selling something or doing something whenever you think that you can save time or spare time I think it's I think it's worth. Were for try so again, le thank you for for your time. Thank you for for talking about link and and the whole idea of automation and you are doing a very good job in the company in general say it's a very nice solution. Maybe you have open source or free version for someone but maybe for for another another topic.
+
+46:51.62
+cassiodeveloper
+Guys We see each other next week on the next episode. Hopefully the folks that I'm paying very good to record with me. They will be back I Know some of them are in vacation Zibra Zero Europe Whatever so stay safe now again one more time. Thank you for our time then see you guys Bye Bye anyway.
+
+47:03.90
+Leor Golan
+Um, thank you So take care.
+
