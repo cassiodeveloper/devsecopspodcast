@@ -1,0 +1,756 @@
+00:18.65
+cassiodeveloper
+Hey, everyone it's a pleasure to have all you here again for 1 more episode of deva cops podcast just to remember you that you are in a fifth season already I think this is the episode number 152 if I'm not mistaken so five years on the road. Please listen to the whole podcast. You have a full. Full package of content here I would say for free. Of course don't need to pay anything. But if you want we are accepting payments. Yeah I'm cassip perrea and today we will be discussing about application security in general because it's that what we do here on the podcast of course. But today we have a very nice guest.
+
+00:44.12
+Ben_Hur
+I Am bayur.
+
+00:56.43
+cassiodeveloper
+We introduce for you in a minute just before the the guest of course we need to remember that the defciops podcast has the support from nova eight and checkmarks oh so we have the support from gold security and digital wo so don't forget about our partners check them out on the website on the description of this video of course 1 the def seops. Podcast dot com pr as well. So today we have here Chris from Mend and Chris will be discussing was actually we be asking him because he's ah a master of the application security so we have a lot of questions for him Chris First of all, thank you for our time. Thank you for joining us here today and be able to share some knowledge. Please introduce yourself to the to the audience and again. Thank you 1 more time.
+
+01:38.50
+Chris Lindsey
+Sure. Thank you cassio my name is Chris Lindsey and my background I wrote software for over 35 years I've been in the security field for more than 15 and I ran an application security program for extremely large enterprise for over three years so there is not much I have not seen.
+
+01:57.69
+cassiodeveloper
+That's nice. That's nice. Go cool. Go Chris again. Thank you beer are you missing Marcus or these guys or no I think we are we are fine only both of us right.
+
+01:57.88
+Chris Lindsey
+It's fun to be here.
+
+02:06.49
+Ben_Hur
+We're fine right now. But Marcos we miss you guy.
+
+02:11.22
+cassiodeveloper
+Yeah, we're actually Microsoft is inbra 0 now on vacations. You know? Yeah, so he should be here in Germany because now we have I would say I mean not here Germany because I'm in Poland but he we have sun already a good weather so but he ran to Brazil anyway, yeah, but it's okay, it's okay, okay.
+
+02:14.51
+Ben_Hur
+Um, have.
+
+02:28.24
+cassiodeveloper
+Cool Chris I think the first question I want to make to you and let's say to is to introduce the the topics of the application security and and so on and our mission is to help developers help companies to build secure software. That's the whole idea of the devops podcast and 1 thing that always pop up to my mind always pop up from the audience is like. What to do first. It's requirements threat modeling saast ca it's to don't do anything like what as you said, you are 35 years ro writing software and security. So what do you think that should be done first from the companies that they want to start right now on onto the apppsek.
+
+02:54.59
+Chris Lindsey
+Fit and.
+
+03:06.92
+Chris Lindsey
+I Mean that's that's a fair question and that that's a great question because really, you have an ocean and where do you start because you can't boil the ocean and depending on the size of your company and depending on what you're doing really kind of defines of where you start? Yeah, think about.
+
+03:07.48
+cassiodeveloper
+Ah, Rio let's say.
+
+03:25.89
+Chris Lindsey
+Yeah, what is your your threat you know model look like what you know? do you have external applications or an internal application that changes a lot of things and you know talking about prioritization if this was let's say this was day zero I just walked into a company and I'm taking it over where do I start you know, honestly. I need to assess, you know what is my threat landscape. What do I have and and how knowledgeable are my developers because if my developers aren't very knowledgeable then the problem is is it doesn't matter what kind of tooling I have they're going to just keep introducing more and more vulnerabilities. And so you're sitting there chipping away at the mountain but you're not going to make any progress unless you start with them so prioritization to answer the question I would start with analyzing where are the developers then I would probably do it kind of a 2 or 3 pronged approach I would start with se and dependencies because. That's your low hanging fruit. You can easily go in there and just update all your dependencies. It's technical debt developers you know are like oh my gosh security I don't want to be involved with security I just want to write my software and do my stuff. And get things done but the reality is the dependencies is just low hanging fruit. That's just ripe for picking and I would start there and then I would then probably focus in on Sas.
+
+04:48.00
+Chris Lindsey
+Because knowing what your vulnerabilities are with your software and your developers is absolutely key because if they're introducing more and more vulnerabilities. You're not going to make any progress.
+
+04:57.75
+cassiodeveloper
+go go I would say that I agree also with this approach of okay, let me clean up my dependencs because it's we know it's a mass and it's it's normal and it's a long hang fruit. It's very easy to do it on the other hand is like okay let me keep this scanning on the saas. For example, let me let me. Introduce this continuous scan to make sure that I will not release any more problems or or deliver any more problems to to my customers users. Whatever and this is one approach and now I want a question to to bengor like Bay Ah Chris just mentioned that okay I would come to a place and make. Kind of an assessment of the developers to know if I have a high security knowledgeable developers or or low something like this which is more or less this approach from this Microsoft Sdl process that they describe framework like they they described it as first step is like training. Yeah, and. My question is how was in in in your company now that you have this level of developer high level of the when you arrived there. It was high level. You needed to do training. It was low level. How how it was if you can share of course and.
+
+06:03.46
+Ben_Hur
+For sure for sure here when I joined the company. We are a very metture in this process because we already have more than 500 persons in security or than a hundred epsac specialist here. So.
+
+06:15.91
+cassiodeveloper
+A.
+
+06:23.27
+Ben_Hur
+More than 15000 developers so it requires to be a match process for that focus first dependencies and why because 8% of our software are dependencies.
+
+06:29.32
+cassiodeveloper
+A.
+
+06:42.82
+Ben_Hur
+Are 30 part software and that's a risk that will be across entire fucking applications. So we will not develop all the things from scratch so dependencies first. Totally agree with Chris because it's a long hand for it. Okay, if we.
+
+06:45.68
+cassiodeveloper
+Um, you hit me.
+
+06:47.91
+cassiodeveloper
+That sir.
+
+07:01.96
+Ben_Hur
+Go very very simple with this topic is to make a check for each dependency we have that if head of vulnerability is covered or not so and make an update appears to be simple. Track if we are vulnerable but the process to upgrade those dependencies in a large scale could be a challenge so and another way that's a topic that took goes off a little bit after in this conversation. Another topic. It's about training. And why training because we do not have much blockers to train our developers. So For example, if we know what are languages what languages we use What Frameworks we Use. What are our development process. So. Know these kind of things for an Appe specific So Appsec Area. It's crucial then we can think about what we want to prevent and training. It's extremely good from in my point of view for spread the word of secure defaults. For example. If We have a default right now for take care about secrets which vault we need to use what we should have what we should do about secrets in in General. What's the process we could use documentation and training to spread this word. So.
+
+08:38.66
+Ben_Hur
+I agree totally with these two things dependencies because it's 8% of our software and education because no those such requirements to create that and spread across the entire company.
+
+08:56.47
+cassiodeveloper
+That's cool. That's cool I Totally agree as well and I would put a bit of more pepper on on this on this topic. Let's say to to make it more hot I believe that the the companies they should look to themselves and say like Okay, what is my business Risk. Oh I am an ecommerce I am ah I'm a ah critical infrastructure provider I am an out. Um, Ah, how to say a auto car software. Whatever So Sometimes they ah they think only on their own business impact in their own pockets and it's okay, no problem with that. The thing is. They forgot they forget Actually what are their impact on the society because when yeah because when I'm a bank is not only I will lose money my employees. Whatever whatever. But I also make an impact on the society people will not be able to take their money if I have a breakdown people will not be able to pay something. Yeah.
+
+09:34.96
+Chris Lindsey
+Right.
+
+09:47.73
+Ben_Hur
+They is crashing their cars.
+
+09:49.62
+Chris Lindsey
+Oh absolutely.
+
+09:51.30
+cassiodeveloper
+Exactly yeah, exactly. So I think companies they to to trigger this okay where do I start or how how many how much security I need like saas has ca training is everything or so like they they should think. Okay, if I stop my business right now or if I have a security bridge what happens. What is the impact on the society considering the the service that that I provide ah the software that I provide us something like this and given this pepper to the topic i' would say this to make it more hot What do you think? Chris that should be should be also part of this mentality on this company like they should start this mindset with. Training as putting ah a link what Banin were just said together with future because future is also a very hard thing to introduce or to change like mayirer said his company was already mature a lot of people it it was easy I would say to introduce ah to introduce appsec and this kind of thing.
+
+10:35.64
+Chris Lindsey
+You have.
+
+10:49.14
+cassiodeveloper
+In other companies like it's harder you you need to lock Knock knock and try to put try to bring the idea of security there. Ah no, no, no so what do? what do you see on this with this perspective. Yeah, how do a.
+
+11:00.50
+Chris Lindsey
+I mean you know you're bringing up great points I mean the reality is that relationship between the development team and the security team is absolutely critical. 1 of the things that I've done. Frequently when I'm at trade shows when I'm at conferences when when I'm speaking to people on Linkedin you know I always talk about apis because everybody's oh I need this api tool I need this api tool and my question to them is are you a multi-tenant system. And when they come back and they say yeah we're multitenant you know, kind of like a bank or or kind of like you know, most websites are where multiple people can log in the developers are only focused on trying to get their task done. They're not focused on you know can I take data from you know if I log in and I pull. You know I have great w you know Jwt token where I can pull in I can log in authenticate I'm in but they're not tying down the data to the actual user or company or group and so what happens is you have somebody that can come in they can pull data from anybody and. They're not even looking at role-based authentication. So all of a sudden now I can sit there and I can pull everybody's data I can do a lot of things and I actually did this at a trade show I had a guy come up with and asked me he goes hey why would I need you guys and and I explained what we do and you know the tooling that we have and I asked him.
+
+12:16.62
+Ben_Hur
+I Had a guy called.
+
+12:27.77
+Chris Lindsey
+Yeah, what do you think and he goes I write. Good. Great clean code. It doesn't matter I write stuff and I said well let me come over and I had burp suitite on my laptop and I write in front of him showed him why he needs security I said really for the most part, you just need the api guy. That's yeah Ford booths down on the left. And the look on his face was just priceless. You know right in front of him I created these accounts and boom took the data. The other thing you were mentioning too. Is you know the training and working with your developers and getting them to understand the whole purpose right.
+
+12:51.71
+cassiodeveloper
+It.
+
+13:05.34
+Chris Lindsey
+Out of the 35 years of development I'd say at least twenty five four in healthcare and when you look at what happened with change healthcare and when you look at the different data that's being stolen the value of data I was just speaking to somebody yesterday about this and they asked me why is this data so important.
+
+13:08.57
+cassiodeveloper
+Are.
+
+13:23.56
+Chris Lindsey
+Why is Healthcare data so important and the reality is it's worth a lot because if your developers understand the value of what you're working on if it's healthcare just say look what if it was your mom's data. What if it were your family's Data. Bring it kind of make it personalized. And help them understand that look Healthcare Data is extremely valuable because if I know your medications your diagnosis your allergies all your notes all your details. Guess what I can sell that to doctors or companies or malicious actors who are sitting there. You know. Spamming these people hey guess what if you have this problem which you know you you know they do then all of a sudden you're going to really suck these people in and having that background you can mimic and say hey look I'm part of this company here and see I have your notes and let me help you. So I mean.
+
+14:17.83
+Ben_Hur
+See yeah for sugar. It's because for example, if my own company has all information about my health of conditions could they take the decision to fire me or something like that and if it disclo with other companies.
+
+14:18.16
+cassiodeveloper
+Um, now that's.
+
+14:19.19
+Chris Lindsey
+Um.
+
+14:32.38
+Chris Lindsey
+Here.
+
+14:37.65
+Ben_Hur
+Other companies. Hes a way we will not hire this guy look at his bunch of the guy exactly is oh but as it's on own data which yeah, this.
+
+14:43.81
+cassiodeveloper
+Um, he's almost dying and let's not take this risk. Ah, he.
+
+14:44.12
+Chris Lindsey
+Um.
+
+14:47.36
+Chris Lindsey
+If.
+
+14:57.21
+Ben_Hur
+Chris is it's a thing that's really really important and I saw that in the development field for some years I have a bad developer background as as well and as a developer much of the time we are taking care about our code our profession our skills. But.
+
+15:13.69
+Chris Lindsey
+Um, absolutely.
+
+15:16.57
+Ben_Hur
+But not the product. The risk we what we are building for the community. So that's mentality when we try to inject some security mindset. It's it's hard.
+
+15:31.42
+Chris Lindsey
+E.
+
+15:36.19
+Ben_Hur
+To to just make then understand this this new kind of thing that I fucking really need to do that is security because much of the time I feel that hey that's another. Task that I need to do that I'm not paying for and yeah.
+
+15:55.70
+cassiodeveloper
+Are.
+
+15:56.20
+Chris Lindsey
+Right? right? Well exactly because I'm on a short time span I've got 2 weeks I've got to get this stuff out the door. Let's get it done who cares about security cut the corners get it out the door.
+
+16:11.96
+Ben_Hur
+I'm not I'm not having paid for that is this? Ah and yeah, it's come about security chambers and gammification. Do I not know because they need to feel that.
+
+16:13.69
+Chris Lindsey
+Somebody else's problem.
+
+16:15.40
+cassiodeveloper
+Um, yeah.
+
+16:25.40
+Ben_Hur
+Okay, now I have a little bit more interest here because I'm probably we paying for So that's exactly something like that.
+
+16:31.49
+Chris Lindsey
+Yeah, well and with the security champion program that I mean you bring up a good point because so many companies have failed at it that have tried and there's a lot companies that haven't even tried to do a security program and.
+
+16:32.57
+cassiodeveloper
+Um, yeah, oh get something extra.
+
+16:50.21
+Chris Lindsey
+When when you look at the value a champion program brings you you can pay these guys a little bit more right and a company I I had over 700 developers plus beneath me when I was running my program and you're double that size but think about it this way if you had. I don't know let's call it 15 to 30 champions and you're just giving them 2 to 3 maybe $4000 more benefit or bonus for being a champion what that's one fte right? That's only 1 person but look at the spread look at. The value you're bringing across the board and I've had people tell me I'm nuts for paying a little extra for a security champion. But when you look at the value they bring and and the one you know you pick the people who really want to do it and are excited about it because you know all of a sudden you're like look. This is equivalent to your playstation 5 plus several games I mean they're excited right? and they jump in and they do it.
+
+17:48.45
+cassiodeveloper
+Exactly that this X X This extra motivation is I would say unfortunately needed should should be by the fall. Maybe maybe I'm too optimistic, but maybe maybe maybe I'm wrong. But.
+
+17:49.37
+Ben_Hur
+Exact expect.
+
+18:05.30
+cassiodeveloper
+I have I have one another point just I smoke break from our voices. Ah I have one point which is I think Chris mentioned exactly this like he was approaching a customer or something and this guy why we have a clean code practicing practicing. Best practice why I need security then he go with burp suititee got some data. Okay, that's why you need security. This is one approach when you show not even the risk you're already showing the damage. Yeah, you're already showing the impacts. What things can happen I would say it's the same ah as our lives. Yeah people why why? I should go to the gym. Why should eat healthy. Why why why why? And usually we don't ask ourselves those kind of questions until we get some ah diabetes until when until and you get some lever problems heart problems and then we go to the doctor and then this got her amen look. In 1 year you're going to die if you keep this routine if you keep this lifestyle you need to change it right now stop drinking go to the gene. Whatever but someone someone with authority told you the impact that it's your life. It's in the the biggest hit risk in these case is you lose your life if you don't do this way.
+
+19:06.76
+Chris Lindsey
+Finish.
+
+19:18.96
+cassiodeveloper
+But for security cyber security nobody listened to us. We say let look guys if someone do have a sq injection vulnerability in their code if someone gets into it. It will take your whole database. Ah, it's okay, like why why we don't have the same power Chris this is a question for you maybe know the district.
+
+19:32.26
+Ben_Hur
+I think but this is.
+
+19:37.71
+cassiodeveloper
+Why we don't have the same power as doctors has you got the analogy right? But I mean yeah.
+
+19:40.74
+Chris Lindsey
+Right? right? Oh yeah, absolutely um because you know really developers don't understand security and the impact they just simply don't understand I ran into this and I've helped multiple companies over the years and the reality is they just don't understand the impact. And one of the things that worked well for me and and this would be great for you know, think about this right? If you're using burp suite or you're doing something and you want to show somebody the value and what's there record it screen record it showing you actually doing the attack and getting the data. Because developers are very proud proud people they have a lot of pride. They're like I write good code I do I mean just like the guy right? I'm great at what I do I'm the best their ego fills rooms and you know the reality is is I can't do any wrong and so.
+
+20:29.77
+cassiodeveloper
+Um, yeah.
+
+20:31.30
+Ben_Hur
+Have really.
+
+20:34.60
+cassiodeveloper
+Here here here.
+
+20:38.60
+Chris Lindsey
+Developers You know when you start showing them in in training them and in getting them to understand what security does then all of a sudden you start building a little bit more value in the security program where you do tell them look. You've got this. They're going to start listening.
+
+20:53.53
+cassiodeveloper
+Especially because security sometimes or let's say application. Security is more preventive than reactive right? We are looking vulnerability before release we are talking about threat modeling security requirements. It's like everything on the left.
+
+21:02.95
+Chris Lindsey
+Here.
+
+21:11.64
+cassiodeveloper
+Yeah I don't like this term shifting me I have to like but but yeah, it's like this. It's we are everywhere to prevent something. We're not a waff or fire we have mean they might be part of the hour of our life. But we're preventing things. Yeah, so this.
+
+21:15.22
+Chris Lindsey
+Ah.
+
+21:27.47
+cassiodeveloper
+Cost Also for the company they okay but how much cost is this to prevent something that might not even happen and then as you as you said okay, show me the attack show me the data now it can happen and this is the impact. Oh okay then I will react. Actually yeah, it is to a reactive way. Thank you.
+
+21:31.27
+Chris Lindsey
+Right.
+
+21:36.99
+Chris Lindsey
+Right. Right? Can can I add something so a lot of developers feel like the the edge tools the firewalls the Web application firewalls. All that stuff can protect you that they see it as the Golden Bullet right.
+
+21:44.75
+cassiodeveloper
+Yeah.
+
+21:54.44
+Ben_Hur
+S.
+
+21:56.70
+Chris Lindsey
+And you know this magic can do everything so I don't need to worry about it and the the visual that that I always explain think of game of thrones think of the battle scenes where they're all lined up row after row after row and there's that center column. And you have the castle in front and everybody's behind and you're viewing the castle your packets your requests your apis your web your traffic if it's valid. It's going to go right down the road and get to the castle. No problems. The edge is going to say you're good. The web application firewall you're good. Everything's great. You get to the castle and now you create chaos and that analogy when you start explaining it to developers and you start showing them all of a sudden they have that aha moment now that magic edge disappears and you can show look. You can do sql injection. Where all that you can bypass that stuff all day long and with the invention of Ai and and with all the automation out there guess what it will do it for you.
+
+23:03.53
+Ben_Hur
+Was effect.
+
+23:03.59
+cassiodeveloper
+I it will be easier just to mention some meanme not mean me actually was a real test that I saw yesterday Twitter maybe someone with a video and was a guy with the sign of stop like holding the sign of stop homemade to the tesla to the tesla auto autonomous car and the car was stopping in the middle of of of the road like.
+
+23:16.39
+Chris Lindsey
+I Saw that.
+
+23:23.25
+Chris Lindsey
+Make it.
+
+23:23.50
+cassiodeveloper
+But was a fake sign. Yeah I mean it was a real fake sign. Let's say so how how to prevent this kind of situation some dumb stupid guy who would be there with a sign and make your car stop on the highway. For example, like how to prevent this kind of things but I mean challenge of the new world. That's that's the that's the real thing.
+
+23:38.42
+Chris Lindsey
+Oh yeah.
+
+23:41.58
+cassiodeveloper
+Ah, but you do do you have do have idea. Ah I mean not idea. But you mentioned we mentioned training in this kind of future how to change the mindset and so on did you have some some I don't know another better word. But let's use this one. Do you have some conflicts with development teams. Regarding this what Chris mentioned like they have big ego I was developer as well. I had big ego now I'm security. My e is beer is bigger because I know because I know know security and codes.
+
+24:05.60
+Ben_Hur
+Um, yeah, it. It's a commo side effect road security and now I know how the things work and now I will break the things So my ego is and charles. Yeah, it's it's.
+
+24:16.27
+Chris Lindsey
+Um.
+
+24:21.37
+cassiodeveloper
+Ah, even worse I go back and break my own code in some companies. So say that they are not. They are not secure and no just kidding but did.
+
+24:25.80
+Ben_Hur
+With me.
+
+24:28.13
+Chris Lindsey
+I.
+
+24:31.17
+Ben_Hur
+I'm a guy driving the time in the timing kill this shit. Yeah.
+
+24:32.52
+Chris Lindsey
+Is.
+
+24:36.40
+cassiodeveloper
+Did you have some conflicts with development teams like approaching with security and so can you share this experience. Yeah, yeah, you you can jump in and then Ben can explain so power.
+
+24:40.28
+Ben_Hur
+And.
+
+24:41.93
+Chris Lindsey
+You know honestly I had a great relationship. Oh did you want me or Ben okay sorry Ben. Um, so so now and on um.
+
+24:51.41
+Ben_Hur
+Um, if.
+
+24:51.48
+cassiodeveloper
+You are You are the you are the guest you have you own the podcast now don't worry, but.
+
+24:58.60
+Chris Lindsey
+You know honestly I had a great relationship with my developers you know coming in from being an architect and and knowing the lingo and knowing it you know it it really it goes so far and the reality is developers when security throws all their crap over the fence right? Hey Guess what. You have this number of vulnerabilities from this tool block and the problem is developers look at that and they go what the hell am I supposed to do with this and I have all that stuff that I'm an over from Security. It means nothing to me without context and that's why.
+
+25:25.77
+cassiodeveloper
+Um, he.
+
+25:28.15
+Ben_Hur
+Um, moved with family.
+
+25:34.60
+Chris Lindsey
+You know all the application security teams need to have a developer on there because then you can take it. You can weed out the crap or weed out the low stuff that means nothing if you have a command injection and you're writing a console or a application that runs from the command line or the terminal. It doesn't matter. You're already on the box. But if you're running it within a context of a web it means everything and 1 thing that I did to help companies and I did for for my own because to help bring in security into the developers I worked I reached out and had. Started off as 20 and we ended up with 27 but I reached out to the software architects for their very large teams down to the small the guys who were well-res respectcted within the organization I said let's put together a document that does 2 things I want to know code writing right? you know? ah. Oh the term just um, basically the the quality of code right? You're going to write the code properly. This is how you're going to do it. Company. Why this is our company standard yeah code standards here's our company code standard. But then we're going to tax security into it. So when you're doing an Api or a ui.
+
+26:37.12
+cassiodeveloper
+Um, cold cold you mean code standards can kind of.
+
+26:50.61
+Chris Lindsey
+And you have a failed login. You don't just say Invalid Password Guess what now I know the Username's right, It's the invalid Username or password make sure your return codes are are valid and good but also not giving the the keys to the kingdom away and so. This api Document. We put together was eighty plus pages and the beauty. The beautiful thing about it was. It's now a required thing having code quality and and code standards there for the company now means that even the new guys walk in in the door have to adhere to it. And you've also sprinkled in your your pepper your security into it and and now it's now it's on fire Now. It's helping.
+
+27:28.18
+cassiodeveloper
+Um, yeah, you know cool Ben you you can talk now.
+
+27:33.20
+Ben_Hur
+Yeah, deadly like Chris said for me will be. We have a great big and impossible battle of developer if we put other vulnerabilitner bits in a single repart. Send to them and fix that shit. So that's the the way I haven't seen work for many years and here we do not have this friction with developers. But why is the most important first every vote in ability. Have a report good but how we send this report to developer team. First we explain to them that the attack path the risk we were involving a call in a chat. We. We are leave. Let let me present to you this vulnerability because we do not have thousand vulnerability per month for example to make impossible to have a chat with them. So every vulnerability. Should be also a training because if we find a vulnerability depend on the vulnerability. It's not a single vulnerability. It's a problem in the entire application security stack. Why sast does not catch the vulnerability. What if this vulnerability.
+
+28:49.26
+Chris Lindsey
+In.
+
+29:07.71
+Ben_Hur
+For themqical injection. Okay, let's say it's our training program. Why does this still happen. So Why why? these vulnerability is to printing our codebase. This is not another vulnerability report another fix and tomorrow another developer will put that again in a code so vulnerability should be explained in in a form that we can teach the explain the vulnerability explain the attack path. Something like talk about security but not using security word. For example, let me show you like a bug in the software. So yeah, oh if if I test these api here. It's works perfect. But.
+
+29:47.54
+Chris Lindsey
+In his.
+
+29:53.15
+cassiodeveloper
+Um, let me show how can you lose your job real quick. Um.
+
+29:57.10
+Chris Lindsey
+Um.
+
+30:03.50
+Ben_Hur
+But if I put in this field here in the request this kind of thing what happened and let them participate into understand of the vulnerability. Oh now what happened bro let me just tell me what what happened here. So and then.
+
+30:08.30
+Chris Lindsey
+In.
+
+30:22.40
+Ben_Hur
+When we want to fix have 2 ways first you need to fix in this way end of this transmission. No bro. How do you think we can fix this thing call the developers to in the solution.
+
+30:28.53
+Chris Lindsey
+In.
+
+30:40.89
+Ben_Hur
+Because their ego are important. They build the software they want to build the solution too because if we build something for for you. Okay and another person came and just put a fix in your side. You feel bad because you are not. Now part of the solution for completely because you do not. You are not responsible. For example for the Fixes. You are not responsible to propose something that will be better and sometimes that's really important an application security. Basically this application security engineer does not have much experience skills for development that a developer has so probably sometimes your proposal for the fix is not the best as they can do so. Get then into the conversation Bro. We have a problem. It's not your problem. It's not my problem I I am here to help you about Security. You are here to create software for the company and we both of us have a security problem. Okay, like we need to attack. The problem I'm not an attack you I'm and well exact, not Person. So How can we fix that to get it.
+
+32:01.64
+Chris Lindsey
+Yes.
+
+32:02.16
+cassiodeveloper
+Um, is not personal.
+
+32:09.31
+Chris Lindsey
+Yes.
+
+32:09.91
+cassiodeveloper
+Um, together I look I really agree with this disagreeing because yeah, and it's the next question to Chris and we go and we drive to the end of the conversation. Ah, unfortunate times goes fast. But. But it increase I really agree with with what Ben said what you said, but there is 1 point like I I will bring a knowledge again I go to the doctor I'm fucked up the doctors say look man you have diabetes, youre whatever anything you have everything? Yeah you're gonna die if you don't fix all these problems. You need to go to the gym stop ah take this and that medication you might need a surgery and all that in the next six months or is the end of your life. Okay, then you're gonna fix all this will not have been It's one or other first some of the at the same time but you're gonna fix it right? You don't want to die.
+
+33:00.74
+Chris Lindsey
+Yeah.
+
+33:02.86
+cassiodeveloper
+And go go back to the doctor check. Okay, you are on the good way. Let's keep this fine instead of dying in 1 year you can you might have 5 more 10 more. Never nobody knows that that's that's one approach and as you said we take a lot of bits from saast se threat modelings threats.
+
+33:11.31
+Chris Lindsey
+Right.
+
+33:21.74
+cassiodeveloper
+Waff alerts whatever and then we throw all this to the developers and as you said developers who say what? how I supposed to do with that and that's 1 thing. It's obvious that they need to fix but exactly they need the context and so on but my approach is why or what if we so instead of talking to the developers. And this conversation still must happen because we need to help them to fix as you Ben said find the solution with four hands. Um, but stop their decision to fix or not. It's business decision. So like we should go to the sea level would the hell has the read the kingdom papers instead of the kingdom.
+
+33:46.93
+Chris Lindsey
+In it. Um, right.
+
+34:01.20
+cassiodeveloper
+Keys and like man we are fuck if you don't do this? Yeah, it's like the doctor sometimes the doctor will go today and you have cancer I don't care then hit doctor say okay, let call me call your wife out'll talk your wife then you she will help me fix you yeah because because she's us. Yeah, so what do you think we we should
+
+34:01.91
+Chris Lindsey
+Right? ah.
+
+34:13.76
+Chris Lindsey
+Yeah, absolutely yeah, yes.
+
+34:20.60
+cassiodeveloper
+Top between codes talking to the developers as Appset guys on these driving decisions going to higher levels and of course that would that would come a technical part that we need to talk to them help them fix the vulnerability. Why maybe show the the attack happening. That's that's fair.
+
+34:27.36
+Chris Lindsey
+Right.
+
+34:38.10
+cassiodeveloper
+But the decision on fixing is not their decision and what do you think.
+
+34:38.28
+Chris Lindsey
+Right? So actually you're you're right? and so you know honestly wait you know I'll say it again just because you know you probably don't hear it enough. You're right? um.
+
+34:52.94
+cassiodeveloper
+Ah.
+
+34:53.81
+Chris Lindsey
+The the reality is the c-suite all those guys need to be involved and so a good application program is also putting together monthly stats and sending them them up to the executive level because the reality is when the executives understand what the risk of the company is that helps you buy in to what's going on. If that risk is going up. The executives are going to be like wait. Why are our vulnerabilities like the stock market going up and up and up and then crash. So the the reality is you know on a month -to month basis put together a report let the guys know and explain the risk you know your your seeso if you have a seeso. They can go to jail if they don't address the risks and from a company standpoint the board of directors if they don't understand the risk you've got bigger problems and when you are in an environment where you've got the buy in from the executives then it grows I I'm gonna throw 1 more thing in here real quick. I always did a developer week every summer for all of of the company and the first day I brought in the directors, the management and invited even the ceo all the way you know top down and I explained here's what we do in our application program here's the value it brings and here's what we're doing. I need you to make sure that your guys have the buy in and then days for ah the next four days and this is just over lunch about a 2 two and a half hour window every day and then over the next four days I spent the the next day with the managers are the guys running the tools who are going to be kind of your administrator super users.
+
+36:21.30
+cassiodeveloper
+Um, mother.
+
+36:26.50
+cassiodeveloper
+He.
+
+36:29.11
+Chris Lindsey
+And explain it then I bring developers in and and when you show them the full transparency of what you're doing and why we're doing it. It drives home everything and you can be a little nasty if you wish which I kind of did I wrote my own endpoints from. Um, the source code management tools I had it receive in my own Api endpoint secure which is great and I would actually kick off scans and things that happened so everything was being looked at.
+
+36:53.39
+cassiodeveloper
+Ah.
+
+37:00.67
+Chris Lindsey
+With that information I saved in the database I would send an email to the developer with every commit what was found and at the end of every week I would send out to the entire team. Anybody that committed to that Repo in four weeks got this email that showed the overall vulnerabilities across the board and the value that it brought was. Crap that's my work and I'm on this list now I'm looking dirty to my team It's a little dirty but it works very well. You're not shaming the guy but you're saying look clean your stuff up do better and when you do better, you're gonna be better.
+
+37:33.52
+cassiodeveloper
+Yeah I'm I'm kind of sometimes I'm how to say not so much flexible with some things. Maybe I should be I don't know I was developer so and now I think we have too much flexibility when it comes to to security.
+
+37:42.27
+Chris Lindsey
+And.
+
+37:46.47
+Ben_Hur
+The 1
+
+37:51.96
+cassiodeveloper
+Like in Brazil. For example, you can in the past you could drink I don't know some percentage of alcohol and drive now it's zero because it was too many accidents people dying every season holidays. Whatever so now it's zero if you got drinking if you got to with alcohol you lose your driver license. You go to the jail o that's all.
+
+38:00.73
+Chris Lindsey
+Um, and.
+
+38:11.41
+cassiodeveloper
+I Mean you pay something finance finance something and then you go out, but it's more heavy penalty and so when it comes to application security and software software that are controlling our lives on our cars our payments and so on.
+
+38:11.52
+Chris Lindsey
+Yeah.
+
+38:16.92
+Chris Lindsey
+Right.
+
+38:24.77
+Chris Lindsey
+Right.
+
+38:27.37
+cassiodeveloper
+I'm still this not like we should not be much flexible I agree with what you said, but I mean this flexibility in case of art. We fixed this one day. This is not priority now. But definitely the board the executive they must buy in otherwise it will not happen.
+
+38:41.57
+Chris Lindsey
+Well I have a simple answer there. You tie their bonus to the vulnerability. You stay all all your vps all your yeah development managers. You know if you're going the wrong direction. Guess what? you don't get your bonus.
+
+38:48.67
+cassiodeveloper
+Um I think but think you.
+
+38:49.83
+Ben_Hur
+Who are.
+
+38:59.50
+cassiodeveloper
+Um, but pockets pockets the the famous pocket pan right? I take bay where you have if you could share I think you have some situation like these right? the Keypis or slas or something attached to the bones right.
+
+39:00.19
+Chris Lindsey
+And follow that. Yes.
+
+39:06.38
+Ben_Hur
+Yeah, for for all those things we have some metrics for trust models and tre finding all tre models have a list of actions so that required for the team. And what we need for that is some documentation on some proposal.. How do you fix this threat scenario. Okay, and that's good that had steady out for vulnerabilityies. It's a little bit more hard. We have a vulnerability s a yeah s L La S s a.
+
+39:40.00
+Chris Lindsey
+Is it.
+
+39:41.24
+cassiodeveloper
+Answerly.
+
+39:43.17
+Ben_Hur
+Structure that has impacted the entire company. the the v has vulnerabilitbilities is not part of this this is that in so hard way because first. Sql injection. We need to catch it and evil an evil sa in the sa level because if we are not catching then who's the fault developer that put is thecation that the train is not going for as well. It's the Sas team who the fault.
+
+40:11.26
+cassiodeveloper
+Um, he.
+
+40:16.37
+cassiodeveloper
+Um, it's missing.
+
+40:20.92
+Ben_Hur
+So for vulnerability is not so so much hard. But for the cellla Yes, because once it's reported once it explain it one once it's okay because the communication channel is already established in clear and direct and. Communication The developer communication. It's It's always a priority if we have a bunch of things to do withate as a location here engineer if a developer has request a help to fix some vulnerability. This should be a priority. So.
+
+40:45.00
+Chris Lindsey
+Yeah.
+
+40:47.40
+cassiodeveloper
+Um, know who.
+
+41:00.70
+Ben_Hur
+Yeah, we already I hear risk Dsla has impacted. So.
+
+41:04.26
+Chris Lindsey
+Absolutely absolutely.
+
+41:05.60
+cassiodeveloper
+Um, cool cool Chris 1 1 more thing we have more like maybe three four minutes how Mand as ah as a secure vendor. Let's say how they help us in general I know about saas that ca and these things but. How do you see the product itself on this whole chain that we discussed that could facilitate our lives and let's say.
+
+41:26.92
+Chris Lindsey
+Well thank you for asking so mend in general think about it we can. We can go far I hate to use the word left. It's not shifting left but we can go all the way down to the developer desktop all the way up to your pipeline in your production. So we have the ability to see everything side to side and really yeah, we have tools like renovate that you know people. It's not a security tool. It's actually code quality tool. It's free. One point four billion downloads and github and it will create pull requests to keep you current. If you have a finding what are you going to do? Oh I'm going to update guess what stay updated and and that will help take care of a vast majority and with the se tool knowing you know your indirect or your tritiary dependencies knowing that I have something 4 or 5 levels down.
+
+42:07.98
+cassiodeveloper
+3 o.
+
+42:23.38
+Chris Lindsey
+You know, not your primary. You know, direct dependency but your indirect now I have that visibility into hey I've got a problem with this library that I'm using and you can now start reaching out to the developers in the open source community and helping them. Ah you know containers do I have a good container. You know our our company does a great job at our tools but we also do an amazing job at explaining and helping others know what a good security program looks like so it's not just a tool vendor but we're actually helping them get and understand everything and one of the things and. You can cut this out if you want but on Linkedin I post 3 times a week all about application security and I'm not specifically pointing out any vendor I'm actually just raising the the bar and the awareness for application security across the industry. Yeah, people ask me? Why am I doing it. It's because I care and I'm very passionate about that helping everybody and others.
+
+43:22.53
+cassiodeveloper
+Awesome! Awesome I would say that aoff podcast has a competitor but actually no we are we are actually partners. You were sharing content. We're sharing content because we care about salters that cares about us as you said you are working HealthHealth care a long time. So.
+
+43:35.98
+Chris Lindsey
+Right.
+
+43:41.15
+cassiodeveloper
+We all need healthcare care either public either private but it's it's how it is ah on the description of this video I will share all the links that Chris provide me probably Mand Mand renovate his linking as well will be everything in the description of this video that on the Youtube channel of course from the. From the how to say I I miss the name from dizer from Amazon music from Spotify. You cannot download links. So go to the Youtube it will be easier to catch all this information there right? So any last message any kisses and and goodbyes that you want to say chris bang. We are about to finish.
+
+44:20.76
+Chris Lindsey
+I'm I'm going to just share what I always do on my Linkedin stay secure. My friends.
+
+44:26.19
+Ben_Hur
+Chris thank you for your time. Thank you for support here I think the industry right now is probably outdated about security and they need they need professional. They need.
+
+44:26.34
+cassiodeveloper
+Um, awesome. He.
+
+44:45.85
+Ben_Hur
+People to help insecurely. So The industry is bigger than our skills in Apps Secret Security provided and available in the World. So Thank you for your support for the community. And if you guys do not to use renovate bot. For example, related Dependencies. You are missing us so fucking. Awesome cool to okay and thank you for all your support for the community and the field of application Security figure.
+
+45:09.32
+Chris Lindsey
+5
+
+45:13.41
+cassiodeveloper
+Um, a.
+
+45:18.71
+cassiodeveloper
+Cool again Chris thank you for our time. Thank you for joining us. Thank you for creating and sharing content as well. I think it's it's a lot of big value that that people must must definitely start reading start consuming even more.
+
+45:19.33
+Chris Lindsey
+You welcome.
+
+45:34.67
+cassiodeveloper
+And I think that's it we see everybody on the next episode this was episode 151 or 52 if I'm not mistaken I believe 52 ah that's it. So I'm casso perreta and.
+
+45:46.20
+Ben_Hur
+I Am bayur.
+
+45:48.27
+Chris Lindsey
+And I'm Chris.
+
+45:51.56
+cassiodeveloper
+Awesome! Awesome! Thank you guys see you in the next week bye bye
+
+45:54.68
+Ben_Hur
+I.
+
