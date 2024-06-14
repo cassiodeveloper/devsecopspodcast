@@ -8,7 +8,7 @@ Finally, the episode delves into disaster recovery planning, highlighting the st
 Whether you're a SaaS provider, a business relying on SaaS solutions, or simply interested in cybersecurity, this episode is packed with valuable information and actionable tips to help you protect your data and ensure business continuity in the face of digital threats. Don't miss this enlightening conversation on the importance of data protection, backup, and disaster recovery in the ever-evolving world of SaaS.
 "
 file: https://api.spreaker.com/v2/episodes/60382533/download.mp3
-length: 0
+length: 49:15
 videoid: LtvCyn8Y89A
 cover: "../assets/img/512.png"
 transcription: ""
