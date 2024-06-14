@@ -1,0 +1,544 @@
+00:18.27
+cassiodeveloper
+Hello everyone thank you for coming with us 1 more time. It's a pleasure to have you here. This is 1 more episode of defsa cops podcast I think is episode number 153 so it's a lot of episodes a lot of hours. A lot of content that you can. Follow up on us I would suggest that you in portuguese you would say you need to marathon now we have a marathon of episodes from the first season until now a lot of content. A lot of nice guests like we have today that we introduced in a moment before I'm cassip perreta.
+
+00:51.46
+Ben_Hur
+I Am beard.
+
+00:54.89
+cassiodeveloper
+And it's a pleasure also to announce that the deva cops podcast comes in partnership with Checkmarks and nova eight which are specialized in secure coding or secure development. Let's say all the links and all information about checkmarks in novi eight. You can find the deacupspodcast.com.br also on the Youtube the Youtube video on the link here on the descriptions. Also if you are looking for solutions in application security you can talk of dishtaok and. Go security. They are specialized in application security services. So anything that you need from them. Please talk to code security. Okay, so today we have a very nice guest here I'll introduce him in a moment in a moment calm down. But first I want to this I want to introduce the episode today like. It's a very nice topic I would say it's a topic that usually we don't even think about it right? Bairu because we talk about data protection. We talk about protecting the user's data. The the customer data and so on. But usually we forgot that we need to protect ourselves that we need to protect the company's data right.
+
+01:51.86
+Ben_Hur
+Yeah, yeah.
+
+02:07.50
+cassiodeveloper
+How what? what do you think about this this topic in general we we are forgetting about this or no, we don't need to worry about this.
+
+02:14.14
+Ben_Hur
+No, no, it's it's really important for 2 things meaning first we need to pick up because we can make mistakes by ourselves. We need to be cut because we can have an attack that compromise our environment but we need. Start data to recover the data perfect and about our operation about how about a time to make all the things work again properly. So yeah, yeah, this is a challenge one for sure.
+
+02:43.83
+cassiodeveloper
+Um, okay, cool, cool. So for to discuss further and deeper about this topic we have here today. Jagosh ah Jagosh thank you for our time. Thank you for accepting the invitation. Thank you for. I mean thank you for being here. We know it's a challenge for agenda for timing for everything. Ah so again, please you have you have a whole the whole stage for you introduce yourself talk about yourself a bit what you're doing today and then we start discussing about the topic I have already a lot of questions out of my mind. Yeah.
+
+03:17.10
+Greg _ GitProtect
+So thank you very much cassia and banneker for having me hello everyone. My name is Greg Zagraba I'm presals engineer at gi protect company which specializes in developers data security but we'll come to that in a moment.
+
+03:17.25
+cassiodeveloper
+Again, welcome.
+
+03:33.64
+Greg _ GitProtect
+And professionally I've been always working on the verge of business and technology. That's why this topic is so close to me because it nicely demonstrates How important technology is to keep our business running and how sometimes we forget about small details that can make our business running as well.
+
+03:49.54
+cassiodeveloper
+Cool cool. Thank you again for for for being here Ben you have already some questions you have things to because I'm excited with this topic you know.
+
+03:56.45
+Ben_Hur
+Oh yeah for I I want to start with a hot one. Okay Greg what the main mistake of the companies when talk about.
+
+04:05.96
+cassiodeveloper
+Um, go on.
+
+04:14.96
+Ben_Hur
+Big cup.
+
+04:15.42
+Greg _ GitProtect
+I think that the number 1 mistake that we everybody did at some point is misplacing our trust and misplacing our trust meaning that once we you know now nowadays we are in the era of using saas services left and right.
+
+04:17.23
+cassiodeveloper
+Um.
+
+04:34.53
+Greg _ GitProtect
+And it's nothing uncommon for a company to use cloud infrastructure from a company like Githap Gilap or ala to manage the most data and to manage operations and it's something that doesn't only happens in the I the sense we see in sales marketing and other departments and. We are 100% confident in our minds that because I'm using such a saas service. My data is secure with the service provider because I'm paying very money to take care of me I'm not doing any maintenance of my infrastructure so we are doing they take care of that. And here we come to the point when we've misplaced our trust because when we read into the terms of service of Github or any other similar platform we are going to find sets of closes which are commonly known as server responsibility model. Which is a very nice way of framing the statement that we as a vendor as a saas platform take responsibility for our platform our infrastructure to make sure that it's running but whatever you put in our platform as a user and whatever your. Team members do in your common shared platform is your own responsibility which offers the responsibility for data data security and data integrity from the platform to the user and many cases when I speak to companies I even had.
+
+06:06.95
+Greg _ GitProtect
+Nice chat about this with ah two days ago with a company from Canada which was working for government and I asked them how you guys are securing your data nowadays. We're using githap and I had to tell them guys. But github is the tool that you used to manage versions of your code. Who embrace collaboration of your team to have the smooth flow of information in the software development process. But Github is not the tool to secure. Ah data github is telling you openly but you are not checking that hey whatever you do in our platform. Whatever data you put in that's your own deal. Okay.
+
+06:44.76
+cassiodeveloper
+Exactly and I would add to this point that Gregor but mentioned ah specifically about this shared responsibility because you might have the best cloud provider with the best solutions activated with affiliate money. Whatever but then you set up the. Main account of administrator with the password 1 2 3 or or admin. Yeah so the whole doesn't matter what you have there, you are already compromising yourself and the cloud provider has no responsibility on this I mean some of them they they might be enforcing already some password policies some specific things to have like. To factual authentication to avoid these kind of mistakes but still this shared responsibility is something that customers usually they neglect right? like okay I'm praying the the best provider so I don't need to care as you as Greg just mentioned. Ah I have github so I'm so I'm secure my code is secure like. No, if you have a ah public reppo. It's already not safe. It's already public exposed right? yeah.
+
+07:44.13
+Ben_Hur
+Mr. Scott vice done.
+
+07:47.70
+Greg _ GitProtect
+They ah exactly exactly and you know some of the vendors even take it to the level for example at Lashan they say that if they can prove that the data loss incident was even in a minimal way caused by something. That you could have prevented. They are already taking their heads away from it. Okay guys you could have prevented it. It just means that you don't have to fix this so we are very very far in how we set up their terms of service to offer any chances of taking actual responsibility for something.
+
+08:07.45
+cassiodeveloper
+Um, no.
+
+08:13.90
+cassiodeveloper
+Um e.
+
+08:20.82
+cassiodeveloper
+Um, and and and Greg just a question all this information. Usually therere in this small letters on the and the contract like that nobody reads that that. Ah, yeah, yes, is it on a model.
+
+08:23.28
+Greg _ GitProtect
+Ah, you.
+
+08:29.43
+Greg _ GitProtect
+So exactly this exactly this.
+
+08:29.75
+Ben_Hur
+If if there is no other inside a link to another document.
+
+08:34.98
+Greg _ GitProtect
+So yeah, yeah, you know the honest question that we need to ask ourselves when was the last time that you reach terms of service of a platform that you're using and you exactly.
+
+08:47.13
+cassiodeveloper
+Um, true zero I I know I read at all I don't read at all.
+
+08:48.73
+Ben_Hur
+I I probably would not read the terms of my sentence of death. Probably I read of from probably not.
+
+08:55.69
+cassiodeveloper
+Um, yeah.
+
+08:58.90
+Greg _ GitProtect
+Yeah, and and what's even funnier what I've seen working in sales and sales operations throughout the years is that if you are buying from the small company. You're always going to thorough analyze where terms of service sli and everything. But if you're buying from the big player like Github of course github has everything in order and nobody is going to reach vertens of service.
+
+09:19.70
+cassiodeveloper
+Yeah, and we have a good example month ago or something like this that Google deleted a specific customer their whole data from from the Google cloud on the Google cloud also the backups that were mirrored in another site and the Google by.
+
+09:30.72
+Ben_Hur
+Are.
+
+09:39.32
+cassiodeveloper
+Human mistake as they said they deleted everything right and good that this specific customer I think it was financial institution and they had backups even outside of the Google platform so they they know how important was the data for them. How was the whole business operation and so on. That they have it Google Gcp right? Google cloud platform backups on another side even on the Google platform and that third the up in somewhere else to avoid this kind of disaster. So as you said Greg now sometimes you just trust big players but they also have some mistakes right? They also run softwares. Developer by person that by people that they also might lead to some problems right or hacking or whatever.
+
+10:19.66
+Greg _ GitProtect
+So yeah, and you touched here. The great point about those 3 different backups that this company said and I think it's super important because this is also rooky mistake I see a lot working in data security that even if we decide to make a backup. We create. Only 1 copy. We have only one charge when we keep the data and we think that we are secure and the good practice is to do exactly what the company that you mentioned did so to have storage replication so to move this data to completely different place completely different vendor I typically recommend also to switch. Cross I would say cross-hosting. So if you are primary backup is in cloud make replication to some on-prem storage and the other way around so that if you have failure on 1 level. You can still restore from the another one. So that's at least you know in this whole incident. That's one good thing.
+
+11:12.65
+cassiodeveloper
+Um, you.
+
+11:15.94
+Greg _ GitProtect
+But take away from it storage your replication.
+
+11:18.36
+cassiodeveloper
+Um, I think go on being you have some question or something. Um.
+
+11:21.86
+Ben_Hur
+Yeah, no, ah a point about the grit. The criticality of this operation is because normally when we have a backup. We have one area or some persons. Ah. Number of persons like 5 6 10 persons that have access to this big copy and the process when we are running for example in github or gitlab or anything your entire I t accessing this environment. We have a bunch of administrators. The number of actors that could be compromised that has access to this environment is completely different from the all the people that had access to the pickup and the strategy of the pickup. So if we have ah like Greg say.
+
+12:17.39
+Ben_Hur
+Um, well form is we have github perfect and about the access management and about the compromise in access management attack surface and the backup. It's a completely different story. So.
+
+12:29.18
+cassiodeveloper
+Yeah, and that's that's why I come together like as you said I t and security they they we always walk handed. Yeah because they they need to how to say rely on each other right one depends on the other somehow and this is. Perfect another for this for this example I have one one more maybe ex example to to bring to the conversation which is something very hot I think beur bayurs unfortunately knows about this because he's living on the on the south of Brazil. Where exactly now they are suffering from extremely floats. So reerss a lot of rain so the whole state is floated a terrible situation and 1 organ of brazilian government I forgot the name ah now. But anyway they have they have.
+
+13:21.55
+Ben_Hur
+Prosthetics.
+
+13:22.45
+cassiodeveloper
+Yeah, they have their servers on that area On-premise and everything is floated so they lost their servers and the backups as well on the same they are in different sites but in the same region and the host state is basically floated so they are basically offline for for all this time I don't know if they already recover or something they did something different but. As far as I know they are offline right? Big. We have some.
+
+13:42.70
+Ben_Hur
+They Yeah, they are fine. Most of the services are now not running lot available for us. They uploaded all the things to the cloud as a mitigation strategy for the cat asttroph but they do not have any running platform on the Cloud. So they pick up the data truly is safe by the operation. Not.
+
+14:03.11
+cassiodeveloper
+Um, you hit me.
+
+14:08.60
+cassiodeveloper
+Um, they cannot do anything. Yeah, so whatever you need you don't you can't do now. So it's it's a typical example I think it's the same example as the wordre saying the right ninth September in the United States that the company has the backups in it tower one and the operation at our 2 because they never imagined that the 2 towers would go down and I think because of 9 september there was some regulations that you need to have like ten kilometers distance for financial institution. The side to one and south and side 2 something like this kind to avoid these kind of things and.
+
+14:42.68
+Ben_Hur
+Yeah, but that's a good question that so because what we are backuppping. Oh that's that's the thing. Um, we have Joe location the cap strategy now about for example, something like the math key.
+
+14:50.00
+cassiodeveloper
+Um.
+
+15:00.16
+Ben_Hur
+Problems etc. But what you are becoming and that's another question for Greg that is about what matters first for priority. What the company should pick up day and. What's the most difficult to back up and store in your opinion.
+
+15:24.15
+Greg _ GitProtect
+Okay, so the first short answer to your question is what we should back up is everything because at the end of the day we would love to in case of disaster scenario. We would love to restore everything. And continue walking with all the data as nothing happened. So the dream scenario would be to back up everything. However, this is typically not possible one because of technical limitations. Ah that some companies face second because the duration of backup or registerster would be might be difficult so we need to prioritize and. In prioritizing. Ah when I did ah when I design the backup strategy of the customer for example for resource code or the projects that they have let's say in github or in similar platform I'm always asking them. Okay, which of the projects are the mission-critical ones. But you're working on today right now and which of those are your archive something that you've done sometime. You keep this code because it's application. That's currently running your business but it's not something that you're actively developing and if we define those missioncritical data when we make. And the backups of this data with higher frequency and typically we even keep them in a separate store because of how important they are and if we have the data that we go to their archive when we maybe back up and move less frequency and maybe we put them in a separate location.
+
+16:58.77
+Greg _ GitProtect
+It's about you know, assigning resources to the most important data and focusing especially on the devops processes and the software development 1 thing which is very often neglected is that people say okay but why do I need to think in any specific way about my. Ah. Source code data or github backup data or bitbacket backup data because the source code itself is already distributed among developers and even if we have some fa is some ah disaster scenario. Even if we have failure of github we can still retrieve the source code.
+
+17:37.96
+Greg _ GitProtect
+From ah from one of Developers laptops. But the truth point is okay, but how much of your work every day is actually writing the code how much of these are marriages Pull pull requests comments that you make in those. Projects updating the wiki making documentation, etc everything around that and this is part which is especially neglected if we are just starting with thinking about the backup. So while building backup strategy especially for devops Organization. We should think Okay, it's not only about protecting the source code. It's also about everything else that sits in this platform like sits in the github that actually constitutes your day-to-day war because the outcome of a good backup strategy is allowing you and your team to continue working as nothing happened and if I would right now comment. And remove all the issues from your github or from your gitlab you would probably say no I cannot continue working like this so protecting just a source code is not enough. So.
+
+18:42.33
+Ben_Hur
+Call.
+
+18:43.29
+cassiodeveloper
+Um, cool, cool point and and this reminded me about a story that I don't know if it's true. But I heard when I was I don't know in the University time that the company they had they were using search safe back then you remember the search safe.
+
+18:54.48
+Ben_Hur
+Move.
+
+18:56.69
+cassiodeveloper
+For for viso basically sixs the guys was using for delfi and all these languages but it was search safe. So safe svn subversion this old stuff. Ah, and um, this company they had a full platform of documentation on how to use their software and on the documentation they have ah code examples. Like ah because it was for developers so they had part of the search code code examples and so on and so forth and their search safe server. It was lost so they basically lost the hoster code of the the application how they restored the documentation was separate platform so they basically are copying paste. Page by page from the documentation parts of the service code that they had to try to rebu the whole software as far as I know the history say that they could repair like 70 75% of the service code could be 0 so it's it's okayish but imagine how. Fucking work they had to do hours. You know, taking copying paste checking rebuing like oh my god I remember once I had to do some maintenance and some legacyas code that they didn't have the search code as well. So I needed to take the dll do the de compile of the dll. See the code to be able to do something and rebued because they needed to do some specific changes like backups usually as he says Greg just said and and being mentioned it's important for data in general data that we manipulate. But for our metadata for our operation. Data.
+
+20:33.62
+cassiodeveloper
+It's something very crucial. It's something that we cannot ah neglect again and with this I have 1 question to Greg ah gregs. What? Ah what is you? you just mentioned? 1 example I think it searchs gold is one good example. Could you give maybe 2 more examples. What is Dev Ops data what kind of information companies should also take care and okay I should take care of backing up this for example because if I have a catastrophe. It's something that I never thought about that I need to have some restoring operation.
+
+21:05.40
+Greg _ GitProtect
+Okay, so I'll answer your question and then I touch upon some important point that you brought up so when it comes to the devops data in general. The source code is only smart part of it. We have all the metadata that constitutte kind of the summary of developers work. History of changes that we made to our code history of collaboration on this code. But we also have some specific settings that operate in our devops infrastructure that can be our pipelines our automations that we use to either deploy our code to the production environment or to integrate our. Code development with Qa department but also in many cases. Those are some settings that are even related to security to some degree for example. Ah in github it's possible to backup branch protection rules which allows us also to. Ah, set up some security to our data. We are able to backup our teams and collaborators to define who can access what data and this is something that we don't think as critical data in the first place but we notice that's when we miss it and the same also with automations.
+
+22:18.98
+Greg _ GitProtect
+Like they make our work every day that much faster that much quicker but you know if you would have to rebuild those automations from scratch. Let's say that you've lost access to your github account and you need to migrate to different giub account for the time being let's say even migrated from cloud to on-prem for the time being. Rebuilding out those optimizions that you have is tons of time from the devops engineer possibility to backup those and restore them streamize your work massively and important thing that you mentioned cacio about the fact that company had backup in some way in this documentation. But it took them ages to restore it manually I think it summarizes the most important thing about backup in my opinion. The backup itself is not a rocket science at the end of the day making some sort of data damp is relatively easy. We can obviously improve how efficiently we do it. We can improve how we securely store this data but this part is relatively easy. Important thing is what we can do with this backup next. So how we can restore the data and in many cases we are limiting ourselves and our imagination. Only 1 simple scenario I'm making backup of my github project with a purpose that they want to restore it to github. Okay, but what if Github has an outage What are you going to do then and when we come to the next disaster recovery scenarios that we should think about.
+
+23:53.85
+Greg _ GitProtect
+Maybe I would like to be able to restore to completely a different gicab organization. Maybe I would like to be able to switch from cloud to on-trem at any time or the other way around like it should happen in Brazil right now. Maybe I would even would like to ah abandon gi github for the time being.
+
+24:06.21
+cassiodeveloper
+Um, you.
+
+24:11.70
+Greg _ GitProtect
+And switch to gitlab because Github has an outage like for example in 2017 gitlab had an outage. The biggest invent history that for some customers lasted two weeks imagine not being able to work in any way for over two weeks that's horndous so
+
+24:29.30
+cassiodeveloper
+Um e.
+
+24:30.55
+Greg _ GitProtect
+You need to be able to be prepared for scenarios. Even the most extreme ones when you have the backup but it's not about just having this box. It's about how quickly you can restore the data and to what and to what platform so thinking about Backup Strategy is more about how we. Restart the data rather than how we protect the data on its own and.
+
+24:53.50
+cassiodeveloper
+Um, when you are maybe you're gonna agree with me. Ah, if developers would be two weeks not able to to code I would say that we are safe. It's less vulnerability. It's going to production.
+
+25:07.29
+Ben_Hur
+Um, unless we have a blacklog bits to fix. Ah.
+
+25:10.46
+cassiodeveloper
+Yeah, yeah, like okay guys we have a backlog on Jira so let's work on them i.
+
+25:13.84
+Ben_Hur
+Yeah, row here is and the the company I work for. We have 15000 developers that push six thousand deploys day so two weeks we be at that's right here for. For the business and now about this otage immigration of platforms. Okay I want to to I would like to guys a question for you Greg about the vendors because for example, if I have.
+
+25:32.54
+cassiodeveloper
+Um e.
+
+25:51.42
+Ben_Hur
+Jira if I have another task management Tool Sorry guys Sorry guys I Know it's bigger than that. Ah, what's the challenge about the vendors because we need to pick up the data from the vendors and we need to store the same data.
+
+25:55.00
+cassiodeveloper
+Um, he he? yeah.
+
+26:10.49
+Ben_Hur
+In these vendors. What's the challenge about the data itself of that vendors now because it actually how to make this compatibility. What should the company be prepared for and can you tell him a little bit more about.
+
+26:14.66
+cassiodeveloper
+Um, like parsi and so on. Ah.
+
+26:29.30
+Ben_Hur
+Okay, we need to pick up but we need to hear star. What's the road we need.
+
+26:32.91
+Greg _ GitProtect
+Yeah, so I'm very glad that you brought up this question because it is a big challenge and also I think something that we as a community should also bring up with some of the vendors because just to give you certain comparison. Ah, if I would like to restore my data between github and gitlab I can retrieve the most of my data the most of my issues. Pr's projects etc. Obviously not everything. There are some data that are unique to 1 platform that they cannot reachart to another like For example I cannot just copy. Yeah, it? Yeah, but but there are things that you can do. For example, you know.
+
+27:12.76
+Ben_Hur
+Where get labs guy to Github C I for example is a bit challenge. It's possible in certain level but depending on what you have no.
+
+27:26.79
+Greg _ GitProtect
+If We would think what are the things that are most important you know the foundations of your software development. You have your branches you have your issues prs deployments deployment Keys releases, etc and those are the things that you can freely move between the platforms. However, for example, when we have. Those guys named Alas, which are not that eager to to have to help with this And for example, there is a huge challenge with moving closed prs from bitdbaet to any other platform and and you know.
+
+27:46.92
+cassiodeveloper
+Um e.
+
+28:03.10
+Greg _ GitProtect
+For somebody who cares about the whole history of changes in the code. That's a big challenge and you've brought up Jira Jura has extremely unique data structure once you look into her database. That's very difficult to replicate one platform to another I was looking at possibility. Um, of moving data from Jira To Azure Boards in azure devops however it's still extremely difficult just to migrate it one to 1 so you know every platform is very protective of our data in a sense. We keep data structure unique because we want. Customers to stay with us forever if we make data migrationsion easy from them. We make it easier for them to leave us and to lead and not to spend money with us any longer but you know by hooking us this way. It's not only about you know, protecting their business. We're also posing. Ah. Security threat for our data for our data because right now in many cases if you are using Jura and jura and at last and recently cut off ah cut off ah jura server and I know that we are planned in the next five years to cut off. Ah, Jura Data Center as well. It means that you'll be completely dependent on jura cloud and what if jura has an outage.
+
+29:27.51
+Ben_Hur
+For sure for sure. Yeah.
+
+29:29.83
+cassiodeveloper
+You Just just remember me a story quick one that a guy a company an insurance company called a guy and the guys offering to sell insurance service right? And the guy said oh thank you? But I already have insurance Health insurance. And he noticed that the person on the phone was like ah okay then like upset yeah and this guy is um is a marketing guy I think you know Bayur is ah I Miss the name of this guy now it will come in a moment Marillo Gu Marlo gun.
+
+30:02.58
+Ben_Hur
+See yeah.
+
+30:04.68
+cassiodeveloper
+It's a famous he was comedian now he's a marketing guy. Whatever here in Brazil Brazil at theyre in Brazil and then he he was mission like if you're at the values of your company. It's not to make your customer happy and it's just sales you have a problem because he was saying like i. Yous offering me health insurance. If I say that I already have means that my life is already insured if something happened my family will be supported. Whatever so you should be happy for this? Oh great. Thank you like. Good that you already have or even discuss. Maybe you want to change or something but like be happy for that in the end because it's the same mission of your company like to make sure that people are their lives are safe safe. In this case, right protected so this as was Greg just brought is like exactly this. Ah, you know you have your data there. But. If you have a problem you cannot you can back up but you will not be able to restore another platform because you need to you need to be hooked to me because you need I want you as a customer forever you know and this is one of the things that in the security I would say we we need to fight more and more against because.
+
+31:02.37
+Ben_Hur
+Favor.
+
+31:12.32
+cassiodeveloper
+It's about data not about vendor or tool or whatever. Yeah, in the end, it's about protecting softwares that control our lives so we need always to bring this topic and it was a very good point good that we are on this on this kind of discussion here to bring this this light. Let's say to this topic to the to the people I think it's It's a good point.
+
+31:30.63
+Ben_Hur
+A perfect perfect act. Very good fed greeting location because now we have 2 2 lessons here first once we hire a service we contract a service we need to check what's backable or not and about the compatibility. So. That's that's the first thing because have a bunch of scenarios that and company should stop their operation so that's running out of funds. They could be blocked in our country because of politics things we the company could be attacked. And having security incident and how they provide the big up for our site. Not only a zip file that do not works in any other platform but the real data. No that can I can read I can parse.
+
+32:20.81
+cassiodeveloper
+Um, change.
+
+32:28.14
+Ben_Hur
+I can understand and I can integrate or move to another to another company and service provider that and about that I want to talk a little bit about Cloud. Okay, yeah.
+
+32:34.80
+cassiodeveloper
+Um, provider. Yeah vendor.
+
+32:40.78
+cassiodeveloper
+Wait wait wait can I make 1 comment before this so hold this one I just came to my mind and I don't want to lose you guys like mission impossible movies right? Everybody likes mission impossible from the first movie. Yeah, from the first movie so far.
+
+32:50.72
+Ben_Hur
+For sure. But it's the party.
+
+32:51.18
+Greg _ GitProtect
+I Of course and.
+
+32:59.89
+cassiodeveloper
+Usually when Tom Cruise wants to how to say penetrate company facilities and so on usually there are or there is kind of outage of energy because they will the companies will rely on generators. And usually the systems that like when they turn off and when they come back. The backup systems has no security protections. So Greg mentioned like okay you back up your your. Code protection. Ah your your service code, etc, etc. But the policies brand protection. They're not there when you restore. For example, if you're not taking care of these configurations. So if hackers knows about this. He might create the outage for you. You will be forced to restart a backup which you don't have your protections.
+
+33:37.67
+Ben_Hur
+4
+
+33:48.40
+cassiodeveloper
+Which other have your waff applications. You got the point right? So Mission Impossible is the perfect example for this.
+
+33:49.79
+Ben_Hur
+Yeah, not nothing fear perfect because for example, they probably. They do not encrypt the pickup because the work for the crypt that pickup could be take a while.
+
+34:02.90
+cassiodeveloper
+Um, yeah, somehow I think it's 1 point to Greg to ask after like less question encryption the compressing all these kind of things but bring their cloud topic I don't want to make you to forget.
+
+34:12.81
+Ben_Hur
+Good correct. 1 thing that we face everywhere is our cloud configuration. Okay, which services are running. While the configuration. Oh no, everything is in terraffform you well designed. No. Of course you we already know that is ah perfect and now that probably does not list in any place watch what is important what matters.
+
+34:27.36
+cassiodeveloper
+Are.
+
+34:43.64
+Ben_Hur
+For cloud.
+
+34:48.12
+cassiodeveloper
+Um, Greg can hear us. Ah.
+
+34:50.56
+Greg _ GitProtect
+Ah, okay, so just to come back quickly also to do 1 thing brought by cassio before I answer the question from ah from benor and I think that important thing also about.
+
+35:02.14
+cassiodeveloper
+Um, okay.
+
+35:06.94
+Greg _ GitProtect
+Having the backups is testing the backups. So whenever you have an outage you know? Okay, what is coming back to us because that's another common mistake that company always runs the backups but we never try and making the restore. Ah, but until they have the actual incident so I actually recommend to at least monthly or quarterly make test register from our backup. Obviously you don't need to necessarily try to restore the whole infrastructure or at least not every month but try to certain parts of it. Like for example, specific repository specific projects to be aware of okay in the case of the accident this is what comes back and this is what we're missing. Is it acceptable for this for us if yes, that's great if not how we can fix that and when it comes to. Cloud and what to care about I think that the most important thing is first of all thinking about overall cloud I would say integrity in a sense that I want to make sure that whenever I'm using cloud service. People that have access to it are as restricted as possible and even though we are always saying that. Okay, we should have this minimum access privilege rule implemented in many cases. We are not giving it I have one I would say case study that I like sharing regret simply.
+
+36:40.70
+Greg _ GitProtect
+Ah, bought my customer from Germany who has been subcontracting software development to external software house and just to make life easier for the contractor in setting up certain automations they gave them extremely high privileges in the cloud.
+
+37:00.32
+cassiodeveloper
+Um, him.
+
+37:00.71
+Greg _ GitProtect
+Ah, for managing it and managing v. Aws magic where github etc and after some time they had a dispute about the quality of the work of the subcontractor and as a result of this a company decided to withhold the payment for the subcontractor. I think a subcontractor was not that nice guy. Ah, he decided to cut over the company completely from where Github and Aws just because they gave him too much ah too much permission just to make their life easier. So I think that important point here is to. You know first of all care what we arehering with whom etc and you know if the company has Iso. So for example, implemented. We should have all these policies in place. But how often are we checking if those policies are actually enforce or whether they are just a fior.
+
+37:56.72
+cassiodeveloper
+Um, answer their question then it's ah I mean we can. We can always have funny and bad examples of how not to do things. It's it's amazing. How this how it works. Okay, but just to come to the end of the episode because times fly we didn't even have a break of our voices now we had a big bit of the break Greg 1 of last question so we can we can already address to the end and and say thank you and so on. In the whole process of backing up and restoring and bay were mentioned like ty me for thecryption encryption that I I assume that this kind of solutions and this kind of strategy. Usually of course it's kind of optional. Okay I want to encrypt my data or I don't want to encrypt my data or what kind of date and so on also the. Also because of timing now you need to restore something as quick as possible and if you take two days just decrypt something might not be feasible and ah pricing because I already need to pay for my hot data I don't know I pay 10 for my hot data and then I need to pay double to to start the backups. If I want to back up everything it's more or less like these are no I can decomp I can compress my information I can zip everything. Let's say and of course it's less size. So of course it's cheaper just in summary, how is this process is there everything there or copy and paste.
+
+39:20.66
+Greg _ GitProtect
+So okay, sure so you know while making the backup. There are a couple different methods to optimize this storage usage and the first name is obviously compression of the data that which is always helpful another one which is extremely I would say smart.
+
+39:24.64
+cassiodeveloper
+Fit.
+
+39:40.56
+Greg _ GitProtect
+Is running something called Incremental Backup and this is actually the great practice for devop organizations Incremental backup is when we backup only the things that have been added or modified since the last backup we've made meaning that every day we're just.
+
+39:53.86
+cassiodeveloper
+O.
+
+39:58.70
+Greg _ GitProtect
+Taking a small chunk of data that actually changed and we store only that and obviously we're going to think that. Okay, if I'm about to run backups on my own. How am I supposed to do this and this is when we touch to the point when you know if. Sometimes it's not always good to try to reinvent the wheel at the whatever cost. It's sometimes good to reach out to the company which is already specialized in Backup Technologies and trust them because they have those things are already difficult down like for example, Incremental Backup. Or another thing which is also popular is the duplication when we are cutting the data into very very small chunks and then if the chunk is something that is repeatable between different backups. We make.
+
+40:36.15
+cassiodeveloper
+Um e.
+
+40:49.17
+Greg _ GitProtect
+We are not saving this chunk multiple times we are only saving it once that's that application explained in very simple words So there are ways to optimize it. But you know here we come to the point when if you want to make backup by yourself at all costs. It will probably end up costing you more.
+
+40:53.42
+cassiodeveloper
+Um e.
+
+41:08.48
+Greg _ GitProtect
+Rather than if you employ third -party solution dedicated for a backup because it's not only about automating and the task that you're doing It's also with bringing efficiency into it efficiency efficiency in backup duration efficiency in copy size efficiency and efficiency in way. Store the copy and also in many cases efficiency in how to protect the data afterwards because for example, if you would make backup probably you would ah just download it into zip file you would encrypt that zip file with encryption key. Finger crod Crod put that encryption key somewhere safe and that's it. But there are better ways to protect protect data for example from malicious actors. Like for example, tanking the data so cutting them in a way that they are non-readable non-executable meaning that even if. Malicious actor were led with lay hands on your backup. They are still not able to do anything with it. So I think that to answer your question. There are ways to do it multiple different. The question is whether you want to figure it out yourself. Or maybe askcarol for compounding or specialties that already knows how to do it.
+
+42:26.50
+cassiodeveloper
+Um, awesome. It's it's a topic that we rarely talk backing up in this kind I mean we talk but not on this level. That's why this episode is data protection in another level right? so. It's ah it's it's an amazing amazing thing I have one just last example and maybe we can make our comments and then we can close I remember when I was maybe my second job as developer I was doing some coding as usual and that deleted some data in production as who who never did right. So I deleted some data in production and it was a company in Brazil that were basically creating the driver license document so it was something very critical and I deleted data in production not the whole database and so on but I deleted some data that shouldn't delete. But the company they had but they they didn't have even backups. They had kind of memory so it was live live backing up like basic like this right? So you have the hot data and the same data in somewhere somewhere else. So basically lost the information for 5 minutes and then we're able to restore already and have the data there. So. 1 thing is to back up things from the day before another thing is that you have mirroring and your live information duplicated already somewhere else of course depends on the criticality of the business and so on and so forth. But even these kind of discussions people should have in mind.
+
+43:51.90
+cassiodeveloper
+Of course, according to their business. We're not this this thing that we're discussing here. For example I mean that caps in these good practices for everybody. Yeah, but maybe small companies. Very small companies. They don't have even budget for this or storage or strategiest but of course companies like Greg mentioned the and the one that he's working. They have also strategyt in business model to allow everybody to have this kind of thing right of they have accessibility of this so that was just my last example, maybe you have some last comments then Greg give some fine message then we say bye bye.
+
+44:24.10
+Ben_Hur
+Me Ah, because that's a terrifying self question about oh this Zsco query is took too long to execute and let.
+
+44:34.72
+cassiodeveloper
+Um, oh and it was the lead command and they have success message after.
+
+44:39.94
+Ben_Hur
+Okay, guys. So first most important ah has the backup in this situation important. It's important but to not allow someone to run a delete commanding production is much better in that in that case. Okay, okay, let's a Greg the responsibility. Yeah ah Greg.
+
+44:52.14
+cassiodeveloper
+Um, much better. Yeah yeah.
+
+44:58.88
+Ben_Hur
+1 last question is if you can please talk a little bit more about your company for us and the solution.
+
+45:08.83
+Greg _ GitProtect
+Thank thank you Managerker for this question. So all my knowledge of the um, the topic ah comes from my work at the company called gitpro protect git protect that I o we specialize in devops data security in how you can. Backup data from your github gitlab bigback att udura or azure devops and how you can first of all efficiently back them up while optimizing the storage use outly web while making sure that your data has the whole runsma protection. And the scope of your backup is as as wide as possible and well how you can through this data in any any scenario including this I think the most important one so being able to switch from one platform to another so being able to switch from bitbacket to github gitlab to gitlab. Etc or switch from cloud to on-premise. So and we've spent years starting that devops data structure and how to keep those data safe. So if you guys ever think how I can improve security. Of my source code my repositories my metadata my jura project and don't make doctorate before and to know how to do it but ask somebody experienced did protect that I owe there is good chance that you'll meet with me and have a good chat on how to do that for you.
+
+46:31.17
+cassiodeveloper
+Um, awesome. Awesome! So git protect all the links and all the information will be also in the description of this video on the on the Youtube channel you can also follow up I think our Greg will allow aso can put his link a de so you can reach out to him ask for pcs discounts and so on.
+
+46:34.60
+Ben_Hur
+Um, great.
+
+46:42.94
+Greg _ GitProtect
+Yeah, yeah. This comes especially.
+
+46:50.73
+cassiodeveloper
+Yeah, okay then Greg you have any final words and it's something else that you want won't like to add.
+
+46:51.55
+Ben_Hur
+Um, ah.
+
+46:54.55
+Greg _ GitProtect
+Ah, you know there is this one message that I'm always sharing when we're talking about the data security overall or Cyber Security. This is a thought that was told to be by my sister who is a lawyer and always told me that. You're writing agreement for the time of war. Not the time of peace and I'm applying the same rule to my approach to Cyber security in General. It's not about just having something that's good enough for time of Peace. <unk> something that will work in the time of war when you've lost everything when your data centers are flooded when your andloisa trying to steal your data What you can do then? okay.
+
+47:39.76
+cassiodeveloper
+Um, perfect analogy I love it. I love it. Cool okay then Greg thank you for our time one more time. Ah, for sure we invite you for next episode or we could discuss for their topics. They were thank you for our time as well. Stay safe. And we see you guys next week and 1 more episode DevaCosPodcast I'm cas perreta and we have Greg here as well. Thank you guys. Bye bye see.
+
+47:59.64
+Ben_Hur
+I am being here.
+
+48:03.87
+Greg _ GitProtect
+I Thank you my back I.
+
+48:06.13
+Ben_Hur
+Thank you? But I see you.
+
