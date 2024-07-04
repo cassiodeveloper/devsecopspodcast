@@ -12,7 +12,7 @@ Tune in to learn how AI is reshaping the landscape of cybersecurity, providing i
 "
 file: https://api.spreaker.com/v2/episodes/60597539/download.mp3
 length: 45:00
-videoid: 
+videoid: wXbY8D6ZchM
 cover: "../assets/img/513.png"
 transcription: "../assets/transcriptions/5/13/13.txt"
 ai: false
