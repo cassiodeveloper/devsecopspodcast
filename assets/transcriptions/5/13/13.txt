@@ -1,0 +1,796 @@
+00:20.49
+cassiodeveloper
+Hi, everyone. It's a pleasure to be back since we are, I don't know, maybe two, three weeks without the DevSecOps Podcast episode, but we are back and it's a pleasure to have a very nice guest today. I will be introducing him in one moment. First, we need to say that the DevSecOps Podcast has the support from Nova8 and checkmarks if you are interested in securing your code you can talk to Nova8 or check marks, all the links and and information as you can find on the YouTube description, also on the DevSecOpsPodcast.com.br. If you're looking for AppSec solutions, you can talk of also with the guys from Digital Walk, they have a full portfolio for you, and Goats Security are specialized in application security services. so oh Whatever you want to do, if you're buying solutions and you have like people to do some things or proper job, you can type talk to Goats Security as well.
+
+01:08.44
+cassiodeveloper
+ah Okay, today we'll be talking about vulnerability and how to say properly this, I would say AI generation, it which is one of the of the biggest challenge I would say in AppSec. ah to help developers to fix their problems or I would say only developers and our guests will bring more to more light to this topic for us but I would say to help companies to fix their problems because developers you know sometimes they want to do the job sometimes they don't want to do the job but whatever they we can bring to make their life easier I would say
+
+01:43.36
+Eitan Worcel
+Thank
+
+01:43.94
+cassiodeveloper
+It's very welcome. And for this, we have today with us, Ethan. Ethan is from MobAI, a very nice solution that I had the opportunity to meet on the at Black Hat last year in Vegas.
+
+01:49.68
+Eitan Worcel
+you.
+
+01:55.00
+cassiodeveloper
+And no more. Ethan, please, thank you for ah first. Thank you for your time. Thank you for joining us. And feel free to introduce yourself and then we start the conversation from there.
+
+02:04.61
+Eitan Worcel
+Sounds good. Thanks for having me, Casio. Eitan Vossel here. I'm the CEO and co-founder of Mob. We met, I think, just before the competition, where Mob actually won the Startup Spotlight Award. Very exciting moment for us. I'm going again next year, safe. Well, this year, not competing, but if someone is getting to Black Hat. drop me a note. I'm going to be talking about the competition, about how it helped us. I love this topic. Naturally, I have background in application security. I've been in application security since 2007. I like to say, always a vendor, never a practitioner. So I know it from the side of finding stuff, about the side from the side of giving customers a lot of work to do, because tools find problems. They don't solve problems.
+
+02:51.06
+Eitan Worcel
+so um' very excited about what we are doing today about automatic remediation.
+
+02:57.12
+cassiodeveloper
+Cool, Ethan. Again, one more time. Very welcome and very nice to have you here. And by the way, are you going to be also in Black Hat Europe? Because I might go to Black Hat Europe this year. I'm pretty sure that we're going to Vegas.
+
+03:07.34
+Eitan Worcel
+That's not like November, December, I think, right? Time frame.
+
+03:09.66
+cassiodeveloper
+Yeah, December, December.
+
+03:11.58
+Eitan Worcel
+We'll talk before.
+
+03:12.60
+cassiodeveloper
+Okay, cool. So ah let's jump into directly to the topic. Ita, where it started the idea of creating a a solution using AI that fixed vulnerability to the developers? I mean, as you said, you had the background on AppSec and so on, and me as software previously a software developer, I would, I mean, but it was 10 years ago, I would really love to have some kind of these things in my hands, just to save, I don't know, 80% of my time. But how how do you come up with this idea, as you said, you are a co-founder, how it started?
+
+03:44.43
+Eitan Worcel
+So to be honest, I mean, years ago when I was still working as a product manager in one of the app sec vendors, I remember a user group companies came and came and say, Hey, you can find vulnerabilities automatically. Why can't you also fix them automatically? That was maybe 17 or 710 years ago. And I thought, well, if I had magic for you, draw dust and spray, sprinkle around it, it would work.
+
+04:04.19
+cassiodeveloper
+see
+
+04:05.99
+Eitan Worcel
+Naturally, I didn't think it can be done. Um, luckily I partnered with Jonathan effect. He's the CTO and co-founder of Bob and the guy is awesome. And he was able to build a POC at the beginning of 2022 that can fix things automatically with something very basic. And we took it and shared it with a few, uh, big companies, big app sec, uh, customers, and they got really excited.
+
+04:23.25
+cassiodeveloper
+Mhm.
+
+04:31.17
+cassiodeveloper
+Mhm.
+
+04:31.84
+Eitan Worcel
+And we realized, okay, we don't need to fix everything.
+
+04:33.23
+cassiodeveloper
+Mhm.
+
+04:34.04
+Eitan Worcel
+Whatever we can fix will help. Mind you, it's before November, 2022 where chat GPT came to life and everyone heard about it.
+
+04:39.03
+cassiodeveloper
+Mhm.
+
+04:41.38
+Eitan Worcel
+So zero AI at that point, just good old security research and good old developers that can write, um, code transformation, let's say algorithms and and and engine.
+
+04:46.09
+cassiodeveloper
+Mhm.
+
+04:55.11
+cassiodeveloper
+Cool, that's cool. And I remember when I saw you guys at Black Hat last year, ah because I worked with check marks for last, I don't know, six or seven years, and we have a base of customers in Brazil. And I remember them one of the pain points, like, the the solution is awesome, we get a lot of problems, but we're struggling to fix them. And we have professional service that we offer to support our customers as well. But when you see that supports with 100, 500, 1000 vulnerabilities, and yeah And I mean, we already did some kind of false positive cleaning, which means they have a lot of work to do. I have a a lot of backlog or a big backlog to handle. And then when I saw i saw you guys on the stand there and I said, okay, this is the next level or next step.
+
+05:38.03
+cassiodeveloper
+to bring our customers not one not only one solution, but one way of getting fast to the security level that we all want, let's say, as as security guys. At the end of the day, we want to find vulnerabilities, of course. We want to fix them as well. But we want also to stop creating those vulnerabilities, which comes to my next next question. right Do you think that this kind of to maybe not mob exactly, or maybe you have these features, I don't know, but do you think that this kind of solutions, they will actually bring the the value to the customer like, I'm fixing your problems for you in case of mob, I know that you can even customize the the fix, right?
+
+06:17.82
+cassiodeveloper
+You select the type of data, the parameter name, and so on and so forth, which is awesome.
+
+06:21.65
+Eitan Worcel
+Okay.
+
+06:21.74
+cassiodeveloper
+Not only the only button that to push, then you don't like that code, then you need to reverse and so on. But do you think that this also help on the educational side? like Developers are fixing, doing the the code review, let's say, but they are also learning because at the end of the day, we don't want to go to the doctor every day, right? We want to eat eat healthy, go to the gym and and be healthier until the day we die and that's why. Do you think this has also helped them to learn how to code, let's say, safely?
+
+06:51.70
+Eitan Worcel
+It's a really interesting question. It comes up a lot. I think it's very dependent on the developers. You mentioned checkmarks. Checkmarks were one of the two vendors that I reached out initially as we started. And I told them, this is what we are building. I want to work with you, right? I was never interested in finding the problems. I want to help developers and organizations solve the problems. I had a discussion with one CSO early on and he said, Aton, I love this solution. My developers can actually learn how to fix issues now because you're showing them how to fix. And I told him, Aton, I don't think that they will because they see SQL injection vulnerability maybe once a quarter. There is no muscle memory here.
+
+07:29.20
+Eitan Worcel
+Um, I heard from others that they said, well, our developers actually see that every other week. So maybe they will learn. I know also customers that, um, that we have and prospect that we spoke with that said, I'm not sure I like it because you're allowing our developers to stay ignorant to security. You're making it easier for them to not care about security. I think we are making it easy for those that want to learn. They will see the code. They will see, Oh, this is how I was supposed to do that. I'll try to remember next time. Next time they forgot. Again and again, at the end, it will stick. But for those developers that don't care about security, I don't think that Mob will make them care more, but nothing will. So the way that we look at it, we are serving two things. First of all, we are helping organization be more secure, which is very important. But more interestingly, we are helping them be more productive. If a developer spends two, three, five, nine hours to fix an issue, and now with a click of a button, they can see the fix that Mob did and just merge it,
+
+08:29.74
+Eitan Worcel
+So them they can do go and do something that they were actually paid and hired to do. Which, sadly, was never, I don't know about you, because you're but I never heard about the developer that was actually in the interview asked security questions. um For Dev, if they are hired for AppSec or security engineers yet, but not for Dev. So why do we expect them to learn? I learned i learned computer science, I'm old, um back in 1999. Um, I learned about input validation, but not in the context of security in the context of if you're expecting to this parameter, this is what you're looking for. So it's a shame, but as long as developers don't learn from day one secure, as long as cyber is not a mandatory course, I think we can only try to help, um, but
+
+09:18.08
+Eitan Worcel
+Again, it's always a matter of layers. Training is important. Scanning is important. Fixing is very important. Otherwise you just scan and you're just stuck. Right.
+
+09:28.63
+cassiodeveloper
+Awesome. awesome i like this I like this answer and I brought this educational topic because I really like to see, I like to imagine the perfect word where we don't have vulnerabilities. And to this to happen, everybody must know about security and not don't create them, not create vulnerabilities.
+
+09:39.59
+Eitan Worcel
+Yeah.
+
+09:43.65
+cassiodeveloper
+But as you said, it's kind of impossible to do. ah Some developers, they do not care and it and it's fine. And there will be the days that always you need to go to the doctor. You always need to go to a SaaS solution and you always need some mob. Okay. Give me the fix because I have no idea what is the vulnerabilities. And you you mentioned like, okay, a SQL injection, maybe it's too popular. More or less, everybody know between codes here. but when it comes, I don't know, to heap inspection, like what the hell is heap inspection, right? And the the solution can provide a fee to click a button, you are protected because that's the goal at the end of the day, right? To be protected, to be to be safe and to be secure. Okay, okay, I agree with this answer, I agree.
+
+10:24.12
+Eitan Worcel
+But it is interesting, you know, um two three years two years and a bit, I got on LinkedIn, I posted, hey, I'm giving $100 gift card for Amazon for anyone that gets on the call with me for one hour.
+
+10:28.03
+cassiodeveloper
+Mm-hmm.
+
+10:33.72
+Eitan Worcel
+I want to see how they fix an issue. I went with the SQL injection because I knew that everyone knows what SQL injection is. They didn't know how to fix it.
+
+10:40.36
+cassiodeveloper
+And nobody fix it.
+
+10:41.78
+Eitan Worcel
+They didn't know what's out of the app sec person that of course fixed it really fast. Senior developers, junior developers, college kids, they didn't know how to fix it. They, it it was painful to watch to some degree. So you and I, we've been around the block for a while. We know what SQL injection is. We know how to fix it. It's not that hard to fix it, but the developer doesn't know often they need to go and research.
+
+11:00.48
+cassiodeveloper
+Yeah.
+
+11:04.35
+Eitan Worcel
+They may stumble on the wrong explanation. They may break their code. And combine that with the fact that most developers have zero respect for security tools and they don't trust that what security says is true. It's a mindset. It's it's very challenging. One of the interesting thing that we saw when we started, I'm working with very large organizations, not just smaller organizations.
+
+11:21.46
+cassiodeveloper
+Cool.
+
+11:25.82
+cassiodeveloper
+Mm-hmm.
+
+11:27.82
+Eitan Worcel
+And some of them asked me, I always ask, what are the top three issues, three to five issues that you want to see mob fix? Because we don't fix everything. We are growing all the time.
+
+11:35.63
+cassiodeveloper
+Yeah.
+
+11:37.18
+Eitan Worcel
+And we had one very large software company, one of the biggest ones, and they said, um, I think it was overly broad exception.
+
+11:40.64
+cassiodeveloper
+Mm-hmm.
+
+11:45.19
+Eitan Worcel
+And I asked why because it's low. And they said, well, we had 265,000 instances of it in the first five months of the year, and we will never be able to meet SLAs. So we need to fix them also. I ah really appreciate the fact that they take that seriously and they want to fix everything. But naturally it's not a problem that people can fix on their own. They need help. They need automation.
+
+12:07.82
+cassiodeveloper
+Cool. And you you just mentioned this word, which is for the people who are just coming to the DevSecOps Podcast. We are in the fifth season already, more than 150 episodes. And the word that comes to our podcast, every episode, we we talk about this word. Even non-tech episodes, it's future and automation. And bringing this this specific point of automation, do but because I'm really fun at automating kind of everything, maybe because I'm lazy, I will spend eight hours to automate something that would take one hour to do, right? But do you think that automation in terms of AppSec, it's the the way like we should automate everything, we should try to fix everything in this automation way?
+
+12:51.37
+cassiodeveloper
+or do you still see some manual job being executed or still I mean people there how do you see this this challenger
+
+13:02.51
+Eitan Worcel
+what do you the things that you can automate you should automate right it's not just laziness it's also more accurate once you got it right the first time let's replicate that but you can't automate everything right that was um a developer in abscond standard a really good dast solution at that time i hope it still is i'm not touching it uh and there were discussions oh does it mean that we don't need pen testers yes you do you can automate them
+
+13:21.94
+cassiodeveloper
+Mm-hmm. Yeah!
+
+13:28.40
+Eitan Worcel
+But there are things that you need the special skills that the machines can do, cannot do on their own.
+
+13:30.80
+cassiodeveloper
+Mm
+
+13:34.71
+Eitan Worcel
+Same goes for our automatic scanning.
+
+13:34.52
+cassiodeveloper
+-hmm.
+
+13:36.71
+Eitan Worcel
+Same goes for automatic fixing. You cannot, and you don't want a tool to automatically do architectural changes or business logic changes because the machine will not know. It will not have all the context. You need to find what it's good at, verify that you like the fix. But as a security team needs to say, hey, I like this fix that Mob did. If my developers use this fix, we're good. And then the dev team will say, I like this fix. It goes along with my code. Now I can use that from now and eternity. Every time there is a new issue, Mob will give you the same fix. Some solutions, by the way, that rely too much on AI, every time they get a fix, it might be a little bit different. And that's scary.
+
+14:19.09
+Eitan Worcel
+So how can you automate it? But I think that if you have something repetitive, like with checkmarks scans, right? Who runs it manually these days? Everyone put it in the pipeline. They want to find things fast. um So that's what they're getting with the automation. Repetitive, deterministic results are important.
+
+14:33.93
+cassiodeveloper
+Cool.
+
+14:36.63
+cassiodeveloper
+goal Cool. Now I want to bring one more, one more topic that I'm really fun. And you as, as a CEO of a company that are looking to fix problems and I would say prevent problems as well.
+
+14:52.55
+Eitan Worcel
+Mm hmm.
+
+14:52.63
+cassiodeveloper
+I'm really fun of killing, killing the, I mean, in Portuguese, I know better the sentence, but in English would be something like killing the problems on their, on their roots.
+
+15:01.81
+Eitan Worcel
+No.
+
+15:01.57
+cassiodeveloper
+Like, so in my conception as developer, the vulnerability burns whenever I'm, I'm keyboarding, whenever I'm typing on my ID, right on the visual studio, it clicks, whatever. So that's the vulnerability being born right that time. And do you think that tools like linters and these kinds of things that are popup popping up on the developer's face while they're typing? dude Do you think this is beneficial somehow? like Imagine MobAI executing the AI, I don't know, fix or linking, whatever, what why why they are typing or I don't know, saving a file or whatever. to Because to me, whenever it's outside of the IDE, it's already too late. I mean, not too late, but then it's pipeline, then it's pull request, then it's too many too many ways, too many steps ahead that might
+
+15:49.36
+cassiodeveloper
+that might escape our eyes as security, right? But if if I don't go further with that code, since I saved the file that file, okay, this will not a bit will not grow, let's say. So do do you see this as a benefit or some solution, maybe a new feature for a mob? I don't know.
+
+16:05.92
+Eitan Worcel
+So when we started early on, Jonathan and I, our idea was to do a security spell checking the ID. Um, when you talk with larger organizations, every, every security tool, every security to team wants to say, Hey, I'll give my developers an ID plugin of check mark snake record, you name it. Right. Uh, and I'm talking to them and they're asking, are you integrating into the ID? And then I asked them, are your developers using the ID plugin? No, why not? We don't know. They don't want to use it. They are using linters for, for, um, no, uh,
+
+16:38.38
+cassiodeveloper
+Cold style, whatever.
+
+16:40.02
+Eitan Worcel
+Yeah, exactly, but not for that. So we were trying to figure out what is the best location that you're not relying on the developers to install the plugin, you're not relying on the developers to use the plugin, a place where they are used to having a lot of their tests.
+
+16:55.87
+cassiodeveloper
+Mm
+
+16:56.23
+Eitan Worcel
+And the the most common one ah is on GitHub. As you do pull requests, you have all your linting tasks, you have unit testing, you have all those. Let's add the scan. And many organizations already do that. So if they run their check mark scan there or sneak scan there or whatever, we can be the next step of, and we will fix it. So the point that you're mentioning, and then people have that I'm about to submit a PR. I want to finish my feature. And now check marks finds vulnerability and it's a good one.
+
+17:24.98
+cassiodeveloper
+-hmm.
+
+17:27.09
+Eitan Worcel
+It's a good one. It's an accurate one.
+
+17:28.47
+cassiodeveloper
+Yeah.
+
+17:30.39
+Eitan Worcel
+Now I need to spend five hours, eight hours, two hours, whatever on fixing instead of that. And that takes me out of context and cause delays. Instead of that check marks will show the vulnerability model fix a vulnerability. And that's it. The developer stays there. They look at the code and they said, yeah, I like it. Click commit done. The same tests will run again because this is how usually customers run it. And then it's, um, the, the, I think it's, you're still in the context of your dev tools. And I really like, by the way, we were talking about check marks all the time.
+
+18:02.84
+Eitan Worcel
+It seems like commercials.
+
+18:02.90
+cassiodeveloper
+You need.
+
+18:04.08
+Eitan Worcel
+I really like how check marks did it today with check marks one with they have the web book. So everything is very easy for the security team to set things up. But again, we are doing it with snake and 45 and get up advanced security. We're doing it with many others. So. i It's a balance. Would it be best to do it in the IDE? Yes. Is it usable in the IDE? No one uses it.
+
+18:24.95
+cassiodeveloper
+No, yeah.
+
+18:25.29
+Eitan Worcel
+so
+
+18:26.63
+cassiodeveloper
+yeah i have i was i was I'm looking actually in the industry, some psychologists, very good one, to talk on this way, like why developers don't do some things, like they're like using IDs, plugins for for this kind of thing, and why they do other stupid things, like spending hours looking for the new framework for something ah to do the use the latest stack or whatever. But okay, i like this I like this approach as well, that we are still in the context of the the developing time, not deploying, let's say, somewhere or something like this.
+
+18:53.25
+Eitan Worcel
+Yeah. I think that one of the key elements that we wanted to do with Mob is not to judge our customers. You come to a customer, however they run their application security program, that's probably the best for them. Maybe for their stage, maybe for their technology stack, maybe licensing, I don't know.
+
+19:11.93
+cassiodeveloper
+Mm-hmm, mm-hmm, mm-hmm.
+
+19:13.11
+Eitan Worcel
+So if they run a scan manually, that's okay. It's probably their decision. I'm not there to judge them. If they go all the way to every pull request and in the between scheduled on a build pipeline, probably one step there next to them, next to the scanner to fix the issues. It's not my responsibility to tell them, no, you need to do it differently. Let's do this. And then you add, no, no, we will adjust.
+
+19:37.02
+cassiodeveloper
+Okay, okay, and and I would say this is a very good approach because usually
+
+19:37.60
+Eitan Worcel
+That's the point.
+
+19:42.94
+cassiodeveloper
+solutions or tools that try to make customers change their process in order to fit their solution will not work, right? So it's you you better fit their process or their strategy in order to be flexible, right? As you said, we can put mob whatever we want and we'll do flexible, usually next to the SaaS, right? It will make more sense.
+
+20:00.67
+Eitan Worcel
+we had the We had a company outside this week in in Lisbon and went to OWASP event after, and we had a lot of discussions on how can we help our developers and what is our goal? Why did we start Mob? And at the end, we started Mob so developers can develop like little kids again. They don't need to worry about what the SAS tool told them. I hire developers. My developers are all senior and and they are good and they have vulnerabilities. But the idea is I want them to develop what they are we being um hired to do and not to spend now a sprint on fixing security issues. If I can do that as a mob,
+
+20:44.67
+Eitan Worcel
+Developers can develop, can enjoy developing again. Companies can move faster. I'll be there to help them secure it. I'm not fixing everything, but I'm helping them fix a lot.
+
+20:52.92
+cassiodeveloper
+Mmhmm. Mmhmm.
+
+20:54.38
+Eitan Worcel
+That's that's what we want to do.
+
+20:55.69
+cassiodeveloper
+Okay, that that's cool. Do you think also Mob can help with false positives stuff? Because, you know, as fast as any kind of this, it's impossible to don't have and it's okay. Just sometimes companies doesn't know that, right?
+
+21:09.03
+Eitan Worcel
+Yeah.
+
+21:08.86
+cassiodeveloper
+They ask, okay, how many false positives do you have in the solution? Like, I don't know, 30%, 40%, 10%, 1%, it doesn't matter. But they will always be there, right? And your backlog can be bigger because of this and you need someone to check and to remove that. But how Mob fits on this?
+
+21:23.99
+Eitan Worcel
+So I like to say that one out of four issues, more or less the SAS report is true positive. You can basically ignore the other three.
+
+21:30.28
+cassiodeveloper
+Mm hmm.
+
+21:32.24
+Eitan Worcel
+Of course, it's just a number the that I learned over the years, but some will say 105 or one will say 110.
+
+21:32.26
+cassiodeveloper
+Mm hmm.
+
+21:40.10
+Eitan Worcel
+I heard a customer mer that says 99% of my tool findings are are crap. um The thing is what is a false qualitative, right? If it's a code that is good, and there is no problem with the code, ma will not be able to fix it. And then we are working on a capability to say, this is most likely a false positive, right? We couldn't find a problem itself. It's a risky thing to do for us, but we get to a level of understanding that we can.
+
+22:05.32
+cassiodeveloper
+Yes.
+
+22:08.16
+Eitan Worcel
+At the same time, if the code is bad, but not exploitable, I will fix it before the customer, I mean, mob will fix it faster than the customer can figure it out. Even making the code that going back to the SQL injection, right?
+
+22:17.27
+cassiodeveloper
+me
+
+22:21.00
+Eitan Worcel
+If someone needs shrinking catenation and execute query, it's bad. Whether the code was, um, sanitized or not. If he does it prepared statement. Code is read more readable. Code is the the performance improves and it's more secure and developers.
+
+22:35.03
+cassiodeveloper
+Mm
+
+22:36.75
+Eitan Worcel
+You know, when something is not vulnerable today, it may be vulnerable to tomorrow because someone calls it from another location.
+
+22:41.47
+cassiodeveloper
+hmm.
+
+22:43.51
+Eitan Worcel
+Developers love to develop through copy paste. So they take code that was not flagged, put it in another place and now it is vulnerable.
+
+22:45.69
+cassiodeveloper
+Mm hmm.
+
+22:51.27
+Eitan Worcel
+And the last, we we're talking about AI, right? One of the cool thing is about co-pilot. Co-pilot replicates the patterns that you write in with a great idea because you want the code to look familiar all the time. If you have a lot of vulnerabilities in the code, Copilot will generate more vulnerabilities. So fixing the broken issues are important. As for false positives, we are trying to work on a feature, as I mentioned, that will tell developers, hey, this is most likely a false positive.
+
+23:21.93
+Eitan Worcel
+Maybe even to the level that we will integrate with the tool and market as false positive. Who knows? it's It's future-wise. Maybe I shouldn't share all the roadmap, but whatever.
+
+23:28.59
+cassiodeveloper
+Mm hmm.
+
+23:30.65
+Eitan Worcel
+um But definitely we are working on that. It's a challenge, right?
+
+23:33.35
+cassiodeveloper
+Mm hmm. yeah Yeah.
+
+23:35.76
+Eitan Worcel
+It's a big responsibility to say this is this report was a false policy.
+
+23:40.02
+cassiodeveloper
+And then I mentioned this topic because I wanted to bring an example maybe three years ago when I was more more deep in check marks with some customers. I had one customer that we were doing cold reviews for them. And one developer came, I mean, there was a call and I remember the team like, oh, we got the report, that maybe, I don't know, 10 vulnerabilities. Let's put the number, 10 vulnerabilities. And nine of them are false positives. One of them are too close. We already fixed. And I said, okay, so show me these nine false positives. ah we have a we have It was a cross-site scripting, something very simple. We have a cross-site scripting here, but since the the application is running only internally, not externally, it's false positive. And I was like, it's not it's not a false positive. You go to the doctor and the doctor say, look, you have a tumor. It's not maybe an English malignant. It will not kill you.
+
+24:29.05
+cassiodeveloper
+but it's been igneous, so it will not kill you, but you have a tumor, right? This vulnerability is the same example. It is a cross-site scripting, which means that if someone exploits the application, it will succeed. Maybe you are not exposed to the internet, so your attack surface, let's say, it's reduced, but you still have a problem. Then the developers like, ah, we didn't think this way because we we know we have the firewall, the network, and some Amazon, something, something, something. So if the hacker did this, then this cross-site skipped the list of our problems.
+
+25:00.26
+cassiodeveloper
+And I was, yes, I agree with you, but doesn't mean it it is a problem.
+
+25:00.70
+Eitan Worcel
+Correct.
+
+25:04.83
+cassiodeveloper
+And we know research is from, I just miss the name of those guys from those websites, but there are some research from them that they have. Every hacking, it's like one, two, three, four, 10 steps. like It's not one vulnerability, it's not one thing. They go here, they go there, they get an access, they get the password, they escalate privilege. to get to the database, let's say. So what I what i was mentioning, all this context to these developers, like like, okay, guys, I agree with you, this problem might not be critical, but it is a problem. When you say the false positives, like, if I try to do a cross-site script here, it will not work, but it's not the correct thing. It will work. So this
+
+25:41.36
+cassiodeveloper
+concept or mindset that a lot of developers just show, okay, this is a false post. This doesn't happen because of this or that. they they Sometimes they are relying on third parties like a firewalls, WAF, whatever, but they don't really accept that the vulnerability is there. and i really in that That's what the point now.
+
+25:58.75
+Eitan Worcel
+Very good.
+
+26:00.36
+cassiodeveloper
+I really believe that the mob will kind of help with this because you are not ignoring, you just got the SaaS results and you check everything, what you can fix, what you cannot fix, but you will show like, yeah okay, guys, you have 10 vulnerabilities, this cross-site is here, I can fix for you, it's already fixed. For them, it doesn't even matter if it's internal, external, or whatever. In this case, you would have a vulnerability fixed in the end of the day, right? Because that's what we're talking about.
+
+26:25.88
+Eitan Worcel
+i think but people confused I think that people between false quality and risk and exp exploitability and reachability.
+
+26:25.79
+cassiodeveloper
+And next question. Yeah.
+
+26:30.76
+cassiodeveloper
+e Yes, yes.
+
+26:32.67
+Eitan Worcel
+It's a false quality if the code is good. It doesn't mean that it's exploitable, but if the code is not good, it should be flagged by SAS tool. It's on the business owner, right? To decide if they are fixing it or not based on risk, based on how long it takes, based on all the all those, that that is true. But calling it false quality is something that I i have issues with.
+
+26:56.22
+cassiodeveloper
+yeah Yeah, i still I still have this problem as well. And by the way, with check marks, I think you don't even have the false positive option. You have the not exploitable option, which is which is exactly the concept to try to educate somehow that, okay, guys, this is a problem. But did maybe in your context, you don't have a business impact. So you can live with it, right? You don't have a risk. So it's okay for you. And I want to bring to the bond.
+
+27:17.40
+Eitan Worcel
+Oh, by the way, all tools, all tools, all tools have false positives.
+
+27:21.54
+cassiodeveloper
+Yeah, exactly.
+
+27:21.84
+Eitan Worcel
+Also have the cases where the rule looks at the code and say, Hey, here's the problem.
+
+27:23.54
+cassiodeveloper
+Exactly.
+
+27:27.47
+Eitan Worcel
+And there is no problem, but that's the minority of the issue. That's not most of the issues.
+
+27:32.00
+cassiodeveloper
+Exactly.
+
+27:32.64
+Eitan Worcel
+We'll complain about it.
+
+27:33.45
+cassiodeveloper
+Late days I had some POC or demos with GitHub Advanced Security and there were some things there as well. Previously with sneak and I mean, everyone has this.
+
+27:43.64
+Eitan Worcel
+Yeah.
+
+27:44.50
+cassiodeveloper
+One next topic, it's do do you think that this kind of of, how to say, AI word, you are but i mean you're benefiting from AI because you are building a solution using your models, train your model, language models and so on and so forth. Do you also believe that AI will bring also some challenges on the on the attacking ways? Like today, as I said, right, today someone will just go up burp suite and try to exploit my application, some proxy, doing the good and all the pen testing, and so this is one thing. But how do you think AI will also benefit the bad guys to attack the applications and and then distinguish?
+
+28:26.54
+Eitan Worcel
+Yeah, so it should be much easier now to exploit, right? You can you can write tool to try to exploit, it's it's even easier. Let's put zero days aside. There's an exploit there is a new vulnerability disclosed. Often enough researchers share how they exploit it, how they prove it. Then you can automate it easier on casting a a wide net and find more more applications that can do it. And with the AI, you can change signatures of of things easily, not easily, but to try to bypass some of the waves, some of the firewalls.
+
+29:03.13
+Eitan Worcel
+That's how I see it. I do want to mention one thing about Mob and its use of AI. We are using AI, right? I'm not hiding it. It's in the domain name also.
+
+29:12.38
+cassiodeveloper
+Mm-hmm
+
+29:12.84
+Eitan Worcel
+ah we We call it hybrid AI. The way that we fix, um we provide our fixes. We have two levels of fixes, the regular ones where we have algorithms to fix every issue. In in a step or two of the algorithm, we may or may not use AI to in order to run faster. Outside of those, we have what we call experimental fixes, and that's where it's prompt engineering AI.
+
+29:32.76
+cassiodeveloper
+Mm
+
+29:35.56
+Eitan Worcel
+um Sometimes it's great. Many times it's embarrassing.
+
+29:38.88
+cassiodeveloper
+-hmm
+
+29:39.49
+Eitan Worcel
+We allow people to enable that. By default, we are disabling now because we got so much better in our hybrid AI deterministic fixes.
+
+29:47.13
+cassiodeveloper
+Mm hmm.
+
+29:48.43
+Eitan Worcel
+I think that there is a lot of value in in doing even AI fixes, even if they're wrong, even if they are right 30, 40% of the time, because developers see it. It saves developers the chase to go to chat GPT.
+
+29:56.83
+cassiodeveloper
+Mm hmm.
+
+30:00.81
+Eitan Worcel
+I don't think it's usable if you have 100 developers, but it's usable if you have one developer.
+
+30:02.17
+cassiodeveloper
+Mm hmm.
+
+30:04.86
+Eitan Worcel
+Sorry, 100 vulnerabilities, usable for one vulnerability or two vulnerabilities. That's why we took a different approach. oh So all I'm saying is at AI, I'm a believer in AI. I know some of the limits and those limits being reduced all the time, but you need to understand what you can offer.
+
+30:19.70
+cassiodeveloper
+Mmhmm.
+
+30:21.61
+Eitan Worcel
+You need to flag it correctly. On the attacker side, they don't need to flag it, they just run it. If it works, great. If not, you just wasted some you know dollar or two, five dollars. It's not that expensive for them. It just makes the need to fix things and to reduce the mean time to remediate much, much, because of that because Because exploits will come faster.
+
+30:45.10
+cassiodeveloper
+Cool, cool. I like this point as well. One one other other thing that I want to bring, and maybe it was as a CEO will will understand this point, apart from the technical part, right? I previously work in a company called ABB, and we were doing mainly industrial control systems like Just critical things, right? Controlling power plants or water running water, just things that cannot go wrong, right?
+
+31:06.05
+Eitan Worcel
+you know Yeah.
+
+31:08.10
+cassiodeveloper
+and the and and then And by definition, this kind of business, they know they are critical and they they have their policies, whatever, okay, we do not accept, I don't know, vulnerability, we fix the code, blah, blah, blah. This is one thing. And I also worked in some marketing agencies where we are deploying two, three websites to production every day without caring of anything. You click the button, it's working. Thank you. Perfect. And I have my own own opinion about this, like the business itself should dictate the criticality of how your app sec should work.
+
+31:43.27
+cassiodeveloper
+Because it's not about, okay, if my company had a problem, has a problem, I will lose money, my employees lose money, whatever, shares, et cetera. This is one thing. But what impact I have on the society, right? If I have a bank and my bank is offline, so it's people's money is offline. They are not able to pay or to get their money, whatever. How do you see this? Do do you imagine this as well, like companies should care about security by the criticality of their business? um This is one point and maybe other points like they ah they also have the freedom, right? I want to do security. I don't want to do security. Maybe banks, they have more regulations than these things. But apart from that, I see like everybody's doing the way they believe, the way they want, the way they they agree.
+
+32:25.74
+cassiodeveloper
+without this thinking on the society, like, okay, it's mobile AI is offline. What happens? Okay, ah your customers stop fixing vulnerabilities, which means that there are more vulnerabilities in production, which means that more software's introductions are around, right? But my e-commerce, which is selling, I don't know, mouse's keyboards is offline. I'm just losing money. Society is not impacted by that. Someone is without keyboard. It's okay, right? So how do you see this?
+
+32:51.67
+Eitan Worcel
+and So a few things.
+
+32:51.52
+cassiodeveloper
+yeah
+
+32:52.47
+Eitan Worcel
+First of all, i do I do believe that those that are in charge of, you know, create software for power plants, they should do everything in their power to secure it because our life depends on it. I agree. um If Amazon goes down on Black Friday, that's a problem, right? It's not life threatening problem, but it it is a major problem that can cost them and hundreds of millions of dollars.
+
+33:12.71
+cassiodeveloper
+Mm hmm.
+
+33:17.30
+Eitan Worcel
+At the same time, I will say something that people in security don't say much, DevSecOps, security vulnerability is not why companies collapse. All the big ones got breached. More than once, some of them. If you think about the big ones that are not big ones now, it's not because they were breached, because they failed to compete. It's because they fail to innovate. So for for us, we can say, hey, no, you need to fix everything. If you fix everything manually, you cannot compete, you will run out of business. There is a balance, right?
+
+33:48.60
+Eitan Worcel
+I do want companies that I'm a customer of, I do want them to understand the risk, and I do want them to understand, to care about my details, because living in the US, you get a letter in the mail every every ah so often saying your information was part of the breach.
+
+33:54.82
+cassiodeveloper
+Mm hmm.
+
+34:04.15
+Eitan Worcel
+Here you can join a class action suit.
+
+34:04.34
+cassiodeveloper
+Mm hmm.
+
+34:06.11
+Eitan Worcel
+I don't care about that. I just don't want my information to be breached all the time. It's really annoying. So for us, like for example, for a Mob, I'm not one of those that says the reputation is the most important thing, but for us it is. because I will come to you as a big bank or as a small software company, whatever, and I will ask you, give me your code, give me a report that says where the problems are in the code, and trust me, I will take care of you. It's a big ask.
+
+34:33.03
+cassiodeveloper
+Mm hmm.
+
+34:34.34
+Eitan Worcel
+So we are taking security extremely seriously. Not every startup should. Other startups, they're not a target yet. So if they don't innovate or move fast, no one will target No one will target them in the first place because they will run out of business. So there is that balance. You will never have enough resources to do everything. So choose how you do it.
+
+34:56.11
+cassiodeveloper
+Cool, cool. I heard from, I heard, no, way I read a tweet from a girl that I always forget her name, but she's from infosecitudes in the US as well, a blonde one, I just miss her name. But she was just tweeting something like, in the past, men are going out to hunt, right? Otherwise you will not eat. So the risk taking on the humanity itself, it was always there. you You take risks. You don't have the armors or the best guns. You need to hunt, otherwise you starve. All the family and all the tribe, I don't know everybody. Today we have everything in plastic bags on the supermarket. It's much easier. You don't need to hunt. But I think, and and this parallel is is a very good point. And you indu bring you like very quickly, you got this balance. right
+
+35:38.77
+cassiodeveloper
+there, I take some risks in order to my business to to to succeed. Or as you said, you are as a mob, you need to take ah security seriously. Otherwise, if you had a ah bridge on people's code, then you will not succeed at all. right So that there is a balance on on the business itself that will dictate what what to do and how it depends but on what to do. I like this point. And maybe one last thing, so we are we are almost on time already. How do you see education in general? We mentioned about this as well, but how is your opinion? Do you think that developers in their university courses, wherever, they should have in their agenda, in their in their course agenda,
+
+36:24.99
+cassiodeveloper
+the AppSec, CyberSec, whatever there. Or do you believe that, as is today, and when I was developer, i like that's why I moved to security. I liked security, I was studying, then and then I just moved to security. Because it's much more easier to point to the code than create the code, right? But how do you see this? You believe that should be an education part? like they They should be pushed to security as well? Or or no? How do you do that?
+
+36:48.08
+Eitan Worcel
+I think there should be. I think it would be the best. I think also the same time that apps, practitioners and vendors need to understand that we are not even close to that. um And then you can't say, no, developers need to know how to fix the code and I want them to fix the code. So don't go and and do that for them. They will stay ignorant. um Developers also, if taught correct correctly, they will be interested in that. Writing secure code is very very interesting. ah Think about it. It's it's about quality. It's about understanding the limitations of your application, the limitation of your code, what can go wrong with it. People are often enjoying it. On the complete other side,
+
+37:31.38
+Eitan Worcel
+React allows you to not care too much about the process scripting, right? Go and Rust allows you to write almost like C but without the memory problems, without powerful flow risks. So maybe we'll get to a point where we can write frameworks that don't allow you to do silly mistakes. And then who cares, right? if At the end, the goal is to run faster. If you can run faster because someone else is protecting, preventing you from doing the mistakes in the first place, like you said in originally, oh, and it will be better.
+
+38:04.86
+Eitan Worcel
+I won't have a job maybe, but I won't get those letters in the email all the time.
+
+38:08.88
+cassiodeveloper
+And that's, I'd say that the best word, right?
+
+38:09.18
+Eitan Worcel
+So.
+
+38:12.80
+cassiodeveloper
+We don't have this kind of problems.
+
+38:13.58
+Eitan Worcel
+Yeah.
+
+38:14.63
+cassiodeveloper
+Okay. And if we bring you on point that that would I would like to ask as well, maybe it's deep technically, but doing the fixing on the code, do you see also some challenge depends on the language? As you said, with Go, we don't have some memory problems. With Rust, this and that, but Java and C-sharp, then we handle a lot of things. You have this kind of of problems on on generating the code.
+
+38:33.74
+Eitan Worcel
+Yeah, the problem that we have is similar to the problem that static analysis solutions have.
+
+38:37.91
+cassiodeveloper
+Mm-hmm.
+
+38:38.50
+Eitan Worcel
+write an engine that can write or can run the rules. Then you run rules to find problems for each language. You have different rules, you have different findings. For us, it's similar. For every language, we will need to fix things differently. As I said, it's not AI to the level that, hey, AI fix this problem. It's more, of this is how you're supposed to fix this problem in this pattern, in this language. We want to make sure that we are doing the the due diligence to not break the code and to write to provide the same the best fix in every situation. Sometimes it involves even research because the advisors that the tools give don't always are not always the best. um We found something where you see the advisory and if you follow the advisory to the point, you're still vulnerable.
+
+39:22.83
+Eitan Worcel
+um
+
+39:23.12
+cassiodeveloper
+Mm
+
+39:24.50
+Eitan Worcel
+So so it's it's it's ah it's a risk, right? If I'm saying use the mob fix and you're protected, yeah and I'm taking a huge risk and huge responsibility on myself. And that's why we continuously working with the top security companies um to get their feedback also, and and with the teams.
+
+39:41.20
+cassiodeveloper
+-hmm
+
+39:42.42
+Eitan Worcel
+That's why I said originally, security team needs to look at the fix, say, yes, this fix works for us. And just a month and a half ago with someone, we got someone saying, I don't like this fix. It's not good enough. It needs to do this also. And we realized then we changed it. We updated it. It's not that we, um, it's not that they didn't solve the problem. It could have introduced some minor issue in some cases for that, for them was, uh, so fixing a high that introduced a minor, but they cared about it and we proved.
+
+40:12.57
+cassiodeveloper
+But to still a good change, right? As we said.
+
+40:15.05
+Eitan Worcel
+Yeah, basically that situation there was that we um printed the the exception and printing when you print the the exception, you may lead to CIO, to infolink. So we changed that also.
+
+40:25.74
+cassiodeveloper
+Okay, okay, cool. Ethan, cool. We are on the time. Again, thank you for our time. Thank you for joining and sharing. me I think it was a lot of a lot of new and nice things for for the audience. Hopefully, people will... You don't need to worry about cold anymore, guys. Just to use mob. It will fix everything for you and you'll be safe. No, I'm kidding. He just said, no, we it's a big responsibility. But Ethan, Thank you again. Feel free to send any any message, whatever links, et cetera, I will put on the video description, guys, so you can visit the mobile AI, also maybe Ethan, LinkedIn, whatever he he wants to to share. Again, say say some last advice for the people. What we would you say for the developers, for example?
+
+41:06.60
+Eitan Worcel
+I mean, there is no magic solutions, right?
+
+41:07.36
+cassiodeveloper
+be
+
+41:10.12
+Eitan Worcel
+You need to do those things, even if you have a tool that fixes things automatically like Mob does. you should understand what the fix does. And you should be very skeptical when when vendors offer you a tool that fixes everything or eliminate all the problems. There is no such thing. Check, Mob is easy to check, by the way. Check it on your own and and if you like it, great. If you don't like it, let me know. And then we'll make it better.
+
+41:35.51
+cassiodeveloper
+I would say that this is even better. If you like it, keep using. That's fine. If you don't like it, tell us tell them they are willing to fix. I'm pretty sure to to improve the solution and the tools. That's that's all about it. Okay, Ethan, one more time. Thank you. Guys, see you next week on the next episode of DevSecOps Podcast. Thank you. Bye-bye.
+
+41:53.08
+Eitan Worcel
+but by
+
+42:16.03
+Eitan Worcel
+Bye bye.
+
