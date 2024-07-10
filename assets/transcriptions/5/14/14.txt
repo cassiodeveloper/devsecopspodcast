@@ -1,0 +1,496 @@
+00:20.43
+cassiodeveloper
+Hello, everyone. It's a pleasure to be here one more time. This is Casio Pereira talking here. Today we have a very nice guest that will be discussing about runtime application security or runtime application but protection, whatever you feel ah comfortable for you. um and Just before introducing our guests, it's so worth to mention that is this is the fifth season already. We have more than 150 episodes. So please go back to the first, second, third, fourth season you have a lot of nice contents there. Portuguese, English, you can find a lot of things. um Also mentioned that DevSecOps Podcast has the the partnership with Nova8 and Checkmark. Feel free to reach out to our the website. Also on the on the YouTube description video, you have all the links here. Checkmarks is one of the leaders in code scanning. We also have partnership with Goat security if you are looking for application security services and digital work that they have a full portfolio of AppSec solutions.
+
+01:16.10
+cassiodeveloper
+that help you to create ah secret software, I would say. Guys, directly to the episode today, directly to the context of today, runtime, application, secret, or protection, I think is the first episode that we had we have re regarding this topic. and For this, we have very too very tune no sorry we have ah two nice guests here, Aiden and Pavel. Guys, feel free, at first, thank you for your time. it's It's a pleasure to have you here. um Feel free to introduce yourselves, talk about you, where you come from, where you're going from, and then we start the discussion from there. yeah once Once again, thank you for your time.
+
+01:52.13
+Idan Bartura
+Amazing. So it's a pleasure to be here. I'm Idan Bartura. I'm ah one of the founders and the head of R and&D for Kodam Security. um Yeah, I'm Pavel Furman, the CTO of Kodam. 15 years in the security space. I've been in different different security areas and glad to be here.
+
+02:16.11
+cassiodeveloper
+Awesome. Guys, where are you based, if I may ask?
+
+02:18.69
+Idan Bartura
+So we're both based out of ah Tel Aviv currently.
+
+02:22.24
+cassiodeveloper
+OK.
+
+02:23.38
+Idan Bartura
+We have ah several ah people working most of the development here and also like ah marketing and and sales in the and based out of the US.
+
+02:34.88
+cassiodeveloper
+OK, OK, that's nice. So Israel or any West. Yeah, we had some guests already from out on Israel, Tel Aviv as well. and Guys from US. We have guys from everywhere. OK. Thank you for joining again and Ethan and Pavel. And it's it's very nice to have the founders, CTO, this kind of minds here to share the knowledge with the with our audience. Because in the end of the day, our goal is to rise the the care or or our awareness regarding protecting our softwares, right? Because our life depends on on them for payments, for cars, for whatever. And it's the whole idea. So one thing that I would start maybe asking you, why?
+
+03:11.58
+cassiodeveloper
+maybe why we should care about runtime application security or protection. If we have a lot of code scanning, SCA, everything, threat modeling, a lot of things that we can do during the development to avoid threats, to avoid problems, why we should care about runtime application security? you know I mean, we have more memory consumption, all these all these problems on on runtime environments. So why we should care about this? oh I would say, is it that so important to to monitor our application the runtime?
+
+03:40.14
+Idan Bartura
+so like and and And be more precise, you know it's it's it's also protect it's not only protection, but also understanding the context from the runtime. right it's it's It's combining these things together. The the reason is, ah there's a few reasons. okay um First of all, in in the code scanning and in the process of of doing those SCA and code scanning, as you mentioned, there's a problem today of of of a lot of noise, right? So these are are the effectiveness of code scanning and SCA today is is plagued with um ah a lot of false positive, a lot of noise,
+
+04:18.38
+Idan Bartura
+and And we come, first of all, to have that runtime presence to help you understand how the application is behaving in order to come and reduce that noise, to say, hey, you know what? These issues are not relevant for you because um your application is not loading this piece of software. Or your application for this specific service is not exposed to a user input, so it's less of a severe issue for you. And then on top of that, we add some um Because we already understand how the application behaves, we can and understand this better to figure out if there's a specific threat right now because we sense that the application is behaving differently, if it's loading something that it shouldn't load, if it's unauthorized the software that's being run or stuff like that.
+
+05:01.63
+cassiodeveloper
+Okay, awesome.
+
+05:01.82
+Idan Bartura
+Yeah, yeah and the main thing is that um you want to improve your so security posture, right?
+
+05:02.64
+cassiodeveloper
+Pave want to add something?
+
+05:09.73
+Idan Bartura
+But you want to do that in the most efficient way. And you don't have all the resources in order to fix all of the vulnerabilities. So you have to know where you need to put the focus on. And that's the main key. You need to understand the most critical issues that you have on your environment and fix those first.
+
+05:33.10
+cassiodeveloper
+OK, awesome point. And I would say that for our audience is one of the of most confusions I would say that that also I feel on the on the field is ah people concerned about, OK, I have 1,000 vulnerabilities from my SaaS solution. I have another 1,000 of components that they have libraries, that they have libraries, that they have libraries, a lot of CVEs, and so on and so forth. What should I do? And as you were saying, with a runtime solution, it's easy. I mean, easier for the the runtime solution itself. to to kind of track, like, OK, you have a SQL injection here on this yeah URL, for example, or you have a CV on this component. But this yeah URL, is it's not a system. But it's not being used by the by the by the runtime, let's say. Nobody's actually posting, getting information there. Also, this component is not being loaded into the memory. So this this is kind of, as you as I think Pavel mentioned, like a focus. OK, this threat might be there.
+
+06:31.37
+cassiodeveloper
+but it's not actionable, right? i can I can look to this after, but let's focus on something that it's kind of, as Ida mentioned, what is the real threat, what it's already being used today for the application. Okay, that's that's that's very nice. ah Maybe another question is, ah what what do you think about WAF? It makes sense that you that you guys compete with directly when application fires? Or no, I should have WAF on top of my application ah protection, Please the runtime or the question makes sense at all.
+
+07:04.27
+cassiodeveloper
+Just I would say that it's some confusion.
+
+07:04.76
+Idan Bartura
+yeah and and a hoffer we will will have so something to but But the way we see it is with WAF today, and and and you know, WAF is becoming a necessity also because of compliance and also because, ah you know, the protection is provided. But the problem with WAF also is is that you're you're sometimes blocking um and and, you know, but Basically, you're blocking issues that might, again, not pose a real threat for you. Because you know we are able to understand exactly how you know how the...
+
+07:37.72
+Idan Bartura
+the the the if you know Okay, I'll put it this way. WAF is sitting on the perimeter, right?
+
+07:43.78
+cassiodeveloper
+Thank you.
+
+07:45.03
+Idan Bartura
+So you you're looking at the input directly, and then you're saying, hey, I'm going to block this or allow this. But if you understand exactly what's going on inside the application, then you can understand for a specific input if it's going to actually pose a threat or not, even if it's you know it's it's possibility that it's it's no it's it's not a you know that a normal WAF would block. But because you understand how it's impacting you, you can understand that you can allow certain inputs to go in ah because they don't actually pose a threat. And then you're making your WAF much more effective.
+
+08:18.90
+cassiodeveloper
+Mm hmm.
+
+08:18.86
+Idan Bartura
+Okay, I got the the message right correctly. Yeah, and ending on top of that ah is all of us are afraid afraid from zero days, right?
+
+08:21.54
+cassiodeveloper
+Yeah.
+
+08:29.00
+Idan Bartura
+So the main, um, the main issue with WAFS is that you need to add the rules for the zero day, but you have some timeframe that you need to, uh, like the vendor need to add those rules in order to be protected. Right. But if you have some more East West protection and being able to monitor your internal services and not just the perimeter. You are able, for example, detect an SQL injection that is happening inside one of your internal services and being able to catch that even when the WAF still haven't been able to identify the new attacks that are coming right now. So this is very, very important in that aspect as well.
+
+09:18.00
+cassiodeveloper
+OK, I get it. I would add also at this point, like um since the WAF is set on the perimeter, if I have internal communication that is like going directly to a service or something like this, of course, the WAF is already bypassed by architecture. right I don't have this this monitor there. and As Eden mentioned, it's it's very important to know the behavior of the application. so With the runtime protection, which is sitting together of the application, I would say that there's the best or maybe the one way of of knowing the real behavior of the application, right where the requests are coming from or or this kind of things.
+
+09:52.98
+cassiodeveloper
+okay okay Good point as well.
+
+09:55.41
+Idan Bartura
+Yeah, and sharing to your idea about combination, combination of WAF with runtime application security testing.
+
+09:56.62
+cassiodeveloper
+Go on.
+
+10:05.83
+Idan Bartura
+So you are able to ah combine that by identifying the internal threat and then you can send a command to the WAF to drop the connection and you're being able to stop ah additional additional attack attempts. And of course the attack that is being happening ah at the moment.
+
+10:27.68
+cassiodeveloper
+Okay. ah Now I want to bring the discussion maybe to to kind of a more architecture level. And I suffered already from the past by trying to implement a WAF for six months. Didn't work. I left the company. Hopefully they manage already after a few years. But it was but as a huge problem. But anyway, my point here is when we're talking about the runtime application protection, testing, whatever. I assume that you have some kind of agent, some kind of monitoring together with the pod or or together with the web server or something like this. And we and when you talk about, for example, WAF or SAS or other kinds of tools, they are kind of around the application, not not exactly with the application on on the on the server and these kinds of things. This makes the deployment, I would say, or or the whole architecture kind of more complicated, right? Okay, I have many pods on Kubernetes, so each specific pod, I need an agent.
+
+11:23.91
+cassiodeveloper
+ah When I talk about SaaS, I just need to scan the code base or the SCA or even with a WAF for example, just I don't know, mirror my my domain, my request there. so What you guys would bring to the discussion, like it's worth to have this more effort on the architecture side, ah to implement, to install runtime monitoring ah in exchange of, okay, just put, as I said, and I just put the WAF here or things there. i mean I know it's more work.
+
+11:54.15
+cassiodeveloper
+I know it's a bit more more tricky. and And why I'm bringing this? Because I know that developers, DevOps, they are trying to avoid more things. They are not part of the their day. right And we when you come up with security things, they would say, oh, one more agent, more memory consumption, more things to take care. If the application breaks, it might be this. They will blame everything. right So what do you guys say? like No, it's easy to it's easy to do. It's seamless to do how you bring this question.
+
+12:20.29
+Idan Bartura
+Oh, so yeah, so it's it's it's a great question and you know it's it's good that you raise that. We put a lot of thought from the beginning on how to do this without you know impacting the application, how you know not interfering with performance too much. So you know and and and the the way it works is basically today we're utilizing several technologies. One is EBPF. We're also doing memory analysis. These technologies enable us to not be part of the application. So we're not not instrumenting, we're not injecting anything to the application itself. We're installed as a, ah you can call it, you know, a sensor on the the cluster of the application, not as part of the application, but ah as a different deployment. ah Usually we use a demon set for Kubernetes or other deployment types. it's it's It's a little different, but the the way it works is it's a five minute installation.
+
+13:05.32
+Idan Bartura
+We just deploy on the cluster, and then we we understand how the application behaves from tracking ah either internal events that we have visibility to or looking at at memory of the application, but in no way we do we ever intervene with application.
+
+13:05.38
+cassiodeveloper
+Thanks.
+
+13:20.04
+Idan Bartura
+And also we're doing this in a way which is very, very lean in terms of performance. We today are able to do this with a less than 0.1% of performance impact because we're not part of the application, right? Because we're not, and and we can control exactly what goes in and which events we listen to, then we we're able to apply advanced filtering and all sorts of mechanisms to reduce this performance impact. to a minimum and also EBPF built in is very, very lean. So we're able to, obviously there's going to be an installation, but it's very easy. ah Five minutes, literally five minutes, and you start seeing a results. and And again, not interfering with the application in any way. Yeah. And the results also always come come the question, like whether you you want to invest a bit more.
+
+14:11.64
+Idan Bartura
+ah But what do you get in reward, right? So in terms of value, it it enables you to focus on the right things. You can eliminate the noise entirely. You can eliminate the frustration that you have. when you are find find out that it's actually, you have some issue, but it's not true anymore. ah So um and we ah the the ratio between the amount of effort that you need to put into it and the amount of value that you get is very high. So did in that in this case, it's worth doing that.
+
+14:54.42
+cassiodeveloper
+That's nice, that's nice. And now moving moving forward on the flow of my imagination here, I assume that when I talk about runtime protection, I assume that we block something, right? so ah Because I need to protect. But when I talk about runtime testing, maybe you are just intercepting requests, for example, to understand if that request might be malicious, monitoring that, what's happening. and sending back somewhere as an output. um Or also ah testing kind of proactive, I would say more or less like a dust, like scanning the application and so on. Do you guys position ourselves on the three scenarios? One, two, fourth one, how how how does it work?
+
+15:42.28
+Idan Bartura
+so ah So if you're looking like on the on the landscape, we're covering several use cases. So we're covering the use case of the ability to auto triage your issues, to do the testing, understanding Where do you have the issues? What is the most critical to you to fix at the beginning? And on top of that, create a complete remediation storyline in order to remediate those issues on on your environment and your code base. The second thing is how do you see the application identify security flows and
+
+16:20.63
+Idan Bartura
+do hardening ah hardening actions on top of it. If you are, for example, have some bad practices on your environment or, for example, using secrets on places that you don't need to use, how do you fix this at the first place before someone is going to utilize that and create a harm to your organization? And the third thing is the ability to detect a threat in real time, right? and being able to prevent that ah from being exploited in on your environment. So this is also the use case that we're covering and we're covering that by
+
+17:01.78
+Idan Bartura
+the The main thing is that all of that is based on the visibility that you have. And you can build on top of the visibility all of those capabilities. So if you provide the censoring capabilities and you are able to see for every service what is really happening, you can build all of those ah all of those capabilities on top of that. And that's exactly what we're doing.
+
+17:28.04
+cassiodeveloper
+Okay, I get it. I ask this because I imagine some scenarios as well, where where the teams want to like, we are building a product, that's perfect. But before I go to production, before I release this, I want to make sure that I am i am safe. And I would imagine, like, for example, I can run a DAST, for example, to actively scan the application to have some some um landscape overview about my vulnerability or problems that might have that I want to fix before, right? But once I go to production, then I would have this runtime protection that, okay, I make sure that whatever is happening there, I know. But before, during during product phase, I would say, maybe I don't have the whole and the whole visibility of threats that I would have in production environment, right? If I'm not running Pentasty on a staging environment or this kind of things.
+
+18:20.38
+cassiodeveloper
+ah So you think the question is, you believe that a dust, a pen testing, or this kind of things, they are they are complementary to run time runtime protection. how you You understand the point, right? I want to make sure that I tested everything before I release.
+
+18:33.30
+Idan Bartura
+and yeah I think that the you know one of the things that you know is is nice about this is that you don't have to run it only on production. You can run this on staging as well, and then you can test the application behavior ah before it's actually ah quote you know ah promoted to production. but but also because you know we we are looking and we're talking about runtime a lot, but what we also try to do is propagate or or or ah correlate the findings that we get from runtime to the code side.
+
+19:02.26
+cassiodeveloper
+Mm
+
+19:02.36
+Idan Bartura
+And then we can understand, you know and if you put in a new change in, because you know how the application behaves, you can discern certain ways that of the behavior on the change that you're currently entering, even though it's still in the code level, take the the with the value that you bring from the the application behavior to that and then understand if you put in or you're using a new library, you know you know the behavior and you know um um how how the behavior is going to be and and and understand from the application behavior on the risks that you put in on on the new code that you're about to enter.
+
+19:28.22
+cassiodeveloper
+-hmm
+
+19:36.61
+Idan Bartura
+And then again, you can also test it in QA environments and testing environments and and staging environments before it's pushed to production.
+
+19:43.81
+cassiodeveloper
+OK, OK, I'm asking like this because i'm I'm imagining some kind of blind spot. You know, for example, I have I don't know, I have an e-commerce application where the person search for products, add to the basket, go to payment, right? ah But i can I can go to the product details or I can just hit the add to basket and and purchase. and Let's imagine that the product details has a vulnerability that I didn't test in staging or whatever. But in production, my real users, they will go to the product details because they want to see more information about the product. and There I have a threat that your runtime probably will protect me, will will alert me, whatever. But as an app sack or even as a developer, I would love to catch this before.
+
+20:26.75
+cassiodeveloper
+Because if it's in production, then I have risk. But if it's on the product development side, I still manageable, right? I don't have the risk. I don't have the possible damage and so on. And this is the blind spots that I'm trying to catch here. As you said, you if you are monitoring, then you, but if you are monitoring is one thing, but if nobody's go to the product details, then you will not be able to see it. It's not a problem of the of the solutions that they design. That's why I'm bringing this Dasked approach, maybe even I asked approach. I asked as well, but if nobody clicks there, nobody will catch this problem still.
+
+21:02.21
+cassiodeveloper
+That's the point of of how we actively or proactively could make sure that we're maybe not catching the problems, not all tools will catch everything. But okay, I hit this button, I go to the scenario, I didn't find anything or I found a problem. That's the that's my perspective here.
+
+21:17.48
+Idan Bartura
+Yes. So referring to what you said, of course, you would like the the main goal is to identify the issues as soon as possible, right? If you are identifying them, ah like even at the beginning during coding, you have more time to fix them and ah eventually prevent from the risk being entered to to production. So basically, you would like um you you would like different kinds of controls across your software development lifecycle. So you would like to scan your PRs. You would like to do testing, as you said. You would like to do monitoring in the runtime to to pretend to um prevent threats
+
+22:03.04
+Idan Bartura
+and stuff like that. um so So to refer to what you said, what we do, we do two things. One is that all of the monitoring is continuous. So you're correct in the sense that whenever something new happens, we're reporting that immediately. And whether it's a threat or something new that we we identify, we report that immediately and you can take an action. The second thing is that we take all of the runtime context that we have and propagate it to development stages. So what do I mean by that? We take all of this and then apply that to the code that you have and ah and do and combine that with static analysis.
+
+22:55.22
+Idan Bartura
+in order to understand how your code would behave ah ah with the new changes. So with the runtime that we already know and with your new changes in order to cover ah those issues. So of course on those cases you won't be able to tell for sure that it's going to to happen, right, because you You only can do that in runtime when it's actually happening, but you would be able to say that the likelihood of this happening is ah is much more higher than just ah looking on some arbitrary code that you have. So that's basically the approach.
+
+23:37.93
+cassiodeveloper
+Okay, this is the attention sign, because once we had some comment from our audience, that someone got, because they were driving and they got lost because they were too entertained on the on the episode and so on, they got lost. And they were, I think in New York or something, that you got lost on the on the traffic jam in this kind of cities. It's it's terrible, right? So if if you were lost, stop now, check you where you are, come back to your track and keep listening. yeah Okay, guys, one more one more point on our flow here. yeah It's regarding yeah alerts, maybe vulnerability management and all kinds of things. right i i mean As an app second engineer, for me, I want to be alerted, I want to to know what is happening. This is one thing. right for Maybe for production monitoring, they want to you see everything. But for developers, they don't want to see everything. they Actually, they don't need to. right they They need to say, okay, I need to fix something in the code. Give me that. If not, I don't i really don't care, I would say.
+
+24:31.20
+cassiodeveloper
+And and how how the how the how do you see a nice flow or or you can talk about the product as well, how it's working? If you have an alert, if you have a finding, how does it work? Can I send a ticket to Jira? Can I send the message to Slack? Again, I don't want to message everything to Slack to the developers.
+
+24:48.28
+Idan Bartura
+Uh
+
+24:48.45
+cassiodeveloper
+I want to, okay, you have a code, this is a line to fix or something like this, or create an issue on GitHub, whatever.
+
+24:53.80
+Idan Bartura
+huh.
+
+24:54.06
+cassiodeveloper
+how How you guys approach this?
+
+24:55.51
+Idan Bartura
+Yeah. So, so, so, right. So, so first of all, the, the, the real beauty of it, uh, with, with Codem is that we, first of all, we're only going to alert the developer if, if the issue is relevant, right? So instead of getting a hundred alerts, they're going to get like a fraction of that because we only want to, you know, the the developers to actually handle stuff that's relevant. So remove all this friction of, Hey, you know, uh, come deal with this. And then the developer comes back and say, Hey, we're not even using this.
+
+25:20.04
+cassiodeveloper
+you
+
+25:22.02
+Idan Bartura
+Why are you bothering me? So first of all, we're taking all that load off. then you know because we understand what's happening in the code and we connect that, we can show the developer exactly where the issue is coming from in the code with the exact line or location of what you need to go fix. If it's a dependency import that you need to change, say, hey, this is the line where you're doing that import, this is where you need to change. If it's a base image fix or something in the Dockerfile will tell you the exact line or you know you you need to go change it. We also support you know integrating with Jira or other ticketing systems. so
+
+25:53.37
+Idan Bartura
+you know ah the um The developer can you know only, you can if if they want, if their organization works that way, they can use the platform. If they only want to use JIRA and say, hey, you know, I don't want to mess with this, we can only, we can just, you know, work with the ticketing system and they're only going to see tickets there with the exact description. um and and and and And another thing really, really neat that we're doing is we enable the the developer to work with specific scopes. So when they log into the platform, they can see only the code repositories that they're in charge of and they're interested in.
+
+26:26.78
+Idan Bartura
+And then the slide is filtered, which is permanent for their specific user.
+
+26:26.87
+cassiodeveloper
+Mm
+
+26:31.12
+Idan Bartura
+And they only see the repositories that they handle and they care about. They don't have to steal alerts on anything else because they don't care about that. So we're we're all we are keeping developers in our mindset. Right? Letting them, first of all, work comfortably on only things that matter. And then ah we try to adapt to the way that it's comfortable for them to work.
+
+26:46.67
+cassiodeveloper
+hmm.
+
+26:51.51
+Idan Bartura
+We also develop every feature that we develop. We develop it in the API first mindset. So everything is customizable. And if there is on an organization that wants to customize their ah workflows and build something that is not directly like on the set of integrations that we have, everything is API-able and you can ah you can trigger all of the actions, get all of the information and and customize it to your needs.
+
+27:22.32
+cassiodeveloper
+Okay, okay, and that's cool. One more one and more thing that comes to my mind, and and and this I would say it's one of my dreams, but will never happen. It's like, the the best way is like, we don't need to go to the doctor because we are all healthy, right? We we eat good, we do exercise. It would be the same of software development, right? If they don't create vulnerability, we don't need runtime protection, we don't need SCA, we don't need nothing, right? But it's good to have them as a double check. So the question the point here is like, Do you guys see your your product or solution as also a kind of an educational? And why why why what I mean, you are you are alerting, you need to fix this this. This is awesome. You are protecting the company, protecting the asset. This is one thing. But do you see also as as a benefit for the developers, like, okay, you fix this, but how do we make sure that you don't do this again?
+
+28:13.53
+cassiodeveloper
+Like maybe maybe I worked already a few years with SAS, SCA, and so on. SCA is kind of tricky. But SAS is like, OK, you have a SQL injection here. Here's how you fix it. And by doing this one, two, or three times, it's kind of automatic. Like, OK, I need to validate parameters. So I'll stop creating non-validated parameters, right? Kind of in place there. But do you see also your your your approach? with an educational path flows like guys fix this, but stop creating these problems, right?
+
+28:45.41
+Idan Bartura
+Yeah, so so the way we see it is that when we scan the code, ah we're able to to explain the exploitation story. So this is something that should help the developer understand the fee if he's going to write it this way, it's going to have some impact on the system, right? So we're explaining what is the problem with the current code, how you should fix it, and why is it fixing it. So this is very important, and it's something that is
+
+29:24.44
+Idan Bartura
+um that it counts as part of PR scans that we're doing and also ID plug-in that we plan to add very soon to the product. um But I would like to say, yeah you know I don't want to break your dream, but but we need to understand that from like from a theoretical perspective, ah it's not really possible to detect everything. So we need to make sure that we are doing the best that we can in order to improve the security posture as much as we can. But I totally agree with you that the educational aspect is very important. And the way we ah we tackle that is is that we we want that all of the findings that we have will be fully explainable ah and we have proofs
+
+30:21.43
+Idan Bartura
+for every issue that we find and anything, any evidence that will help the developer and also the absec engineer to understand ah why there is really an issue here and how you should avoid that in the first place.
+
+30:37.78
+cassiodeveloper
+Yeah, I think previous episode or two episodes ago, we we recorded with guys from Mob, Mob AI. they have a yeah they they haven't and Basically, they fixed the vulnerability. for They get the SaaS results and they fixed the vulnerability. It's perfect, right? But I was also asking this for for for them, like, okay, do you help us developers to learn to don't create? And and and it was interesting answer, like, maybe not. Maybe the developers will never learn. They'll keep creating vulnerabilities. Part of their job is is like this and we'll be there to fix. I agree, not agree.
+
+31:11.07
+cassiodeveloper
+It's the same with doctors, right? We can eat healthy, and but there will be a point in life that we will be all be sick, old. We need doctors, right? so i'm i'm still I'm still accepting this.
+
+31:20.11
+Idan Bartura
+yeah
+
+31:22.96
+Idan Bartura
+It's also important to note, and you know even and if you get developers, lin know you you know and especially with SCA, even if the developer is doing everything and checking all the vulnerabilities in every patch of the imports, a new CVE can come out and then you have your app risk and you need to make sure you're continuously monitoring for the risk. so It's always going to be, you know, you can educate, but it's always going to be a risk. You've always got to be, you know, ah ah monitoring and seeing that, you know, everything's after the even substitute that's already deployed.
+
+31:44.01
+cassiodeveloper
+Yeah.
+
+31:51.13
+Idan Bartura
+You want to keep monitoring that, you know, no new risk is coming in.
+
+31:54.65
+cassiodeveloper
+Yeah, I agree. I agree. um One more, maybe one more question and we can go to the end. I remember once I was working a company, we were kind of doing, um kind of soar Like I was checking the AWS APIs. If someone created the AC2, for example, open to the internet, then my script was just alerting and changing the security group, like simple things. Do you guys also have have things like this in mind? For example, you have a code scan that you detect something and they will not fix today. And it's okay. They don't have capacity, time, whatever, or they don't even know don't know how to fix or just don't want to.
+
+32:32.13
+cassiodeveloper
+and then you could automatically create a WAF rule or or the runtime rule that would block, okay, I know that I have a SQL injection here on the code. I will not fix this, but how can I mitigate this using the other capabilities that I have as a WAF, as a rules, as I don't know, or it's as you said, ah you are monitoring the application. So you know that the SQL injection is a path that nobody's using. So you could even shut down this specific service. I don't know this kind of things. Do you have this in mind or or are not? or And how do you see this? and
+
+33:03.05
+Idan Bartura
+So ah so it's definitely ah um it's ah it's it's definitely a great capability to have because you you can't fix all of the vulnerabilities and you have existing controls already that you have on your environment and your organization that you can utilize in order to protect from other vulnerabilities. So this is something that um like we We tackle it a bit differently in our ah product and the way we we see it is that we want that ah as an absec vendor provide all of the information needed to understand the exact impact of each issue and even understand how a chain of vulnerabilities can be stacked together in order to understand the exploitation path.
+
+33:52.95
+Idan Bartura
+And then um ah the way we're looking at is that vendors that have these strains of understanding all of the controls that you have can fetch this information and then understand how exactly you want, where you want to turn it on, whether you need to turn it on, and so on and so forth.
+
+34:13.78
+cassiodeveloper
+Okay. Okay. Good point. um You think also, yeah I mean, I think also, because now I kind of deal directly with the CISO and other management, and they always want KPIs, dashboards, informations. It's part of their life, right? As an app site, I need transaction information and they need more executive data, right? Maybe how many threads we have monthly, yearly, or how many threads we are fixing or not fixing, or how many threads are actionable, not actual, whatever. How you guys approach this? I see a lot of ASPMs on the market doing a very good job. ah we We recorded with guys from Appiro, I think. We talked with guys from Anso security. I think they got bought by sneak. Pretty, pretty nice solutions that are integrating a lot of things. How you guys see this?
+
+35:01.89
+cassiodeveloper
+KPIs, executive management data information. The tool is for them as well. They can benefit from this or or we need to extract this information. You mentioned APIs, so I believe that I can get all this data there. But how do you guys see this to to the audience? How we would recommend?
+
+35:20.50
+Idan Bartura
+Yeah, so ah so it's it's very important. So in in terms of like ah from an executive view, you need to understand like how the your organization progresses, where the problems are, whether the application security program works or you need to improve it. So where so everything in our platform is exportable. So you're able like to take all of the information and create any reports that you like. We of course have our reports that cover like the the main use cases and the and you can export all of them like on a monthly basis and we like ah we send those to the CISOs actively to to provide them the information they need. But we believe that
+
+36:12.69
+Idan Bartura
+ah any organization have slightly different requests upon that. So we're making sure that everything is exportable and also in a variety of different formats in order to be able to customize it and create the reports that you specifically need.
+
+36:34.40
+cassiodeveloper
+Yeah, I have the same issue. Every day is a new report, and no solution can cover that, right? It's impossible to escape. It's the same as vulnerability. You cannot cover everything, right? It's tricky, I would say. OK, guys, I think we are i mean we are on the time. we have We have some time. Do you want to add something, bring some something but that I might not ask? so how do How do you see? Or can I bring one more question? How do you see this?
+
+36:59.68
+Idan Bartura
+Yay, go ahead and ask, no no worries.
+
+37:02.45
+cassiodeveloper
+OK, maybe one one last point would be ah from your from your personal experience. If you if ever developer could have one skill in one word, what skill that would be? What what do you think?
+
+37:19.82
+Idan Bartura
+Skill for developers, you're asking?
+
+37:21.10
+cassiodeveloper
+Yes, yeah.
+
+37:23.27
+Idan Bartura
+um I think it's a you know ah programming without bugs, that would be my skill.
+
+37:28.73
+cassiodeveloper
+You are even more optimistic regarding my dream, right?
+
+37:33.74
+Idan Bartura
+Exactly.
+
+37:35.72
+cassiodeveloper
+And you, Papu.
+
+37:35.69
+Idan Bartura
+yeah um I think patience, when something is not is not working just take a deep breath and you will solve it.
+
+37:47.34
+cassiodeveloper
+Oh, okay. that' That's a nice one. I need this one. As as a father, as a husband, I need patience all the time.
+
+37:55.12
+cassiodeveloper
+Okay, good. and and if ever And if you had the, let's imagine, if you have the power to solve all the components problems everywhere in the world, but you can use only one, only one tool or a strategy methodology, whatever. What do you think would be like SaaS, SCA, runtime, I don't know, threat modeling? What do you would do to everybody to to be secure? Only one thing.
+
+38:21.86
+Idan Bartura
+That's a tough one.
+
+38:22.48
+cassiodeveloper
+and And you can say, use code and security.
+
+38:24.32
+Idan Bartura
+I think, you know, yeah, obviously use CodeM, but, you know, I think that at the end of the day, you know, and this is where we're trying to go at, is building a platform that, you know, combines all these tools. um you know, into one place that will give you, ah you know, if we're talking about application security, it'll give you one place where you solve all your application security problems and try to consolidate that because there there are a lot of tools that they write. and And to be frank, to answer your question, I don't think that one tool is enough to solve all these issues. So I think, you know,
+
+38:58.26
+Idan Bartura
+building a platform that combines these capabilities is is what is what you need to keep your ah to keep your company or your your application, in this case, secure. And this is what we're going for, right? To to build a place to help you prioritize and then help you um bring all these values of SCA, SAS, and also like infrastructure and secrets, everything built into one platform, and then have that ah protect you the best way possible.
+
+39:29.16
+cassiodeveloper
+OK, fair enough. Pavel.
+
+39:33.15
+Idan Bartura
+I think that the only way to keep things ah secure, like 100% secure is just preventing developers ah developing code.
+
+39:44.80
+cassiodeveloper
+Touch the coat.
+
+39:46.58
+Idan Bartura
+Just kidding. But yeah, I agree with Adana that ah you have to have a combination of ah many scanners and being able to cover many issues and make sure that you provide accurate and actionable insights because any solution ah that only focuses on something specific will have gaps, will have ah ah coverage problems. so
+
+40:18.94
+Idan Bartura
+Security problem is tough and you will have to have ah a well coverage suit to make sure that you are already really secure.
+
+40:30.76
+cassiodeveloper
+Yeah, I would add to this. um I always compare our upset word with with with the real life doctor stuff. I remember first time I had kidney stone, the doctor said, oh, we need to do a ultrasonography. And there was not on the nothing on the ultrasonography because the the stone was too small. And then the other doctor said, oh, yeah we need to do, I think in English, is resonance, electrorection or something like this.
+
+40:53.85
+Idan Bartura
+All
+
+40:55.38
+cassiodeveloper
+And then that that was able to see. So in one first scanning, I was screaming pain, so I know the problem that I had, but they were not able to detect. But in another scan, more deep scan, let's say, more more detail, it was able to detect, and I had surgery, and so on. And and I would say that AppSec is the same, right?
+
+41:13.61
+Idan Bartura
+right.
+
+41:14.02
+cassiodeveloper
+We we we have different tools, different solutions, different approach to to see different problems as well. you might As you said, in the runtime, maybe it's a very good way because you know the whole behavior of the application. It's running already, right? but But you also have the SCAs, threat modeling stuff, like requirements stuff, things that can we can care before the whole the whole cycle starts. OK, guys, thank you for your time. If you want to send one last message, send kisses, hugs to someone.
+
+41:44.42
+Idan Bartura
+No, just say it was a pleasure to be here, Casio, on the and the podcast. And the you know ah hopefully you know everybody learns and keeps their code more secure. And that's it.
+
+41:59.04
+cassiodeveloper
+Sure. Fabio, last message.
+
+42:00.78
+Idan Bartura
+Yeah, a pleasure to be here. And let's keep the world safe. That's the main thing.
+
+42:04.58
+cassiodeveloper
+Cool. Thank you, guys. Thank you for for joining me as well. This is Casio Pereira for DevSecOps Podcast, fifth season. I don't know. We are in the episode 14, maybe 15 of the season. More to come. And I can announce, actually, I need to give kind of a spoiler, that finally we're going to have a psychologist on next episode. to to to try to understand why developers are so afraid of vulnerabilities, why everything is false positive, why they don't want to fix, why they are defensive. So keep in touch. It's still July. We're going to have this episode finally after five years of this episode.
+
+42:37.45
+cassiodeveloper
+Finally, one psychologist working in CyberSec. So let's see what what's going to come up there. Guys, again, thank you one more time. It was a pleasure to have you here. See you next week, folks.
+
+42:46.32
+Idan Bartura
+thanks by bye thanks again
+
+42:48.04
+cassiodeveloper
+Bye-bye.
+
+43:09.42
+Idan Bartura
+Thanks again. Bye bye. Thanks again.
+
