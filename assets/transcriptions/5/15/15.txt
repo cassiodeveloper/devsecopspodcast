@@ -1,0 +1,1224 @@
+00:21.15
+cassiodeveloper
+Hello, everyone. It's a pleasure to be here with you one more time for the episode 150-something. It's too many episodes. I already lost the count. It's the fifth season, and so please, please, please go back, or watch, listen to all the episodes. We have a lot of nice content for you when you reach your knowledge in DevSecOps, application security, and a bit of more fun with Marco's jokes from from the past seasons that we cut it.
+
+00:47.09
+Marcos Santos
+I'm
+
+00:48.91
+cassiodeveloper
+Guys, I'm Casi Pereira.
+
+00:51.54
+Ben_Hur
+I am Baker.
+
+00:52.81
+Marcos Santos
+Marcos.
+
+00:53.98
+cassiodeveloper
+That's um how to say, one of the episodes that I was dreaming about to have it, ah to connect the person or the human psychology side with the the threats or dealing of the daily basis with the cybersecurity activities. And for that, we have a very nice guest that I will introduce in one second. because before I need to mention that the DevSecOps podcast has the support from Nova8 and Checkmarks that they are specializing in code security. Also, the DigitalWoke, if you want to buy some application save yeah application solutions, you can talk to DigitalWoke. They have a full portfolio for you. Also, the GoldSec, gold security, if you want to have professional services regarding application security, talk to the Digital, to the gold security. I'm kind of lost today with the with the ads, but but here we are.
+
+01:42.00
+cassiodeveloper
+ah Okay. First, to introduce our our guest today, an amazing person that I met in LinkedIn a few weeks ago. She was on vacation, but finally we found time for her to be here. Magda, thank you for your time. Thank you for being here with us. Please introduce yourself and we jump directly to the discussion. and
+
+01:58.33
+Magdalena Jarosz
+Of course, guys, thank you for having me today. And hello, everyone. My name is Magdalena Jarosz. I'm psychologist and gardener by passion. But for over eight years now, I work in the tech world. Mostly I was working with startups, helping them grow, connecting them with big enterprise customers. But starting this year, I kind of switched the sides because I joined the CyberSec company and with over 20 years of traditions securing. And now I gain completely new perspective. I'm learning a lot and I'm really fascinated by the CyberSec world. Thank you for having me and I hope we will learn a lot from each other today.
+
+02:37.08
+cassiodeveloper
+Yeah, very nice, Magda, to have you. And let's go directly to our first, let's say, first topic that I would like to discuss, which is maybe being your I know that you have some thoughts on this. So maybe you can start and then and Magda can jump in with her comments and Marcos also.
+
+02:48.85
+Magdalena Jarosz
+that.
+
+02:52.87
+cassiodeveloper
+It's about the white people are so afraid of vulnerabilities or security teams or the security guy. White people are are so defensive, why they react on on the the first reaction It's like, no, no, no, this is not my problem. Or this is a false positive. Or what do you think, there or why do you think that people have this kind of behavior? but you you You first. do I know that you have some thoughts on this. Then then Magda can comment after.
+
+03:19.97
+Ben_Hur
+First, it's because of vulnerability. It's not only a simple bug, it's a label without a type of error. It's a field that we have a problem with an input, but a vulnerability finnery is I don't know which impact this bug could have.
+
+03:38.53
+cassiodeveloper
+you
+
+03:43.77
+Ben_Hur
+It's a vulnerability, so It's a problem of my work. My work, this error makes that the company is now at risk.
+
+03:55.41
+Magdalena Jarosz
+Mm.
+
+03:55.62
+Ben_Hur
+So I think this is the main reason when we report a vulnerability. And if the devs are something that get the report of the vulnerability, they already know what is a vulnerability. But the main fact is, the company could stop their operations because of my failure. So that's ah' the main point because why people are so afraid of vulnerabilities in these days. In the past, I think it's more about, okay, it's my job, it's my work, who are you two to tell this kind of thing of my code?
+
+04:41.66
+cassiodeveloper
+and the code And the code is kind of of the of the son or the daughter for the developers, right?
+
+04:42.00
+Ben_Hur
+So two.
+
+04:46.74
+Ben_Hur
+a Exactly, exactly. Two different times, two different divisions.
+
+04:54.40
+cassiodeveloper
+OK.
+
+04:54.95
+Magdalena Jarosz
+And this is super crucial, what you said, um because this is where we are mostly afraid of, not really the vulnerabilities, but consequences. And sometimes you don't know, you don't know what to do, what the consequences might be. because we have potential consequences. We all know like money loss, right? There is reputational harm.
+
+05:16.31
+cassiodeveloper
+Okay.
+
+05:17.81
+Magdalena Jarosz
+We all know what happened with Microsoft, either though that was the some error in the update on the side of CrowdStrike. All the harm has been made. Everyone was talking about Microsoft down, like all the big media station that was crazy. And from the perspective of the employee DevOps product owner, whatever, this is extra workload. Always, this is extra workload. You have to fix something. I mean, in some companies, that might end up in the backlog.
+
+05:46.45
+cassiodeveloper
+Mm hmm.
+
+05:46.98
+Magdalena Jarosz
+But ah in most people will do something with that, especially in the bigger companies. But what I would say is more scary or frustrating from the perspective of a DevOps would be pressure. pressure from the management. um They will be pushing you into fixing things in a cheap way, fast way and for yesterday. um A lot of companies is doing that. They are not so open for healthy ways to fix things. But guys, maybe you will tell me how is it from the perspective of DevOps in the company because I'm super ah curious about it.
+
+06:25.08
+cassiodeveloper
+Yeah, i think I think there is one big connection also with this, with this as as with Benjur said. It's kind of a personal personal failure, right?
+
+06:33.23
+Magdalena Jarosz
+yeah
+
+06:33.26
+cassiodeveloper
+Oh, I did something that might bring a risk. i I have no idea what is this risk. And it's my fault or something like this. So they they they feel defensive because of this as well, right? And Marcos, do you have some thoughts on this?
+
+06:47.49
+Marcos Santos
+No, but it's not too much. You you and Ben were said too much and about it, and Mark explained very well. And then i think so I think I have ah some kind of emotional impact when we talk about it, because when I think about security or vulnerability in general, I think, okay, if yeah I don't don't think it different, or if I don't send this vulnerability, or I don't apply the patch or other things,
+
+06:58.74
+Magdalena Jarosz
+One. One.
+
+07:15.41
+Marcos Santos
+I feel inside of myself, okay, I a try to make some bad work and and the the enterprise try to rip me or to cut off. I don't know. And my emotion has so many impact when we talk about it. And I think for the different categories or the different professionals have the same sentimentals. about to do. Okay, is it more emotional than the impact on the enterprise?
+
+07:48.34
+Marcos Santos
+I think it's this.
+
+07:48.54
+cassiodeveloper
+ah One thing that I could i could add is when I was developer, I remember one teacher who was saying to me, like developers, we we from IT, we have a super ego. We think we are the best and this kind of things.
+
+08:01.99
+Marcos Santos
+you
+
+08:03.68
+cassiodeveloper
+And I think there's there's all emotional connections, like defensive or or avoiding behaviors, has also some connection with ego. right, Magda? Maybe like, I'll also touch you a lot when you were said, right? Oh, this is my work, my creation. I spent one month or one hour, it doesn't matter, on this awesome code to some random person to security say, Oh, they have a vulnerability that might crash the whole company. Like, what the hell?
+
+08:30.53
+Magdalena Jarosz
+Yeah. And this is super interesting because when I was starting my job in tech, I was mostly running HR and marketing departments. And I interviewed hundreds of developers on different positions. And I always asked one question, why you became a developer? And 99% of people answered because I'm a creator. I love to create.
+
+08:54.06
+cassiodeveloper
+Mm
+
+08:54.80
+Magdalena Jarosz
+I need to create. I must create. This is like this inner feeling you have.
+
+08:57.64
+cassiodeveloper
+hmm.
+
+09:00.19
+Magdalena Jarosz
+So basically, if you invest signify significant time and effort into something, it got personal.
+
+09:05.04
+cassiodeveloper
+Mm
+
+09:08.48
+Magdalena Jarosz
+It's hard to detach yourself. You can call it ego.
+
+09:11.04
+cassiodeveloper
+hmm.
+
+09:12.34
+Magdalena Jarosz
+um You can call it like the work personal self, right?
+
+09:14.58
+cassiodeveloper
+Mm hmm.
+
+09:16.22
+Magdalena Jarosz
+So it's hard to detach from that.
+
+09:16.50
+cassiodeveloper
+Mm hmm.
+
+09:18.38
+Magdalena Jarosz
+And criticism can kind of feel like a personal attack. Like, you know, you got to got this feeling under your skin, you are kind of frustrated, kind of mad. The more senior you are, the better you can deal with feedback, right? Because a lot of companies is saying, hey, we have amazing open feedback culture. um We are open for that. ah learn fast fail fast and Learn faster, right?
+
+09:44.39
+cassiodeveloper
+Yeah, yeah.
+
+09:45.63
+Magdalena Jarosz
+At the end, it's not like that. So companies should promote it so employees feel safe. When anything comes up, they will just go, plan, and fix it. And that's it. But the thing is that companies are not really investing in security. um And only after something will happen, they are like, oh, yeah, let's get some training. Let's buy more new pen tests, new tools. like Let's ah hire new people. But sometimes it's too late. right Yes.
+
+10:18.51
+cassiodeveloper
+Oh, sorry, you were talking and I touched the the the button but by mistake. It was my mistake. But yeah, what this is what you mentioned is exactly this. Some companies, they don't have this investment with perspective. They are ah reactive instead of proactive, right? and this is And this is a big problem as well. Okay, okay. And guys, what do you think about, so i have I have kind of a theory that for life, not only in our area, right? That pain teaches more the paint each more.
+
+10:51.00
+cassiodeveloper
+Once you have a suffer with something, ah you kind of then you start being proactive with that specific problem. But before you have that that feeling, you may not take care of much. So for example, I can give an example of a cultural aspect. As a Brazilian, and leaving I was living in Sao Paulo, we never buy a car or a motorcycle without insurance. Because the possibility of being stolen, it's 80%, 90%, 99% that something will happen you know in in ah in a traffic light, in a traffic jam.
+
+11:15.96
+Magdalena Jarosz
+Thank you.
+
+11:22.02
+Ben_Hur
+ah Sometimes you have an insider's thread inside, they have a cold star that has a connection with some criminals that oh tell the criminals that that car does not have insurance.
+
+11:28.89
+cassiodeveloper
+True, Criminal organizing.
+
+11:37.83
+Magdalena Jarosz
+Wow.
+
+11:38.97
+Marcos Santos
+Yeah.
+
+11:40.00
+Ben_Hur
+It's not for rituals.
+
+11:40.10
+cassiodeveloper
+Exactly.
+
+11:42.04
+Ben_Hur
+Here is another line.
+
+11:42.02
+cassiodeveloper
+Yeah. so So we have this future of insurance is mandatory.
+
+11:45.96
+Magdalena Jarosz
+the
+
+11:46.29
+cassiodeveloper
+Otherwise, it's better to don't have a car. So this is one thing. And unless someone like it decide to buy this car, and they stay without insurance, and you are still paying the installment for, I don't know, a few years or a few months, and then you got lost, and then you still need to pay for something that you don't have. right So insurance is kind of mandatory for for for our mindset, I would say. But that's the next question, at next point i I would like to touch. Do you mind being Marcos? Do you think that paying teaches matter? or we should I mean, we should be proactive, I would say.
+
+12:17.05
+cassiodeveloper
+But but sometimes we just we don't have the resources or time or to do everything.
+
+12:18.55
+Marcos Santos
+like
+
+12:22.18
+cassiodeveloper
+right it's It's also we need to be real realistic here. So what do you think that about this paintings more?
+
+12:27.62
+Marcos Santos
+I think what you said depends on the culture. you example In Brazil, for example, the pain is better. But if you are in Europe, the pain is not the best way for you to follow. okay Because in Europe, we have the some culture to believe more in the other.
+
+12:41.32
+cassiodeveloper
+h
+
+12:44.08
+Ben_Hur
+Thank you very much.
+
+12:45.78
+Marcos Santos
+when you work in some enterprise that will test more and and you say we work in the enterprise when you find us some SQL injection and the in the paper says okay don't put this comment but stay in the document they actually don't follow the documentation
+
+12:47.26
+cassiodeveloper
+Trust it trusts more.
+
+13:00.35
+cassiodeveloper
+Yeah, yeah did ye yeah this was ah this was a nice joke because in one company that i worked here, there was a SQL injection on the code.
+
+13:06.68
+Marcos Santos
+then
+
+13:10.58
+cassiodeveloper
+I was talking to the developers and they said, yeah, we know about it, but it's documented. And I was, what the fuck? So you were telling me that the hackers are going to read this, and oh, I cannot attack you because it's documented.
+
+13:22.37
+Magdalena Jarosz
+Oh my.
+
+13:22.48
+cassiodeveloper
+Like, man, no.
+
+13:23.78
+Ben_Hur
+ah We have a documentation.
+
+13:25.64
+cassiodeveloper
+hey
+
+13:26.42
+Marcos Santos
+Yeah, because the fall of follow me
+
+13:26.51
+Ben_Hur
+really
+
+13:27.45
+Magdalena Jarosz
+Thank you.
+
+13:28.32
+Ben_Hur
+but um I think, i think um okay, I agree that pain teach very well, but I don't think the pain is the way to teach. So because the pain teach but have side effects because it's not teach, it's all related. It's create fear. If I have a company or an area or a place that teach by pain, the only way that I can work better, can I increase, can I grow? It's by the pain.
+
+14:16.15
+Ben_Hur
+so I understand, I agree, it's it's real, but yeah, it works, but I should teach from trauma.
+
+14:21.65
+cassiodeveloper
+it's It works, huh?
+
+14:32.79
+Magdalena Jarosz
+Thank
+
+14:32.81
+Ben_Hur
+and the The two things, I believe that's kind of different.
+
+14:32.84
+cassiodeveloper
+music
+
+14:38.25
+Ben_Hur
+and
+
+14:39.01
+Magdalena Jarosz
+you.
+
+14:40.49
+Ben_Hur
+For example, like Magda said, we are having right now a teach by pain in the world from the event that we are already know it's everywhere. so But what's the side effects of this lesson? Hospitals,
+
+15:04.53
+cassiodeveloper
+Flight, everything will stop then.
+
+15:05.59
+Ben_Hur
+Why enterprise and the side effect is lives.
+
+15:11.04
+Magdalena Jarosz
+Yeah.
+
+15:11.68
+Ben_Hur
+So I agree that it's very fucking well, but I disagree. That's the way to teach.
+
+15:20.93
+Magdalena Jarosz
+Oh, I would agree because there is this thing with the fame.
+
+15:21.07
+cassiodeveloper
+Go.
+
+15:25.37
+Magdalena Jarosz
+It teaches better till some point. The older we are, the more experienced we are, the more we realize that that there are better ways to actually learn, right? but psychologically people to tend to learn more from negative experiences due to to emotional impact.
+
+15:41.43
+cassiodeveloper
+you
+
+15:44.95
+Magdalena Jarosz
+You know, painful experiences can actually create very strong, long lasting memories. And this is very, very primary trait of humans because this is like kind of warning system that will put you in the right position because pain and these really bad feelings, negative, negative, things that you will experience, those negative experiences will kind of force you force you to reassess your actions, to avoid this kind of discomfort in the future, right? So you will be smarter. This is very primary. But I also believe that there are better ways to teach without the trauma. um But what is happening? I saw some statistics that almost 80% of developers said that they believe that the security is the key. This is the most important.
+
+16:37.79
+Magdalena Jarosz
+And on the other hand, only 30% of them is feels like they are well trained. So I'm not sure if we don't learn by pain right now, because people tend to be not so satisfied with their skills right when it comes to security.
+
+16:50.27
+cassiodeveloper
+Okay.
+
+16:52.19
+Magdalena Jarosz
+So we should do more. We should be more proactive, and companies should support people. Because sometimes you have so much work on so many levels that you can go and do your research. And sometimes you have to do research on yourself. Go and read. And this is normal, right? so Yeah, let's try to learn not from pain.
+
+17:11.12
+Ben_Hur
+Well,
+
+17:11.40
+Marcos Santos
+But you use a pen, I never more forgot about the logs because the pen side of my head is turned on every time when I think in logs.
+
+17:17.16
+Ben_Hur
+God,
+
+17:21.49
+Marcos Santos
+It's a good point.
+
+17:22.44
+Ben_Hur
+God, God.
+
+17:23.02
+cassiodeveloper
+Yeah. For those who doesn't know, Marcos was working in a company that they were turning off the server, the log servers at night to save some money. And during the, they needed to do some investigations and there were no logs because they were turned shutting down.
+
+17:35.40
+Magdalena Jarosz
+yeah
+
+17:37.49
+Marcos Santos
+Yeah.
+
+17:39.06
+Magdalena Jarosz
+Wow.
+
+17:39.22
+cassiodeveloper
+a So that's the, that's the pain that he, that he suffered.
+
+17:44.04
+Magdalena Jarosz
+That's crazy, but I love it.
+
+17:44.70
+Marcos Santos
+in.
+
+17:45.32
+Magdalena Jarosz
+like Different approaches.
+
+17:45.74
+cassiodeveloper
+Yeah.
+
+17:47.11
+Magdalena Jarosz
+There should be the whole failure study. How to fail in security.
+
+17:50.28
+cassiodeveloper
+ah Yes, yes, how to play with style.
+
+17:54.12
+Ben_Hur
+Magna, I have a question for you. Exactly about one point. 30% of developers feel that they do not have the training by or or of skills to deal with that. With this, it's another point in security that normally when we are talking about development creating, we know where we are. It's a good development, it's working, has a beautiful interface, all the system support. We have the checklists that, okay, my job is done. When we put our feed in the cybersecurity area,
+
+18:41.50
+Ben_Hur
+We do not know all the attack techniques. We don't know how we will be able to do it.
+
+18:47.89
+cassiodeveloper
+How to protect, you know, what to do.
+
+18:49.62
+Ben_Hur
+We don't know because the the knowledge is not in the clear face. It's under the hood. so We have all the hackers, APT, criminal groups that have extremely advanced knowledge and this technology uses it for personnel.
+
+19:06.17
+Magdalena Jarosz
+Thank you.
+
+19:14.58
+Ben_Hur
+ah goals like that. And this is not clear and we wouldn' we will not never we read a paper, the new attack techniques from the criminals. So we do not know every time how we will be attacked.
+
+19:34.08
+Magdalena Jarosz
+Yes.
+
+19:35.08
+Ben_Hur
+For your perspective, how to deal with the unknown.
+
+19:38.23
+Magdalena Jarosz
+Hmm.
+
+19:42.54
+cassiodeveloper
+Also some questioning.
+
+19:43.66
+Magdalena Jarosz
+Yeah, it is. um The first thing that um appeared in my mind is to do a good threat modeling session before you start and find yourself a good cybersecurity partner. Because those are the two things I believe companies, big companies, banks, finance, insurance, whatever, can win. Like really have a good trusted partner and do this freaking threat modeling that everyone is forgetting about. And this is funny because like that's the start of the project. And I would also say keep on talking to your management about extra training or mentorship from someone who can help you.
+
+20:23.86
+Magdalena Jarosz
+because developers should focus on building products, beautiful interfaces, yeah like you said. And sometimes having help from someone from external can help because then you are safe and sound, doing your job, what you love, you can be a creator, and don't worry about the criminals. Limit to the people who can actually protect you from that. So that would be my answer. But more, I'm curious, what's she doing to feel better, to not feel like
+
+20:47.17
+cassiodeveloper
+i could I could add to this, maybe from maybe maybe from ah a psychologist point, even though Magda, you are a psychologist here, but because I did therapy in the past, and I remember the therapist saying like, you know, Casio, we need to be just like Batman.
+
+20:49.26
+Ben_Hur
+I drink.
+
+20:54.84
+Magdalena Jarosz
+Whipping.
+
+21:02.26
+cassiodeveloper
+Batman has this belt full of tools to be prepared for some kind of situations. He doesn't know what the situations he will find, but he has some tools, right? It's the same for our emotions. As far as we get more mature, learning, and we have tools like therapy, religion, i don't know exercise, what ah whatever yeah whatever, relaxing, sleeping, eating well, and so on. You are more mind prepared to the unknown. like You're going to lose someone in your life, you're going to have an accident with your car. you know Shit, things will happen. and I would say that the same applies to the application security. If companies doesn't have maturity, like you start
+
+21:43.39
+cassiodeveloper
+we Guys, we have a a psychologist here saying, do threat modeling, you motherfuckers. you know like
+
+21:49.29
+Marcos Santos
+is the first step.
+
+21:50.45
+cassiodeveloper
+but Yeah, she's not even tech, but she's saying this and you are not doing, but do threat modeling.
+
+21:53.54
+Ben_Hur
+Okay.
+
+21:56.15
+cassiodeveloper
+Start scanning your code. Start growing your maturity. So when the unknown comes, you'll be more prepared than having nothing.
+
+22:03.97
+Magdalena Jarosz
+Hello.
+
+22:05.10
+cassiodeveloper
+you know We could could already finish the episode here and even charge for for this advice.
+
+22:07.01
+Magdalena Jarosz
+Hello.
+
+22:12.02
+cassiodeveloper
+It wouldn't be free for this one. ah
+
+22:15.42
+Ben_Hur
+ask for other people to put in the last phrase of all the books of therapy, do the fucking treadmill.
+
+22:21.83
+cassiodeveloper
+Yes.
+
+22:22.07
+Ben_Hur
+a truth of half of
+
+22:23.37
+cassiodeveloper
+It would
+
+22:24.53
+Magdalena Jarosz
+I mean, yeah that was mostly business advice.
+
+22:26.44
+Marcos Santos
+Perfect.
+
+22:26.77
+cassiodeveloper
+be awesome.
+
+22:28.94
+Magdalena Jarosz
+I mean, like there's a lot of things you can do. it like I believe like dealing with your emotions, regulating your emotions like will be the key, right? Because what people will say is that don't put your don't keep your emotion inside, but also don't puke your emotions on everyone else, because this is what
+
+22:45.19
+cassiodeveloper
+Yes, yes.
+
+22:46.03
+Magdalena Jarosz
+not healthy, so learn how to regulate them, have exercises preferably on the fresh air that will help you. You know that a few minutes looking at the green trees or whatever can help you relax, can help you totally build your mindset from the beginning if with the fresh perspective, we need it. And we need some collaboration, teamwork, we need to support each other as humans. So let's try to do it.
+
+23:11.70
+cassiodeveloper
+But but ah joke time, just a second.
+
+23:19.56
+cassiodeveloper
+joke time, I could mention that the Tinder times in Brazil, we were, I mean, we people, they were they were trying to find the love of their lives. But we are kind of okay, I met this person, but she lives in a strange neighborhood, you know, I'm not going there. I want to find my marriage. I don't want to lost my kidney. so so So there was a kind of threat modeling advice that, OK, I don't go to this neighborhood. That there are depends on the situation. also So it's it's it's part of the life also to do threat modeling, into to understand what bad things can do, to anticipate, to try to avoid them.
+
+23:54.35
+cassiodeveloper
+right We don't want to to to fall in traps. But OK, jokes apart, let's go to the next topic that I would like to to bring to to Magda into the discussion. like We are talking about emotions, and and and it's and it's all about that because we are humans.
+
+24:04.06
+Magdalena Jarosz
+Yeah. Yeah.
+
+24:07.65
+cassiodeveloper
+We are doing the work. right
+
+24:08.85
+Magdalena Jarosz
+yeah
+
+24:09.30
+cassiodeveloper
+But I would say on a company building a product, building a software, we must be also rational, right? we We must have logic. We must follow orders. Sometimes it's not like, oh, I am upset today. It doesn't matter. You need to do your work.
+
+24:23.29
+Magdalena Jarosz
+Oh.
+
+24:24.42
+cassiodeveloper
+And it's kind of like that. So Magda, what do you think that's how we could do this balance, like um how to avoid letting emotions go over the rational decisions, for example? I could, as as we started this conversation, right I could say, oh, this is my my baby code. Nobody can talk about it. This is my love. It's perfect. But someone will protect you from criminals and say, look, this code could be better. like This person's not criticizing you, actually, but it's pointing an improvement, looking for the business perspective. How to deal with this conflict, emotion versuss versus irrational, logical, and so on?
+
+25:03.42
+Magdalena Jarosz
+Yeah, what I saw during my work with developers is that the more senior you are, the better you can deal with it. And I believe this is the domain of juniors to be very feisty, a bit in denial, in frustration. If you're a senior i and have problem with that, Maybe something went wrong on your journey, or maybe you just need to put more work into into yourself, into personal development.
+
+25:23.22
+cassiodeveloper
+Mm hmm.
+
+25:28.24
+Magdalena Jarosz
+Because for juniors, this is particularly hard, right? You got this first job. You got this new work environment, probably new office, new people. You have to learn how to deal with the small talk, how to learn the procedure, the standards. And you have one thing in your head. I don't want to fail. I don't want to fail. And when you are focused on not to failing, you will probably fail. Plus, the whole access to your semantic web in your head is shut down. The more positive you are, the more rich to your memories, to your experience, to your knowledge you have. So this also might be a good idea. If you are super stressed, go go out of the office or even go to the bathroom. Stand with your hands above your head. That will help you. ah like That will really help you. And what I would do is that
+
+26:17.73
+Magdalena Jarosz
+learn hard to how to receive this feedback. Because they are not they do not taught us this in school, not doing the university. Mostly we are learning that with our mentorships from developer side. And that might be hard. But guys, how do you deal with that?
+
+26:35.58
+cassiodeveloper
+I want to listen from you guys.
+
+26:35.74
+Marcos Santos
+Thank you.
+
+26:38.50
+Ben_Hur
+Well, Magda, I ah have a question here, also in this same topic, because I am from cybersecurity, application security.
+
+26:46.31
+Magdalena Jarosz
+Yeah.
+
+26:46.26
+cassiodeveloper
+Hm.
+
+26:52.11
+Ben_Hur
+I have a team and I support an area in my company. So I need to to share my knowledge, something like that, in two ways with my team and with the developers.
+
+27:02.88
+Magdalena Jarosz
+Yeah.
+
+27:07.43
+Ben_Hur
+So one thing that I strongly believe is the way we communicate cybersecurity is crucial. If I go to developers, hey you guys, motherfucker, here is your report. So I will come back in two hours to see if it's fixed. So it's a way, not a better way, but it's a way. So with my team, for example, and developers, I always present the vulnerabilities in a session for Learn because all vulnerabilities, all reports, it's a training.
+
+27:46.18
+Magdalena Jarosz
+Yeah.
+
+27:46.76
+Ben_Hur
+What's the report? Why it happened? while Why it's a risk for the company? How an attacker could exploit it? And what can I do in this case and other similar cases? When I talk about similar cases is how can I find similar phase similar ah vulnerabilities in my code? How to teach the developers to have a skill to find? Because I am only one, I have a team, but they are thousand developers. So I can be everywhere.
+
+28:28.97
+Magdalena Jarosz
+yeah
+
+28:29.56
+Ben_Hur
+In your opinion, what's the best advice for you that for us cybersecurity professionals could better communicate the security risks and vulnerabilities with developers and for teach the juniors, the seniors, what's the key tips that you're getting?
+
+28:49.41
+Magdalena Jarosz
+Yeah. Mm hmm. I'm not a developer, but I will share what I believe. um I bull believe we should inform that our world is changing very fast. And we can be perfect in our work. We can have a really perfect code, but we are not working alone. So we need to be aware that new ways of attacks, new vulnerabilities will appear with time even more. The more new technologies you have, the more vulnerabilities and new ways of attacks you will have. So I would say make sure your team, your the developers, um you are presenting their efforts too. They are aware that this is normal, that a lot of companies is dealing with that the biggest in the world because my company is working with companies from Fortune 500 and basically like
+
+29:44.09
+Magdalena Jarosz
+in a lot of companies, you can find same vulnerabilities. Like we are all dealing with the SSO, we are all dealing like with the LLMs right now, right? So like it's happening everywhere. This is normal. And what I would say Promote open feedback culture. Do some training for your people if they need it. And keep an open mind and let people fail sometimes. And also maybe try to motivate them for their own micro research. Because I can see this is very motivating my team. If they do their own micro research, they go.
+
+30:18.35
+Magdalena Jarosz
+and they show that other companies have some vulnerabilities and this is okay. So that would be my advice. I'm not sure if the if it's the best, but um I believe what you're doing, this learning session, this is it. Because when you are learning, you allow yourself to fail, right? So that might be very crucial.
+
+30:38.70
+cassiodeveloper
+Michael, do you have some comments?
+
+30:38.76
+Marcos Santos
+That's good. Not a comment, but a a song I think it's a complimentation. It's my thing, it's Marco's thing. But when you talk to about feedbacks and um about so how to learn, how to cheat, I think we have some point. in For me, it works better. is when you take the vulnerabilities and you you take an application risk management plan, for example, when you take the vulnerabilities, because when we receive the report, we receive a lot of vulnerabilities. If you have an application risk, you put the vulnerabilities and the level of the vulnerabilities according to the application or according to the business.
+
+31:22.89
+Marcos Santos
+And for me, it works better when I say these vulnerabilities have more impact in my application than other vulnerabilities. In some cases, I have low vulnerabilities or medium vulnerabilities with more impact than the high vulnerabilities or criticals. And for me, it works better when we have this plan to sign your to ah or to teach the developer with this plan. For me, it works better. I don't know if it's for you guys, but for me, when I have this thinking, it's better.
+
+31:54.28
+cassiodeveloper
+I would agree with everything unless my two decades of experience kind of say some different parts. Not say different, like training, all these things. It really works. But I will bring some maybe some problems to the discussion, OK? And Magda, help me with this. For example, I really believe that, for example, i imagine let's imagine I have an e-commerce and I am selling, I don't know, a short idea. You know, it's the same word in English. I don't know how it's in English, kind of jurely, jurely, right?
+
+32:24.43
+Magdalena Jarosz
+Do a third. Yeah.
+
+32:26.33
+cassiodeveloper
+So Pichotteria is the same in Portuguese and Polish. So that's why I know you understand.
+
+32:28.32
+Magdalena Jarosz
+Yeah.
+
+32:30.25
+cassiodeveloper
+So this this ah i and imagine this e-commerce is offline because of a cyber attack.
+
+32:35.65
+Magdalena Jarosz
+yeah
+
+32:35.89
+cassiodeveloper
+What is the impact on the society? Like, oh, few people will be without the jurely on that day. Or some people will miss a present, a gift or something, right? OK, when I think further,
+
+32:47.69
+Ben_Hur
+and for the people that works in that company.
+
+32:48.66
+cassiodeveloper
+when yeah Yeah, when I go further, then I can think, OK, but people working for me on my company, they might work extra hours, they might have some stress, I might lose some money. This might impact on my business itself. ah Like and the worst case, I shut down, I fire people, I bankrupt. Like this is one scenario. But now let's imagine I am a bank and I am offline. Apart from this company problem, the worst case I got bankrupt as a bank, which is I would say it's impossible, but you know, for the exemplification.
+
+33:21.74
+Magdalena Jarosz
+Yeah.
+
+33:23.56
+cassiodeveloper
+But what's the impact on the society? Like how many, how millions of people would not be able to get their money to pay for their bills, to use their resources, right? Or I don't know, I'm i'm i'm i'm another company that the impact on the society itself, it should dictate my security posture. So I really love what you guys said, like training, et cetera, et cetera. But I see there's this movement that squads or teams, they are empowered. They decide their technology, their frameworks, their blah, blah, blah, blah, blah, blah, blah. They also decide if they want to do security or not. Usually companies doesn't have this this guidelines or this enforcement. and know So I really like the the dictator dictators data dictator style. like
+
+34:13.08
+cassiodeveloper
+We will not release any software without all test A, B, and C. We will not deploy to production without this scan or after this analysis. And Marco said, we have a high vulnerability, but there's no business impact.
+
+34:23.48
+Magdalena Jarosz
+Mm
+
+34:25.82
+cassiodeveloper
+Or we have a medium vulnerability, high business impact.
+
+34:27.28
+Magdalena Jarosz
+hmm.
+
+34:28.50
+cassiodeveloper
+So when companies have this structure and this policy enforced, and I saw, you can check my LinkedIn, 30 companies that worked already. I just saw this in one company. Deployments was once a week and Wednesdays. If you miss the window, it will deploy next week. Doesn't matter if it's urgent, doesn't matter if you impact the business, it will follow the the window. right You need to check, you need to run the SaaS, fix the the the issues. There will be fantastic, you need to fix, blah, blah, blah. So there was a lot of really enforcement that was working. Teams were not allowed to bypass these kind of things, among all other things. right So this is maybe this is the problem that I'm bringing here. I really like this approach of enforcing things from the business perspective.
+
+35:11.17
+cassiodeveloper
+as soon as the business know the impact on the society. If your business is knowing, ah like Visual Studio e-commerce, like, okay, we can we can kind of do the way we want.
+
+35:21.77
+Magdalena Jarosz
+Yeah.
+
+35:22.27
+cassiodeveloper
+But when you are a bank, or I don't know, a hospital, or, I don't know, more critical infrastructure, for example, there's no space for this. There's space for training, learning, I understand, but there's no space for, let's see, let's, nah, maybe we can bypass it. You know, that that's my, my my my mindset.
+
+35:40.43
+Marcos Santos
+Very good point.
+
+35:41.44
+cassiodeveloper
+here know
+
+35:44.06
+Ben_Hur
+Let's slip a coin. this
+
+35:46.38
+cassiodeveloper
+I really like this dictator poster, but I know that doesn't work for other companies, like for startups that they need to build two or three new features in a week for for marketing or for for competition, I understand. But if their business criticalities for the society might have an impact, big impact, like it's not acceptable, right? You can't do something like this.
+
+36:07.19
+Ben_Hur
+Power plants, for example.
+
+36:08.87
+cassiodeveloper
+power plants, the autonomous cars, you know all these things. There is no space for this kind of, let's see if we do security or not. And then Magda, what do you think about this from the human perspective or psychologist perspective? I don't know. That sometimes people people are they they think that they are more than the business itself. For example, I'm the security guy. I wish I could block everything here, but I'm not the business decision. right I'm not the owner of the company itself. And sometimes I get frustrated with, oh, guys, you should do this. But the company doesn't want to do it. They go another way. Like, how to how to deal with this, maybe? How to, I mean, there are some parts of communication, also strategies and so on. But how do you see this? Is there some solutions?
+
+36:55.80
+Magdalena Jarosz
+Yeah, like this is super hard and it all depends on the company. What I saw, if the CEO and people in the management managing board are closer to the technology, they actually understand that to invest in security, like they are more open for the ideas from the security team, right? But there will be companies with strict standards and procedures, and they won't change it in the next 10 years, ah and unless someone will die and the signal will change.
+
+37:23.36
+cassiodeveloper
+Heh.
+
+37:24.38
+Magdalena Jarosz
+like that That's normal. And this is also why a lot of companies, either though they have the internal, amazing security team working 24 on 7, they are getting help from um external cybersec companies. And this might be crucial. I even saw customers who are approaching, like in two years, five different CyberSec companies because they want to be sure. So maybe companies should have a bigger budget for that. What I also experienced is that the most of the testing looking for vulnerabilities is happening in Q1 and Q4.
+
+38:00.70
+Magdalena Jarosz
+And there is this whole holiday season and people are on vacation, not testing so much, only two or three companies. And I believe like they should do more, they should try, especially when there is time for that. ah So maybe reassess your priorities. maybe don't pump so much money into new features, but a bit more into security to be aware, to be like more sure that in the future you will have extra features you don't have to shut down the company. But with the big ones, banks, airports, and everything, man, I don't know.
+
+38:33.38
+Magdalena Jarosz
+I don't know. Super hard, to be honest.
+
+38:35.15
+cassiodeveloper
+yeah and and you when When you were Marcos, the question is democracy or dictator, what do you believe?
+
+38:42.03
+Marcos Santos
+Oh, I guess...
+
+38:43.29
+Ben_Hur
+Sometimes good, sometimes bad.
+
+38:44.92
+cassiodeveloper
+yeah
+
+38:45.78
+Marcos Santos
+Debates.
+
+38:46.39
+Ben_Hur
+the I think that there is moments for dictator and moments for democracy.
+
+38:54.14
+Marcos Santos
+Democracy.
+
+38:56.87
+Ben_Hur
+And it's all about the risk. Who will pick the risk?
+
+38:59.35
+Magdalena Jarosz
+Mm-hmm.
+
+39:01.53
+Ben_Hur
+So it's not about the dictator that I am a mid-level security analyst, and I told you, the CEO of this company, that it should be the, no.
+
+39:12.62
+cassiodeveloper
+Yeah.
+
+39:15.12
+Ben_Hur
+Sometimes the dictator is this risk you as developer, as a cybersecurity analyst or whatever, it's not your responsibility to take the risk. That's the dictator path. So this risk, is high enough to have be shared with the company owners.
+
+39:33.14
+cassiodeveloper
+Hmm.
+
+39:37.44
+Ben_Hur
+So if the company owner said, go ahead, we need to put this product on production. You say, go ahead, take your fucking risk.
+
+39:46.17
+cassiodeveloper
+Mm hmm.
+
+39:46.39
+Ben_Hur
+And then we all hear. But if he you is like if you are in a company that is taking the risks, high level risks all the time, put an another thing in your head. Because from the night to day, you could lose your job, not because you are accepting the risk.
+
+40:12.74
+Magdalena Jarosz
+Yeah.
+
+40:16.38
+Ben_Hur
+It's because someone is exploring the risk accepted. So take care.
+
+40:23.50
+cassiodeveloper
+This episode should be paid. um Let's stop here. You need to sign up, subscription, pay for monthly because it's too much too much nice information here. Sorry Marcus for too cutting off.
+
+40:31.14
+Ben_Hur
+Thank
+
+40:31.46
+Marcos Santos
+No problems.
+
+40:32.34
+cassiodeveloper
+Go on, go on.
+
+40:33.71
+Marcos Santos
+It's a complementation being said. It's a case without if, but when you have the whenever bits and exploit it.
+
+40:36.95
+Ben_Hur
+you.
+
+40:45.40
+Magdalena Jarosz
+Yeah.
+
+40:45.83
+Marcos Santos
+It's the case when I think some case, the top down the Discussions is to have this bad way and the the good implementation in democracy and it worked better.
+
+40:57.71
+cassiodeveloper
+that you mean me from from the executives to the to the company in general?
+
+41:00.26
+Marcos Santos
+Yeah, yeah, in some cases when I see and the when I observe, when you have a top-down, the implementations have a good, have more successful when you try to put to developer or to other areas to implement some cybersecurity or policies or other things.
+
+41:01.65
+cassiodeveloper
+Yeah.
+
+41:17.90
+Marcos Santos
+For me, I think this is top-down have more e effective results than other ways when try to follow.
+
+41:25.67
+cassiodeveloper
+OK. OK. I would say I agree as well. Go, good good point. So we are almost out of the time. So I want to to bring this last comment or last insight here from from Magda. Magda, do you have some advice, some comments, some some things, some, I don't know, some drugs that people should take to start doing their job? Like what do you recommend?
+
+41:48.84
+Ben_Hur
+Let me take my notes for two.
+
+41:49.08
+Magdalena Jarosz
+like okay so like
+
+41:51.99
+Marcos Santos
+You cannot see.
+
+41:55.70
+Magdalena Jarosz
+I believe we are all humans, right? We are all working for something. And let's just remember there is something more than our work, than our career. Find yourself different planets, friends, family, passion, job, something else, and then you'll be a happy person. And don't take things too much personally. Be like Batman, right? Wear your cape to your job and be Batman, and then go home and be yourself. Be Casio, Arcos,
+
+42:24.56
+cassiodeveloper
+billionaire Be a billionaire like Bruce Wayne.
+
+42:27.04
+Ben_Hur
+Hmm.
+
+42:28.07
+Magdalena Jarosz
+That would be good.
+
+42:28.41
+cassiodeveloper
+yeah
+
+42:29.01
+Magdalena Jarosz
+But money actually doesn't give you happiness if you don't know how to be a happy person.
+
+42:29.19
+cassiodeveloper
+and those be nice
+
+42:32.79
+cassiodeveloper
+Yeah, yeah.
+
+42:34.69
+Magdalena Jarosz
+So guys, keep on doing, because I believe developers are the brightest minds in the industry. I love working with tech people. And keep on doing a good job. Don't stress too much. And remember remember, vulnerabilities are everywhere. So that would be it. Thank you for having me today.
+
+42:51.34
+cassiodeveloper
+Yeah, that's cool. This last sentence reminds me from two things. I worked for a company, I cannot say the name, but we had mapped 200,000 vulnerabilities. 200,000, mapped.
+
+43:04.57
+Magdalena Jarosz
+Yeah.
+
+43:05.00
+cassiodeveloper
+Besides from the unknown, right? And this is one thing. Another thing was like a sentence that I always like to use is for the attackers, they just need to find one problem. For us as defenders, we need to know all of them. So it's it's always a hard work harder work, I would say. right And then they were just mentioned also. He mentioned like the the guys, once they will attack, they will find something. And what happens then? So it's much stressful for us, ah ethical hackers, I would say, that we try to defend the company, try to defend their interests, because we we know the risks and so on.
+
+43:34.99
+Magdalena Jarosz
+Yeah.
+
+43:42.15
+cassiodeveloper
+So we want to try to prevent from everything. so But I think what Magda said, take this balance.
+
+43:44.68
+Ben_Hur
+Thank you.
+
+43:48.95
+cassiodeveloper
+It's not personal. but Try to make this balance on the signal.
+
+43:52.97
+Magdalena Jarosz
+Yeah.
+
+43:54.46
+cassiodeveloper
+Okay, Marcos, may you have some final thoughts?
+
+43:55.26
+Marcos Santos
+Thank you I have one final quote. It's one thing when I think everywhere. The enterprise, no need to find out the vulnerabilities in a SaaS scan. Need to find the best vulnerabilities to try to fix. And they have a plan to try to find the others and fix during the time, during the, I don't know, semester, bad semester, but you need to find the first vulnerability, fix it, and put the plan to find the others and fix it during the time. very much.
+
+44:27.93
+Marcos Santos
+don't Don't think, okay, I have, I don't know, 1 million vulnerability. Okay.
+
+44:31.94
+Magdalena Jarosz
+Mm
+
+44:32.57
+Marcos Santos
+Put a plan and make a scan for 5, 20, 30 vulnerability and fix it in a good time and to try to find the others. In the moment you fix all the things and you you have your environment more safe and you try to sleep very well and the other things.
+
+44:49.41
+cassiodeveloper
+Cool. Make feasible. We have a feasible plan.
+
+44:52.20
+Marcos Santos
+Yeah.
+
+44:53.25
+cassiodeveloper
+Cool. Cool. Okay. Any final thoughts?
+
+44:56.57
+Ben_Hur
+And from my perspective, always think about the risk.
+
+44:57.20
+Magdalena Jarosz
+hmm.
+
+45:01.52
+Ben_Hur
+What's the company risk?
+
+45:01.57
+Magdalena Jarosz
+Hello.
+
+45:03.32
+Ben_Hur
+What's the business risk? And every time we talk, we are not talking about security. We are talking about risks. So what's the risk? like For example, the cloud strike was a vulnerability.
+
+45:23.17
+cassiodeveloper
+Nope.
+
+45:23.83
+Marcos Santos
+No, it was not over there, but it's...
+
+45:26.57
+Ben_Hur
+Well, it's a rare it's it's a risk that runs something so close to the kernel.
+
+45:26.63
+cassiodeveloper
+Let's stop the whole world.
+
+45:35.27
+Ben_Hur
+That's the risk. What if something is running so close to the crucial point of my system and it fails? What happened? That's the risk.
+
+45:46.09
+Magdalena Jarosz
+Yeah.
+
+45:46.11
+Ben_Hur
+So we are all talk about the risk. The difference between a bug and a vulnerability that is a vulnerability could be exploited by a criminal to cause an unintended impact. So talk about the risk. And if we have a conversation in um and any table, We are not talking about, I am the security, I have my point. You are the developer, you have your point. No, no, no, we are talking about the risk, center the risk. And both of us, security, development, business, we are taught we are talking about the risk, the villain in this tape. So what is this risk? How could it be exploited?
+
+46:29.99
+Ben_Hur
+What can I do about it? Good Trat Vodels.
+
+46:34.76
+cassiodeveloper
+hey
+
+46:35.44
+Ben_Hur
+So thank you. Fuck fake you. Thank you, Maya, for this. after Please make ah a cut for this and publish every week, please.
+
+46:40.38
+cassiodeveloper
+yeah
+
+46:45.11
+cassiodeveloper
+Yeah, cool.
+
+46:45.79
+Ben_Hur
+And also, Maya, thank you for your time here. It was a pleasure and a great episode.
+
+46:55.74
+cassiodeveloper
+Magna, what is the risk of you recording with us one more episode, then we can talk about more things on other topics. What's the risk?
+
+47:03.94
+Magdalena Jarosz
+There is a risk that we gonna be friends, guys, so...
+
+47:07.13
+cassiodeveloper
+Yeah.
+
+47:07.23
+Marcos Santos
+That's good.
+
+47:08.06
+cassiodeveloper
+Awesome. Awesome.
+
+47:11.29
+cassiodeveloper
+That's good. So guys, thank you very much for this episode. I think it was a really nice conversation to bring this two words together. And it's, uh, it was amazing because I really was thinking to, to do this kind of connection since I started the podcast. But now I find it magnet. So maybe we're going to record more episodes again, mark that. Thank you for our time. Marcos Bayard was a pleasure. I'm Casa Pereira.
+
+47:33.67
+Ben_Hur
+I am being heard.
+
+47:34.72
+Marcos Santos
+I'm Marco Sinatos.
+
+47:35.01
+Magdalena Jarosz
+Thank you guys for having me.
+
+47:37.35
+Marcos Santos
+Thank you very much, Magda.
+
+47:38.37
+cassiodeveloper
+So bye-bye, guys. See you next week.
+
+47:40.88
+Marcos Santos
+Bye.
+
+47:40.93
+Magdalena Jarosz
+Bye.
+
+47:42.08
+Ben_Hur
+i
+
+48:02.91
+Ben_Hur
+All right.
+
