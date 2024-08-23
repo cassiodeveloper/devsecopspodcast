@@ -1,0 +1,836 @@
+00:21.49
+cassiodeveloper
+Olá a todos vocês! Estamos de volta com Chimarrão e tudo. Bem-vindos para mais um episódio do DevSecOps Podcast. Eu sou o Cassio Pereira.
+
+00:30.83
+Ben_Hur
+Eu sou o Bem Ur.
+
+00:32.06
+Marcos Santos
+E eu sou Marcos Santos.
+
+00:33.23
+cassiodeveloper
+A equipe completa hoje praticamente para a gente falar sobre alguns cenários de AppSec. Antes da gente falar desses cenários e ver como é que está todo mundo, está todo mundo bem, está todo mundo de férias aqui. Lembrar que o DevSecOps Podcast tem o apoio da Checkmax da Nova 8, que são especializadas em segurança de sistemas e código seguro. O link da Nova 8, que é a distribuidora da Checkmax no Brasil, está abaixo na descrição do episódio no YouTube e também no nosso site, devsecopspodcast.com.br. Está buscando soluções de Application Security? Fale com a Digital Oak, eles têm um portfólio completo para você.
+
+01:03.22
+cassiodeveloper
+e também a GoldSecurity, que é especializada em Application Security, que é desenvolver software seguro. Fale com a GoldSecurity. E não esquecer do OnlySecFans, o seu clube de assinatura com conteúdo exclusivo sobre Application Security e cyber em geral, mas só em Application Security. Pessoal, como é que vocês estão? Vocês estão bem? Faz tempo que a gente não grava. Mantenha dieta, exercícios, médico.
+
+01:22.94
+Marcos Santos
+Tô bem, tranquilo, tudo na paz aqui. Em partes, sim. Isso que eu quero falar. Em partes.
+
+01:30.83
+Ben_Hur
+Deixem-me pensar que eu sou uma ordem, né?
+
+01:35.100
+cassiodeveloper
+Boa, Boa. Beirut, tá bem aí também? Tá no sul ainda? Como é que as coisas estão mais tranquilas? Uhum Uhum Uhum
+
+01:40.33
+Ben_Hur
+As coisas estão agora estão normalizadas. A gente está digamos do post mortem aqui. A gente está a parte de reconstrução. A economia ainda está de uma uma impactadinha assim digamos assim considerável. Mas agora já está em fase de ok vamos reconstruir normalizar as vias as ruas transportes. O aeroporto está se reconstruindo então estamos melhorando.
+
+02:04.50
+cassiodeveloper
+Boa, boa, fico feliz também com essa notícia. E, Marcos, pode falar, pode falar. Cara, é verdade, a Europa agora tá acabando o verão aqui, tá? Eu tava falando pra ver o off-line aqui, chegou a bater 36 aqui onde eu tô. Ah, hoje tá 28, 29 aqui. Mas tá calor e agora o Brasil tá, especialmente no sul, né? Tá mais frio e mais inverno lá.
+
+02:05.92
+Marcos Santos
+Boa. Só um comentário. Parece que a gente tá invertido, né? O Benyur aí com um puta jaquetão e a gente aqui só de camiseta, cara. Aqui também. Vamos ver.
+
+02:27.52
+Ben_Hur
+É, tá uns 20, 20, um pouco menos de 20 graus, assim, pelo menos aqui onde eu vivo, mas tá flutuando bastante, né? Então a gente tá indo desde 12 num dia e 26, 27 no outro, assim, então um padrãozinho, né?
+
+02:42.31
+Marcos Santos
+Que velho! Ai, caceta!
+
+02:43.58
+cassiodeveloper
+Típico Brasil, né? Típico do Brasil. Bom, beleza pessoal. Então, o Marcos falando nisso, você deixou aquela velha? Aquela velha maninha de dar o cu.
+
+02:53.81
+Ben_Hur
+Eu sabia, eu sabia, eu tava... E senti o cara do Titanic que viu o iceberg. Eu só olhei e disse, vai vir, vai vir.
+
+03:10.32
+cassiodeveloper
+Pode crer. Boa, boa, boa. Com essa piadinha que a gente já começou o episódio de hoje, a gente vai falar sobre alguns cenários de APK Security. Como que é o nosso dia a dia? Às vezes o pessoal fica na dúvida, o que que esses caras fazem no dia a dia? Faz porra nenhuma, trabalha de verdade, enfim. Então, eu queria trazer hoje um cenário, um ou dois ou três cenários. Vamos ver o tempo que dá aqui.
+
+03:12.89
+Marcos Santos
+Meu Deus do céu, cara.
+
+03:30.71
+Ben_Hur
+e aí
+
+03:34.89
+cassiodeveloper
+para a gente discutir e explicar um pouco, pessoal, como é que a gente atua no dia a dia, com a definição do processo, com a atuação em si, com o suporte ao time de desenvolvimento, enfim. Então, o cenário que eu queria começar descrevendo, e aí eu começo com o Bayer dando algumas opiniões, depois o Marcos, e eu completo na sequência. O cenário é o seguinte, a gente, em algum momento do processo de desenvolvimento software,
+
+03:55.78
+cassiodeveloper
+foi feito um scan SCA, Software Composition Analysis, e foi encontrada uma vulnerabilidade num componente de terceiros, no biblioteca Open Source X. A biblioteca em questão está na versão 1.0, ela está sendo usada no projeto na versão 1.0, foi encontrada uma vulnerabilidade crítica, mas o componente em si já está na versão 3.0, tem 10 versões entre Minos e Majors, versões ali na frente, e Updates, tem 10 versões na frente.
+
+04:24.10
+cassiodeveloper
+Qual seria o cenário? O que a gente faz no dia a dia com essa vulnerabilidade? A gente vai informar os times de desenvolvimento, mas como que é o tratamento no dia a dia? Ben, você identificou esse problema e precisa endereçar isso para os times de desenvolvimento. Qual que é o passo a passo? Vamos lá. Uhum. Uhum.
+
+04:40.23
+Ben_Hur
+Vamos entender primeiro as limitações, porque a gente já conhece bastante sobre, encontramos um componente vulnerável, o que tem que fazer, tem que atualizar. É um padrão, agora a questão é quando você não pode atualizar, o que você faz? Como o Cássio comentou, um major version, uma versão incompatível foi lançada e se a gente atualizar, a gente vai quebrar tudo.
+
+05:05.42
+Ben_Hur
+Nós temos algumas opções com relação a isso. A primeira opção é, existe um fix para aquela versão que está vulnerável ou não existe? Antes de se preocupar, por exemplo, tem a versão foi da 2 para 3. Ok, mas a vulnerabilidade está na 2.0.0.
+
+05:26.77
+cassiodeveloper
+Uhum. Uhum. Uhum.
+
+05:27.23
+Ben_Hur
+Existe alguma 2.0.1 onde foi corrigida aquela vulnerabilidade? Então, primeiro, vamos exaurir as opções fáceis. As opções que tragam menos impacto. Não. Não existe e toda a informação que está relacionada a isso atualiza para a última versão que na última versão está corrigido e essa última versão vai quebrar todo o nosso código, a gente não tem como.
+
+05:52.28
+cassiodeveloper
+Uhum. Uhum.
+
+05:56.17
+Ben_Hur
+Bem, então a outra questão agora, antes de a gente partir para algo mais agressivo, é entender se a vulnerabilidade nos afeta ou não nos afeta. Porque uma coisa que pode acontecer muito com componentes vulneráveis é ele ter uma vulnerabilidade na qual, dentro do nosso ecossistema, ela não afeta.
+
+06:19.80
+Ben_Hur
+porque a gente não usa uma funcionalidade em específico, ou porque a gente não está com ela instalada ou em execução em um contexto onde essa vulnerabilidade pode ser explorada. Então, digamos que ela nos afeta. Não significa que se ela não nos afetar, a gente tem que esquecer esse problema, porque hoje ela não nos afeta, a gente não sabe o dia de amanhã. Mas digamos que a gente viu que ela realmente nos afeta.
+
+06:40.60
+cassiodeveloper
+Uhum. Uhum. Uhum.
+
+06:48.64
+Ben_Hur
+Ou seja, agora a gente sabe que a gente tem uma vulnerabilidade crítica, não tem um fix de uma forma que a gente não vai quebrar o código e ela nos afeta. Ok, agora a gente vai fazer o quê? Vai fazer a análise do que que vai quebrar no código e qual que é o impacto da quebra de código e o que que a gente tem que fazer de necessário para poder deixar compatível essa versão.
+
+07:15.28
+cassiodeveloper
+Qual seria o esforço, né? O esforço dessa quebra, né? Fodeu.
+
+07:16.73
+Ben_Hur
+Qual seria o esforço por parte do desenvolvimento para atualizar essa dependência? E lembrando que esse esforço pode ser vertical.
+
+07:26.73
+Ben_Hur
+o lateral. Vamos lá, o que é vertical? Dentro de uma mesma aplicação nós temos muitas alterações a ponto de, cara, vou dizer assim, ah, mudou a versão major do React. Claro, vai quebrar tudo, fudeu, vai quebrar tudo em todo lugar, entendeu? Mudou a versão
+
+07:41.41
+Marcos Santos
+Cara, o que eu devo?
+
+07:50.48
+Ben_Hur
+ali a major do Spring cara acabou agora essa versão vertical né eu tô quebrando muito dentro de uma aplicação mas eu também é lateral né quantas aplicações essa vulnerabilidade está afetando essa biblioteca está sendo utilizada porque eu posso ter uma pequena mudança em dois mil repositórios né então eu já
+
+08:15.45
+Ben_Hur
+Na soma, fica inviável de alterar. Eu estou indo para o pior cenário, vocês estão percebendo, né? Eu estou exaurindo as opções, né? Porque eu poderia cagar um monte de bagulho aqui, mas sem exaurir as opções fáceis, a gente pode tomar uma opção de bala de canhão que talvez demore muito tempo para se corrigir. Então, beleza. Digamos que...
+
+08:20.50
+cassiodeveloper
+Sim, sim, esse é o caos.
+
+08:21.22
+Marcos Santos
+Sim, sim, sim. Manda bala.
+
+08:25.100
+cassiodeveloper
+uhum uhum
+
+08:43.44
+Ben_Hur
+O problema está de fato, a gente não consegue atualizar isso aqui porque vai gerar um custo muito grande. Ok, então a gente não tem o fix, quebrou tudo, a gente não consegue atualizar ou a gente vai ter que colocar no roadmap para atualizar e vai levar três a quatro meses para atualizar isso aqui. A gente não pode ficar três ou quatro meses
+
+09:08.56
+Ben_Hur
+com a vulnerabilidade aberta. Então, a gente vai precisar de uma medida mitigatória ao redor dessa aplicação, ao redor dessa biblioteca. Então, a questão é, existe uma regra de firewall que permite mitigar a exploração dessa vulnerabilidade? Então, beleza. Isso significa que eu tenho que aplicar talvez a regra de firewall,
+
+09:34.67
+Ben_Hur
+se é explorável nesse nível, quando a gente fala que passa pelo firewall isso, e colocar um controle de segurança de sunset nessa aplicação. Porque senão, se eu não colocar isso, cara, nunca vai ser atualizado, nunca vai ser feito. Se nunca poder ser atualizado e essa aplicação agora tem uma vulnerabilidade crítica, eu tenho que passar a executá-la em um contexto de sandbox.
+
+09:39.39
+cassiodeveloper
+Uhum Uhum Uhum
+
+10:05.76
+Ben_Hur
+e resolver dentro do sandbox. E eu tenho que tirar, eu tenho que isolar. É a mesma coisa assim, eu tenho uma célula cancerígena, eu tenho que isolá-la para que ela não impacte o restante. Então, exatamente. Então, o que acontece? Perceba que eu estou chegando no ponto de ter uma dependência vulnerável, a vulnerabilidade crítica nos afeta,
+
+10:23.39
+cassiodeveloper
+Literalmente uma quarentena, né? Sim?
+
+10:34.15
+Ben_Hur
+ferrou tudo e eu não consigo corrigir, e ele pensa, mas tira do ar. Cara, qual que é o impacto do negócio de tirar isso do ar? Porque eu não posso simplesmente tirar a aplicação do ar ou simplesmente trocar a dependência. Então eu preciso trabalhar no redor da aplicação. Qual que é o impacto disso para quem está ao redor ou para quem está dentro daquela aplicação?
+
+10:56.49
+cassiodeveloper
+Uhum. Uhum.
+
+10:59.10
+Ben_Hur
+e eu vou ter que trabalhar nisso ali internamente. E aí tem a última coisa que eu gostaria de recomendar na minha visão, que é praticamente o que eu gosto mais, que é... É possível fazer um fork e nós mesmos corrigirmos a vulnerabilidade desse package e passarmos a usar o nosso fork? Então, para mim, essa é o que eu acho que seria um pouco melhor
+
+11:28.13
+Ben_Hur
+do que trabalhar um monte de medidas mitigatórias, porque muitas vezes a gente consegue ir lá e colocar a correção. Às vezes a correção já está... Se a biblioteca é open source, às vezes já até existe um pull request para essa correção, ele só não foi adicionado no repositório. Então trouxe...
+
+11:45.79
+cassiodeveloper
+Uhum. Boa. Boa, bons pontos aí do Beirur. Marcos, você quer acrescentar aí? Os caras voltaram hoje cheios das piadinhas. Muito bom.
+
+11:51.71
+Marcos Santos
+Boa! Cara, eu quero acrescentar que, assim, ambiente seguro e mulher bonita a gente só vê com os outros, né? Tá foda!
+
+12:08.88
+cassiodeveloper
+Muito bom, muito bom. Mas agora você me deixou preocupado, porque eu não sei se você olha pra minha mulher como bonita, como um elogio, ou como uma cobiça. Eu fico preocupado ou é só um elogio? Mas enfim, segue a vida, segue a vida.
+
+12:10.28
+Ben_Hur
+Cara, se tivesse um caminhão eu colocaria isso na lateral dele.
+
+12:23.11
+Marcos Santos
+Siga a vida. Não, mas o que o Ben Hur falou faz sentido total, cara. Ele falou basicamente o que todo mundo iria fazer, assim, no ponto a ponto. Acho que a questão de fazer um fork é, sim, a melhor solução quando você tem, por exemplo, 30 versões ali atrasadas. Você não vai conseguir atrasar 30 versões em 35.
+
+12:44.89
+cassiodeveloper
+Sem quebrar, né?
+
+12:45.32
+Marcos Santos
+sem quebrar. Não vai. Foi aquilo. Depende da quantidade de repositório. Se você é uma empresa pequena, tem 5, 6 repositórios, show de bola. Vai ser fácil. Agora, no caso do Benior ali que botou 2 mil repositórios, cara, faz um fork ali e resolve você mesmo. Vai ser muito mais prático. Não tem muito o que acrescentar quanto a isso, não.
+
+13:04.74
+cassiodeveloper
+Boa. Eu vou colocar algumas pimentas nesse cenário que o Bayer colocou, que é o seguinte, as mitigações em volta, acho que elas são úteis, vamos viver com o problema, mas temos aqui um firewall, uma regra no WAF, tem um monitoramento, beleza, até a segunda página.
+
+13:27.47
+cassiodeveloper
+O fork é uma boa opção, mas eu pensaria o seguinte, acho que nunca vi isso acontecer, mas não deixa de ser uma opção a descartar. E de repente um downgrade da versão. Porque, por exemplo, a versão afetada é 1.0. Sei lá, 2.0. Será que a 1.9.9 ainda nos atende com as funcionalidades que a gente precisa e não está vulnerável?
+
+13:53.83
+cassiodeveloper
+E talvez o caos de atualizar para a última seja pior do que você só fazendo downgrade. Qual é o problema disso? Eu nunca vi, num SCA da vida, quando tem uma vulnerabilidade, ela praticamente é retroativa. Em todas as versões antigas, ela também afeta. Então isso pode ser um problema.
+
+13:54.15
+Ben_Hur
+Bom ponto, muito bom ponto. De X a Y, né?
+
+13:55.72
+Marcos Santos
+Sim. Sim. Olhando todos os casos, até trazendo pra mesa aí, o Teleric é um exemplo disso, cara. Todas as possibilidades são reatrizes, são retroativas, né? Nunca vi alguma pra frente.
+
+14:22.50
+cassiodeveloper
+É assim, pode ser num componente específico, no caos que você fala, cara, se voltar uma versão, se voltou uma versão, resolve. Pode ser, mas acaba sendo arriscado também, porque se a versão X está vulnerável, antes dela é muito provável que se não está ainda vai estar. Daqui a pouco vai ter um...
+
+14:39.50
+Marcos Santos
+Só ninguém só não reportou ainda.
+
+14:39.62
+Ben_Hur
+É isso aí.
+
+14:40.100
+cassiodeveloper
+só não explora ainda, exatamente, mas talvez isso pode ser uma medida mitigatória enquanto você não faz o patch para a última versão ou enquanto não sai o patch para a versão em questão que você tem. Então talvez o downgrade seja uma das opções nesse leque aí de opções.
+
+14:57.98
+cassiodeveloper
+dado o caos. Um outro ponto também que acho que a gente esqueceu de colocar é que o ganho colocou bem, a vulnerabilidade é crítica, ela nos afeta, é um sistema crítico, blá, blá, blá, beleza. Mas a gente esqueceu de pôr um ponto aqui que é, qual o impacto de negócio?
+
+15:14.27
+cassiodeveloper
+A gente poderia falar assim, cara, é crítico, nos afeta, mas se acontecer, vai fazer nem cócega, é um banco de dados, é uma intranet aqui, sei lá, vai vazar dados que não é confidencial, por exemplo, ou...
+
+15:20.66
+Marcos Santos
+Usando a internet por exemplo.
+
+15:31.51
+cassiodeveloper
+ter esse outro fator, essa outra variável, beleza, o quanto vai doer pra gente se tomar essa porrada aí? Ah, vai doer nada, vai doer muito, isso talvez vai, vai drivar, é um novo verbo aí, vai drivar, vai guiar essa decisão que o Neuberger colocou muito bem, é fazer um esforço de upgrade pra última, é upgrade de um por um pra ver qual que não quebra, é fazer um fork corrigir a gente, é mitigação em volta porque não tem o que fazer, é um downgrade, enfim.
+
+15:59.48
+cassiodeveloper
+Então, acho que essa variável do impacto de negócio, eu não coloquei no cenário, mas talvez a gente só esqueceu de falar, ela talvez nos guiaria um pouco melhor nessa decisão de como fazer isso. Mas uma coisa que eu acho... Pode falar, pode falar. Uhum, uhum.
+
+16:14.23
+Ben_Hur
+Até a questão que tu comentou, muito importante a questão de se o cara conseguir explorar. A gente está falando se o cara conseguir explorar depois de todas as medidas que a gente já conversou. Então não é tipo assim, a deixa invulnerável, se explodir, explodir, azar. Não, depois de tudo ainda.
+
+16:30.99
+cassiodeveloper
+É, exato, exato, exato. E vale lembrar que tudo isso, tudo isso que a gente discutiu aqui, já está implícito, mas tem um processo de gestão de vulnerabilidades, está documentado em algum lugar, sei lá, não gira num ticket da vida, todo mundo está ciente do que está acontecendo, todas as unidades de negócio, vamos chamar assim, as pessoas responsáveis para que isso seja mapeado, o que está acontecendo, quem vai ser responsável por validar ou não validar, se viram backlogs, está em andamento, enfim.
+
+16:58.18
+cassiodeveloper
+Então eu acho que, olha só, uma simples, um componente com uma vulnerabilidade, olha o tanto de discussão que isso leva. E SCA normalmente, desculpa aí Marcos, SCA normalmente quando a gente faz um scan, tem um monte de componente, um monte de vulnerabilidade.
+
+17:06.58
+Marcos Santos
+É. Sim.
+
+17:14.22
+cassiodeveloper
+que às vezes apertar o botão update é mais fácil, desde que não vá quebrar a aplicação e tal. Mas antes de você comentar, Marcos, guarda aí o que você está na cabeça pra não perder. Os Package Management tem muitas, por exemplo, o NPM Audit, eles têm muitas features que ajudam nisso. O NPM Audit, por exemplo, ele te fala lá o que está vulnerável, o que você vai atualizar e se você vai quebrar a atualização.
+
+17:39.55
+cassiodeveloper
+Fala, nossa, aqui você vai atualizar para major versions e vai quebrar, a possibilidade de quebrar muito alto. Você pode dar um force lá e ele vai atualizar assim ainda, mas ele já atualiza o que ele já sabe que é seguro para o padrão e o que ele sabe que vai quebrar ele te avisa. Então, beneficiem-se dos package managers, os package management. Eu não sei se todos têm isso, no GetMVM, AVM, no NPM, eu sei que tem, enfim, mas o PIC... Boa, boa, boa.
+
+18:02.50
+Ben_Hur
+É, PIP tem, .NET tem, tem, uma galerinha tem.
+
+18:07.55
+cassiodeveloper
+Eles estão evoluindo muito com relação a isso, para dar esse suporte para a segurança. Usem isso constantemente, mas acho que esse cenário foi bem colocado. Várias coisas que a gente explorou aqui que poderia dar problema. Fala aí, Marcos. Desculpa isso só para não perder o raciocínio. O que é o EPSS? Eu não lembro a sigla.
+
+18:19.87
+Marcos Santos
+Eu queria aproveitar também que agora o pessoal está adotando muito o EPSS, que também ajuda você numa tomada de decisão. Então você consegue ver o percentual, a chance que vai ser explorado. Então ajuda bastante. Exploitable Prediction Score System.
+
+18:38.90
+cassiodeveloper
+Só lindo e maravilhoso. Cara, vou começar a cobrar esse podcast aqui. Parou aqui, ó. Para continuar, assine o podcast agora. Mas explica aí, pessoal. O que é o EPSS? Eu mandei.
+
+18:49.46
+Marcos Santos
+Acho que o Beirro explica melhor porque eu já vi ele falando. Não, eu sei explicar, mas é porque são dois scores. Você tem o score global e você tem o score ali voltado para o seu ambiente e tal. Eu não sei explicar muito bem esse segundo, né? Mas basicamente o NVD, que é o órgão ali, criou o EPSS, base de AI, banco de dados, e ele pegou essa biblioteca
+
+18:52.38
+Ben_Hur
+É.
+
+19:12.88
+Marcos Santos
+baseado aí no mundo, tem uma chance de do atacante utilizar ela como uma porta de entrada ali pra fazer exploração de, sei lá, 30%. Dentro desse ambiente vai ter tantos. Então é mais um... Não, pode falar, escuta aí. 30, acho que é 30 e 90, o negócio sim, se eu me engano. Mas deixa eu completar aí que ele fala melhor aqui.
+
+19:24.53
+cassiodeveloper
+Ele tem um... Pode falar, pode falar. Ele tem um período de, se ele te fala, esses 30% nos próximos 15 dias, 30 dias, tem um... Boa, boa. Boa. Boa.
+
+19:38.56
+Ben_Hur
+é que eu acho que a gente precisa do episódio para falar sobre classificação de vulnerabilidades em geral, né? Porque o que acontece? Isso, pode ser um abraço, porque o que acontece? Por exemplo, a gente usa muito o CVSS, né? Ainda o 3.1 é mais usado em termos de quantidade do que o 4, ainda devido à maturidade, né? Mas ele
+
+19:44.65
+Marcos Santos
+Próximo é o próximo!
+
+19:54.90
+cassiodeveloper
+Uhum.
+
+20:01.65
+Ben_Hur
+A ideia dele é pegar, por exemplo, cara, qual que é o impacto da vulnerabilidade e não a probabilidade dela ser explorada, entende? Acho que falta um pouco que o EPSS veio muito para ajudar com relação a isso, né? Então eu já vi casos aonde inclusive eles coexistem, né? Então eles têm os dois índices assim para entregar um pouco mais de informação. Eu acho um pouco meio básico em fazer isso para tudo, mas a gente pode pegar um outro momento para falar só sobre disso, porque...
+
+20:29.68
+Ben_Hur
+Cara, se não isso vai virar um episódio de Vulnerability Management certo assim, vai levar um tempo. Mas eu gostaria de trazer só um ponto pra gente não explorar, mas só pra ficar na cabeça da galera. E o que acontece quando essa vulnerabilidade é em uma dependência transitiva? Quando é?
+
+20:33.66
+cassiodeveloper
+Boa. Mas, mas... Parou, parou. Aí fudeu, cara. Porra, mano. Tava da hora o episódio, aí você trouxe essa preocupação, cara. Pra que isso?
+
+20:45.95
+Marcos Santos
+Puta que pariu, aí não dá pra fazer episódio só não. Mano... Rock4j, Apache...
+
+20:50.20
+Ben_Hur
+Pra quem não sabe o que é uma dependência transitiva, é quando a vulnerabilidade está na dependência da dependência. Isso é chato demais. Pra quem passou por Log4j entende muito bem...
+
+21:02.50
+cassiodeveloper
+É isso, é isso. Pra caralho. E pra botar, você botou a cabeça, eu vou colocar um pedaço do caule. E isso é um pedaço de Supply Chain. Supply Chain envolve muitas outras coisas, isso é parte de Supply Chain Security.
+
+21:17.28
+Marcos Santos
+Reputação, integridade.
+
+21:20.83
+Ben_Hur
+E aí E aí
+
+21:26.30
+cassiodeveloper
+Isso vai longe. Mas o comentário sobre o EPSS que o Marcos trouxe, isso ajuda, vamos resumir, ajuda nessa decisão também. Porque o EPSS, a probabilidade de ter um exploit usando essa vulnerabilidade aqui nesse componente é de 90% para os 30 dias. Fala, opa, minha preocupação é uma. Fala, cara, isso é 30% para os 90 dias. Fala, então vou ficar mais tranquilo e tal.
+
+21:48.69
+cassiodeveloper
+Então isso ajuda nessa sua decisão. Cara, isso é quase como um médico. O médico vai falar pra gente, fala, cara, é o seguinte, tem um tumor aí benigno, não tá afetando em nada, você não tem dor. A probabilidade de ele virar maligno é 40% nos próximos 10 anos. Você pode fazer a cirurgia agora, você pode esperar.
+
+22:10.47
+cassiodeveloper
+Aí a pessoa vai levar em consideração a idade dela, os hábitos dela, enfim, os medos, cada um vai tomar sua decisão, lá cara, vamos fazer a cirurgia agora, vamos prevenir, ou não, vamos esperar então, ou de repente uma cirurgia cara e uma pessoa não tem condições, enfim. Então essas informações, elas ajudam nessa decisão, nesse cenário que a gente trouxe aqui, cara, é um cenário caótico se parar pra pensar, né? Um simples vulnerabilidade num componente, olha a treta que tá, velho.
+
+22:32.02
+Marcos Santos
+Sim, cara. E outra coisa também que o EPSS ajuda, porque eu falei, tem dois scores, tem o percentual global, e ele tem o percentual dentro da sua empresa. Com base no seu negócio ali, você pode saber, pô, é 30% do global, mas meu negócio é um negócio valioso para um grupo X de atacantes. Cara, esse percentual sobe para 90%, entende? Com base no... Isso.
+
+22:50.65
+cassiodeveloper
+Hum... É com base na sua indústria, né? Ah, indústria financeira, indústria não sei o quê. Ah, boa, boa. Uhum.
+
+22:54.82
+Marcos Santos
+Você tem o global e com base na indústria. Então, isso muda o jogo ali completamente. Por mais seja 30%, 20% globalmente, por seu ramo de negócio ali, esse preceitual sobe, né? Então, é legal por isso. Ajuda você a ter métricas e consiga fazer esse gerenciamento de corrigir ou não, tomar as medidas que o Beniu já comentou aqui também com a gente. Então, é bem bacana utilizar o EPSS nesse sentido e alguma coisa PSCA, né? Isso que é o mais legal.
+
+23:20.62
+cassiodeveloper
+Boa. Agora eu vou fazer o papel do deve, o deve chato. Tem um deve que vai falar assim. Mano, sempre foi assim. O que é que tem que mexer agora? Que dário.
+
+23:35.03
+Ben_Hur
+Se eu ganhasse um dólar! Um dólar, cara!
+
+23:42.11
+Marcos Santos
+Aí você fala pra ele falar com o Dário. Comer o cu dele com o galho.
+
+23:50.71
+cassiodeveloper
+Cara, eu sempre escutei essa, assim, ah, isso sempre foi assim, por que que eu tenho que mexer agora? Ou então, tipo, ah, esse componente aí sempre esteve aí. Esse tipo de frase, tipo, cara, eu sempre fui errado, por que que eu vou melhorar agora? E aí, o que vocês responderiam pra esse cara, além de falar pra ele falar com o Dário?
+
+24:11.36
+Ben_Hur
+É uma pena que como todo soco na boca de estômago dá justa causa, então cara, eu já ouvi essa frase de caras de alto nível dentro de desenvolvimento software.
+
+24:24.10
+cassiodeveloper
+hum hum hum hum hum hum
+
+24:25.30
+Ben_Hur
+E quando eu falo alto nível, assim, é cara que tá sendo responsável pela arquitetura de sistema, sabe? Cara que tá sendo responsável por SRE, entende? Então, assim, me dou eu já, ouvi, e vou dar um exemplo de, vou omitir, mas vou dar o exemplo da vulnerabilidade na qual eu ouvi isso, tá? Tinha uma empresa aí que eu tava fazendo um assessment há muitos anos atrás,
+
+24:51.05
+Ben_Hur
+não tantos anos atrás assim o que acontece essa empresa tinha uns produtos white label tá e esses white label eles tinham uma infraestrutura né ali centralizada mas apartada por white label né a gente sabe como é que funciona e o token de sessão gerado num white label funcionava no outro só que tinha um problema foda
+
+25:05.56
+cassiodeveloper
+Uhum, uhum, uhum. Uhum, errou! Uhum, uhum. Uhum, uhum.
+
+25:19.46
+Ben_Hur
+Esse token de sessão, ele tinha um JWT, obviamente, né, o pessoal adora. Não vou falar mal que o pessoal me xinga. Dentro tinha User ID e um número inteiro do usuário, né? Então, o que acontece? O usuário 53 no White Label A não era o usuário 53 no White Label B.
+
+25:45.06
+Ben_Hur
+Então, se você fizesse token no ar com o seu usuário que tinha o ID mil e pouco, se você pegasse esse access token e fosse para outro white label, você assumia o ID mil e pouco daquela outra white label, que podia não ser você. Entendeu? Ele era um negócio de e-commerce.
+
+25:56.09
+cassiodeveloper
+Uhum. O outro usuário. Dá pra falar qualquer um negócio? Qual é o ramo de negócio?
+
+26:05.23
+Marcos Santos
+Aí de enumeration, já tô até vendo o BO aí.
+
+26:14.15
+cassiodeveloper
+Olha só. Sempre foi assim.
+
+26:14.90
+Ben_Hur
+Ah, entende? Era um negócio Jacob, tinha loja virtual. Ou seja, qual que era o problema? Primeiro, era validado, uma única chave de token de sessão era válida em múltiplas plataformas, em múltiplos sistemas, e usava uma variável interna que, cara, como era um número inteiro, passava o cara aí de white label em white label para conseguir encontrar. Quando a gente foi levar essa vulnerabilidade, adivinha qual que foi a resposta que eu recebi?
+
+26:42.40
+Ben_Hur
+Isso aí já está aí há um tempão e nunca deu problema. Aí a primeira coisa que eu perguntei é como você garante que nunca deu problema? Não existia monitoramento nenhum para validar se o token de sessão é usado num lugar ou outro. Então aí a primeira questão é... Eu sei que às vezes isso pode dar treta, mas a primeira coisa que eu aterrisso na mesa não é a correção.
+
+26:53.67
+cassiodeveloper
+você nem sabe se devorou ou não
+
+27:11.12
+Ben_Hur
+é o entendimento do nosso conhecimento sobre a exploração daquela vulnerabilidade dentro do nosso ecosistema. Nós temos visibilidade, eu trago todo mundo para a parte do tipo, a gente não sabe se isso aqui está sendo explorado ou não. A gente consegue garantir isso, porque se eu pegar o problema e jogar no peito do desenvolvedor, a gente vai ficar numa partidinha de vôlei.
+
+27:26.73
+cassiodeveloper
+Uhum. Uhum. É, ele espana já na primeira, já volta. Ah! Uhum.
+
+27:39.10
+Ben_Hur
+um ping-pong, a gente vai ficar porque o problema virou uma bolinha que é dono de alguém. Então, o primeiro eu preciso fazer é terceirizar. Eu tenho que tirar o problema do... O problema é meu, o problema é do deve, eu tenho que colocar o problema como um terceiro cara. Entende? E expor não só o impacto daquilo, mas também que a gente não tem visibilidade do que está acontecendo. A gente não sabe que aquilo aí está...
+
+28:06.13
+cassiodeveloper
+Boa. Aliás, sobre esse bate-bola aí com o Dave, no episódio anterior, que a gente gravou com a Magda, com a Madalena, que a gente fala da psicologia e o efeito específico, porque o cara saiu no defensivo, então é um episódio absurdo. Talvez toda a minha ideia de montar o podcast era só pra chegar até aquele episódio. Cara, a discussão assim, muito foda. Então, deu uma olhada no inglês nesse episódio, mas escutem, tá um episódio bacana, escutem, assistem, que tá bem legal.
+
+28:19.17
+Marcos Santos
+Coitado.
+
+28:34.19
+Ben_Hur
+Porque o que acontece, uma coisa que eu enxergo muito quando o deve, não só o deve, mas qualquer pessoa que está sendo impactado por alguma vulnerabilidade que a gente encontra,
+
+28:45.38
+Ben_Hur
+A primeira coisa que daí muito bem abordada, que a gente falou na outra questão, é como isso afeta o ego, como isso afeta a pessoa, porque acho que a gente está colocando defeito naquilo aí. Mas a questão que eu gosto sempre de trazer é trazer o cenário de teste, aonde a vulnerabilidade é explorada e faço a pergunta sem falar de segurança. Falei, cara, o que aconteceria se o atacante fizesse isso aqui?
+
+28:51.88
+cassiodeveloper
+Uhum. Uhum. Uhum.
+
+29:13.88
+Ben_Hur
+Se o cara não conseguir chegar na solução por ele mesmo, aí eu preciso fazer a avaluação se eu não estou explicando mal para o cara ou se eu não estou entendendo bem o impacto. Mas se eu conseguir trazer para ele o cenário aonde se impacta e ele executar o cenário na frente dele,
+
+29:25.95
+cassiodeveloper
+Uhum Uhum Uhum
+
+29:35.60
+Ben_Hur
+Ele deixa de, pelo menos na minha experiência, ele deixa de olhar aquilo como um cara está mandando corrigir um bagulho que eu não estou entendendo, é só trabalho de graça, eu estou assumindo risco. E quando eu deixo o cara, eu transito o cara, porque o primeiro é, ele acha que não dá problema, ele acha que aquilo não é um problema.
+
+29:56.17
+cassiodeveloper
+Uhum. Uhum.
+
+29:58.18
+Ben_Hur
+Essa é a primeira sentimento dele. Se eu consigo fazer ele transicionar de, isso não é um problema, para eu assumo o risco, eu tenho duas pessoas diferentes nessa conversação. Uma começou de uma forma e agora está terminando de outra. Então, o trabalho mais difícil é transicionar esse emocional do, isso não é um problema, para eu entender o problema. Sabe, eu acho que esse é o primeiro passo.
+
+30:25.74
+cassiodeveloper
+Já diria que a gente já tem tema para um outro episódio que é, engenharia social é uma skill de appsec? Porque para chegar nesse nível de ter que convencer o deve, o deve ou qualquer um que vai falar que não é um problema, que não tem que corrigir, é praticamente um trabalho de engenharia social. Fala, caralho velho, resolve essa porra, vai, desculpa. Ixi.
+
+30:27.31
+Marcos Santos
+Ai que...
+
+30:32.53
+Ben_Hur
+É fácil!
+
+30:46.14
+Marcos Santos
+O Benhur falando isso até me lembrou do caso do Cássio, onde o cara, é, o devzinho lá, Cássio pegou um SQL injection, cara, mas não vai dar problema, tá na documentação que não é pra fazer. Na mesma coisa, não vai dar BO, tá na documentação que não é pra usar o token e outro produto.
+
+31:04.92
+cassiodeveloper
+Eu vou fazer um livro, escrever só essa frase no livro. Essa foi foda. Enquanto vocês estavam falando, eu pensei numa outra possível solução desse cenário. Depende da arquitetura, depende como o time programa.
+
+31:12.62
+Marcos Santos
+Então me lembra muito isso.
+
+31:24.68
+cassiodeveloper
+A abstração de um componente é muito bem feita, e trocar esse componente não daria problema. Não é que daria problema, aquela história da balança do esforço seria um esforço curto. Sei lá, você chama o log4j.log passando a mensagem de parâmetro.
+
+31:40.28
+cassiodeveloper
+Então, se você trocar o componente por marcoslogs.log passando parâmetro, seria um find e replace de uma chamada. Mas se você encapsulou isso num nível legal na aplicação, você troca num lugar só. Os nomes vão ser mantidos todos, você não precisa mexer mais em nada. Então, trocar o componente
+
+32:00.23
+cassiodeveloper
+Entra nesse check list, que o Bayer falou, de long hang fruits. Cara, está fácil fazer? É possível? Já que não dá para corrigir, já que não tem patch, mas tem um outro componente que faz a mesma coisa e não está com problema. Beleza, de repente dá para trocar. Considerando ainda aquela escala vertical e horizontal. Mas talvez, entre mil aspas, um find your place resolver, considerando trocar a referência do componente, é algo a colocar nessa lista de possíveis soluções.
+
+32:04.04
+Marcos Santos
+Uhum. Uhum.
+
+32:27.81
+Marcos Santos
+Vou dar uma de advogado diabo agora, pensando que é uma aplicação antiga. Você tá num legado ali. Notenet 4.2 Pensando que é um legado. Um monolito gigantesco.
+
+32:30.03
+cassiodeveloper
+Fala. Ah, já caiu esse item, já caiu fora. Sim.
+
+32:39.29
+Ben_Hur
+Aí a gente está falando de... É o que acontece. Aí vou concordar porque... Porque aí... Claro, essa é uma solução, uma ação, que ela depende muito de design e arquitetura de software. Quando eu entendo uma Capability Cross, vai depender do arquiteto dele fazer abstração. Então, por exemplo, eu normalmente faço abstrações
+
+33:02.16
+cassiodeveloper
+Uhum. Uhum.
+
+33:08.76
+Ben_Hur
+para soluções cross que eu tenho integrações com uma parte externa porque por exemplo eu não vou fazer uma abstração do react né eu não vou fazer uma abstração do spring uma coisa que pode acontecer é eu mas por exemplo a do log
+
+33:27.40
+Ben_Hur
+O que eu vou fazer com esse log? Eu vou enviar para um STD Out, eu vou enviar para um Elastic Search, né? Porque normalmente uma coisa que acontece muito, claro, nos ambientes atuais, no legado aí o Marcos matou todo, cara. O Marcos falou assim, cara, legado, cara,
+
+33:36.09
+cassiodeveloper
+Banco. Eu acho que você elimina até a opção de esperar o patch. Porque não vai ter patch. Se for um componente antigo, esquece, mano. Não vai ter. Ninguém nem mexe mais. Depende, né? Não é muita. Sim, sim, sim. Mas aí é por isso que os caras...
+
+33:51.42
+Marcos Santos
+Tem mais. Mas para pra pensar, quantas empresas a gente tem que trabalham com o legado hoje? Principalmente banco, tem várias explicações do legado. É. É. Aí que quebra. Sim.
+
+33:59.07
+Ben_Hur
+Não acho. O cara que pode fazer o catch não tá vivo mais, cara. É...
+
+34:04.26
+cassiodeveloper
+Não, mas aí por isso que a gente tem um monte de arquitetura inflada pra caralho, toda essa tecla inflada, que a gente inclusive fez um episódio sobre isso, porque é file, é regra não sei onde, é um botão não sei... Tudo em volta disso porque aquele programa não dá pra resolver. Então você tem que ter um monte de coisas em volta ali, porque aí vai atualizar o sistema e tal, mas enfim, é algo a ser pensado também. Cagou com tudo.
+
+34:22.38
+Marcos Santos
+Mas vamos cortar o legado aí. Queira a adequação por enquanto.
+
+34:29.00
+Ben_Hur
+É porque o que acontece? Por exemplo, normalmente logs a gente tenta interferir
+
+34:38.51
+Ben_Hur
+o menos possível dentro da aplicação, porque o que acontece? No momento que a gente tem uma SDK ou qualquer biblioteca em específico para resolver um problema, isso é bastante comum dentro de AppSec, quando a gente fala de security default, quando a gente fala de... Olha, usa essa biblioteca aqui, com essa biblioteca não vai ter problema, que é o ideal. Em vez de sair corrigindo e colocando configurações em todos os lugares, usa isso aqui que não vai ter problema.
+
+34:59.38
+cassiodeveloper
+Uhul!
+
+35:07.64
+Ben_Hur
+que a gente fala dos Paved Roads, Guardrails e qualquer outro nome que a gente tenha para isso. No momento que a gente desenvolve um SDK de logs, por exemplo, que a ideia dele é, cara, sempre que você for fazer logs, você usa com essa biblioteca. Isso está com o AppSec,
+
+35:29.92
+Ben_Hur
+Quando a gente pensar em login injection, quando a gente pensar em vulnerability Log4j, quando a gente pensar em security login, beleza, mas ele está junto 100%.
+
+35:42.60
+Ben_Hur
+com arquitetura de aplicação. Por que a arquitetura de observabilidade precisa de uma centralização de logs? Porque vai enviar um formato sempre específico, porque vai padronizar como os logs vão ser armazenados, porque ele vai ter um lugar centralizado, por exemplo, muitas vezes eu uso um SDK de log, porque a aplicação sempre roda aqueles logs,
+
+35:51.61
+cassiodeveloper
+e aí
+
+36:09.74
+Ben_Hur
+E quando eu estou dentro de um ambiente, por exemplo, estou dentro de um ambiente Kubernetes, ou algum outro ambiente um pouco mais calado.
+
+36:17.06
+Ben_Hur
+Toda aplicação vai gerar o log, e esse log vai ser coletado por um sidecar, por exemplo, e esse sidecar vai enviar isso para algum Elasticsearch, vai enviar isso para algum lugar onde eu possa ter o acesso a esse log. Então, aí, nesse caso, faz sentido a abstração do mecanismo de log. Mas perceba que a abstração não veio só por segurança. Ela veio por arquitetura e observabilidade. Então,
+
+36:39.75
+cassiodeveloper
+Sim, é uma questão de arquitetura.
+
+36:46.75
+Ben_Hur
+a gente entendeu que dentro do Log a gente também precisa ter uma questão de segurança. Então... Essa parte, ela envolve... Digamos assim, essa parte é arquitetura de software e segurança está junto. Porque se eu planejar uma abstração única e exclusivamente pensando em segurança, lembrando que eu vou levar esse desenvolvimento para toda a cadeia de devs.
+
+37:17.14
+Ben_Hur
+e ela vai ser extremamente importante do ponto de vista de segurança, quando ela oferecer um risco muito grande para o negócio. É, porque o que acontece, essa definição de, cara, por segurança vamos abstrair, tem que cuidar para ver se daqui a pouco a gente não está abstraindo tudo. E aí o que acontece? Em um médio prazo e longo prazo,
+
+37:20.31
+cassiodeveloper
+Uhum. Que nem sempre pode ter pra realidade. Hum, virou um caos.
+
+37:45.21
+Ben_Hur
+A gente pode ter um eco, aí é mais fácil a gente ir para um ecossistema de plataforma. Nice.
+
+37:50.66
+cassiodeveloper
+Mas eu vou transcender agora, como jamais nesse episódio. Vou transcender. O Marcos trouxe aquele cenário um dia que ele falou, desliga os logs para economizar. Lembra? A famosa piada que ele trabalhava lá que mandaram desligar o log para economizar o servidor. Nesse cenário que a gente colocou de uma vulnerabilidade num componente crítica que nos afeta, tal. Uma das possíveis soluções pode ser desligar. Vamos lá, um exemplo. Log4j.
+
+37:54.12
+Marcos Santos
+Manda. É. Sim. E adetando.
+
+38:19.00
+Ben_Hur
+Obrigado.
+
+38:20.35
+cassiodeveloper
+Você prefere sua aplicação vulnerável, uma vulnerabilidade crítica, o cara vai ter um RCA no seu servidor, ou você desliga os logs por dois dias? Porque o patch do Log4D demorou dois dias, se não me engano. Um ou dois dias, né? Então vamos lá. Então vamos lá, pô, comenta as linhas de logs da porra toda, mano. É melhor ficar sem logar por um dia, vai, né, num cenário extremamente
+
+38:29.99
+Marcos Santos
+Foram 2 a 3. Não, de acordo.
+
+38:42.36
+cassiodeveloper
+é sessão, então desliga a porra do log, depois volta quando tiver o patch, por exemplo, numa feature, não vou desligar o core, não vou tirar o driver de banco de dados que eu paro de gravar informação, não é isso, mas vale a pena desligar o log? Ah, é uma feature que as pessoas cadastram no site.
+
+38:57.93
+cassiodeveloper
+para newsletter. Mano, foda-se a newsletter. Por exemplo, no e-commerce. A pessoa tem que estar comprando e vendo o produto ao invés de ficar assado nas newsletters. Então, às vezes a feature em si que traz esse risco dessa vulnerabilidade, a feature pode ser desativada. O sistema talvez não, obviamente, mas a feature sim. Então, considerando esse exemplo do log, desliga o log para economizar a vulnerabilidade, eu diria. Sim.
+
+39:19.80
+Marcos Santos
+É.
+
+39:21.58
+Ben_Hur
+É, pode ser virtualizado também, né? Quando eu digo virtualizado, porque foi um bom ponto, né? Será que eu consigo injetar em runtime um override do Log4j, por exemplo? Entende? Quando a aplicação botar ela, o Log4j, em vez de executar o Log4j, eu faço patch virtual para que ele execute um outro método?
+
+39:43.84
+cassiodeveloper
+Você tocou num ponto importante aquela hora, falando de arquitetura e tal. Se o cara está usando uma injeção de dependência, por exemplo, dependendo do frame ou o que tal, então isso facilitaria, mas isso tem que ter sido pensado antes, senão não tem muito o que fazer. Na verdade, dependendo do cenário, dá para você implementar isso de uma forma rápida, mas se foi pensado antes é muito mais fácil.
+
+39:51.78
+Ben_Hur
+Ah, já era? Pode ser. É. Pesado.
+
+39:58.42
+Marcos Santos
+Sim. É, mas pensa num, sei lá, num meio de pagamento, cara. Fica quase impossível dependendo ali da quantidade de repositório.
+
+40:12.45
+cassiodeveloper
+Exato. Uma outra pergunta também quando o Bayer trouxe o vertical e o horizontal, e acontece muito, estamos com essa vulnerabilidade nesse componente, afeta a aplicação, mas quantas outras aplicações são afetadas por esse componente? Se você não tem um mapeamento de SA, um inventário dessas bibliotecas, você não consegue responder essa pergunta, tem que fazer um por um e se fudeu. Quantos sistemas?
+
+40:29.19
+Ben_Hur
+Não tem o SBOM ali? Vai começar a entrar de repositório a repositório com o control F lá, né?
+
+40:31.34
+Marcos Santos
+Não, esquece. E aí, mano? La Casa, tava o Ctrl F do teclado ali. Nem vai funcionar mais o Ctrl. Nada, cara. A gente nem entrou ali no Supply Chain Secure, nem entrou em detalhes a mais ali.
+
+40:39.63
+cassiodeveloper
+É, é, é isso. Já viram... Cara, eu queria discutir uns dois, três cenários, a gente passou o episódio inteiro num só e achou que ia ser super simples, cara. Olha como essa porra não é simples, velho. Ó, vamos lá. Pegando esse mesmo cenário, como que a gente poderia antecipar isso?
+
+41:01.95
+cassiodeveloper
+Porque eu falei que a gente descobriu essa vulnerabilidade no componente terceiro em x momento do SDLC. Mas se fosse num pull request, por exemplo, o scan acontece durante o pull request. Fala, beleza, fiz um pull request aqui, fez o scan no SA, aqui é vulnerabilidade. Mas desde quando ela está lá? Se ela for publicada há um, dois dias e até então aquele código não tinha sido mexido, você não ia ter detectado. Se você tem um scan diário, por exemplo, para validar suas dependências, seu deleito seria de menos um, por exemplo. Enfim.
+
+41:06.20
+Marcos Santos
+E aí
+
+41:32.33
+Ben_Hur
+Esse ponto é importante, hoje o que a gente vê bastante é
+
+41:40.42
+Ben_Hur
+Ou quando as pessoas tomam a decisão de usar um SAA, muitas vezes não tem uma solução, não tem o budget para pagar uma solução, qual que normalmente fazem? Vou botar um depende desse check aqui no CI. Padrão. Só que ele depende do CI. Ou seja, se qualquer aplicação está há dois ou três meses sem rodar o CI, o que é totalmente plausível. Tu nunca lá vai detectar.
+
+42:02.39
+cassiodeveloper
+Acabou. Sim? Sim?
+
+42:02.55
+Marcos Santos
+O que eu devo? Sim?
+
+42:06.48
+Ben_Hur
+Então, uma coisa é, nas trocas, nas alterações dos componentes de package, package JSON, requirement.txt, maybe whatever, você tem que rodar nas alterações, mas você tem que ter uma rotina que vai proativamente lá e verifica se alguma coisa se tornou vulnerável desde a última alteração.
+
+42:31.63
+cassiodeveloper
+Eu não lembro qual era a solução. Acho que o Black Duck tem isso, que eu trabalhei com o Black Duck numa época. Acho que o Checkmark também tem isso, que é você fazer quase que um subscription. Por exemplo, você rodou o scan do seu projeto e ele falou, você usa a dependência A, B, C, D, E, na versão 1, 2, 3, 4. Uma vez isso mapeado dentro da ferramenta,
+
+42:55.57
+cassiodeveloper
+E vamos supor, você está dormindo meia-noite na sua casa. Mas, ó, chegou no banco de dados dos caras lá, uma vulnerabilidade num dos componentes que você usa. Você recebe ativamente uma alerta deles. Fala, ó, você fez um scan aqui 30 dias atrás, no projeto X e Z, com um componente tal, acabou de ser uma vulnerabilidade.
+
+43:13.06
+Ben_Hur
+Obrigado.
+
+43:14.74
+cassiodeveloper
+ver isso você ainda está usando, porque você não tem escaneado isso constantemente, enfim. Então, eu não sei se isso faz sentido. O BlackDuck eu sei que tinha, o Checkmarks acho que tinha, não tinha mais, enfim, independente disso. Essa feature no SCA, que é o que o Albert falou, você não pode depender da sua mexida, do seu pull request,
+
+43:35.83
+cassiodeveloper
+Uma rotina noturna para escanear, você ainda fica a D-1, mas esse... Aí eu não diria que os compensadores têm isso, né? Aí os enterprises que te falam, falam, cara, ó, você tem essas bibliotecas na tela, eles te dão uma alerta e te falam, cara, ó, acabou de chegar uma alerta nova, né? Valida aí de novo, você rescaneia ou já sai corrigindo. Isso é foda, né? Porque praticamente é só o seu delay de correção, não o de detecção. A detecção praticamente você já tem por causa do seu fornecedor, né? O MEND, né?
+
+43:59.86
+Marcos Santos
+A Mendy tem isso ai também. A Mendy tem esse sistema aqui que fica informando ali, né? Pô, saiu versão nova. Até a extensão pro Chrome que te avisa, né? Quando saiu a nova versão dos seus bibliotecas.
+
+44:06.56
+cassiodeveloper
+Cara, o Mande... Boa, boa. O Mande.io, que é o famoso... Era o Whitesource, né? Eles trocaram de nome. É uma solução muito foda, inclusive. É, boa. Bem lembrado. Eu sei que o Black Duck tem isso. É que o Black Duck, cara... Tem tanta bosta naquela solução. Ela é daora, mas tem tanta merda que as outras acabam superando ela, né? O Chuck Mercer, que eu gosto pra caralho. O próprio Sneak, o Mande, enfim. Aí, enfim. Tô aqui fazendo propaganda. O único que...
+
+44:34.05
+Ben_Hur
+Agora a galera do Sem Grep também está começando a largar uma grana federal. Então eles estão... Pois é, eles estão investindo bastante nisso. É possível ver que de um ano para cá teve muitos investimentos. Eles contrataram a Tânia Dianca como community,
+
+44:37.53
+Marcos Santos
+é é verdade olha a interface ficou até legalzinha deles agora
+
+44:37.88
+cassiodeveloper
+Sem grepe. Boa. Não é boa. Uhum. É do queitor essa parada lá, né?
+
+45:05.14
+cassiodeveloper
+Eles compraram, na verdade, ela tinha um produto de educacional, eles compraram os cursos dela e tal. Uhum.
+
+45:09.89
+Ben_Hur
+e aí tá tendo bastante evolução de um ano pra cá se segurar a bala mesmo porque o sem grepe em si eu acho a ideia, eu achei a ideia do sem grepe e eu acho fácil de criar os templates né acho a documentação dele melhor por exemplo do que o CodeQL por exemplo embora essa também seja
+
+45:31.94
+Ben_Hur
+é, seja bastante poderosa no caso e... Bem, vamos ver, esperamos, vamos ver o que vai acontecer, né? Porque tem algumas realmente que estão tomando bastante bump, né? Tanto o ecossistema ali do Sengrep quanto o ecossistema do Nuclei também, né? Ambos estão tomando bastante bump nos últimos tempos.
+
+45:41.44
+cassiodeveloper
+Uhum. Uhum.
+
+45:57.76
+Ben_Hur
+Então, vamos ver, esperamos que essas funções free, né? Esperamos que continuem nesse caminho.
+
+45:59.55
+Marcos Santos
+Vamos ver... Deixar um ponto aberto para o próximo programa. Vou abrir o ponto. E quando as ferramentas de SA começarem a incorporar IA para fazer essa atualização automática. Ponto. Joguei. É isso.
+
+46:07.86
+cassiodeveloper
+Boa! Abre o seu ponto aí, Marcos. Vamos lá! Pessoal, nos vemos no próximo episódio. Eu sou o Cassio Pereira.
+
+46:27.50
+Ben_Hur
+Eu sou Ben Hur. Valeu!
+
+46:28.80
+Marcos Santos
+E eu sou Marco Santos. Não faz, só comprometa. Beijuço. Não sei se é tecnologia.
+
+46:30.06
+cassiodeveloper
+Episódio da hora, discutimos um cenário que a gente faz no dia a dia. Para quem acha que a gente não faz porra nenhuma, a gente não faz mesmo. Isso aqui é só zoeira, a gente está só zoando. Isso aqui não existe, tá? Eu estou desconsiderando tudo o que a gente falou. Fica tranquilo que você está seguro. Não precisa se preocupar. Essa aqui é a grande verdade. Pessoal, então é isso. Nos vemos na semana que vem. Um beijo. Fique com Deus.
+
