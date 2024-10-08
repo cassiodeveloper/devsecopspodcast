@@ -1,0 +1,712 @@
+00:00.42
+Ben_Hur
+e aí
+
+00:21.82
+cassiodeveloper
+Olá, jovens, juventude, juvenil do meu Brasil, que saudade de vocês. Se ficou começando mais um, deve ser Cops Podcast, eu sou o Cassio Pereira. Muito bom ter os nossos amigos de volta aqui, que saudade de vocês. Não, saudade porra nenhuma, na verdade estava muito melhor sozinho. Mas a vida não se faz sozinha, a gente precisa procriar, precisa ter amigos, precisa viver em sociedade. Então, por isso que estou feliz de ter vocês aqui.
+
+00:30.30
+Ben_Hur
+Eu sou o Ben Hur.
+
+00:31.46
+Marcos Santos
+E eu sou o Marcos Santos. Muito bom, né? Espero que sim, né? É o mínimo que eu espero. É, porque o salário tá atrasado. Já não pago o salário, agora vou ficar triste também, aí para de sacanagem.
+
+00:49.97
+cassiodeveloper
+Fui sincero, né? Não, o salário tá em dia, muito bem pago, inclusive. Aliás, vocês não estão gravando e tá tendo salário. É igual jogador de futebol, não joga, mas tem salário, salário alto ainda. Impressionante.
+
+01:06.30
+Ben_Hur
+Quebrou o relógio aqui, eu espero cinco minutos. Até pegar o resto e comprar o próximo.
+
+01:06.39
+Marcos Santos
+Oi. Oi.
+
+01:11.94
+cassiodeveloper
+Boa, boa. Pessoal, vamos falar do episódio de hoje, que a gente vai falar sobre um tema que é muito relevante para a nossa área, para o nosso dia a dia, na verdade, que é a modelagem de ameaças, o Threat Mogul. Vou tentar tirar algumas dúvidas do pessoal aí, como fazer, quando fazer modelagem de ameaça. Vejo que é uma dúvida constante do pessoal que procura
+
+01:31.22
+cassiodeveloper
+é que nos procura para trocar ideia ao longo da nossa experiência no dia a dia também. Mas antes de começar o episódio, lembrar que o DevSecort Podcast vem em oferecimento da Checkmarks, da Nova8, que é atribuidor oficial da Checkmarks no Brasil. Então, se você está procurando uma solução de AppSec coerente, uma solução foda, procura Nova8 e a Checkmarks para conversar com vocês. Lembrando também da GoldSecurity, que é especializada em prover serviços e soluções de AppSec também.
+
+02:01.22
+cassiodeveloper
+e a DigitalWoke, que tem um portfólio completo de soluções de AppSec para até ajudar. E não esqueça ainda do OnlySecFans, a plataforma de assinatura que você tem conteúdo a rodo, conteúdo a doidado. Inclusive, semana passada ou duas semanas atrás eu postei um tema específico de RoadSec, de AppSec, como o que você tem que estudar, qual caminho você tem que seguir e tal.
+
+02:23.57
+cassiodeveloper
+Não tem bastante coisa lá, apenas R$29,90 no plano anual. Então vem pro OnlySecFans. Bom, vamos começar o episódio de hoje, então, falando de modelagem e ameaças. Eu queria já começar com a pergunta aí pro Benyur, talvez, Benyur. Benyur tem uma vasta, uma enorme, uma carregada experiência, uma larga carregada experiência de Application Security. E eu queria perguntar o seguinte, mano, na sua visão,
+
+02:41.94
+Ben_Hur
+Oh, eu não sei.
+
+02:52.89
+cassiodeveloper
+Qual é o melhor momento, se é que a gente pode fazer assim, o melhor momento, o momento ideal ou o momento correto, ali dentro dos ciclos de desenvolvimento para sentar e fazer a porra da modelagem e ameaça? É uma dúvida que todo mundo que me manda mensagem, troca ideia de... Mano, sempre fala, mano, como é que eu faço a modelagem e quando eu faço a modelagem? Ou como a gente já vai chegar lá, mas eu queria ouvir de você, quando fazer a modelagem e ameaça?
+
+03:18.04
+Ben_Hur
+Perfeito, cara. Olha só. Vamos antes de a gente começar... Ah, é melhor quando está começando o desenvolvimento. Quando está começando o desenvolvimento é muito amplo, né? Mas agora, deixa eu desmistificar uma única coisa. Antes de a gente começar esse assunto que é modelagem de ameaças, não necessariamente o software não precisa existir ou não precisa estar pronto. Vamos começar
+
+03:40.31
+cassiodeveloper
+Achei. Achei. É ele. É ele. Vamos casar. Pode casar, gente. É ele.
+
+03:44.38
+Ben_Hur
+O que acontece, perceba que a modelagem de ameaças, como o nome diz, é modelar uma ameaça. Você pode fazer uma modelagem de ameaças em um sistema já existente, uma funcionalidade já existente. Inclusive é um exercício que eu gosto bastante para ensinar a segurança para os desenvolvedores, que é o quê? Digamos eu tenho uma questão ali de um produto que tem um cashback, por exemplo, tá?
+
+04:09.92
+Ben_Hur
+E aí, eu faço a pergunta assim, cara, o que aconteceria se eu cancelasse a minha compra? O cash back também é cancelado ou não é cancelado? Quando eu faço essa pergunta para o desenvolvedor, eu já estou fazendo a modelagem de ameaças para o desenvolvedor, porque eu estou tendo uma ameaça de alguém encontrar um fluxo de cancelamento automático de produtos.
+
+04:33.22
+Ben_Hur
+E isso refletindo o impacto financeiro da empresa porque não estava previsto que acontece caso tenha um cancelamento massivo por parte de um grupo de atacantes. Perceba que não importa se o sistema está em desenho, se está panejado, se ele está pronto, se ele está em proteção, eu peguei uma ameaça e joguei no meio da mesa.
+
+04:51.37
+cassiodeveloper
+Ou se é só uma ideia do negócio de fazer isso algum dia, por exemplo.
+
+04:54.53
+Ben_Hur
+Exato, estou apresentando, aí muda a entrega, a fase muda a entrega da bolha das ameaças. Então nesse caso em específico,
+
+05:08.11
+Ben_Hur
+Eu estou levando o desenvolvedor a ver uma ameaça no próprio no próprio produto dele, independente se está construído ou não. Então apenas para tirar já do jogo o modagem ameaça só acontece antes do software ou não depois depois é só penteste. Penteste só evidencia que é possível de fato explorar aquela vulnerabilidade que a gente previu modelando a ameaça.
+
+05:30.01
+cassiodeveloper
+O penteste, ele materializa aquele problema.
+
+05:33.03
+Ben_Hur
+Exatamente. Ó, é possível estar acontecendo, só que nada impede de fazer uma modelagem e conversar com o desenvolvedor e ele pensar nisso, ele me trazer parte da resposta. E a gente fazer um teste em conjunto. Tenho certeza que o Dave vai sair dali com conhecimento dessa parte. Agora, respondendo diretamente à pergunta, a modalidade ameaças vai acompanhar o ciclo do desenvolvimento. Agora, vamos pensar no ciclo. Nós temos desde o cara de produto pensando na ideia,
+
+06:02.94
+Ben_Hur
+E aqui pode existir uma modulagem ameaça. E a modulagem ameaça aqui, a entrega dela é explicar os riscos que aquele produto tem perante uma série de coisas. Por que você está buscando esse dado PIAEQ? Por que você está expondo esse dado PIAEQ? Então a entrega dele é uma coisa.
+
+06:22.74
+Ben_Hur
+Quando o Dev, agora que é onde entra pra minha visão uma das fases mais interessantes, quando o pessoal já passou pro produto, e se não passou pro produto a gente sabe que tudo que a gente não viu lá vai estar ali desenhado, né? Quando o Dev, a equipe de Dev já tem meio que desenhado como eles pretendem fazer, ou seja, já tiveram aquela reunião, já brigaram a tarde inteira, já definiram um pouco como vai ser,
+
+06:32.96
+cassiodeveloper
+Uhum. Uhum.
+
+06:48.83
+Ben_Hur
+Ali, para mim, é um momento interessante de entrar para fazer a modelagem. Por quê? Se eu entrar antes, ninguém meio que sabe como é que vai ser feito, ninguém meio que sabe que serviços vai consumir, ninguém meio que sabe quais APIs vão existir. O pessoal não sabe nada, eles estão discutindo.
+
+07:07.33
+cassiodeveloper
+Até a questão de arquitetura, stack, a porra toda nem tá nem na mesa ainda.
+
+07:12.19
+Ben_Hur
+a mesa, então tipo assim, a solução nem existe e a gente já está querendo ver problema, sabe? E aí é muito provável que se a gente entrar nesse momento antes de ele ter isso meio desenhado, a gente vai estar fazendo a mesma mudança na mesa que a gente vai fazer com o produto, se for parar para ver. Porque tudo que a gente vai ter na mesa naquele momento é a descrição do produto, do negócio
+
+07:32.23
+cassiodeveloper
+e acaba sendo uma modelagem de ameaças, ela pode até ter, depende de quem fez, só colocando uma pimenta nessa discussão também. Se foi um cara de segurança participando dessa conversa, vai ter aspectos técnicos dessa modelagem de ameaça. Por exemplo, você falou, criptografar um dado, validar uma informação. Se não tiver, ela vai estar num nível de ameaças de negócio, como você falou, cancelamento em massa, você vai deixar de ter aspectos técnicos ou de segurança mesmo ali.
+
+07:54.00
+Ben_Hur
+E, exatamente, efetivamente, então assim.
+
+08:02.00
+Marcos Santos
+Só apimentando um pouquinho mais também, hoje tem muitas ferramentas que ajudam com isso. Será que essas ferramentas também não ajudariam os devs? Porque a gente ali tem o Threat Dragon da WASP, tem o Microsoft Threat Model Tools, tem o Threat Modeler, tem diversas ferramentas hoje no mercado que ajudam com isso. E eu vejo que tem uma resistência do dev não saber utilizar ou não saber desenhar ali e querer fazer tudo só no papel.
+
+08:29.62
+Marcos Santos
+e acaba esquecendo algumas vulnerabilidades nesse caminho.
+
+08:34.04
+Ben_Hur
+É bastante... É que tem uma coisa, Marcos, assim, que eu acho que está faltando no mercado, que é uma ferramenta de desenho de arquitetura de software que tenha isso embutida. Porque os caras meio que parecem que fazem trabalho duplo, tá ligado? Tipo, eles fazem tudo num lugar e depois eles meio que têm que exportar em outro lugar. Ou até mesmo, talvez falta aí para as ferramentas de modagem e ameaça.
+
+08:34.80
+cassiodeveloper
+Eu diria que tem uma perca aí também.
+
+09:04.63
+Ben_Hur
+É onde eu importo um desenho e ele converta esse desenho pro desenho da tu, tá ligado? Daí, pra, pra, alguma forma de o cara, de o dev fazer o trabalho uma vez só, sabe? Isso. Mas pra mim, assim, o lugar que eu mais, eu, eu, particularmente, mais gosto de fazer melhora de ameaças
+
+09:09.62
+Marcos Santos
+Concordo 100%.
+
+09:16.94
+cassiodeveloper
+otimizar isso pra ele boa
+
+09:24.15
+Ben_Hur
+é quando já tem pelo menos um desenho inicial da proposta de solução técnica. É aí onde eu mais gosto. Agora, porque essa questão do cancelamento automático, a questão de outros riscos de negócio,
+
+09:48.83
+Ben_Hur
+Na maioria das vezes, não tem que mudar a solução técnica toda porque a gente encontrou um problema. Às vezes vai agregar uma regra a mais, vai agregar uma validação a mais, vai agregar alguma integração com algum serviço a mais, mas dificilmente vai tipo, puta que pariu, a gente deu previsto esse negócio, agora tem que mudar tudo essa merda.
+
+10:02.88
+cassiodeveloper
+Uhum. É, exato, exato.
+
+10:10.52
+Marcos Santos
+Quando...
+
+10:10.54
+Ben_Hur
+dificilmente tem isso. Então eu prefiro assumir o risco de ter que mudar um pouco no desenho tecnológico e fazer isso depois, que o pessoal tem uma ideia, do que às vezes a gente não tem escala para estar em todas as fases o tempo todo. Então eu prefiro esse momento. Para mim, eu mais gosto, por exemplo.
+
+10:29.26
+Marcos Santos
+Quando eu estudei com o Cássio, muitas vezes a gente fazia o desenho no Bisage, pegava o Miro ali, ficava fazendo as caixinhas, DFD da vida. Só que a gente desenha ali, basicamente, a gente vai tabelar ali o banco de dados, falar da aplicação, fazer os desenhos. E muitas vezes, eu basicamente comecei a pensar em segurança muito depois, depois o Cássio encheu muito no meu saco.
+
+10:51.15
+Marcos Santos
+Mas como deve eu pensar só nas funcionalidades. Nunca pensei em criptografia, igual você falou, pegar o tamanho da string ali, o que eu vou filtrar ou não, o que vai passar, o que não vai. Então eu ficava muito centrado só nessa parte.
+
+11:07.90
+cassiodeveloper
+Boa. Eu acho que é o seguinte, pegando um gancho aí no que o Benyur falou, eu sempre que eu vou falar de modelagem de ameaças ou fazer treinamento, eu sempre uso a frase que a modelagem de ameaças é a arte de achar problemas mesmo antes de só transistir.
+
+11:24.58
+cassiodeveloper
+que é literalmente o que você começou falando, cara, você não precisa ter um software, precisa ter uma ideia, uma ideia de funcionalidade e tudo mais. Eu fiz uma apresentação uma vez aqui para o ASP, que a gente fala, o que é shift left? O maior shift left possível seria a modelagem de ameaças, quando a gente fala de segurança, porque a matéria-prima de um software, a matéria-prima de um software, ela é o requisito funcional.
+
+11:48.98
+cassiodeveloper
+vai virar código algo que foi um requisito funcional, que na verdade é uma ideia, um cadastro de usuário, um cancelamento, enfim. Então, se a gente olhar para essa matéria-prima, será que a gente conseguiria refinar ela ou trabalhar essa matéria-prima bruta, que seria o requisito funcional, fazer, entre aspas, uma modelagem de ameaças que na verdade nada mais é do que um brainstorming, uma discussão de segurança, de coisas que poderiam acontecer errado ali,
+
+12:15.04
+cassiodeveloper
+Até porque, como você falou, você não tem arquitetura, você não tem stack, você não tem elementos técnicos que talvez vão impactar na modelagem, mas você já consegue fazer esse tipo de discussão. Então, olhando para o benefício final, que é você ter um produto mais seguro,
+
+12:30.01
+cassiodeveloper
+Partindo do princípio que você tem uma lista de requisitos funcionais e você senta todo mundo, ou todos os envolvidos, o dev, o arquiteto, o cara de negócio, o analista, todo mundo tá falando, gente, vamos trocar uma ideia aqui. Qual a ideia aí do sistema, cara? Uma tela de login, cadastro, informação, vem aqui, vai pra cá, chama o parceiro, manda dada pra lá, manda dada pra cá. Bom, legal. Tem autenticação?
+
+12:49.27
+cassiodeveloper
+Tem que ter fotografia, tem informação sensível, tipo 3, 4, 5 perguntas no nível de negócio que vão fazer todos os desenvolvedores falar, caramba, não pensamos nisso, precisa ter que ter fotografia. Puts, na verdade não precisa do CPF do cara, tira fora. Na ideia, porque?
+
+13:06.73
+cassiodeveloper
+Quando alguém for escrever essa história, que um dia vai virar um... vai em um sprint, que vai ser priorizado, que vai ser transformado em código de fato, isso já vai estar mastigado, ou o que eu gosto de chamar de... já vai estar a venda casada, já vai ter um requisito de segurança junto com o requisito funcional, que acaba sendo uma coisa só. Então você vai ter um requisito funcional, ao invés de criar uma tela de login, já tem um requisito chamado criar uma tela de login, que criptografa os dados, e ter uma autenticação na API. Por exemplo, uma forma bem grossa aqui.
+
+13:36.88
+cassiodeveloper
+Isso tira a margem do depois eu faço, tira a margem do requisito de segurança vejo depois, e entra para o Definition of Done, entra para o Definition of Ready, porque vai estar dentro do requisito funcional. Então, é o que eu tenho entendido hoje como, literalmente, o Secure by Default, Secure by Design. Porque a parada já está na raiz, já veio da matéria-prima, que é lá no requisito funcional.
+
+14:02.04
+cassiodeveloper
+Mas óbvio, como o Ben Hur colocou muito bem, você vai ter uma reunião de arquitetura depois, vamos usar essa stack, a arquitetura do software vai ser assim, acessada, é camadas, é microserviço, é não sei o quê. A modelagem ameaça, ela é viva, ela não é algo que você faz um dia, guarda num canto e esquece. Ela é viva, então nesse momento ela já vai ter uma atualização. Aquelas discussões que tinham feito antes, a gente pensou na criptografia, mas se o formato é esse aqui, microserviço, então cara, de repente, exemplo, não vale a pena criptografar o dado em trânsito interno.
+
+14:31.20
+cassiodeveloper
+Ele pode estar descriptografado, sei lá, ou não precisa até ter dedicação nos serviços internos, dependendo do contexto. Enfim, para uma melhoria de performance, um sistema de criticidade e tal. Então, a modelagem de ameaça começa junto com a própria ideia do software, na minha ideia, na minha visão.
+
+14:47.26
+cassiodeveloper
+e ela, durante o ciclo, vai evoluindo. Normalmente, nessa fase de arquitetura, você vai discutir, vai amadurecer um pouco, e talvez, lá na fase de teste, que você pegou um bug, pegou alguma vulnerabilidade, algum problema, vai ter que corrigir alguma coisa, essa correção pode mudar a funcionalidade de alguma forma, e isso talvez impacte uma atualização desse modelo. E aí, posteriormente, a cada feature, a cada nova entrega, a cada nova funcionalidade, você vai amadurecer nesse modelo.
+
+15:13.43
+cassiodeveloper
+Mas o melhor momento, não tem o melhor momento, o melhor momento é, começa o software já falando de segurança. É qualquer momento. Exato, porque quando a gente fala de modelar ameaças, a modelagem em si é algo palpável, vai ter um modelo, vai ter um documento, vai ter um diagrama.
+
+15:19.44
+Ben_Hur
+Melhor momento é qualquer momento em que a vulnerabilidade não esteja em produção. Sim, vai ter um ataque PF.
+
+15:21.27
+Marcos Santos
+E aí E aí E aí
+
+15:33.59
+cassiodeveloper
+Exato. Agora, a ameaça em si já é algo abstrato. Vou te matar, estou te ameaçando. A probabilidade de isso acontecer é X, Y. Qual é a probabilidade dessa ameaça acontecer? Qual é o risco e qual é o dano? Então, o próprio investimento, depois a própria demanda de segurança em cima do que foi modelado, das ameaças,
+
+15:54.53
+cassiodeveloper
+Vai ter que tomar uma análise de risco em cima disso. Não vai fazer tudo que foi ameaçado. Quem está sendo ameaça que resolve tudo? Não. Às vezes vai ter ameaça e vai falar, cara, isso aqui é irrelevante se acontecer. Existe ameaça, existe um risco, mas a gente não quer tratar isso, não faz nem sentido. Mas está mapeado, foi avisado, enfim, foi pensado naquilo.
+
+16:05.38
+Marcos Santos
+Obrigado.
+
+16:09.87
+Ben_Hur
+Tem uma questão que você comentou sobre a teoria, né? Pô, talvez aconteça, será que vai acontecer ou não? Tem um link que o Dalalan aqui da WCS, que eu participo também, ele me mandou que é threat modeling baseado numa estratégia de mito e ataque. Depois eu compartilho o link que eu tô lendo, tô aprofundando primeiro para entender bem direitinho, só que tem uma parte que encantou bastante,
+
+16:29.67
+cassiodeveloper
+Boa! Uhum!
+
+16:36.58
+Ben_Hur
+que é uma tabela onde você tem a teoria versus evidência. E o core disso é praticamente o seguinte. Beleza, se planejou um cenário de ataque, se planejou uma ameaça. Vamos pensar na teoria que é o seguinte. A teoria é, esse caso existe no mundo? É uma coisa que existe por aí? Existe. O que existe no mundo?
+
+16:46.05
+Marcos Santos
+Inscreva-se.
+
+17:00.45
+cassiodeveloper
+Uhum. Uhum. Uhum. Uhum.
+
+17:04.60
+Ben_Hur
+É possível, teoricamente, de ser... É por isso que a gente estava botando ameaça, né? Essa teoria se aplica aqui ou não se aplica aqui? Por exemplo, existe a teoria do Log4j, mas a gente não usa nada de Java. Quando a gente fala nada de Java é dentro das aplicações, dentro da cadeia, pelo menos por completo. Então perceba que só na teoria isso já cai.
+
+17:26.32
+Ben_Hur
+Agora, digamos que na teoria exista e na teoria aqui dentro é materializável esse risco. Na teoria, a gente tem um certo nível de exposição a esse risco. E o que a gente tem evidenciado? Existem evidências de exploração na comunidade e já se passou também aqui dentro de casa?
+
+17:39.46
+cassiodeveloper
+Uhum. Uhum, uhum.
+
+17:48.90
+Ben_Hur
+uma vulnerabilidade similar já aconteceu aqui dentro, porque o que acontece, baseado nesse quadro da teoria versus o que já temos de evidência disso, te dá o nível de priorização e de risco da mesma ameaça.
+
+18:05.81
+cassiodeveloper
+Uhum, boa. Isso vai drivar... Caralho, velho, eu tô num costume de aportuguesar os verbos em inglês, né? Isso vai guiar... Isso vai guiar os investimentos em seguranças. Você vai implementar uma mitigação ou não?
+
+18:17.02
+Marcos Santos
+O que?
+
+18:20.83
+Ben_Hur
+exato, inclusive as ações, como por exemplo assim ó, se tem alto, a teoria é bastante consolidada, mas a gente tem pouquíssima evidência de exploração, a gente precisa revisar os controles que a gente já tem.
+
+18:39.10
+cassiodeveloper
+um procedimento de um procedimento de respostas incidentes inclusive
+
+18:39.50
+Ben_Hur
+Agora, se a gente tem um alto grau, por exemplo, de teoria, a teoria é bastante solidificada e isso já aconteceu aqui dentro, isso deveria ter uma ação ativa pronta para mitigar.
+
+18:53.46
+Ben_Hur
+E isso, olha, cara, isso aqui já pode já pode estar sendo a gente tem alto nível de evidência de que isso é explorado de fato. Por exemplo, cara, o risco a teoria está no Asp. Top 10, né? E está no Asp. Top 10 é porque está muito evidenciado. Cara, nos programas de Bug Bounce tem muito report desse tipo. Perceba que a gente começa a ter evidência da existência, né? Tem uma comunidade. Exato.
+
+19:13.92
+cassiodeveloper
+Uhum. Uhum, uhum. Na nossa indústria, né, por exemplo, cara, a gente é do mercado financeiro, cara, acontece ainda mais. Ou só acontece no nosso mercado, coisas do tipo. Uhum, uhum. Boa.
+
+19:26.28
+Ben_Hur
+Exatamente, então isso pode ajudar um pouquinho nos findings, na entrega daquilo ali. Estou estudando ainda para ver o que que tem, mas eu passo o link para a gente deixar, vai deixar aí na descrição ali dos comentários do vídeo depois. Carai, pode crer.
+
+19:40.26
+cassiodeveloper
+Bom, eu queria até levantar um ponto aqui que o Marcos comentou em alguns episódios atrás, que a gente está falando de SCA, e algumas ferramentas SCA agora trazem o EPSS, que era probabilidade de um Explore e tudo mais. E esse cara, acho que o Marcos comentou,
+
+19:44.30
+Marcos Santos
+Boa. E isso.
+
+19:57.28
+cassiodeveloper
+Tem alguns deles que trazem um índice com base na sua indústria, então você fala, cara, eu sou uma empresa financeira, eu sou um banco, então cara, a probabilidade desse explode no banco é maior do que se você fosse uma indústria x, sei lá, coisas do tipo. Então isso traz, que é aquela história, qual é o esforço necessário para a gente fazer isso, mitigar isso, investir.
+
+20:08.47
+Ben_Hur
+Fim.
+
+20:17.00
+cassiodeveloper
+Esse indicador, vamos chamar esse indicador, ele vai ajudar muito nessa decisão, porque eu acho que a maior dificuldade da galera não é quando fazer modelagem e ameaça, mas é o que fazer com a modelagem. Cara, modelei aqui, tem 500 ameaças aqui, e agora? E agora você mitiga tudo? E agora você analisa o risco de uma por uma? E agora você documenta e põe no portal do seu confluência e esquece? E agora, talvez seja a próxima pergunta antes
+
+20:47.38
+cassiodeveloper
+O que fazer com as ameaças identificadas? Porque a gente tem uns 20 minutos de introdução aqui. Boa, Marcos! Gostei, Marcos. Vou ganhar um presente pra você se eu ganhar aqui agora uma licença exclusiva do code bashing da Checkman pra você usar. Fica à vontade. Um ano de licença pra você usar o code bashing. Por esse comentário brilhante.
+
+20:50.72
+Marcos Santos
+Joga no backlog e deixa lá. Obrigado. Isso, já era.
+
+21:07.69
+Ben_Hur
+Aquele problema já deixa automatizado, né? Criou a test, já vai para risco aceito e só completa...
+
+21:13.46
+cassiodeveloper
+Vale a pena lembrar, acessem devops.security, que é a ferramenta do Anderson, que criou o produto devops.security, que é uma solução basicamente assim,
+
+21:26.99
+Marcos Santos
+E voltamos.
+
+21:30.47
+cassiodeveloper
+preenche um questionário, mais ou menos, de como que é a sua aplicação. É front-end, é back-end, e ele te dá os requisitos de segurança. É como se ele fizesse, entre aspas, uma modelagem de ameaça com base no perfil que você falou da aplicação. Então, tem uma versão gratuita que você pode usar, tem uma versão paga, então fica a propaganda. Inclusive, gravou um episódio junto aqui com o Anderson, está aí na temporada passada, depois você dá uma pesquisada aí. Mas vale lembrar dessa solução. E o Ben Hur comentou de ferramentas, talvez, para automatizar e para ajudar. Eu lembro de uma,
+
+21:59.09
+cassiodeveloper
+que chama Security Compass. Acho que eles foram comprados pela SDElements, ou uma parada dessa daí, que eu sei que você consegue importar o diagrama do Microsoft JET Modeling Tool, e eles te fazem essa lista de requisito. Só por exemplo, você fala assim ó, a minha aplicação precisa estar compliance com o PCI, ou com a ISO 27002. Aí está aqui o diagrama que você já fez, aí você importa e eles te falam, então você tem que ter isso, isso, isso e isso tem que fazer.
+
+21:59.33
+Marcos Santos
+É isso aí.
+
+22:22.98
+cassiodeveloper
+Porque esse diagrama tá falando que tem S, S ameaça. Então ele meio que automatiza os controles de segurança que você tem que fazer. Ah, boa, boa. Uhum.
+
+22:30.13
+Marcos Santos
+Eu estou mexendo com uma ferramenta também, chama Threat Modeler. É o nome da ferramenta. E ela tem esse esquema, você consegue importar alguns desenhos, como o do Bisage, do Threat Modeler, até se eu não me engano, do Vizio. Acho que é do Vizio, ela consegue importar e consegue já te dar um diagrama inicial. Óbvio, você... Sim, é o vástil dele.
+
+22:35.79
+Ben_Hur
+E aí E aí
+
+22:49.33
+cassiodeveloper
+E se eu não me engano? Se eu não me engano, Marco, desculpa aí. Acho que eles usam um framework próprio de modelagem ameaças. Eles não implementam Stride ou nada assim, né? Vaste, pode crer, pode crer.
+
+22:58.81
+Marcos Santos
+Então é uma ferramenta que está sendo interessante, eu ainda estou estudando ela, estou fazendo vários testes, mas acho interessante porque ela já consegue pegar esses documentos, você já tem algo criado ali, algo que você já fez no passado ou de alguma coisa que já está em produção, você consegue trabalhar em cima dela e melhorar ali sua modelagem de ameaça e vai te trazer ali novas vulnerabilidades que você provavelmente nem tinha pensado.
+
+23:24.41
+Marcos Santos
+como, sei lá, um exemplo, um certificado SSL para uma porta X. Ou você pegar ali uma possibilidade de um cross-site scripting. Então ele te dá esses insights e você consegue melhorar ainda mais sua modelagem e trazer ainda mais proteção. Então é uma ferramenta muito legal. Tô pegando mais ainda experiência com ela para poder trazer um overview geral para a galera. Acho bem legal.
+
+23:44.88
+cassiodeveloper
+Boa. Boa. Então, quando você pega mais aí, Marcos. Bem, o que fazer com as... Levantamos aqui, ó. Um monte de ameaça. E agora? Faz que não, Marcos? Documenta, põe no backlog e já era?
+
+24:00.83
+Marcos Santos
+Leu, meu braço.
+
+24:02.43
+Ben_Hur
+Tem uma coisa que eu acho que tu comentou, Cássio, que é... é crucial, eu acho que todas empresas tem que buscar ter isso, que é... Antes dessa parte, lembrando o quê? Se a gente estava em um threat modeling, antes de existir o software, a gente tem um card do como a gente deseja que ele seja. Então, isso de fato, como você comentou, tem que estar no requisito.
+
+24:22.04
+cassiodeveloper
+Ponto.
+
+24:29.48
+Ben_Hur
+muitas vezes ele não é embarcado dentro do requisito por uma questão de maturidade ou porque falta, ou até mesmo tem aquela segregação, né? Porque o que acontece? Agora vamos para a política do jogo, né? Quando a gente vai para uma área dentro de uma empresa, sempre a gente vai ter aquela pergunta que o que a Application Security fez este ano para que eu possa defender o budget daquele ano? Logo,
+
+24:56.30
+Ben_Hur
+Nós descobrimos X ameaças que foram prevenidas antes do software ir para a produção, que equivale a uma economia de X milhões de euros baseado naquele esquema de uma vulnerabilidade custa mil vezes para corrigir depois. Então para isso a gente precisa ter o card.
+
+25:14.55
+Ben_Hur
+separado da ameaça para que a gente justifique esse tipo de coisa, fazendo a roda mecânica empresarial rodar. Então, normalmente o que a gente tem é um card ou um ticket, como é a mesma forma que a gente reporta uma vune, a gente tem um card com o finding. Olha, nessa ferramenta, isso aqui é um card de threat finding, a gente precisa resolver isso aqui. Mas perceba que o card ele está no momento ele existiu quando o software não existiu.
+
+25:42.52
+Ben_Hur
+E se o software não existiu? Eu acho muito legal porque o sol está mudando. Na cara do Cássia, ele começou na vertical, agora já mudou assim. Vai aparecer um super-herói depois só com a massa. O que acontece? No momento que a gente tem o card, a gente tem que definir qual é a nossa política de resolução desse card.
+
+25:45.95
+cassiodeveloper
+É, então... Tô bronzeando meio a meio aqui, igual o Kiko.
+
+25:48.58
+Marcos Santos
+Ai, eu tô engraçado.
+
+26:08.35
+Ben_Hur
+Como o software não existe, o que a gente quer? A gente quer uma proposta do dev? Olha o que vocês vão fazer para mitigar isso aqui? E aí ele vai colar a proposta no card? Ou esse card tem que estar resolvido com a implementação da solução técnica? Ou seja, uma vez que o software estiver construído, ele vai colocar. Eu, particularmente, gosto de ver a proposta antes. Porque a quantidade de vezes que eu vi ser resolvido da pior forma possível,
+
+26:39.04
+Ben_Hur
+Não foi, não foi nenhuma nem duas. Então eu gostaria, é, sim. Aí, sim, aí eu ia que entrar em um ponto. Por que eu reconheço?
+
+26:43.06
+cassiodeveloper
+Eu queria fazer um comentário também. Isso gera um problema. Na verdade, é uma solução que traz um outro problema. Por quê? Porque você vai ter o card, o ticket, o que quer que seja. Beleza, resolvi. Da melhor ou da pior forma, foda-se. Tá feito. Como é que segurança valida isso? Fala, ok, está feito. Porque você vai ter que ter um teste depois.
+
+27:07.88
+cassiodeveloper
+Só um detalhe, inclusive vou pedir patrocínio para os caras, essa solução que eu falei da Secret Compass, ele gera, com base na modelagem, os requisitos que você falou, ele gera o caso de teste para cada um dos itens. Então se tiver um jeito de automatizar na frente, melhor, senão ele vai estar lá, passo 1, sei lá, você falou que tinha
+
+27:08.93
+Ben_Hur
+Hã?
+
+27:20.28
+Marcos Santos
+Então, é isso.
+
+27:25.52
+cassiodeveloper
+botografar o dado, passo 1, faço chamada na API, passo 2, verifico se o dado está aqui fotografado, sei lá. Então ele te dá meio que um caso de teste, um cenário de teste para cada requisito de segurança com base na modelagem ameaça ou no framework que você falou. Mas os que são automatizados facilita, automatizados, né? Em algum lugar vai ter traqueado tudo isso. Se não é, aí é o que você vai colocar, né Mir? Como é que você testa isso?
+
+27:50.18
+Ben_Hur
+Exato, porque o que acontece? Em teoria, se a gente encontrou um problema no desenho, esse problema tem que estar resolvido pela nossa política de segurança de como a gente faz as coisas. Da mesma forma como a gente tem vulnerabilidades, a gente espera as vulnerabilidades ser resolvidas. Para mim, todo o momento que a gente passou por uma modelagem de ameaças gerou as ações necessárias para essa modelagem de ameaças, que são desenhos novos que a gente precisa dentro do software para mitigar uma série de riscos concretos que a gente definiu,
+
+27:58.18
+cassiodeveloper
+Uhum.
+
+28:20.38
+Ben_Hur
+se nós não, quando chegar a solução, se o desenvolvimento pronto e isso não tiver resolvido, isso deveria se converter automaticamente ou em uma vulnerabilidade, e aí tem que ser tratada como vulnerabilidade, que agora está materializado, ou como um security risk, ou outra definição que a gente tem, porque também é difícil misturar vulnerabilidade em coisas que não são exploráveis. Vou dar um exemplo.
+
+28:37.06
+cassiodeveloper
+Uhum. Exato. Uhum.
+
+28:48.27
+Ben_Hur
+Vou dar um exemplo. Não colocaram criptografia no hashing na senha, que é armazenado no banco. Vou pegar esse caso. A gente tem uma evidência que é possível de fato roubar sem texto plano? Não tem. A gente tem um risco. A menos que a gente faça um P-test e a gente consiga, a gente só tem um risco. A gente não tem a vulnerabilidade. Mas o risco existe, a senha está em plaintext.
+
+29:14.80
+Ben_Hur
+Então, a gente precisa, geral, para cada card de Threat Finding, que é a etiquetão de Threat Modeling, ele tem que ser associado a um ou mais casos de teste, bem como comentou. E se esse cara não for definido, o que a gente faz com ele também tem que estar na nossa política.
+
+29:28.67
+cassiodeveloper
+Tem que ter literalmente um processo de threat modeling para que você possa ter essa governança como um todo, vamos chamar assim.
+
+29:37.16
+Ben_Hur
+Exato. E a questão é, como que eu metigo esse risco? Cara, se você não tem, olha, você realmente não criptografou corretamente, não rachou corretamente a senha, tá? Então assim, vai ser criado para você um card de risco, um card de risco materializado aqui, e esse card tem consequências no negócio, né? Então isso tem que estar vinculado, por exemplo, quais produtos têm mais riscos expostos?
+
+29:47.53
+cassiodeveloper
+Uhum. Uhum. Boa.
+
+30:05.83
+Ben_Hur
+quais produzem mais riscos materializados, né? Como isso se liga aos indicadores daquele produto? Porque se a gente não tiver nada desconectado, a gente pode gerar a quantidade de cargas que a gente quiser, os caras vão assim, ó, aceite de risco, aceite de risco, aceite de risco, aceite de risco, aceite de risco e... e forem assim. Então o negócio tem que estar envolvido nisso, né? Se não, até inclusive isso acontece com vulnerabilidade, o cara bota vulnerabilidade, o cara fica com um risco assumido e abrace, entendeu?
+
+30:18.46
+cassiodeveloper
+É, e fica um negócio infinito, né? É... Sim, sim... É...
+
+30:32.54
+Marcos Santos
+E uma das coisas que eu vejo também é que é bem legal, só que falta a maturidade do pessoal saber o que é o risco e o que é a vulnerabilidade. Muitas vezes isso é confundido. Então a pessoa acha que o risco é uma vulnerabilidade e acaba não sabendo como tratar, não sabendo como testar.
+
+30:49.67
+Marcos Santos
+Isso também atrapalha bastante o processo de modelagem. Você acaba confundindo isso.
+
+30:50.95
+Ben_Hur
+Verdade. É muita verdade.
+
+30:55.03
+cassiodeveloper
+Sim. Antes a gente continuar aqui, vou fazer uma pausa na nossa voz. Eu queria aceitar dois, não, trazer alguns casos reais, casos e cenários para a gente aqui. E eu queria falar de um. Você pode poder comentar depois aquele que a gente estava falando offline da entrevista. Mas semana passada eu estava num projeto na Holanda. Eu visitei fazendo um freelancer numa empresa de seguros.
+
+31:22.14
+cassiodeveloper
+e ajudando exatamente o time a fazer modelagem de ameaça. Eu lembro que uma das mitigações para uma ameaça identificada, a ameaça era o seguinte, o aplicação mobile, o aparelho do cara foi roubado, e aí está desbloqueado, o ladrão, enfim, consequentemente tem acesso ao aplicativo, o aplicativo está logado já.
+
+31:45.73
+cassiodeveloper
+é uma aplicativa de seguro, então o cara conseguiria ver a policy, ter uma questão financeira também, ter conseguido tirar dinheiro, movimentar dinheiro e tal, tal, tal. Qual é a ameaça? A ameaça é um dispositivo comprometido, foi roubado, está desbloqueado, enfim, então essa é a ameaça. Qual é o risco? Cara, tem vários, o cara pode tirar o dinheiro da conta, ele pode o impacto praticamente danificar a conta inteira.
+
+32:07.57
+cassiodeveloper
+Qual foram as mitigações? Eu falei, cara, existem várias formas de fazer isso, mas todas elas envolvem um negócio. Uma delas que eu falei foi, você pode a cada x dias, por exemplo, desatenticar o cara automaticamente, eu obriguei ele a atenticar de novo. Só que, vamos supor, você faz isso a cada 7 dias, o cara foi roubado no dia que ele trocou a senha, você vai ter 7 dias ainda que o cara vai estar vulnerável do mesmo jeito.
+
+32:30.03
+cassiodeveloper
+não é tão efetivo. O segundo passo é, para funcionalidades críticas, você pode pedir um PIN. O cara vai transferir um dinheiro, pede uma senha de quatro dígitos, a digital do cara. O cara vai ver o extrato, aí não precisa. Vê o extrato, vê o extrato. Tudo bem, vai vazar informação, talvez sigilosa, mas é aceitável dentro desse contexto. O cara vai cancelar a policy, pô, pede um PIN, manda por e-mail uma senha, alguma coisa do tipo. Para você obrigar, mesmo que foi comprometido o dispositivo,
+
+32:58.25
+cassiodeveloper
+você ainda tenha uma mitigação de algum outro lado, uma confirmação de algum outro lado. Então, as mitigações que eu coloquei lá, que eu lembro, essas foram algumas, era literalmente negócio.
+
+33:09.86
+cassiodeveloper
+Não tinha problema de segurança de fato. Lógico, são questões de segurança. Mas são ameaças de negócio. O dispositivo foi roubado. E aí? Sei lá. É foda você. Não tem framework que ensina você a fazer isso. Não está no strike disso. Não está no vaste. Não tem, cara.
+
+33:28.39
+cassiodeveloper
+E eu estava tentando explicar para o time isso. Falar, gente, quando a gente for fazer uma mandala de ameaça, vocês pegam a porra da funcionalidade e façam uma única pergunta. O que pode dar errado aqui? Se ainda assim você não conseguir pensar o que pode dar errado, pensa assim, eu quero atacar. O que eu faria de errado aqui?
+
+33:47.04
+cassiodeveloper
+Não tem como, vocês como técnicos, eu dava treinamento para os desenvolvedores. Não tem como você não conseguir responder essa pergunta. Você faz a aplicação. Você fala, meu, eu quero vazar os dados do banco de dados. Como é que você faria? Pensando que você é um cara de fora. Eu quero causar um dano aqui a esse usuário. Como é que você faria? O que pode dar errado aqui? Putz, o dado não está criptografado. Opa, então... Então, uma simples pergunta já traz a sua mente. Obviamente, quem tiver mais experiência vai facilitar um pouco. Mas essas duas, três perguntas vão facilitar nesse brainstorm, nesse sentimento de
+
+34:16.39
+cassiodeveloper
+fazer uma modelagem entre aspas de ameaça, porque já era um software de produção, já tinha um certo risco envolvido e tal, eles precisavam meio que documentar algumas coisas e implementar melhoria de segurança. Mas depois eu falei sobre Stride, falei sobre frameworks, mas eu tenho o meu pé atrás com alguns frameworks. E aí talvez seja esse caso que o Benyur tem aí, o que a gente comentou em offline, que framework ele acaba limitando um pouco.
+
+34:42.28
+Ben_Hur
+Olha, eu acho que as pessoas hoje, o que eu mais vejo em entrevistas, por exemplo, é as pessoas limitarem, limitarem a sua estratégia aos frameworks específicos, sabe? Então tipo assim, vou aplicar um Stride, se não tá no Stride,
+
+35:05.54
+Marcos Santos
+Concordes.
+
+35:08.13
+Ben_Hur
+Eu não faço. Cara, isso acontece em várias entrevistas, as pessoas conhecem todas as siglas do Stride, todas. Sabem exemplos para todos os cenários das siglas. E os caras vão exatamente como falam, né? Tu vai pecinha por pecinha, conexão por conexão, ponto por ponto, fazendo todo o Stride.
+
+35:10.20
+cassiodeveloper
+Hehe.
+
+35:31.97
+Ben_Hur
+Mas não para, pega um cafezinho, dá uma olhada para trás, olha a solução em geral. Não pega e usa a própria cabeça para pensar, porque cara, um criminoso ele não está olhando agora, eu vou fazer um tampe. Não, ele está cagando.
+
+35:44.68
+cassiodeveloper
+É, é. Não tem, não tem exatamente.
+
+35:47.81
+Ben_Hur
+Cara, a validação de CAPTCHA para anti-bot, no caso, né? Anti-bot, sabe? Forma segura de fazer um storage, porque, por exemplo, se eu olhar para ver no Stride em si, a forma segura de fazer um storage, de guarda, de armazenar certo tipo de informação, não está no Stride.
+
+36:09.05
+Ben_Hur
+O que você entendeu, por exemplo, é a ação de conseguir obter o dado. Então, por exemplo, se um banco de dados está criptografado, perceba que o problema não está ali, está na gestão de acesso ao banco, mas em nenhum momento estamos falando de criptografia.
+
+36:18.20
+cassiodeveloper
+Uhum. Não foi diferente, né? Uhum. Uhum.
+
+36:34.70
+Ben_Hur
+da forma correta de fazer o backup, por exemplo. Então, você vai ter que começar a buscar o Stride como um todo para tentar circular algo que você já poderia ter resolvido no meio da raiz. Então, o que acontece? O Stride é excelente, ele guia muito bem e tem se consolidado, sempre foi bastante consolidado, mas não é legal a gente se limitar ao Stride para pensar em problema.
+
+36:59.77
+cassiodeveloper
+É igual o pessoal que quer olhar pra vulnerabilidade e olha só as top 10. E tem outros 300 problemas lá, né? É porque é aquilo, o cara se limita num coisa e quando a gente fala de segurança, cara, tem tantos outros problemas que podem acontecer. Às vezes coisas simples que você pode tirar ali num brainstorm, num café, por exemplo, que o framework não vai te dar. Você acaba deixando a aplicação em risco vulnerável.
+
+37:04.31
+Marcos Santos
+Jesus, naturalmente. Analogia boa, hein? Nem só isso. Eu vi pela primeira vez, acho que foi no canal do Ben Uri falando do ASVS.
+
+37:04.44
+Ben_Hur
+Cara, melhor analogia possível. Melhor analogia possível.
+
+37:28.95
+Marcos Santos
+Cara, o cara vê o Top 10, mas não vê os outros produtos, o SVS ali. Eu aprendi pra caralho a sua vulnerabilidade lendo aquilo ali.
+
+37:35.13
+cassiodeveloper
+Cara, o ASP top10, o ASVS e o SCP, que é o Secure Code Practice, assim, se todo mundo lesse isso, não teria guerra nos países por aí. Com todo o respeito às guerras, né cara, é lógico que é uma analogia, mas puta que pariu, cara, tem muita coisa ali, resolve muita coisa.
+
+37:49.14
+Ben_Hur
+Não abaixarei o valor dos meus bitcoins. É verdade. Eu acho que você colocou um foto incrível aqui. Os caras perguntam como é que eu começo. Se você pegar o ASVS e lê-lo,
+
+38:11.41
+cassiodeveloper
+Só isso, só lê só.
+
+38:11.70
+Marcos Santos
+Slowly, slowly!
+
+38:13.43
+Ben_Hur
+É só ler, só ler, só ler isso aqui. Já vai sair na frente de muito cara que tá lá rodando um milhão de ferramentas pra cara. Fato, fato. E aí acho que é um ponto interessante porque assim, hoje a modelagem ameaça e tem um objetivo, né? Não é preencher o Stride. Várias vezes eu já tive que criar os cards na hora de botar a categoria do Stride, botar um other porque eu não encontrei uma categoria específica.
+
+38:39.97
+Ben_Hur
+para ele. A questão é, tenta chegar em riscos. E usa o Stride para te apoiar a chegar nos riscos. Porque quando o Stride fala assim,
+
+38:54.84
+Ben_Hur
+Ele está te guiando a dizer, olha, dá uma olhada em todos os checks de identidade que você tem. Vou dar um exemplo, que nem o caso que eu toquei ali. Cara, o device takeover, o DTO ali, o cara pegar e me roubar o celular. Beleza, perceba que o cara não está em spoofing, porque de fato é o que vocês toquem do cara que está tracegando, mas a pessoa por trás dali
+
+39:08.77
+cassiodeveloper
+Sim. Sim. E é um controle fora do tecnológico nesse caso.
+
+39:23.83
+Ben_Hur
+tá se passando por ela, então aí meio que sim, meio que não nesse por fim. Mas perceba que foda-se isso, a questão é. Exato, tu não sabe, tu não tem. Você não tem, por exemplo, meu, alguém pega alguém na rua e põe uma arma na cabeça da pessoa e diz assim ó, cara, me transfere o dinheiro aí. Exato.
+
+39:34.63
+cassiodeveloper
+É um mundo offline, cara. O próprio cartão. Anota a senha do cartão num postitzinho e perde o cartão. Pro banco? Então, pro banco é você que tá usando. Né?
+
+39:43.38
+Marcos Santos
+O PIX, né? O golpe do PIX, tá rolando. Nem isso, tem meio que anota no verso do cartão, perde o cartão com 100 ali.
+
+39:55.42
+Ben_Hur
+Exatamente. Para categorias de spoofing, tecnicamente, tu não vai conseguir saber. Você não vai conseguir saber. Não tem nada do spoofing nesse momento, porque o spoofing está numa outra capa. E aí? Aí porque não tá... Ah, não, não. Realmente, qual que é o spoofing? Como é que você é valido que o cara é? Ah, o cara, o access token é gerado assim, é do cara. Então, tá mitigado pra... Não tá. Porque teve um device decove que tu tem um spoofing em outra capa. Entendeu? Então, não se limita. Acho que é o...
+
+40:18.10
+cassiodeveloper
+Não tá... Isso é quando a ameaça transcende as barreiras...
+
+40:31.27
+Ben_Hur
+Exato, e quem mora aí do Brasil sabe que devais tem cover, nós temos milhares de celulares roubados por hora. Mas tem um ponto legal, eu queria fazer a pergunta para o cara que está citando que é,
+
+40:31.63
+Marcos Santos
+E aí, caralho.
+
+40:37.88
+cassiodeveloper
+Consequentemente, a nossa modelagem ameaça também tem que transcender. Eu até falo na apresentação que eu tenho no Homem de Ferro que, às vezes, a modelagem ameaça é imaginar o inimaginável. É pensar mesmo num cenário e falar, mano, mas e se? Cara, e se pode acontecer? Aí é aquela história, probabilidade, aquela coisa toda.
+
+41:00.16
+Ben_Hur
+E se o cara fez uma operação de crédito, mas disse que o device dele foi roubado, mas não foi roubado, é o golpe do golpe. E aí, aí tu vai pegar em técnicas de no repudiation? Mas o que que tu tá considerando isso, se tu for pegar no repudiation, tu tem que
+
+41:12.30
+cassiodeveloper
+O golpe do golpe, ele tá dizendo que foi, que não foi ele, mas foi ele sim, e agora? Tá lá, logo foi ele, aquele device. Uhum. Caralho, velho.
+
+41:25.83
+Ben_Hur
+ali tá tudo lá, beleza? Mas como é que tu diferencia um device roubado real do golpe, do golpe? Beleza? É maneiro, é maneirão.
+
+41:37.35
+cassiodeveloper
+Bom, vamos deixar essa pergunta aí pra vocês refletirem. Acabou o nosso episódio aqui, o tempo tá estourado já, o pessoal tem compromissos. Cara, esse episódio, modelagem e ameaça dá pra passar a vida falando, dá pra ter um podcast só de modelagem e ameaça, cara. Traga o dado aí, você tem dado aí, Marcos? Traga o dado então pra gente.
+
+41:51.67
+Marcos Santos
+Traz só um dado interessante aí, que estamos vendo que precisa.
+
+41:57.70
+Marcos Santos
+Ah, tem um dado muito aqui, cara. Tem um laranja muito bom. Tem várias pesquisas que estão apontando que o Brasil é o segundo país mais atacado no mundo. Só perde para os Estados Unidos, tá? Número de tentativas e ataques cibernéticos. Eu sou Mark Santos.
+
+42:13.20
+cassiodeveloper
+Aí ó, tinha um site que mostrava esse tempo real, acho que da Kaspersky, alguma coisa assim, mas enfim. Pessoal, obrigado, mais um episódio da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Episódia da Ep
+
+42:23.62
+Ben_Hur
+Eu sou o Benhor. Um abraço.
+
+42:28.98
+Marcos Santos
+Beijos!
+
