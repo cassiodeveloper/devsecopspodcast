@@ -1,0 +1,1304 @@
+00:00:21.71
+cassiodeveloper
+Olá a todos vocês, sejam muito bem-vindos a mais um DevSecOps Podcast. Mais um e meio a tantos episódios, cinco temporadas. É um sucesso de três visualizações no YouTube. Eu sou o Cassio Pereira. Cara, tá bombando, tá bombando. Teve quatro visualizações, na verdade. São quatro agora. Então, estamos crescendo. Crescendo igual... Crescendo igual... Ah, não.
+
+00:00:34.73
+Ben_Hur
+Eu sou o Ben Hur. Shark Tank fala que é 50% de crescimento ano a ano. O Pete, exatamente, bem-vindo às métricas.
+
+00:00:36.05
+Marcos Santos
+E eu sou Marcos Santos. Porra, top. Já cresceu. Temporada passada era duas, já dobramos. Ainda dá pra falar que foi 100% de aumento. Eita. É.
+
+00:00:54.00
+cassiodeveloper
+Boa. Boa. É isso que importa. O que importa são os indicadores.
+
+00:01:02.12
+cassiodeveloper
+Boa, então aproveitar esse nosso crescimento para falar do DevSecolars Podcast, que o DevSecolars Podcast tem o apoio da Checkmarks e da Nova8, que são especializadas em segurança de sistemas e código seguro. O link da Nova8, que é a distribuidora da Checkmarks oficial no Brasil, está abaixo na descrição do episódio lá no YouTube ou no devsecolarspodcast.com.br. Se você está buscando soluções de AppSec, fale com a DigitalWalk, eles tem um portfólio completo para você, e a GoldSecure, que é especializada em aplicativos securities, que é desenvolver software seguro, fale com a GoldSecure. Pessoal, episódio
+
+00:01:30.78
+cassiodeveloper
+Não sei se estão tão aguardado, mas muito debatido aqui nos bastidores, background, back-end, off-lining. A gente fala muito desse tema aqui, mas é um episódio que a gente vai falar um pouco sobre o mercado em geral, obviamente de APSEC, mas como é morar fora, como é um mercado fora do Brasil. O Ben Hur ainda, porque a gente tem fé que ele vai sair do Brasil.
+
+00:01:55.64
+Marcos Santos
+Mas vai vir, com certeza, não tenha dúvida disso, Kask. Eu tô a dois.
+
+00:01:57.81
+cassiodeveloper
+está tentando convencer ele sair do Brasil. E eu e o Marcos, que já moramos fora, já estou há três anos aqui na Polônia, o Marcos dois anos na Alemanha. Enfim, então a gente tem, como é que pode falar, caso de uso, tanto de trabalhar e morar no Brasil,
+
+00:02:13.23
+cassiodeveloper
+e agora morando aqui fora e o Benyur tem aí umas perguntas, a gente vai debater algumas coisas acerca disso, como é o mercado aqui fora, talvez dúvidas, enfim, acho que é um tema talvez um pouco fora, enfim, do que a gente sempre fala, mas acho que é legal porque a nossa vida, a nossa carreira profissional tá nisso tudo, a gente discute isso aqui tudo, a cerca da nossa vida profissional e acho que é importante o pessoal ter muita dúvida, ou como fazer, ou como não fazer, talvez a gente responda tudo, talvez a gente responda tudo,
+
+00:02:39.22
+cassiodeveloper
+Mas, enfim, essa é a ideia do episódio de hoje. Então, nada mais justo como a gente começar. Talvez o Ben Hurst quer começar fazendo algumas perguntas, o Marcos quer começar a falar uma coisa. Fiquem à vontade.
+
+00:02:53.52
+Ben_Hur
+Pessoas, esse foi um episódio que, cara, eu esperei muito tempo pela oportunidade de conversar com isso, com pessoas aqui, que é o Max e o Cassio, que, cara, eles vivem a realidade que eu queria sempre perguntar. Então, eu vou dizer que esse espaço, eu acho que é quase um presente para mim que eles trouxeram e deram essa oportunidade aqui de conversar do que qualquer outra coisa.
+
+00:02:58.59
+Marcos Santos
+Haha!
+
+00:03:18.22
+Ben_Hur
+Eu já trabalhei para fora do Brasil, para algumas startups, principalmente nos Estados Unidos, em alguns lugares dentro do Brasil, mas trabalhando do Brasil. Agora, uma coisa é você trabalhar do Brasil para fora, outra coisa é você trabalhar dentro do Brasil, para as empresas do Brasil, que também já é minha realidade hoje. E outra coisa é você morar fora, viver fora do Brasil, trabalhando dentro da área.
+
+00:03:32.60
+cassiodeveloper
+E aí E aí
+
+00:03:46.49
+Ben_Hur
+Então, eu tenho algumas perguntas reais. Então, não são exemplos, são realmente dúvidas reais.
+
+00:03:53.47
+Ben_Hur
+E a primeira dúvida, eu nem vou começar com a questão do salário, porque todo mundo quer saber isso. Fica até o final do episódio que a gente começa a conversar sobre isso aí. A primeira questão, que é uma das coisas que, quando eu converso com as pessoas, mais me preocupa, e preocupa as pessoas, é com relação a ir trabalhar na Europa, sair do Brasil para ser um profissional de Application Security,
+
+00:04:00.86
+cassiodeveloper
+Deixa por último, deixa por último, deixa por último.
+
+00:04:23.37
+Ben_Hur
+na Europa, certo? Hoje existem muitos empregos remotos para trabalhar do Brasil para a Europa. Na Europa realmente é melhor que você esteja dentro da Europa. E se uma vez que você está dentro da Europa, você pode trabalhar para qualquer país que esteja dentro da Europa. Como é que funciona isso?
+
+00:04:50.28
+cassiodeveloper
+Boa, eu vou começar falando um pouco de como é as coisas aqui na Polônia e a minha visão e o Marco se complementa aí. Muitas vagas aqui na Polônia, por exemplo, eles exigem que você more aqui. Você tem que ter residência aqui, porque é uma questão da... É tipo a lei trabalhista daqui.
+
+00:04:52.96
+Marcos Santos
+Eu não sei.
+
+00:05:08.71
+cassiodeveloper
+Então, você tem que morar na Polônia. Você pode trabalhar remoto, tipo assim, que não mora em Kraków, você pode trabalhar para uma empresa de Varsovia, que é três horas de viagem. Você pode trabalhar remotamente, mas morando aqui. Por duas questões. Uma, a lei trabalhista. Normalmente, as empresas que são poloneses não permitem que você more fora. More fora, sim. Algumas até abrem para a Europa, então você pode morar na Europa, mas não necessariamente fora da Europa. E tem uma questão, às vezes, com o fuso horário.
+
+00:05:36.78
+cassiodeveloper
+Então, você está no Brasil e trabalhando para cá, agora a gente está 5 horas de diferença. Então, 9 horas da manhã que está todo mundo começando a trabalhar aqui, ainda é 4 horas da manhã no Brasil. Então, fica um pouco complicado. Quando não é horário de inverno que fala aqui, está 5 horas da manhã. Então, acaba sendo muito complicado dependendo do fuso horário.
+
+00:05:54.86
+cassiodeveloper
+Então essas são as duas principais limitações que eu diria, pelo menos aqui da Polônia, que o pessoal fala de trabalhar remoto e tudo mais. Quando a empresa não é polonesa, mas ela é europeia, aí isso muda um pouco, porque aí depende da lei trabalhista de cada país, mas em geral você pode morar na Europa.
+
+00:06:11.58
+cassiodeveloper
+não pode morar fora da Europa, mas pode morar na Europa e aí trabalha do país que se tiver. Então, mora na Alemanha, na Inglaterra, sei lá, e trabalha remotamente, não tem problema. Mas isso, de novo, varia de empresa para empresa. Não é uma regra, varia de empresa para empresa. O que eu diria que eu não vi, não vi, nesses três anos que eu estou aqui, conheço um monte de brasileiro aqui e etc., não vi vagas para trabalhar remotamente daqui, morando do Brasil. Isso eu não vi.
+
+00:06:39.31
+cassiodeveloper
+Não vi. Pode ser que existe, pode ser que tenha, mas não é a regra, eu diria. Talvez a exceção da exceção. O cara mora no Brasil, ganha em euro, será, e trabalha para uma empresa que seja aqui da Europa. Isso eu não vi ainda.
+
+00:06:51.37
+Marcos Santos
+Só para complementar o que o Cassio falou, eu tenho dois casos. Eu tenho um irmão, por exemplo, que veio para cá fazer intercâmbio para a faculdade e tudo mais. Ele ficou um ano alocado aqui na Europa, na Alemanha especificamente, e ele voltou ao Brasil trabalhando para uma empresa daqui.
+
+00:07:09.39
+Marcos Santos
+só que o que acontece normalmente você tem um prazo que o governo coloca tipo você pode ficar 60 dias 90 dias trabalhando de um outro país fora da EU e depois tem que retornar tanto que ele voltou agora em setembro e tem até dezembro ali para se decidir se vai voltar ou não para ver como vai ficar o contrato que provavelmente se ele não voltar terá que cancelar
+
+00:07:31.51
+Marcos Santos
+Mas normalmente eles têm essa flexibilidade, ó. É, você tem que trabalhar dentro, você tem que morar aqui dentro do EU, no geral. Mas se você precisar, por exemplo, voltar para o Brasil e ficar 60 dias, 90 dias, não tem problema. Desde que você volte dentro desse período, senão você vai ter o contrato cancelado. Então isso é uma coisa que tem acontecido no real com o meu irmão que está, inclusive, está no Brasil agora. E está vendo ali como que vai funcionar a questão de formatura, tudo para voltar para cá. E já...
+
+00:07:59.75
+cassiodeveloper
+Tem uma... Desculpa, pode falar, pode falar mais.
+
+00:08:03.08
+Marcos Santos
+Então, e já no meu caso, por exemplo, eu vim pra cá, eu vim com a esposa, vim casada, então eu consegui já o blue card, né, que é o visto de residência, mas se você vem pra cá, por exemplo, po, quero ir pra trabalhar na Alemanha, você precisa ter o work permit, o work permit e o visto de residência é, basicamente você tem o work permit, você precisa da residência, tá? Um não vive sem o outro.
+
+00:08:30.74
+Marcos Santos
+E para você tirar isso aqui na Alemanha, principalmente, você consegue de duas maneiras. Ou a empresa fornece isso, ela te ajuda com essa realocação, onde eles pagam um custo, te ajudam com o traslado e tudo mais. Ou você vem com o visto de procura de emprego, e a partir do momento que você achou um emprego aqui, achou uma vaga, esse visto é feito upgrade para que você possa trabalhar e morar dentro da União Europeia aqui.
+
+00:08:58.42
+Marcos Santos
+Então são esses dois jeitos hoje pra você vir aqui pra Alemanha especificamente, onde eu conheço melhor.
+
+00:09:02.47
+cassiodeveloper
+Eu ia colocar, tem um caso também que eu esqueci de mencionar, tem empresa que tem muita questão de GDPR ou LGPD aqui da Europa. E aí tipo, o dado não pode sair da União Europeia, e tal, e tal. Então, às vezes não é nem letra balista ou fuso horário. Tipo, por conta da GDPR, você não pode trabalhar de fora da União Europeia, por exemplo, remotamente, entendeu? Aí, assim, tem VP...
+
+00:09:21.34
+Ben_Hur
+Porque eu tenho acesso do meu país ou fora da Europa, é a questão de dentro do país, isso. Entendi.
+
+00:09:27.65
+cassiodeveloper
+Isso, exatamente. Porque você pode ter GVPN e tal, mas enfim, sabe como que é essas questões. Então os caras não querem que o dado saia da União Europeia, então você acaba ficando limitado por conta disso. Sim. Sim.
+
+00:09:29.51
+Marcos Santos
+Sim.
+
+00:09:39.77
+Ben_Hur
+show perfeito. Então, pelo que eu entendi, realmente é absurdamente mais fácil, diria assim, 99,9% mais fácil, estar na União Europeia, a partir dali você começar a trafegar.
+
+00:09:53.44
+Marcos Santos
+É, o que dá pra fazer também, Benhor, até só pra complementar antes de você pular pra próxima, que foi, tem um caso que foi, o caso iniciou desse jeito e depois mudou, mas você pode procurar empresas que estejam dispostas a pagar e te trazer com o que permite. Então a empresa te contrata ainda no Brasil, dá entrada na sua documentação pra que você venha pra cá com a documentação já certa.
+
+00:10:04.87
+cassiodeveloper
+Obrigado.
+
+00:10:17.45
+Marcos Santos
+Então também tem isso, você pode começar a procurar. São poucos casos, normalmente as empresas preferem quem já está aqui. Mas se tem uma demanda, um caso especial que eles precisam do Profissional X, normalmente eles abrem essa exceção e trazem você ali com o seu visto. Você fica atrelado àquela empresa por x meses, normalmente há dois anos ali, onde você não pode sair e a empresa pode demitir. Então você tem uma estabilidade ali por um certo período.
+
+00:10:40.69
+Ben_Hur
+Ah, caramba, que legal. Que legal, que legal. Claro, né? O cara trabalhando direitinho, né? Se o cara zoar, sim. Se o cara zoar...
+
+00:10:46.82
+Marcos Santos
+É. É. É.
+
+00:10:46.71
+cassiodeveloper
+Isso não mata ninguém na empresa. Esse caso também não é uma regra, depende da empresa. Comigo aconteceu desse jeito, a empresa estava disposta a pagar o relocation, que eles chamam, então eles te dão uma grana extra. E pra você ter ideia, eu fui contratado em julho ou agosto, eu comecei a trabalhar em janeiro.
+
+00:11:09.10
+cassiodeveloper
+Até esse processo todo de work permit, que estava na época do Covid, demorava um pouco mais, até conseguir vir para cá e começar a trabalhar. Então, quase seis meses, a empresa espera, porque sabe que é difícil contratar e tudo mais. Então, você tem uma grana a mais, que é meio que ajuda de custo para a passagem, etc. E nesses casos específicos, eu tinha que ficar um ano, não podia sair antes do ano. Caso eu saísse antes de um ano, essa grana extra que eles pagaram, eu teria que devolver e ser assinado em contrato, o que é justo, nada mais justo.
+
+00:11:38.58
+cassiodeveloper
+Então, às vezes é um ano, dois anos, depende da empresa.
+
+00:11:42.72
+Ben_Hur
+Boa, boa, saquei, saquei. É, e o fato de, depois a gente vai partir pra, ou melhor, já vamos mandar essa pergunta, então eu deixo a outra pra depois, que é sobre a questão do, ok, eu recebi uma proposta ou estou disposto a me aplicar pra uma vaga, né?
+
+00:12:04.51
+Ben_Hur
+exige uma preparação financeira e é uma mudança de vida, né? Porque, por exemplo, assim, cara, se o cara tem casa, tem carro, coisa assim, transporta. A casa não vai conseguir ou vai dar o trabalho do caralho. E transportar essas coisas para a Europa, muitas vezes, na maioria das vezes, não vale a pena.
+
+00:12:26.15
+cassiodeveloper
+Uhum. Uhum.
+
+00:12:26.41
+Ben_Hur
+Então tu acaba tendo que tomar uma decisão com relação ao que você vai fazer com isso no Brasil. Você vai deixar aqui e tal, mas quanto que normalmente as pessoas precisam
+
+00:12:38.91
+Ben_Hur
+ter guardadas, claro, né? Dependendo aí, às vezes o cara tem três filhos, às vezes tem, que nem o caso do Max, é casado, às vezes o cara vai solteiro, é claro, entendo que tem diferentes cenários, às vezes o cara tem animais de estimação, enfim. Quanto generalmente vocês recomendam que, cara, no momento que tu for, quer sair, tu tem que ter essa reserva de dinheiro aqui pra não dar BO, não dar trabalho? Quanto que é, mais ou menos, vocês chutariam hoje, assim?
+
+00:13:05.96
+cassiodeveloper
+Cara, essa pergunta é foda, porque, por exemplo, no meu caso, e eu imagino que seja o que a maioria faz, é que você até começou a perguntar falando isso, às vezes não é tão viável você trazer todas as coisas pra cá. Especialmente, é uma casa diferente, as coisas que você tem móveis e tal, cara, não vai caber. É mais fácil você vender tudo, vende, doa, enfim, aí pega essa grana,
+
+00:13:31.05
+cassiodeveloper
+E aí essa grana você vai trocar pra moeda que você vai... No caso aqui da Polônia, não é euro. É uma moeda parecida com o real, inclusive. É 1,40, 1,30, depende da época aí. Então tu não perde tanto no câmbio. Mas assim, aí você usa essa grana aqui, porque você vai precisar dessa grana, de fato, pra comer. Porque depois, assim, no meu caso, já vinha a minha esposa na época, já tinha o apartamento dela, então eu vim pra estrutura dela. Não precisa preocupar com cama, com móveis, com nada. Tipo, era grana do comer no dia a dia, sabe?
+
+00:14:00.49
+cassiodeveloper
+Voltando um pouco na pergunta anterior, as empresas que fazem Relocation, elas oferecem normalmente três meses de aluguel. Então elas alugam um lugar pra você. Normalmente aqui na Europa, todos normalmente, tá? É tudo mobiliado já. Então não entram na casa vazia. Já tá mobiliado a casa, tu entra pra morar, você põe comida lá dentro, acabou.
+
+00:14:21.19
+cassiodeveloper
+Então eles te oferecem três meses, você já vem pro endereço, já tá alugado, já tá com contrato pra empresa, já vem morando. Aí você vai no mercado, compra suas coisas, então a grana que você precisa inicial
+
+00:14:32.19
+cassiodeveloper
+é essa de se manter alimentado três meses, mas assim, você vai já estar trabalhando, você já vai ter o seu salário daqui e tudo mais. Só que aí depois desses três meses, você tem que ou você renova o contrato naquele mesmo lugar, só que aí você que começa pagando não é mais a empresa, ou você vai procurar outro lugar. Aí você vai precisar do aluguel e normalmente igual tem no Brasil o tal do depósito. Dois, três alugueis, cinco alugueis de antecedência.
+
+00:14:55.48
+cassiodeveloper
+Então depende, se o aluguel é 2$ é foda, em slot é quase R$2.000,00, em slot é R$300,00 ou R$500,00. Se você precisa pagar 3 alugues, R$1.500,00, uma porrada, R$3.000,00...
+
+00:15:11.35
+Ben_Hur
+vai te tirar 10 mil reais aí do bolso só para te garantir.
+
+00:15:16.32
+cassiodeveloper
+Exato, então depende muito da localização, o país e tal, mas em geral eu diria isso, cara, assim, pega o valor do teu aluguel, multiplica por 3, 5, é a grana que tu tem que ter pra chegar aqui, tá ligado? Considerando que tu vai estar trabalhando, vai ter o salário pra comer e tal, mas essa, porque é algo que você pode precisar já de cara, mano, eu tenho três meses pra achar um aluguel, e às vezes não é tão, depende do lugar de novo, mas não é tão rápido achar.
+
+00:15:40.93
+cassiodeveloper
+Você pode demorar uns três meses para achar um lugar e você acha um, mas é muito caro. Aí você vai ficar temporário, aí o contrato é de um ano e tal. Então eu diria que assim, pega o valor do aluguel que vai pagar, vezes três, vezes cinco e aquela história. Sempre um extra porque você pode precisar. Então não dá para falar um quanto, porque depende da moeda, depende do valor.
+
+00:16:01.00
+cassiodeveloper
+Mas eu acho que essa é a dica que eu daria. Pra mim foi mais fácil, eu diria, como eu falei. Minha esposa já estava aqui, ela já morava aqui, então ela já tinha o lugar dela. Eu só cheguei, peguei minhas cuecas e vim, tá ligado? Foi literalmente isso. Minhas coisas do Brasil vendi, não precisava mais. Aí, que nem tu falou bem, ele mal de estimação. Eu tinha dois, tive, tenho os dois, um cachorro e um gato. Aí você se prepara pra trazer, então tem um custo a mais. Aqui, no dia a dia, a erração acabou.
+
+00:16:13.93
+Marcos Santos
+e aí
+
+00:16:26.63
+cassiodeveloper
+Mas tem um custo de exame, de fazer toda a documentação para poder trazer, viajar, passar aérea. Então a grana que a empresa paga com Relocation, por exemplo, não é nem um terço disso, de tudo que você gasta para fazer a sua mudança, sabe? E no meu caso, eu vendi tudo no Brasil, então tinha uma grana do Brasil que você acaba trocando, acaba usando dinheiro do Brasil também, enfim.
+
+00:16:47.98
+cassiodeveloper
+Então, mano, reserva essa, assim. Cuidado com o aluguel. Quer comer, velho, na boa? Você vai estar trampando, você come. Mas o aluguel é uma grana que às vezes a galera não está preparada, você precisa de três aluguel de uma vez só de sinal, né? Aí você não estava esperando, enfim.
+
+00:17:03.99
+Marcos Santos
+Aqui na Alemanha são três aluguéis por padrão, tá? Normalmente. Às vezes o pessoal pega dois ali, mas normalmente são três por default ali. Inclusive, aqui, por exemplo, onde eu moro hoje, eu deixei de calção... É, dois conto. Foi dois mil euros de calção só pra eu poder me mudar. É, exatamente. Então, aqui no meu caso foi isso. Só que, assim, é uma metragem boa. É um apartamento legal, bacana.
+
+00:17:20.98
+cassiodeveloper
+10.000 reais.
+
+00:17:31.08
+Marcos Santos
+e o Cassio falou, normalmente é a grana pra comer no nosso caso aqui a empresa deu um container pra gente, então a gente conseguiu trazer algumas coisas do Brasil pra eles fornecer o container, então deu pra trazer... é... então deu pra trazer cama, trazer TV, trazer um ou outro móvelzinho não dá pra trazer tudo o que o Cassio falou aqui é diferente a estrutura dos lugares, igual, você pega onde o Cassio tá, por exemplo o telhado dele é um telhado ali em V, né, então...
+
+00:17:40.67
+Ben_Hur
+Ah, que legal, que legal. Os chalés, como chamamos aqui no Brasil. Ah, faz todo sentido.
+
+00:17:59.96
+Marcos Santos
+é e todos os telhados são assim por causa da neve né então se você vai pegar um... então se você vai pegar o último andar por exemplo de um prédio sua casa vai ser praticamente inteira em veia então você não vai ter um dia real local seus móveis então você tem que pensar bem o que você vai trazer até por causa disso até por causa do jeito que é montado os imóveis aqui né
+
+00:18:00.06
+cassiodeveloper
+É tipo chá, né?
+
+00:18:25.56
+cassiodeveloper
+E vale uma observação nesse caso do Marcos, que esse container não é do dia para a noite. Demorou uns cinco meses esse container, não foi? Aí, ó. Então você não vai... Então se você precisa de coisa, você quer trazer coisa que você precisa logo, mano, não dá para pôr no container. Traz com você ou já... Não é algo que dá para trazer, então já considera essa grana, por exemplo, você comprar aqui, porque não rola, entendeu?
+
+00:18:30.76
+Marcos Santos
+Não. Eu cheguei em outubro, o conteúdo chegou no final de janeiro. É. É. É. Meu não dá. Sim. É.
+
+00:18:36.61
+Ben_Hur
+Caramba! Pode crer! Entendi.
+
+00:18:52.06
+cassiodeveloper
+E outra, assim, até tem, mas escolhe de fiador, seguro aluguel lá, seguro, tem um nome de seguro, eu esqueci, cara, eu esqueci, seguro fiança, seguro fiança, seguro fiança, fiador, segura, mano, até existe, mas para quem é estrangeiro, esquece, mano, é o dinheiro do aluguel adiantado, três, quatro aluguel e acabou.
+
+00:18:59.96
+Marcos Santos
+É, eu também esqueci também. Sim. É, eu escanejo o saco, não é o que era, foi tranquilo. É.
+
+00:19:13.25
+Ben_Hur
+Se não é mais fácil que... Sim.
+
+00:19:15.42
+cassiodeveloper
+É mais fácil, porque até achar, você precisa de tanto documento, já passou dois, três meses e já tá morando na rua, tá ligado? Mano, pega a porra do dinheiro, paga o bagulho e muda e acabou, entendeu?
+
+00:19:24.00
+Marcos Santos
+E assim, o que aqui tem de vantagem que eu particularmente gosto? Aqui você tem os grandes centros, tipo o Cássio mora na Cracóvia ali, trabalha na Cracóvia. Só que você tem cidades, satélites em volta, como se fosse a região do ABC ali em São Paulo, que aqui a gente chama de Dorf, na Alemanha. São lugares um pouco menores, mas que ainda são perto dos grandes centros, onde você tem um alugar mais barato e espaço maior.
+
+00:19:46.61
+cassiodeveloper
+Exato Exato E isso, cara...
+
+00:19:47.02
+Marcos Santos
+Então, você tem essas vantagens. Se você gosta de sossego, normalmente é mais sossegado, tem menos trânsito, é mais tranquilo. Então, você consegue ter esses lugares e você fica... Cara, tudo aqui é perto, tá? É difícil falar que é longe. Você pega, tipo, o trânsito ali, 15, 20 minutos você tá num seito da cidade. Então, não é igual no Brasil, que a gente demora duas horas pra andar 30 km. Então, é tudo relativamente perto.
+
+00:20:10.40
+Ben_Hur
+Ah, ponto em ponto bem importante.
+
+00:20:14.33
+cassiodeveloper
+É bom que você tocou nesse ponto agora, talvez o Beniu vá perguntar, mas acho que é legal fazer essa observação. Às vezes a galera quer morar no centro e acaba sendo um aluguel mais caro, mas morar mais longe não necessariamente é um problema, porque o transporte aqui é muito bom.
+
+00:20:17.94
+Marcos Santos
+Sim. Sim.
+
+00:20:30.47
+cassiodeveloper
+Não é trânsito, tem trânsito, mas não é um negócio absurdo. A gente que é de São Paulo, eu, o Marcos, a gente é meio calejado com essas coisas de trânsito e tal. Então aqui, cara, nem falou meia hora você se movimenta de um lado para o outro da cidade, tá ligado? Eu moro, por exemplo, a 12 km do centro, 13 km do centro, dá 10 minutos, 15 minutos de carro sem trânsito. Meia hora com trânsito, 40 minutos com trânsito. Pô, para mim ainda é um paraíso para quem morava em São Paulo gastava três horas para chegar no escritório, entendeu? Então assim, essa...
+
+00:20:56.05
+Marcos Santos
+Ok, então.
+
+00:20:58.57
+Ben_Hur
+É... Fácil... Fácil... Fora por um segundo, né?
+
+00:21:00.23
+cassiodeveloper
+fora o transtorno. Então, assim, às vezes você pagar, sei lá, três pau e meio em reais, vai, três pau e meio num aluguel no centro, ou pagar dois mais afastados, pra morar no centro de um apartamento ou afastado numa casa, ou que seja apartamento também, enfim, às vezes dois mais baratos é uma economia muito grande mesmo, porque o transporte você vai gastar, sei lá, não vai gastar mais que isso, sabe? Pra você poder fazer esse deslocamento, vai ter um pouco mais de conforto, enfim.
+
+00:21:25.26
+Marcos Santos
+E lembrando que aqui as agas normalmente são remotas ou híbridas, você não vai com frequência pro escritório. Se você for híbrido, você vai duas vezes na semana, cara. A passagem de tranqui, você vai pagar 4 euros ali, aqui no meu caso, pra andar o dia inteiro. Então você paga 4 euros, você vai e volta quantos vezes você quiser pra tua casa. No caso do castelo em slot, você também vai meter quase a mesma coisa. Então, tipo, você consegue se deslocar com um custo baixo até, né.
+
+00:21:31.32
+cassiodeveloper
+Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. E sem transtorno. E sem transtorno. Uhum.
+
+00:21:50.35
+Marcos Santos
+Então, você tem que pensar tudo isso no custo, sem transtorno. Você vai sempre sentadinho, tá? Isso que é vantagem, dificilmente você vai ficar com o negócio soltado. Ah, é outra pegada.
+
+00:21:58.44
+Ben_Hur
+Imagino que segurança também, né? A tranquilidade de você pegar um transporte público, né? Que a gente tenha nossas questões aqui, aqui na nossa chamada terra verde e amarela, né?
+
+00:22:08.81
+cassiodeveloper
+No Brasil. Por que não? Boa.
+
+00:22:11.94
+Ben_Hur
+Então, perfeito. Entendi, vou fazer um plot para outra categoria de questão. Acho que a gente falou uma questão legal ali dos custos, movimentação e essa primeira adaptação, né? Eu acho que isso aqui daria 50 episódios, daria uma série socialíssima, né? Aí acho que até vale um dia pensar, Cássio Martos, aí uma live para a galera começar, ó, pode mandar pergunta, vamos responder e bater um papo ao vivo, porque
+
+00:22:26.53
+Marcos Santos
+Tudar.
+
+00:22:39.36
+Ben_Hur
+Essa é a primeira adaptação. Agora tem algumas dúvidas com relação ao trabalho em si, a característica profissional. A primeira coisa que sempre surge a dúvida é... Vou ir trabalhar nos Estados Unidos, posso estar em Nova York, posso estar em Los Angeles, tudo se fala em inglês, com o seu devido sotaque, diferentes culturas, mas tudo se fala em inglês. Quando a gente coloca o opinion do Google Maps na Europa,
+
+00:23:06.41
+Ben_Hur
+Essa questão já é bastante diferenciada, então a gente já tem uma divergência de línguas nativas considerável. Eu moro no Brasil, falo inglês talvez, falo um pouco de espanhol e quero ir para a Europa.
+
+00:23:17.94
+cassiodeveloper
+Polonês.
+
+00:23:30.21
+Ben_Hur
+Só que na Europa tem o alemão, o francês, o polonês. Algumas línguas são bastante difíceis. E como que é essa questão da língua?
+
+00:23:50.73
+Ben_Hur
+Porque uma coisa é chegar no trabalho, fazer, abrir uma call e falar inglês com outra pessoa que fala inglês. Mas e o dia a dia? E o cara da padaria? E o cara que vai fazer o meu contrato do carro? Como é que funciona isso?
+
+00:24:00.17
+cassiodeveloper
+Boa. Boa, boa. Aqui na Polônia, falando de cidade grande, o Kraków é a segunda, a terceira maior cidade aqui, depois a capital, tem uma outra também, enfim.
+
+00:24:16.54
+cassiodeveloper
+Na cidade grande, vamos lá, profissionalmente falando, o inglês, ele manda. Normalmente, as empresas já são empresas globais, a menos que você vá trabalhar na empresa, você trabalha na empresa só daquele país, ainda assim, cara, é sempre universal. Então, o inglês que manda. Toda comunicação, email, enfim, é tudo em inglês. Os clientes, né?
+
+00:24:21.88
+Marcos Santos
+Aqui também quero. Oh, boté.
+
+00:24:34.48
+Marcos Santos
+Deixa eu aproveitar esse seu gancho também, Cassio. Igual eu trabalho aqui numa empresa que particularmente aqui só tem mercado na Alemanha, né? O mercado dela ali de expansão e tudo. Cara, cem por cento inglês ali. Inclusive, se eles falam alemão durante o ambiente de trabalho, o RH ali, ou alguém que está próximo, corrige pedindo pra que fale em inglês. Então, aqui o ambiente de trabalho é cem por cento inglês. Não tive dificuldade de adaptação nesse ponto. Isso aí pra mim foi bom.
+
+00:24:54.24
+cassiodeveloper
+Uhum Boa!
+
+00:25:02.20
+cassiodeveloper
+Aqui é a mesma coisa, exceto, obviamente. Tem uma reunião que só tem polonês, o pessoal fala no idioma local. Nem precisa falar em inglês. Mas, por exemplo, quando eu estou junto, que eu não domino a língua, o pessoal já troca para inglês, interage e tal, então você se vira. Saindo do mundo profissional, indo para o mundo pessoal, que nem você falou, vou na padaria, vou abastecer o carro, já muda um pouco. Então, por exemplo, nas cidades grandes, em geral o inglês você se vira. Mas em geral não é em tudo.
+
+00:25:05.06
+Marcos Santos
+Sim.
+
+00:25:31.80
+cassiodeveloper
+Por exemplo, no próprio lugar aqui que você vai fazer o cartão residência, o lugar do governo, então você vai lá, pega uma senha, tem que apresentar os documentos e tal. Normalmente os atendentes ali falam inglês, então você se vira no inglês, mas nem todo lugar é isso. Eu fui fazer a carta de motorista recentemente e ninguém falava inglês, nem no lugar do escritório, o pouco que eu tenho do idioma eu me viro.
+
+00:25:52.04
+cassiodeveloper
+Mas ainda assim não foi suficiente, por exemplo, para fazer a prova do exame, a prova prática de motorista. Eu tinha que ter um tradutor junto, ou um tradutor para o inglês, que eu entendo, ou para o português, enfim.
+
+00:26:02.89
+cassiodeveloper
+Então, às vezes, você sai da cidade, vai viajar num lugar, precisa parar pra abastecer o carro, cara, você tem que saber falar, ó, é a bomba número um, quero pagar com cartão. Ponto. Você precisa saber falar essas coisas, porque, às vezes, o pessoal não vai saber falar inglês. Então, quanto mais você sai das cidades grandes, mais você vai sofrer com isso, aí cuida o idioma local, como o conto falou. É francês, é polonês, é alemão, é finlandês, sei lá. Mas as cidades grandes, em geral, o inglês você se vira muito bem.
+
+00:26:31.34
+cassiodeveloper
+Quando você vai para lugares mais remotos, lugares mais afastados, isso não é uma realidade. E ainda na cidade grande, você corre o risco, diria que é natural até, de pessoas mais velhas e tal, eles têm outros idiomas. Por exemplo, aqui na Polônia, o pessoal aprendia russo, aprendia alemão, e não necessariamente inglês nas escolas. Então, quem é mais velho, tipo a família da minha esposa, eles não falam inglês, mas eles falam alemão, falam russo, falam polonês, mas o inglês não fala.
+
+00:26:56.78
+cassiodeveloper
+Então, tipo, dá pra se virar? Tá. Vai morrer? Não vai. Você se vira. Mas vai ter um perrenguezinho ou outro, médico. Quantas vezes eu fui em médico aqui que não tinha em inglês? O cara só falava polonês. Então, às vezes era uma consulta, era explicar uma coisa simples, beleza. Mas, o dia que eu torci o joelho, por exemplo, e fui no médico, precisou fazer... Como é que fala, Lau?
+
+00:27:17.38
+cassiodeveloper
+Nem filtração, é tirar água do joelho, aí precisou fazer ultrassonografia e tal. Não foi um parto, porque era muito óbvio o que o médico precisava fazer, mas precisava fazer perguntas, precisava responder alguma coisa.
+
+00:27:19.41
+Ben_Hur
+Beleza!
+
+00:27:31.07
+cassiodeveloper
+Então, você passa um pouco de perrengue com essas coisas. Nada que você não sobreviva. Você se vira, você aprende. Eu já estou aqui três anos. Desde o primeiro ano que eu cheguei aqui, eu já estava querendo aprender. A família da minha esposa não fala inglês, então, acabou me forçando a aprender de qualquer jeito. Então, um monte de palavras, um monte de coisas do dia a dia, você aprende. Você não fica zerado. Estou três anos já aqui. É quase com obrigação falar, que seja o básico. Então, dependendo do país que você vai, o inglês é mais dominante ou menos.
+
+00:28:00.50
+cassiodeveloper
+Não sei como é na Alemanha ir para o Marcos, mas para mim aqui, que é cidade grande, 80% você se vira.
+
+00:28:07.91
+Marcos Santos
+aqui eu não moro numa cidade tão grande é uma cidade relativamente grande tem 300 mil habitantes aqui aproximadamente onde eu moro estou perto de grandes centros então estou perto de Frankfurt ou perto de Mannheim e estudiger
+
+00:28:20.93
+Marcos Santos
+Assim, dá pra se virar com o inglês, cara? Dá, você se vira. Tipo, vai numa lanchonete de uma rede grande, tipo o McDonald's. Cara, tranquilo, tem menu em inglês. Você vai... Aqui a gente tem um Five Guys também, que o pessoal atende em inglês lá por ser rede americana. Então, em grandes lojas ali, você consegue se virar com o inglês tranquilo, tá? Isso não é o problema. Só que você vai na padaria, igual. Tem um padaria aqui do lado, o cara fala alemão. Então, você tem que aprender a falar algumas palavras, igual o Cassio falou.
+
+00:28:50.66
+Marcos Santos
+Então, no começo, pra mim, foi difícil pra caceta. Hoje eu sei falar, pedir um pão, pedir um croissant, saber os números, acho que é uma das coisas mais importantes. O Alcasso falou, pô, vai abastecer. Aqui a gente chama de pump e o número da bomba. Aí você tem que falar, ó, tô na bomba tal e vai ser cartão ou vai ser bar, né, o dinheiro físico, né, que eles falam aqui, né.
+
+00:29:13.78
+Marcos Santos
+Então, você tem que saber essas partes mais básicas e aqui também eles têm uma mania, sempre que você tá, por exemplo, pegando um elevador, eu e você, sempre que alguém sai do elevador, eles falam tchau ou eles agradecem, eles falam alguma coisa. Então, é um costume local, se você não fala fica estranho. Então, essas manias você vai pegando, né? Essas coisas mais culturais.
+
+00:29:37.89
+Marcos Santos
+Mas é bem tranquilo e o ambiente de trabalho, cara, assim, não tive problema. Inclusive, estou em migração aqui, estou trocando de empresa. Fiz algumas entrevistas, todas elas em inglês. Raramente aparece uma ou outra em alemão, assim. Tipo, é bem difícil. Normalmente é quando uma empresa local, bem pequena ali, algo muito específico. Mas 98% das empresas é full inglês.
+
+00:29:38.18
+cassiodeveloper
+Tchau!
+
+00:30:04.89
+Marcos Santos
+Eu fiz algumas entrevistas quando eu cheguei e fiz agora que eu tô em parte de imigração. Todos em inglês, tudo bem tranquilo. Não vejo problema profissionalmente, mas essa parte local mesmo. Pô, eu tô na Alemanha, eu aprendi o básico ali. Falar um Dankeschön, que é obrigado. Eu aprendi o Guten Tag, Guten Morgen, Guten Nacht. Então, você vai aprender umas palavrinhas, você vai poder se comunicar com a galera e ficar mais tranquilo. E, conforme vai passando tempo, você vai aprendendo mais palavras, né?
+
+00:30:34.05
+Marcos Santos
+É bem interessante, mas você passa uns perrengues assim. Somente quando o pessoal começa a falar muito loucamente. E eu não sei se é igual na Polônia para o Cássio. Mas aqui a gente tem um problema com caixa de mercado. O caixa de mercado aqui é muito rápido.
+
+00:30:50.37
+cassiodeveloper
+Hum! Boa!
+
+00:30:50.95
+Marcos Santos
+Você vai no mercado, o cara parece o Flash, cara, passando as coisas, e normalmente eles não gostam de esperar. Então o que eu faço? Eu já pego a sacolinha, o cara vai pegando, eu vou socando tudo dentro da sacola, que o cara terminou de passar o último produto e ele já vai te cobrar. Você tem que pagar pra liberar o filo pro próximo. E se você demora, os caras começam a reclamar. Então tem essas coisas culturais aqui, que você vai pegando com o tempo.
+
+00:31:17.04
+Ben_Hur
+Show, show de bola. Próxima pergunta que eu tenho, também agora com relação à cultura, ainda com relação à cultura, mas agora dentro do âmbito do trabalho mesmo, ali dentro da empresa. Como é... Quais são as principais diferenças que vocês enxergam sobre a forma de se trabalhar no Brasil e a forma de se trabalhar dentro das empresas da Europa?
+
+00:31:47.24
+Ben_Hur
+com relação à qualidade de vida, balanço, trabalho, qualidade de vida, com relação à pressão métricas, com relação a expectativas de entrega, qualificação necessária, entende? Por exemplo, qual é a diferença do profissional brasileiro trabalhando no Brasil e o profissional brasileiro trabalhando na Europa?
+
+00:32:10.52
+cassiodeveloper
+Mano, eu tenho uma opinião meio forte com isso, mas eu imagino assim, ó, o brasileiro, o brasileiro, vamos lá, né, a minha bolha, né, porque falar o brasileiro é muita gente, né, a minha bolha de brasileiros,
+
+00:32:24.14
+Ben_Hur
+É, vamos. O profissional de AppSec trabalhando na empresa de AppSec do Brasil? Sim, sim.
+
+00:32:31.32
+cassiodeveloper
+Isso, isso. O ritmo de trabalho aqui é muito diferente. O ritmo de trabalho aqui, sei lá, do Brasil vai de 0 a 10, o ritmo de trabalho do Brasil é 10, mano. É 8 horas por dia, é aquela, e aí vamos fazer não sei o quê, tem pressão, tem reunião, não sei o quê, nossa, acordei cedo, às 9 já tinha call e nossa, acabei, tive hora extra hoje, tal, tal, tal. Cara, eu tô aqui há 3 anos, hora extra, palavra proibida.
+
+00:32:56.32
+cassiodeveloper
+Tem dia do não reunião, em geral nas empresas, então é um dia que é reservado para não fazer reunião, para você focar. Ninguém trabalha 8 horas por dia, obviamente no contrato é 8 horas por dia, mas cara, é o 3 da tarde, 4 da tarde, o pessoal já não vê call, tá focado em fazer uma coisa. Tipo assim, o cara falar que tá focado é uma testa assim, que para a gente é uma testa de mandar um email, tá ligado? E o cara ficou 3 dias focado.
+
+00:33:24.73
+cassiodeveloper
+Então, tem um pouco desse... O pé do brasileiro no acelerador, ele está no talo, sabe? O pé aqui, aqui o cara está em terceira marcha, na moral, tranquilo. Eu acho que o brasileiro se coloca essa pressão. Tem um pouco da nossa realidade cultural. Cara, o brasileiro é um sobrevivente. Você trabalha pra caralho pra ter uma grana e você não consegue conquistar muita coisa. Aqui é diferente.
+
+00:33:53.64
+cassiodeveloper
+o seu esforço é menor, o trabalho é o mesmo, mas o seu esforço é menor, esse negócio de deadline, pressão, hora esta, cara, estou indo para a terceira empresa aqui em três anos, não tem, não existe isso, tem assim, pessoal, temos um target daqui dois meses entregar, precisamos daquela meta, mas não deu certo, beleza, não deu certo.
+
+00:34:19.53
+cassiodeveloper
+como é que a gente pode melhorar, tal, tal, tal. No Brasil a gente é tipo, puta, mano, não deu certo, vamos me mandar embora, tá ligado? Aqui, cara, você precisa saquear alguém e tem que ser alguém importante ainda, precisa ser mandado embora, se não...
+
+00:34:32.36
+cassiodeveloper
+Tá tudo certo. Então, o ritmo aqui eu sinto que ele é muito diferente. O pessoal tá sempre falando, cara, quando é que você vai tirar férias? Puts, viajou pra onde? Agora que foi verão, e aí, foi pra onde? Cara, época de verão, é difícil achar que nego nem peso fazer call, porque o cara tá de férias, tá todo mundo de férias. Aí chega o inverno, o pessoal fica mais em casa, beleza. Então, o pessoal aqui, literalmente, desfruta da vida. O brasileiro, eu imagino que a vida do brasileiro, ela é segundo plano, o primeiro é o trabalho. Saca?
+
+00:35:02.23
+cassiodeveloper
+A gente tem dois trabalhos, três trabalhos. Eu sinto isso. Aqui o trabalho é secundário. Aqui a gente precisa do trabalho para ter o dinheiro. Mas a vida é em primeiro lugar. O brasileiro eu sinto isso. O trabalho é a primeira coisa, e em segundo é a vida. Você precisa trabalhar para poder viver. Aqui você vive para poder trabalhar.
+
+00:35:05.47
+Ben_Hur
+Tchau!
+
+00:35:22.88
+cassiodeveloper
+Então eu sinto que esse ritmo é bem diferente, o que é uma vantagem. Por quê? A gente que chega aqui com o ritmo acelerado, a gente deita. Deita, mano. Eu faço coisa besta que os caras... Caralho! Estamos há três anos esperando isso acontecer e você chegou aqui em três dias. Mano, eu só fiz um Hello World em Python. O cara é Jânio!
+
+00:35:47.98
+cassiodeveloper
+Então, tipo, tem essa vantagem, você chegar com o seu ritmo de, cara, eu vou fazer as coisas aqui, já quero mostrar serviço, tal, tal, tal. Mas o mostrar serviço aqui... Cara, outro dia eu tive um feedback do meu ex-gerente na outra empresa, ele falou, cara, você tá performando demais, mano. Vai mais na manha, tal, tal, tal. Eu falei, como assim, mano? Eu fiz... Era pra fazer um script de automação, sei lá, pipeline, pega um dado daqui e joga pra lá. Um bagulho de uma hora, assim, mano, com esforço. Uma hora com esforço.
+
+00:36:15.18
+cassiodeveloper
+Eu esperava que fosse uns três meses. Que três meses? Você está louco? Depois de um ano, você está performando demais. No Brasil, para mim, é algo normal. É algo que exigiria de um júnior. Aqui eu estava performando demais. Talvez, de novo, pode ter exceção, não é a regra, mas conversando com outros brasileiros aqui,
+
+00:36:38.75
+cassiodeveloper
+A impressão é essa, o ritmo nosso brasileiro de trabalho, tirando que vagabundo é vagabundo em qualquer lugar, né? Mas o ritmo do brasileiro que trabalha, por isso que eu falei da minha bolha, as pessoas que eu conheço, é um ritmo diferente. Então aqui você demora um tempo, você precisa tirar o pé do acelerador quando você chega aqui. Acho que essa é real. Hum.
+
+00:36:47.02
+Ben_Hur
+É, lembrando.
+
+00:36:58.08
+Marcos Santos
+É, eu tô junto com o Cassio aqui também quando eu cheguei, eu tava muito acelerado. Inclusive, uma das coisas que o chefe fez foi me dar bronca. Porque eu fazia por request com 10, 12 arquivos dentro. Cara, não cara, por request é com um arquivo só. Ele falou que tava desbalanceando o time. Então eu tomei bronca pra diminuir a quantidade. Pô, beleza. Então sobrava tempo. Uma coisa que eu fazia acelerado,
+
+00:37:16.65
+cassiodeveloper
+Hahaha!
+
+00:37:26.97
+Marcos Santos
+Pra quem não sabia, eu trabalhava com o OpenVasa ali e tava sempre criando novas regras ali pro Enterprise. Então, tava acelerado. Eu cheguei aqui fazendo o Microsoft Office. O Office que era pra demorar ali um ano de projeto, eu matei seis meses. Isso porque era pra matar antes. Eu demorei mais porque tava fazendo um pull request só por dia, com arquivinho. Mas eu fazia dois pull requests com dez arquivos cada um. Então, você toma bronca.
+
+00:37:51.94
+Marcos Santos
+E outra coisa também com essa parte profissional é que, cara, minha tarefa é criar regras de compliance e poupar em vaso. Se eu tentar me infiltrar ali no, sei lá, num produto novo, os caras vão me dar bronca. Minha tarefa é essa, a tarefa do cara é aquela. Se o cara não me pedir ajuda, não é nem pra me mencionar a tarefa do cara.
+
+00:38:11.73
+Marcos Santos
+Então aqui é muito separado isso. O que é seu é seu, o que é meu é meu. Faz o teu e fica na boa. Acabou o trampo? Não tem mais trampo? Fica aí na boa esperando chegar a task. Os caras, eles são muito assim, muito tipo cada macaquinho do seu galho, literalmente.
+
+00:38:16.90
+cassiodeveloper
+Boa.
+
+00:38:27.04
+cassiodeveloper
+Cada um seu quadrado que o pessoal fala. Isso é verdade. Isso tem muito aqui. Pelo menos eu vejo os BR muito assim. Tipo, cara, mano, você é contratado pra passar pano no chão. Fala, mano, beleza, mas eu tô aqui e eu vi que a parede tá com sujeirinha ali. Eu só passei um paninho. Não, não, não. A parede é o outro cara lá que faz e tal. Fala, mano, eu já tô aqui. Pegou três segundos do meu tempo. Não tem problema nenhum. Não, não, não, não. Não pode. Então tem isso assim, sabe? Muito forte isso no pessoal aqui fora.
+
+00:38:49.92
+Marcos Santos
+É. É.
+
+00:38:56.24
+Ben_Hur
+Bom, vocês tocaram, porque aqui no Brasil uma coisa que eu vejo, e eu vejo isso com uma frequência muito grande, parece que todo mundo tem que estar envolvido em tudo, sabe? Não sei se é por falta de confiança entre as pessoas, não sei se é porque todo mundo quer uma fatia do bolo, todo mundo quer ter a visibilidade, aí tu vê que tem reunião, cara, uma coisa para definir um assunto,
+
+00:39:05.83
+cassiodeveloper
+Uhum. Uhum.
+
+00:39:20.59
+Ben_Hur
+15 maluco numa reunião, entendeu? Oh meu, alguém me explica esse problema. Aí tu convida um cara, que é o responsável por aquele negócio. Quando tu abre o calendário, tem oito louco na reunião do nada que foi colocado ali dentro. Eu olhei assim, cara, pelo amor de Deus. Aí, por exemplo, assim, tu vai em alguma empresa, vamos ter uma call com o time de segurança, né? Aí tem dois, deve, sete cara de segurança dentro da call. Pô, por quê, mano?
+
+00:39:48.39
+Ben_Hur
+Entendeu? Saca? Caralho, velho, entende?
+
+00:39:50.13
+Marcos Santos
+Foda.
+
+00:39:52.65
+cassiodeveloper
+E tem um ponto também com essa parte profissional do ritmo, que é assim, aqui você tem que ser muito proativo. Você busca o seu trabalho, você busca as suas tasks, a menos que você seja junior, alguém vai ficar te falando o que fazer e tal. Mas a gente que é senior, mano, tá aqui, a empresa é essa, o negócio é esse e você é contratado para a segurança. Faz aí.
+
+00:40:14.04
+cassiodeveloper
+Aí você vai levar pro seu chefe, cara, pensei em fazer isso, isso, isso. Ah, legal, faz. Ah não, discordo, por causa disso. Então assim, você leva, literalmente você cria o trampo. Se você ficar esperando chegar na task, vai ter, ó, puta, hoje precisamos fazer tal coisa, a missão aqui é essa, tal. Mas cara, é muito você, tipo assim, você é o dono da sua casa, sua esposa que cuida do cardápio. Hoje a gente vai comer frango, a gente vai comer carne. Ela toma essa decisão. Se ela não tomar a decisão, ninguém come, tá ligado?
+
+00:40:24.96
+Marcos Santos
+É isso aí.
+
+00:40:42.57
+cassiodeveloper
+Então aqui, tipo, falar, cara, hoje a gente vai comer frango, hoje a gente vai comer carne. Então você toma essa iniciativa de fazer o trânsito. Cara, eu vi aqui que a gente não tá usando, sei lá, um sash decente. Vamos trocar? Aí você puxa, vai fazer pó, vai trazer ferramenta, vai buscar bunch, vai falar com quem tem que falar. Putz, eu vi aqui que a gente não tem um processo de gestão de vulnerabilidade. Vamos criar? Vamos, vamos ver que é legal. Óbvio, você tem um gerente, você vai levar isso pra aprovação, aquela coisa toda. Mas trazer a necessidade é um trânsito seu. Não vai ter nego...
+
+00:41:09.10
+cassiodeveloper
+Agora sua tarefa é A, terminou você faz A e B, terminou você faz Z. Mano, não tem. Pelo menos o sênior fala não tem. Muda muito. Talvez pro dev isso mude bastante, porque o dev tem um produto a ser desenvolvido, ele não fica inventando coisa.
+
+00:41:15.28
+Ben_Hur
+Isso muda muito o perfil de profissional. Muda muito. Se o cara tá indo aí achando que vai ter um Scrum Master pra ele, e assim, então vai quê, tatarefi? Faz sentido.
+
+00:41:15.52
+Marcos Santos
+Aqui é a mesma coisa. Ah, esquece. Ele recebe o caso de uso ali, né, com o que vai fazer, mais diferente.
+
+00:41:34.68
+cassiodeveloper
+Exato, a gente tem um ecossistema ali pra você cuidar, mas o que fazer lá dentro, cara, é meio que... No meu tempo, o cara falou, cara, você é especialista de segurança, não sou eu. E o cara, meu gerente, ele era de desenvolvimento, falou, você é especialista de segurança, não sou eu, você me fala o que tem que fazer aí. Aí você vai, faz isso, faz aquilo, faz aquilo.
+
+00:41:53.52
+Ben_Hur
+O que faz todo o sentido, né? Porque aquela mentalidade para frente é onde o cara te contrata porque ele precisa de você, né? E não para ele exercer a soberania dele, né?
+
+00:42:01.37
+cassiodeveloper
+Então, como eu te falei, o brasileiro bolha, da minha bolha, que sabe o que tem que fazer, chega aqui, ele é muito acelerado. O brasileiro que está acostumado a ser gerenciado, aquele micromanagement, sabe? Ó, faz até SQA, termina até SQA, faz até SQB, termina até SQB. Cara, esse cara aqui sofre, porque ele vai ficar esperando coisa que não vai chegar, vai ter reunião. E aí, o que você fez? Não fiz nada, estou esperando o trânsito. Como assim?
+
+00:42:25.96
+cassiodeveloper
+Tô contratado pra fazer, você não fez nada? É, porque você não me deu o trampo. Não, mano, tem que te dar trampo. Tá aqui a missão, tá aqui o trampo. Sabe? Tem um pouco desse choque também. Não é, mano. Uhum, uhum, uhum.
+
+00:42:37.14
+Ben_Hur
+é um excelente ponto que não é qualquer pessoa que vai conseguir jogar esse jogo.
+
+00:42:45.02
+Marcos Santos
+A gente está falando que o pessoal tem que entender que a gente está falando muito para o público sênior, que é a nossa posição que a gente ocupa aqui também. Por exemplo, a posição de júnior ali. Júnior para middle level, para pleno.
+
+00:42:59.05
+Marcos Santos
+Eu acredito que mude um pouco. Eu não peguei essa posição, mas eu sei que, por exemplo, tem um junior no meu time ali, e eu sei que aqui no chat, por exemplo, fica toda hora pipocando tarefas pra ele. Mas quando você acende igual, eu tomava conta do open vas. Cara, eu tinha que toda hora correr atrás. Ó, terminei o office. Pô, vamos fazer o zoom. O zoom tá legal. Deixa eu fazer. Deixa eu fazer o Chrome, que foi o último que eu fiz agora. Peguei ali e fui fazer Chrome. Então, foi o caso, você tem que correr atrás do trampo e falar o que você quer fazer.
+
+00:43:27.64
+Marcos Santos
+E eles vão ver se de acordo com a regra de negócio faz sentido para o negócio da empresa seguir com aquilo que você ofereceu ou não. Mas para o Junior, o caso falou, micro gerenciamento. Talvez, não sei se é o momento do Junior vir para cá. Talvez ele não consiga se adaptar ao mercado aqui.
+
+00:43:28.32
+cassiodeveloper
+Não é, mano
+
+00:43:46.19
+Ben_Hur
+Bom, bom ponto. Muitas vezes o cara acha que é só o idioma que conta, e na realidade não. Tem uma forma de trabalhar, porque aqui no Brasil eu acho que a gente tem muito pouco disso por fato de ter uma cultura de pouca confiança nas pessoas.
+
+00:44:10.100
+Ben_Hur
+E claro, ele ataca de muitos lados. Primeiro, se você tem pouca confiança nas pessoas, significa que você vai supervisionar mais e punir mais também. Porque se você tem pouca confiança, tem uma cultura muito punitiva. É padrão de ser cultura punitiva. Por quê? Você não confia no cara de baixo,
+
+00:44:30.95
+cassiodeveloper
+Uhum. Uhum.
+
+00:44:35.20
+Ben_Hur
+porque o cara de cima não te dá confiança. Então, se o cara de cima não te dá confiança e te controla, você, para responder corretamente o cara acima de você, tem que tomar o controle da sua própria situação, que acaba delegando esse controle, baixando esse controle para baixo, acaba tirando a confiança, e assim todo mundo fica aquela escadinha do medo
+
+00:44:58.30
+Ben_Hur
+em todas as áreas, porque no final alguém não tem confiança e isso derruba todo mundo. E aí começa a aparecer muita gente nas calls. Não, porque tal cara lá estava vendo também e ele está de acordo. Essas coisas assim.
+
+00:45:09.63
+Marcos Santos
+Sim.
+
+00:45:13.39
+cassiodeveloper
+Eu acho que, resumindo essa parte que a gente falou aqui agora, o brasileiro é mais generalista, aqui fora o pessoal é mais especialista. Por isso que tem muito mais gente na empresa, por isso que o Marcos falou, cara, você faz A, eu faço B, não se mete no meu trampo. Porque o cara que tá fazendo A, ele sabe o que ele tá fazendo, ele é o cara do A, e você é o cara do B, você faz o B. Eu lembro que eu fiz uma entrevista, antes eu vi aqui, eu fui recusado na minha empresa,
+
+00:45:34.96
+cassiodeveloper
+que o cara era um russo, inclusive, que estava me entrevistando. O cara perguntou de tudo de CyberSec. Cara, eu respondi tudo certo. Mas quando ele afundou em alguns tópicos, tipo, vamos falar de criptografia. Eu falei, beleza, simétrica, simético, estourei. Porque eu não sou um cara especialista em criptografia, eu sei usar, eu sei falar uma coisa ou outra, acabou.
+
+00:45:56.48
+cassiodeveloper
+O cara só não era criptógrafo, mas de resto ele só fazia isso. O cara começou a fazer umas perguntas de criptográfico e eu falei, mano, vai mamar bandido, que porra você está falando? Eu lembro que na minha avaliação estava isso. O cara sabe tudo, mas ele não tem conhecimento aprofundado nos tópicos que a gente precisava para a empresa na época. E um dos tópicos era criptografia. Os caras eram muito especialistas naquele tópico. O fato dele não ter
+
+00:46:19.77
+Ben_Hur
+Pode virar. É porque é um cara de epseque pra cada 500 pessoas.
+
+00:46:23.10
+cassiodeveloper
+que lidar com 15 coisas ao mesmo tempo, igual é o Brasil, você tem que fazer 10 coisas ao mesmo tempo, porque é salário, porque não tem gente, não tem problema. O cara tem tempo de estudar, tem tempo de ser um especialista naquelas coisas. A cultura que fora, ela beneficia isso. Ajuda o cara a se especializar no tópico que ele quer, no tópico que ele gosta.
+
+00:46:34.14
+Marcos Santos
+O que?
+
+00:46:45.33
+cassiodeveloper
+Então, de novo, na entrevista eu fiz tudo muito certo, mas quando aprofundava em alguns tópicos e a fotografia foi uma deles, acabou, foi reprovado, naturalmente.
+
+00:46:54.89
+Marcos Santos
+É até uma coisa também que eu percebi aqui também, que aqui a gente tem poucos gerentes, mas a gente tem muitos especialistas ali. Então, por exemplo, eu estou indo para uma empresa grande, com mais de mil desenvolvedores, mas tem tipo quatro gerentes, o resto você tem especialistas e team leaders.
+
+00:47:14.79
+Marcos Santos
+Então, você não tem tanto gênero gerente. No Brasil, a gente vê que qualquer macaco vira gerente, né? Cara, porra, sem fazer qualquer coisa, pega um cargo de manager. Aqui é mais difícil, você realmente tem que provar que você tem ali os atributos de manager.
+
+00:47:20.40
+Ben_Hur
+É... É...
+
+00:47:30.20
+Marcos Santos
+onde eu tô também, onde eu tô tem poucos gerentes, você tem mais especialistas ali e team leaders pra coordenar times pequenos, tá? Não tô falando times grandes não, time de quatro, cinco, seis pessoas no máximo, tá? Não é time igual de controle no Brasil aí com vinte, trinta pessoas, senão você tem ali times menores onde você tem especialistas, barra coordenadores e acima deles vai ter um gerente que aí cuida de vários especialistas, né?
+
+00:47:54.97
+Marcos Santos
+Então eu vejo que aqui pra você ter um cargo de gerente, você realmente tem que ter os atributos ali que a empresa joga necessário, né? Depende ali de cada uma. Não sei se é igual ali pro caso também, se é essa mesma visão.
+
+00:48:08.34
+cassiodeveloper
+Aqui é que é foda perder a empresa. A empresa que eu estava antes tinha muito chefe para pouco índio. A empresa que eu estou agora é muito índio e pouco chefe. Então é foda, cara. Isso não é regra, mas é diferente do Brasil. É diferente do Brasil.
+
+00:48:26.15
+Ben_Hur
+Pessoas, vou trazer a pergunta fatídica desde o começo do episódio. A. Kella. A. Maldosa.
+
+00:48:29.75
+Marcos Santos
+É, nada.
+
+00:48:32.40
+cassiodeveloper
+Peraí, peraí, peraí, peraí. Agora sim. Rufi os tambores. Boa.
+
+00:48:43.63
+Ben_Hur
+E eu não vou falar de salário, porque como dizem, quem converte não se diverte. Vamos falar de qualidade de vida, poder de compra e ranges salariais. Então hoje, no momento assim, o cara está no Brasil e o cara
+
+00:49:06.17
+Ben_Hur
+tem um valor aí, uma média salarial no Brasil dentro da RTI, que obviamente já está dentro dos seus 5% da população brasileira. Você não sabe, um salário mínimo é 50% da população de subsistência, quem está vivendo no Brasil nesse momento, vendo a nossa inflação escondida, sabe. Então, para mim, a melhor forma de você fazer a comparação
+
+00:49:31.25
+Ben_Hur
+Qualquer coisa com relação à inflação não é acompanhar um índice aqui dentro, é simplesmente você pegar o valor de N coisas core ou principais que vocês têm no início do ano e fazer a mesma comparação na metade do ano, a mesma comparação no final do ano e você vai ver de fato a inflação.
+
+00:49:51.22
+Ben_Hur
+E a TI aqui no Brasil paga relativamente bem pelo seu tamanho, expansão, dificuldade contra as coisas e as empresas, como indo agora para o híbrido presencial, diferente da Europa, o Brasil é um país continental, ou seja, tudo é muito longe, então acaba restringindo acesso aos talentos e tal, etc. Os salários começam a ficar um pouquinho maiores, teve a pandemia, até que as bolhas tudo certo, porém,
+
+00:50:21.22
+Ben_Hur
+Todo brasileiro sabe que os salários aqui são altos, mas salários altos e poder de compra e satisfação de vida e qualidade de vida não são a mesma coisa e não estão diretamente relacionados. Então, como é essa questão dentro do profissional Japsack na Europa?
+
+00:50:41.66
+Marcos Santos
+Antes do Cássio começar só vou falar uma coisa para iniciar salário mínimo um pau e meio de euro pronto pode começar Cássio
+
+00:50:51.27
+cassiodeveloper
+É muito pau, um pau e meio já é muito pau. Uhum, uhum. É, peraí. Uhum, uhum, uhum.
+
+00:50:53.46
+Ben_Hur
+Vamos lá, né? Quem converte não se diverte, vamos lá. Até porque eu quero dizer, ah, mas lá, aqui também é R$1.500. Espera aí, espera aí. É, olha, aí que está, ó, ó, aí, aí, vamos lá. Seria, rapaz, iPhone hoje, aí, ó, custaria R$1.000 para a gente. A gente sabe que ele custa 12 vezes mais do que isso aqui no Brasil, né? Então a gente está
+
+00:51:22.77
+Ben_Hur
+Aquele cálculo básico, né? Aí, um iPhone custa 70% de um salário mínimo, enquanto aqui ele custa 9 salários mínimos. Vamos começar por isso, tá bom? Ótimo ponto. Muito obrigado, Marco.
+
+00:51:24.66
+Marcos Santos
+Então... Sim. Aí o caso continua depois eu volto.
+
+00:51:41.88
+cassiodeveloper
+Cara, é isso que você falou, grana também é uma questão relativa, né? O que é muito pra um, pode não ser o mesmo pra outro, mas de novo, na nossa bolha, comparando com o Brasil e com a equipe, qual é a minha sensação? A minha sensação é, no Brasil, vou tentar fazer uma analogia, é como se eu corresse uma maratona
+
+00:52:00.16
+cassiodeveloper
+Corri uma maratona hoje. Acordei de manhã e fui correr a maratona. 42 km. Corri os 42 km e ganhei 20 mil. Beleza? Aqui a impressão que eu tenho é que eu corri 5 km e ganhei os mesmos 20 mil. Saca? Então o esforço é muito menor para ter o mesmo ganho. Essa é a minha visão.
+
+00:52:24.14
+cassiodeveloper
+Aí, com o que eu ganhei, vamos colocar 20 mil, tá? Não importa a moeda, mas tenho 20 mil. O que eu faço com esses 20 mil? É mercado, aluguel, tal, tal, tal. Então, com os 20 mil do Brasil, era, sei lá, um carro usado, uma moto, moto pequena, moto scooter, né? Porque São Paulo precisava de mobilidade, mercado todo mês, diversão. Diversão, sei lá, cinema, comprava um joguinho aqui, outra coisa ali. Beleza, ponto.
+
+00:52:53.47
+cassiodeveloper
+Os 20 mil aqui, os mesmos 20 mil, de novo, não importa a moeda, mas os mesmos 20 mil aqui, carro do ano, casa de 200 metros quadrados, com jardim, com coisas melhores, vamos lá, casa melhor, carro melhor, mercado maior, diversão, sei lá, restaurante, cinema e tal, em dobro.
+
+00:53:18.47
+cassiodeveloper
+Então, a aquisição, sei lá, com uma nota de 100 reais, você vai no mercado e compra uma melancia, aqui com 100, você compra quatro melancia. Sei lá, três, quatro. Então, com a mesma quantidade de dinheiro, você tem um poder aquisitivo maior, tá ligado? Então, quando eu falei, você correu menos para ter o mesmo ganho, já vale a pena, porque com o mesmo ganho você está comprando muito mais aqui. Mesmo que você tivesse correu mesmo, ainda vale muito mais.
+
+00:53:47.31
+cassiodeveloper
+Então, a sensação que eu tenho aqui é essa. Você tem um esforço muito menor, um terço do esforço que a gente faz no Brasil. Esforço que eu digo é, cara, é hora esta, é trampo direto, é deadline, não sei o quê. Aqui não tem isso. De novo, posso estar na realidade paralela aqui na Polônia, mas, e o Marcos falou também, na Alemanha tem. Aqui é diferente, não tem isso. Então, você tem um esforço muito menor para ter ganhos similares. Similares de novo, né? Olhando dinheiro a dinheiro. Aqui, o que eu ganho aqui hoje, eu não ganharia no Brasil.
+
+00:54:18.65
+cassiodeveloper
+Então se eu for colocar, pegar as médias aí e tal, vamos supor que eu ganhe, sei lá, eu comecei falando 20, então vamos supor que eu ganhe 20 mil aqui, no Brasil eu estaria ganhando 10. Os 30 mil aqui, no Brasil eu estaria ganhando 15. Então se você ver que o poder aquitivo aqui é maior e o esforço é menor, só aí você já faz uma conta de falar, cara, não vale a pena ficar no Brasil.
+
+00:54:43.64
+cassiodeveloper
+Antes de colocar, Marcos, acho que tem uns aspectos foda também, que ninguém fala de morar fora e tal. Eu sinto falta da comida, a comida do Brasil é a melhor do mundo pra mim, sinto falta do clima, o clima do Brasil é a melhor do mundo. Apesar de eu não ser muito calorento, eu gosto do frio, gosto de morar aqui no frio. Mas você sente falta de ligar a televisão no Cidade Alerta e, olha, filho mata mãe, não sei o quê.
+
+00:55:04.84
+cassiodeveloper
+Não é que você sente falta disso, não é desse tipo de notícia, mas é a questão da familiaridade. Você está tão acostumado com o teu idioma, você vai num lugar e está tocando a música que você conhece, você pega um Uber e o cara está falando a tua língua, você liga o rádio, olha, não sei o quê, a notícia que for. Mas tudo o que cerca o homem, o indivíduo, ele não tem noção do valor que tem quando ele é tirado disso.
+
+00:55:26.78
+cassiodeveloper
+Então quando eu cheguei aqui fora, cara, tem uma casa muito melhor aqui que eu não jamais compararia no Brasil. Não sei lá, uma casa que eu tenho aqui não sei nem quanto vale no Brasil, se fosse colocar um preço.
+
+00:55:35.98
+Marcos Santos
+Blasília. É.
+
+00:55:37.18
+cassiodeveloper
+duas milhas, sei lá, em São Paulo, né? A gente quer de São Paulo. Uma casa que eu paguei aqui, sei lá, 500 pau, 600 pau. Então, é 2k, tô com o meu segundo carro agora, tá ligado? Graças a Deus, meu segundo carro. Não ando de Lamborghini ainda, já já chego lá, mas não é Lamborghini ainda. Mas, pô, tem dois carros, pela logística e tudo mais, saca?
+
+00:55:57.00
+Ben_Hur
+Sim, mas se tu falar um dos carros que você tem, se você falar o outro carro que ele tem...
+
+00:56:07.52
+Ben_Hur
+Eu vou lá, um cara aqui que ganha super bem trabalhando com... Não tô falando cara diretor, não sei o quê. Eu tô falando cara tech lead, um cara sênior assim e tal, né? O cara assim, ó, muito fodidaço, o cara pegando um carro doando, vai pegar ali um SUVzinho de entrada, vai pegar ali um... Como é que eu vou dizer? Vai pegar um Onix, vai pegar um...
+
+00:56:12.42
+cassiodeveloper
+Uhum. Uhum.
+
+00:56:35.02
+cassiodeveloper
+E, às vezes, ele pode pegar um carro da hora, porque a gente fala, puto, eu peguei um carro top e usado. Anda de BMW, não sei o quê, isso. Isso. Isso aí. Então, assim, aqui, vai, vamos lá, você tocou nesse assunto, né? Eu tenho um Volvo e vou comprar o outro, indo para o segundo, o Volvo elétrico agora. Apesar de eu não gostar dessa ideia de carro elétrico, eu tô indo comprar o carro elétrico agora.
+
+00:56:39.12
+Ben_Hur
+É, o 2014, 2013, torcendo todo dia para não dar o problema no câmbio, o passamento de óleo que vai custar para ele 10 mil reais, o salário do próximo mês, exato. É inviável alguém que ganha 10, 15, até 20 mil por mês no Brasil
+
+00:56:40.26
+Marcos Santos
+Sim.
+
+00:57:08.81
+Ben_Hur
+conseguir comprar e manter qualquer o que o x 30 x exato que ele está 230 mil no brasil se não me engano algo assim.
+
+00:57:14.22
+cassiodeveloper
+o ex 30 acabou de lançada volvo ele começa em 230 no brasil já era
+
+00:57:21.78
+Ben_Hur
+Exatamente. Então, cara, é inviável. Cara, do momento que você entrega o seu comprovante de renda na Volvo com isso, o cara na tua frente, ele pega isso, quer tocar fogo no teu comprovante de renda e te manda embora. Então, assim, é inviável. E se ele conseguir fazer isso, ele vai sacrificar uma excelente oportunidade, uma excelente qualidade de vida dele para comprar o carro.
+
+00:57:21.86
+Marcos Santos
+O de entrada.
+
+00:57:49.05
+cassiodeveloper
+Exato. Ele está tirando de algum lugar para poder comprar o carro. Sim, sim. Então, assim, é isso que você falou. A questão da grana, né? Aqui o poder aqui se tiver muito maior. Cara, eu tenho dois Volvo, velho. Eu nunca imaginei ter um. Porque no Brasil o Volvo é caro. Então eu nunca imaginei ter um. Graças a Deus, estou comprando o segundo agora. E você falou, aqui ele começa, esse aí que você falou do EX30, ele começa em 170 mil.
+
+00:57:51.58
+Ben_Hur
+Exato, ele está sacrificando muito para isso.
+
+00:58:15.97
+cassiodeveloper
+Eu peguei o completo lá, com pirueta para trás, não sei o que, e tal, tal, tal. Aí ficou 230, que é o preço que começa no Brasil. Só que os 230 mil daqui não é o que eu falei, não é os meus 230 daí. Então, exato, exato. Então, assim, a grana daqui, ela vale muito mais a facilidade de fazer um leasing, por exemplo, ou de contar com... Os juros daqui são completamente diferentes, você não paga três carros quando você financia, tá ligado?
+
+00:58:28.37
+Ben_Hur
+Quem converte, a gente vai sempre lembrar disso. Quando tu fala de 220 mil, tu falou que ele estava custando uns 30 mil euros, isso? É, lembra, tá, pessoas.
+
+00:58:47.67
+cassiodeveloper
+É nessa faixa em T8000 euros. Isso, exato. Uhum. Uhum, uhum, uhum.
+
+00:58:48.32
+Marcos Santos
+Nessa flecha, que é o que tá aqui, tá 32 mais ou menos aqui.
+
+00:58:55.04
+Ben_Hur
+A gente está falando que se a gente fizesse só a jogada, o mesmo voo custaria 35 ou 40 mil reais aqui. Se a gente fizesse só a comparação. Então a gente está falando da conversão, se você for conversar do euro para o real, para o Brasil e tal, mas a gente está falando de aqui no Brasil você ter 150 salários mínimos para começar esse jogo e ali 25. Então a diferença é absurda.
+
+00:59:20.13
+cassiodeveloper
+Exato. Então aqui não precisa comprar um carro financiado, por exemplo, vou meter uma entrada de 30% do carro, 20%, não tem essa mano. Eu dei 5 conto para garantir o carro, que tem que esperar da fábrica, vai chegar lá em março, vai chegar o carro. E quando chegar em março eu decido se eu quero fazer um leasing, eu tenho uma empresa aberta, por exemplo, eu posso fazer um leasing pela minha empresa com juros de menos de 1%.
+
+00:59:41.88
+cassiodeveloper
+eu não pago dois carros eu posso alugar fazer o long term renting que é alugar o carro de um ano dois anos passou o ano dois anos eu posso trocar pegar outro pagando sei lá 900 conto por mês como se fosse uma parcela por exemplo de novo os 900 conto por mês cara que carro você compra decente no Brasil que você paga 900 conto por mês reais reais
+
+00:59:58.80
+Ben_Hur
+Enquanto eu falo 900 como? 900 euros ou 900 reais? Ou seja, está falando de 200 euros que seria... Se o salário mínimo é 1.500 euros, vou dar um exemplo, a gente está falando de 200 ou 300 reais por mês num carro de assinatura hoje, num Volvo X30, no Brasil, para você pegar um Compass,
+
+01:00:01.73
+Marcos Santos
+200 reais 230 aproximadamente
+
+01:00:09.99
+cassiodeveloper
+Move in the scene. Uhum.
+
+01:00:21.94
+Ben_Hur
+que é mais ou menos uma mesma faixa de preço, mas não entrega tudo que o Volvo X30 entrega. Você está pagando aí na casa de R$ 4.500 a R$ 5.000 mensais para aluguel desse carro. Então...
+
+01:00:33.75
+cassiodeveloper
+Olha que absurdo, cara! Cinco pau por mês? Porra, olha isso, velho! Então, assim, essa questão da grana, cara, quando você coloca isso, essa brincadeira besta de carro, isso porque, como eu falei, eu tenho criança pequena, eu tenho pet, eu moro longe da cidade, longe, né? Como eu falei, 15 km da cidade, então eu preciso de um carro para ir para o escritório, para um médico, enfim, eu preciso de um carro.
+
+01:00:58.39
+cassiodeveloper
+Se eu morasse no centro, eu poderia dobrar o meu valor de aluguel, dobrar não porque eu não paguei aluguel, eu comprei a casa, mas vai lá, pagaria um aluguel mais caro e não precisa de carro nenhum, porque o transporte vai pra todo lugar com qualidade. Então essa questão do carro pra mim é uma necessidade hoje, os dois inclusive, por conta da nossa logística aqui da família, mas ela não é uma realidade, você não precisa de um carro de fato, no meu primeiro ano aqui eu não me servia de carro, eu não tinha criança pequena, morava no centro da cidade.
+
+01:01:24.00
+cassiodeveloper
+Então eu não precisava de carro, porque se eu tivesse carro eu ia ser primeiro para deixar o Zuano no tempo, segundo para ter um gasto, tá ligado? Não precisava, literalmente. No segundo ano que a gente mudou para essa casa aqui, aí eu preciso, o carro passou a ser uma necessidade. Então é um custo que a pessoa não tem, se você olhar para analisar bem.
+
+01:01:39.89
+cassiodeveloper
+Enquanto que em São Paulo, sei lá, a gente fala Brasil, mas é foda, né? Cara, São Paulo, o transporte público é o caos, ele não chega a ser ruim, ele só tem muita gente, é só isso, só. Ele só tem muita gente. Mas ele vai, dependendo do lugar que você mora, você consegue se deslocar muito bem.
+
+01:01:56.08
+cassiodeveloper
+Também quero ser injusto com quem mora nos extremos. Já morava no extremo leste, para ir para o centro de São Paulo, porra, três horas no trem. Então, o transporte é aquele que funciona muito bem. Aqui na Polônia, você paga quatro reais, três reais por meia hora de busão. O que é suficiente, porque em meia hora, você cruza a cidade inteira num transporte. Você precisa fazer baldeação, mas uma carreira só. Então, essa questão do...
+
+01:02:02.53
+Marcos Santos
+E...
+
+01:02:23.73
+cassiodeveloper
+quanto ganha, o quanto você gasta. O poder aquisitivo aqui é muito maior, cara. Muito maior. Por mais que você fala, putz, sei lá, outro dia o Marcos, acho que não sei quem que veio aqui e falou, nossa, mas aqui, não lembro que produto que era, mano. Café, não lembro o que que era. Puto, café no Brasil custa dois, aqui custa cinco. Tá ligado? Era um bagulho mais caro, você não lembra o que que era. Eu falei, beleza, mas cara, é um item que você está comparando com o média a tantos outros, tá ligado?
+
+01:02:49.77
+Ben_Hur
+Não, tu tá falando de item de importação, né? Vai pegar um case suíço aqui, tu vai dizer uma coisa. Só corredora.
+
+01:02:52.91
+cassiodeveloper
+Isso! Então, sabe como chama corredor polonês aqui na Polônia? Corredor. Fala aí, Marcos. Você fala demais agora. Fala aí.
+
+01:03:09.80
+Marcos Santos
+Agora deixa eu falar um pouquinho da minha realidade. Na minha realidade, hoje eu moro de aluguel. A gente aqui optou pelo leasing, tá? A gente todo ano troca de carro, a gente pega um carro zero. Inclusive, a gente já recebeu que o nosso carro tá pronto. Do conversa zero.
+
+01:03:23.95
+cassiodeveloper
+Mercedes. Filho da puta. Zero. 200 mil quilômetros.
+
+01:03:29.74
+Ben_Hur
+Zero, zero, zero. Não, peraí, tu vai trocar com 12 mil km. Aqui no Brasil a gente começa a considerar a trocar... É, no momento que ele estiver fazendo alguns barulhos parecidos com caminhões quebrando, a gente começa a pensar no...
+
+01:03:32.72
+Marcos Santos
+Tá com 12 mil km, olha, que eu tô ali na garagem. Então... Ah, vai tá com uns 15 e por aí. 15 e 18 quando eu trocar.
+
+01:03:52.60
+cassiodeveloper
+É, aí troca.
+
+01:03:57.11
+Marcos Santos
+Só que tipo, um aluguel, hoje eu pago mil euros aqui no lugar onde eu moro aqui, 100 metros quadrados, se eu fosse pegar o mesmo lugar no Brasil...
+
+01:04:09.41
+Marcos Santos
+Cara, eu ia pagar pelo menos uns sete, oito pau. Eu tiro pelo meu irmão que mora em 50 metros quadrado, no Ipiranga ele paga quatro pau, quatro pau e meio. Então, se eu fosse dobrar o apartamento dele, que é o que eu tenho aqui hoje, basicamente eu iria dobrar o preço do aluguel. Então, com base ali, onde ele mora no Ipiranga, eu sei que eu pagaria aproximadamente isso, eu pago, mesmo convertendo em euro, eu pago metade. O pau que ele paga em 50 metros eu pago em 100. O que já é uma diferença razoável.
+
+01:04:36.82
+Marcos Santos
+o carro também o carro não é tão caro a gente paga aqui se a gente fosse pensar em dinheiro também é aproximadamente 300 e pouco a 400 euros uma mercedes zero km estou com uma classe a agora uma a200 estou indo para uma classe c estou indo para uma cla
+
+01:04:57.79
+Marcos Santos
+4x4 full price que ideia era não mas eu tô indo por uma 4x4 os caras é 4 top de linha com tudo tem direito que a gente colocou em fio tudo que tinha no carro kit AMG a porra toda também pelo mesmo preço a gente basicamente não aumentou o preço do carro
+
+01:04:57.72
+cassiodeveloper
+Mentira, ele tá pegando aquela McLaren.
+
+01:05:18.13
+Marcos Santos
+e bem tranquilo então eu nunca ia ter uma merceza no brasil nunca se você me perguntasse cara essa que eu tô hoje no brasil começa em 430 pau eu lembro do cláudio atinguinho lá 160
+
+01:05:27.38
+cassiodeveloper
+Cara, eu tive o Mercedes no Brasil, que era do meu pai, que era aquele classial pequenininho, lembra do classiazinho pequenininho? Nossa, aquele cara era bonitinho aquele carro, mano. Meu pai tinha um desse aí e era usado também, então eu tive a Mercedes no Brasil. Quase meio milhão já.
+
+01:05:41.32
+Marcos Santos
+É, a minha é uma A200 ali que é uma A45 AMG com motorzinho um pouquinho menor, só isso. Só que assim, começa em 400 pau no Brasil, se eu for pegar esse carro. Quase meia milha, eu não teria esse carro no Brasil, nunca na minha vida.
+
+01:05:58.83
+cassiodeveloper
+Isso para não colocar... Tem outra pergunta aí? Eu posso poupar pimenta nesse tópico aqui? Não, eu tenho o EX30.
+
+01:06:05.11
+Ben_Hur
+Não pode colocar pode colocar porque eu só queria comentar com o Marcos que esse carro. Vocês já viram o que eu comentei do ZX ali do caso e são dois que dá o mesmo valor. Cara é impossível apenas. É tipo cara
+
+01:06:14.80
+Marcos Santos
+sim sim x6 é 40 e não pica
+
+01:06:23.68
+cassiodeveloper
+Eu tenho o XC40, que é o híbrido e o X30 elétrico. Que eu vou tocar por um XC90, que é o bitelão lá.
+
+01:06:34.58
+Ben_Hur
+É tipo, cara, aqui se você ganha menos de talvez 60, 70 mil reais por mês, esse escala pra você unter um deles na garagem, você tem que se afundar em dívida.
+
+01:06:50.38
+Marcos Santos
+E então... E então... E... Claro.
+
+01:06:51.52
+Ben_Hur
+E ele faz parte, ele é uma arma na sua cabeça que te acompanha todos os dias na sua folha de pagamento, né? Tipo, ou seja, tu tem que ganhar um salário ridiculamente alto, né? Sem empreendedor, porque nasce um empreendedor que só vai te foder. Exatamente, e tu tem que passar o dia torcendo pra não dar problema, porque é aquele esquema. Tem aquela regra pra Dante, se não puder comprar duas vezes, não é pra você.
+
+01:07:07.26
+cassiodeveloper
+Que só diretor, só esse nível que vai ter esse salário.
+
+01:07:19.84
+Ben_Hur
+né, que então, ou seja, isso é te preocupar o tempo todo, tomara que não dê problema, tomara que não dê problema, tomara que não dê problema. Cara, é absurdo, é absurdo. É blindado.
+
+01:07:26.68
+cassiodeveloper
+Uhum. Isso tudo sem adicionar o tempero infraestrutura. E quando eu falo de infraestrutura, eu tô falando de segurança em geral. Você vai andar de Mercedes, esse Mercedes com o Marcos tem em São Paulo? É, mano, é dois negros na moto, sem preconceito, mas cara, é dois negros na moto atrás toda hora pra roubar. O Volvo, mesma coisa. Pra andar em ruas que estouram amortecedor em um ano de carro.
+
+01:07:32.90
+Marcos Santos
+Então, que é o que eu ia falar agora?
+
+01:07:54.28
+Marcos Santos
+E isso é um ponto, a gente paga um valor considerável de imposto. Cara, eu não tenho um buraco na rua. Eu te garanto, pode vir um cara aqui, pode vir lambendo essa porra aqui e não acha um buraco. Eu ando com a Mercedes A210 e A220 na estrada.
+
+01:07:57.82
+cassiodeveloper
+O imposto é que é mais alto. Mesma coisa. Limite. Limite, sou eu.
+
+01:08:11.29
+Marcos Santos
+Zero. Aqui a gente tá autobando, tá gente? Eu não passo o limite, aqui não tem limite. O limite é o quanto eu achar que o carro tem que andar, só pra ficar claro. Isso que alguém fala, nossa, tá dando 200 por hora. Não, é autobando. O limite sou eu.
+
+01:08:24.84
+cassiodeveloper
+Então essa parte de infraestrutura te permite, porque nem você falou, para ter um carro desse no Brasil, que seja casa, eu tenho uma casa aqui que dá um trampo da casa, mas porra, a manutenção jardim, tem coisa que você...
+
+01:08:39.56
+cassiodeveloper
+Eu fui parar pra pensar, a casa que eu tenho aqui, ela fica aberta o jardim, fica aberta a garagem, não dá pra você desistir de casa do Brasil. Porque a segurança, o nego vai pular aqui pra roubar a árvore, pra roubar ferramenta do jardim pra trocar por craque, tá ligado? Pra roubar as grades que tem aqui, porque é ferro, é cobre, sei lá. Então, tem coisas que o Brasil naturalmente não te permite ter, velho. Infelizmente. Mano, eu tenho família no Nordeste, morei em São Paulo minha vida inteira, eu amo esse lugar. Mas tem coisa que simplesmente... Eu tinha uma PCX, mano, um scooter, que foi roubada no São Paulo.
+
+01:08:45.81
+Marcos Santos
+É.
+
+01:09:09.56
+cassiodeveloper
+Aqui eu tenho dois volvos que eu paro na cidade e deixo de porta aberta. Esqueci de trancar o carro, esqueci porque a pessoa já deixa aberto. Eu que esqueci porque eu tenho a mania de trancar. No vilarejo de onde eu moro aqui, quantas vezes eu vou ali na padaria e aqui o pessoal tenta, obviamente quando não é inverno, o vidro está aberto, a chave não conta. O cara para o carro e vai para casa, ninguém vai mexer.
+
+01:09:30.47
+cassiodeveloper
+Isso no Brasil, no Brasil em geral você esquece isso, não vai acontecer. Seguros de carro aqui tem seguro, mas pelo menos em São Paulo, no meu parâmetro é em São Paulo. Você tem que ter um seguro, cara, não tem como. O seguro do Mercedes D, você é outro Mercedes, que é caro pra caralho. Aqui você paga um preço justo pelo seguro.
+
+01:09:46.02
+Marcos Santos
+Então, e aqui é ridiculamente barato, cara. E assim, eu não sei se é a mesma coisa que o Lucasio lá, mas por exemplo, aqui o IPVA, licenciamento, cara, é ridiculamente barato, acho que é sem IPVA. É, o seguro sim também, só que o meu já tá tudo incluído no lease, então eu nem desembolso isso.
+
+01:09:58.80
+cassiodeveloper
+Aqui não tem, na Polônia não tem isso. Você comprou o carro, acabou. Não tem que pagar na Polônia, não. Você paga o seguro. Todo ano você tem que ter um seguro.
+
+01:10:05.67
+cassiodeveloper
+Mas não tem PVA, imposto. É, você pode colocar tudo no list. Então assim, mano, a pergunta que o Bayer falou de custo e tudo mais. Você tem tanta coisa envolvida no custo, por exemplo, aqui desconta em folha 32% do salário, aqui na Polônia. É 32%. Ah, mas no Brasil é só 27%, então paga mais. Cara, eu vou sair na rua, entre aspas, né?
+
+01:10:28.27
+Ben_Hur
+O detalhe é o que tu faz com o que sobra. Esse é o detalhe.
+
+01:10:31.94
+cassiodeveloper
+Exato, mas assim, como o Marcos falou, eu ando na estrada, não vou ter buraco, eu não vou ter problema nenhum nas ruas, o transporte público é perfeito, e a pessoa daqui reclama, cara, para mim é perfeito, o transporte é perfeito, não é lotado, tem para todo lugar, você vai sair na rua, você não vai ter bala perdida, não vai vir ninguém te assaltar, não vai vir ninguém com a faca para roubar seu celular, você anda com o celular na rua numa boa,
+
+01:10:54.94
+cassiodeveloper
+internet e tal, eu pago 80 conto aqui de sei lá, 200 giga que eu tenho, nem sei quanto que eu tenho 200 giga? 200 giga é muito né? sei lá, tem mega pra caralho que eu vivo em fibra em São Paulo, sei lá quanto eu pagava, quase 200 conto aquela porra funcionava, era boa mas então assim, a estrutura como um todo mano
+
+01:11:03.15
+Marcos Santos
+não 200 mega por 200 mega de velocidade
+
+01:11:15.84
+cassiodeveloper
+que não está no salário, ela está, por você ser um trabalhador aqui, você já usou frutos e tudo, nem se compara com o Brasil. E para mim hoje, Cassio, minha realidade, minha filha tem dois anos, minha esposa daqui e tal, pela minha filha eu não saio daqui, porque eu sei que ela vai ter segurança, ela está na creche, ela tem três idiomas na creche, inglês, polonês e espanhol,
+
+01:11:42.77
+cassiodeveloper
+Então eu falo na creche, mano. Ah, mas a creche é dois pau por mês. Eu pago mil e duzentos, porque o governo reembolsa setecentos. Porque tem lá umas crianças até quatro anos, seis anos e tal. Então tem uma série de coisas de infraestrutura do país
+
+01:12:01.72
+cassiodeveloper
+que você usa o fruit, que você tem direito e tal, que no Brasil, cara, não se compara. Ou que você nem tem, tá ligado? Só essa questão da segurança, de você saber que você vai na rua qualquer hora da madrugada, vai andar com o carro, vai deixar, que você não vai ter problema, você não tem que pensar nessas coisas, cara. Você não tem que pensar nisso. Tipo, mano, vou ter aquela injection na aplicação, é, precisa validar a entrada aí.
+
+01:12:11.70
+Marcos Santos
+Seguração mesmo, claro.
+
+01:12:23.81
+cassiodeveloper
+Aqui você não tem que validar a entrada, deixa pra lá. Obviamente, fazendo uma analogia, o cara vai fazer o corte e vai falar, o caso falou pra não validar a entrada. Então tipo assim, aqui tem muita coisa que você não precisa se preocupar de fato, tá ligado?
+
+01:12:38.03
+cassiodeveloper
+São Paulo, morador de rua, o que acaba trazendo outros problemas pela infraestrutura e tal. Aqui eu estou há três anos, eu vi duas pessoas morando na rua. E eu vi por meia hora, porque logo eu voltei pelo meu caminho, tem meio que uma guarda civil que leva o pessoal para abrigo, tem abrigo e tudo mais. O polícia já chega, por que você está na rua se você tem um abrigo e tal. Então tem coisas aqui, velho, que infelizmente nosso país não tem. Eu adoraria ver tudo isso no Brasil.
+
+01:13:03.28
+cassiodeveloper
+De novo, o Brasil tem qualidades absurdas que não tem aqui fora, como a comida, como a cultura em si, como eu te falei. Não é fácil sair do Brasil, quando você chega aqui fora e você vê que eles estão falando um idioma esquisito. Um mês, uma semana legal, um ano. Você fala, caralho, velho, estou sentindo falta. Meus amigos, que você ligava para o cara e falava, vamos ir no bar, vamos tomar uma.
+
+01:13:23.85
+cassiodeveloper
+Amigo novo, argentino novo, as piadas não funcionam, a cultura é diferente. Então, mude um pouco a sua existência assim, tá ligado? Tem outras coisas pra você se adaptar.
+
+01:13:35.21
+cassiodeveloper
+que, de novo, por mais belo que tudo isso seja, como questão de segurança, infraestrutura, hospital, casa, tem um carro legal total, mas tem outras coisas, outros aspectos, como eu comentei, o seu dia a dia, as músicas que você ouve, você liga um rádio que está ouvindo uma notícia no seu idioma, você sabe o que está acontecendo. Aqui você liga o rádio e fala, mano, o que está acontecendo? Eu entendo algumas palavras, nossa, alguém, a inflação não sei o quê, putz, aconteceu alguma coisa em tal cidade, mas tipo,
+
+01:14:01.30
+cassiodeveloper
+É até irrelevante, mas são coisas que no dia a dia fazem falta. É como se tirasse pedaços de você, sabe? Que às vezes o pessoal não considera quando vai morar fora. Você supera isso, supera, o tempo passa.
+
+01:14:13.56
+cassiodeveloper
+Eu estou há três anos aqui e em geral já passou. Mas são coisas a se considerarem também, porque é emocional, não é tão fácil e tal. E eu vim minha esposa daqui, então eu vim com muito suporte, eu não precisei procurar casa para morar, questão de documentação, ela sempre estava indo fazer para mim, me ajudar, para falar alguma coisa que eu não entendi. Cara, ela sabia e tal. Então muita gente que vem do zero, sem nenhuma ajuda, sem nenhum suporte, perrengue ainda maior. Eu diria que eu tive esse suporte muito grande dela.
+
+01:14:42.85
+cassiodeveloper
+Mas, enfim, só fui acrescentando outros itens aqui para falar dessa questão. A grana em si, às vezes, por mais que você ganhe a mesma coisa nos mesmos parâmetros, você tem mais coisas aqui, é mais fácil aqui, você tem mais benefícios que acaba já fazendo, já facilitando para você, sabe? Já tornando uma balança, né? Melhor não é? Cara, é melhor. Não adianta comparar.
+
+01:14:49.64
+Marcos Santos
+sim você fez mais coisas cara e tem uma coisa que o pessoal dá pouco valor mas eu aprendi a dar mais valor quando eu tô aqui cara que assim aqui eles têm um dia da família
+
+01:15:11.56
+Marcos Santos
+Literalmente, domingo é o dia da família. Você só vai ter parque aberto, mas shopping, loja, é fechado. Eu não dava valor pra isso, mas depois que você vê que o pessoal literalmente prepara um dia pra estar com a família, você fala, porra, faz sentido. Você não precisa trabalhar, não tem hora S, não tem plantão, não vai ter ninguém trabalhando. É pra família. Sim. Sim.
+
+01:15:17.31
+cassiodeveloper
+Tô fechado.
+
+01:15:31.13
+cassiodeveloper
+Domingo é só aberto, aqui na Polônia é restaurante, porque ir para o restaurante está aberto, mas o mercado é fechado. Precisa comprar um arroz. Mano, esquece, não tem. Só vai ter pôr de gasolina aberto, as lojas de convenientes e restaurante. Shopping, loja, esquece, é tudo fechado. Igreja, igreja é tudo aberto.
+
+01:15:41.49
+Marcos Santos
+Já era, segunda. Sim. São os essenciais, só os essenciais ali por... Sim. Então... É, aqui também.
+
+01:15:55.93
+cassiodeveloper
+Então, assim, isso que o Marques falou. Então, um domingo no mês aqui abre as coisas. É o domingo da... Um domingo no mês não, desculpa. Quatro por ano. Alguma coisa assim. Tem uns domingos lá que funcionam. Boa, mano. Ben Hur está entrevistando a gente, Ben Hur. Você tem mais tempo aí? Quer fazer mais perguntas? Fica à vontade, jovem.
+
+01:16:08.28
+Marcos Santos
+Não, mas acho que era mais isso. Acho que o Cassio botou bem os pontos aí, que basicamente são os mesmos que eu tenho aqui, cara. Não pergunto, manda aí. Vou fazer a parte dois.
+
+01:16:21.63
+Ben_Hur
+Cara, eu tenho um milhão de perguntas ainda. Eu acho que a gente precisa de uma parte 2, porque tem perguntas como, ok, mas eu sou um brasileiro na Europa. Como é a receptividade das pessoas que são nativas desses países com relação ao brasileiro?
+
+01:16:44.73
+cassiodeveloper
+Polônia, Polônia, problema zero. Problema zero. Próxima, próxima pergunta.
+
+01:16:46.07
+Marcos Santos
+Cara, é isso que eu ia falar. Não esquece, eu sou bem receptivo aqui, cara. Isso aí você não tem nada.
+
+01:16:52.11
+Ben_Hur
+Esse, esse, esse é um... Ok. Então. Por exemplo, assim, a questão da comida vocês comentaram que são outras questões culturais ali, né? Com relação a isso, que é com relação às legislações, né? Coisas que tipo... Cara, como coisas que são no Brasil, que é normal no Brasil, mas... Como é que é?
+
+01:17:17.11
+cassiodeveloper
+Polônia. Polônia, não pode beber na rua. Não pode beber na rua. Você está no restaurante e tem a mesa lá fora? Pode. Mas você sai com a latinha na rua, andando, bebendo? Não pode. Se a polícia pegar, você é multa. Polônia, zero. Zero, 0.1, 0.2. Então, ou seja, não bebe. Não pode.
+
+01:17:30.37
+Marcos Santos
+Aqui na Alemanha, curiosidade, você pode tomar até 15ml de cerveja e sair dirigindo que não tem problema.
+
+01:17:43.86
+Ben_Hur
+porque tem algumas algumas algumas questões com relação a
+
+01:17:46.80
+cassiodeveloper
+He he.
+
+01:17:52.38
+Ben_Hur
+todo o processo trabalhista, quais são os direitos das pessoas dentro do trabalho, como é que são as regras de a TAL, se existe como a CLT aí dentro, o que o cara tem direito, o que não tem direito, se tem férias, se tem... Como que funciona, por exemplo, isso que se chama de trabalhar, de um work from anywhere, de X dias, como que funciona isso tudo, sabe? Acho que tem várias perguntas ainda. Eu acho
+
+01:18:19.50
+cassiodeveloper
+Boa. Eu respondi de bate-pronto só para não perder o episódio. Mas vamos fazer um parte dois. Vamos fazer um parte dois. Polônia. Polônia, eu sou vinte e dois. Vinte e oito dias. Vinte e oito dias. E com relação a CLT, que falou, cara, entre aspas, a mesma coisa.
+
+01:18:23.05
+Ben_Hur
+só para não perder. Que é melhor do que no Brasil, que é 30 dias corridos.
+
+01:18:23.48
+Marcos Santos
+Só para dar um spoiler aí, férias são 30 dias úteis, então quando você vai marcar suas férias, o sábado e domingo, então você desconta, você tira os finais de semana, então os seus 30 dias vai dar praticamente um mês e meio aí, vai dar 40 dias.
+
+01:18:47.82
+Marcos Santos
+Quase tudo aqui é CLT, né? Na verdade aqui é bem raro se achar os contracts, né? Que são os PJs aqui, os PJs, é difícil. Normalmente o pessoal é bem CLT mesmo. Tamo junto, mesmo dia.
+
+01:18:49.24
+cassiodeveloper
+quase tudo a mesma coisa, não muda muito. E dependendo da empresa, você pode trabalhar aqui, por exemplo, a empresa que eu estou mudando agora também, em novembro eu começo uma empresa nova, porque eles têm escritório no Brasil, aí eu posso trabalhar do Brasil, por exemplo. Preciso viajar uma semana, ficar lá trabalhar de lá, beleza. Mas não é uma exceção, não é a regra.
+
+01:19:14.63
+Ben_Hur
+Perfeito. Pessoas, acho que as próximas perguntas eu gostaria de discutir um pouco mais e acho que podemos preencher para um outro episódio porque tem algumas questões um pouco mais detalhistas que eu acho que seria legal discutir um pouco mais e até inclusive você que está vendo o episódio e tem as suas dúvidas
+
+01:19:20.98
+cassiodeveloper
+Boa. Parte dois, parte dois na sequência, a gente já faz. Mande-nos.
+
+01:19:21.48
+Marcos Santos
+Foi parte dois? Parte dois.
+
+01:19:42.93
+Ben_Hur
+Também, né? Mande nos comentários para a gente já também responder na próxima. Acho que vai ser bacana.
+
+01:19:51.29
+cassiodeveloper
+Boa. Pessoal, era isso então para o episódio de hoje. Parte 1, descobrimos que vai ter a parte 2. Comenta aí suas perguntas nesse episódio aqui no vídeo lá no YouTube. E, quem sabe, a gente responde no próximo episódio para você. Acho que a ideia do Ben Hur de a gente fazer uma live, de repente disso um dia, acho que é algo legal também. Vamos pensar nisso, acho que não teria problema. E, cara, episódio uma hora e vinte, hein, mano. Batemos o recorde que o episódio mais longo, acho que o episódio mais longo deve ser o caso podcast, hein.
+
+01:20:12.52
+Marcos Santos
+Batemos recorde. Eu acho que eu cheguei mais longo mesmo. Falou e tchau.
+
+01:20:16.95
+cassiodeveloper
+Boa. Então é isso, jovens. Nos vemos semana que vem. Um dia desse aí. Valeu. Tchau, tchau.
+
+01:20:23.61
+Ben_Hur
+Valeu, pessoas! Um abraço!
+
