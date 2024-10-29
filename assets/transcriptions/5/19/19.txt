@@ -1,0 +1,1592 @@
+00:00:21.42
+Cássio Pereira
+Olá, jovens! Tudo bem com vocês? Sejam muito bem-vindos a mais um DevSecOps Podcast. Eu sou o Cassio Pereira.
+
+00:00:28.17
+Ben-Hur
+Eu sou o Ben Urno.
+
+00:00:29.63
+Marcos Santos
+E eu sou Marcos Santos.
+
+00:00:30.95
+Cássio Pereira
+Muito bem-vindos, meus jovens amigos. Pessoal, o negócio é o seguinte, episódio de hoje, episódio pedido, muito pedido pelos nossos quatro ouvintes, que solicitaram a parte dois do nosso episódio que a gente fez no episódio passado, falando sobre a experiência de morar fora e tudo mais, então o pessoal gostou bastante desse episódio. Na verdade, a gente identificou no próprio episódio que precisaria de uma segunda parte, que é um monte de perguntas que a gente
+
+00:00:55.38
+Cássio Pereira
+O Benyur acabou não soltando aí pra gente, enfim, por conta do tempo. Mas a gente vai falar no episódio de hoje antes de falar que o DevSecOpsPodcast tem o apoio da Checkmarks e da Nova8, que são especializadas em segurança de sistemas e códigos seguros. O link da Nova8, que é atribuidora da Checkmarks no Brasil, está abaixo da descrição do episódio no YouTube e também no DevSecOpsPodcast.com.br.
+
+00:01:14.53
+Cássio Pereira
+Lembrar também que se você busca soluções de appsec, a Digital Oak tem um portfólio completo pra você. E a GoldSecurity, que é especializada em aplicação security, quer desenvolver software seguro, fale com a GoldSecurity. Bom, jovens do meu... Vocês estão bem? Tudo em paz? Tranquilo? Nenhuma novidade? Vocês estão com o microfone combinadinho hoje, é isso? Caralho...
+
+00:01:28.30
+Ben-Hur
+Tudo bom, tudo bom. Meu, esse microfone já faz tempo, esse microfone tem um curto benefício muito grande, cara. É verdade, rapaz, é verdade, é isso aí.
+
+00:01:28.54
+Marcos Santos
+tudo tranquilo vai tudo bem não sempre foi já faz um tempo já
+
+00:01:41.27
+Cássio Pereira
+Porque tá sincronizado até as cores, tá mudando a cor exatamente igual. Cara, os caras tão... Olha só, os caras tão... Eu com a minha bolinha aqui, bonitinha. Marcos me deu inclusive.
+
+00:01:56.30
+Cássio Pereira
+Bom, pra quem tá ouvindo e não sabe o que a gente tá falando, vai no YouTube, dá uma olhada, assiste pra você ver a nossa cara de otário. Mas vamos lá, pessoal, parte dois do Morando Fora, parte dois do episódio que a gente fez, acho que foi muito legal, o episódio mais longo do podcast, uma hora e pouco de episódio, e tem muita coisa a gente pede pra responder, então vamos direto, Bayru, manda aí, manda o que você tem aí pendente pra gente já começar a soltar.
+
+00:02:01.94
+Ben-Hur
+Obrigado.
+
+00:02:19.41
+Ben-Hur
+Show de bola. O último episódio, realmente, a gente fez algumas perguntas que eu diria que elas são cruciais. Tem outras que em aspectos diferentes, contextos diferentes, que eu acho também legal a gente responder, tanto profissionais, mas também o aspecto pessoal. Porque eu acho que quem escolhe morar fora não escolhe necessariamente, na minha visão, e vocês corrigem, por favor,
+
+00:02:48.22
+Ben-Hur
+especificamente uma empresa, um produto, uma área de tecnologia. Por exemplo, eu vou trabalhar com o AppSec na Europa porque o AppSec não existe no Brasil. Vou dar um exemplo. Então, normalmente, tu escolhe talvez alguma empresa grande que tem uma sede grande, mas normalmente quando o cara escolhe ir para outro país, ele quer um estilo de vida diferente, quer conhecer lugares diferentes, quer uma qualidade de vida diferente, e não estritamente necessariamente.
+
+00:03:14.53
+Ben-Hur
+A tecnologia em si salva algumas exceções. A gente sabe que aqui no Brasil, por exemplo, se a gente quiser uma Big Tech e tal, vai ter que conviver na nossa bom e velho estado de São Paulo, que a gente sabe...
+
+00:03:18.22
+Cássio Pereira
+Uhum.
+
+00:03:29.51
+Ben-Hur
+O quão estressante é viver numa metrópole desse tamanho? Existem outras soluções. Muito diferente de trabalhar no Brasil e ganhar em euro ou ganhar em dólar trabalhando na empresa externa. Também não é esse o cenário. Está falando de realmente mudar. E uma coisa que impacta na minha visão, que eu acho que é uma das principais escolhas, é o estilo de vida.
+
+00:03:50.72
+Ben-Hur
+A gente falou bastante disso no episódio anterior, eu gostaria de continuar esse papo também voltado a isso. Uma das coisas que eu gostaria muito de entender é, aqui no Brasil, eu sei a diferença de...
+
+00:03:55.90
+Cássio Pereira
+Uhum.
+
+00:04:03.42
+Ben-Hur
+alugar uma casa, comprar uma casa. Quando eu vou falar com alguma pessoa, provavelmente tem muitos termos técnicos, jurídicos que estão envolvidos nesses tipos de coisa. É uma movimentação extremamente importante você comprar uma casa, por exemplo. E aí eu queria ouvir de vocês um pouco a experiência de vocês como é essa questão de moradia
+
+00:04:31.75
+Ben-Hur
+dentro da, o lar, dentro da área de vocês, né? Como é que foi para conseguir a casa de vocês? Como é a questão do tipo, cara, pago água, pago luz, pago internet, como que é o custo de vida em mercado, essa questão do lar, como é que funciona isso aí para vocês?
+
+00:04:51.63
+Cássio Pereira
+Boa, eu vou começar e depois você responde aí, Marcos. Aqui na Polônia, eu posso dizer que é tudo muito parecido com o Brasil, tudo muito parecido, com algumas particularidades. Por exemplo, quando eu vim, a minha esposa já tinha o flat dela, o apartamento dela, então a gente já veio morar junto. Ela já tinha o lugar dela, como a gente diz, só traz as cuecas, entra para dentro e está tudo certo.
+
+00:05:18.55
+Cássio Pereira
+Essa foi a nossa primeira moradia. Só que era uma moradia mais pequena, menor e no centro da cidade. E era dela já. E o que a gente acabou fazendo? Quando a gente teve o nosso primeiro filho, a gente decidiu comprar uma casa, uma casa maior e tal, e se mudar. Por que uma casa? Porque no centro da cidade
+
+00:05:36.05
+Cássio Pereira
+No centro que eu digo assim, nos centros, né? O mais próximo do centro da Sé. Não no centro, no miolo, né? Sei lá, o pessoal pensa em São Paulo, fala centro e você fala, puta, praça da Sé. Tipo, não, imagina, a região central, vamos falar assim, né? Que São Paulo seria, tipo, da Moca, Moca, além da considerada região central, e saindo do centro, me expandindo um pouco, tem até essa região central. Você não acha casa, é só apartamento. Não tem casa, tem terreno com casa, só tem aqueles prédiozinhos com os conjuntos.
+
+00:06:03.56
+Ben-Hur
+E se tiver, e se tiver...
+
+00:06:05.30
+Cássio Pereira
+e se tiver um negócio absurdo. Exato, exato. Inclusive tem uma que o pessoal fala que é a casa do Drácula aqui perto, que é um lugar absurdo de caro. Quem tem não vai vender, aquela coisa toda. Então, assim, você quer casa, você vai um pouco mais distante. No nosso caso, a gente queria uma casa que acaba afastando um pouco do centro.
+
+00:06:05.95
+Marcos Santos
+E tiver uma bica no saco, cara.
+
+00:06:21.54
+Cássio Pereira
+Mas afastando um pouco é tipo 15 quilômetros, então não é nada muito absurdo. Mas enfim, então a gente acabou comprando uma casa. O processo de comprar a casa é similar ao do Brasil. Financiamento, vai trocar a ideia com o banco para ver se você tem crédito, aquela coisa toda. O crédito é um pouco maior. Eu como estrangeiro já tinha um crédito de quase um milhão para comprar uma casa. Tipo, você fala, caralho, em reais seria quase que, sei lá, 800 mil reais, 800 milhões, 800 milhões, não, desculpa, 800 mil reais. 800 milhões tá milionário.
+
+00:06:48.95
+Ben-Hur
+Na conversão atual chega perto, chega perto.
+
+00:06:50.78
+Cássio Pereira
+Então a gente vai colocar um milhão em números exatos para ficar mais fácil. É, então um pouco mais de um milhão reais, exatamente. Mas para arredondar é um milhão. Então é uma casa muito boa e tal e tal. A única particularidade que teve aqui é como o estrangeiro você precisa de uma autorização do governo para poder ser dono de uma terra, ou um terreno, vamos chamar assim. Apartamento não teria problema, no centro da cidade não tem problema apartamento, porque a terra, a terra em que o prédio está construído não é sua.
+
+00:06:53.06
+Marcos Santos
+Ao contrário, porque somoeda vale mais, seria o valor maior no Brasil.
+
+00:07:18.44
+Cássio Pereira
+Você só possui a unidade de apartamento. No caso da casa, não. Você pode demolir a casa e construir outra coisa. Então aquele pedaço de terra é seu. Então você precisa de uma autorização do governo. Aí você manda lá um formulário lá pra capital, blá, blá, blá. Demoram uns cinco meses esse processo. O advogado ajudou a gente e saiu minha permissão sem problema nenhum, comprou uma casa. A casa a gente fez o financiamento junto, pelo banco, paga a parcela mensal. Meio que nada separado, nada diferente do Brasil, eu diria. Exceto por essa...
+
+00:07:47.79
+Cássio Pereira
+Como é que fala? Permissão. Isso, aí a questão do custo. Como eu falei, cara, eu como estrangeiro já estava aqui há um ano, já estava há um ano não, ainda estava há um ano, já tinha um milhão de crédito. Cara, banco nenhum no Brasil, com o mesmo salário que eu tinha lá ou aqui, vai me dar um milhão para financiar a casa. Esquece.
+
+00:07:48.28
+Marcos Santos
+Taxa de juros também, na caso, que é bem mais baixa, né?
+
+00:08:06.23
+Ben-Hur
+Isso pode ter vivido até uns 30 e lá vai pedrada anos no Brasil.
+
+00:08:09.76
+Cássio Pereira
+Exato. Então, esquece. Você não vai ter esse... Ah, vou financiar a casa de um milhão. Ah, não. No caso, a gente deu entrada aqui porque eu tinha minha casa no Brasil. Então, eu vendi, transferi o dinheiro pra cá. Minha esposa tinha a casa dela que vendeu. Então, eu tive uma entrada. Mas uma entrada, sei lá, de 40%, 50%. Então, é uma entrada muito boa. Mas, ainda assim, é quase um milhão de empréstimo. Então, no Brasil, esquece. Não ia ter isso. Já, como você falou, eu moro aí muito tempo com um salário relativamente alto. Histórico bom, enfim.
+
+00:08:36.70
+Cássio Pereira
+Então essa questão da moradia, tu falou, paga água, paga luz, internet, cara, a mesma coisa, exceto pelo fato de que água e luz aqui é trimestral. Então a cada três meses vem conta pra pagar, não é todo mês. Aí a conta vem em três meses, obviamente de uma conta mais alta, mas é uma conta dos três meses passados.
+
+00:08:55.48
+Cássio Pereira
+Então tem até essa diferença só que você precisa acostumar um pouco, não é todo mês que tem uma conta pra pagar. Tem taxa do lixo, algumas cidades do Brasil eu sei que tem isso, onde eu morava não tinha. Você tem uma taxa de lixo pra pagar, porque tem o lixo reciclável. E pegando esse ponto da moradia, tem uma certa diferença aqui também. O lixo, quando eu morava nos mais suficientes da cidade, acho que era três vezes por semana, duas vezes por semana, tinha o lixo, passava o caminho do lixo e o lixo é seletivo. O reciclável é reciclável.
+
+00:09:21.37
+Cássio Pereira
+Recyclável assim, é plástico e papel, cada um num saco diferente e tal. Onde eu moro aqui é só três vezes no mês. No mês. Então você tem que se organizar muito bem com o lixo. Então duas vezes no mês é o lixo bi... é o que a gente fala de lixo orgânico e o lixo mixed, que é o lixo...
+
+00:09:39.84
+Cássio Pereira
+É tudo aquelas coisas que não é orgânico, não é reciclável, tá ligado? É essas porra aí. E uma vez no mês é reciclável. Então, cara, quando o lixo vem eu tenho cinco, seis pacotão gigante aqui de papel, de plástico, garrafa de plástico, enfim.
+
+00:09:53.93
+Cássio Pereira
+Então você tem que se organizar um pouco melhor. Em São Paulo tinha lixo três vezes a semana, dia sim, dia não, tinha lixeiro passando no caminhão, então você não acumulava lixo, etc. Então você tem uma estrutura diferente e tem uma taxa que você paga por isso. Mas vamos lá, resumo, não tem muita diferença de financiar uma casa, do processo burocrático. Obviamente o custo aqui é diferente do Brasil.
+
+00:10:15.62
+Cássio Pereira
+A casa que eu tenho aqui hoje não se compara com a casa no Brasil. Em São Paulo não teria onde eu morava. Talvez numa cidade menor, um pouco mais afastada em outro lugar e sim. E essa questão do governo de ter uma permissão para comprar. Mas em geral eu diria que quase todo mundo é igual. Não sei como é para o Marcos, se quiser comentar, mas aqui acho que é similar.
+
+00:10:33.95
+Marcos Santos
+No meu caso eu sou aluguel, não comprei um móvel ainda, até porque eu nem sei em que cidade eu vou morar ainda no futuro, então tá difícil decidir. Então no caso de aluguel, a gente foi atrás, aqui também tem um esquema, ou você tem um fiador, ou você paga x alugueis ali, no nosso caso foi 2 alugueis de antecedência.
+
+00:10:55.88
+Marcos Santos
+a gente conversou com o dono queria ser um contrato mesmo de aluguel igual no Brasil padrão e a gente por exemplo no nosso caso específico a gente ficou com aluguel congelado por cinco anos então a gente desde que a gente morou a gente ainda pode ficar mais três anos com o mesmo valor de aluguel que é uma vantagem para a gente além disso água a gente não paga é negociado você negocia
+
+00:11:15.90
+Ben-Hur
+Isso é negociado ou padrão? É negociado. Ah, entendi.
+
+00:11:22.11
+Marcos Santos
+mas normalmente dois aninhos ali no mínimo eles congelam tá mais que isso que você negocia além disso a água a gente não paga a água já está incluso no preço aluguel que a gente chama de nebem costem aqui energia elétrica e luz energia elétrica e gás sim a gente paga ali a parte só que tem um esquema aqui como funciona que eles fazem a medição uma vez um ano
+
+00:11:46.15
+Marcos Santos
+Então eu vou pagar todo mês 70 euros de eletricidade. No final do ano os caras vão fazer uma medição. Se eu gastei mais eu tenho que pagar a diferença, se eu gastei menos eles devolvem essa diferença para mim. Então eu não preciso ficar me preocupando todo mês tem um valor diferente. Todo mês é sempre o mesmo valor que eu pago.
+
+00:12:07.48
+Ben-Hur
+E aí só no final do ano, você só tem que estar meio esperto para ter aquela reserva de final do ano, caso você tenha passado o valor da energia.
+
+00:12:16.24
+Marcos Santos
+Exatamente, mas aí é tranquilo, até porque qualquer coisa tem restituição de poste de rede, que você usa e paga isso aí, que foi a mais, então você tem métodos ali, você não fica ferrado.
+
+00:12:26.54
+Marcos Santos
+E gasta também é a mesma coisa, gasta também é uma medição só no ano e no final do ano o cara mede, ó, você gastou mais, você gastou menos, você gastou menos restitui, você gastou mais, você paga. Então, pra gente ser tranquilo que a gente sabe que o ano inteiro é aquele valorzinho que a gente paga, a gente não precisa ficar rebolando, pô, esse mês é o 600 pauta, mês é o 100. Então, é sempre o mesmo valor, é estável, é bem tranquilo.
+
+00:12:47.64
+Marcos Santos
+questão de internet aqui na alemanha a internet não é das melhores tá a gente hoje ainda usa cabeada fibra é muito pouco tanto que eu reclamo pra caramba da internet meu piloto é terrivelmente ruim só que é o que tem não é tão caro é barato a gente paga ridiculamente barato aqui
+
+00:13:06.36
+Marcos Santos
+Só que no caso do Casio é mais fácil de valorizar porque a moeda é muito perto do Brasil. No meu caso, se eu começar a valorizar, o nego vai achar o que está muito alto e o que está muito baixo, por causa da diferença de potencial. Não se converte. Mas assim, vamos falar de mercado, questão de mercado. Hoje o mercado
+
+00:13:20.54
+Ben-Hur
+Se converter não se converte.
+
+00:13:30.52
+Marcos Santos
+mês inteiro de mercado a gente vai ali algumas vezes por semana tá gente não a gente não compra tudo de uma vez até porque não cabe né a gente gasta uma ida 100 euros 150 na outra 200 na outra cinquentinha 100 então depende do mês ali do que a gente quer comer agora por exemplo a gente tá de dieta a gente tá comendo bem menos ali e outras coisas
+
+00:13:51.12
+Marcos Santos
+mas na média de mercado de 400 euros 400 mil euros perto da renda que a gente tem hoje é em torno de 5 a 8% do salário então é um valor baixo perto do brasileiro que gasta muito mais eu gosto de usar esses percentuais é isso
+
+00:14:04.86
+Ben-Hur
+É, se a gente não converter e falar 400 reais, a gente está falando já de um terço do seu salário.
+
+00:14:14.44
+Marcos Santos
+Então quando a gente para para pensar não é tão caro hoje você pega que uma pessoa com salário médio de vão pegar dois mil euros a pessoa consegue ter uma casa legal apartamento legal sei lá um apartamento no centro realmente vai ser mais caro a pessoa pagar pouco mais de 1200 1500 euros mas um pouco mais afastado vai pagar 600 700 euros
+
+00:14:35.45
+Marcos Santos
+Então ele consegue pregar um aluguel, fazer ali um... No meu caso aqui eu compro bastante, eu compro muita besteira também. Uma pessoa controlada vai gastar uns 200 euros em 50 por mês de mercado. E consegue ter um carro também, você vai pagar aí no leasing de um Toyota, por exemplo, num Honda mais básico aí 170, 180 euros. Um Hyundai. Sim.
+
+00:14:54.60
+Ben-Hur
+Muito bom ponto, Marcos. O que é o leasing do carro? O que é isso? Porque é uma coisa que a gente escuta muito pouco no Brasil. No Brasil a gente tem o vou comprar o carro, vou alugar o carro ou vou assinar o carro. A gente tem essas três variações. Vou roubar o carro, a gente não está levando em consideração.
+
+00:15:15.74
+Cássio Pereira
+Vou tomar o carro de alguém também é uma opção. Cara, esse negócio do leasing, se eu puder entrar no meio aí, Marcos, eu lembro que no Brasil tinha isso, eu não sei se tem mais. Eu sei que para empresas tem algumas opções, enfim, mas cara, eu lembro na época que meu pai, eu era moleque, meu pai comprando carro, eu lembro que tinha essas opções, porque o leasing é algo muito mais fácil. Aqui, por exemplo, o que é um leasing? O leasing é como se fosse um financiamento, só que o bem não fica no seu nome.
+
+00:15:17.16
+Marcos Santos
+É uma opção também. Tinha, mas saiu fora. Os caras cancelaram isso aí.
+
+00:15:43.28
+Cássio Pereira
+Então imagina, você faz um financiamento do carro e o carro fica no nome do banco, entendeu? Só que é um juros muito mais baixo, um financiamento é um juros de 5, o leasing é 0.5, é muito pouco, muito pouco.
+
+00:15:51.53
+Marcos Santos
+Eu acho que eu me quiser.
+
+00:15:58.05
+Ben-Hur
+Aqui querendo ou não, o carro vai ficar no teu nome, mas se não pagar ele te tira igual.
+
+00:16:01.82
+Cássio Pereira
+Ele te tira de volta, exatamente. Então assim, só que o leasing tem essa diferença. Por exemplo, eu fiz um leasing de dois anos no meu carro aqui, que a gente tava falando do Volvo e tudo mais. Então eu pago, sei lá, R$1.200, acho, de carro por mês. Cara, R$1.200, vamos lá, R$1.200, como se fosse R$1.200 reais, pra andar com... É, pra andar de carro, pica!
+
+00:16:16.46
+Marcos Santos
+Ah, você ia comprar um HB20 no Brasil. Que o ID, sei lá. É, um DVD2.
+
+00:16:19.96
+Ben-Hur
+era o que eu pagava no HB20, tá vendo? tem quatro anos, quatro anos tá?
+
+00:16:21.44
+Cássio Pereira
+Então, e aí no final de dois anos, o que eu posso fazer? No final de dois anos eu posso ou devolver o carro pra Volvo e pegar um novo, um carro zero e continuar pagando o mesmo valor, ou dependendo do carro pagar um valor mais alto, mas enfim, ou ao final desses dois anos ele abona o que eu já paguei e eu posso comprar o carro. Sacou?
+
+00:16:43.81
+Ben-Hur
+Tá, ele é bem, bem similar. É similar ao modelo que a gente tem hoje de assinatura de carro no Brasil. Sabe, é similar. Sim. Outro pode devolver e não pagar mais nada.
+
+00:16:50.98
+Marcos Santos
+Isso, é bem parecido com assinatura Só que...
+
+00:16:52.70
+Cássio Pereira
+Exato. Nesse período de dois anos, o documento do carro não é um bem que você possui. Ele está no nome do banco. Por isso que, afinal desses dois anos, você pode comprar e ele vai para o seu nome ou não quer comprar, devolve e pega outro. Você troca cada dois anos ou depende do contrato há três anos.
+
+00:17:12.98
+Cássio Pereira
+ou pode devolver e não pagar mais nada. Aí você terminou e começou a usar um aluguel. O tempo que você ficou, você pagou pelo aluguel, aquele dinheiro você perde, entre aspas. Você não perde porque você usou o bem, mas enfim. Também é uma opção. O que vale ressaltar nesse ponto todo é... Cada contrato é diferente. Por exemplo, nesses dois anos você pode ter um limite de quilometragem, 10 mil quilômetros por ano. Então se você passar disso, você tem uma taxa que você paga, ou é sem limite. Então tem umas particularidades. Tem vários carros.
+
+00:17:42.50
+Cássio Pereira
+Você pode fazer direto com o banco, então você pode escolher o modelo de carro, não necessariamente um ou outro, mas tem várias marcas e tal. Quando você tem um emprego, normalmente as empresas têm convênios com algumas que fazem isso. Então a empresa fala, você tem 10 cento de desconto e aí você pode escolher vários carros também. Então tem certas benefícios, vamos dizer assim. Mas acho que a gente fugiu da moradia, né? Vamos voltar para... É verdade.
+
+00:17:51.48
+Ben-Hur
+Ah legal!
+
+00:17:53.85
+Marcos Santos
+você ganha desconto bem legal é que o meu tava aqui junto, tava meio que falando que o cara com dois mil euros tá ali, consegue alugar uma casa fazer alimentação, ter um carro ali na média de 150, 200 para ter um carro mais popular, ou se quiser gastar uns 300, 400 e pega uma Mercedes, uma BMW, Porsche ai ele escolhe
+
+00:18:18.63
+Cássio Pereira
+Acho que uma boa comparação é assim, um cara que ganha 10 mil reais no Brasil, um cara que ganha 2 mil reais no Brasil, eles vivem muito diferente. Exato.
+
+00:18:27.04
+Ben-Hur
+Não, um é pro pobre premium plus e o outro é um fudidazo, o cara vai ter que sobreviver, sobreviver hard, sobreviver muito hard. Você vai viajar mais para outros lugares do mundo.
+
+00:18:38.91
+Cássio Pereira
+E aqui fora, o cara que ganha 10 mil, o cara que ganha 2 mil, eles vivem parecido. Óbvio que o que tem 10 mil, ele vai para um restaurante melhor, ele vai ter coisas melhores, talvez o carro vai viajar mais, mas o que ganha 2 mil, ele também tem um carro bom, porque ele também tem a opção do leasing num carro zero bom, ele tem os mesmos hospitais, as mesmas estruturas, então é esse equilíbrio
+
+00:18:44.28
+Marcos Santos
+Sim. Sim.
+
+00:19:02.02
+Cássio Pereira
+que acho que não tem, a gente não vê o Brasil, a gente vê essa discrepança muito grande entre quem é muito rico ou muito pobre, a classe média. Aqui é quase que todo mundo é igual, óbvio que tem o pessoal mais rico, o pessoal mais pobre, isso é natural, até para uma questão salarial também, quem ganha mais tem mais condições. Exato, aqui tem mais desigualdade, saca?
+
+00:19:18.06
+Marcos Santos
+É, mas aí você vê mais tipo, ah, mais um roupa de marca, é mais tipo, a quantidade de viagem o cara faz no ano, é mais nesse sentido. Não, não.
+
+00:19:25.16
+Ben-Hur
+Sim, mas a questão, pelo que eu percebi até agora, quem tem um salário mais baixo ou mais base, digamos assim, ele não precisa ter três, quatro empregos para conseguir sobreviver, né? Que é o caso que a gente passa no Brasil, né? Tem pessoas aí, dois, três empregos, tipo, trabalha durante a semana durante o dia, de noite vai para um restaurante, vai trabalhar final de semana, porque se não,
+
+00:19:38.97
+Cássio Pereira
+não não não não não não aqui não
+
+00:19:52.93
+Marcos Santos
+Não, aqui não tem essa necessidade. Sim. Mas tem April.
+
+00:19:55.18
+Ben-Hur
+Porque senão ela não sai da estaca zero. Ela não tem a capacidade de sair da estaca zero. Se ela tiver filho, família e coisa assim, então isso se torna quase obrigatório. Porque não dá a conta de pagar as coisas. Sim.
+
+00:20:03.81
+Cássio Pereira
+Sim, é lógico que o cara que ganha menos, ele vai fazer menos extravagâncias, vamos chamar assim. Talvez vai viajar menos, vai dar com o carro mais popular e tal, mas ele tem acesso a isso. O brasileiro não tem acesso. Exato. Exato, o carro popular no Brasil é 50 pau, 80 pau hoje, porra. Não.
+
+00:20:16.73
+Ben-Hur
+Só o fato de falar que ele vai andar com um carro mais popular, isso já elimina mais de 80% da população brasileira.
+
+00:20:29.94
+Marcos Santos
+Não, ele tem tapão que o ID, cara.
+
+00:20:32.06
+Ben-Hur
+80 mil é o carro zero mais barato que a gente tem, mas é meio descartável. Então hoje, carros zeros bonzinhos, a gente vai começar a falar a partir de 100, 110 mil reais, que é algo extremamente inviável, às vezes para classe média.
+
+00:20:38.06
+Cássio Pereira
+Tronca!
+
+00:20:52.26
+Ben-Hur
+é difícil de conseguir atingir. Tipo assim, no Brasil, uma classe média para conseguir um carro zero hoje, ela tem que fazer sacrifícios.
+
+00:21:05.49
+Ben-Hur
+Entende? Acho que essa é a questão. Não é uma coisa tipo, aí, então eu vou pegar um pouco da minha reserva, em vez de viajar três vezes por ano, vou viajar duas e daí vou comprar. Não, não, não. Ela sabe que ela vai ter que escolher, aquilo é fazer uma parte forte da vida dela para conseguir tirar isso aqui. Fora que ela tem que arrancar do bolso mais de 50 mil, o que hoje não é tão simples no Brasil de você ter.
+
+00:21:27.05
+Cássio Pereira
+Ah, não é. Até pegando um...
+
+00:21:30.28
+Marcos Santos
+Uma diferença também é que o leasing você consegue fazer com entrada zero. No Brasil, se não me engano, você tem que dar 30% de entrada no veículo. Independente de ser usado ou ser novo. A que você não precisa despender de dinheiro para fazer um leasing de um carro. Então você vai na constitucional, escolhe e pega.
+
+00:21:39.87
+Cássio Pereira
+Uhum, é. Aqui...
+
+00:21:47.23
+Ben-Hur
+Sai do ponto zero, assim, né? E tu não perde o dinheiro, né?
+
+00:21:49.12
+Cássio Pereira
+Aqui eu peguei o segundo carro agora que eu falei, aí a montadora pediu pra eu dar cinco mil, porque como é carro zero, vai pra fábrica, pedido, aquela coisa toda, é tipo uma reserva, assim, tá ligado? Mas, puta, é cinco mil. Dei cinco mil lá, falei, o carro é meu, daqui eu vou pegar o carro só em março. Aí em março que eu vou decidir, eu quero fazer um lease, eu vou pagar a vista, sei lá. Então, é cinco mil que eu diluí, como se fosse diluído nesse tempo, entendeu? É só pra reservar o carro. Então, mano, assim, não é entrada, não é nada.
+
+00:22:17.21
+Cássio Pereira
+Não perde, vai ser abatido lá na frente, vai ser abatido. Exato. Mas eu queria entrar... A gente começou a falar dessa questão financeira, eu queria destacar um ponto que no Brasil é muito comum e facilita muito as coisas que não tem, tem mas é difícil, que é o famoso parcelamento.
+
+00:22:17.60
+Ben-Hur
+Se você quiser fazer o lead em ele, você vai ganhar 4, 5 meses para o Lisboca. Perfeito. Ah, boa.
+
+00:22:33.15
+Marcos Santos
+Eu até sei se eu vou.
+
+00:22:37.97
+Cássio Pereira
+Aqui eu fui, por exemplo, eu comprei a casa, o banco aprovou o financiamento, eu compro uma casa, aí você tem que imobiliar a casa. Vamos supor que você vai na Casa Bahia da Vida, você vai numa loja qualquer de imóveis, é dez vezes no cartão, seis juros, ou a loja oferece um crédito diário da própria loja, você pega um empréstimo aqui, outro ali, então você tem várias opções de comprar as coisas.
+
+00:23:00.03
+Cássio Pereira
+E você faz, compra lá loja 1 em 10 vezes, compra lá loja 2 em 10 vezes, compra lá loja 3 em 10 vezes. Aqui, como estrangeiro, não tem cartão de crédito. Um ou outro banco que a prova é um limite de 1.000 ou 2.000 conto, tá ligado? Que nem considera essas coisas. E uma ou outra loja, algumas vezes no ano, eles fazem o que eles chamam de HAT zero. HAT é como se fosse a taxa de juros aqui na Polônia.
+
+00:23:14.79
+Ben-Hur
+Pode ser.
+
+00:23:23.32
+Cássio Pereira
+E aí é zero. Aí você vai lá na loja e fala, ó, eu quero comprar aqui, sei lá, uma televisão, um sofá, o que for, né? Aí é 0% mesmo. Você não paga juros e você pode pagar em 10. Depende, né? 7 vezes, 10 vezes, 12 vezes. O máximo é 12 vezes que eu vi aqui. Não vi mais que isso. Na verdade, eu vi uma propaganda no outro dia de 16 vezes.
+
+00:23:43.01
+Cássio Pereira
+Quando eu comprei minha casa, eu fiz meio que parte da mobília nesse esquema. Como você fez um, outro banco não vai te aprovar fazer outro. Você já tem um pendente, você não pode fazer outro. Aí eu tive que comprar a vista, o resto da mobília, e aí foi o que deu. Aí depois que acabou de pagar o primeiro, que foi quase 10 meses, se não me enganar, aí a gente conseguiu fazer outro. Rate zero também, 0% de juros, você faz direto com a loja, aí a loja tem um esquema de aprovar com os bancos, o banco te aprova, você começa a pagar para o banco, como se fosse um financiamento mesmo.
+
+00:24:12.50
+Cássio Pereira
+E aí você compra lá os produtos. Depende de cada loja. Tem loja que fala, para fazer isso é o mínimo de uma compra de 3 mil. Ou é só para eletrônico, ou é só para estofado, ou é só para, sei lá. Então no Brasil você vai em qualquer lugar com cartão de crédito. Cara, não é tão difícil você ter o cartão de crédito hoje com um limitezinho. É de 5 conto, 8, 10, 12, 15, vamos falar aí, em geral. Então você vai numa loja e compra 10 no um, 10 no outro, 10 no outro. Cara, está pagando parcelado para o cartão. Aqui você não tem isso.
+
+00:24:41.87
+Cássio Pereira
+Então aqui você tem que ter um planejamento um pouco maior para ter a grana na mão, ou contar com a sorte de ter essa época aí das lojas que estão fazendo essa oferta de taxa zero e você consegue comprar parcelado. Mas, em geral, não tem isso. Você vai na loja, paga a vista e acabou. É o padrão aqui, você paga a vista. Eita!
+
+00:24:59.16
+Marcos Santos
+Aqui é um pouquinho diferente. Aqui, por exemplo, eu cheguei já com um trabalho fixo, estável, já tava trabalhando, ganhei um salariozinho. O banco me aprovou um cartão com limite mais alto que meu salário já, logo de cara.
+
+00:25:11.99
+Marcos Santos
+E um outro banco me deu o cartão sem limite, uma Max. Tanto que eu liguei lá e pedi pra ir do sem limite. Não. É, mas a vista também é arrombada. Sem limite, mas tem que pagar. Mas o que eu quero falar é... O primeiro banco que me aprovou foi o Commerce Bank, um banco aqui da Alemanha.
+
+00:25:16.32
+Cássio Pereira
+Pô, e presta... presta o cartão aí, cozão! Me fodendo aqui pra comprar as bagulhas vistas e presta o cartão aí!
+
+00:25:29.81
+Ben-Hur
+Como assim que tem que pagar?
+
+00:25:37.31
+Marcos Santos
+Esse banco é o banco, não é geral, é esse banco específico, o cartão de crédito dele permite você parcelar em até 3 vezes. Então se você comprou algo acima de 200 euros, você pode parcelar em até 3 vezes para pagar picado. E não tem nem mitos, você pode fazer 15 compras de 200 euros no dia e parcelar as 15 compras.
+
+00:25:57.33
+Cássio Pereira
+Uhum.
+
+00:25:57.91
+Marcos Santos
+Eu já utilizei aqui para amobilhar a casa, por exemplo, comprei guarda-roupa, financiei em três vezes, comprei sofá também, outras coisas. Então, essas coisas mais caras a gente utilizou e facilitou. Um bagulho de mil euros ali parcelado em 333 euros é muito mais fácil de pagar, né?
+
+00:26:16.78
+Marcos Santos
+E quase todas as lojas aqui, tipo você vai no Ikea, por exemplo. O Ikea é como se fosse uma casa de Bahia, tá? É uma loja cheia de tranqueira lá dentro, móvel, eletrônica, porra toda. E eles têm um cartão onde você, onde permite que você faça esse raten aí, que são parcelas, em até X vezes, com joelhinhos básicos ali bem baixo. Então você tem essas opções em algumas lojas, tá? Não é todas, algumas lojas te permite fazer isso.
+
+00:26:43.64
+Marcos Santos
+Quando eu fui comprar caralhada eletrônica aqui pra casa, eu comprei uma loja chamada Saturni. Nessa Saturni eu consegui parcelar as coisas seis vezes, por exemplo, com a taxa de 1%, foi ridiculamente barato. Então eu consegui parcelar tudo aqui de eletrônica, comprei air fryer, comprei aspirador, comprei boa toda. Não existe aqui. Sim.
+
+00:26:58.59
+Cássio Pereira
+Cara, esse estupro de juros aqui não tem, cara. Talvez no Brasil e Estados Unidos eu não sei como funciona, mas no Brasil isso é um absurdo. Aqui não tem isso, cara. Quando tem juros alguma coisa é tipo isso, é um porcento, um coisinha. Sabe, é um negócio pra falar assim, a gente presteu dinheiro, paga mais, tá ligado? É tipo isso, tá ligado?
+
+00:27:09.50
+Ben-Hur
+Me juros alguma coisa? É isso aí? Sim, só para ativizar. A minha parcial do risco eu vou te cobrar um pouquinho. E...
+
+00:27:21.07
+Marcos Santos
+É, tanto que eu recebo carta aqui, tem um outro banco aqui que manda carta todo dia. Ah, você tem vinte e tantos mil liberados aí pra pagar em trinta e seis meses. Fala, mano, tá louco, eu tô de boa. Os caras mandam, quando você tá trabalhando estável aqui, você tem um salário, os caras te fornecem muito crédito, foi igual o caso. Tipo, o cara tá me fornecendo crédito e eu sou um morador novo aqui. No Brasil eu tinha que chorar pra conseguir crédito, então é foda.
+
+00:27:43.73
+Cássio Pereira
+Isso não estiver na Serasa, já foi.
+
+00:27:48.67
+Ben-Hur
+E uma questão assim, essa parte de...
+
+00:27:54.53
+Ben-Hur
+fazer o fulfillment da casa assim, de comprar os móveis e coisa assim. Os valores para você mobiliar o lugar onde você vai morar. Ele é um valor similar ao Brasil. Vocês acharam mais caro. Lembrando pessoal, sempre vou repetir para quem está escutando. Não se converte. Quando alguém falar isso aqui me custou 300 euros. Lembra que você está ganhando em euro também. Seria, a gente teria, tentaria fazer um equivalente a 300 reais. Ou porcentagem do salário mínimo. É sempre importante mencionar isso. Mas
+
+00:28:23.76
+Ben-Hur
+Como é que foi? Assim, é muito mais caro que o Brasil. É mais ou menos a mesma faixa. Como é que foi isso aí?
+
+00:28:29.41
+Cássio Pereira
+Cara, pra mim, aqui na Polônia, é tudo muito similar, assim. Tipo, é caro o produto importado, essas coisas, é mais caro do que o normal, eu diria. Mas, em geral, os valores são similares, cara. Por exemplo, eu fui comprar um sofá, aí eu cheguei numa loja, uma loja especializada em sofá. Aí tu faz o sofá com o estofado que tu quer, bota a cor que você quer, blá, blá, blá. Ah, quanto que é esse sofá aqui? 15 pau. Caralho, eu quero o sofá, não quero gente sentada nele.
+
+00:28:57.12
+Cássio Pereira
+Aí, pô, 15 pau. Aí eu falei, não, não, não. Tá absurdo um sofá de 15 pau, não sou, né? Aí fomos numa outra loja, uma loja que vende de tudo. Imóveis, e tal, e tal. Aí tinha um sofá lá de dois conto. Um sofá super bom, já com... Eu tenho gato e cachorro, então tinha que ser um sofázinho sem antipédia, aquela porra toda. Pô, um sofá de dois conto, retrátil, automático, que você vai pra frente e pra trás e tal. Então, é isso que eu tô falando. Ah, mas...
+
+00:29:17.72
+Marcos Santos
+Cássio, não é parâmetro. O seu sofá no Brasil custa mais de 15 pau, velho. O sofá dele tem botãozinho elétrico. O bagulho é elétrico. Então... É artesanal.
+
+00:29:25.86
+Ben-Hur
+Ah, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não, não,
+
+00:29:27.58
+Cássio Pereira
+Eu chego aqui por dois contas, tinha o de 15 e tinha o de 2.
+
+00:29:39.06
+Cássio Pereira
+Esse de 15 não tinha nada de especial, mano. Era uma loja que só fazia isso. É aquela história da estrutura, blá, blá, blá. Mas vamos lá, mano. Em geral, olhando nas lojas, tem de tudo, mano. Tem das coisas boas, das coisas ruins. O que não tem aqui... Na verdade, eu não vi ainda, né? Pelo menos eu estou sempre indo nos lugares normais. É coisa pirata, saca? Ah, vou ali comprar um pirata, comprar um falso que é mais barato. Mano, não tem. Ou tem as marcas, ou tem a marca melhor, ou tem a marca pior.
+
+00:30:07.30
+Cássio Pereira
+Mas não tem uma santefigênia, tá ligado? Que vai comprar uns bagulhos e virar tex ou uma loja ali, enfim. Mas os preços, pelo menos na Polônia, eu diria que é tudo muito parecido, mano. Com comida, com móvel, tá? Muito, muito similar ao Brasil, você sabe? Uhum.
+
+00:30:21.64
+Marcos Santos
+Aqui eu acho algumas coisas mais baratas, por exemplo, se eu for no Ikea é mais barato que no Brasil, não tem fato, tanto que eu até zofa que se eu for para o Brasil ela falha as casas de Bahia.
+
+00:30:30.16
+Marcos Santos
+que o Ikea é extremamente barato as coisas tipo quase tudo que eu compro eu vou lá comprar mas tem lojas caras aqui tem igual o caso falou tem loja especializada que eu pago quatro, cinco vezes mais do que eu pago no Ikea pelo mesmo produto qual que é a vantagem aqui que eu não vejo no Brasil aqui o pessoal é muito do do it yourself
+
+00:30:48.86
+Marcos Santos
+Então, por exemplo, eu vou aqui, eu quero comprar só um tampão de mesa e comprar o pé que eu quiser, eu vou lá, compro o tampão e já vem furado, eu compro os pezinhos, compro os parafusos e eu monto na minha casa do jeito que eu quiser, o tamanho que eu quiser. Então, eu consigo personalizar. Eu vou comprar um guarda-roupa, eu posso trocar a porta, comprar uma porta diferente, posso trocar o forro interno. Então, eu posso comprar o mesmo guarda-roupa e você, mas a gente vai ter duas opções diferentes. Você com a porta, puxador, gaveta, internamente também, é tudo muito modular.
+
+00:31:18.54
+Marcos Santos
+Então por mais que seja um preço relativamente pouco mais barato que o Brasil, eu tenho essa modularidade onde eu consigo pegar o meu móvel ali e montar de formas diferentes. Então isso pra mim também conta bastante. No Brasil é desse jeito que o pronto acabou, né? Você não consegue mudar, a não ser que você mande fabricar seu próprio móvel. Mas comprar uma casa de Bahia é daquele jeito que o pronto acabou. Então tem esse lado aqui que eu acho que é uma vantagem também.
+
+00:31:43.80
+Ben-Hur
+Bom ponto que tu trouxe, Marcos. Sobre o do yourself. Aqui no Brasil, a gente depende bastante de serviços. Eletricista, encanador, montador de móveis, jardineiro, enfim, um pedreiro para arrumar alguma coisa na casa, serviços que a gente precisa de uma certa especialização. Como é isso na Europa?
+
+00:32:13.30
+Ben-Hur
+quando você precisa de alguma coisa de um serviço mais lidado para sua casa, por exemplo. Existe a Leroy Merlin aí? Ah, que legal.
+
+00:32:17.70
+Cássio Pereira
+Mano, aqui na Polônia é igual, tem tudo de novo, é igual ao Brasil, a cultura é um pouco diferente, é mais ligada a isso que o Marques falou, faça você mesmo. Então, você vai numa Leroy Merlin da vida aqui ou no... Como é o nome da outra? Não esqueci o nome. Ah, tem Leroy Merlin, igualzinho.
+
+00:32:35.43
+Marcos Santos
+Vezes.
+
+00:32:36.44
+Cássio Pereira
+Tem o Castorama, aqui tem Castorama também. Então você vai no Castorama da vida aqui, tem tipo, tem de tudo e a galera compra muita coisa, muita ferramenta pra cortar em casa, fazer em casa e tal. Eu tipo, mano, eu não sou muito de fazer essas coisas em casa. Eu não vou comprar uma maquita pra cortar um bagulho uma vez na vida, tá ligado? É mais só se contratar um cara que seja mais caro, porque não faz sentido eu comprar aquele negócio. Mas tem o serviço e tudo mais. Qual é o problema? Não tem muita mão de obra.
+
+00:33:02.45
+Cássio Pereira
+Então eu comprei minha casa e você compra a casa construída, mas você precisa fazer o acabamento da casa. Botar piso, pintar, papel de parede, escada. Cara, foi seis meses para terminar a escada, terminar a pintura, porque a mão de obra é muito pouca, muito escassa e os caras estão tudo já trampando.
+
+00:33:19.82
+Cássio Pereira
+Então, os caras largam um projeto para fazer outro, faz projeto paralelito. Então, não é igual no Brasil. Cada esquina tem um pintor, uma área de aluguel. Aqui não, aqui é um pouquinho mais restrito, por ter menos. Então, é mais difícil achar. É mais caro. Mais caro assim, não é? Então, contratar um pintor aqui, o cara cobra X e eu pinto a casa. Aqui você já, opa, puta, vou ter que contratar um pintor.
+
+00:33:41.25
+Cássio Pereira
+Sabe, você já fala, vou ter que desembolsar. Não é um absurdo, mas você sabe que é um pouco mais caro. Mas assim, nada que não tenha, tá ligado? E tava vindo outra coisa na cabeça pra falar sobre isso e fugiu, com relação a mão de obra. É mais caro por ser mais escasso, os caras já estão tudo trampando, mas você não deixa de achar, tá ligado? Você sempre vai achar, e se você quiser fazer você mesmo,
+
+00:33:42.76
+Ben-Hur
+Uh, eu não sei se é uma grana do vôs, né?
+
+00:34:09.22
+Cássio Pereira
+O lugar é propício, vai achar ferramentas, vai achar material, tudo mais, não é um perrengue, tá ligado? Mas tem. Tá em oportunidade, tá em oportunidade.
+
+00:34:15.13
+Ben-Hur
+E para quem quer abandonar, para quem não quer ficar na TI, está aí uma oportunidade.
+
+00:34:16.44
+Marcos Santos
+vamos ver cara tem muito aqui
+
+00:34:21.75
+Cássio Pereira
+Tem muita, cara. Pedreiro e tal, cara. Muita, muita. Porque tá construindo bastante, né? A gente sempre tem uma reforma pra fazer, tal, tal, tal. E mão de obra é muito difícil, cara. Muito difícil achar. Material também, mano. Tipo, ah, eu quero uma escada. Uma escada é metal com madeira. Puto, o cara da madeira, da puta que pariu. A madeira vem, não sei da onde, de outro país, aí tem que esperar, não sei o quê. Cara, São Paulo, você vai em qualquer esquina, você acha uma madeira que você quer, da onde, tá ligado? No máximo, você vai encomendar, vai demorar uma semana.
+
+00:34:48.39
+Cássio Pereira
+Então, eu que sou de São Paulo, eu tenho esse costume de ter tudo muito bate-pronto, assim, sabe? Aqui você fala, puta, um mês, velho, pra chegar um bagulho, para? Pra mim é um absurdo. Mas talvez seja o meu parâmetro de São Paulo, né? É tudo muito mais fácil, né? Enfim. Talvez a outra cidade do Brasil seja mais, seja igual, né? Não sei, mas esse é o meu parâmetro. Mas de qualquer forma você tem, você acha as coisas. Mas é um pouquinho mais caro. A mão de obra de marido de aluguel, pedreiro e tal, é mais caro.
+
+00:35:15.28
+Marcos Santos
+Aqui também, que é a mesma coisa, a gente tem uma dificuldade maior Inclusive aqui para ser eletricista tem que fazer um curso técnico, tirar a certificação para ser eletricista, tá? Não adianta eu vir mexendo na elétrica aqui, você pegar fogo, eu sou responsável pelo fogo do prédio e eu vou tomar uma multa para ser processado e preso Então você tem que contratar um cara ali que tenha certificação, pelo menos essa é a parte elétrica, tá? O restante das coisas assim, eu também sou igual o Cassio, eu não vou comprar uma maquita para usar uma vez na vida ou estar na morte
+
+00:35:44.24
+Marcos Santos
+Mas, por exemplo, eu comprei ferramentas porque a minha casa inteira, por exemplo, o guarda-roupa foi que montei, mesa foi que montei, o sofá foi que montei. Então, muita coisa eu montei. Então, eu tenho muita chave elétrica, muitos bits, tenho martelo, prego, furadeira. É. Tem que ter.
+
+00:35:56.74
+Cássio Pereira
+E vamos lá, vou até fazer um parêntese aqui, desculpa, Marcos. Todo homem que é homem, quem se foda os haters, tem que ter a porra na caixa de ferramenta com o mínimo de coisa lá dentro.
+
+00:36:10.76
+Ben-Hur
+Eu tenho a minha sala de ferramentas. Errei.
+
+00:36:12.99
+Cássio Pereira
+Olha aí, tá vendo? No Brasil eu tinha meu departamento, aqui eu tenho uma caixa mais ou menos, mas enfim, vou montar aos poucos. Então, tinha uma caixa de ferramentas, independendo onde você mora. É um kit de sobrevivência, tem que ter.
+
+00:36:20.15
+Marcos Santos
+é aqui também tem umas caixinhas e ó esse armário aqui atrás eu que montei chegou aqui eu fui montando parafusando tinha uns negócios não é um negócio tão fácil parece um lego
+
+00:36:34.43
+Marcos Santos
+pegboard. Então tudo aqui que não necessitasse de algum especialista fazer eu fui fazendo. Só que ó, o pé elétrico a gente precisou chamar e é escasso. O eletricista demorou quase dois meses pra gente vir aqui em casa. O canador também demora.
+
+00:36:45.76
+Cássio Pereira
+É, encanador, encanador tá mexendo. Minha esposa precisou no salão lá, vira e mexe dá problema no salão lá de cabeleireiro e tal, mano. Aí chama o encanador, aí se o cara é urgente é o cara que cobra mais caro, tal, tal, tal. É padrão. Nossa. É, vou fazer uma chave. É foda.
+
+00:36:47.36
+Ben-Hur
+Caramba!
+
+00:36:57.43
+Marcos Santos
+chaveiro aqui é um absurdo, você precisar de um chaveiro aqui cara, é caro, pode preparar 100, 200 euros aí pro cara só vir cercar sua porta, fazer uma chave, é caro, então esses serviços são caros aqui, enquanto produtos são mais baratos, essa é a relação que eu costumo fazer pro pessoal
+
+00:37:16.85
+Cássio Pereira
+Exato, boa comparação. Fazer uma ligação entre esses dois temas, você falou de moradia e esse de serviço e tal, pelo menos foi um impacto pra mim assim de cara, quando eu morava no apartamento, cara, você entra, sai e tá tudo certo. Quando você muda pra uma casa,
+
+00:37:33.66
+Cássio Pereira
+E a minha casa tem um jardim muito grande, tem um quintal e a rua. Então já tem duas coisas que você tem que fazer na sua vida que eu nunca imaginei que eu ia fazer. A primeira, comprar um cortador de grama. Você tem que cortar grama no seu jardim, a menos que você queira morar na floresta, tá ligado? Então uma vez por semana, agora no inverno não, obviamente, porque vai nevar e tal, mas na primavera, verão, cara, toda semana tem que cortar grama, passar o carrinho pra ficar bonitinho.
+
+00:37:58.71
+Cássio Pereira
+Coisa número um. A dois é a neve. Cara, a neve, mano. La merda blanca. La merda blanca. Para quem nunca viu esse vídeo, procura no YouTube. La merda blanca. Muito engraçado. Cara, a neve assim, você, no meu caso que eu moro na casa, como eu falei, você precisa da permissão para comprar a terra. A rua na frente da sua casa, eu moro, é como se fosse um condomínio, mas não é condomínio, não é fechado nem nada. É uma ruazinha separada e tem as casas todas lá dentro.
+
+00:38:06.72
+Marcos Santos
+Meu carro é tão louco, quando eu fui na casa dele eu cheguei a ver isso.
+
+00:38:28.57
+Cássio Pereira
+A rua na frente da casa é minha propriedade. Então, sei lá, eu tenho 20 metros de frente de casa. Esses 20 metros eu tenho que tirar neve da rua, para os outros carros passarem, para os meus vizinhos, para eu passar, enfim. Então, quando tá nevando, quando tá nevando muito forte, que acumula a mesma neve, acumula de, mano, botar o pé no joelho, assim, você enfiar o pé na neve mesmo, né? Ah, nevou, mano, nevou, tá ligado?
+
+00:38:51.97
+Cássio Pereira
+Aí você compra aquelas pá's, bota o casaco, vai lá na frente e tira a porra da neve. Aí você terminou de tirar e já tá nevando de novo. Então é um saco isso. É legal que assim, o primeiro ano foi legal, depois você começa a ficar irritado, tá ligado? Aí a galera... É legal pra turista e tal, mas no dia a dia é foda. Pra gente que mora aqui nesse lugar...
+
+00:39:07.21
+Ben-Hur
+Vai ver muito bom para o turista, né?
+
+00:39:12.41
+Marcos Santos
+Ah, eu gosto da neve até hoje, velho. Foda-se.
+
+00:39:14.33
+Cássio Pereira
+Eu adoro, eu adoro, mas é um trampo chato. A gente que mora aqui no pessoal da vizinhança que a gente combinou, quando é o inverno a gente faz um rateio, cada um dá uma grana e a gente aluga um trator, aí vem um maluco com o tratorzinho, duas vezes por semana, tratorzão maluco na moral, arranca a neve toda, tá ligado? Aí pô, suave. Mas por exemplo, a minha garagem ela é inclinada, então se eu tiver que o carro dentro da garagem eu não consigo sair.
+
+00:39:35.40
+Cássio Pereira
+Aí tem que raspar a neve pra poder passar o carro, senão não sobe. Vai ficar o barco zoando, o passado veio aqui, atolou na esquina que não conseguia subir. Fui lá com o bagulhinho pra tirar a neve da frente pra ele poder subir com o carro. Aí tem que trocar pneu do carro, tá chegando o inverno, você vai lá, no meu caso eu vou lá na Volvo, fica os pneus lá guardados, você paga lá uma taxa, fica lá guardado, e ó, troca o pneu, aí põe o pneu de inverno, porque senão o carro desliza. Tem que ter o pneu, tipo o Fórmula 1 mesmo, troca o pneu pro inverno, pra neve, volta o pneu do verão.
+
+00:39:48.25
+Marcos Santos
+Lê.
+
+00:39:58.92
+Ben-Hur
+Ahá!
+
+00:40:01.77
+Cássio Pereira
+Então, tem umas rotinas que no Brasil você não tem isso. Você bota o peneu e, cara, você troca quando estiver na roda, tá ligado? Comendo o asfalto. Aqui, não, aqui cada season, né? Trocou do inverno pra primavera, verão, estou no inverno. Primavera, do inverno você tem que trocar.
+
+00:40:18.76
+Cássio Pereira
+você não vai gastar o pneu de inverno que é mais grosso. Então tem umas rotinas aqui, que pelo menos eu em São Paulo só não tinha cortado grama em São Paulo, nem grama tem em São Paulo mais, uma cidade cheia de pedra. Mas talvez queimar no interior seja uma realidade diferente. Neve no Brasil, talvez no sul aí você tenha o pé da experiência, mas nem isso, cara.
+
+00:40:39.44
+Ben-Hur
+Não, não, é raro. A maioria das vezes é... Não vou dizer mentiroso, mas o pessoal fica na expectativa só para atrair turista. Talvez neve, hein? Aí vem todos os turistas para cá. Mas não tem muito mais do que isso, não. Não tem muito mais do que isso, não. Mas olha só, tem uma coisa que a gente comentou de vários esqueminhas aqui, que é conhecimento... É o vício esperto que a gente chama, né? É a expertise que a gente já está.
+
+00:41:06.63
+Ben-Hur
+Vocês, para aprenderem tudo isso, foi na dor ou vocês tiveram algum tipo de consultoria ou ajuda para chegar aí e conhecer como funciona as coisas? É que ter casado já com uma pessoa que...
+
+00:41:18.76
+Cássio Pereira
+Então, no meu caso,
+
+00:41:21.80
+Cássio Pereira
+É, então muita coisa a minha esposa já se vira. Tipo assim, da neve não. Da neve vamos comprar casa, vamos mudar, tal, tal, tal. Aí chegou o inverno, ó, tem que ir lá limpar a neve. O bagulho já uma semana nevando, a neve cobrindo o carro. Ah, agora é que você me fala que tem que tirar essa porra? Tá ligado? Então muita coisa assim, essa parte administrativa, vamos chamar assim, ela sempre, né, vai ter que fazer isso, tem que fazer aquilo, ela sempre me alertava, assim.
+
+00:41:38.32
+Ben-Hur
+Entendi.
+
+00:41:48.00
+Cássio Pereira
+E mesmo que fosse uma surpresa pra mim, é algo que ela sabe resolver, então ela vai e faz, tá ligado? Mas não sei, pro Marco talvez tenha tido mais alguma surpresa, enfim. Uhum.
+
+00:41:56.01
+Marcos Santos
+Aqui não foi tanto não, até porque a gente veio com a Daimler. Como a gente já veio com uma empresa por trás, eles já forneceram uma empresa que deu todas as instruções, ajudou a gente a entrar no documento, ajudou a gente com diversas coisas. Então não foi tanto assim. Foi surpresa tipo assim, negócio de medição de energia. A gente teve uma surpresinha na primeira vez, a gente tem que ficar de olho aqui, monitorar.
+
+00:42:22.44
+Marcos Santos
+Algumas coisas foram surpresas, mas no geral a adaptação foi até tranquila porque a gente teve apoio da empresa nesse ponto. Então não foi tão ruim. Foi bem tranquilinha até.
+
+00:42:31.59
+Cássio Pereira
+Boa. É, é, é.
+
+00:42:35.28
+Ben-Hur
+Entendi, entendi, porque é um dos medos que a gente tem, no momento que a gente quer deixar o Brasil é de chegar e não saber o que fazer. Aquela sensação de, porra, você é um imigrante legal quase.
+
+00:42:41.51
+Marcos Santos
+é um exemplo o carro quando a gente pegou a própria empresa o carro por exemplo quando a gente pegou a própria empresa falou você tem que trocar no inverno trocar de volta a primavera a empresa mesmo onde a gente faz o leasing da mercedes os caras mesmo já mandam quatro pneus de verão se a gente pega o carro no inverno eles mandam de verão para a gente trocar se a gente pega no verão eles mandam de inverno
+
+00:43:05.38
+Marcos Santos
+Os serviços da Liste dão instruções do que você tem que fazer, então você não sofre tanto assim. Às vezes o pessoal sofre e chega aqui todo fodido, pelado, sem ajuda de ninguém, cagado ali e quer tentar alguma coisa a mais. Às vezes não tem nem vista.
+
+00:43:11.99
+Cássio Pereira
+E sabe uma... E sabe uma parada que eu senti também diferente, cara? Eu tenho que virar minha chavinha ainda. Aqui você vai, por exemplo, você bolou o pneu aí do carro. Você vai lá, o cara vai falar, mano, você já tem que comprar, já paga mais, você vai ter os quatro pneus do Inverno, do Verão, sei lá, e depois você troca, tal, tal, tal. Tipo, é o que você precisa.
+
+00:43:40.16
+Cássio Pereira
+se é no Brasil, a gente tem um pouco da cultura diferente, no Brasil o cara vai falar, então mano, já compra 12 pneus aqui, porque não sei o que, e já paga mais uma taxa, porque você vai ter a cor, tá ligado, o cara tá sempre querendo ter uma vantagem, sempre é muito também, mas vamos lá né, então você fica com o pé atrás assim, pô mano, esse cara tá me enganando, esse cara tá tentando tomar vantagem, tá tal, aqui,
+
+00:43:54.39
+Ben-Hur
+Uh-huh.
+
+00:44:02.24
+Cássio Pereira
+Até tem, já vi alguns casos, mas não é o padrão. O padrão é se o cara está te oferecendo o que você precisa ter mesmo, tá ligado? Então você fala, não, você tem a opção de escolha, mas eu fico até desconfiado, eu falei, mano, porque esse cara está muito certo isso aqui, está alguma coisa errada, tá ligado? Então você fica meio tipo assim, o cara está te oferecendo uma coisa, por exemplo, eu fui comprar o carro, o cara falou assim, como é o carro elétrico, o mercado ainda está novo, a gente não sabe como vai ser o mercado de usados depois, vai ser fácil vender, mas fácil fazer leasing, porque depois de dois anos, um ano, dois anos,
+
+00:44:15.90
+Marcos Santos
+É isso também acontece comigo, quero...
+
+00:44:32.23
+Cássio Pereira
+você devolve o carro, se não for, devolve o carro, pega a grana, tal. Ao invés de você pagar o carro à vista. Mesmo que você tenha o dinheiro, não faz sentido o cara falar. Puta, é verdade. Se é no Brasil, às vezes o cara fala, não, paga à vista, porque o cara quer a grana logo. Ou tipo, não... Tá ligado? Então é foda, cara. Tem um pouco disso aqui, é lógico que tem, mas não é em geral... Como eu posso falar?
+
+00:44:45.33
+Ben-Hur
+Vai valorizar, tu vai ver, todo mundo elétrico, né?
+
+00:44:57.77
+Cássio Pereira
+Você não vai com o pé atrás. É certo, o que está rolando é certo. Tem os enganadores, tem em todo lugar. Mas a proporção aqui é bem menor, tá ligado?
+
+00:45:06.32
+Marcos Santos
+É o que eles chamam aqui de cultura da confiança, cara. Foi igual eu falei da outra vez. Aqui os caras deixam as coisas lá de fora do mercado ou de uma loja. Tá lá exposto, se fosse no Brasil já não teria mais nada nas gôndolas, mas lá você pode passar, você pega e entra lá pra poder pagar, igual gasolina. Não tem ninguém te monitorando. Você vai lá, enche seu tanque, você quiser entrar no carro da partida e ir embora, foda-se. Ah não, tem câmera, mas...
+
+00:45:28.46
+Cássio Pereira
+É. Tem, na verdade, aqui não sei como que é na Alemanha, aqui tem câmera, então se você for embora, depois vai uma multa pra você. Mas assim, tipo, tá ligado? Ninguém fica te prendendo ali, você tem a liberdade e tal. É. Cara, pedagem aqui, acho que aí também pode, né, Marcos? Aqui você pode pagar com cartão, não sei se Brasil já pode, né? Aqui tem um ou outro, que eu vou pra algum lugar aqui que tem, mas é raro também. Mas você pode pagar com cartão, por exemplo.
+
+00:45:37.88
+Marcos Santos
+Não é igual ter um frentista lá, cara. Se não tiver um frentista no Brasil, pôs uma falência. Aqui nem tem pedagem. Aqui na Alemanha não tem pedagem, é zero.
+
+00:45:42.43
+Ben-Hur
+Não, já era, já era. Aqui, aqui se você atravessar um estado, por exemplo, você andar 400 quilômetros, você vai pagar aí 5% do salário mínimo, só em pedagem, né? Pera aí, vou. Então é, é bem,
+
+00:45:58.40
+Cássio Pereira
+é só dinheiro em aqui tem um lugar quando eu vou para capital aqui tem um acho que um pedaço que eu pago mas é tipo 12 reais 15 reais
+
+00:46:08.32
+Marcos Santos
+É, aqui, caramba. É, eu pago um pedágio, eu pago dois pedágios pra ir pra casa do Cassio, que é pra na fronteira ali, um pouco antes, um pouco depois da fronteira, é dois pedágios, mas porque eu tô mudando de país mesmo. Mas tirando isso, cara, é o modo da minha mãe inteira sem pedágio. E até tocando esse assunto, uma questão que é bem polêmica, mas o combustível aqui não é tão caro proporcionalmente como é no Brasil, tá?
+
+00:46:38.44
+Marcos Santos
+Então o combustível o pessoal acha, se você converter é obvio que vai ficar mais caro, mas proporcionalmente eu encho o tanque no meu carro com 60 euros. Encho o tanque do carro ali e ando os 500, 600 km. É isso, e anda quantos km? Então quase 600, no Brasil um tanque de carro não rende 600 km, desculpa.
+
+00:46:49.74
+Cássio Pereira
+Eu encho com 250, mãe. É quase 600 de autonomia. 700, mãe. Até pelo trânsito, né? O carro tá ligado ali, tá gastando, né? Ah, verdade.
+
+00:47:01.94
+Ben-Hur
+Não, ele não rende 600 km e custa... Aqui é assim, a gente com tanque padrão consegue andar, pegar um HB20 Sedan mais novo, né? 550 km mais ou menos.
+
+00:47:06.32
+Marcos Santos
+Não só isso, a nossa gasolina é mais pura, a gente usa, a gente tem o E5 e o E10, é no máximo 10% de etanol dentro do nosso combustível aqui. Menor caiu.
+
+00:47:24.17
+Cássio Pereira
+Ixi, morreu, Bayer morreu. Aí, voltou. É foda, cara. Isso é foda, mas enfim.
+
+00:47:26.08
+Ben-Hur
+Alô, voltei, voltei. Mais ou menos 550 quilômetros que você anda, só que porém ele vai te custar mais ou menos 10 a 15% de um salário mínimo.
+
+00:47:39.26
+Marcos Santos
+é então eu estou falando e proporcionalmente é mais barato essa questão de combustível aqui porque foi uma coisa que me assustou porque eu saí do brasil combustível estava chegando em cinco reais né agora eu não sei quanto que tá e aqui eu
+
+00:47:55.01
+Ben-Hur
+Eu tenho mais duas.
+
+00:47:58.03
+Marcos Santos
+é então e aqui eu cheguei aqui o combustível tem aqui o combustível muda por dia até o valor não tem dia que tá muito mais barato cheguei a abastecer aqui é 1,50 litro e já cheguei a abastecer é 1,80 só você tem uma ideia então dependendo do dia muda o pouco valor mas nada exorbitante são centavos ali mas muda e eu já cheguei a abastecer bem barato
+
+00:48:17.30
+Cássio Pereira
+Boa. Deixa eu... Benhur, você tem mais pergunta aí, né? Tá, deixa eu só fazer um...
+
+00:48:28.42
+Cássio Pereira
+Eu quero fazer um comentário, teve um colega que comentou lá no nosso vídeo da parte 1 lá no YouTube, que ele falou que ele já tem passaporte, cidadania europeia, e muita coisa pra ele é mais fácil. Então, por exemplo, o que a gente tinha comentado do work permit, essas coisas, ele não precisa disso, ele só chega, arruma o trampo, começa a se trampar.
+
+00:48:28.54
+Marcos Santos
+Hum.
+
+00:48:28.52
+Ben-Hur
+Obrigado.
+
+00:48:48.49
+Cássio Pereira
+Mas, em geral, todo o resto dá na mesma. Não muda muito. Mas essa questão do trabalho em si, para ele é mais fácil. Eu estou trocando de trabalhar agora, por exemplo, eu preciso esperar o governo me mandar a carta do Work Permit e falar, você está autorizado a trabalhar para a empresa X, aí eu posso começar a trabalhar. Antes disso, eu não posso. É como se eu não tivesse uma CLT, por exemplo. Para ele, não precisa disso, por exemplo. Ele só vai, só assina o contrato e vai. Acaba ficando mais fácil. Uhum.
+
+00:49:11.22
+Marcos Santos
+Falo pela Alemanha, uma vez que você tem o Blue Card deles, você não precisa mais do Work Permit, tá? O Blue Card ali você pode trocar de empresa o momento que você quiser. É, eu tenho aqui. O meu também vai até 2026.
+
+00:49:20.23
+Cássio Pereira
+Polônia... Polônia também, mas não é meu caso, eu não tenho blue card, eu tenho residência temporária ainda. Boa. Ah... Uhum.
+
+00:49:26.21
+Ben-Hur
+Essa era a minha pergunta. Essa era a primeira pergunta, que é... Ok, eu estou saindo do Brasil para ir para a Europa. Como que funcionam os visas? Quais os tipos de permissão que você tem? Por exemplo, até eu poder viver livremente na Europa.
+
+00:49:48.81
+Ben-Hur
+Quais são as histórias?
+
+00:49:50.54
+Cássio Pereira
+Por default, você pode ficar aqui 90 dias como turista. 90 dias. No 91º dia você tem que sair, e aí você pode voltar de novo, sair da União Europeia e voltar. Mas você pode fazer isso duas vezes no período de um ano ou de seis meses, não lembro. Então é como se você pudesse ficar 90 dias duas vezes no ano como turista.
+
+00:50:04.00
+Marcos Santos
+do União Europeia.
+
+00:50:14.17
+Cássio Pereira
+Se você veio sem trampo, chegou aqui como turista, aí você tá arrumando, arrumou um trampo, por exemplo, arrumeu um trampo, aí a empresa vai te dar work permit, tal, tal, tal, nesse período você tem que solicitar a residência. Você vai lá na imigração e fala, ó, consegui o trabalho, tá aqui a permissão de trabalho, agora eu quero um cartão de residência. Esse período você tá aqui legalmente, mas se passou dos 90 dias por acaso, você não pode sair, porque você não vai conseguir voltar.
+
+00:50:41.27
+Cássio Pereira
+Sacou? Se você sai, é como se esses 90 dias estivesse pirado, você não vai conseguir voltar. Você pode ficar legalmente, mas você não pode sair. Não necessariamente. Você pode conseguir...
+
+00:50:45.25
+Ben-Hur
+Ou seja, eu preciso chegar aí, conseguir o trabalho e conseguir a residência antes de 90 dias. Ah, entendi. Entendi.
+
+00:50:54.22
+Marcos Santos
+Não necessariamente, porque assim, se você já está aqui e conseguir o trabalho, você pediu entrada na residência, pode extrapolar os 90, você só não pode sair daqui.
+
+00:51:03.81
+Cássio Pereira
+Você está aqui legalmente, entendeu? Se alguém te pega na rua, você está aqui há seis meses, porque você está esperando, por exemplo, a decisão da permissão. Beleza, você solicitou e deu entrada, então você pode ficar. Você só não pode sair, porque se você sair, você não consegue entrar, você não tem como comprovar que você pode entrar, entendeu? Uhum, uhum, uhum.
+
+00:51:19.04
+Ben-Hur
+Entendi, ou seja, porque, por exemplo, eu tô no meu período aqui dentro, mas digamos assim, cara, acabou os meus 80 dias, 60 dias que eu tinha de dinheiro pra viajar na Europa, tá voltando pro Brasil, mesmo que eu tivesse arrumado o trampo lá, tudo eu não vou conseguir voltar.
+
+00:51:34.65
+Cássio Pereira
+Sem o cartão Residencia, passou desses períodos você não vai conseguir voltar. Você vai ter que esperar os outros 90 dias de novo. Eu sei que tem um range lá, eu não lembro agora, mas... Porque vocês são turistas, entendeu? Exato. Uhum. Eles te dão. Eles te dão. Work Permit eu te dão. Exato. Exato. A empresa faz isso pra você. Exato.
+
+00:51:42.64
+Ben-Hur
+Ou seja, a primeira coisa que eu vou entrar ali vai ser como turista 90 dias. Depois eu vou lá e consigo o emprego. Nesse trampo que eu consegui, eu já ganho esse work permit ou não? Isso vem depois da moradia. Então eu já ganho o work permit no momento que eu conseguir o trabalho. Agora eu preciso ter a moradia. Para isso eu vou lá e solicito a permissão de moradia e aí eu vou ganhar um outro tipo de permissão, não só o work permit como o
+
+00:52:09.31
+Cássio Pereira
+Exato. Aí você tem o residência. Você pode residir aqui.
+
+00:52:15.18
+Ben-Hur
+Então de residência, beleza. E quando fala em residir, estamos falando de compra? Não, né?
+
+00:52:22.28
+Cássio Pereira
+Não, não. Residência. Você pode residir no país, você está morando de aluguel, tudo que faz. Você tem um cartão que você pode residir naquele país. Por exemplo, no meu caso, eu cheguei aqui, eu já tinha o trabalho, eu fiz o work permit, só que eu cheguei e peguei o work permit aqui.
+
+00:52:37.72
+Cássio Pereira
+Como eu estava na pandemia, eu não poderia vir como turista, estava fechado para turista. Então o que eu fiz? A minha esposa na época tinha o esquema que você pode pedir um visto, aí é um visto mesmo, de convidado, onde o cidadão comprova que pode te manter por x tempo e aí você pode vir. Então eu mandei meu passaporte para Curitiba, com essa carta que ela fez aqui do governo, aí que Curitiba fica a embaixada lá da Polônia, aí eu mandei o passaporte, aí eu tinha um visto para ficar mais de 90 dias.
+
+00:53:06.12
+Cássio Pereira
+Então, com esse visto, eu entrei aqui no país, porque estava na pandemia. Então, eu podia ficar mais de 90 dias. Na verdade, era quatro meses, não lembro, acho que era quatro meses. Porque eu também não podia extrapolar, era só quatro meses. O que aconteceu? Nesse período, veio o meu work permit. Aí eu fui na imigração aqui e falei, ó, agora eu tenho uma permissão de trabalho, um contrato de um ano. Então, eu quero um cartão-residência. Aí, nesse período, enquanto eu fazia o meu cartão-residência, venceu esses quatro meses.
+
+00:53:33.70
+Cássio Pereira
+Só que eu não ia sair do país e eu já estava esperando esse processo.
+
+00:53:38.54
+Cássio Pereira
+Como foi a época da guerra com a Ucrânia e tudo mais, então muito ucraniano veio pra cá, então todo o centro de imigração deu prioridade pra quem era refugiado ucraniano. Então o que aconteceu com o meu primeiro cartão de residência, na verdade foi o segundo, demorou muito tempo. Então eu estava aqui legalmente, mas eu não podia sair do país. Se eu saísse, na verdade você pode sair, mas se você sair você não consegue entrar de novo, porque você não consegue justificar que você é residente e tudo mais. Eu tinha meu casamento no Brasil, então eu saí,
+
+00:54:09.26
+Cássio Pereira
+só que eu já tinha um work permit. Então quando eu cheguei no Brasil, eu mandei meu passaporte pro consulado de novo, aí eu peguei um visto agora de um ano, porque eu tinha um permissão e um contrato de trabalho, sacou? Então aí eu consegui voltar pra cá normalmente com esse visto, porque eu podia ficar, e logo que eu cheguei aqui de novo, aí saiu meu cartão residência. O cartão residência você passa na fronteira quantas vezes você quiser, entra e sai quantas vezes você quiser. Porque você tem um cartão falando, ó, essa pessoa pode morar
+
+00:54:34.58
+Cássio Pereira
+de tal país, então ela pode entrar e sair quantas vezes ela quiser, desde que esteja dentro da validade também. O meu agora eu vou vencer ano que vem. É isso aí. É como, imagina, tu entra, chega no aeroporto em Guarulhos, sei lá, chega no aeroporto no Brasil sem passaporte.
+
+00:54:39.60
+Marcos Santos
+Parecido com esse aqui, ó. Não tem nada confidencial, não. Confidencial é do outro lado, tá? Então, dá pra pessoal ver aí. Mas é parecido com esse, um cartão de residência.
+
+00:54:51.94
+Ben-Hur
+Ah, incrível!
+
+00:54:56.51
+Cássio Pereira
+Aí falou, quem é você? Você tem que estar com o passaporte. Você está com o passaporte, você é um cidadão não sei da onde, você pode entrar no país e ficar x tempo, ou pode entrar e sair quanto quiser, não tem limite. No seu caso, você está aí no Brasil, vamos porque você achou um trampo aqui fora, aí do Brasil, a empresa vai te relocar.
+
+00:55:15.18
+Cássio Pereira
+Esse processo de fazer esse Work Permit, eles já fazem para você. É como se fosse emitir a sua CLT. Você não precisa fazer nada. Deu certo o trabalho, eles já vão fazer isso para você. O que você precisa fazer é, veio, assim que chegar, foi o caso da nossa amiga, assim que ela chegou aqui, já vai dar entrada no seu cartão de residência, porque ele pode demorar mais de 3 meses, mais de 90 dias, entendeu? Aí você pode ficar aqui quanto tempo você quiser, desde que você der essa entrada, porque você está legalmente no país, entendeu? Enquanto você está esperando esse processo.
+
+00:55:42.36
+Marcos Santos
+Aqui na Alemanha tem até um a mais que é o visto de procura de emprego. Ele perdura por seis meses e você procura emprego com ele, você arrumou emprego, automaticamente ele é feito upgrade para um visto de trabalho e com isso você já consegue pedir a moradia junto.
+
+00:55:59.75
+Marcos Santos
+Então aqui você tem essa opção também de vir com procura de emprego e também do jeito que o caso falou, né? A empresa consegue um trampo, a empresa vai te bancar, também é um outro jeito de você vir mais tranquilo, né? Você vir mais tranquilo, mais de boa, mas você vir de procura ajuda.
+
+00:56:13.89
+Cássio Pereira
+Melhor disso tudo é quando você chega... Eu vou para o Brasil agora. Quando eu voltar, eu chego no aeroporto da Europa, o primeiro aeroporto que você faz check-in, a conexão e tal, você entrega o passaporte. Normalmente eles perguntam para onde você vai, quanto tempo você vai ficar, o que você vai fazer, aquela história. Cara, você entrega o passaporte e o cartão, entrega o passaporte e o cartão, o cara vai socar em base, olha para a sua cara e sai. Você é simplesmente um morador, você pode trafegar ilimitado, entendeu? É isso.
+
+00:56:28.54
+Marcos Santos
+No nosso caso é só entregar. Uma coisa importante também, por exemplo, no meu caso eu tenho visto até 2026.
+
+00:56:44.43
+Marcos Santos
+O visto ok me proporcionaram por 4 anos. De 22 a 26 eu tinha um visto pra morar aqui. Em 26 eu vou ter que fazer a renovação. Provavelmente esse novo visto não vai ter uma data final. Se eu tiver empregado, óbvio, tudo certinho.
+
+00:57:00.21
+Marcos Santos
+Então esse primeiro visto tem um período que é justamente pra saber se você vai trabalhar, se você não vai ser um vagabundo aqui que só vai comer dinheiro do governo. E o segundo, você tem esse, provavelmente essa data limite já vai ser estendida ou nem vai ter, né? E se você conseguir tirar a cidadania aqui na Alemanha, são no mínimo quatro anos, se não me engano, você pode dar entrada na cidadania, onde você faz uma prova, você tem que ter um nível mínimo de alemão e com isso você ganha o passaporte, aí esquece, aí você faz o que quiser de sua vida aqui dentro, na União Europeia no geral.
+
+00:57:30.57
+Cássio Pereira
+Aqui difere um pouquinho. Aqui são sete anos para você fazer essa prova e tudo mais.
+
+00:57:35.14
+Cássio Pereira
+Mas eu, como sou casado agora com o polonesa, a partir do meu próximo cartão residência, aí eu peço um sem data de inspiração. Porque eu já sou casado, então posso ter a residência permanente. Hoje eu tenho a residência temporária. Sacou? Isso, exato. E aí?
+
+00:57:50.28
+Ben-Hur
+Ah, perfeito, perfeito, porque o que acontece, ou seja, existem diversas fases até tu poder viver de forma indefinida
+
+00:58:01.44
+Ben-Hur
+no país, né? Não é tipo, ah, conseguir um trabalho, não. Perfeito. Ou seja, mas tu ainda não é cidadão.
+
+00:58:03.83
+Marcos Santos
+Sim, era meu caso. Terei que voltar em 26.
+
+00:58:04.82
+Cássio Pereira
+Não, não, não. E aí cada país tem a sua regra. Aqui na Polônia, eu tenho que estar aqui sete anos, fazer essa prova, aí eu sou um cidadão, aí eu posso ter um passaporte polonês, aí é outra história. Sacou? Mas por ser casado com um polonês, eu já posso dar entrada na minha residência permanente, ou seja, eu posso morar aqui o resto da minha vida. Mas eu não vou votar, mas eu não vou ter um passaporte polonês, entendeu?
+
+00:58:30.79
+Ben-Hur
+E como é que ficou as questões brasileiras de vocês com relação a isso? Porque imagina que no momento que você pega uma cidadania, você tem dupla cidadania ou você abdica da brasileira? Abdicar, né? Porque o que acontece, tá? Tem algumas coisas que eu ainda não entendo como funciona. Que é, por exemplo,
+
+00:58:44.65
+Cássio Pereira
+Não, você tem duas. Eu acho que tem uma opção de você... Aliás, eu nem sei se tem essa opção de você abdicar, mas no caso você tem as duas. Você vai ficar com as duas. Uhum. Uhum. Sim.
+
+00:58:59.55
+Ben-Hur
+Aqui no Brasil tem a aposentadoria brasileira, mas ela também implica numa contribuição obrigatória. Vocês ainda continuam pagando alguma coisa no Brasil, estando morando na Europa ou não? Como funciona isso?
+
+00:59:13.51
+Cássio Pereira
+Isso é um conflito pra caralho pra muita gente. Uma coisa é a sua cidadania, onde você tá morando e tal. Outra coisa é o que eu chamo de residência fiscal. O que que funciona isso? Então, por exemplo, no meu caso eu ainda tenho empresa no Brasil, ainda tenho renda no Brasil e tal, então eu não vou pra Receita Federal e falo, ó, eu não moro mais no Brasil.
+
+00:59:33.02
+Cássio Pereira
+Você faz o que eles chamam de declaração de saída definitiva. Logo, você não precisa mais declarar imposto de renda, você saiu fisicamente do país. Obviamente fisicamente também, mas você saiu do país. Então você não precisa declarar para fazer mais nada. Consequentemente, você também não pode ter conta em banco, é muito restrito. Se você tem é muito restrito, você não pode movimentar, você não vota mais. Tem uma série de coisinhas ali.
+
+00:59:37.79
+Ben-Hur
+E aí E aí
+
+00:59:53.93
+Cássio Pereira
+No meu caso eu não fiz isso, porque eu tenho, como eu falei, eu ainda tenho um negócio no Brasil, movimento de dinheiro e tal, então eu não fiz isso. Então uma coisa é uma coisa, outra coisa é outra coisa, e vice-versa. Eu moro aqui, mas não tenho residência no Brasil, apesar de ter endereço no Brasil, mas eu não moro no Brasil fisicamente, mas eu tenho, eu ainda declaro que pode render normalmente, tenho renda normalmente, movimento grande normalmente, entendeu? Inclusive dependendo da situação, você declara nos dois países e paga nos dois países. Se os dois países não têm um sistema de colaboração internacional,
+
+01:00:23.85
+Cássio Pereira
+É como se, por exemplo, o salário que eu ganho aqui, o Brasil me taxa. Ou o salário que eu ganho no Brasil, aqui é só taxado, é o que eles chamam de taxação dupla. Isso, às vezes, dá muito problema, então tem que tomar cuidado com o país que você vai, como que você faz, tal, tal, tal. Porque, por exemplo, eu estou trabalhando aqui, e o Brasil considera que isso é uma renda, normalmente é uma renda, então eles vão me taxar também. Entendeu? Isso é muito crítico, porque pode dar um monte de merda,
+
+01:00:45.69
+Ben-Hur
+Ah, cara, isso é um ponto muito importante.
+
+01:00:50.57
+Marcos Santos
+É, eu tô na mesma situação do caso, gente. Sim.
+
+01:00:52.57
+Cássio Pereira
+Isso pode dar um monte de merda. No meu caso eu declaro aqui normalmente, declaro no Brasil normalmente, mas tem que tomar cuidado como é feito isso. O ideal, qual é o mundo ideal? Se você saiu fora, faz a saída definitiva no Brasil, vai na receita, faz lá a declaração, saída definitiva, acabou. Você continuou cidadão, você vai ter o seu CPF e tal, mas fiscalmente você não deve nada no Brasil, ou qualquer outro país que você seja cidadão.
+
+01:01:16.14
+Ben-Hur
+Perfeito, claro, porque o que acontece? No momento que tu faz a saída definitiva de lá, né? Tem que lembrar que se tu precisar voltar, imagina que também vai ter um processo de reentrada, né? Entendi. Entendi.
+
+01:01:26.58
+Cássio Pereira
+É, tu... Tu... É, não, pra entrar, você vai entrar no país normal, pega o avião e vai, não tem... Você é um cidadão, ponto. Mas você quer abrir conta, quer não sei o quê, tá? Isso vai ter... Vai ser complicado, entendeu? Fiscalmente é complicado. Sacou? Mas entrar e sair do país, isso não muda, não. No Brasil não muda nada. Você é um cidadão normal, você tem o passaporte normal, não muda nada. É... É isso que não...
+
+01:01:46.42
+Marcos Santos
+Sim, mas complica se você quiser comprar uma casa, quiser fazer movimentação, fazer câmbio de moeda, aí você tá ferrado, você vai ter dificuldade.
+
+01:01:56.14
+Cássio Pereira
+É, você não consegue movimentar a grana, mas, em geral, sair e entrar do país não muda nada. É, no meu caso eu não posso mesmo fazer, como eu falei, eu tenho uma empresa no Brasil que ainda gera renda, eu tenho salário e tal, eu não posso fazer. Se eu fizer, acaba tudo isso, eu não tenho como, né? Então, eu não consigo. Uhum, uhum.
+
+01:01:59.41
+Ben-Hur
+Ela é uma decisão que tem que ser muito pensada, né? Sim, aí tem que conviver. Entendi.
+
+01:02:15.95
+Marcos Santos
+É, meu caso também, eu ainda trabalho pra lá, ainda tenho residência, então pra mim ainda também não dá pra fazer isso agora, né. Boa!
+
+01:02:28.08
+Cássio Pereira
+Boa!
+
+01:02:29.39
+Ben-Hur
+Por agora, sim. Agora, esse ponto realmente da parte financeira, dos salários mistos e tal, isso aí, me pegou no contrapé. Eu não tinha nem ideia dessa tributação aí.
+
+01:02:40.12
+Cássio Pereira
+Boa. Tem que tomar cuidado com os países. Eu sei que Brasil e Polônia, por exemplo, tem essa tal dessa colaboração, então você pode trabalhar nos dois. Tem que tomar uns cuidados, tá ligado? Por exemplo, o meu salário no Brasil, ele vem do lucro da empresa. Então é um não tributável. Eu declaro, mas eu não pago taxa em cima disso.
+
+01:02:46.44
+Marcos Santos
+Que nada mais, também.
+
+01:02:59.38
+Ben-Hur
+Mm-hmm. Saquei.
+
+01:02:59.39
+Cássio Pereira
+Então me ajuda um pouco, tá ligado? Não é como se eu sou seliteiro no Brasil, por exemplo, sabe? Então tem umas facilidades, mas tem que tomar muito cuidado com isso. Às vezes a pessoa contrata contador, advogado para ajudar, porque é um pouco confuso. Mas em geral, se você vai largar tudo e ir embora, mano, faz a tal da saída definitiva, você faz online a declaração, tal, tal, tal. Você não vai fechar conta em banco, tal, tal. Você até pode ter a conta no banco.
+
+01:03:22.38
+Cássio Pereira
+Mas essa conta fica monitorada, você não pode ficar movimentando dinheiro, tem uns limites muito baixos e tal, tem uma série de restrições. Porque, literalmente, você saiu, você não vai ficar movimentando dinheiro no país. Mas o jeito é o mais fácil de você fazer. Mas mesmo você vai manter os dois, é só tomar cuidado com o país que você está indo e vai ficar tudo certo. Boa.
+
+01:03:41.75
+Ben-Hur
+Show, excelente, excelente, tá? Já girou bastante dúvidas aqui. Até mesmo o pessoal que estiver escutando, que estiver com mais dúvidas ou alguma dúvida diferente, deixa nos comentários, né? A gente vai comentando aí em off, né? Mas...
+
+01:04:00.06
+Cássio Pereira
+Boa, boa. Mande perguntas, mandem perguntas que a gente, a gente mantém nos comentários, pelo menos. Fala, Marcos.
+
+01:04:06.24
+Marcos Santos
+Não, eu queria comentar uma coisa também que eu acho que é interessante para quem está pensando em vir em questão de emprego, que assim, vaga tem bastante. Você tem que só saber se colocar na sua posição correta, né? Você é junior, pleno ou sênior e também saber escolher ali a localidade correta. Por exemplo, eu moro no sul da Alemanha.
+
+01:04:27.11
+Marcos Santos
+O sul da Alemanha você vai ter mais vagas voltadas a montadoras. Você vai ter a BMW aqui no sul, você vai ter a Mercedes, você vai ter a Volkswagen, você vai ter a Porsche. Então aqui no sul é mais uma área de montadoras. O lado norte é um lado onde você vai ter mais empregos de escritório.
+
+01:04:45.88
+Marcos Santos
+Então você tem também saber qual região que você quer ir ali, o que que você almeja, né? Igual eu não vim pra cá procurando uma empresa grande, todas as empresas que eu fiz são todas empresas menores.
+
+01:04:46.51
+Cássio Pereira
+Financeiro, não é? Então...
+
+01:04:57.30
+Marcos Santos
+Não entrei em nenhuma empresa de grande nome. Então eu trabalho mais para startups até porque desde o Brasil já estava fazendo isso. Já não estava querendo trabalhar para grandes corporações. Estava procurando startups, outros tipos de trabalho. Então você tem que saber também o que você quer para você saber a região correta para você morar. Para você não morar 600 km do seu local de trabalho, que tem local que você vai ter que ir híbrido. É.
+
+01:05:19.70
+Cássio Pereira
+É, boa. Tudo bem que tem essa questão também, né? Seiscentos quilômetros aqui, por exemplo, daqui pra capital, são três horas de trem aonde eu moro. É três horas num trem que eu posso ir no trem ter um vagão de restaurante, eu tenho a mesinha pra trampar, eu abro meu notebook dentro do trem, eu trabalho, eu não vou abrir o notebook no trem, vai ter um nego gozando no meu ombro, o outro com a marmita socando na minha cara, né?
+
+01:05:29.05
+Marcos Santos
+É. Trabalhando, cara. Todo mundo sentadinho, escalado bom, cara, é bom. Igual eu vou ter que pegar agora o trem domingo. Vou sentadinho lá trabalhando.
+
+01:05:49.82
+Cássio Pereira
+Então esses... cara, esses... como é que eu posso dizer?
+
+01:05:58.68
+Cássio Pereira
+esses arredores do dia a dia, isso é muito diferente do Brasil, cara. Isso é muito foda, velho. Então, a qualidade que você tem quando você compara isso aqui é muito incomparável, saca? Paga mais imposto, mas cara, eu ando de carro, a manutenção do carro aqui é trocar pneu, óleo e sei lá, o que mais? O que gasta no carro. No Brasil você tem cada
+
+01:06:21.27
+Ben-Hur
+do Brasil.
+
+01:06:21.60
+Marcos Santos
+Nem isso, no Leezen já tá inclusa.
+
+01:06:24.08
+Cássio Pereira
+No Brasil a cada ano você tem que olhar a suspensão porque a porra da rua é tudo cagada. Aqui as ruas é tudo um tapete.
+
+01:06:35.96
+Cássio Pereira
+Esses gastos que você tem extra no dia a dia no Brasil, ou preocupações, vamos falar assim, preocupações, aqui você não tem. Aqui você tem uma paz que você não sabia. Cara, não tem motoqueiro pra todo lado. Eu sou de São Paulo, né? Aqui você olha e começa a falar, cara, não tem motoqueiro pra todo lado. Ah, não me incomoda. Cara, quando você não tem, você vê que te incomodava. Aí quando você volta, incomodava pra caramba. Exato. Puta, eu vou pegar o bus...
+
+01:06:54.92
+Marcos Santos
+incomodava pra carai, principalmente o corredor ficar liberando o corredor para o motoqueiro é uma coisa que eu não acostumo mais continuei
+
+01:07:03.98
+Cássio Pereira
+Então, aqui eu falo, se eu for de transporte, onde eu moro para o escritório hoje, de transporte eu vou gastar uma hora, 45 minutos, uma hora. Eu vou pegar um ônibus, onde eu vou sentado, no ar-condicionado ou no aquecedor, dependendo da época do ano, vou sentadinho, bonitinho, vou pegar o tram, depois bonitinho, na porta do trampo, uma hora, 45 minutos. O mesmo percurso em São Paulo eu já gastei três horas.
+
+01:07:25.23
+Cássio Pereira
+no ônibus lotado, onde eu ia em pé, eu não conseguia nem ler o livro, espera dez metros para poder passar, então todo esse, não sei nem como chama isso, infraestrutura, mas todo esse ecossistema, aqui você vê que é diferente, aquela qualidade de vida que você fala, caramba, às vezes são coisas simples,
+
+01:07:46.70
+Cássio Pereira
+que a gente não tem acesso às vezes no Brasil, ou dependendo do contexto que você vive, que aqui fora você tem. Esse é um, por exemplo, para mim o trânsito é um negócio absurdo, transporte lotado é um negócio para mim absurdo, demorar três horas para você andar vinte quilômetros é um negócio absurdo, e quanto que aqui em meia hora eu resolvo. Exato.
+
+01:08:00.40
+Ben-Hur
+é perigoso as ruas são perigosas não consegue se sentir bem caminhando fora de casa eu acho que é o pior de tudo que a gente tem aqui.
+
+01:08:07.41
+Cássio Pereira
+Exato. Exato. Então aqui, cara, aqui... Ah, uma coisa que a gente não comentou, né? Ter filhos. Acho que é uma parte legal pra gente comentar.
+
+01:08:15.85
+Marcos Santos
+Cara... Boa. Boa, isso é um boa.
+
+01:08:20.18
+Cássio Pereira
+escola, educação em geral já é melhor. Ah, o que é melhor, Cassio? Cara, é melhor assim, você tem inglês, então já é dois idiomas de cara, no Brasil não necessariamente assim, você vai ter isso na escola particular às vezes, e aqui já tem na escola pública. O particular daqui, por exemplo, minha filha tá numa creche particular, que eu gasto, sei lá, dois pau. O governo reembolsa mil, então eu pago mil. Uma creche que ela tem inglês, obviamente polonês e espanhol.
+
+01:08:48.08
+Cássio Pereira
+Mano, ela já fala os três idiomas, tudo bem que eu já falo português com ela, a mãe fala polonês, a gente fala inglês em casa, então acaba facilitando. Mas todo mundo já tem isso na creche, saca? O governo pra cada filha, aqui na Polônia, né? Cada filha que você tem, o governo te dá, não sei se é 800 ou é 1000, de ajuda de custo.
+
+01:09:05.48
+Cássio Pereira
+só para você ter o filho. Você tem três filhos, três mil, quatro filhos, quatro mil e assim por diante. Não tem limite. Limite é a quantidade de filho que você tem. Tanto que é uma discussão. Muita gente fala que o garoto faz filho porque se tiver oito filhos, você dê oito pau por mês. Não precisa mais trampar.
+
+01:09:22.52
+Cássio Pereira
+Você vai cinco filhos e cinco pau por mês. Só por ter um filho você não precisa mais trampar entre aspas. Lógico que você tem todo... Mas tem umas discussões assim. Então, você tem uma certa auxílio aqui para a questão de filho. A cidade, por exemplo, a Polônia é muito conservadora, muito católica, muito família. Então, tem muito incentivo para isso. Cara, todo mundo tem criança para tudo que é lado. Loja de brinquedo, a estrutura de escola, de andar na rua com carrinho. Então, essa estrutura toda é muito boa.
+
+01:09:24.53
+Marcos Santos
+Um detalhe.
+
+01:09:48.64
+Cássio Pereira
+Cara, você andar no centro de São Paulo com carne de bebê, mano, se você der sorte de sair e voltar com o mesmo bebê, né, ninguém trocou, já...
+
+01:09:57.38
+Cássio Pereira
+Já é uma bênção, tá ligado? É lucro já, né? Então você tem umas coisas assim, aí tu falou da questão da segurança. Cara, eu vou pro Brasil todo ano de férias, né? O ano passado fica minha filha pela primeira vez, ano que vem eu tô indo de novo, mas eu fico um pé atrás, mano, é bala perdida, é um tiroteio, é um nego louco tretando o trânsito, você não sabe. Aqui, velho, aqui você simplesmente não pensa nessas coisas.
+
+01:09:58.34
+Marcos Santos
+Já é lucro já, cara.
+
+01:10:21.76
+Cássio Pereira
+Aqui o cuidado é tipo, mano, será que tem um... Nesses dias teve alerta aqui de pedófilo, né? Que os caras ficam observando as crianças no parque, aí saiu na notícia e tal. Isso tem em qualquer lugar. Mas assim, sabe, não é igual no Brasil que você tem... É, mas eu digo assim, no Brasil você tem tanto risco... Uhum, uhum.
+
+01:10:34.94
+Marcos Santos
+Mas o alerta é muito maior, isso que tem que chamar a atenção. No Brasil é tão comum, é banal já.
+
+01:10:38.93
+Ben-Hur
+Aí você disse que teve um alerta, né? Aqui o alerta só vai aparecer depois do terceiro, quarto, quinto caso estourado já, entendeu? O pessoal vai começar a trocar. É o post, então não opressa.
+
+01:10:51.75
+Cássio Pereira
+Aqui no Brasil não tem nada de alerta, né? Olha, morreu, né? Já foi, né? Tipo... É, então... Cara, isso é exatamente esse ponto da segurança, da estrutura ao redor, que me faz falar, cara, não vou voltar. Ah, eu prefiro o clima do Brasil, prefiro. As praias mais bonitas, é. A comida é melhor, é. Eu nem discuto isso. Mas eu não vou ser estuprado, eu não vou tomar um tiro, eu não vou botar minha família em risco, tá ligado? Aqui, sem falar do conforto e tudo mais. Então, pra mim,
+
+01:11:21.42
+Cássio Pereira
+Essa questão de filhos. E vai vir o segundo agora. A esposa está grávida de novo. Vai vir o segundo ou a segunda. Chutei é gol. Vai vir o segundo agora? Como diz o ditado, só joga sem chuteira. Só joga no campo descalço.
+
+01:11:26.03
+Ben-Hur
+Vamos! Vamos! Parabéns! Vamos! Vamos!
+
+01:11:27.63
+Marcos Santos
+Parabéns. Vou poupar o logo aí. Deixar dada uma minhoca, né, velho?
+
+01:11:47.38
+Cássio Pereira
+Então, vai vir o segundo agora. Então você fala, cara, voltar para o Brasil com essas condições, assim, com bebê, criança pequena, tal, é muito difícil, cara. É muito difícil, né? Então é... E preocupações, né?
+
+01:11:54.63
+Ben-Hur
+E o Brasil não te proporciona a capacidade de você viver bem com uma família sem ter muitos sacrifícios. Eu acho que o Brasil é um país de sacrifícios. Você tem que estar o tempo inteiro fazendo muitos sacrifícios para viver.
+
+01:12:18.86
+Cássio Pereira
+É a história do sobreviver. Sobreviveram, né? 40% e tal.
+
+01:12:20.95
+Ben-Hur
+É, o Brasil é um país de sobrevivência, a gente agora vai partindo. Você já chegou na maior quantidade de impostos do mundo. Lembrando, impostos também comparados com retorno, na qual a gente não tem.
+
+01:12:37.11
+Ben-Hur
+Esses dias surgiu uma notícia, sabe que quando você é demitido sem justa causa, você ganha uma multa de FGTS de 40%, entrou um esquema que eles queriam que essa multa não fosse mais paga para o funcionário, que fosse uma multa paga para o governo. O governo aqui está terrível, estão fazendo de tudo para conseguir dinheiro de todos os lados porque estão quebrados, o governo mais quebrado ali.
+
+01:12:55.64
+Cássio Pereira
+Auuu!
+
+01:12:56.32
+Marcos Santos
+O que?
+
+01:13:05.48
+Ben-Hur
+Então é um país continental e uma potência gigantesca. A gente tem um problema muito grande de governança e política aqui no Brasil. Então a América do Sul em si é um país politicamente complexo. É um país, é um continente politicamente destruído e que vai demorar muito para se reerguer. A gente tem uma cultura
+
+01:13:33.75
+Ben-Hur
+terrível de ganhar vantagem. E isso é, não só externo, como internamente também. É o país de tirar vantagem. Aqui no Brasil é o país de ter poder, se sentir mais poderoso que os outros.
+
+01:13:52.09
+Cássio Pereira
+O status, construto status.
+
+01:13:55.01
+Ben-Hur
+Exato. Então, assim, a gente tem questão muito de corrupção por todos os lados, né? A gente sabe todas as entidades que a gente tem aqui. Até eu estava comentando esses dias, né? Porque tem a questão dos concursos aqui também, né? Não quero entrar muito suciado porque ele é muito complexo. Por exemplo, tinha um cara aqui na minha cidade que ele passou num concurso e ele era pago exclusivamente para ficar na porta de um lugar te entregando uma fichinha.
+
+01:14:09.00
+Cássio Pereira
+Uhum, uhum. Uhum. Exato. Uhum.
+
+01:14:20.38
+Ben-Hur
+Entendeu? Saca? Ele só fazia isso. Ele ficava sentado na porta entregando a ficha de atendimento. Então, a gente tem um custo muito alto, uma máquina muito alta em que está começando a... Ele antes tirava sangue, agora está começando a comer a carne já para conseguir se manter funcionando.
+
+01:14:39.85
+Cássio Pereira
+Eu nunca aproveitar essa piada que tu fez com o Grande Arito Ledo, que faleceu, né cara, recentemente aí. Eu lembro que ele contou uma piada que ele fala assim, os caras fizeram um estudo, cara, isso foi em 94, fizeram um estudo no Brasil aqui e o cara falou, meu, eu quero uma visão otimista e uma visão pessimista. Pô cara, então vamos lá, senhor presidente, a visão otimista é que daqui cinco anos o povo vai estar comendo merda.
+
+01:15:06.90
+Cássio Pereira
+Não, cara, mas como assim? Essa é a visão otimista e a pessimista. Cara, a pessimista é que a merda não vai dar pra todo mundo. É tipo isso aí que tu falou, Daniel. O cara tá comendo a carne já, tá ligado?
+
+01:15:20.70
+Ben-Hur
+É extremamente complicado, sabe? É extremamente complicado e isso tem afetado de forma... No Brasil não existe emprego CLT que te pague bem o suficiente a ponto de você se sentir confortável.
+
+01:15:39.97
+Cássio Pereira
+É. E esse bagulho de estabilidade, essas paradas, pra mim é tudo balela, velho. Tudo balela isso aí. A estabilidade, eu diria que a estabilidade tá em você. Se é um bom profissional, sabe que vai arrumar trampo em qualquer lugar, beleza. Você é a estabilidade. Mas dependendo da empresa e tal, esquece, cara. Sim. Sim.
+
+01:15:40.67
+Ben-Hur
+Entendeu a porra? Sente bem. Não, não, não, essa habilidade ela não existe, ela nunca existe, ela não existe, né, ela não existe, porque isso é isso.
+
+01:15:44.62
+Marcos Santos
+É a balela que era. Assim.
+
+01:15:58.80
+Ben-Hur
+E se você não conseguir, você vai dar um jeito de arrumar alguma coisa para fazer. Entende? Então, de fato, e aqui no Brasil hoje, as nossas perspectivas são de... Vivemos mais um dia. Essa é a nossa perspectiva, sabe? Temos.
+
+01:16:13.27
+Cássio Pereira
+É, cara, olha aí. Cara, tem mais cinco minutos? Eu queria botar um outro tópico aqui que acho que é importante. Você ia falar alguma coisa, né, Marcos? Boa, boa palavra, velho. Boa. Boa palavra. Você dá aquela respirada, você fala, caramba.
+
+01:16:22.36
+Marcos Santos
+Eu só ia comentar isso aí que o Bruno tá falando, que é uma coisa que eu senti muito aqui, cara, eu senti alívio. É algo que é difícil de expressar, mas senti alívio.
+
+01:16:35.90
+Marcos Santos
+Então, é, dá respirado, você fala, pô, uma coisa que assim, eu nunca imaginei, no Brasil a gente fazia uma viagem internacional, sei lá, a cada cinco, dez anos. Aqui, literalmente, duas vezes no ano eu consigo fazer uma viagem internacional. Vou pra Polônia, que é outro país, vou pra Inglaterra, ou às vezes vou pro Brasil, ou pra outro lugar. No Brasil é impossível. O dinheiro não dá. É. É.
+
+01:16:57.96
+Cássio Pereira
+Cara, esse ano... Olha só aqui. Você falou agora, isso eu não tinha pensado. Esse ano, cara, esse ano eu já fiz quatro aqui, agora você... E eu vou fazer mais um. Eu falei, caralho, velho, eu tô me sentindo um milionário agora. E, tipo, tudo coisa assim. E tudo coisa simples, assim. Fui ali, gastei o quê? 500 mil conto. Sabe, tipo, nada absurdo, assim, nada... Fui pra Dubai... Fui pra... Fui pra...
+
+01:17:00.69
+Ben-Hur
+no Brasil você não consegue fazer isso por ano, viagem para dentro do Brasil. Não, 500 mil. 500 mil compras para viajar? Não, isso é inviável.
+
+01:17:06.36
+Marcos Santos
+E aí, ó, tá vendo? Esse tipo de coisa é... Sim? É? Exatamente. Não, não, aí não. Mas, você entende, esse tipo de alívio, você fala, pô, eu parei pra pensar esse dia, eu falei, caralho, vai, dois anos aqui eu já viajei mais internacionalmente do que eu viajei no Brasil a vida inteira.
+
+01:17:23.14
+Cássio Pereira
+Não foi para comer a carne de ouro lá não, né? Calma aí também.
+
+01:17:35.72
+Cássio Pereira
+Mas vou falar duas coisas, dois itens que vão tocar agora. Um eu queria falar mesmo e um conectado com isso que você falou agora. Quando você muda, o seu estilo de vida também muda. Por exemplo, a gente tava no Brasil, o Marcos, mano, todo vinte semana eu ligava pro Marcos, mano, vamos queimar a carne aqui? Aí passava na Swift, comprava uma picanha, vamos descer pra praia, vamos. Então você tem certos gastos, uma rotina de gasto que às vezes é aquilo, é o teu padrão e tá tudo certo.
+
+01:17:40.62
+Marcos Santos
+Uhum.
+
+01:17:59.90
+Cássio Pereira
+Quando você sai, você não tem a mesma coisa. Você acaba economizando mais porque você não tem as mesmas rotinas. Por exemplo, vou estar sempre fazendo churrasco, sempre saindo. Aqui eu faço churrasco no verão, porque você não vai assar a carne na neve, tá ligado? Até dá pra fazer, mas é muito frio e tal, tal, tal. Então muda um pouco esse...
+
+01:18:05.96
+Ben-Hur
+E aí E aí
+
+01:18:14.56
+Marcos Santos
+Mas você usa pra gelar cerveja, né?
+
+01:18:16.46
+Cássio Pereira
+Sim, economiza energia. Mas diga assim, você muda um pouco o estilo de vida que você acaba fazendo economias. Então isso afeta também, de certo modo, por bem e por mal. Mas outro ponto que eu queria comentar também é o pessoal que quer sair e tudo mais, essa questão da segurança. Cara, eu moro num país hoje que é vizinho de um país de guerra. Ucrânia está sendo invadida, guerra carruça, e tal.
+
+01:18:38.86
+Cássio Pereira
+Todo dia o pessoal me pergunta, eu falo, cara, nada, zero. Primeiro que eu já não fico vendo notícia, mas assim, zero impacto, impacto assim, inflação, veio mais gente, subiu um pouco o aluguel, subiu um pouco os preços, mas nada fora do esperado ou do normal. Mas uma coisa que eu queria comentar para o pessoal ter em consideração também é religião.
+
+01:18:57.12
+Cássio Pereira
+Dependendo de onde você vai morar, isso afeta e isso é muito importante. Por quê? Eu sou católico, então aqui na Polônia eu estou em casa. Eu me confesso em inglês, tem um padre aqui em brasileiro, eu às vezes me confesso em espanhol, porque tem uma comunidade muito forte, tem igreja para tudo que é lado, o país é conservador. Por isso que eu falei, cara, você tem filho, tem benefício, você está casado acho que há 20 ou 30 anos, tem um bônus.
+
+01:19:22.52
+Cássio Pereira
+Então tem uma série de estímulos para a família. E isso para mim, em Cássio, é um valor que eu não abro mão.
+
+01:19:30.62
+Cássio Pereira
+Se eu for morar no Irã, eu não vou ter isso, tá ligado? Então a minha conexão espiritual vai ser diferente. Se eu for morar em Dubai, não sei, um país árabe que talvez tenha uma cultura diferente, ou até em outro país da Europa que está mais dominado por outras culturas religiosas, isso também pode ser um problema. Então para você que às vezes quer sair do Brasil, é um fatura se considerar, para quem leva a sério a questão espiritual e tudo mais.
+
+01:19:55.01
+Cássio Pereira
+Cara, para quem é católico, por exemplo, sabe que se confessar é algo crucial, vamos dizer assim. Então se você não pudesse confessar na sua língua, que seja no idioma que você possa falar, né? Cara, eu já me confessei em espanhol, português e inglês. Só polonês ainda não, porque eu não consigo ouvir, eu consigo falar a cagada, mas eu não consigo ouvir o conselho ainda porque eu não vou entender tudo. Então, imagina que você vai para um país que você não tem acesso a isso, por exemplo.
+
+01:20:11.37
+Ben-Hur
+Obrigado.
+
+01:20:18.06
+Cássio Pereira
+Cara, talvez eu diria assim, cara, isso é um ponto crucial pro cara falar, não dá pra ir, não vou pra esse país porque eu não vou conseguir me confessar, por exemplo. Ou a religião que for, né, eu tô usando o exemplo do católico porque é mais fácil pra mim. Exato, exato, exato.
+
+01:20:29.92
+Ben-Hur
+Qualquer questão cultural que seja muito forte para você, você não conseguir fazer. E até um ponto importante é esse que tu trouxe caso, porque... Aí as pessoas falam assim, não, não, não. Mas não me importa, porque eu talvez não seja católico ou não seja religioso. Não, beleza, mas você não vive sozinho na sociedade. Existe uma sociedade ao seu redor que tem a sua própria cultura e a sua forma de lidar, inclusive de lidar com estrangeiros, tudo.
+
+01:20:50.10
+Cássio Pereira
+Exato. Exato. Por exemplo, o pessoal fala, eu não sei se é verdade, o pessoal fala muito que países muçulmanos tratam mal as mulheres. Não sei se é verdade, não conheço ninguém que foi. Então, às vezes você fala, puta, vou morar num país desse. E vai com a esposa brasileira, cara, às vezes pode ser um problema pra você, ou pra sua filha, não sei, pode ser um problema.
+
+01:21:19.22
+Cássio Pereira
+Alemanha, por exemplo, Alemanha, França, o Marcos mora mais longe, mas cidades maiores que tem muito imigrante, ilegal inclusive, os caras tem ataque, tem uma série de problemas, é no bairro violento, é perigoso. Então a gente fala de Europa, cara, existe Europa, existe Europa.
+
+01:21:35.42
+Cássio Pereira
+Então tem que tomar um pouco de cuidado com isso também, assim como os Estados Unidos. Eu gosto muito dos Estados Unidos, mas uma coisa é você morar na Califórnia, outra coisa é você morar no Texas, outra coisa é você morar na Flórida. Saca? Então tem que botar esse item espiritual, eu diria, na balança. Mesmo que você seja um ateu que não acredita em nada. Cara, você falou muito bem agora, Bayou. Você vai morar num bairro onde tu é branco e o bairro é dominado por negro ou vice-versa, cara, já pode ser um problema. É natural isso, é um problema. Você vai fazer o quê?
+
+01:22:03.66
+Ben-Hur
+Aquele esquema, né? Não, mas eu não sou racista, tudo bem, você não, ok, está ótimo, que bom, que bom, seja assim, seja assim. Beleza, e todas as pessoas ao seu redor.
+
+01:22:06.41
+Cássio Pereira
+É, tudo bem. Você não é. Exato. Você é assim. Exato. Mas não é assim que funciona. O mundo não é assim que funciona. A realidade não é essa. A gente não comentou sobre isso, mas o item espiritual, e eu gosto de falar disso, porque eu sempre fui católico, mas a minha chegada na Polônia, eu virei mais ainda, comecei a praticar mais e tudo mais.
+
+01:22:12.19
+Marcos Santos
+Continue.
+
+01:22:29.82
+Cássio Pereira
+Então, cara, às vezes eu precisava me confessar, às vezes o padre português não dava. Puto, não, vou me confessar hoje, porque se eu morrer hoje, fudeu. Aí, cara, aí você acha uma igreja fácil que ter um padre lá que confessa em inglês. Tu vai lá e faz, tá ligado? Ou tinha uma comunidade aqui no padre mexicano, então você vai lá e faz espanhol.
+
+01:22:46.30
+Cássio Pereira
+Então, tudo isso faz parte do teu dia a dia, faz parte da vida do indivíduo, saca? Então, é algo que tem que levar em consideração, dependendo da tua religião, enfim, mas para onde você quer ir. Às vezes o pessoal fala muito, ah, quero ir para os Estados Unidos, ou para Portugal, Canadá. Então, tem que tomar cuidado. Um outro item também, às vezes você toma um remédio controlado, que para onde você está indo, o remédio lá é proibido, sei lá. Fudeu já. Não sei, estou dando um exemplo.
+
+01:23:13.51
+Ben-Hur
+Bom ponto, bom ponto. Às vezes aqui você consegue algo pelo SUS, custa dois mil dólares por mês.
+
+01:23:14.56
+Cássio Pereira
+Já fudeu, cara. Por exemplo, eu sei que o pessoal que treina nos Estados Unidos, muita coisa é liberada aqui no Brasil, é proibido. Aí o pessoal quer comprar, acaba comprando ilegal, mas nos Estados Unidos é liberado. Às vezes você tomou uma educação que... que você vai ter que pagar lá fora. Exato, exato. Exato. É fácil.
+
+01:23:32.47
+Marcos Santos
+o que faz?
+
+01:23:34.38
+Ben-Hur
+E não existe, é outra questão importante, essa saúde aqui no Brasil, por mais precário que seja, e por mais casos que tenha de médico que vai lá, bate o ponto e depois vai embora, porque o Brasil é um país de merda, então aí a gente... é, é, pessoas né, o Brasil é um país bom muito mal frequentado, essa é a realidade.
+
+01:23:46.96
+Cássio Pereira
+Sim, sim, sim, sim. Sim. Boa. Muito bom. Esse item do remédio eu lembrei porque é uma amiga nossa que está aqui. Ela toma alguns remédios que ela tem que trazer do Brasil. Porque aqui não tem. Não é ilegal nem nada, mas não tem.
+
+01:23:58.99
+Ben-Hur
+E aí, cara, isso muitas vezes não existe nos outros lugares. Vai ter que te preocupar.
+
+01:24:14.67
+Cássio Pereira
+Aí ela tem que comprar, quando ela vai ela compra bastante, traz, aí compra bastante, já é uma compra mais alta, ela consegue trazer, tem que programar o ano dela se alguém vai para o Brasil trazer para ela, se ela pode ir, então veja que muda um pouco a logística. Então às vezes você tem um filho que tem uma necessidade especial, ou você tem uma necessidade especial, e tudo isso tem que levar em consideração, cara. Mas eu diria que
+
+01:24:35.48
+Cássio Pereira
+Em resumo, vai. Parte financeira, profissional, compra carro, compra casa. Cara, tu se vira. Todo mundo se vira. É, tudo igual, entre aspas, tá? Tudo igual, entre aspas. Mas quando você vai nessa questão de saúde, o acesso à saúde, e essa questão espiritual, que é uma questão que às vezes o pessoal deixa muito de lado, e que não deveria, né? Tem que tomar muito cuidado, porque às vezes você não vai ter acesso a uma coisa que você fala. Por exemplo, mês passado eu tava na Holanda. Eu não achava missa, cara.
+
+01:25:05.60
+Cássio Pereira
+Só vinha na missa domingo, num quadro não achava missa. Aí achei uma igreja, não sei aonde lá, tinha missa e consegui ir na missa.
+
+01:25:13.65
+Cássio Pereira
+Tipo, mano, para quem não entende isso, não ir na mim é uma ofensa, é um pecado muito grave, na minha crença, então é algo importante para mim, é um valor para mim. Assim como para alguém pode falar, cara, para eu ficar sem carro, eu não fico sem carro, eu não vivo sem carro, eu não consigo pegar transporte público, por qualquer motivo que seja, beleza. Então se você vai para um lugar que você não consegue comprar, não tem acesso, tem que esperar um tempo,
+
+01:25:37.47
+Cássio Pereira
+Já se fudeu. Carteira de motorista, por exemplo. Vai te chegar e vai ter que transferir a tua carteira. Tem uma série de coisinhas. Sim.
+
+01:25:40.28
+Ben-Hur
+o próprio clima, a alimentação, entendeu? Por exemplo, assim, ó, às vezes, é, às vezes, por exemplo, você como profissional, você pode falar inglês, pai, tal, etc., coisa assim, mas talvez a sua esposa não, e a sua esposa é uma pessoa muito comunicativa, gosta de conversar, tudo, e ela não tem essa mesma facilidade, cara, ela vai ficar muito isolada no momento. Exato.
+
+01:25:45.26
+Marcos Santos
+a imitação se adapta as vezes
+
+01:26:04.12
+Cássio Pereira
+Você vai ter problemas com isso na relação. Vai precisar achar uma comunidade brasileira, por exemplo. Todo lugar tem, vai precisar achar, fazer amigos, aquela coisa toda. É... Eu diria... É, o primeiro ano é mais difícil, mano.
+
+01:26:12.41
+Ben-Hur
+Exatamente, vai ter aí uma adaptação, né? É importante saber que eu acredito que essa gente esteja um a dois anos de adaptação hardcore, né?
+
+01:26:25.72
+Marcos Santos
+Acho que um aninho só, menor. O primeiro ano é o mais difícil, cara. Eu falo por experiência, cheguei aqui sem nada, eu com minha esposa. Cara, é tanto que agora eu me sinto mais em casa aqui do que quando eu tô no Brasil. Eu vou pro Brasil e falo, porra, saudade da minha casa, velho. Saudade de você estar no sofá. É sério, cara. Exatamente. É.
+
+01:26:40.18
+Cássio Pereira
+É, eu já tô... Eu diria que eu tô adaptado quando eu vou cagar em qualquer lugar e eu quero cagar na minha casa aqui. Agora eu tô sentindo, porque o cu, o cu é inteligente, ele sabe, ele que dita as suas regras. Quando você fala que queria cagar naquela privada, aquela é a sua casa.
+
+01:27:00.25
+Marcos Santos
+Sim.
+
+01:27:00.100
+Ben-Hur
+Essa é uma boa métrica, a métrica de vidro.
+
+01:27:03.75
+Cássio Pereira
+Que piai humano é esse cara? Mas assim, esses itens mano, é legal a gente comentar, porque as vezes, só sair ele é fácil, mas tem tanta coisa envolvida que as vezes o pessoal não vê, e vai tornar mais fácil ou mais difícil essa adaptação. Um outro item que eu queria falar mais rapidamente pra gente encerrar, que já tá uma hora e meia já, é o primeiro semana pra mim, primeiro mês, é tudo, ah nossa, tudo você tá indo ver a primeira vez, tá ligado? Você tá indo naquele mercado a primeira vez, tá indo pegar aquele trem a primeira vez, tá indo visitar um negócio pra primeira vez, então é tudo muito
+
+01:27:33.20
+Cássio Pereira
+Seu cérebro está anestesiado. Passou isso? Passou essa êxtase? Você vai falar, caralho, velho. Cadê minha casa, mano? Cadê... Você liga na música, é a música que você está acostumado. É a rádio que você está acostumado. É o idioma. Mano, todo mundo falando estranho e tal. Aí vem um baque. Fala, mano. Estou em outro lugar, velho. Aí vem o inverno. Fala, caralho, é frio pra porra. Para quem não gosta... Até para quem gosta é frio pra porra, mas... Então tem uma série de coisas que vão acontecer que, cara, é natural.
+
+01:28:01.63
+Cássio Pereira
+Quanto mais informação você tiver, melhor. Amigos, relações e tal, mas a parte profissional de morar é a parte mais fácil. O mais difícil é essa parte humana da coisa, sabe? Achar a gente, achar o idioma, acostumar com o dinheiro, com os preços, enfim.
+
+01:28:19.85
+Marcos Santos
+É, mas tudo isso aí, boa parte, eu consegui me acostumar no primeiro ano. Eu posso ser um casa parte e tudo, só que no primeiro ano foi onde eu fiquei depressivo, fiquei feliz, fiquei triste, tava puto, queria voltar pra Brasília depois não queria mais. Então o primeiro ano aconteceu de tudo.
+
+01:28:36.89
+Marcos Santos
+Mas depois do primeiro ano, depois que você já tá... Pô, a casa já tá mobiliada, você já tá aqui um ano, você já conhece a vizinhança, você já conhece o mercado, você já tem noção do preço, já fez amigo... Você fala, pô, velho... Já se tornou, sabe, o lar, já se tornou a casa. Aí começa a ficar diferente quando você tá longe.
+
+01:28:45.01
+Cássio Pereira
+Já fez amigos.
+
+01:28:55.09
+Marcos Santos
+Aí começa a ter um impacto e tudo mais. O primeiro ano, pra mim, é o mais difícil. É o mais hardcore, é onde você vai ficar mais triste. Até porque você vai ter, por exemplo, tem que mobiliar a casa, igual o caso do Cássio lá aqui também. Você tem que encontrar pessoas, vizinhança. Pô, você não tá acostumado com o vizinho? Se o vizinho fala inglês, você não sabe. Você só fala alemão, só fala polonês. E aí, como se isso comunica? Então, tem tudo isso aí. Essa convivência humana, né?
+
+01:29:21.41
+Cássio Pereira
+Foda! Boa! Bayur, mais perguntas? Parte 3 ou acabou?
+
+01:29:26.59
+Ben-Hur
+Acho que por hoje tá legal, vamos ver, dependendo do que as pessoas tiverem dúvidas, né? Porque assim, cara, é uma mudança de vida muito... é importante, é uma mudança de vida considerável, né? Ela tem que ser bem planejada ou então bem suportada, né? Então, depois que...
+
+01:29:43.18
+Ben-Hur
+que mudar. Tô bastante feliz por tirar muitas dúvidas, muitas dúvidas mesmo, nesses dois episódios que a gente teve. Vários plot twists, coisas que eu não esperava que existisse. E se as pessoas tiverem mais dúvidas que provavelmente vão ter, deixem nos comentários.
+
+01:30:03.03
+Cássio Pereira
+Manda comentário, manda mensagem, manda tudo que a gente responde. Então, fechou, jovens. Mais um episódio da VcCrossPodcast. Eu sou o Casper Eira. Esperamos que você venha. O que você recomenda, Marcos? Venha ou não vem? Pessoal que está no Brasil, sai daí ou fica? Vem? Só venha. Boa. Boa.
+
+01:30:05.79
+Marcos Santos
+Vou mandar, vou mandar lá que a gente tá aqui e vou responder. Eu sou Marcos Santos. Vem, óbvio. Não, pra mim vem, cara. A questão da insegurança política e qualidade de vida só venha, cara. Trampo tem, trampo garanto que tem.
+
+01:30:12.79
+Ben-Hur
+Eu sou Ben Hur.
+
+01:30:31.97
+Cássio Pereira
+Boa. Ó, clima, comida e outros itens, não venha. Vou colocar os dois contrapontos aqui, né? Então, às vezes... Exato, exato. Aí vai sofrer um pouco, mas fora isso, cara. Segurança e tal, vem embora. Consegue? Vai viajar bastante, mas consegue.
+
+01:30:40.66
+Ben-Hur
+Quem está acostumado com geografia, aí a geografia é diferente.
+
+01:30:46.71
+Marcos Santos
+não é mas cara aqui se você quiser se você quiser esquiar num dia e no outro dia tá pegando sol você consegue aqui tranquilamente cara
+
+01:31:01.07
+Marcos Santos
+Não consegue, pô. Você vai ali para os Alpes Austríacos ali, pega uma montanha lá, esquia, faz snowboard, desce um pouquinho ali, já tá na fronteirazinha, já pega um solzinho já de boa. Suave. Vamos ver. Beijos.
+
+01:31:16.21
+Cássio Pereira
+Lindo. Jovens, é isso então. A gente se vê talvez numa parte 13, talvez no próximo episódio. Não importa, o importante é que estaremos juntos. A gente se vê no próximo episódio. Valeu!
+
+01:31:24.96
+Ben-Hur
+Abraço.
+
