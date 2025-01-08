@@ -9,7 +9,7 @@ videoid: DxZUPmXu2Y8
 cover: "../assets/img/601.png"
 transcription: "../assets/transcriptions/6/01/01.txt"
 ai: true
-resumo: "No episódio do podcast, os palestrantes discutiram a implementação de um programa de "Security Champion", que visa integrar práticas de segurança em equipes de desenvolvimento. O foco foi em como formar e reconhecer esses campeões de segurança, que atuarão como intermediários entre as equipes de desenvolvimento e o time de segurança. A conversa abordou a importância de um suporte executivo, destacando que a iniciativa deve ser uma política da empresa, com apoio do CISO e do CTO.
+resumo: "No episódio do podcast, os palestrantes discutiram a implementação de um programa de 'Security Champion', que visa integrar práticas de segurança em equipes de desenvolvimento. O foco foi em como formar e reconhecer esses campeões de segurança, que atuarão como intermediários entre as equipes de desenvolvimento e o time de segurança. A conversa abordou a importância de um suporte executivo, destacando que a iniciativa deve ser uma política da empresa, com apoio do CISO e do CTO.
 
 O episódio ocorreu recentemente, e sua relevância reside na crescente necessidade de reduzir riscos no desenvolvimento de software, especialmente em empresas que buscam escalar suas práticas de segurança. Os palestrantes enfatizaram que o papel do Security Champion não deve sobrecarregar as funções principais dos desenvolvedores, mas sim complementar suas atividades. Além disso, a comunicação entre os Security Champions e o time de segurança é crucial para o sucesso do programa. A estruturação adequada desse programa é vista como um passo importante para melhorar a segurança organizacional."
 capitulos: "<ul>
