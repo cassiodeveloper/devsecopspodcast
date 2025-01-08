@@ -42,53 +42,7 @@ O que é um ESPM e qual a sua relevância no contexto do Security Champion?
 Um ESPM (Enterprise Security Program Management) é importante para estruturar o papel do Security Champion, garantindo que ele não sobreponha suas funções principais e que o programa de segurança seja bem gerido.
 </li>
 </ul>"
-notes: "# DevSecOps Podcast - Episódio #06-01: Security Champion
-
-## Introdução
-Bem-vindos ao **DevSecOps Podcast**, onde discutimos as melhores práticas e tendências em segurança de software e desenvolvimento ágil. Neste episódio, nossos hosts exploram o conceito de **Security Champion** e como implementar um programa eficaz dentro das equipes de desenvolvimento. 
-
-## Hosts
-- **[Nome do Host 1]**: Especialista em segurança de aplicações e evangelista de AppSec.
-- **[Nome do Host 2]**: Profissional de DevSecOps com vasta experiência em integração de segurança em processos de desenvolvimento.
-
-## Tópicos Principais
-- **O que é um Security Champion?**
-  - Papel fundamental na implementação de boas práticas de segurança dentro das equipes de desenvolvimento.
-  - Auxilia o time de segurança e os desenvolvedores na adoção de processos de segurança.
-
-- **Como montar um programa de Security Champion?**
-  - Importância de ter um plano estruturado e apoio executivo.
-  - Necessidade de formação e reconhecimento para os Security Champions.
-
-- **Pilares do programa de Security Champion:**
-  - **Formação**: Investir na capacitação contínua dos Security Champions.
-  - **Reconhecimento**: Oferecer incentivos, como bônus e oportunidades de certificação.
-
-- **Integração com a equipe de segurança:**
-  - Comunicação eficaz entre Security Champions e o time de AppSec.
-  - Importância do suporte contínuo e feedback entre as equipes.
-
-- **Desafios e soluções:**
-  - Necessidade de um programa bem estruturado para evitar sobrecarga nas funções principais dos desenvolvedores.
-  - A importância de um líder ou figura central que coordene o programa de Security Champion.
-
-## Principais Conclusões
-- A implementação de um programa de Security Champion é crucial para aumentar a conscientização sobre segurança nas equipes de desenvolvimento.
-- O apoio da alta gestão, como CISO e CTO, é fundamental para o sucesso do programa.
-- A formação contínua e o reconhecimento são essenciais para manter os Security Champions motivados e engajados.
-
-## Convidados
-- **[Nome do Convidado]**: [Breve descrição do convidado e sua relevância para o tema discutido, se aplicável.]
-
-## Informações Adicionais
-- **Duração do Episódio**: Aproximadamente 30 minutos.
-- **Formato**: Conversa informal com insights práticos e dicas sobre a implementação de segurança em desenvolvimento de software.
-
-## Links e Recursos
-- [Link para o episódio completo]
-- [Links para materiais de apoio e referências mencionadas no episódio]
-
-Agradecemos por ouvir o **DevSecOps Podcast**! Não se esqueça de se inscrever e compartilhar com sua rede. Até o próximo episódio!"
+notes: ""
 ---
 
 Neste episódio do DevSecOps Podcast, exploramos o processo de criação e implementação de um programa de Security Champions dentro das empresas. Discutimos como identificar os colaboradores ideais para assumir esse papel, as melhores estratégias para engajá-los, e quais benefícios um programa bem estruturado pode trazer para a segurança organizacional. Também abordamos dicas práticas para promover uma cultura de segurança entre os times de desenvolvimento e como alinhar o programa aos objetivos de negócio.
