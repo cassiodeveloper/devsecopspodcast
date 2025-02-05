@@ -1,0 +1,960 @@
+00:21.72
+Cássio Pereira
+Olá, jovens! Sejam muito bem-vindos a mais um episódio de FCK Podcast. Eu sou o Cassio Pereira.
+
+00:27.52
+Ben-Hur
+Eu sou Benhor.
+
+00:28.52
+Marcos Santos
+E eu sou Marcos Santos. Viu, né? Tá indo, tá funcionando. Estão fazendo o nosso trabalho aí.
+
+00:29.73
+Cássio Pereira
+E é uma honra, e é uma honra no episódio... Calma, calma, calma, que a gente vai apresentar nossa convidada de hoje. É uma honra ter ela aqui hoje, porque segundo informações, segundo fontes, segundo especialistas, como dizem, ela disse que começou na área por conta da gente, Marcos. Ouviu no podcast, ouviu no nosso material aí. Isso é a prova que isso aqui tá funcionando, pro bem ou pro mal. Vamos descobrir se é pro bem ou pro mal, né?
+
+00:30.14
+Marília Rocha
+E aí
+
+00:55.48
+Cássio Pereira
+Tá funcionando, tá funcionando. E vale destacar também que você fazendo essa dublagem enquanto a abertura vai tocando aqui, já chega já, tá? Pode parar, beleza? Bayer, o que você acha dessa dublagem dele aí enquanto... Não é dublagem, né? Fala o lip sync, né? Ah cara, aguento mais isso aqui, cara.
+
+01:03.51
+Marcos Santos
+Tá, parei. Restaque parei. Vamos. Flip sync. Restaque pariu. Nossa.
+
+01:12.27
+Ben-Hur
+Me lembra do Fuckin' Sucker, do Casete Planeta, e agora eu entreguei a idade. Até quem fu a idade.
+
+01:12.33
+Marília Rocha
+E aí
+
+01:16.56
+Cássio Pereira
+Nossa, essa é mais velha que ia dar para trás. Bom, pessoal, antes de falar do episódio e do nosso convidado, convidado da de hoje, a gente vai falar... Vale lembrar que o DevSecort Podcast tem o apoio da Checkmax da Nova 8, que são especializados em segurança de sistemas códigos seguros, e o link da Nova 8, que é a distribuidora da Checkmax do Brasil, está abaixo na descrição do episódio no YouTube e também no DevSecortPodcast.com.br, onde você também acompanha todos os episódios, está tudo lá. Lembra que se você está buscando soluções em AppSec,
+
+01:45.84
+Cássio Pereira
+a DigitalWoke tem um portfólio completo para você, desde treinamento, SAST, SCA, DAST, você imaginar de apps que os caras tem de solução para oferecer e serviço também. Em parceria com a GoldSecurity, que é especializada em prequente security, se você quiser desenvolver software seguro, introdução aos seus times, como é que a gente faz os códigos seguros, software seguro de uma maneira geral, fale com a GoldSecurity também.
+
+02:07.08
+Cássio Pereira
+Bom, episódio muito aguardado, pelo menos por mim. A gente tentou já marcar agenda e não vai, vai, vem e volta. Mas finalmente ela está aqui, deu certo hoje. E a gente está aqui hoje com a Marília. Marília, muito obrigado por seu tempo, obrigado por ter aceito o convite. Se apresenta aí pessoal, fala quem você é, da onde você veio, para onde você vai, e aí a gente começa a nossa discussão aqui. Bem-vinda mais uma vez.
+
+02:20.64
+Marília Rocha
+Obrigado.
+
+02:27.82
+Marília Rocha
+Eu agradeço. Então, ah, eu sonho estar aqui, estou muito feliz, porque eu comecei muito com o YouTube do Cássio. Então, foi a minha mão na roda no começo. Então, gente, meu nome é Marília, para quem não me conhece, Marília Rocha. Eu sou do Recife, estou me mudando agora para o Porto. Sexta-feira já estou aqui com as coisas da viagem. Estão por aqui as coisas.
+
+02:49.28
+Cássio Pereira
+Aí!
+
+02:50.98
+Marcos Santos
+Boa! Venha! Venha!
+
+02:51.29
+Ben-Hur
+Caramba, é de sexta-feira, cara. Pô, muito rápido. Muito rápido.
+
+02:56.13
+Marília Rocha
+Foi tudo muito rápido, minha nossa senhora. Eu não esperava, então estou tendo que empacotar toda a minha vida em uma semana, praticamente. E eu comecei fazendo faculdade... Assim, vou contar um pouquinho da história do começo. Eu sou de uma cidade do interior, que não é Recife, é uma cidade bem mais para o interior de Pernambuco.
+
+03:18.52
+Cássio Pereira
+Fala o nome, fala o nome. Eu perguntei o nome porque minha família do lado da minha mãe, eles são de uma cidade chamada Pesqueira, sertão de Pernambuco, viu só? E eu tenho primo em Arco Verde, tenho parente, meu pai mora em Toritama hoje, é tudo ali em Pernambuco, tudo aquela galera ali.
+
+03:19.94
+Marília Rocha
+É Goiânia. Um beijo pro pessoal de Goiânia que tá assistindo que, por incrível que pareça, tem muita gente de segurança em Goiânia, por incrível que pareça, que vem pra resí. Ah, sim!
+
+03:44.53
+Marília Rocha
+Nossa, essa roupa foi de toritama, incrível! É nosso shopping, é toritama, nosso prize. Então, adoro toritama, viu? Vamos ver se o seu pai manda mimos.
+
+03:47.29
+Cássio Pereira
+Tá vendo só? Pra quem não sabe, Toritama é a capital do jeans, né? Muita indústria lá, e muita coisa lá. Meu pai trabalha com isso hoje lá, enfim. Continuem, Marília, manda a bala aí. Boa.
+
+03:48.32
+Marcos Santos
+Minha família de canhotinhas...
+
+04:07.72
+Marília Rocha
+Aí eu sou de Goiânia, mas assim, lá não tinha tanta perspectiva das coisas, é uma cidade bem pequena, não tem nenhum, longe de ter algum cenário de tecnologia. Então eu fiz uma escola técnica, tinha o curso de redes, mas eu não fiz o curso de redes de computadores. Mas como era perto de mim, eu comecei a saber de algumas coisas. Eu vi o pessoal falando de Linux, eu ficava, nossa, o que é Linux? Aí eles respondiam sistema operacional, aí eu...
+
+04:37.07
+Marília Rocha
+que é sistema operacional e atrás. Na época eu também estava com as amizades do pessoal de redes, mas enfim, eu acabei optando pelo curso de direito na faculdade porque eu ganhei uma bolsa.
+
+04:50.95
+Marília Rocha
+Eu passei na UFPB e também ganhei uma bolsa na PUC, na Universidade Católica daqui, para custar direito. E essa bolsa também dava a assistência para eu morar lá, porque meus pais não tinham condição de me manter
+
+05:08.13
+Marília Rocha
+em Recife, na capital. Eu passei em outros cursos até pelo PRAONI, ciência da computação e tudo mais, mas assim, na católica eu tinha a opção de moradia e isso fez toda a diferença porque eu não tinha condição de morar em Recife.
+
+05:25.64
+Marília Rocha
+Aí eu fui fazer o curso de direito, mas porque era para fazer uma universidade e ter uma moradia também e alimentação e tudo que eles davam ajuda na bolsa da universidade, que era uma bolsa da própria universidade, não era uma bolsa
+
+05:41.60
+Marília Rocha
+Dupla ONI. Hoje em dia eu acredito que essa bolsa nem exista mais. Enfim, e aí eu fui fazer direito, mas assim, todo o meu curso eu gostava já da parte de riscos, já ia codando algumas coisas. Comecei o estágio. No meu primeiro estágio, comecei a automatizar a planilha do Excel com Python e a galera ficava... Nossa!
+
+06:04.04
+Marília Rocha
+Você mudou vidas aqui porque eu fazia umas automações básicas E aí eu falei, não, eu gosto disso Aí eu consegui arrumar um estágio na Assembleia Legislativa e ir para a parte de governança Que era a parte de direito mais ligada com segurança Que era a parte que tinha riscos e tal Então eu falei, caras, eu vou por aqui porque pode ser um caminho para chegar no que eu quero lá na frente
+
+06:32.100
+Marília Rocha
+E aí eu fui chegando lá, por ironia do destino ou não, tinha muita coisa pra fazer além de governança, tinha que configurar firewall, enfim, era o segurança da informação, era o estágio de segurança da informação. Eu achei que ia fazer a adequação de norma e tal, e chegando lá vai fazer isso, mas vai também configurar firewall, ver todas as coisas. No final foi ótimo, porque eu aprendi muito.
+
+06:58.13
+Marília Rocha
+E aí eu já entendi que era aquilo que eu queria, ir para segurança. Quando chegou no final do curso, eu tirei o AB, passei na prova, mas foi só para dar orgulho a meu pai, ele ficou emocionado e tal. Minha filha é doutora, que tem aquilo no interior, ainda é doutora, não sei o quê.
+
+07:14.96
+Cássio Pereira
+Uhum, uhum.
+
+07:17.64
+Marília Rocha
+orgulho da família e tal, primeira pessoa da família a se formar na universidade. Mas eu falei, ó, tá aqui, mas eu não quero advogar. Aí foi quando o meu antigo gestor, ele foi pra uma fábrica de automóveis que tem em Goiânia, montar um equipe de segurança da informação. Aí como ele gostava muito de mim, ele me chamou e a gente começou a montar um time lá.
+
+07:43.56
+Marília Rocha
+E nesse time já era com uma pegada mais de offensive, tinha também já a parte mais de upsack, dev sec ops. Era aquele time que faz tudo. O time que tá começando é o time que vai fazer tudo. E foi onde eu aprendi muito e fiquei um ano lá. Depois eu fui pra Natura, onde eu trabalhei com pessoas incríveis. E depois, aí vem o grande podcast na minha vida.
+
+07:55.13
+Cássio Pereira
+Uhum, uhum.
+
+08:10.63
+Marília Rocha
+Eu comecei a gostar de APSEC e o meu líder fazia, olha, APSEC vai ser o futuro. Naquela época a gente tinha ideia de que APSEC era tipo assim, APSEC deve ser COBS, tinha acabado de eclodir o Cláudio e tudo.
+
+08:26.10
+Cássio Pereira
+Uhum. Uhum.
+
+08:27.14
+Marília Rocha
+Ele falou, ó, é o futuro. E surgiu a vaga no Mercado Livre. Eu vi no LinkedIn. Eu falei, não, eu tenho que entrar. Só que, assim, eu não tava tão muito preparada. Então, o que foi que eu fiz? Eu fui no canal do Cássio, que tinha me indicado, meu amigo de Goiânia. Aí tinha uma playlist lá, explicando a OASP Top Ten. Ele explicava cada vulnerabilidade, inclusive, ainda tem, que eu vi esses dias. Cada vulnerabilidade.
+
+08:55.43
+Cássio Pereira
+Tá lá, tá lá!
+
+08:57.73
+Marília Rocha
+Eu estava mandando para o meu primo, que ele está estudando agora, e eu mandei do canal. Aí eu vi, nossa, eu estudei como se fosse para concurso essa playlist do Cassio. Eu pegava a documentação, pegava o áspero e pegava a playlist.
+
+09:11.95
+Marília Rocha
+Aí quando foi, a minha sacada foi, quando foi no dia da entrevista do Mercado Livre, eu peguei e fiz uma apresentação powerpointzinho de uma vulnerabilidade e expliquei elas lá, além de responder as perguntas, a Sabatina fazer o teste técnico, eu também peguei, fiz uma apresentaçãozinha e expliquei como se fosse o Cássio. Até os maneirinhos dele que ele explicava eu tava fazendo.
+
+09:35.47
+Cássio Pereira
+Vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi, vixi.
+
+09:41.85
+Marília Rocha
+Com certeza, eu trabalhei um tempão lá, 30 anos. Eu era muito tímida, então o que você fazia no vídeo, eu ia fazendo também pra me soltar, e você fazia assim com a mão, pra explicar.
+
+10:03.10
+Cássio Pereira
+Que da hora, que da hora. Ô Marília, cara, que legal assim, legal essa trajetória toda que você falou. Eu tenho um colega também quando eu era dev, ele foi, ele veio da área da OAB, não advogou, fez OAB e tal, mas falou não, vou seguir TI. Hoje ele assistiu em várias startups e tal, então essa história já é repetida pra mim, no sentido de eu já conheço alguém nesse contexto.
+
+10:24.21
+Cássio Pereira
+Mas é legal ver sua trajetória. Desde lá de trás, quando você comentou, eu já gostava de risco, segurança, gostava dessas coisas. E meio que o destino, vamos chamar assim, foi te levando. Você foi fazer um estágio de uma coisa que na verdade tinha que fazer 10 outras coisas ao mesmo tempo. O que eu sei, eu sei que muita gente não gosta disso. O cara é contratado para fazer A e tem que fazer B, C e D. Mas por outro lado, você tem um ganho muito forte. Como você falou, eu estava em começo de carreira. Você aprende muito.
+
+10:47.84
+Cássio Pereira
+Ganha uma merreca, mal dá pra comer, eu sei, mas aprende muito, que eu diria que é o que te traz até aqui e os próximos passos que a gente já vai comentar daqui a pouquinho. Ô Benyur, essa entrevista no Mercado Livre foi com o senhor?
+
+11:00.69
+Ben-Hur
+Não foi, não foi, não foi, não foi, mas nem precisaria ser, né? Então, agora, uma coisa, eu diz que foi isso, eu desconheço alguém de EPSEC que não faz A, B, C, D, E. Pelo menos o mercado brasileiro, o mercado brasileiro, o mercado brasileiro não, eu desconheço, tá? Desconheço, desconheço. O cara tem que conhecer chapeação, pintura, é um, é bastante complicado, assim.
+
+11:00.83
+Marília Rocha
+e aí
+
+11:17.82
+Cássio Pereira
+Alfabeto inteiro. Licha a parede.
+
+11:30.78
+Marília Rocha
+E aí E aí
+
+11:31.87
+Ben-Hur
+O Barelho, eu queria saber um pouquinho mais dessa... A gente não esteve tão próximo, quase tivemos, né? A gente quase trabalhou junto do mesmo time, quase foi. Mas essa sua oportunidade nova que você está indo para fora do Brasil.
+
+11:52.55
+Ben-Hur
+Comenta um pouco pra gente como é que foi toda essa questão desde o processo seletivo até você realmente ir pra lá. O que que tu entendeu de diferenças do Brasil nesses processos pra ir trabalhar pra fora? Como é que foi isso? Foi muito diferente?
+
+12:03.68
+Marcos Santos
+O beijo já cavando aí.
+
+12:07.12
+Marília Rocha
+Antes de falar, vou só dar um spoiler. Cara, o processo seletivo no Brasil é muito mais difícil, eu achei. Muito mais difícil. Pelo menos os processos seletivos que eu fiz, principalmente do MELI, eu achei que o nível conseguiu saber mais de mim como profissional.
+
+12:09.70
+Cássio Pereira
+Ah!
+
+12:28.90
+Marília Rocha
+E foi além do profissional técnico, foi também conseguir, aqui no Brasil acho que a gente consegue nos processos seletivos saber mais como é você com cultura, como profissional, e lá não tem tanto isso. Então isso pra mim foi o primeiro grande choque, porque a gente fala,
+
+12:47.67
+Marília Rocha
+jovem na gringa, a galera vai me apertar valendo. Na realidade, eles pegam o técnico, mas assim, não me cobraram nada se eu sabia fazer um report, se eu sabia me comunicar como eu era. Então isso, pra mim, foi muito diferente. E só pra contextualizar desde muito antes, foi o seguinte, eu estava novamente vendo o podcast daqui, estava assistindo. Olha isso, de novo.
+
+13:14.41
+Cássio Pereira
+Olha só. Cara, que sucesso. Começa a cobrar. Vou começar a cobrar. Agora você vai ganhar em euro, você reembolsa a gente e é tranquilo.
+
+13:18.54
+Marcos Santos
+Oh, ficou bem assinatura, me saura!
+
+13:19.27
+Marília Rocha
+Os três foram meus coltes e não paguei nada, viu? Vou pagar um fernet. Pagar um fernet pro Beyou. Não, eu sigo o Cassio no Instagram e aí eu vi o Cassio botando uns cortes dos heels.
+
+13:29.79
+Ben-Hur
+Lembrando que eu só fiz perguntas nesses podcasts que a gente falou isso aí, eu não sou nem de nada.
+
+13:45.88
+Marília Rocha
+Aí eu já curti, comentei lá e vim, corri pra ver. Geralmente eu escuto aqui o podcast quando eu tô cozinhando, e aí quando eu tô fazendo as coisas da semana, no final de semana. Aí eu comecei a ouvir o podcast de vocês de Trabalhina Gringa, eu já sabia que o Cássio
+
+14:02.06
+Marília Rocha
+trabalhava na gringa, o Marcos também, e aí eu comecei a ficar interessada e tal. Tinha umas coisas que eu achei muito interessante, que eles falaram sobre a parte de cultura, como é diferente você conviver, e eu já comecei, já tava interessada e comecei a ficar mais lá.
+
+14:19.04
+Marília Rocha
+No podcast, o Marcos e o Cassio deram várias dicas, até anotei aqui no meu caderninho, trouxe ele. E eu fui, depois eu peguei e fui anotando as dicas. Só que aí, eu pensei o seguinte, caras, para aplicar essas dicas,
+
+14:35.28
+Marília Rocha
+no meu LinkedIn, vai ser muito difícil, porque todo mundo que eu tenho do meu LinkedIn é só brasileiro. Então o algoritmo ele vai jogar contra mim. Eu posso postar uma coisa em inglês, mas ele vai sempre ir para brasileiros, porque eu só tenho brasileiro. Então daqui que ele chega em uma pessoa gringa, é muito difícil para que eu seja recrutada. Então o que foi que eu fiz? Eu
+
+14:59.39
+Marília Rocha
+Não sei nem se... Enfim, foi uma coisa que eu fiz, tá? Foi bem pessoal. Não sou recruta e nem nada, e nem tenho especialização na área. Mas eu criei outro LinkedIn pra mim. Nesse LinkedIn eu coloquei lá na Buscas. Managers, Espanha Cyber Security.
+
+15:06.25
+Cássio Pereira
+Uhum.
+
+15:19.46
+Marília Rocha
+Aí apareceu, eu fui adicionando a galera, tipo um boot mesmo, fui adicionando o pessoal Aí depois botava os países que eu queria, e aí eu saí adicionando os managers da vaga E aí eu consegui ter um número legal de pessoas nesse link, acho que eu consegui ter umas 600 pessoas por aí
+
+15:38.58
+Marília Rocha
+E quando eu já tinha esse número eu fui postando coisas, então eu tava estudando, eu já tava estudando uma coisa mais que coisas que eu gostava, uma coisa mais alto nível, eu também gosto muito de Bounty, tô muito envolvida no mundo do Bounty, então também dava dicas de pessoas que queriam começar no Bounty, isso tudo em inglês.
+
+16:00.21
+Marília Rocha
+No LinkedIn que só tinha gringo Aí uma galera começou a curtir, teve um post que deu uma pequena viralizada assim E quando esse post deu uma pequena viralizada, um rapaz veio falar comigo na DM E me chamou pra fazer o processo dessa vaga
+
+16:17.57
+Marília Rocha
+E eu fiquei muito interessada. Ele avisou que o processo era em inglês. Ah, eu estava fazendo aula de inglês a parte com a professora que era voltada para a área de tecnologia. Maravilhosa. Inclusive, um beijo. Paula, estou me mexendo dela. Ela me ajudava muito. Paula, ela é maravilhosa. Ela é, tipo, perfeita, assim. Ela manja mais de coisa de dev do que muito dev. Eu fico muito chocada, porque ela dá...
+
+16:32.100
+Cássio Pereira
+Queremos você aqui, Paula. Ah, mas não é muito difícil, não é muito difícil, não. Ô, o Marília, metade do... Em paralelo, né, quando a gente acabar esse episódio aqui, manda mensagem pra Paula e fala que se ela topa gravar um episódio com a gente aqui pra gente falar, acho que é um tema importantíssimo.
+
+16:35.84
+Marcos Santos
+Isso é legal, cara. Metade da audiência foi embora agora, Caça.
+
+16:44.19
+Marília Rocha
+É que não lembria. Fica muito difícil.
+
+17:02.84
+Marcos Santos
+Não, essa sua estratégia foi muito foda, viu, Marília?
+
+17:02.96
+Marília Rocha
+ela é maravilhosa. Na aula, ela pegava o programa de Bounty e ela ia lendo comigo e eu tinha que ler, que entender, tipo, do próprio programa. A gente estava lá no site da Hacker Online e a gente pegava o escopo do programa e a gente ia lendo, assim, e depois ela fazia entrevista comigo, como se fosse de uma empresa. Nossa, a gente fez muito essa parte de entrevista. Eu ia fazer um após e aí eu preferi.
+
+17:28.71
+Cássio Pereira
+Eu vou te cortar agora, você já volta aí. Deixa eu só fazer um pequeno alerta para a galera que está ouvindo a gente.
+
+17:40.21
+Cássio Pereira
+pra quem estiver cozinhando, não deixar queimar as coisas ali, então vai dar uma acordada. Teve um ouvinte que falou, cara, eu estava em São Paulo dirigindo, e aí fiquei empolgado ouvindo, fui para não sei aonde, perdi a entrada, enfim, então, pessoal, acordem aí. Mas eu queria lembrar, talvez o pessoal não tenha essa referência ainda, tudo isso que a Marília está falando,
+
+17:45.03
+Marília Rocha
+Sim?
+
+17:58.06
+Cássio Pereira
+O episódio que a gente lançou é o Mercado Fora do Brasil. A gente lançou dois episódios. O primeiro foi dia 23 de outubro agora, dia 24. O segundo foi dia 29 de outubro. Então tudo isso que ela tá falando aconteceu entre novembro, dezembro e janeiro. Nós estamos agora dia 4 de fevereiro gravando aqui. Cara, em três meses ela criou o perfil, achou lá os managers, começou a postar conteúdo.
+
+18:18.63
+Cássio Pereira
+Tava fazendo inglês paralelo. Enfim, aí você vai continuar a história da vaga. Mas olha que em três meses, e às vezes eu vejo muita galera reclamando, que não tem oportunidade, não sei o quê. Em três meses, cara, ela já tinha uma bagagem, não é do zero, vamos falar assim, tem uma certa bagagem aí. Mas que quando a gente quer fazer as coisas, a gente vai e faz. A gente não fica arrumando, desculpa, arrumando o problema, você vai lá e faz acontecer, igual você tá demonstrando aí pra gente. Eu queria fazer esse paralelo aqui pra falar desses dois episódios que a gente lançou exatamente agora.
+
+18:45.42
+Marcos Santos
+e estratégia foda viu estratégia de criar um link de novo só em inglês eu tô tentando migrar só para inglês tá difícil fez uma puta estratégia que teme a ser da luzinha aqui
+
+18:48.52
+Marília Rocha
+E foi exatamente isso que eu tento.
+
+18:54.00
+Cássio Pereira
+É. Boa. Uhum.
+
+18:57.69
+Marília Rocha
+Não, eu tinha uma estratégia. Quando eu ia fazer a entrevista, antes eu montava um escopozinho com ela e eu também pegava, eu queria dominar a entrevista para não dar tanto espaço para eles fazerem tanta pergunta. Porque recrutador de inglês, ele não tem muita criatividade para te perguntar. Então eu fiz um canvazinho com um projeto que eu já tinha participado, que eu achei muito interessante, que foi uma
+
+19:24.33
+Marília Rocha
+em nome de uma vulnerabilidade que eu achei, que foi o meu projeto mais especial da vida que eu participei. E eu deixei no canva, fiz um canvazinho com esse projeto, aí eu explicava esse projeto, explicava o impacto que ia tendo para a empresa, que a empresa, no caso, poderia perder muito, muito dinheiro.
+
+19:25.66
+Cássio Pereira
+uhum uhum uhum uhum uhum uhum uhum
+
+19:42.67
+Marília Rocha
+Foi até que eu fiz também um bounte e tal, e eu já tinha tudo. Então que eu queria comer tempo do recrutador dominando a entrevista pra ele não conseguir me perguntar tanto. E eu consegui me preparar pras perguntas. Então na primeira com o recrutador eu pegava com a Paula e a gente treinava, treinava a apresentação, treinava como eu ia me apresentar, as perguntas básicas.
+
+20:09.79
+Marília Rocha
+e essa apresentação do projeto. Aí o recrutador já via que eu era mais técnica, que eu dominava técnica, aí eu passava pra próxima. Mas assim, a gente fala que daqui deu certo, porque muitas deram errado. Então eu fiz pra uma do Falo do Silício, deu errado, não consegui, ela falou que o meu inglês ainda não tava daquele jeito, fiz pra uma pra Eslovênia,
+
+20:22.94
+Cássio Pereira
+Uhum. Uhum. Uhum. Uhum.
+
+20:33.34
+Marília Rocha
+Enfim, Lituânia também, do Orquí Lituânia, que até o rapaz do Gabo do podcast Vagana Gringa também ele divulga, ele fala que é legal. Mas enfim, a gente está falando que deu certo. E eu tentei fazer isso, eu já tinha entrevista com o rapaz que já era o manager da Vaga, e eu fui para a entrevista, já estava com seis meses de inglês, mas foi exatamente nesse tempo que o Cassio falou. Eu comecei o processo no começo de novembro,
+
+21:03.34
+Marília Rocha
+Tanto que a gente tinha copar e tinha um monte de coisa que eu vi bem que tava maior coisa pra fazer e aí eu fui pra entrevista.
+
+21:12.18
+Marília Rocha
+Aí lá na entrevista ele falou que tinha gostado muito, que eu estava postando algumas coisas no meu LinkedIn, que tinha visto que eu sabia explicar o que é que eu fazia, que para eles era muito importante para a APSEC lá, porque a pessoa que eu estava postulando para a vaga saiu por causa disso, porque era um profissional muito bom, só que quando chegava no deve para mostrar por que foi aquela vulnerabilidade, mostrar para o código,
+
+21:39.55
+Marília Rocha
+Tipo, era uma pessoa que chegava culpabilizando o deve, os devs ficavam muito pistola com ele porque ele, nossa, só faltava chamar os devs de burro.
+
+21:43.51
+Cássio Pereira
+Uhum. Uhum.
+
+21:48.69
+Marília Rocha
+Então você vai acabar com a empresa, não sei o que, não sei o que Aí os devs fizeram um motim e falaram que esse cara tem que sair porque a gente não aprendeu isso na faculdade E o cara tá quase chamando a gente de burro Então ele queria uma pessoa com skills técnico, mas também que soubesse explicar e se comunicar E fazer um relatório minimamente bom, minimamente bem escrito Que não fosse chat GPT, porque também foi uma reclamação que o pessoal tava fazendo os reports no chat GPT
+
+22:18.49
+Cássio Pereira
+Uhum. Uhum.
+
+22:18.64
+Marília Rocha
+E aí ele falou, olha, eu gostei que você faz seus posts no LinkedIn, você explica bem. Não é chat GPT, que a gente sabe logo quando é chat GPT. E é esse perfil que a gente está procurando. E aí a gente começou, só que todo o processo de entrevista
+
+22:36.17
+Marília Rocha
+foram processos assim, puramente técnicos, por isso que eu falei que eu acho que no Brasil o funil é muito mais, eu senti que o funil era muito maior do que comparado com as vagas gringas. Então a gente teve a primeira técnica
+
+22:51.32
+Marília Rocha
+que foi pra saber se eu manjava de umas coisas mais básicas, não precisava ter conhecimentos tão aprofundados, que era mais a parte de DevSecOps mesmo, que era parte de CloudSec e tudo mais. Na segunda foi voltada pra parte de OfficeSec, de Offensive Security.
+
+22:58.63
+Cássio Pereira
+Uhum. Uhum. Uhum.
+
+23:09.70
+Marília Rocha
+e na terceira foi voltada mais para a parte de APSEC. Só que eu não senti que em nenhum momento teve um recrutador vendo como era a cultura da empresa, e isso eu senti falando dos processos gerais da gringa, porque era tudo
+
+23:28.71
+Marília Rocha
+voltada para a parte técnica. E assim, mas pelo menos lá eu senti que, diferente das entrevistas brasileiras, assim, quando você não sabe de alguma coisa, claro que não é todo mundo aqui no Brasil, mas eu senti que lá quando você não sabe de alguma coisa, eles acham muito legal que você diga, poxa, eu não sei, mas eu quero muito aprender isso.
+
+23:52.55
+Marília Rocha
+Teve uma pergunta que eles fizeram, que já era super avançada, de CloudSec. E CloudSec é algo que eu ainda estou estudando e tal, então assim, aqui era de Pentestion Cloud, já.
+
+24:04.92
+Marília Rocha
+E era a pergunta que ele fez de escalação tipo em testing cloud, eu não sabia responder especificamente aquela pergunta. Mas eu falei, olha, isso eu não sei, mas eu tô estudando, eu sou uma pessoa muito proativa, que eu gosto muito de aprender e eu desenrolo fácil no dia a dia, eu consigo aprender.
+
+24:21.75
+Cássio Pereira
+Uhum. Uhum.
+
+24:24.31
+Marília Rocha
+E ele olhou para a câmera e falou, uau, que resposta legal! E ele falou, nossa, essa resposta foi muito boa. Até parecia que ele não estava acostumado. E aqui no Brasil eu já fiz processo seletivo, que me perguntaram alguma coisa que eu não sabia. E a pessoa só fez assim, anotou, balançou a cabeça, como se eu tivesse... Como se eu já...
+
+24:49.92
+Cássio Pereira
+Que bosta, né? Você não sabe isso, né? Uhum.
+
+24:52.94
+Marília Rocha
+É, nossa, você não sabe isso, aí você já perde o timing. Então eu acho que lá eles valorizam isso de, pô, eu tenho humildade de falar, eu não sei, mas eu sou uma pessoa que eu posso aprender, que eu posso me virar nisso assim. E aí eles curtiram muito, depois eu li até... E outra coisa, eles também me deram um feedbackzinho, uns e-mails. Três empresas, na verdade, que eu fiz, me passaram e-mails com o feedback falando porque eu fui aprovada, qual eram os meus pontos fortes.
+
+24:54.36
+Ben-Hur
+Hum, bem.
+
+25:21.85
+Marília Rocha
+e quais pontos eu precisava melhorar. Eu sei que todos de melhora foram em inglês praticamente, porque eu preciso melhorar tão evoluindo, é complicado. Mas eles também mostraram quais tinham sido os pontos fortes e quais tinham sido os pontos de melhora, mesmo quando eu fui aprovada.
+
+25:27.53
+Cássio Pereira
+Uhum.
+
+25:40.49
+Marília Rocha
+Então foi legal ver que eu tive essa perspectiva de como eles conseguem me enxergar e do que eles querem de mim E também quando eu fui reprovada também, eu fiz para uma empresa que eu fui reprovada, que foi a do Vale do Silício
+
+25:56.41
+Marília Rocha
+E eles deixaram bem claro, ele falou, olha, você precisa se expressar melhor em inglês, você ficou muito tímida em inglês, eu realmente já sou uma pessoa um pouco tímida, então quando é inglês eu fico mais tímida ainda. E eles deixaram bem claro, eu já tô tratando isso com a minha psicóloga, mas isso aqui vai direto pra terapia.
+
+26:18.94
+Cássio Pereira
+E o legal, essa pergunta do Ben Uri, que você comentou agora, reforça um pouco do que eu venho falando sobre o mercado aqui fora. Aqui eles valorizam muito mais o especialista do que o generalista. No Brasil a gente já está acostumado a fazer dez coisas, então você não precisa saber tudo muito bem, mas você saber um pouquinho de cada coisa ajuda muito. Aqui é o contrário. Você não sabe tal coisa, mas beleza, isso é um diferencial. O importante é que o que a gente precisa você conhece. Fala aí, Ben Uri, eu sei que você ia falar alguma coisa.
+
+26:44.46
+Ben-Hur
+É que aqui a gente quer o generalista especialista, né? A gente quer que tu saiba tudo de tudo, né? É tudo de tudo e uma coisa que a Maria comentou bem legal é a diferença que faz na integração com os devs, né?
+
+26:47.84
+Cássio Pereira
+O Deus, né? Fica Deus, né? É...
+
+26:48.98
+Marília Rocha
+E aí E aí
+
+27:02.99
+Ben-Hur
+do cara chegar lá, filho da plena, o que você tá fazendo? Entende? Cada reporte, o nível de criticidade é uma ofensa, tá ligado? Então, tu vai pela ofensa, assim. E aí, isso é uma coisa que a gente tem, como brasileiros, a gente tem bem desenvolvido, né? A questão da comunicação, isso aqui. Pode ser que outros países tenham menos, né? Menos essa parte.
+
+27:06.94
+Marcos Santos
+Isso é fã.
+
+27:26.84
+Cássio Pereira
+E ela comentou dos processos seletivos. Aqui, no Brasil, é muito comum você estar num processo, talvez agora, depois das leis, mudou um pouco. Mas é muito comum. O que você faz nas suas horas vagas? Você é casado, não é? É meio que comum essas coisas pessoais. Aqui, tipo, o que você faz na hora vaga e ponto. Ah, eu gosto de jogar bola e jogar videogame. Acabou. Tipo, não tem assim, mas se é casado, tem quantos filhos? Religião, tipo, a tal da GDPR aqui, ela é muito forte.
+
+27:46.25
+Marcos Santos
+Um ponto acabou.
+
+27:53.28
+Cássio Pereira
+pergunta questões pessoais, não tem muito espaço. Então acaba que o processo seletivo em geral, ele é focado literalmente no profissional. A sua especialidade, você sabe fazer isso, não sabe fazer isso. Aí você fala muito da questão do idioma, influencia bastante, lógico. Mas também é uma coisa que estando fora, você acaba aprendendo, a imersão aprende mais rápido. Então, enfim. Fala, Marcos, você quer comentar uma coisa?
+
+28:13.06
+Marília Rocha
+Uma coisa que sempre me perguntam, você talvez não tenha ouvido isso, mas sempre é uma pergunta que sempre me perguntam, quando eu estou fazendo praço seletivo, tava fazendo pra uma empresa BR, tipo assim, quando eu escutava eu já sabia que aquela empresa não era pra mim, era, você tem filho? Era uma pergunta de praxe, tem filho?
+
+28:30.04
+Cássio Pereira
+Ah, é, é. É. É.
+
+28:31.83
+Marcos Santos
+É, como dizia o fundo.
+
+28:35.03
+Marília Rocha
+Nossa, eu nunca fiquei em uma empresa que me perguntava isso, porque eram umas perguntas tão absurdas, eles chegaram a perguntar, mas você cuida de alguém, se você não tem filho, você cuida de alguém, porque já que você não tem filho, pretensão de ter filho, então era uma coisa super pessoal, assim, que você como profissional feminina no Rambo, você ficava, por que isso é algum tipo de seletiva? E lá eles perguntam assim,
+
+29:04.07
+Marília Rocha
+pouquíssimo, pouquíssimo de você. Eu é que chegava a perguntar pra quebrar o gelo quando chegava. Não, eu vivo numa cidade muito quente, já tinha pegado isso no inglês com a minha professora e pra quebrar o gelo. Não, aqui é quente, muitos tubarões.
+
+29:09.70
+Marcos Santos
+e aí
+
+29:22.58
+Cássio Pereira
+Cuidado com o tubarão, não vou visitar Recife. Essa questão pessoal mesmo, realmente no Brasil tem uma... Para mulher em geral, não só para de cyber, né? Porque se quer ter filho, tem filho e tal, a gente já sabe que você vai estar... É médico direto, vai estar off, né? É natural. Eu, cara, vi... Não toda semana, mas os últimos dois meses minha filha está com gripe.
+
+29:43.28
+Cássio Pereira
+Então é doentinho assim, então um dia eu tô fora, outro dia minha esposa tá fora, tem como evitar. Mas aqui fora, aqui fora é literalmente assim, a gente trabalha, a gente vive e o trabalho faz parte. No Brasil eu sinto que ao contrário, a gente vive pra trabalhar.
+
+30:01.27
+Cássio Pereira
+Essa chavinha virou na minha cabeça depois de uns dois anos aqui, até deu desacelerar, não sei se o Marcos tem a mesma visão, de dar uma desacelerada, porque aqui a gente tem o nosso perfil de trabalhar, sangue nordestino, apesar de ter nasci de São Paulo, meus pais são nordestinos, então tem uma acelerada natural minha assim, que aqui é literalmente ter que tirar o péssimo, sabe? E você falou, eu fiz lá o Python no Excel, o pessoal achou massa, que não é o mundo deles, você salvou a vida deles, mas não é o mundo deles. Aqui eu faço as coisas básicas, esses negócios simples,
+
+30:08.80
+Marcos Santos
+Sinto.
+
+30:30.98
+Cássio Pereira
+que o pessoal tipo, nossa, caramba, tô bem na fita, mas assim, não fiz nada demais, sabe? Então isso reflete um pouco essa questão de cultura, mudança de cultura e tal. Fala, Marcos. Uhum.
+
+30:41.46
+Marília Rocha
+Quando eu falei pra eles, porque já voltando no meu estágio, eu aprendi muita coisa de blue team no estágio. Configurar Fire, eu era aquele pedreiro que faz tudo, sabe? Aí quando eu falei pra eles, não, já trabalhei, já trabalhei com Fire. Como assim?
+
+30:42.18
+Marcos Santos
+Oh.
+
+30:58.54
+Marília Rocha
+você já trabalhou, já trabalhou em SOC e tudo mais, assim, como se fosse uma coisa mais anormal do mundo, sendo que aqui no Brasil é super normal. Aí eu, assim, tipo assim, ele falando como se fosse um super poder e eu já...
+
+31:09.37
+Cássio Pereira
+É. Uhum, uhum. É uma terça-feira normal. Você vai no SOC, faz um dia de um HD e vai buscar apreensão na tarde. É normal.
+
+31:20.78
+Marcos Santos
+Cara, uma coisa engraçada, eu trabalhei na empresa anterior da que eu estou agora, eu fazia a parte complex do OpenVAS, então eu ficava criando um scriptzinho. Cara, eu cheguei nessa nova, eu tô com o home Linux Qt lá, foi, vou botar o cismetmark pra rodar né, que é a parte do OpenVAS, criei ali rapidinho e tal, rodei por cima e os caras, nossa, mas caralho, que score é esse e tal.
+
+31:45.09
+Marcos Santos
+E agora eu tô com o Task ali pra arrumar o score e os caras acharam fenomenal. E foi um negócio tipo simples, implantei em um dia. Qualquer coisa aqui pra isso é coisa a mais que você faz. Sim. Exatamente.
+
+31:46.99
+Marília Rocha
+E aí
+
+31:53.25
+Cássio Pereira
+que para os caras, e literalmente, se tem muita gente focada aqui, não sei nem se é especialista, mas se o cara é dev, ele vai codar, ponto. Não adianta pedir para o cara, vamos ver aqui o desenho de arquitetura? Não, eu vou codar o que está pronto, sabe? Então, o brasileiro tem essa, não sei se é uma vantagem, mas tem esse perfil de ver mais coisas ao mesmo tempo, até pelo pouco da nossa
+
+32:18.35
+Cássio Pereira
+Nosso país a gente sobrevive, literalmente. Tem historicamente isso, um país mais pobre e tal. Aqui fora não tem isso. Então aqui fora o cara se dá o luxo de dizer, ah não, vou focar nisso, vou focar naquilo e tal. E o brasileiro, não. O brasileiro, mano, vou focar. Se eu focar eu fico sem emprego. Eu tenho que fazer 15 coisas ao mesmo tempo pra que se der merda a 1 eu tenho a 2, se der merda a 2 eu tenho a 3, se der merda a 3 eu tenho a 4. Por aí vai. É, esquece.
+
+32:38.06
+Marcos Santos
+E fora a hora S, que os caras não gostam que você faça, né? Aqui você tem seu horário. Isso é uma coisa que pra mim pegou muito, demorei muito pra desacelerar, até tomar bronca por tá fazendo muito banco de horas. Os caras não gostam. Tipo, o seu horário dá as oito a cinco, dá as oito a cinco. Não vai sair os seis horas da tarde que o pessoal vai ficar meio puto. É.
+
+32:56.44
+Cássio Pereira
+Se você fizer menos aqui, ninguém nem liga. Passou uma hora a mais, esquece, treta. Aqui ninguém precisa monitorar o trabalho, mas assim, é complicado.
+
+33:04.80
+Ben-Hur
+É para ver a diferença entre hemisfério norte e hemisfério sul. Hemisfério sul é totalmente ao revés. Aqui uma coisa que eu queria saber. Chegou a perguntar quando você vê as suas responsabilidades hoje no ecossistema do Brasil. E você vê as suas responsabilidades que você vai ter nessa nova empresa.
+
+33:05.76
+Marília Rocha
+E agora...
+
+33:31.22
+Ben-Hur
+Como é que tu enxerga essa disparidade de carga, responsabilidade, o que que mais, não vou dizer que te preocupa, te preocupa não é a palavra correta, o que que mais te desafia quando você estiver nesse trabalho, na tua visão, o que você acha que vai ser o teu maior desafio ali?
+
+33:55.35
+Marília Rocha
+Então, nossa, nessa pergunta o Beyu, ele tem uma habilidade, ele sempre faz isso, ele vai no core das coisas.
+
+34:00.52
+Cássio Pereira
+No âmago. Abra. Uhum.
+
+34:05.91
+Marília Rocha
+Ele é tipo psicólogo, ele nasceu sabendo perguntar, ele sempre faz isso. E aí eu falo, caras, gente, eu vou ter que abrir meu coração nessa pergunta dele porque ele vai muito certeiro. Eu vou fazer quase uma sessão de terapia e vou abrir o que eu tinha falado pra minha querida terapeuta essa semana.
+
+34:06.78
+Marcos Santos
+Me machuca.
+
+34:28.54
+Marília Rocha
+Uma coisa que me preocupou, não preocupou, mas que talvez seja um desafio, e isso envolve muito o que o Cássio e o Marcos falaram, é porque aqui a gente é acostumado a fazer muita coisa. Então, assim, aqui, se um profissional de AppSec não sabe penteste, cara, esse profissional já vai rodar muito, se ele não sabe um pouco de AppSec, ele já vai rodar muito, muito processo seletivo.
+
+34:54.12
+Marília Rocha
+e Cloud também. Quando eu estava fazendo o processo lá, a gente teve a etapa, como eu falei aqui, a etapa de Cloud, que tinha mais geral, tinha Cloud, tinha Dockerização.
+
+35:06.20
+Marília Rocha
+com tênis, enfim, no geral. Era uma mais geralzona assim, de 10 secops também. E tinha também a parte mais de off-sec, a de off-sec foi a última se eu tivesse passado nessas. Então eu pensei, nossa, o escopo da minha vaga vai ser esse. E pra mim tudo bem, porque era tudo que eu já tava, que eu já vinha fazendo aqui, dava supermatch com a minha trajetória de carreiro, com o que eu estudo, então assim, tranquilo. Quando eu passei,
+
+35:33.46
+Marília Rocha
+Eles falaram, cara, a vaga vai ser puramente abseque. Então, por que eu fiz aquelas etapas de cloud de tudo? Por quê? Não era pra saber se você sabia, pra também fazer uma peneira, ver como você era como profissional. Até se você não fosse tão bem nessas e fosse bem em outras, tudo certo.
+
+35:54.38
+Marília Rocha
+Eu pensei, cara, então o escopo é isso? Porque eu tenho medo do escopo ser tão reduzido, assim, entendeu? Porque pra mim, eu enxerguei o meu corpo muito reduzido. E pra mim, eu não tô acostumada. Por exemplo, lá é muito definido. Profissional de AppSec é profissional de AppSec. Profissional de CloudSec é profissional de CloudSec. Eu não vou pegar em cloud, por exemplo.
+
+36:20.06
+Marília Rocha
+Eu não vou fazer um testezinho maroto, nem posso, e eles falaram não, é totalmente proibido, tem a galera do Pentest. Você pode fazer o seu testezinho até onde você pode, mas passou dessa linha, se você já queria ir, tipo, querer mostrar serviço, né, quando você chega, ah, você é a Hakuda, você é, ah, você é as minhas habilidades de bout, não sei o quê.
+
+36:42.30
+Cássio Pereira
+Exato.
+
+36:45.71
+Marília Rocha
+Não, isso aqui nem é bem visto. Como assim, isso não é bem visto? Isso está mostrando proatividade. E foi bem... Nossa, então...
+
+36:51.56
+Marcos Santos
+Cada um no seu quadrado.
+
+36:55.55
+Cássio Pereira
+Tem um lado bom disso, Marília, que é o seguinte, que é onde eu falei, demorou dois anos pra cair minha ficha e vira e mexe eu ainda saio dessa linha ainda. Que é, você vai ver que você vai ter muito mais tempo pra você. Tipo, meu, eu não tenho tempo, sei lá, exemplo bobo, né? Eu não tenho tempo pra praticar um esporte, por exemplo. Não vou pra academia porque eu não tenho tempo. Aqui você vai ver que você tem isso.
+
+37:14.29
+Cássio Pereira
+É possível, justamente porque as empresas aqui não querem as pessoas que fazem 500 coisas. Ela quer uma pessoa que faça uma coisa e ela faça bem feito. Então, o seu projeto é, meu, você vai ter que cuidar de AppSec, esquece ofensivo, esquece cloud security, esquece... Cara, foca em AppSec. Ah, mas tem que olhar ferramenta nova, tal, tal, tal. Beleza, faz parte disso que eu faço. Não faz? Faz por fora. Como você falou, você gosta de bounty. Vai estudar bounty, continua fazendo bounty por fora. Eu tenho tempo de organizar b-sides aqui. Ano passado teve 400 pessoas, obviamente, de quase 400 pessoas. Tão muito grande.
+
+37:42.31
+Marília Rocha
+Muito obrigado.
+
+37:43.90
+Cássio Pereira
+porque dá tempo, literalmente porque o trabalho, apesar das 8 horas que você tem no contrato e tal, mas ele não te suga tanto assim. No Brasil as 8 horas não são suficientes, a gente tem tanta coisa pra fazer que não são suficientes. Aqui é o contrário, aqui as 8 horas são, pelo menos na minha visão, elas sobram. Pelo menos porque eu preciso fazer hoje, hoje eu estou com o Epsec Evangelist Global, então eu preciso criar um programa de Security Champion, eu preciso interagir com o time de Epsec e o time de Dev, eu tenho mais de mil desenvolvedores pra conversar, vamos falar assim.
+
+38:13.04
+Cássio Pereira
+E dá tempo. Lógico, tem horários, tem todo mundo. É uma questão de você se organizar também. Mas sim, e dá tempo. E sobra tempo de fazer outras coisas. Se você falou, eu gosto de Bound, vou brincar no Hacker One, vou tentar ganhar uma grana extra e tal. E no Brasil a gente não tem isso. Por isso que eu falo, eu vejo que no Brasil a gente tem um esforço muito grande
+
+38:30.98
+Cássio Pereira
+que é legal, a gente aprende, a gente... Como é que fala? Cria casca, deixa a gente cascudo, isso é muito bom. Por um outro lado, você vê que você negligencia um monte de coisa, que você vai começar a abrir sua cabeça agora, você vai ter que falar para o seu terapeuta, desculpa, não preciso mais de você. Porque agora eu tenho tempo de fazer um esporte, agora eu tenho tempo de, sei lá, cuidar da minha religião, cuidar de coisas que às vezes o trabalho não deixa, o trabalho suga muito a gente.
+
+38:36.95
+Marília Rocha
+E aí
+
+38:56.82
+Cássio Pereira
+E demorou um tempo, eu te falei, demorou dois anos pra mim fazer essa virada de chave. Ainda não sou 100%, ainda dou minhas aceleradas aqui e tal. Mas enfim, fala Marcos, eu te cortei.
+
+39:04.57
+Marcos Santos
+Não, eu quero continuar ouvindo agora. Agora eu quero ver esse medo dela, o que está se tornando.
+
+39:10.14
+Marília Rocha
+Não! Teve até...
+
+39:12.31
+Marília Rocha
+Calma, depois disso eles ainda falaram outra coisa, que aí eu choquei de vez, que eu falei, não cara, isso não é possível, eles falaram, olha, na sexta a gente só trabalha até meio dia, tipo assim, até antes do almoço, a gente não trabalha à tarde na sexta, e eu como assim, e tipo assim, na, quando a gente trabalha até meio dia é meio reduzido, não é a mesma carga de trabalho, aí eu falei, gente, do céu, como assim?
+
+39:31.91
+Marcos Santos
+Alemanha, França, Espanha, tudo isso aí.
+
+39:39.86
+Cássio Pereira
+Que absurdo! Aqui na Polônia,
+
+39:41.65
+Marcos Santos
+Só abrir um adendo, isso aí é muito dessa região aqui da Saxônia, né, que eles falam aqui, né, que é a Alemanha, Itália, França. Eles têm uma cultura de, depois do meio-dia na sexta, eles saem pra escalar montanha, fazer caminhada. Eles gostam de curtir o sol, vamos dizer assim, somente no verão. Então é bem comum aqui na sexta, depois do meio-dia, tá todo mundo fora. Você vê bike andando pelo todo com telado.
+
+40:06.14
+Cássio Pereira
+Aqui na Polônia não é oficial, mas três da tarde no escritório, não importa o dia, acabou, não tem mais ninguém. O cara já está saindo fora, já vai cuidar das coisas, três da tarde. Tudo bem, o cara chegou sete da manhã, oito da manhã. A gente normalmente não para fazer uma hora de almoço, para, come e volta. Mas assim, três da tarde, quatro, às vezes eu fico até às quatro que vou buscar minha filha na creche e tal. Quatro horas eu estou sozinho no escritório praticamente. Eu tinha a tia limpando lá a cozinha, um outro assim, mas assim, não tem, é normal.
+
+40:35.63
+Cássio Pereira
+Isso porque nós estamos no inverno, porque aqui está inverno agora. Quando é o verão, esquece, é pior ainda. E assim, não é que não tem treta. Ah, você está saindo mais cedo, você está entregando o seu trabalho? Você foi contratado para fazer A, você está fazendo A? Ah não, eu fiz B, C, D e A, eu não fiz. Opa, então você está errado.
+
+40:53.49
+Cássio Pereira
+Então, esse medo vai te ajudar a focar. Você foi contratada para pintar a parede. Você nunca foi contratada para varrer o chão. Mas enquanto você estava lixando, sujou o chão. Não, você vai pintar a parede, outra pessoa vai vir limpar o chão, que aquele é o papel dela. Ela ganha para isso. Então, você vai entender que essas separações são para o bem, apesar de que vai ter um tempo de... Como eu posso dizer? Adatação, maturação, maturidade, enfim. Mas, enfim, faz parte.
+
+41:20.95
+Marília Rocha
+Não, isso dá um medo porque você fica... Assim, né? Tô falando com a mentalidade, né? Tô com a mentalidade 100%, brazuca. Depois a gente faz esse podcast daqui a um ano, a gente renova os bolos.
+
+41:21.78
+Marcos Santos
+Certo.
+
+41:27.93
+Cássio Pereira
+Uhum, uhum. Boa. Aí, Benyur. Bora?
+
+41:33.17
+Marília Rocha
+come o bolo do casamento depois de um ano pra ver como é que tá. Mas assim, eu fiquei de cara com medo de, assim, cara, como é que eu vou mostrar trabalho? Aí foi até quando a minha terapeuta falou, a minha terapeuta falou exatamente o que o Cássio falou. Inclusive, se esse podcast aqui no futuro parar, dá pro Beniu e o Cássio fazer um voltado à psicologia, que eles já estão caminhando.
+
+42:00.91
+Marília Rocha
+É louco ou não? Você vai mostrar trabalho fazendo o que eles lideram para fazer bem feito Aí você foca em fazer perfeito ou próximo da perfeição Aquilo porque você fica com medo Porque aqui no Brasil a gente, quando a gente tem um skills a mais A gente já faz aquilo, faz isso, faz aquilo Nossa, a gente se sente mostrando que é uma profissional
+
+42:26.42
+Marília Rocha
+multifuncional, que você tenha uma resiliência para fazer as coisas. Então você... Cara, eu ganhei 10 pontos aqui. Eu não vou ganhar 10 pontos assim. Eu vou ganhar 10 pontos de outra forma. É uma mudança de mais de 7 muito... Que dá muito medo, assim, de... E se eu não tiver o destaque que eu planejo para a minha carreira? Porque quando você entra, você quer... Não, não. Você quer ter um certo destaque e... Ainda mais quando você é de fora, tipo assim...
+
+42:32.98
+Cássio Pereira
+Uhum, uhum Uhum Uhum, uhum
+
+42:55.02
+Marília Rocha
+Os caras custearam pra você, não foi fácil você estar aqui Teve que esperar o período do visto Teve que ter assessoria do visto que eles pagaram Tem passagem, tem tudo Então eles tiveram também que me esperar Porque é um período que você tem que esperar pelo visto Então pra ele te trazer como profissional tá sendo um pouco mais Sofrido pra eles do que se fosse um daqui Então eu quero mostrar que eles fizeram a escolha certa
+
+43:21.63
+Cássio Pereira
+Uhum, uhum. Mas vai dar certo. É, vai dar certo pra ser top. E se aprendeu, não deve ser copo podcast. Então, cara, não tem como dar errado. Não tem como dar errado. Inclusive.
+
+43:21.99
+Marília Rocha
+Você tem que mudar muito todo o seu mindset, é bem complicado. Eu não sou back-up, se o Marcos e Beniu vão mandar uma mensagem, fiquem atentos. Me ajuda aqui por favor.
+
+43:29.62
+Marcos Santos
+Vai dar certo? Você é top, cara. Tá em casa. Vamos embora.
+
+43:45.93
+Cássio Pereira
+Inclusive, você falou da playlist lá do meu canal. Eu tenho uma playlist lá do Proactive Controls da OASP, que eu fiz no mesmo esquema, e tá faltando um. Alguém me exigiu. Eu gravei o negócio há dois anos atrás. Alguém me falou, mano, eu assisti a sua playlist, passei entrevista, fiz isso aqui, mas tá faltando um lá. Eu falei, puta, eu preciso atualizar, então. Eu nunca atualizei, mas... E preciso atualizar do OASP também, porque o do OASP já tá no 2021, e essa que você leu é do 2017 ainda. Então eu preciso atualizar, fazer uma série de vídeos lá pra atualizar. Fala, Bayer, a gente já tá indo pro final, mas manda aí.
+
+44:06.24
+Marcos Santos
+O que é isso? O que é isso?
+
+44:13.51
+Ben-Hur
+não é que trocou trocou porque trocou inclusive agora são riscos e tem por exemplo vai pegar o 4 agora que é o insecure design né cara velho só aquilo ali dá uma faculdade dá uma faculdade toda só aquilo ali tá ligado
+
+44:28.51
+Cássio Pereira
+360 horas de uma vulnerabilidade. E tem que sair. Tem que tirar.
+
+44:30.84
+Marcos Santos
+Eu vou dar uma dica para a Marília também. Logo que você entrar, os europeus começam a programar férias muito antes. Você vai entrar e vai ter uns 20 dias úteis de férias. Você tem que sair até dezembro, tá? Então já se programa para conseguir tirar férias ao longo do ano, porque é obrigatório. Eles vão te encher o saco.
+
+44:52.74
+Marília Rocha
+Nossa, Marcos, eu não sabia disso. Meu Deus, esse podcast salvou vidas hoje. Não sabia disso. Chocada. Olha, Cassy, eu tô lembrando mais.
+
+44:57.87
+Cássio Pereira
+Tem que tirar. Não tem essa de acumular pro Antuano, de vender férias. Não tem. Tem que gozar. Literalmente tem que gozar das suas férias, porque senão é problema. Literalmente é problema. Exatamente. Benyur. Benyur, ó.
+
+44:59.43
+Marcos Santos
+A gente... não. 30 dias úteis, tá? E são úteis, tá? Então, você só vai programar de segunda a sexta. Então, você vai ter praticamente aí, se fosse no Brasil, 45 dias aproximadamente. Venha, Bior.
+
+45:20.14
+Cássio Pereira
+Vem Benyur, venha Benyur. Venha Benyur, venha. Próximo europeu que a gente vai transformar em europeu é o Benyur, com certeza. Pessoal... Verdade.
+
+45:29.34
+Marcos Santos
+Bye!
+
+45:29.40
+Marília Rocha
+Eu vou ficar calada, porque o povo do Média não é muito bem eu, eu não posso me comprometer e diretivar ele dos meus queridos, então vou ficar calada.
+
+45:40.96
+Cássio Pereira
+Eu posso, eu posso. Vem, Bayer. Vem, Bayer. Ó, a gente tá indo pro final, eu queria fazer uma pergunta pra Marília. Marília, se tivesse um superpoder, você falar AppSec agora, todo dev faz isso, ou toda empresa vai ter isso, com relação a AppSec, o que seria? O que você implementaria com o superpoder? Hum.
+
+45:56.72
+Marília Rocha
+Meu Deus, difícil. Cara, pode ser uma... Eu não queria um super poder tão... tão drástico, assim. Eu acho que eu ia ser mais básica, mas é porque é algo que dá muita dor de cabeça, mesmo sendo básico. Não esquecer rota de API no código.
+
+46:16.07
+Marília Rocha
+acredencial no fôlego. Eu sei que é básico, mas meu Deus do céu, meu Deus do céu, cara. Ia me ter evitado tanta dor de cabeça, tanta vontade de botar botox porque, minha Nossa Senhora,
+
+46:16.48
+Marcos Santos
+por ser pique.
+
+46:31.35
+Cássio Pereira
+Tantas sessões de terapia podem ser economizadas. Sabemos, sabemos.
+
+46:35.47
+Marília Rocha
+Exatamente, tantas rugas, poderia eu não ter nascido. Eu ficava, meu Deus, meu Deus, me segurava muito pra ir falar, olha, vamos lá, vamos lá. Não passou. Eu acho que seria isso.
+
+46:48.85
+Cássio Pereira
+Não faça isso jovem. Fala Beirut, quer que... Boa, boa. É, e volta.
+
+46:55.94
+Ben-Hur
+Aquela vez que você está conversando com o Debi, deve compartilhar a tela. Da hora que você olha, você apaga a câmera, espera uns 4 segundos e fala, olha, deixa eu te comentar uma coisa. Dois socos na mesa, uma xícara na parede. Olha, eu acho que é melhor a gente remover isso aí.
+
+47:14.78
+Marília Rocha
+Eu acho que é algo mais dramático, mais pesado.
+
+47:15.06
+Cássio Pereira
+O que você acha? Tem que convencer o cara. O que você acha? Bom, jovens...
+
+47:19.24
+Ben-Hur
+Não, e aí faz o treinamento, faz link de guia de desenvolvimento seguro, publica os carapazos, chega lá, mete o scanner, 50 ação lá.
+
+47:29.18
+Marcos Santos
+A documentação não pode fazer Scan Injection, o atacante vai ler.
+
+47:33.99
+Cássio Pereira
+Nossa, eu peguei essa cara, maravilha essa história. Eu peguei um SQL Injection idiota na aplicação e fui falar com o time de desenvolvimento e ele falou, a gente já sabe disso, mas está na documentação. Como assim está na documentação? Não, está na documentação pública. Aí, mano, você está me dizendo que o criminoso vai olhar e vai falar, nossa, você me avisou que a porta está aberta, então eu não vou entrar. É isso que você está me dizendo? Quando eu falei dessa, meu cara até falou, nossa, eu não pensei desse jeito. Tipo, mano, cara, eu fiquei num loop na minha mente. Que porra que esse cara está falando, velho?
+
+47:36.90
+Marília Rocha
+Não. Ah! Ah!
+
+48:01.72
+Marcos Santos
+se prepare o arilha, se prepare
+
+48:04.05
+Cássio Pereira
+Ah, não, enfim. Eh... Eh... Eh...
+
+48:05.48
+Marília Rocha
+Exatamente isso, porque quando é um problema maior, algo, você sente e o cara até pensa, pô, vacilei, mas era difícil pra eu pensar e você consegue. Agora, quando é algo muito na cara, muito evidente, você não sabe nem como falar e ele vai se sentir burro e você vai desligar a câmera pra falar burro, burro, aí você
+
+48:27.48
+Marília Rocha
+Então quando é algo mais besta eu acho pior, pior, pior, porque ele se sente burro e eu tenho vontade de xingá-lo também. Obrigada.
+
+48:36.15
+Cássio Pereira
+Não, feijão com arroz, né? Fazer o feijão com arroz muito bem, né? Bom, jovens, é isso, quase 50 minutos de episódio pra gente não estourar o tempo. Marília, obrigado. Eu acho que você é um dos exemplos profissionais que todo mundo quer contratar, um exemplo de profissional que a gente quer
+
+48:53.37
+Cássio Pereira
+ver a pessoa crescendo, a pessoa se dedicando, aprendendo, arrumando novos jeitos de fazer. Eu lembro da sua mensagem, acho que foi no meu Instagram, você falando, eu queria uma dica, não sei o que, e hoje você está indo para a Europa, morar fora, numa vaga super bacana, novos desafios, enfim. Cara, é muito bom isso mesmo, realmente parabéns pela trajetória.
+
+49:14.74
+Marcos Santos
+Infeliz, né? E tem mais um brasileiro aí pra poder colar no upside com nós, né? Esse que é o lado bom.
+
+49:15.81
+Marília Rocha
+Eu não sei.
+
+49:16.03
+Cássio Pereira
+Feliz, né? É bom ver que o podcast ajuda as pessoas, o conhecimento ajuda as pessoas. A gente está, de certo modo, colaborando um pouquinho para que as pessoas... Boa, verdade.
+
+49:27.21
+Marília Rocha
+E eu queria agradecer também, em nome de todo mundo que assiste podcast, conheço muita gente, até de Goiânia também, os meninos. E eu queria agradecer muito vocês, porque esse trabalho que vocês fazem ajuda realmente muita gente. Eu sou a prova disso. Meu primo, que eu tô agora encaminhando ele também pra área, que ele acabou isso no médio agora, também é a prova disso.
+
+49:49.41
+Marília Rocha
+Então é muito bom a gente ter um conteúdo voltado para a cibersegurança brasileira, o acessível, porque a gente sabe que hoje o Brasil não é todo mundo que tem condição de saber inglês, não é todo mundo que tem de pagar o inglês. Eu mesma não tive aula de inglês na rede pública, quando eu era em ensino médio, porque não tinha professor, faltava. Então assim, é um país que a acessibilidade ainda é difícil e o conteúdo ainda não é muito democratizado, porque a maioria é em inglês.
+
+50:19.14
+Marília Rocha
+Então eu acho que muitas vezes vocês não têm nem dimensão de tanto que vocês fazem e de onde vocês chegam. Vocês estão aqui batendo papo, tipo assim, tranquilo, trocando papo sobre carreira internacional. Tem uma pessoa feito eu que assiste lá. Pô, que insight legal. Isso, aquilo. Aí o Cássio falando que eu achei legal no podcast sobre carreira na gringa, sobre essa parte religião.
+
+50:42.65
+Marília Rocha
+Que a galera é muito mais diversa e tal. Eu não tenho religião, mas eu acho super legal essa diversidade. Então eu acho que quando vocês estão trocando esse papo pra vocês já é um papo tão de amigos, vocês se sentem tão em casa que vocês não têm dimensão do quão esse trabalho que vocês fazem ajuda. E é um conteúdo gratuito. É um conteúdo que pega desde o técnico a de como formar o profissional mesmo, de cibersegurança, de como entrar na área.
+
+51:11.60
+Marília Rocha
+Então eu queria agradecer muito a vocês, em nome de todo mundo que assiste o podcast, que cola com vocês, porque pode ter certeza que quando vocês sentam nessa cadeirinha pra trocar ideia, vocês estão mudando um pouquinho da vida de alguém e vocês nem sabem. Isso é muito importante. O Marcos quase chorou, eu olhei no olho do Marcos, o Marcos quase chorou.
+
+51:27.72
+Cássio Pereira
+Eu não irei chorar, me recuso. Me recuso a chorar. Tô suando pelos olhos porque tá na sol. Marília, obrigado pelas palavras. Literalmente, essa é a ideia, né? Quando a gente criou o podcast lá seis anos atrás, com o Rodrigo, o antigo Rodrigo, o velho Rodrigo, tinha o Vini também quando a gente começou, aí depois veio o Marcos e tal. Essa é a ideia de tentar
+
+51:28.73
+Marcos Santos
+Eu até emocionei aqui. Fiquei com a choreira. Feliz.
+
+51:56.41
+Cássio Pereira
+evitar que as pessoas tenham os problemas que eu tive ou que nós tivemos, tá aqui um atalho, faz assim, faz assim, que deu certo pra mim, pode dar certo pra você, ou não faz isso que vai dar errado. Acho que essa é a ideia, essa é a missão. Enfim, informar profissionais de APSEC em geral, porque falta gente boa. Enfim, acho que tem uma certa missão envolvida nisso. Mas obrigado, só agradecer pelas suas palavras também. Jovens, quer dar um abraço, quer dar beijo, quer mandar um beijo pra Xuxa, pra mãe?
+
+52:16.77
+Marília Rocha
+E aí E aí
+
+52:21.19
+Marcos Santos
+Não, já falou tudo, cara. Eu vou ficar quietinho aqui agora.
+
+52:25.45
+Cássio Pereira
+Só fala mais nada, né? Boa. Boa. Boa. Boa. Estourou. Estourou.
+
+52:27.11
+Marília Rocha
+Vou mandar só um beijo pra galera do meu Twitter que tava esperando esse podcast quando eu botei lá e tava um querendo, já vou botar o link lá. E eu assim, nossa gente, olha, subir de nível, tá? Vou estar no podcast com o Beiu, o Marcos e o Cássia, tipo assim. Agora, é, agora, já tô sem... vou divulgar o tigrinho, brincadeira.
+
+52:51.34
+Cássio Pereira
+Isso aqui virou influencer por causa disso. Sensacional, sensacional. Pessoal, obrigado, então. É isso. Bem-vindo, obrigado. Eu sou o Casio Pereira. E nossa convidada é Marília Rocha. Valeu, pessoal. Até semana que vem.
+
+52:56.66
+Marília Rocha
+Eu estou imponente agora, estou promossa. Eu sou a Marília.
+
+52:57.43
+Marcos Santos
+tá dando mais grana que é pesteca o tigrinho hoje em dia eu sou marco santos ae olha eu, beijo de luiz
+
+53:06.92
+Ben-Hur
+Eu sou o Benhor.
+
