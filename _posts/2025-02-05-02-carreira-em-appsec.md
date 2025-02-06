@@ -83,7 +83,7 @@ Bem-vindos ao **DevSecOps Podcast**, onde discutimos as melhores práticas e ten
 ## Agradecimentos
 - Agradecemos a Marília por compartilhar sua história e insights valiosos.
 - Obrigado a todos os ouvintes por estarem conosco. Até a próxima semana!
-
+"
 ---
 
 Rapaz do céu... que episódio massa. A prova que este Podcast funciona, pessoas são impactadas e vidas são transformadas. A história da Marília é emocionante e inspiradora para você que quer entrar na área, para você que já é da área, e para você também, jovem sem oportunidades :)
