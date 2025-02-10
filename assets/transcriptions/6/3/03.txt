@@ -1,0 +1,888 @@
+00:22.02
+Cássio Pereira
+Olá pessoal, tudo bem com vocês? Sejam muito bem-vindos a mais um episódio de DevSecOps Podcast. Sempre que eu falo mais um, é seis anos já de DevSecOps Podcast. Eu não aguento mais, mas vamos fazer, porque essa galera precisa de conteúdo de AppSec, então acho que é algo muito importante a gente continuar. Eu sou o Cassio Pereira.
+
+00:40.84
+Ben-Hur
+Eu sou Benhor.
+
+00:41.76
+Marcos Santos
+E eu sou Marques Santos.
+
+00:43.59
+Cássio Pereira
+Moa! Então é bom ter o elenco todo aqui hoje. Hoje eu venho até com a minha camisa mais especial que eu tenho, a camisa da Black Hat, que custou 30 dólares, então ela é muito especial. Venho até com a camisa especial porque tem um convidado bacana aqui hoje que a gente vai falar sobre um tema que a gente ainda não explorou aqui no podcast. Acho que é um tema que muita gente tem dúvida. Eu sou um cara que... Eu tô em cima do muro ainda, não sei se eu sigo essa área, se eu sigo a área comercial, enfim. Mas a gente vai começar a falar sobre o tema já já e apresentar o nosso convidado. Mas antes,
+
+01:11.88
+Cássio Pereira
+Vale lembrar sempre que o Deve Ser Causa Podcast tem o apoio da Checkmarks e da Nova 8, que são especializados em Segurança de Sistemas e Códigos Seguros, e o link da Nova 8, que é a distribuidora da Checkmarks no Brasil, está abaixo aqui na descrição do episódio no YouTube e também na Deve Ser Causa Podcast.com.br. Você que está buscando soluções de AppSec, a DigitalWall, que tem um portfólio completo para você, e a GoldSecurity é especializada em aplicação de securities. Se você quer desenvolver software seguro, fale com a GoldSecurity, que eles vão te ajudar aí do começo ao fim, beleza?
+
+01:37.64
+Cássio Pereira
+Peiúr, Marcos, tudo bem? Vocês estão vivos? Estão em paz? Reclamações? Beijos? Boa.
+
+01:41.82
+Marcos Santos
+Pode se eu jogar, mano. Tudo certo, tudo bem.
+
+01:45.25
+Ben-Hur
+Tudo na NICE, mais uma das infinitas segundas feiras.
+
+01:49.05
+Cássio Pereira
+Pode crer, segundo o Dona Brava. Bom, vamos lá, gente. Eu queria apresentar o nosso convidado hoje. Eu não vou nem falar o nome dele, porque eu sei que ele é mais conhecido como sushi ou sushi com abacate, que é um fato curioso. A primeira vez que eu fui num restaurante japonês, aqui na Polônia, tem abacate no sushi. Tudo, todo sushi tem abacate mesmo. E aí eu, mano, por quê, cara? Por que os caras fazem isso e tal?
+
+02:11.01
+Cássio Pereira
+Não é o abacate que a gente tem no Brasil, que no Brasil é aquele abacate mais... ele é quase doce, né? Ele tem um gosto. Aqui eles usam o tal do avocado, que não tem sabor. Fica só lá aquele bagulho verde no meio do sushi ali, só irritando mesmo, no meu caso, porque eu não gosto. Mas enfim...
+
+02:26.03
+Cássio Pereira
+Estamos aqui hoje com o Sushi com o Abacate, que eu tive a oportunidade de conhecer pelo Twitter. Acompanhar os posts, as tretas, enfim. O Twitter é o caos, a gente sabe que é o caos. E ele que, não sei se é ele que organiza ou participa, mas do Bolha Sec, uma hashtag aí que o pessoal está sempre colocando. Enfim, trouxe ele aqui para a gente falar sobre científico, a iniciação científica e como é a área científica e tudo mais. Enfim, Sushi, muito obrigado pelo seu tempo, obrigado por estar aqui com a gente. Se apresenta para a galera, fala o que você quiser, seja muito bem-vindo.
+
+02:56.84
+Sushi (AIlton)
+Imagina, Cassy, o prazer é meu estar aqui hoje com essa galera, te dando uma ideia. O Cassy falou, eu sou a Hilton também, que conheci como sushi com abacate na bolha. E eu confesso também, Cassy, que eu comecei como hater de sushi com abacate. Depois eu fui convertido, acho que essa aqui é a jogada.
+
+03:05.47
+Cássio Pereira
+Hehehe!
+
+03:13.80
+Sushi (AIlton)
+Mas é um prazer estar aqui e conversar sobre isso. Eu acho que ter um boom recente sobre artigo científico, sobre a leitura de artigo científico na área técnica, eu acho que é um tema que é bem pouco debatido, e vai ser super legal falar sobre isso, principalmente focado em cyber-segurança.
+
+03:30.25
+Cássio Pereira
+Boa, boa, boa. Cara, mais uma vez, muito prazer ter você aqui. Ben e Urmar, vocês têm perguntas aí já? Eu tenho uma enxurrada aqui de dúvidas, mas se vocês quiserem começar, eu vou deixar vocês à vontade. Boa.
+
+03:39.70
+Marcos Santos
+Começa aí e depois a gente vai fazendo o rodinho aí.
+
+03:44.29
+Cássio Pereira
+Boa, eu vou começar então, o Sushi postou essa semana, a semana passada essa semana no Twitter, uma threadzinha sobre leitura de artigo científico, como ler, algumas dicas ali, uma primeira leitura para você ter uma visão geral do que está rolando, uma segunda leitura um pouco mais detalhada, enfim, uma thread bem legal.
+
+04:03.51
+Cássio Pereira
+que vai estar aqui o link também no YouTube para vocês acompanharem depois. E quando eu vi isso, eu pensei, cara, eu estou com 20 anos de mercado, eu tive um contato na faculdade, eu fiz duas pos, eu tive aquela matéria de iniciação científica. Mas que é um negócio assim, cara, olha, tem que formatar na BNT e para você escrever um artigo, essa é tudo artigo, o título abstract, a descrição, não sei o quê, não pode ter mais que tantas páginas, não sei o que lá, não sei o que lá.
+
+04:06.15
+Sushi (AIlton)
+E é isso aí.
+
+04:29.38
+Cássio Pereira
+Mas não era um negócio que me empolgava, nunca tive vontade, nunca tive, até então, nunca tive essa aspiração. Nossa, eu vou fazer um mestrado, fazer um doutorado, vou seguir a área acadêmica e tudo mais. Mas ao longo da carreira eu vi que isso é importante pra caralho e que é legal. Quando eu vim morar fora eu vi que é mais legal ainda. Aqui tem um incentivo um pouco diferente do Brasil, acho que é um tema que a gente poderia tocar também. Mas vamos lá, primeira pergunta.
+
+04:55.08
+Cássio Pereira
+Sushi, você acha que no Brasil não é tão divulgado isso? Ou, como eu falei, eu tive um certo contato, é divulgado talvez não como deveria ser? Como é que você enxerga essa área científica em geral no Brasil? Como você falou muito bem na introdução, especificamente na área de cyber.
+
+05:11.46
+Sushi (AIlton)
+É interessante essa pergunta, porque historicamente as universidades públicas são talvez quem mais desenvolve e investe em pesquisa científica. E essa matéria acabou ficando bem concentrada nesses círculos.
+
+05:31.08
+Sushi (AIlton)
+E, pior ainda, na graduação, a gente vê esse modelo que você comentou, que ensina basicamente a BNT, você tem que escrever capítulos, parágrafos de tantos caracteres, não pode estar com fontes comicções, e essas regras que são detalhes, que realmente são importantes, mas elas não abordam o núcleo da questão, que é por que você está escrevendo aquele trabalho, qual a estrutura que ele trabalha, para quem você quer, que tipo de leitor você está focando.
+
+05:40.20
+Cássio Pereira
+E aí
+
+05:58.61
+Sushi (AIlton)
+E por aqueles quatro porquês. O porquê, o como, o para quê e o outro que eu esqueci agora qual é. Mas você tem que ter isso em mente quando está escrevendo um artigo científico.
+
+06:12.08
+Cássio Pereira
+Boa. E eu lembro que na escola já tinha umas pinceladas de escrever trabalhos. A própria BNT já era uma norma, uma coisa que a gente tinha que apresentar trabalho, mas era, pelo menos na minha visão, era algo apresentado de uma forma tão chata
+
+06:30.66
+Cássio Pereira
+que aquilo não te dá um tesão, nossa isso é legal, hoje com anos e maturidade, olha o artigo científico, essa é a importância, para que serve, mas lá atrás você não despertava algo, que acho que é um pouco do que tem hoje na área de, a gente fala muito de epicec, deve ser cópias,
+
+06:44.15
+Sushi (AIlton)
+Sim. Sim.
+
+06:48.86
+Cássio Pereira
+O DEV está focado em entregar e codar as empresas nisso e a segurança vai ficando em segundo plano. Até que eles começam a entender que corrigir uma vulnerabilidade legal ou fazer um scan do código é interessante. E aí começam a introduzir essas práticas. Acho que a Iniciação Científica ou o Estudo Científico em geral
+
+07:06.48
+Cássio Pereira
+Ele poderia seguir nesse mesmo caminho, né? Tipo, olha, pessoal, talvez no passado você teve uma experiência ruim, você falou muito bem aí do sushi com abacate, você foi convertido. Eu hoje já não me incomodo mais, até porque eu não tenho opção, né? Não me incomodo mais, mas uma hora eu acho que eu vou começar a gostar. E acho que talvez seja esse sentido, né?
+
+07:23.28
+Cássio Pereira
+para isso que serve uma pesquisa científica, para resolver um problema, você vai criar uma nova solução. Aí você pode explicar um pouquinho mais de detalhes, né? Eu sei que tem uma diferença entre o mestrando, o doutorando, o que um faz, o que o outro faz, mas você vai resolver um problema, criar algo novo que ninguém fez, você é o único, né? Então tem toda uma
+
+07:31.12
+Sushi (AIlton)
+E aí E aí
+
+07:44.87
+Cássio Pereira
+uma storytelling do porquê fazer aquilo, pra que fazer aquilo, enfim. Mas um outro ponto que eu queria abordar, de repente, seria a parte financeira, porque você falou, a Universidade Pública investe muito mais. E quando a gente fala desse investimento, o próprio pesquisador imagina que tem uma bolsa, alguns eu sei que tem salário e tal, não sei como funciona a estrutura, mas eu sei que é mais ou menos assim. Se quiser, também fica à vontade pra falar. Mas falta um pouco disso também na iniciativa privada? O que você acha?
+
+08:09.00
+Sushi (AIlton)
+Com certeza. Antes de eu te poder perguntar, vou dar um pouco de contexto, do meu contexto sobre isso. Eu acho que vai fazer super sentido. Eu comecei na área de Cybersegurança em 2012 com iniciação científica. Na minha universidade que eu fazia, eu fiz engenharia de computação, tinha um grupo de pesquisa bem bacana de Cybersegurança, que eu me interessei logo de cara e participei. Na época, a bolsa para a prostituição de graduação fica dedicada a 300 e poucos reais.
+
+08:22.83
+Cássio Pereira
+Manda. Já paga o café da manhã, já paga o café da manhã.
+
+08:34.39
+Sushi (AIlton)
+que é um valor bem não generoso, digamos assim. Paga o cafézinho na faculdade e é isso. E você não pode ter nenhum outro vínculo hiper gratis, você não pode, sei lá, ter o estágio, trabalhar. Você tem que focar, basicamente, num estúdio 100%.
+
+08:45.72
+Cássio Pereira
+Uhum.
+
+08:51.75
+Sushi (AIlton)
+e depois você aprende a base, você está bem o iniciante da ciência, você está aprendendo ali como escrever um artigo científico básico, como fazer uma apresentação num fórum científico, coisas assim. É uma coisa que você vê muito menos, é quase nada da BNT, e vê mais sobre o método científico. Por exemplo, quando você escreve BNT, você não pode fazer afirmações sem o embasamento sobre elas, ou sem ter uma referência que te ajude a embasar aquilo, por exemplo.
+
+09:16.68
+Cássio Pereira
+Uhum, uhum Uhum Uhum Uhum
+
+09:17.18
+Sushi (AIlton)
+Aprendi esse tipo de detalhes. Depois que eu terminei a graduação, eu fiz o mestrado em service finance também, e aí com uma bolsinha um pouco melhor, acho que na época era 1.200, por um graduado já ajudava bem mais a arrumar as contas de casa, considerando que um graduado de computação leva cinco anos para estar ali, e o do mestrado geralmente nas universidades brasileiras leva dois anos.
+
+09:42.06
+Sushi (AIlton)
+Você passa dois anos com aquele recurso, muitas vezes também providenciado com parcerias com instituições privadas, por exemplo, no meu caso, a universidade tinha parcerias com a Samsung e com a Motorola, não sei se posso falar o nome das empresas aqui, mas eram empresas que tinham algum tipo de parceria para gerar material humano, para isso tem interesse em ter pesquisadores e ter pessoas qualificadas para isso.
+
+09:54.99
+Cássio Pereira
+Bah, a equipa faz tudo. Uhum. Uhum.
+
+10:05.28
+Sushi (AIlton)
+E depois disso, eu estou finalizando o doutorado, na verdade, sobre segurança. E a bolsa que eu tinha era um pouco mais generosa. Ficava ali uns R$2,500.
+
+10:14.43
+Sushi (AIlton)
+É o dobro da graduação. É engraçado, eu falo desses valores, porque se você for olhar uma bolsa Erasmus na Europa, que é a bolsa para o pessoal da graduação, que é o TCC, desde entre artes para os TCC legais, fazem intercâmbio, acho que na época, que estava na maior plena, 500 euros. Se você converter ali, ela dá mais para a bolsa de doutorado do Brasil. Para o pessoal que fazia o TCC.
+
+10:41.48
+Cássio Pereira
+Isso, fazendo essa comparação, um cara de doutorado no Brasil, ele já é um cara, eu não sei as idades, mas não é um cara tão jovem mais, já passou dos vinte e poucos ali para chegar num doutorado, eu imagino. Enquanto que um de vinte, por exemplo, eu imagino que já seja graduando na Europa que vai estar ganhando 500 euros. Um vinte e poucos ali saiu da escola, já tem para graduação e tal.
+
+10:50.09
+Sushi (AIlton)
+Já está ouvindo muito. Sim. Exatamente.
+
+10:53.10
+Marcos Santos
+Eu acho que já está fechando uns 30 ali, né?
+
+11:03.66
+Cássio Pereira
+Então essa é uma parte que desmotiva um pouco, porque eu imagino que no mestrado também você tem essa obrigação de 100%, você não pode ter trabalho ainda, ou já pode.
+
+11:11.41
+Sushi (AIlton)
+Depende muito. No meu estado começa o meu tema. É recomendável você não ter, mas se você trabalhar em uma área que pode se relacionar de alguma forma, pode contribuir com a sua pesquisa, e você tiver um orientador que aprove, você pode. Tem os três fatores.
+
+11:27.62
+Cássio Pereira
+Tá, entendi. Ou seja, tem uma série de sorte... Não vou chamar de sorte, vai, mas tem um série de fatores aí que pode falar, cara, você vai ter que viver com um pau e duzentos aí e acabou. E não reclama, né? Uhum. Uhum.
+
+11:38.30
+Sushi (AIlton)
+E isso justifica muito a fuga, porque a gente vê muito o pessoal falando da fuga dos pesquisadores do Brasil. A gente vê que realmente é bem difícil a questão financeira dos pesquisadores do Brasil. E quem tem apoiado bastante nisso são realmente as parterias e as construções privadas.
+
+11:55.81
+Sushi (AIlton)
+que tem dado esse gás. Existem bolsas que são privadas, as bolsas são geralmente mais gordas. O problema é que elas não cobrem tudo. É um projeto de um ano, um lance de um ano, você vai contribuir, fazer a publicação, fazer realmente um avanço.
+
+12:01.42
+Cássio Pereira
+uhum uhum uhum
+
+12:10.81
+Sushi (AIlton)
+E acabou. Tchau. Muito obrigado. E segue nesse modelo. Você comentou sobre os requerimentos de mestrado e doutorado. O mestrado tem requerimentos bem específicos. Inclusive, o mestrado do Brasil é um dos mais difíceis. Em vários países, a pessoa faz a graduação e o mestrado juntos. Quase juntos. No final da graduação, a pessoa faz mais de seis meses, um ano. E pega os dois diplomas juntos. No Brasil é diferente. Você precisa terminar a graduação 100%.
+
+12:36.80
+Cássio Pereira
+Uhum Uhum Uhum Uhum
+
+12:38.21
+Sushi (AIlton)
+Depois disso, você faz o processo promestrado, faz a prova, entra, faz uma série de cadeiras, de disciplinas, e aí você começa a trabalhar a sua pesquisa. Os objetivos dependem de instituição, mas geralmente você tem que fazer uma publicação em conferência de status superior. No Brasil, existe a CAPES, que ranqueia tanto instituições quanto fóruns, journals, publicadoras.
+
+13:05.18
+Sushi (AIlton)
+e fazer uma publicação no fórum, em uma apresentação do que consideram de alta qualidade nesse ranking deles.
+
+13:14.26
+Cássio Pereira
+Uhum. Cara. Vamos, vamos. Uhum.
+
+13:15.62
+Sushi (AIlton)
+E o doutorado fica mais rápido. O doutorado é mais rígido, então você tem que fazer uma publicação realmente longa num periódico de estado superior. Então um journal realmente de 10 páginas, 12 páginas, e algo que realmente avance o estado atual do seu campo de estudo.
+
+13:37.02
+Sushi (AIlton)
+Então, no mestrado, por exemplo, é mais simples você fazer uma melhoria, um ajuste, você aplicar uma técnica em outro campo, por exemplo. No doutorado, você tem que realmente trazer algo novo, algo significativo para a história. Em teoria, pode. Você ter o mestrado não é um requisito na maior parte das instituições para você fazer o doutorado. Ele só é altamente recomendável.
+
+13:49.61
+Cássio Pereira
+E eu ouvi falar que você pode pular o mestrado, faz sentido isso? Da graduação ser doutorado direto? Pode fazer isso? Eu ouvi isso, porque o negócio suga a sua alma, vamos chamar assim, de um jeito que o doutorado vai ser mais fácil você passando pelo processo do mestrado. Porque você já vai até ter uma pesquisa, você vai talvez avançar naquilo, faz mais fácil.
+
+14:14.27
+Sushi (AIlton)
+Vem.
+
+14:18.15
+Sushi (AIlton)
+Com certeza. E te prepara bastante, realmente. Psicologicamente, principalmente. Uma das últimas etapas agora que é essa publicação, o processo de revisão do vai e vem leva mais de um ano. Você manda o papel, o cara revisa e fala, ah, a gente está aqui. Te devolve três meses depois. Você devolve para ele e fica nesse vai e vem durante meses, anos. Então, realmente, psicológico afeta bastante.
+
+14:18.08
+Cássio Pereira
+É o que eu... Exato. Exato. Eu lembro do... Pô...
+
+14:45.52
+Cássio Pereira
+Você comentou essa parte do não trabalhar ou ter depende da restrição. Eu lembro quando eu fiz minha pós-enforense, na verdade foi na área de segurança. Não era no Mackenzie, São Paulo, que já me estudou privada, que já me estudou cara. Um dos professores ele estava doutorando ou mestrando, não lembro agora.
+
+14:50.79
+Sushi (AIlton)
+Sim.
+
+15:02.38
+Cássio Pereira
+E a aula praticamente era de biometria, como é que fazer questão de biometria e tudo mais. Então ele praticamente usou a matéria dele para avançar no projeto dele e tudo mais, consequentemente ensinando a gente, que estava lá na disciplina, e a gente acabou colaborando com algumas coisas e tal, enfim. E ele dava muita dica, ó, segue assim, segue assado. Foi o máximo de contato que eu tive. Mas eu lembro que na época ele falou assim, falou, cara, durante o meu processo, eu cheguei no meu orientador, sei lá o quê, ele falou, olha, ele falou, cara, minha esposa está grávida.
+
+15:30.83
+Cássio Pereira
+E ele falou que não falaram com essas palavras, mas o orientador meio que... Cara, mas como assim? Como você tem tempo para estar fazendo filho e você está no meio da sua mestrada ou doutorado? Você tem que focar 100%. Então é um negócio que eu imagino que literalmente consome, precisa da sua dedicação de um tempo. Como você falou aí, um ano, dois anos, enfim, dependendo do projeto, dependendo da pesquisa.
+
+15:55.38
+Cássio Pereira
+que não é brincadeira, por isso que a gente até fala que não dá pra viver com essa bolsa, ao mesmo tempo precisa trabalhar, mas se você trabalha você vê que sua pesquisa não avança, você precisa ir de tempo, o trabalho consome muito tempo. Então é uma decisão não tão simples. Marcos Benhur, manda aí, vocês que estão coçando aí agora.
+
+16:03.46
+Sushi (AIlton)
+E...
+
+16:13.72
+Marcos Santos
+Não, eu queria saber o que que foi que motivou a escolher justamente fazer essa questão de iniciação científica na área de cibersegurança. Qual foi a principal motivação? Eu sei que você gostou do grupo, mas o que que te inspirou a entrar em cibersegurança? Você tinha ouvido falar antes como que foi esse processo?
+
+16:36.80
+Sushi (AIlton)
+Eu tenho uma resposta na ponta da língua. Acho que sei qual foi o episódio exato que me deixou precisar da segurança. Mas o grupo de saber-segurança na minha universidade é bem forte, bem grande, bem ativo. Eu tive aula com um professor de lá que sempre comentava que saber-segurança estava em tudo. Em todas as áreas você tem um pézinho de saber-segurança. Isso tem sido a primeira coisa que me acendeu.
+
+16:40.93
+Cássio Pereira
+Hehehe.
+
+17:01.44
+Sushi (AIlton)
+um alerta ali de que talvez fosse uma coisa legal, mas que realmente me puxou foi um blog que eu li, e felizmente eu acho que esse blog não existe mais, sobre uma vulnerabilidade idó no iFood.
+
+17:11.90
+Sushi (AIlton)
+Então, eu achei aquela explicação a coisa mais simples possível e mais impactante. E eu fiquei realmente encantado por aquela classe de vulnerabilidade. Eu sei que quem escreveu é um cara que está na gringa hoje, que tinha a própria empresa de segurança, mas realmente eu perdi esse post, não consegui achar mais. Mas eu acho que o post mesmo, lá de 2014,
+
+17:18.08
+Marcos Santos
+e aí e aí
+
+17:37.55
+Sushi (AIlton)
+E antes disso, eu já tinha entrado, como comentei desde 2012, mais por uma proximidade minha com os orientadores e professores do que realmente uma paixão para o Sábio de Segurança. Foi mais uma questão do timing, oportunidade e o fit de skills ali. Mas realmente o que eu embarquei de fato com os dois pés foi parte desse blog que me chamou a atenção.
+
+17:59.75
+Marcos Santos
+Boa. Já emendando também, eu queria entender quais são esses desafios de poder fazer uma inscrição científica versus o mercado de trabalho, né? E se tem alguma tendência que você segue ou se você procura alguma coisa que você entende que vai estar mais em alta no mercado nos próximos anos, assim, pra poder iniciar a pesquisa, né? Então, acho que só pra entender um pouquinho melhor.
+
+18:19.07
+Sushi (AIlton)
+E aí?
+
+18:24.15
+Sushi (AIlton)
+Acho que é uma diferença muito grande do mercado de trabalho. Você tem uma vaga, um estádio, por exemplo, para uma instituição científica. Evidentemente, você vai ter experiências muito diferentes. Você vai conhecer muito mais sobre o mercado de trabalho, sobre o dia a dia, organização de empresa no estádio, por exemplo. Então é super importante também, quando possível. Mas a instituição científica vai te permitir você trabalhar com coisas que você se interessa. Muitas vezes o orientador ou o seu grupo de pesquisa vai te deixar pesquisar
+
+18:52.07
+Sushi (AIlton)
+o que você tem interesse em trabalhar, quais áreas você realmente tem mais afinidade, mais facilidade talvez até. Então você vai ter uma chance de pesquisar aquilo que realmente você tem interesse. Enquanto no trabalho convencional você vai receber ali uma lista de tarefas de um desenho já pronto e você tem que se encaixar ali com uma engrenagem.
+
+19:07.77
+Marcos Santos
+E ali está o Desk.
+
+19:11.14
+Sushi (AIlton)
+Eu tenho uma visão bem clara sobre áreas que vão ter muito um boom nos próximos anos. A minha pesquisa foi em serviço de API, meu dorado, porque eu sabia que teria um boom também anos atrás sobre API. Realmente teve um boom, apesar de ter dado uma esfriada, no meu ponto de vista, sobre uso de API, mas acho que o próximo vai ser realmente com IA.
+
+19:32.74
+Sushi (AIlton)
+Claro que sempre teve pesquisa de ciriose com IA, mas acho que estamos em um momento bem explosivo, literalmente. Estou constantemente pesquisando e estudando sobre isso também. De vez em quando posto alguma coisa sobre jailbreak de LLM, que eu acho que tem a mesma simplicidade de Dó e o impacto é bem grande.
+
+19:53.11
+Sushi (AIlton)
+Então é aí que eu estou tentando dar uma aprofundada e acho que nos próximos anos vai ter uma grande oportunidade tanto para pesquisadores quanto para profissionais que tenham um pezinho de segurança e um pé de ar tanto no mercado quanto na pesquisa.
+
+20:08.27
+Marcos Santos
+Boa, topzera. Eu acho que eu vou liberar um pouquinho pro Benhur aí, se não vou fazer monopólio aqui das perguntas também.
+
+20:09.29
+Ben-Hur
+E é isso.
+
+20:16.05
+Ben-Hur
+Sushi, vou com uma pergunta um pouco mais polêmica para as pessoas. Muitas vezes a gente está dentro da área, principalmente a área de cyber. Ela é uma área onde o mercado privado é infinitamente melhor em termos salariais, tudo, do que a pesquisa, do que a parte acadêmica. Essa é uma realidade que a gente vê hoje.
+
+20:22.82
+Cássio Pereira
+Treta!
+
+20:45.08
+Ben-Hur
+e muitos profissionais se perguntam, por que eu deveria fazer o mestrado? Por que eu deveria fazer um doutorado? Alguns, inclusive, é por que eu deveria iniciar qualquer coisa na área acadêmica, né? Se a faculdade não me ensina nada, aquele papinho que a gente escuta sempre, né? Mas eu queria ouvir de você, que já passou por vários estágios, assim,
+
+21:02.94
+Sushi (AIlton)
+Obrigado.
+
+21:13.32
+Ben-Hur
+Quais são os benefícios que agregam para os profissionais que inclusive estão já no mercado corporativo? O que agrega você também estar no ramo acadêmico, dentro da área acadêmica, e também estar envolvido em um mestrado, em um doutorado? O que isso traz para o profissional em si?
+
+21:35.06
+Sushi (AIlton)
+Legal, é super bacana a pergunta do Rui, realmente polêmica, não é fácil responder. Os professores geralmente entram por motivos diversos na pesquisa e na academia de forma geral, mas eu tenho um ponto de vista sobre isso, que é também relacionado com um post original que eu fiz até sobre a literatura acadêmica, que tem a ver com o paper do Deep Seek.
+
+21:38.95
+Cássio Pereira
+Hum. Hum.
+
+21:57.65
+Sushi (AIlton)
+Perceberam que teve um boom, todo mundo comentando sobre Deep Sea, várias pessoas tentando ler o artigo e chegando a conclusões diferentes a partir do artigo. O meu insight sobre isso é que quando a gente está trabalhando numa proximidade à fronteira da sua área, talvez no estado da arte, no ponto mais avançado, não tem curso,
+
+22:21.30
+Sushi (AIlton)
+Não tem vídeo no YouTube ainda. Não tem blog post. Talvez você ache uma thread ali resumida do Twitter, no Blue Sky.
+
+22:30.08
+Sushi (AIlton)
+Mas o conteúdo de fato, muitas vezes, ao instar esse momento de virada, de explosão de uma área nova, ou de uma tecnologia nova, eles precisam buscar beber a fonte. E eu acho que esse é exatamente o caso da Deep Sea. Muitas pessoas tiverem o primeiro contato com o artigo científico, talvez, por causa dessa explosão da Deep Sea, que o único lugar onde tinha a fonte era o material original, de fato, que é esse paper.
+
+22:55.23
+Sushi (AIlton)
+Como comentei na thread, muitas pessoas talvez acham que sabem ler artigos científicos.
+
+23:02.41
+Sushi (AIlton)
+mas nunca tentaram. Como ler um jornal ou um post da Folha, tudo é a mesma coisa. E, na verdade, a realidade é um pouco mais dura do que isso. E o meu ponto é que, talvez, quanto mais cedo você consiga ter contato, mesmo que você não precise chegar no nível de investigação do outro lado, talvez a inserção científica, ou você mesmo ter interesse de pesquisar por conta própria, porque é claro que o título vai te ajudar profissionalmente em algum momento,
+
+23:31.41
+Sushi (AIlton)
+Mas se você busca ser capaz de ler e se aprofundar em temas que não estão ainda no mainstream, talvez seja o único caminho de você conseguir se aprofundar nesses tópicos que não chegaram no mainstream ainda.
+
+23:47.58
+Sushi (AIlton)
+LRM mesmo é um tópico que já era bem batido na academia, já era bem conhecido, antes de conseguir implementar em larga escala como foi. Já tem 15 anos de pesquisa, pesquisadores já conheciam, já estavam cansados de ler sobre quando ela realmente teve esse boom.
+
+24:06.90
+Sushi (AIlton)
+e talvez se botar na frente uma questão de mercado seja um motivo legal de pensar por que as pessoas poderiam se aprofundar na científica de fato.
+
+24:21.83
+Marcos Santos
+Top!
+
+24:22.37
+Cássio Pereira
+Eu até comentei, eu fico em cima do muro há uns anos. Eu vou lá fazer um mestradinho, não vou fazer, tem filha pequena, tem uma par de coisas correndo, eu sei que é foda. E é justamente por esse motivo, eu vou estar à frente, vou ver coisas que ainda não saíram, vou estar literalmente como algo pessoal. Até como um desafio, vou fazer um negócio, um nível acadêmico.
+
+24:45.42
+Cássio Pereira
+científico, acadêmico, que seja relevante. Óbvio, é relevante, ninguém faz nada inútil, entre aspas, mas coisas que vão me fazer crescer um pouco mais, pensar diferente, como você falou muito bem, aprender a ler. Cara, para pra pensar, a pessoa não sabe ler direito. Ler artigo científico, então, o cara já é um semideus. Então, é assim, literalmente, você vai desenvolver outras habilidades que
+
+24:50.54
+Sushi (AIlton)
+Hehehe.
+
+25:09.56
+Cássio Pereira
+que talvez você não conseguiria em outra área. Com pesquisador independente, talvez, mas você abre pesquisa, faz monta, mas você falou que não tem uma metodologia, não tem um guia, cara, é essa linha de pesquisa que faz sentido. Mas enfim, eu queria fazer uma outra pergunta também, e até para os meninos complementarem aí, antes da pergunta,
+
+25:31.36
+Cássio Pereira
+Tá quebrada na nossa voz aqui. A pergunta é a seguinte, você comentou um pouco de, você vai trabalhar com o que você quer, não necessariamente com o que você quer, mas com coisas que você gosta, talvez tenha até mais facilidade, etc. Eu lembro que uma das coisas que me afastou um pouco, não lá atrás, mas um pouco mais quando eu comecei a olhar para isso e tudo mais, foram os temas. Eu era desenvolvedor, depois virei AppSec, então tem um foco muito exclusivo no código, vamos falar assim, no software.
+
+25:33.30
+Sushi (AIlton)
+Obrigado.
+
+25:59.24
+Cássio Pereira
+E eu morava a 10 metros da Universidade Federal do ABC em São Paulo. Uma universidade que tinha bastante incentivo e tudo mais. E as linhas de pesquisa lá eram Network Security ou Visão Computacional, que é algo muito forte. Ou tipo, cara, mas cadê o Websector? Cadê o código? Cadê as coisas que eu sei? Parecia algo meio fora do que eu conheço ou fora do que eu gosto, vamos falar assim. Então eu falava, não vou ver nada não, porque não tem o curso que eu gosto, não tem a linha de pesquisa que eu gosto.
+
+26:13.37
+Sushi (AIlton)
+E aí E aí
+
+26:28.69
+Cássio Pereira
+Como é que é isso? Literalmente, você escolhe o que você quer ou não tem uma linha de pesquisa, você tem que abrir uma, a menos que seja PhD, você não abre nada, né? Mas como é que é isso? Ou tem que achar uma universidade mesmo que talvez tenha uma linha de pesquisa que você queira ou que você se identifique melhor? É assim?
+
+26:42.94
+Sushi (AIlton)
+É engraçado isso. Não sei se hoje é assim ainda, mas antigamente os estudantes estavam sempre loucos por codar. Quero codar, quero escrever código, quero escrever aplicação, quero ver uma janela abrindo mostrando o que fiz. Na minha época também era assim. O problema, o X da questão na verdade é que na pesquisa, na ciência, a implementação é a prova da sua teoria. É a prova daquilo que você imagina realmente funcionando. Então ele não é o foco. O foco é mais o seu algoritmo desvendando assim.
+
+27:13.01
+Cássio Pereira
+Uhum.
+
+27:16.02
+Sushi (AIlton)
+Apesar que o desenvolvedor tem um grande... Geralmente, muitas vezes, tem amor ao código a escrever. Isso é só um detalhe da pesquisa e a gente fica lá para o final, quando você precisa provar realmente o seu ponto. Sobre as pesquisas, esse realmente é um ponto complicado, porque
+
+27:34.34
+Sushi (AIlton)
+Você tem que pensar que você vai ser orientado por alguém, um orientador, que é um professor que deve ter alguns anos de experiência. E ele só consegue te orientar de forma efetiva se for uma área que ele conheça. Ele não vai conseguir te orientar e te indicar uma área de referência, etc, de uma área que ele não conhece. Então, se você tiver interesse numa área, por exemplo, o X, que não está dentro das capacidades da sua instituição de ensino,
+
+27:59.67
+Sushi (AIlton)
+provavelmente aquela instituição não vai conseguir te ofertar, aquela área de pesquisa. Isso principalmente quando a gente fala de iniciação científica. Em mestrado, você até consegue ajustar melhor com o seu orientador, ter o co-orientador, às vezes ter o co-orientador de outro país, inclusive foi o que aconteceu no meu caso tanto no mestrado quanto no doutorado.
+
+28:06.70
+Cássio Pereira
+Uhum.
+
+28:20.03
+Sushi (AIlton)
+Mas, na iniciação científica, realmente é bem difícil. Outra coisa da iniciação é que você não consegue, eu imagino, na maior parte das instituições, você está matriculado em uma instituição e fazer iniciação científica em outra. Eu, pessoalmente, não conheço um caso desse. Então, você realmente fica limitado para as possibilidades da sua instituição naquele momento. Esse aí realmente é uma pena, mas é até onde eu conheço essa limitação.
+
+28:40.78
+Cássio Pereira
+Uhum.
+
+28:45.30
+Cássio Pereira
+Boa, entendi. Então, realmente faz sentido essa história. Até porque, às vezes, tem uma faculdade ou uma universidade, como você falou, uma instituição, né? Que ela é conhecida... Sei lá, vou dar um exemplo bobo aqui. Cara, ela é conhecida porque os caras são visão computacional. Então, eles provavelmente vão expandir aquele campo, né? E trazer e evoluir mais naquilo, ao invés de abrir outros braços, vamos chamar assim, de coisas que não fazem sentido, porque eles já são muito bons. E formaram pesquisadores ou profissionais naquele ramo específico, naquele campo específico.
+
+28:46.05
+Marcos Santos
+Boa. É.
+
+29:14.38
+Cássio Pereira
+Literalmente faz sentido. Boa. Valeu, Marcos.
+
+29:15.25
+Sushi (AIlton)
+Especialmente quando a instituição fica famosa por um campo específico, ela atrai cada vez mais gente querendo aquele campo específico. Então, realmente ela fica bem focada naquilo.
+
+29:26.23
+Marcos Santos
+Boa. Deixa eu meio primeiro aí, depois eu vou.
+
+29:29.89
+Ben-Hur
+Agora você comentou uma questão interessante sobre, primeiro, você vai fazendo a pesquisa, vai montando a lógica, digamos assim, para depois colocar em prática. E tem as limitações, por exemplo, ao teu lugar que você está, à universidade que você está, muitas vezes aos professores na qual você tem acesso.
+
+29:49.90
+Ben-Hur
+E como é que funciona a integração entre universidades do mundo com relação a isso? Porque, por exemplo, imagino que todos os lugares ou grandes lugares, todos devem estar investindo em pesquisa com relação à segurança para a inteligência artificial.
+
+30:08.03
+Ben-Hur
+E aí imagina que talvez duas pessoas ou dois professores ou dois mestrandos ou doutorandos tenham uma ideia de fazer algo, mas estão desconectados, cada um está em algum lugar do mundo pensando na mesma ideia. Como é que funciona essa troca de conhecimento entre as universidades para pesquisas relacionadas ou até mesmo similares? Como é que funciona isso?
+
+30:29.84
+Sushi (AIlton)
+Legal. Tem dois cenários basicamente que são pesquisas concorrentes que estão acontecendo ao mesmo tempo e uma pesquisa concorrente baseada numa pesquisa que já foi finalizada. E aí são dois caras separados. Por exemplo dois caras concorrentes o objetivo do pesquisador é conseguir publicar como a pesquisa dele o maior constrato de ver se possível.
+
+30:49.36
+Sushi (AIlton)
+E dos dois é o mesmo. Então a colaboração é um pouco mais complicada nesse nada, apesar de ser possível muitas vezes. Por exemplo, compartilhar base de dados, compartilhar questionários, por exemplo. Isso pode acontecer e acontece, de fato, principalmente nesses sucessos do Brasil.
+
+31:03.40
+Sushi (AIlton)
+Agora, no cenário de que você quer colaborar baseado numa pesquisa que já foi feita e finalizada, já foi publicada por um autor, aí é muito mais fácil. Nas experiências que eu tive, geralmente os pesquisadores são super abertos a isso, mesmo porque eles ficam felizes, imagina, uma pessoa do Brasil ler o trabalho de uma pessoa do Japão, que você está contactando a pessoa realmente é uma...
+
+31:22.86
+Sushi (AIlton)
+A pessoa que está publicando é bem legal. Você saber que está sendo lido, saber que seu trabalho está ajudando realmente pessoas e outras pessoas. Nesse segundo cenário, é muito mais fácil e simples a colaboração.
+
+31:36.30
+Sushi (AIlton)
+E o terceiro caso que eu não comentei é quando uma cidadinha é relacionada com verba. Verba realmente prejudica tudo. Quando tem verbo envolvido realmente a situação fica bem mais difícil. Mas até chegar nesse momento uma colaboração, por exemplo, de compartilhamento de conhecimento, de trabalho. Às vezes o pesquisador não publica todos os detalhes no artigo dele, mas ele deixa aberto para quem precisar poder contactar diretamente ele e ele compartilha, por exemplo, o data set dele, alguns detalhes implementacionais que não foram publicados. Isso acontece muito.
+
+32:05.30
+Sushi (AIlton)
+E realmente as pessoas tendem a ser bastante abertas nesse sentido. Não sei se consegui de poder ser por cento.
+
+32:09.77
+Marcos Santos
+Boa. Boa.
+
+32:10.43
+Cássio Pereira
+Boa. Não é boa, faz sentido. Até porque sem a... O Berro falou muito bem. Sem essa colaboração, é quase que a mesma universidade num país e num outro país fazendo a mesma coisa, em vez de juntar, por exemplo, NIR Forças e avançar ainda mais no campo do que ficar brigando para ver quem publica primeiro. Eu sei que tem um... Ah, manda aí. Uhum. Uhum.
+
+32:26.92
+Sushi (AIlton)
+Eu tenho uma história boa para isso, Cássio, que foi no meu mestrado, eu fazia uma pesquisa sobre anti-instrumentação binária dinâmica. Não sei se vocês já viram o Frida. Antes de existir o Frida, tinha uma solução da Intel, que era o PIN, que fazia a mesma coisa, só que usando C++. E aí tinha um cara, a minha área de pesquisa é anti-instrumentação, é como uma aplicação detecta que ela está sendo instrumentada. E aí tinha um cara na Espanha que tinha uma pesquisa já bem avançada sobre isso.
+
+32:44.65
+Cássio Pereira
+Uhum. Uhum.
+
+32:57.88
+Sushi (AIlton)
+e tinha que ter vários códigos, vários artefatos para ajudar a desenvolver. Tinha como se fosse anti-VM, anti-debug, essas coisas. O que eu fiz foi escrever um e-mail para ele perguntando detalhes sobre isso, perguntando mais sobre as questões de trabalho futuros, como eu estava pesquisando dele, e ele foi superfeliz em me responder. Mais do que isso, ele ofereceu, caso eu tivesse interesse em fazer um intercâmbio para lá,
+
+33:22.14
+Sushi (AIlton)
+Ele ajudaria com, sei lá, bater pela universidade, como se chama? A questão de vista, essas coisas, toda a universidade dele ajudaria a prover. E aí, a minha universidade, a UFAM, ela tinha um projeto na época de... Porque eu não sei se vocês sabem, mestrado não existe mestrado sandwich, você consegue fazer a pesquisa fora por alguns meses e voltar, mas aí tem nomes dependendo da instituição. E aí, devido a esse email que eu troquei com esse pesquisador,
+
+33:30.54
+Cássio Pereira
+Uhum. Uhum. Uhum.
+
+33:48.39
+Sushi (AIlton)
+Eu mostrei para o meu orientador, o orientador levou para o gestor da universidade, e eles conseguiram me dar uma bolsa para passar três meses com esse pesquisador lá na Espanha, aprendendo com ele como é que ele fez aquele trabalho dele, e eu consegui trazer essas coisas e aplicar no meu trabalho e publicar. Esse meu trabalho, que inclusive tem mais leituras, foi graças ao e-mail que eu mandei para o cara perguntando quase com sério como ele fez certas coisas e o que ele queria fazer no futuro.
+
+34:11.01
+Cássio Pereira
+não sensacional
+
+34:14.60
+Sushi (AIlton)
+E aí, eu passei lá esses três meses, fui duas vezes na Espanha, passei a primeira vez, fui no mestrado, depois fui de novo ao doutorado, passei seis meses no doutorado, nessa minha instituição, que é o aniversário de Saragosto, e tudo por causa de um e-mail de colaboração, pedindo um suporte, uma dica, realmente uma coisa não material, uma coisa realmente do trabalho, e daí surgiu essa colaboração, essa parceria, e é um grande, grande amigo até hoje, que eu até quero visitar ele esse ano.
+
+34:41.10
+Cássio Pereira
+Sensacional!
+
+34:43.44
+Cássio Pereira
+Boa, sensacional, sensacional. Isso é um negócio bem legal, porque a gente vê isso muito em eventos, né? Besides da vida, cara, conecta muita gente pra fazer muita coisa acontecer, mas é um negócio que a gente pode dizer assim, completamente sem controle nenhum, informal, nem acho que tem que ter controle nenhum, só que deve acontecer tanto projeto, tanta coisa, que tá fora da academia, às vezes níveis de pesquisa mesmo, né? Que você falou, pô, num ambiente mais formal, vamos chamar assim, pô, você teve o suporte, teve a bolsa, tal, legal.
+
+34:44.19
+Marcos Santos
+Boa!
+
+34:50.23
+Sushi (AIlton)
+Sim. Sim, por certo. O caso...
+
+35:12.60
+Cássio Pereira
+Mas deve acontecer tanta coisa fora que a gente nem fica sabendo, nem tem como ver ou controlar. Esse é o bacana dessa interação. Uhum. Uhum.
+
+35:19.68
+Sushi (AIlton)
+Complementando esse seu ponto, tem uma característica muito diferente de Saiba e Segurança para outras áreas de pesquisa, tipo IA, redes, essas coisas que a área de segurança tende a ser mais, chamamos de área de pesquisa simba. A pessoa gosta muito de pesquisar, publicar em post, blog, em evento acadêmico, como a própria b-sides,
+
+35:40.45
+Sushi (AIlton)
+é copado em que eu vou ter o B.U. O pessoal gosta muito de publicar nesses lugares em detrimento à pesquisa científica tradicional. E essa característica bem única, esse meio não underground, mas subversão da segurança, que realmente a pesquisa cinza, como chamo que é essa pesquisa que acontece no Medium, ela é muito forte em saúde e segurança. Eu acho que eu não vi nenhuma outra área ter uma pesquisa cinza tão forte quanto essa. E acontece realmente essa troca informal.
+
+35:44.86
+Cássio Pereira
+uhum uhum uhum
+
+36:07.62
+Sushi (AIlton)
+Acontece muita apresentação extremamente técnica e com realmente muito valor científico em fóruns abertos, não científicos, totalmente, vamos por exemplo, besides e equipado.
+
+36:18.15
+Cássio Pereira
+Isso é válido academicamente? Eu publiquei numa b-side da vida. Eu tô fazendo mestrado, não tô lá, eu publiquei nesse lugar. É válido? Porque é o que você falou, tem o CAPS do Brasil, tem o CAPS, ele tá ranqueado. Eu imagino que esses eventos nem saibam o que é, né? Ou é válido, ou faz sentido. Uhum. Pra promulga... Uhum.
+
+36:34.08
+Sushi (AIlton)
+Mais uma vez, a peculiaridade da sala de segurança não é válida, mas você imagina ter uma apresentação feita na Black Hat. Na prática realmente é super impactante para a área, mas nos olhos da universidade ela não conta. Aliás, ela pode até contar como uma apresentação em evento, mas ela não vai diferenciar a Black Hat para outros eventos da sua cidade, por exemplo.
+
+36:52.81
+Cássio Pereira
+Tá. Entendi, entendi. Se lasse.
+
+37:00.78
+Marcos Santos
+Bom dia. Bom dia.
+
+37:01.64
+Sushi (AIlton)
+Existe uma rede social de pesquisadores que também esqueceu o nome. Você coloca lá o nome de lugar que você apresentou seus trabalhos, que já é uma pontuação e conta como um trabalho científico, mas a universidade não conta como crédito ou essas coisas. Exatamente.
+
+37:15.77
+Cássio Pereira
+Entendi, entendi. Então é melhor que você falou. Tem que publicar num fórum, uma revista, enfim, coisas oficiais, né? Vamos falar assim. Boa, boa, boa, boa, boa.
+
+37:22.26
+Marcos Santos
+Deixa eu aproveitar que a gente está em um tema internacional e perguntar para o Sushi quantas vezes ele já pensou isso aí do Brasil e se já pensou para quais países ele pensaria ir para poder fazer pesquisas científicas, quais tem aí uma melhor orientação ou tem ali uma melhor base vamos dizer assim para facilitar esse trabalho.
+
+37:41.95
+Sushi (AIlton)
+Essa pergunta é difícil, Marcos, eu acho que depende muito. Já pensei com certeza. Sair do Brasil, tanto que não estou agora. O Mário Buenos Aires deu spoiler. Mas não foi por causa da pesquisa científica. Eu acho que no meu caso particular, o que mais me pede de de repente ir para um lugar mais longe é a questão de família.
+
+38:02.16
+Sushi (AIlton)
+Mas eu acho que do ponto de vista da perspectiva científica é uma escolha bem clara as vantagens que existem. E sobre locais eu acho que depende muito da área. Infelizmente vou ter que dar resposta em cima do muro de que depende muito da área. Mas existem lugares que são famosos por ter investimentos na científica.
+
+38:23.35
+Sushi (AIlton)
+A gente sabe que rola muita gente na pesquisa, por exemplo, nos Estados Unidos, Ásia como um todo, apesar de ter uma cultura bem workaholic, tem um investimento bem grande na pesquisa. Na Europa, talvez seja um lugar que eu não iria para fazer mestral doutorado, porque geralmente eles têm uma cultura de... São questões de ensino que são cobradas. De vez do Brasil, por exemplo, que você faz o mestral doutorado
+
+38:49.43
+Sushi (AIlton)
+em uma universidade pública na Europa você tem uma mensalidade mesmo se você estiver em uma instituição, sei lá, milenar, como era o caso... A instituição que eu estava, por exemplo, tinha quase idade do Brasil e mesmo assim ela te cobrava mensalidade pro doutorado e pro mestrado. Exatamente.
+
+39:05.71
+Cássio Pereira
+Ah, nem todo mundo é Hogwarts!
+
+39:07.46
+Marcos Santos
+Eu até ia perguntar se Israel seria uma possibilidade visto que a segurança é grande.
+
+39:11.65
+Sushi (AIlton)
+A área de Saiba e Segurança é extremamente famosa nesse pedaço que você comentou. Eu realmente não estou por fora da geografia, não sei exatamente onde é onde, mas eu sei que Telavive são locais famosos por pesquisas super avançadas em Saiba e Segurança.
+
+39:28.18
+Cássio Pereira
+Cara, a população inteira do país passa pelo exército por dois anos, todo mundo é obrigatório. E no exército, o cara já começa no exército, em nível militar, fazendo coisas sobre a cibersegurança. Então assim, não tem como não estarem na frente. Eu ouvi muito falar sobre a Finlândia também, na área de... Não só de ciber, mas na área de TI em geral, que são muito fortes, fica aqui próximo mais da gente. Mas, assim, é... Boatos, né? Não sei o que é real, que não é, mas falam que é muito forte também. E realmente isso é verdade.
+
+39:55.66
+Sushi (AIlton)
+Mas eu tentaria ir para locais que têm bastante incentivo e são famosos por uma pesquisa deles.
+
+40:04.21
+Cássio Pereira
+Estados Unidos é muito forte nisso, né? E realmente isso que você falou de pagar a mensalidade, cara, eu moro na Europa há quatro anos, trabalho aqui, moro aqui, enfim, e converso com um monte de gente do trabalho assim, e uma pessoa fala, ah, putz, acabei no mestrado. E ela se fala, putz, foi uma grande investida, porque realmente você paga uma mensalidade, não tem... tem um outro incentivozinho, mas é meio que você paga uma faculdade normal, uma mensalidade normal, como se fosse uma instituição privada e tal.
+
+40:05.37
+Marcos Santos
+Não. É. É tão raro.
+
+40:31.20
+Cássio Pereira
+Mas eu vejo que aqui, pelo menos, meu feeling, é um pouco mais comum, mesmo no meio profissional, fazer um mestrado paralelo do que o que você comentou do Brasil, o cara só foca na área acadêmica, e ainda assim, eu vou pegar a porcentagem de pessoas que seguem a área acadêmica, uma porcentagem mais baixa em relação às pessoas que seguem a área profissional, a área do mercado.
+
+40:52.88
+Marcos Santos
+Mestre, tem muita vez o que o Sushi falou aqui. A galera gosta de ter ali, de ser chamado de professor, ser chamado de mestre, de doutor. Então, tá muito ligado ao ego também. Então, a pessoa quer ter aquele título pra poder botar no currículo ou no nome empresarial dele. Ele quer ter o título de doutor, mestre ou qualquer outro que seja, né? E você meio que é obrigado, principalmente aqui na Alemanha.
+
+41:01.60
+Cássio Pereira
+Tem isso. Ah, cara. De verdade.
+
+41:15.82
+Sushi (AIlton)
+Tem uma porção de pesquisadores, até da padaria, que podemos chamar de professor, doutor ou digital. Não faz o mesmo sentido.
+
+41:23.04
+Marcos Santos
+E aqui, meio que na Alemanha, se o cara tem o título de doutor, a gente obriga a chamar ele de doutor, cara. É simples assim. Não, meu nome não é tal, é doutor e tal, tal, tal. Então, eu tentei muito disso também.
+
+41:32.84
+Cássio Pereira
+É igual ao filme Doutor Estranho, né?
+
+41:36.54
+Cássio Pereira
+Doutor Estranho, é sensacional aquela cena, né? Cara, 41 minutos de arte que a gente está caminhando para o final. Eu queria fazer só talvez uma última pergunta e a gente fechar. Quem quer começar nessa área? Um conselho que você daria para a gente. Cara, você tem uma experiência, por exemplo, já na área, conhece muita gente, em eventos e tal. Como começar? E para quem está lá na faculdade, na escola ainda. Eu estou ouvindo isso aqui. Cara, quero seguir essa linha aí. Qual é o primeiro passo? O que a gente tem que fazer?
+
+42:06.41
+Sushi (AIlton)
+Eu acho que até comentei um pouco no começo, que a sabe segurança está em todas as áreas. Ela está em tudo. E, querido ou não, quando começamos a conhecer um pouco mais a tecnologia, se identificando mais com um AI ou com outro.
+
+42:20.22
+Sushi (AIlton)
+E a pesquisa acadêmica, especialmente, ela é aplicável em qualquer setor. O que você aprende estudando, por exemplo, rede, na pesquisa, você consegue depois aplicar, sei lá, IA em programação, em educação. Então, meu conselho é que você procure uma área que você goste, que você se interesse realmente, seja ela LLM, seja alguma coisa da moda ou não.
+
+42:41.05
+Sushi (AIlton)
+e passa a pesquisar e ler sobre isso, principalmente artigos científicos que vão te dar um norte. Cada área tem particularidade, por exemplo, a área de Iá dá muito tabela de falso positivo e falso negativo. Então tem esses jargões específicos de áreas, conhecer isso.
+
+42:59.77
+Sushi (AIlton)
+E esse conhecimento que você vai ter não vai estar preso naquela área. Depois, se você tiver interesse e quiser migrar para outra coisa, você vai conseguir com facilidade. E é engraçado que esse mesmo concentro na área científica se aplica também à saúde e à segurança. Em geral, o conhecimento que você vai ter base sobre riscos, sobre segurança de licôndio, por exemplo, você consegue depois transportar isso para outras áreas de saúde e segurança.
+
+43:05.67
+Cássio Pereira
+O que?
+
+43:22.23
+Sushi (AIlton)
+Então, por exemplo, se você tem interesse no código, acho que o AppSec é o caminho mais lógico, talvez. Se você tem interesse talvez por uma parte mais de infra, SRE, talvez por um CloudSec faça mais sentido. Se você está assistindo mais por uma parte organizacional, Infosec, Infosec está aí. E se você quer ser o Hacker Man, não tem Red Team, sempre está em alta.
+
+43:46.78
+Sushi (AIlton)
+E realmente tem para todos os gostos. E eu acho que realmente é você conhecer o que você tem afinidade, o que você gosta de fazer e se aprofundar naquele campo específico. E saber que esse conhecimento que você obteve você consegue depois transportar para outras aves. E esse conhecimento não é um tempo que você gastou, talvez você pense que pode ser perdido. Você sempre vai aproveitar ele e conseguir aproveitar de outras formas.
+
+44:11.77
+Cássio Pereira
+Boa. E uma outra coisa que eu sempre tive dúvidas, você comentou no começo sobre o CAPS. Eu não sei se é aberto ou se você tem que ser estudante ou alguma coisa assim para ter acesso, mas eu supor, eu sou uma pessoa comum, eu quero pesquisar um artigo científico sobre o que estão falando sobre Network Security, o que estão falando sobre malware, por exemplo.
+
+44:13.28
+Marcos Santos
+Muito bom.
+
+44:16.90
+Sushi (AIlton)
+É.
+
+44:30.100
+Cássio Pereira
+Onde eu pesquiso? Porque no Google você não vê paper direto. Acho que tem uns buscadores específicos. Como é que o pessoal quer começar a olhar para esses artigos? Onde ele busca? Tem um lugar específico, alguns lugares específicos? Como é que você faz isso? Uhum. Uhum.
+
+44:44.28
+Sushi (AIlton)
+Tem um portal brasileiro que fornece vários papers de forma free. Porque esse é outro som que eles acabam não tocando, né? Que cada vez mais tem a comercialização de artigos científicos e eles estão atrás de paywalls. E isso é realmente péssimo para a divulgação científica, eu sou extremamente contra isso. Mas a Capes tem esse portal que eu vou deixar o link aqui, talvez possa ajudar outras pessoas que o portal se ocupira.
+
+45:09.67
+Cássio Pereira
+Uhum Uhum Uhum Uhum
+
+45:12.23
+Sushi (AIlton)
+da Capes, que ele fornece, e tem vários papers que são pagos, eles subsidiam isso para os alunos de forma free. Mas eu, particularmente, a forma que eu pesquiso, eu uso o Google Scholar, que é basicamente um buscador do Google específico para os seus artigos científicos, e em vários deles, não todos, é claro, você vai ter a opção de ter a opção PDF, e aí você consegue acessar inteiro.
+
+45:35.95
+Sushi (AIlton)
+Mas realmente a situação dos paywalls e artigos científicos está cada vez mais comum e prejudica muito.
+
+45:42.67
+Sushi (AIlton)
+Realmente tem até um meme no Twitter que é a precarização do acesso aos seus papers científicos. Pague R$19,90 para ler esse paper sobre isso. E realmente essa situação está bem complicada nesse sentido. É uma preocupação dos pesquisadores. O próprio acesso. Você consegue ler só o resumo, o título dos pesquisadores, às vezes as referências, e você realmente está preso ali pelo MAPEOL. Isso, inclusive, o que ajuda bastante é você estar vinculado
+
+45:52.28
+Cássio Pereira
+Hehehehe...
+
+46:11.77
+Sushi (AIlton)
+uma instituição. Geralmente as instituições têm parcerias com as publicadoras. Então, por exemplo, se você tiver o login pela sua instituição, você tem acesso a vários PEPs que são cobrados, por exemplo.
+
+46:22.02
+Cássio Pereira
+Aham, saquei. Eu lembro que o... Caramba, como é que é aquele contexto? Até, por exemplo, eu quero fazer uma pesquisa sobre a área X. Eu ter acesso a pesquisar, eu já vou saber, porque eu já tenho a pesquisa nessa área, já tá muito avançado, eu nem vou me envolver nisso. Ou então, você falou, vou no nível de doutorado, porque eu preciso avançar naquela área e tal. Só esse acesso, acho que já guiaria a pessoa, o que ela fazer, o como fazer, só de você saber se já tem coisa ali ou não.
+
+46:49.25
+Sushi (AIlton)
+Na metodologia científica, o primeiro passo é entender como está o cenário atual, quais são as lacunas, o que foi feito e o que ainda não foi feito. Limitar esse acesso prejudica a ciência como um todo.
+
+47:01.71
+Cássio Pereira
+Sim, é absurdo, cara. Bom, enfim. Jovens, mais perguntas aí pra gente fechar? Pergunta simples, não vem perguntar a história de quando o cara nasceu e tal.
+
+47:07.69
+Marcos Santos
+Cara, tem perguntas, tem bastante.
+
+47:11.36
+Ben-Hur
+Eu tenho uma simples... Aqui no Brasil, pelo menos, a gente tem uma síndrome terrível de se achar muito inferior a qualquer outro lugar do mundo. A gente tem esse problema cultural aqui. E na tua visão,
+
+47:31.87
+Ben-Hur
+o que nós somos bons dentro da área, que é uma qualidade que a gente deveria explorar mais dentro dessa parte acadêmica.
+
+47:43.66
+Sushi (AIlton)
+A gente tem uma diferença muito grande do pesquisador brasileiro para o gringo, de forma geral, que é a mesma coisa que acontece com o deve. O deve geralmente tem brasileiro para o gringo. Ele consegue se desenrolar de problemas sozinho, com mais facilidade, de meu ponto de vista. Agora, uma coisa ruim que ajuda o orquiarólico
+
+48:06.32
+Sushi (AIlton)
+do pescado brasileiro. O cara vira à noite, trabalha fim de semana, a pessoa que...
+
+48:14.79
+Sushi (AIlton)
+pesquisa, por exemplo, e tem trabalho, não tem horário fixo definido para quando ela vai começar, ela vai terminar. Então, acho que essas duas características são diferenciais bem grandes de um pesquisador gringo para o brasileiro. O gringo geralmente vai ter um horário definido, vai trabalhar aquele horário, fechou o horário, tchau, vai para casa, vai fazer outras coisas. O que é bom, tem salário positivo e é saudável, mas o pesquisador brasileiro tem essa questão realmente da, primeiro, conseguir se resolver seus problemas sozinho,
+
+48:32.99
+Ben-Hur
+Eu não sei se eu quero ou não sei se eu quero, mas...
+
+48:42.26
+Sushi (AIlton)
+com mais facilidade, e essa questão do workaholicismo, até certo ponto, saudável, são diferenciais que realmente marcam a pesquisa que acontece no Brasil para o resto do mundo.
+
+48:55.35
+Cássio Pereira
+E acho que isso eu comentei já no podcast aqui com os meninos também outras vezes, isso não se reflete só nessa área, mas o brasileiro que tá aqui na Europa, a gente trabalha, sei lá, 8 horas por dia, mesma coisa que no Brasil. Mas a gente talvez tenha uma dedicação, um jeito, eu não sei explicar, que você faz o arroz com feijão e pros caras aqui tipo, nossa senhora, esse cara é um máximo.
+
+49:16.78
+Sushi (AIlton)
+É o sangue dos olhos, não é? Total.
+
+49:18.15
+Cássio Pereira
+Porque o ritmo daqui já é um passo, é um ritmo mais lento. Pessoal, eu tenho que fazer uma tela? Me esquece, eu vou fazer essa tela. Enquanto que o cara já está fazendo a tela, ele já está varrendo o chão, ele ainda buscou o café, ele já fez várias coisas, a gente é mais dinâmico. Acho que isso se reflete como cultura nossa, independente da área. É muito bom ouvir isso também, porque faz realmente sentido.
+
+49:39.82
+Cássio Pereira
+Fechamos então. Sushi, você quer comentar alguma coisa? Quer dar a mensagem final? Quer pedir alguma coisa? Não vamos dar nada, mas quer pedir alguma coisa? Boa.
+
+49:48.39
+Marcos Santos
+Pfff...
+
+49:49.41
+Sushi (AIlton)
+Não imagina. Fiquei super feliz, na verdade, de poder participar com vocês e trocar essa ideia. Acho que só o meu pedido é acompanhe, acompanhe. A BoiaSec, inclusive você comentou a BoiaSec, eu criei a BoiaSec, está com a newsletter também agora, que eu separo semanalmente últimas notícias e acontecimentos de segurança.
+
+50:08.34
+Sushi (AIlton)
+e tento dar uma visão minha do que eu achei mais interessante. Então acessem, sigam. E é isso. Agradeço a vocês pelo papo. Agradeço a vocês que estão assistindo também. E é isso, gente.
+
+50:21.44
+Cássio Pereira
+Acho que jogou uma luz bem legal no campo, para o pessoal ir buscar, aprofundar algumas coisas. Para mim, pessoalmente, inclusive. Acho que os meninos também foram esclarecedores. Os links que ele comentou do Bolyasec e a thread que eu comentei lá no começo vão estar todos lá no YouTube, no vídeo, que vai para o ar hoje é dia 3 de fevereiro, vai para o ar dia 5 de fevereiro. Se você está ouvindo isso no futuro, olha como a gente estava dedicando o tempo lá no passado. Imagina que está 50 anos lá na frente. Olha que legal.
+
+50:49.26
+Cássio Pereira
+Enfim... Quer falar, Marcos? Tá com o dedinho no gatilho aí? Boa! Boa! Show! Então acho que é isso, pessoal. Obrigado pelo tempo de vocês. Sushi, mais uma vez, obrigado pelo seu tempo. Eu sou o Caso Pereira.
+
+50:52.14
+Marcos Santos
+Não, não. Só ia falar que foi bem esclarecedor. Tem muito mais dúvidas. Acho que tem que ter uma parte 2 aí. Porque o tempo, se não, a gente estoura muito tempo aqui. Mas tem mais perguntas aí que vai ajudar mais ainda, entender um pouquinho melhor a área. E eu sou o Marco Santos.
+
+51:14.12
+Ben-Hur
+Eu sou o Benhor. Alô, pessoas. Um abraço.
+
+51:16.39
+Sushi (AIlton)
+Imagina. Ailton. Manaus. Eu sou de Manaus. Olha que legal. É difícil de acertar, você acha que sim?
+
+51:17.09
+Cássio Pereira
+e o nosso amigo Ailton, oficialmente Ailton. Ailton, da onde que você é no Brasil? Porque eu vejo que você tem um sotaque... Ah, você tem um sotaque... Cara, tô tentando identificar de onde é... Eu já ouvi esse sotaque, eu dei aula em Manaus uma época. Eu conheço esse sotaque, mas não é tão... Não é tão simples de identificar, né? É uma mistura ali. Tem umas misturas ali. Bom, pessoal, eu te vejo na semana que vem. Um abraço, valeu!
+
+51:41.20
+Marcos Santos
+Valeu, beijo e luz!
+
+51:43.59
+Sushi (AIlton)
+Tchau.
+
