@@ -1,0 +1,756 @@
+00:22.12
+Cássio Pereira
+Olá, meus queridos ouvintes, jovens e joviais e juvenis. Muito bem-vindos a mais um episódio de F-Secrets Podcast. Estamos na sexta temporada, virou o ano, a gente vira a temporada também. Segundo episódio, já rolou um episódio solo, porque eu pago bem para esses caras não trabalharem, mas enfim, rolou um episódio aqui. E hoje estamos de volta, eu diria que com o elenco completo. Eu sou o Caso Pereira.
+
+00:50.59
+Ben-Hur
+Eu sou o Ben Hur. A festa tá pra Mars. Descansar, trabalhar em segurança e descansado tem um significado bem peculiar, né?
+
+00:51.70
+Marcos Santos
+E eu sou Marcos Santos. É, descansado não é boa palavra, né? É, muito forte para se dizer. Exatamente.
+
+00:52.70
+Cássio Pereira
+Tá aí. Os caras de volta das férias. Como é que foram as férias aí? Tudo bem? Todo mundo descansado? Descansado é muito forte, né?
+
+01:12.30
+Cássio Pereira
+Boa. Há uma distância muito longa dessas duas palavras. Descansar e trabalhar em segurança. Boa, boa. Mas é bom tê-los de volta. Marcos, quer falar? Quer falar alguma coisa? Ah, eu vi que você tava bem ansioso, com a boquinha aberta. Eu falei, acho que ele quer falar alguma coisa.
+
+01:23.47
+Marcos Santos
+Não, eu mudei o microfone, por que é que eu ia falar? Não, eu estava se preguiçando, acho que travou aí.
+
+01:31.39
+Cássio Pereira
+Então tá bom. Bom, pessoal, muito bom tê-los de volta. Muito obrigado por estar aqui com a gente, disponibilizar o tempo de vocês. A gente sabe que o tempo é bem precioso, bem complicado, ainda mais com bastante trabalho, como a gente sabe que é. Bom, antes de falar do episódio de hoje, que é um episódio, tanto quanto polêmico, a gente fala sobre o fim de Application Security, DevSecOps, é o fim. Será que vai acabar tudo com o AI e com todo o avanço de tecnologia. Acho que a gente vai tentar discutir aqui hoje. Mas antes de lembrar que o DevSecOps Podcast tem o apoio da Checkmarks e da NovaOito.
+
+01:58.37
+Cássio Pereira
+que são especializadas em segurança de sistemas e códigos seguros. O link da Nova 8, que é atribuído durante os checkmates no Brasil, está abaixo na descrição do episódio no YouTube e também no lado secal, ospodcast.com.br. Buscando soluções de AppSec, a Digital Oak tem um portfólio completo para você de soluções em apps security. E a Gold Security, que é especializada em apps security, que é desenvolver software seguro, fale com a Gold Security. Bom, jovens, juvenis e joviais, queria começar perguntando.
+
+02:23.57
+Cássio Pereira
+Eu ouço muito, eu tenho falado muito com galera de AI, inteligência artificial, muito produto, muita solução, ativos de desenvolvimento. A empresa que eu estou hoje, por exemplo, os caras estão numa neura que está em fase de contratação do GitHub, o GitHub Enterprise, para migrar tudo para o GitHub, padronizar, hoje é meio que uma bagunça.
+
+02:43.38
+Cássio Pereira
+corporativo, então é um negócio muito grande. Um usa o Bitbucket, o outro usa o GitLab, o outro usa o Git não sei o que, o outro usa o Surfsafe, o outro não usa nada, é uma bagunça hoje. Enfim, é uma pastinha cada teórica, é uma bagunça, mas aí estão migrando para o GitHub, tem toda uma estrutura e tal. E estava uma reunião
+
+02:54.29
+Ben-Hur
+O outro põe pastinha com a da teória.
+
+03:04.28
+Cássio Pereira
+recente com diretoria e tal, e tá uma expectativa muito grande com a questão do co-pilot, de escrever código mais, escrever código automatizado, óbvio, mas também de escrever código seguro, não se preocupar tanto com vulnerabilidades, corrigir até a vulnerabilidade já existentes e tal, enfim. Então essa discussão sobre AI tem vindo aí
+
+03:26.25
+Cássio Pereira
+de uma maneira bem fulminante, eu diria. E aí veio essa preocupação minha. A galera fala que o desenvolvimento vai acabar por conta do AI. Se o desenvolvimento acaba, logo o desenvolvimento seguro também acaba? Ou não? O que vocês acham, ilustres Ben-Yur e Marcos? Eu comecei pelo Ben-Yur em ordem alfabética. Vocês acham que AppSec também acaba? Como será a área de AppSec olhando para esse novo cenário de AI? O que vocês acham, Ben-Yur?
+
+03:54.12
+Ben-Hur
+Eu acredito que acabar não vai, mas vai precisar se transformar. Eu utilizo o copilot dia a dia, e vejo realmente uma aceleração grande quando a gente está desenvolvendo. Para mim, em termos de performance,
+
+04:12.100
+Ben-Hur
+na hora de escrever alguma coisa, cara, é excelente. Pra mim, a experiência é ótima e acredito que ainda tem muito a se explorar. Agora, uma coisa que eu vejo bastante é, eu uso o Copilot, ou por exemplo, eu uso qualquer LLM que vai me ajudar com código,
+
+04:33.64
+Ben-Hur
+E a ideia é que eu veja se o código funcione, que o código funciona direitinho, mas nem sempre eu vou estar revisando perfeitamente aquele código ou integrando perfeitamente aquele código como está dentro da minha estrutura. E aí a pergunta é, quem que vai fazer isso? Quem é que vai adequar o código à solução atual? Alguém que já sabe programar, alguém que já está contextualizado no projeto,
+
+04:59.34
+Ben-Hur
+e alguém que já sabe os padrões que a gente quer e já sabe o que o código que está sendo proposto faz. Então nesse caso, perceba que o desenvolvimento vai acabar, não fecha muito bem nesse ponto. O que eu imagino que o desenvolvimento vai acabar? Eu pegar um cara, treinar ele três meses, colocar ele para desenvolver e o cara sair performando.
+
+05:22.60
+Ben-Hur
+Entende? É isso que o cara imagina como o desenvolvimento vai acabar, né? Na minha visão que a curva entre eu contrato uma pessoa e tem um desenvolvedor júnior ou pleno. Acho que essa curva, quando o pessoal fala que vai acabar, é reduzir ela ao mínimo possível. Dois, três meses. Não vejo hoje viável isso. Mas já respondendo também a questão do EPSEC, ou seja, ou o desenvolvimento seguro.
+
+05:51.29
+Ben-Hur
+a gente vai depender 100% dos modelos estarem bedados com código seguro. E aí nós temos um outro grande problema nisso, que é a quantidade de dados que você precisa para treinar um modelo de LLM.
+
+06:10.26
+Ben-Hur
+Então, isso significa que os dados treinados têm que ser todos seguros, o que eu acho inviável hoje no treinamento de modelos. Ou a não ser que você tenha um custo de treinamento de modelo enorme para você encadear vários até chegar num modelo com um pouco mais de segurança. Mas a questão é, a gente não gera vulnerabilidades em código única e exclusivamente técnicas. Entende?
+
+06:40.01
+Ben-Hur
+Então, por exemplo, eu vou concatenar uma string no meio de uma execução de um shell. Isso é uma vulnerabilidade ou não é uma vulnerabilidade? Depende do contexto.
+
+06:53.27
+Ben-Hur
+Depende de como aquilo vai ser executado, sabe? A outra questão, eu recebo um parâmetro numa API e vou lá e busco um dado no banco de dados. Um parâmetro tipo ID Usuário. Isso é uma vulnerabilidade? Não, depende do contexto. Se for uma API pública, talvez eu vá validar o usuário logado. Se for uma API administrativa, eu não vou validar o usuário logado. Eu vou validar as permissões dele naquele usuário. É um superadmin? Então, a questão é, o que eu vejo mais?
+
+07:23.08
+Ben-Hur
+aí não vou me adiantar, né? Eu não vejo EPSEC acabar. O que eu vejo é a gente ter menos trabalho pra falar o básico, sabe? Isso eu vejo talvez um pouco menos de trabalho, mas o cuidado eu não vejo acabando assim tão cedo não.
+
+07:41.18
+Marcos Santos
+eu concordo bastante com o Benio nesse ponto eu acho que acabar vai ser bem difícil acho que mais essa questão de transformação e ainda olhando aqui um pouquinho mais para o mercado europeu
+
+07:52.72
+Marcos Santos
+o pessoal ainda tem uma certa resistência em trafegar dados fora da própria rede então para o cara ter um LL impróprio aqui para poder fazer ali uma IA de segurança é um custo muito alto elevado hoje na empresa que eu estou 90% dos serviços são hospedados aqui internamente
+
+08:11.75
+Marcos Santos
+Então meu laptop é basicamente uma central para me conectar na minha máquina na nuvem. Então eu acho que essa transformação vai vir, mas vai demorar bastante ainda. Somente para essas empresas que têm dados muito confidenciais que não podem deixar sair nada para nuvem. Então esse é um outro ponto aí que também a gente tem que pensar quando a gente fala que vai acabar alguma coisa.
+
+08:34.14
+Cássio Pereira
+Boa, eu tô com, sei lá, 37 anos de idade, então desde os 15 eu brinco em TI, eu sempre ouvi falar que o PHP ia morrer, que o Cobol ia morrer, que tá tudo aí, tá tudo vivo aí, tá ligado? Talvez numa escala menor, mas tão tudo aí, tá galera usando e fazendo e tal, e acho que...
+
+08:42.18
+Marcos Santos
+E aí E aí E aí
+
+08:51.08
+Ben-Hur
+tem um brother meu que tem 25 anos e ele trabalha com cobalt e rust abracimon
+
+08:53.92
+Cássio Pereira
+Aí ó, aí ó, tá vendo? Não tem cara, não tem como, e assim, acho que do mesmo jeito é o que você falou, você falou muito bem né, as coisas vão se transformar necessariamente, mas acabar, cara, você gerar um código automatizado é uma coisa, gerar esse código exatamente como seu business precisa e espera é outra.
+
+09:12.88
+Cássio Pereira
+O pessoal fala que o desenvolvimento vai acabar. Você não vai chegar para um LLM, um chat GPT da vida e falar, preciso de um sistema, blá, blá, blá. Está pronto, o sistema funcionando. Com o UX, em produção. Talvez o código gerado para isso, talvez. Já tem soluções que fazem isso. Um monte de gerador de código sempre teve. Mas nesse nível de acabar, alguém vai ter que pegar aquilo.
+
+09:39.15
+Cássio Pereira
+customizar, fazer um ajuste, fazer o deploy, fazer manutenção, tem todo um ecossistema, então não é muito simples assim. Acho que a minha colaboração para esse tópico seria do mesmo jeito que hoje o profissional de segurança, em geral, não só de AppSec, mas ele tem que se transformar para aprender código, porque tudo é como código hoje em dia, o cara de rede, o cara de network, o cara de DevOps, a pessoa tem que saber codar,
+
+10:07.07
+Cássio Pereira
+ou tem que estar aprendendo a codar, essa demanda também do profissional de desenvolvimento, e a gente já está fazendo isso há muito tempo, profissional de desenvolvimento que sai da segurança, desenvolvimento de segurança, aquela coisa toda, eu acho que vai dar na mesma, acho que todo mundo vai ter que ter um pezinho na IA de alguma forma, putz, cara, aqui você vai usar um modelo, você vai treinar um modelo, aqui você tem que validar o que foi gerado pelo modelo, enfim, então acho que todo mundo vai ter que ter um pezinho na IA de alguma forma para acompanhar toda essa evolução, enfim, mas acho que acabar também não acaba não.
+
+10:36.34
+Marcos Santos
+É só pra também colocar, igual o Benyura, hoje eu uso o chat.pt praticamente o dia inteiro aqui, só que pra consultas tem ali específicas, né? Eu não posso, por exemplo, jogar o meu código dentro do chat.pt, eu tenho que buscar contextos.
+
+10:36.56
+Cássio Pereira
+E... Vai falar, vai falar. Pode, pô, pode. Não, joga lá, joga lá.
+
+10:55.47
+Marcos Santos
+Então eu pego ali os contextos. Pô, sei lá, tô vendo um patch transversal. Vou ver ali o conceito dele, ver como funciona, ver se é adequado o modelo que eu tô, do meu código ali, ver se é realmente a vulnerabilidade. Mas muitas empresas proíbem até o desenvolvedor de jogar trecho de código oficial na empresa dentro dessas ferramentas. Não tem esse outro detalhe. Sim.
+
+11:16.34
+Cássio Pereira
+Justo, né? Porque você não sabe o que está sendo processado lá, enfim, um monte de coisa junto, né? Não. Pesquisando agora.
+
+11:20.52
+Ben-Hur
+Não sei se vocês chegaram a ver ou chegaram a usar o cursor. O cursor ele é uma IDE. Depois busca aí por cursor IDE.
+
+11:27.07
+Marcos Santos
+Eu não.
+
+11:32.74
+Ben-Hur
+Cursor é uma IDE que foi baseada todo no Visual Studio Code. Então, vocês vão ver que a UI dele é idêntica ao Visual Studio Code, porque o core dele é esse. E o grande ideia dele, eu acho ele muito legal, é que a ideia dele é... Ele tem os promptzinhos igual com o copilot, tudo direitinho, os promptzinhos como você pode fazer. A única diferença é que ele tem alguns comandos já prontos, na qual, por exemplo, você automaticamente adiciona
+
+12:01.17
+Ben-Hur
+todo o seu code base ao contexto do prompt. Então, quando ele for te responder, ele já vai levar em consideração todo o code base. Entendeu? E aí... Exatamente. Só que agora desce um pouquinho até onde tu olha a parte de privacy. Desce um pouquinho.
+
+12:12.43
+Cássio Pereira
+Interessante, estou vendo aqui, AI Code Editor. Legal, hein? Vou testar. Build Software. Privacy.
+
+12:14.31
+Marcos Santos
+Interessante.
+
+12:27.31
+Ben-Hur
+Beleza, agora procura ali a parte de... Pra você vai perceber... If... If... If... If...
+
+12:36.58
+Cássio Pereira
+If you enable privacy mode in Cursor Settings, zero data retention will be enabled, and none of your code will ever be stored or trained on by us or any third party. If you choose to keep... If you enable, você tem que ir lá e clicar no modo privado. Se não, está todo mundo vendo entre aspas, mas está compartilhado com eles.
+
+12:54.58
+Marcos Santos
+Eu tenho que ir lá e gritar. É o famoso data collection, né? O cara tá coletando tudo ali.
+
+12:59.06
+Ben-Hur
+Exatamente, entende? Então, assim... Exato! E aí é onde começa a cascar de ar a parte de desenvolvimento segura, a parte de EPSEC. Tem segredo nesse código ou não tem segredo nesse código?
+
+13:08.86
+Cássio Pereira
+Ah, cara... Não, aí...
+
+13:17.96
+Ben-Hur
+Tem informação confidencial ou de produtos novos que ainda não foram lançados nesse código? Ou não tem? Tem e-mails e contas de desenvolvedores chave da AWS? Isso aí. Isso aí.
+
+13:26.12
+Marcos Santos
+Tem um config.yml com use password lá de alguma coisa? Exatamente.
+
+13:30.60
+Cássio Pereira
+A tua primeira pergunta, tem segredo nesse código? Qual a empresa hoje que vive de software ou que faz software, que 90% daquele código fonte não é o segredo em si da própria empresa, da própria business dela? Cara, já começa aí, mas enfim, boa dica para quem quer usar, mas enfim.
+
+13:49.80
+Ben-Hur
+Agora, por exemplo assim, ah, mas o .env não é versionado, mas estando aqui ele não precisa estar versionado, ele vai buscar os arquivos que estão ali.
+
+14:04.78
+Cássio Pereira
+Cara, e você não precisa nem ir longe, cara. Eu lembro quando a gente falou alguns episódios atrás de Supply Chain, e Supply Chain é tudo envolvido no desenvolvimento, inclusive a ideia do cara, inclusive a máquina que ele está usando. Isso faz parte daquele código que está sendo produzido. E eu lembro na DEFCON, dois anos atrás, o cara demonstrando um Remote Code Execution no Visual Studio Code.
+
+14:26.78
+Cássio Pereira
+Ou seja, se alguém consegue executar código remoto por uma vulnerabilidade na sua IDE, quer dizer que ele consegue colocar qualquer coisa no seu código que está naquela IDE, logo o seu software está malicioso, tem alguma coisa embedada ali, então você nem sabe, você nem vê, uma linha de código não sei aonde e tal. Então assim, não precisa nem ir na IA, não precisa nem ir longe, cara. Isso já é realidade, esse tipo de ataque, vamos dizer assim. Mas enfim, desculpa te cortar, só foi só para pegar esse gancho para não perder essa...
+
+14:51.87
+Marcos Santos
+Aproveitar também, até elogiar o Benyur aí, teve um dos dias que eu tava com o Issonia, que o Benyur tava dando uma aula ali sobre blockchain, questão de NPM e uns caraia 4, cara, ele fez ali um... não blockchain mesmo.
+
+15:04.60
+Cássio Pereira
+Blockchain ou Supply Chain? Ah, boa, boa, boa. Ah. Cara. Boa.
+
+15:07.07
+Ben-Hur
+Não, na verdade os dois, os dois. É que aí tá uma outra coisa, né, que a gente vê dentro de AppSec, né?
+
+15:10.84
+Marcos Santos
+e ele fez uma demonstração não vou nem dar muito spoiler mas ele mostrou lá como um cara só alterando o nome de um pacote ali no npm install cara faz um estrago gigantesco seus dados vão tudo embora para a blockchain você não saiu nem rastreia mais acabou ali
+
+15:37.28
+Ben-Hur
+você usa IA, mas as más práticas continuam existindo. Então, se a IA não vier com o objetivo de educar para ganhar escalabilidade, o que quer dizer com educar? É explicar o porquê das coisas. Hoje eu ainda não vi nada funcionando bem explicando o porquê das coisas. Vou dar um exemplo.
+
+15:40.84
+Cássio Pereira
+Hum. Ponto.
+
+16:02.47
+Ben-Hur
+Eu posso pegar o código e gerar ele com a IA, mas nada impede de eu modificar esse código e fazer merda na modificação desse código depois. Então a questão é, por mais que eu gere código seguro, como que eu garanto que depois ele continua seguro com as modificações que eu faço? Nada impede, por exemplo, de eu... Por exemplo, vamos lá.
+
+16:23.64
+Cássio Pereira
+Uhum. Uhum. Uhum.
+
+16:25.16
+Ben-Hur
+se a gente pegar e for gerar um script para subir uma série de arquivos para um bucket S3, tá? Na AWS. Por padrão, a parte de access key, secret e tal, eles vão vir como variáveis string dentro do código, escrito, ponha só a chave aqui.
+
+16:46.88
+Ben-Hur
+O que o cara que não sabe o que o codar vai fazer? Vai colocar a chave ali e vai hardcodear essa chave. Aí você vai precisar fazer o que? Vai ter que ter um outro lugar que vai dizer, olha, você não pode colocar essa chave aqui. Entende? Então a questão é, o profissional de AppSec, na minha visão nesse caso, ele vai precisar, ele vai continuar existindo full, assim, full. A questão é, agora ele tem um novo vetor para se preocupar.
+
+16:51.07
+Cássio Pereira
+Pali.
+
+17:14.77
+Ben-Hur
+que é o código gerado por IA. E como isso influencia a cultura de desenvolvimento dentro da empresa. Então, isso vai precisar se adaptar rapidamente, porque... Por que as empresas colocam o IA na geração de código? Para ganhar performance, para desenvolver mais rápido, para fazer mais coisas. Isso significa que provavelmente a quantidade de código gerado vai ser maior
+
+17:23.69
+Cássio Pereira
+Boa!
+
+17:46.51
+Ben-Hur
+Então, se o carinha de EPSEC lá não for na onda, não souber usar IA para poder escalar o trabalho dentro dessa quantidade massiva de novos códigos que vão surgir, inevitavelmente, inevitavelmente, esse cara vai ter muito problema para resolver, e agora em código produtivo, porque o código passou por tudo, já está em produção,
+
+18:14.53
+Ben-Hur
+Então agora ele vai precisar usar IA para detectar as buchas que estão em produção.
+
+18:20.67
+Cássio Pereira
+Boa, e acho que para resumir esse primeiro ponto que a gente colocou aqui, você falou muito bem, né? É você pegar um cara que não sabe cozinhar, sabe nada de cozinha, e você bota ele na cozinha do MasterChef, num restaurante profissional, os melhores ingredientes, melhores ferramentas, cara, não vai sair nada. Esperar que o cara faça a melhor prata, não vai. Mas ele vai ferver a água, tá ligado? Vai conseguir nem ligar o fogão industrial ali. Então não adianta, você falou, você pode ter as ferramentas, mas as más práticas vão continuar, né? Muito bem.
+
+18:51.22
+Cássio Pereira
+Queria, nesse, nessa primeira, primeira etapa que a gente fosse falar alguns itens aí, inclusive o Marcos mencionou muito bem essa aula do Beirro, ficou gravado o Beirro, tá no seu canal, né? Boa. Boa, boa, então... Uhum. Uhum, uhum. Uhum, uhum, uhum.
+
+19:00.52
+Ben-Hur
+não está no podcast da WSS, do Café Seguro. Aí é Typo Squatting, e aí que é quando o cara erra, ah, o NPM install, o exemplo foi, NPM install express, que é comum. Só que, por exemplo, e se tu errar um S, botar três S porque tu errou a digitação ligada, aí ele vai baixar um outro pacote da NPM, vai baixar um malware, só que como é que esse malware funciona? Ele está tudo aplicado lá, e depois que ele se instalou, como que ele se conecta com o C2?
+
+19:05.35
+Marcos Santos
+Menino. Menino.
+
+19:26.54
+Cássio Pereira
+Uhum. Uhum. Já era. Uhum.
+
+19:31.25
+Ben-Hur
+É que daí o C2, em vez de ser um servidor, é via blockchain. E aí tu não consegue fazer, tem que dar um, nem da URL, blockchain e nem do contrato, que é o que serve como C2. Então tu não consegue tirar o C2 do ar. Café seguro. Com host, com host.
+
+19:47.28
+Cássio Pereira
+Boa, então quem quiser assistir lá no café, como que é? Café seguro. Boa, lá no... Boa, o outro podcast que o Benyur é o host, né? Então assistam lá esse episódio que eu acho que tá muito bacana. Co-host. Boa. Mas durante essa... O Marcos mencionou isso muito bem e eu queria trazer um outro problema agora que talvez eu acho que dá pra resolver com o AI. Acho. Vocês acham também. Que é C.A.
+
+19:51.60
+Marcos Santos
+Café seguro. WCS se quer chamar.
+
+20:13.42
+Cássio Pereira
+SAA, ele é chato, mas não é chato. Por que não é chato? É o cara crachá. Aqui você tem a lista de pacotes, você olha na base pública se tem problema ou não tem, acabou. E mostra se tem aqueles problemas ali para o cara. Mas se deu exemplo muito bem, cara, eu dou lá o npm install, digitei errado, o Packager Manager já poderia falar, cara, o pacote mais comum com esse nome é esse aqui, é esse mesmo que você quer,
+
+20:39.39
+Cássio Pereira
+Olha, você digitou errado, esse pacote já foi reportado, alguém já clicou lá no botão, é isso mesmo. Então assim, nem precisa de AI, coisinhas que resolveriam, mas um agentezinho local monitorando esse tipo de coisa na máquina, na IDE, ou no próprio package manager,
+
+20:46.75
+Marcos Santos
+e aí e aí
+
+20:58.44
+Cássio Pereira
+Eu acho que resolveria 90% desses problemas. Não de resolver o problema, mas de evitar que o cara faça merda. O pacote malicioso vai continuar lá público. Você pode clicar no sim, no sim, no sim, instalar ainda assim. Beleza. Coisinhas... Eu sempre brinco. É a cerca do gado. Bota o cercadinho. O gado tem que... Essa direção aqui.
+
+21:20.14
+Cássio Pereira
+Porque sem isso o cara vai fazer cagada. Então eu acho que o SCA acaba sendo uma tarefa simples, uma tarefa simples do ponto de vista do problema, um problema simples, apesar de trabalhoso. O que vocês acham? Com AI, Marcos, eu vou começar por você. SCA, cara, o cara crachá, pacote, lista, diversão, é algo que dá para resolver com LLM, sei lá, bota um modelo de dados de pacote, evita o cara baixar, faz revisão constante das dependências, independência, dependência, dependência recorrente,
+
+21:49.89
+Cássio Pereira
+Como é que você vê isso aí, mano? O que você acha? Você tem dado? Você tem dado? Boa, boa. Boa, boa.
+
+21:51.37
+Marcos Santos
+Cara, eu acho que sim ajuda. A gente teve até um workshop aqui na empresa recentemente, falando um pouquinho de SA e Supply Chain. E teve um dado que me deixou bem triste. A gente teve logo... Ah, pra caramba. Vou deixar em casa. De seis lados aí, você viu?
+
+22:05.60
+Ben-Hur
+Se de todos os lados né, RPG exista? O cara da RPG tem todos os lados.
+
+22:15.20
+Marcos Santos
+Mas o que que me deixou meio chateado? A gente teve o Log4j ali em 2021, onde a gente sofreu aquele ataque massivo e tudo, a gente sabe da biblioteca. Só que acredito que se quiser, 13% ainda dos utilizadores do package ainda estão com o pacote vulnerável.
+
+22:34.82
+Marcos Santos
+mesmo depois de tudo aquilo. Então foi feita uma pesquisa mais voltada aqui para a Europa, mas 13% dos usuários de Java ainda utilizam a biblioteca vulnerável do Log4j e Log4Shell. Com o IA isso seria resolvido, uma vez a IA ia ficar te alertando. Cara, você está com pacote vulnerável, só para a versão X.
+
+22:57.65
+Marcos Santos
+só pra versão Y, sei lá, pra mais recente possível ali. E também tem que pensar que a IA também tem que ver a possibilidade de não quebrar o código, né? A compatibilidade da lib. Porque se é só pra uma versão muito recente assim, de uma vez, você vai quebrar o código inteiro, não vai ter compatibilidade.
+
+23:07.94
+Cássio Pereira
+Isso. Eu acho que essa parte de... Quem você falou? Puta, dá o alerta, cara. Você ainda está cagado. Isso já está fácil de resolver. Agora, é isso que você falou muito bem, cara. Isso aqui não vai quebrar seu código. Pode ir. Eu já validei, passou a AI aqui. Mano, está lindo. Já varreu todo o Alibi e todo o seu código. Não vai quebrar. Ou pior, vai quebrar. Aqui, aqui, aqui você precisa arrumar.
+
+23:34.68
+Marcos Santos
+E isso. Acredito que seja mais pontos. Cara, foi um workshop bem legal. A gente viu ali que, por exemplo, o uso de bibliotecas Python teve mais de 530 bilhões de utilizações de download por causa de crescimento justamente de IE Machine Learning. O pessoal tem optado por usar bibliotecas em Python.
+
+23:35.11
+Cássio Pereira
+Cara, isso seria um ganho absurdo para resolver problemas de SCA, né? Muito bom. Uhum. Uhum.
+
+24:00.69
+Marcos Santos
+Então teve uma absorção, foi 80% de crescimento anual comparado ao último ano. Não, começa a virar uma imelança cara, cagado dos outros.
+
+24:06.60
+Cássio Pereira
+Agora você imagina, eu não desenvolvo, não sei, na prática, AI e tudo mais, mas imagina assim, o cara usa uma lib para processar um modelo, uma lib vulnerável que envenena o modelo do cara, surge o modelo do cara, que vai gerar código cagado, olha o nível da, tá ligado? E assim, eu... E o que eu tô falando, eu não sei se existe, mas assim, é factível? Já tem já? Aí ó, factível, cara.
+
+24:23.28
+Ben-Hur
+Supply Chain continua sendo uma merda, cara. Existe.
+
+24:31.46
+Marcos Santos
+É isso. É isso.
+
+24:31.75
+Ben-Hur
+Existe, existe, existe, existe, tá? Tudo que é aplicado a desenvolvimento de software, tudo que é aplicado a desenvolvimento de software, vai ser aplicado a treinamento de modelos, vai ser aplicado a IA, Exato, e assim, não só eles, né? Às vezes tem o modelo, às vezes tem a base vetorial do modelo, e tu tem todo o software que vai dar vida àquele modelo, né? Porque ele... Exatamente, por quê? O modelo pode estar funcionando bem,
+
+24:44.22
+Cássio Pereira
+Que dará mesmo, né? É um desenvolvimento do mesmo jeito, né? Um.
+
+25:01.87
+Ben-Hur
+Só que tu sempre vai ter uma série de proxys, vamos chamar de proxys para facilitar aqui, que vão pegar o input do cara e vão entregar um output para o cara. Então a questão é como é que tu consegue monitorar que os teus modelos de inteligência artificial não estão entregando outputs maliciosos, entende? Aí a questão é, ah, beleza, quem é que vai fazer isso?
+
+25:27.98
+Cássio Pereira
+hum hum é morrer aqui cara hum hum
+
+25:28.51
+Ben-Hur
+Aí, de novo, retornando ao tópico do fim de AppSec, quem é que vai ser o cara que vai se preocupar em implementar isso? Cara de... É, deixa eu... Então, assim, quem é que vai se preocupar em validar a supply chain? Quem é que... Cara, isso continua sendo... Alguém vai ter que ser o responsável por garantir que isso está funcionando.
+
+25:36.66
+Marcos Santos
+Ah, yeah? Allez, eu vou morrer.
+
+25:55.78
+Ben-Hur
+Então continua sendo um cara de AppSec, um cara de GEN AI Security, um cara de Product Security, um cara de whatever, AI Security, que vai ter que olhar para esse caso. A única diferença que ainda nós temos muito no mundo é... Uma coisa é a gente falar que tem que olhar se o Output não é malicioso. Beleza, fica ali aquela lista do tarefas a fazer. Mas na prática, como se faz isso?
+
+26:21.32
+Cássio Pereira
+Uhum. Uhum. If string contains... Ai, cara...
+
+26:25.88
+Ben-Hur
+Alguém tem que ser capaz de entender como fazer isso. Então acaba sendo necessário ainda o profissional com expertise técnica para fazer isso. Então ainda precisa.
+
+26:34.58
+Marcos Santos
+Meu Deus do céu!
+
+26:52.30
+Cássio Pereira
+E é algo muito novo que eu diria que esse profissional nem tem ainda. Assim, do jeito que você está modelando. Tipo, o cara que sabe o que é segurança, o cara que sabe o que é desenvolvimento de seguro, o cara que manja de AI e ele vai ser capaz de implementar esse tipo de solução, saca? Talvez no nível científico sim, mas eu imagino que não seja algo tão popular, por exemplo, saca? Uhum, uhum.
+
+27:10.13
+Ben-Hur
+Não, isso ainda está bem nichado em Big Techs, ainda. Bem nichado em Big Techs, assim. Mas as pessoas que... Mas as empresas e equipes que fornecem produtos baseados nisso, como o próprio chat EPT, DeepSeq, Cloud, etc. Essas pessoas, essas equipes, sim. Mas perceba que A por si só é um produto caro para um caralho, né? Porque a empresa é enorme.
+
+27:14.56
+Marcos Santos
+Sim. É só você ver o quanto a OpenAI capita todo ano para poder criar uma nova versão. É bilhões de dólares.
+
+27:23.73
+Cássio Pereira
+hum hum hum hum hum hum
+
+27:45.04
+Ben-Hur
+Então não vai ser todo lugar que vai precisar desse cara. Agora. Agora. Uma coisa é você ter o produto de fornecer uma API de LLM como a OpenAI, por exemplo. Outra coisa são os milhões de outras empresas que querem integrar IA nos seus produtos. Que aí está outra coisa que a gente vai precisar entender rapidamente com profissionais de APSEC.
+
+28:03.71
+Cássio Pereira
+Uhum. Que outra cagada.
+
+28:14.39
+Ben-Hur
+que é uma área nova a se explorar. É uma área nova que a gente precisa estar olhando, que é a integração de IA nos produtos. Isso a gente precisa estar vendo.
+
+28:25.83
+Cássio Pereira
+Esses dias eu vi, eu não sei se eu vi anúncio ou um site, alguma coisa eu vi disso. Tipo, cria a sua própria startup usando AI. E aí era tipo, cria o seu próprio modelo. Então você paga lá uma assinatura e eu não lembro exatamente como era, mas é tipo isso. Ah, eu vou gerar aqui o meu modelo e vou oferecer o meu chat, o meu prompt para os meus usuários e tal. Então eu basicamente crio minha empresa, o meu negócio, o que é que seja a minha solução, o meu SaaS da vida.
+
+28:48.25
+Cássio Pereira
+em cima de um modelo que eu criei, mas que esse terceiro, vamos chamar assim, ele fornece, eu não sei se ele forneceu o modelo, o treinamento, o poder computacional, enfim. Então, veja, você vai virar um intermediário de uma parada que pode ser muito crítica, que você nem sabe lidar.
+
+29:05.09
+Cássio Pereira
+Por exemplo, eu tenho que oferecer aqui o meu terapeuta online, aí você fala um AI por trás, e aí você fala com o casioterapeuta.com, aí você está falando com o chat GPT da vida ali, mas sobre o meu nome, o meu domínio, por exemplo. Só que por trás eu estou usando o LLM, o modelo dessa empresa X que me forneceu.
+
+29:26.70
+Cássio Pereira
+Então qualquer merda que deu ali, eu vou ser o culpado. Mas eu não tenho nem ideia do que está acontecendo. Nem AI eu manjo, saca? Então você está habilitando novos negócios e acho que isso é fantástico. Mas você também vai criar, obviamente, uma série de riscos novos. Eu diria novos, porque as pessoas não sabem do que já começaram a entender. E você falou muito bem, as big techs são os caras que estão fornecendo isso, ou trabalhando com isso de linha diferente. Eles vão primeiro entender, depois vai virar um negócio mais popular, até depois todo mundo começar a usar, enfim.
+
+29:56.68
+Cássio Pereira
+Então, tende a vir mais maduro, apesar de ter uma... Hoje em dia as coisas saiu ontem, amanhã já saiu ontem, hoje o bagulho já está em produção, já está todo mundo querendo usar e isso é um caos também.
+
+30:08.28
+Marcos Santos
+é só que o que eu vejo também eu vejo que o pessoal pelo tema está em alta o pessoal tá começando a coca-ia tem coisa que nem tem necessidade sabe
+
+30:20.06
+Cássio Pereira
+Sabe onde eu tenho o IA? Na minha... Eu tenho a Samsung da... A Samsung da lavar roupa e a secadora. As duas. E aí tem lá AI. Elas veem a frequência que você lava roupa, o tipo de roupa. E tipo, mano, foda-se, tá ligado? Põe o porro do sabão, lava roupa e cara a boca. Mas tem lá, tem AI no bagulho. Enfim.
+
+30:37.96
+Marcos Santos
+Tem coisas que o pessoal está colocando só por colocar, só pra ter lá o AI na porra do título do produto, sem necessidade. E uma das coisas que eu queria trazer, isso aí foi uma pesquisa que foi feita, depois eu posso passar o link, que o aumento de ataque em Supply Chain, decorrido dessa nova onda de AI, cresceu 740% de 2021 até agora.
+
+31:00.03
+Cássio Pereira
+Graças a Deus. É muito, cara. É porque é um negócio do mesmo jeito que chegou e cresceu, popularizou, virou um problema também, né? Mas sim, filho. Vai ter mais trabalho. Boa. Tem, boa. Fala bem.
+
+31:06.13
+Marcos Santos
+Sim, então o AI em vez de resolver tá aumentando o problema do filme de segurança, que é uma coisa que a gente tá falando, vai morrer não, acho que a gente vai ter muito trabalho ainda até estabilizar essa onda, essa moda, vamos dizer assim. Não tem AI, até a porra do carro agora tá vindo com AI.
+
+31:07.16
+Ben-Hur
+e até o próximo vídeo.
+
+31:22.94
+Ben-Hur
+É porque AI não é só pra gente né, criminoso também usa AI né, vou dar um exemplo. Esse ataque dos pacotes né, então vamos lá, vamos dar um exemplo ali do Express mesmo né. Beleza, o que o atacante faz, ele baixa o Express, original né, que é Open Source, ele vai lá, baixa o Express.
+
+31:29.62
+Cássio Pereira
+E aí
+
+31:43.18
+Ben-Hur
+e a ele por Republico Express com uma letrinha errada ou algo assim para confundir o cara que está rodando o install. Até aí, beleza, né? Só qual o carnetal? Seria muito fácil a gente olhar por similaridade dos pacotes. Olha, esse pacote aqui é um clone
+
+31:58.73
+Ben-Hur
+do outro pacote aqui, então, provavelmente, isso aqui é um problema, né? Mas pode ser um fork também. E forks são permitidos. Então, você tem dentro do negócio um ambiente permitido. Agora, beleza. Mas vamos olhar. Olha, está muito similar isso aqui para o problema. O que os criminosos fazem? Usam o AI para regerar o código. De outra forma. Então, você perde a traçabilidade de similaridade do código, né? Para isso. Outra questão.
+
+32:28.05
+Ben-Hur
+Os próprios criminosos começam a gerar código público usando AI, onde esses códigos públicos estão com os installs de bibliotecas maliciosas. Então é o teu código público a biblioteca maliciosa. E eles vão gerando isso a rodo. A rodo milhares de códigos. Aí eu faço uma pergunta para vocês. Os modelos de AI usam que código para serem treinados?
+
+32:58.49
+Marcos Santos
+É só o público.
+
+32:58.49
+Ben-Hur
+Vão escolher os códigos públicos e open-source, entendeu? E aí vão lá, pum, buscam o código e treinam. Aí tu tá lá e faz assim, eu quero subir, vou pegar, por exemplo, uma biblioteca da AWS, alguma coisa da AWS, ou melhor, do GCP, que não tenha alguma biblioteca específica que não tenha para alguma linguagem.
+
+33:00.90
+Cássio Pereira
+Uhum Uhum
+
+33:23.37
+Ben-Hur
+Por exemplo, cara, não tem pra Rust tal SDK. Aí eu vou lá como criminoso e gero bibliotecas pra essa linguagem ou framework que não existe. Quando o cara estiver programando em Rust com essa linguagem ou framework que não existe, ele vai procurar pela biblioteca. E aí a Java vai recomendar o que pra ele? A única coisa que ele foi treinado. Por que ele foi treinado? Com um código malicioso que diz que existe aquela biblioteca pra que lá, entendeu? Saca? Exato, então as estratégias começam a ser mais divertidas, digamos assim.
+
+33:44.72
+Cássio Pereira
+Sim, pronto, pronto, tá feita a merda. Boa, boa. Agora um outro desafio também que eu acho que a gente vai ter é com relação, por exemplo, eu queria abordar dois pontos, modelagem ameaças, que é um trabalho
+
+34:07.62
+Cássio Pereira
+a quatro mãos, né? Você precisa do time de desenvolvimento, arquitetura e segurança. E o outro trabalho é, o outro problema é teste de segurança. Quando a gente fala de SAST, Pentest, DAST, coisas que eu acho que ganham muito com AI, né? Pra você pegar um, sei lá, você rodar um DAST, ele achar 15 vulnerabilidades e você passar isso num AI da vida pra esse cara falar, cara, ó, dessas 15, uma é realmente, né? Porque já tinha histórico, já treinou modelo, de repente já fez uma validação específica, não sei, né?
+
+34:37.33
+Cássio Pereira
+Pentester, que vão ganhar muito com escala para ferramentas e tudo mais. Você ter contexto daquela aplicação, desde o desenvolvimento. Então, você vai ter uma série de informações que se perde ao longo do ciclo de desenvolvimento, mas que num modelo treinado, talvez isso seja enriquecido e você consegue fazer validações mais assertivas. Do que você falar, cara, roda um dashboard e vê o que você acha. Faz um crawling aí e vê o que acha. Então, aí é falar, não, cara, não precisa scroller tudo, já tem todo o histórico aqui. Vamos só nessa URL aqui, que é aqui que tem problema, por exemplo.
+
+35:06.46
+Cássio Pereira
+Então, modelagem e ameaça é teste de segurança. Como é que vocês veem esse modelo? Eu vou começar respondendo essa. Eu acho que o modelagem e ameaça é uma parada que é difícil ganhar escala ainda. Você precisa literalmente entender a aplicação. Eu não sei se o diagrama ainda é necessário, ele é legal para arquitetura, para você ver a aplicação como um todo, mas para você identificar ameaças de fato, eu não acho que isso é necessário.
+
+35:31.00
+Cássio Pereira
+Com a lista de requisitos funcionais, que eu gosto de falar aqui, a lista de requisitos funcionais é a matéria-prima do software. Todo produto existe uma matéria-prima. O móvel é a madeira, o metal, não sei o quê. O software é o requisito funcional. Então, se você tem a lista do requisito funcional, que é a matéria-prima do software, e você lê, você já consegue falar, opa, tem um login aqui, você que é de segurança, já vem a taxa na sua cabeça. Opa, tem o brute force, eu preciso encriptografar o dado, eu preciso criar um log.
+
+35:55.16
+Cássio Pereira
+Você vê lá um API que manda dados, recebe dados. Vou ter um tampering aqui, eu tenho um sniff, ia ter dedicação, autorização. Já vem uma série de coisas na sua cabeça, porque você é um cara de segurança. Então, modelagem e ameaça, eu acho que, na minha visão, AI vai ajudar, por exemplo, se você tivesse algo para ler as histórias do gira.
+
+36:13.57
+Cássio Pereira
+Algo para ler onde o cara escreve as histórias, os requisitos, por exemplo, que vai mastigar tudo isso e te cuspir e falar, cara, olha, eu vi aqui que você está construindo um software assim, assim, assensado. Tipicamente, esse tipo de software, esse tipo de parâmetro, esse tipo de função, sei lá o quê, sofre com esse, esse, esse tipo de ataque. E as mitigações são essas, essas, essas. Por exemplo, não é por exemplo, não sei. É a minha visão para modelar GMAs.
+
+36:39.77
+Cássio Pereira
+Gerar diagrama automático, acho que a gente já tá longe disso. Já passou, tá ligado? Já tem ferramenta que faz isso, já lê código, gera diagrama, ou do diagrama que você fez gera código pra você. Eu lembro que tinha uma ferramenta chamada Enterprise Architect, que eu usava na faculdade, cara, adorava esse cara. Ele já fazia tudo isso, então acho que com o AI talvez isso tenha enriquecido muito mais. E com relação a teste de segurança,
+
+37:00.14
+Cássio Pereira
+Eu só vejo ganho ao mesmo tempo que o atacante, você falou muito bem, o criminoso também usa. O atacante, as suas técnicas vão melhorar e vão ficar mais robustas, vamos dizer assim, mas um DAST da vida, um SAST da vida, tem soluções hoje, por exemplo, com o pessoal da MOB, que você faz o upload lá dos resultados do SAST e usando o modelo LLM ele vai te gerar soluções para aquelas vulnerabilidades.
+
+37:22.96
+Cássio Pereira
+Então, você tem um código assim e eu vi que você está na SQL Injection aqui. Cara, tipicamente você resolve assim esse assado. Mas no seu código que está aqui, você vai resolver assim. Ele te dá a correção de fato. E aí ele te dá um wizardzinho de dois, três passos. Olha, eu vi que você tem um string aqui. Você não quer trocar para inteiro? Já vai te ajudar muito. Olha, eu vi aqui que sua variável está passando, sei lá, por uma API e depois chega no destino final. Precisaria mesmo passar para essa API? Você não quer jogar direto para cá? Então ele te dá uma série quase com code review. O cara vai só validando a correção que a ferramenta já apresentou.
+
+37:52.91
+Cássio Pereira
+Então tem uns ganhos muito absurdos assim. DAST, eu não sei. DAST é um negócio muito foda. Matematicamente, você testar todos os possíveis parâmetros de um campo, que seja string, é um negócio impossível. Validar isso com EI, talvez você pudesse ganhar escala em assertividade, mas enfim. O que vocês acham? Só jogando inputs aqui, mastiguem aí.
+
+38:17.30
+Ben-Hur
+Com relação à revisão de código, vou falar de code review especificamente, uma das estratégias que eu tenho visto na indústria é usar a IA para classificar o nível de risco do código.
+
+38:35.55
+Ben-Hur
+Então, por exemplo, assim, o cara abriu um pull request. Beleza, aí ele vai ter uma série de recomendações dentro daquele pull request, caso bem como comentou. Cara, isso aqui tem uma vulnerabilidade que é o meio que o básico assim. Cara, isso aqui é melhor tirar aqui e tal, vamos colocar isso aqui, isso aqui, isso aqui, isso aqui e tá show. Beleza. Só que todo pull request pode ter um nível de risco, de vulnerabilidade. Por exemplo, o cara precisou abrir um processo e spawnar um shell dentro daquele código.
+
+39:04.50
+Ben-Hur
+É um nível de risco um pouco maior, né? O cara precisou concatenar o input do usuário no meio de um HTML. É um nível mais, um pouquinho mais complicado também. Então, a IA pode ajudar a gente a definir níveis de criticidade para os pull requests. E se o pull request for muito crítico, a gente pode colocar uma escala de 0 a 10 ali, de criticidade, se ele está de 9 a 10, ele exige uma revisão manual pelo time de desenvolvimento seguro.
+
+39:15.01
+Cássio Pereira
+Uhum. Uhum.
+
+39:34.10
+Ben-Hur
+para aquele porquete específico naquele ponto em específico entendeu para o cara poder pelo menos ter uma ciência do que ele tá colocando
+
+39:44.84
+Ben-Hur
+um risco dentro da operação. E aí tu começa a ter os apontamentos de código de alto risco dentro da empresa que estão sendo aceitos. Por quê? Porque a recomendação não é obrigatória, né? Ela pode gerar falsos positivos. E normalmente o que acontece? Quando o cara marca um falso positivo, o que acontece com a gente? Entra no nosso backlog de falsos positivos a revisar.
+
+39:52.76
+Cássio Pereira
+Uhum. Uhum.
+
+40:09.64
+Ben-Hur
+Isso complica um pouco quando a gente está colocando coisas de alto risco ali dentro. Então essa é uma das coisas que eu tenho visto também para tentar minimizar um pouco o impacto. Quando o risco é altíssimo, a gente parte para o manual, depois a gente parte para recomendações, vai definindo. Olha cara, desse nível de risco é, no nível 9 para cima eu exijo uma revisão manual do time de desenvolvimento seguro, do nível 6 a 9 as recomendações são obrigatórias,
+
+40:38.18
+Ben-Hur
+daquilo que não for falso positivo, né? E depois pra baixo, beleza, a gente pode assumir um risco ali. Só que o que acontece? Depois que o cara for mergir ou resolver esses comentários, tu vai ter o score de risco do que ficou daquele arquivo. E aí, esse score de risco, que pode ser gerado por IA também, ele entrega, ok, cara, esse teu PR não vai subir agora porque ele apresenta um risco muito grande pra empresa e espere a revisão, sabe?
+
+41:06.60
+Cássio Pereira
+E já com histórico, considerando que você tem IA, então você tem um histórico de tudo isso, então tá bem trabalhado o negócio. Não é um sassi que olha, ó, tem um sonar, né? Olha, ó, tu tem problema. Não, aí um monte de falso positivo. É um negócio com muito mais contexto, como você falou. E só pra não esquecer o gancho, você falou mergiar agora, eu lembrei que no começo você falou, o cara hard codou. Não hard codeie as suas senhas, os seus segredos.
+
+41:30.60
+Ben-Hur
+Eu ouvi um tema melhor, chama-se Shumbed Credentials. É sensacional. Muito bem. Depois já.
+
+41:35.91
+Marcos Santos
+o que eu vejo também é soluções de SASH meio que migrando ali para umas soluções mais parecidas com a SPM
+
+41:37.14
+Cássio Pereira
+Chumbo que eu deixo. Isso é sensacional. Aportuguesar o verbo em inglês, cara. Puta que pariu. Esquedular. Ah, isso é sensacional. Eu falo muito deployar. Deployar. Deployar. Fala, Marcos. Comenta aí, Marcão. O que você acha?
+
+42:02.31
+Marcos Santos
+onde ela não só vai olhar ali vulnerabilidade da o critical level mas também olhar pra regra de negócio da empresa e fazer aquela meio que filtragem pra você, né? Eu vou dar até um exemplo besta, o HIP Inspection ali HIP Inspection é considerado uma vulnerabilidade baixa não tem pra que eu dar tanta atenção pra ela se eu estou com um injection ou um hardcoded ali são coisas que são mais essenciais e eu tenho que fazer uma tratativa então acho que essa filtragem automática ali
+
+42:30.88
+Marcos Santos
+já apareci com soluções GSP, mas é o caminho que eu vejo que os SASTs ali estão tomando, né? Estão indo para esse caminho já, até para facilitar o time de segurança, até para o desenvolvedor mesmo saber onde focar, né? Porque não perder o foco, ver mil vulnerabilidades e vai ver 60 na primeira na primeira wave, aí numa segunda wave vê 30 e assim por diante pra fazer, deixar o ambiente ali mais seguro, né?
+
+42:55.88
+Marcos Santos
+que é bem parecido com o B.U. falou, só que em vez de estar bem separados, vai estar no mesmo lugar ali, só para facilitar a visão. Isso é uma evolução que a IA vai trazer e vai ajudar muito nas soluções de análise estática.
+
+43:10.100
+Cássio Pereira
+Boa, eu queria falar uma delagem a minha, porque eu estava na Black Hat Europa, agora ativamente da vida, eu já fui na Black Hat América e Europa, falta a Ásia ainda, mas estava na Black Hat Europa agora em dezembro e tem uma solução lá, eu não vou falar nome, porque quando eles começaram a patrocinar, aí eu falo, mas para vocês eu falo no privado depois,
+
+43:27.96
+Marcos Santos
+A gente volta.
+
+43:30.54
+Cássio Pereira
+que eles fazem exatamente isso. Eles olham pro teu confluence, pro teu gira, pro teu Azure Board, não sei o que lá. Eles veem as histórias, as taskzinhas lá, e aí eles te dão um painel. Fala, cara, eu vi que você tá construindo isso, isso e isso, você precisa de esse requisito, de segurança.
+
+43:45.69
+Cássio Pereira
+Então, assim, um negócio muito bacana, inclusive, Marcos, não vou falar fora do ar porque é patrocinador, mas eu falo fora do ar, mas de ex-funcionários de outras empresas, enfim, que fundaram a empresa e estão fazendo, então, enfim, uma solução promissora. Ela é promissora para o mundo de modelagem e ameaça. Eu não diria que é algo ligado a desenvolvimento ainda, porque não é tão ágil, mas depois eu falo para vocês fora do ar. De qualquer forma,
+
+44:02.81
+Marcos Santos
+interessante
+
+44:11.54
+Cássio Pereira
+tem esse tipo de solução. E você que quer saber que solução é essa, me manda mensagem no privado, manda aí no comentário, que aí eu respondo pra vocês informalmente, não vou falar aqui na fan podcast, porque de novo, se os caras não pagar lamborguini pra gente, não vou falar. Jovem, vocês caminham pro final, e a educação, hein? E a educação, hein? Como é que é? AI, vai todo mundo estar educado, ou pior?
+
+44:34.77
+Cássio Pereira
+Vai todo mundo confiar no que a IAE está falando, então ninguém mais precisa aprender o básico, os fundamentos. Ah, a IAE falou que HTTP é melhor que HTTPS. Então deixa descritografado mesmo, é isso mesmo. Como é que vocês veem isso? Mas não só nesse sentido de confiar, mas também de treinar as pessoas, o mundo da educação, as escolas, sei lá, cursos e tal. Acho que tem um ganho também.
+
+44:58.44
+Marcos Santos
+Eu acho que ganho tem... Ganho sempre vai ter, né? A IA sempre dá uma acelerada em algum ponto, em algum aspecto. Só que eu também acho perigoso ao mesmo tempo que acelera. Porque foi aquilo que o Mayor falou. A gente não tem controle de como a IA é treinada. Os dados que é colocado ali dentro. É uma caixinha preta. Ou a gente confia ou não confia. É sempre assim.
+
+45:22.38
+Cássio Pereira
+Tipo, sem te interromper, mas se interrompendo. O cara que é júnior, acabou de aprender a codar, e aí o copai sugere pra ele um método lá, e ele vai simplesmente confiar naquele método. Às vezes ele não tem o julgamento de falar, não, peraí cara, mas você tá sugerindo que eu pego uma string aqui e uso sem validar, por exemplo. Não, né?
+
+45:39.10
+Marcos Santos
+A lógica não está tão aprofundada, né?
+
+45:42.40
+Cássio Pereira
+Então, tende aos copilots, vou falar que o copilot é um produto, mas tende aos geradores de código, gerar em código mais seguro? Tem, a ideia é essa, mas você tem que ter o discernimento de olhar para que ele fala, não, cara, espera aí, isso aqui está errado, isso aqui pode ser melhor, enfim.
+
+45:59.70
+Marcos Santos
+Então na minha visão vai melhorar sim, vai dar uma acelerada só que eu ainda opto pelo método tradicionais com profissionais ensinando e aí há ali com um complemento para esse ensino, para o ensino, para a educação.
+
+46:14.56
+Cássio Pereira
+Boa. Boa. O que você manda, Bayreuth, pra gente fechar o episódio?
+
+46:19.83
+Ben-Hur
+Minha visão é que o problema é... Nós vamos ter um desafio similar ao que existe hoje, porém, digamos, com uma outra face. O que eu quero dizer com isso? Hoje, nós temos startups e empresas que querem o produto entregue. E para esse produto ser entregue, ele tem um nível que ele quer de capacitação de seus profissionais.
+
+46:46.44
+Ben-Hur
+E aí, quanto maior vai sendo a empresa, mais complexa vai ser a empresa, você acaba tendo pessoas que são especializadas em tais coisas. Então, para algumas empresas, nós vamos ter o cara que sabe gerar meia dúzia de código usando o chat EPT e integrando em plataformas já pré-existentes, que eu acho que isso é uma coisa que vai acabar
+
+47:07.23
+Cássio Pereira
+Uhum. Uhum.
+
+47:07.48
+Ben-Hur
+crescendo bastante nessas plataformas que geram código, ou que geram templates, ou que já deixam algumas coisas pré-prontas, né? Então eu preciso só do cara que saiba usar bem essas ferramentas. Da mesma forma, tem lugares que eu preciso desenvolver um sistema web complexo, e tem lugar que eu preciso configurar um WordPress bem configuradinho. Saca? Então acho que isso aí vão acabar tendo níveis. Então...
+
+47:35.13
+Ben-Hur
+Eu vejo que a educação pode acabar migrando para um como que eu uso a IA de forma correta. E aí tem distintas finalidades que é onde a gente entra muito na geração de prompts. Então a questão vai acho que vai ser agregado a educação atual prompt engine. Entende?
+
+47:50.60
+Cássio Pereira
+Uhum. Uhum, uhum.
+
+47:56.07
+Ben-Hur
+Então acho que vai muito nesse ponto. A gente vai continuar aqui, como comentou o Marco, cara, vamos continuar conversando com os caras, continuar ensinando os caras os riscos, os problemas, mas Prompt Engineering vai acabar entrando. Por quê? Porque ele é parte da resposta.
+
+47:56.99
+Marcos Santos
+Concordo.
+
+48:18.23
+Ben-Hur
+É o contexto que tu dá, é o prompt que tu passa, né? Então acho que as empresas vão começar, por exemplo, a colocar pré-prompts padrões dentro das suas IAs internas para garantir algumas coisas que todo mundo faça e assim por diante. Acho que isso vai estar embarcado junto. Não, não. E tá longe de acabar.
+
+48:19.26
+Cássio Pereira
+Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum. Uhum.
+
+48:42.49
+Marcos Santos
+Só para complementar essa questão de educação com o IA, é uma desabafa, coisa simples, mas normalmente você está em uma reunião, sempre tem aquele espertinho que vai no chat de APT buscar informação e cola no chat ou para discordar por algum motivo. E algumas vezes já houve caso da IA trazer a resposta errada. Então isso mostra que não dá para confiar a sua preceita.
+
+48:57.89
+Cássio Pereira
+Boa!
+
+49:06.66
+Marcos Santos
+Só os abraços meu que já cocei algumas vezes Maquia E eu sou Marcos Santos
+
+49:09.26
+Cássio Pereira
+Boa. Então, pessoal, eu queria agradecer e algo que eu nunca falei, vou falar a primeira vez aqui. É uma honra ter os melhores profissionais de AppSec aqui nesse podcast. Só nesse podcast. Não tem outro. Não tem outro. Bayer, eu sei que você faz o outro, mas não tem outro. Os melhores estão juntos aqui. Pessoal, obrigado pelo tempo, obrigado pela discussão. A gente se vê na próxima semana. Eu sou o Cassio Pereira.
+
+49:23.15
+Ben-Hur
+Os melhores estão aqui. Eu sou o benhor. Abraço, pessoas.
+
+49:34.77
+Cássio Pereira
+E ficamos por aqui. Minha tela tá toda piscando aqui. Beleza, voltou. Beijo, tchau.
+
+49:39.72
+Marcos Santos
+Beijo, tchau!
+
