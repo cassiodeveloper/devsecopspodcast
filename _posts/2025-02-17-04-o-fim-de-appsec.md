@@ -2,7 +2,7 @@
 title: 04 - O fim de AppSec?
 layout: post
 type: main
-description: "É isso mesmo, é o fim galera acabou. A IA vai dominar tudo, não tem mais emprego... já era. Não jovem, calma... não acabou e nem vai acabar. E discutimos esse tema neste episódio com elenco completo finalmente, o que era para ser o segundo episódio da temporada, virou o quarto por problemas logísticos. Mas AppSec se transforma a cada dia, ainda que a base se mantenha, novos desafios surgem, consequentemente novas maneiras de manter as aplicações seguras também, então junte-se a nós nessa jornada e descubra um pouco mais sobre o "AppSec vai acabar hur dhur"."
+description: "É isso mesmo, é o fim galera acabou. A IA vai dominar tudo, não tem mais emprego... já era. Não jovem, calma... não acabou e nem vai acabar. E discutimos esse tema neste episódio com elenco completo finalmente, o que era para ser o segundo episódio da temporada, virou o quarto por problemas logísticos. Mas AppSec se transforma a cada dia, ainda que a base se mantenha, novos desafios surgem, consequentemente novas maneiras de manter as aplicações seguras também, então junte-se a nós nessa jornada e descubra um pouco mais sobre o 'AppSec vai acabar hur dhur'."
 file: https://api.spreaker.com/v2/episodes/64315222/download.mp3
 length: 
 videoid: 
