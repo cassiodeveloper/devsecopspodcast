@@ -1,0 +1,464 @@
+Cássio Batista Pereira (00:27)
+Olá! Caralho, viu? Fazendo bagulho empolgadão aqui, que ia ficar bonitinho. Se ser arrombado, me atrapalha. tá mexendo aqui, ó. Estúdio novo, estamos de estúdio novo, que na verdade é só uma plataforma nova, não mudou porra nenhuma na nossa vida. Esperamos ter menos bugs, né? Na outra plataforma já tínhamos vários bugs. Enfim, jovens, eu sou o Casio Pereira.
+
+Marcos Santos (00:28)
+Olá!
+
+Tomara, tomara.
+
+Ben-Hur Santos Ott (00:49)
+Eu sou bem...
+
+Marcos Santos (00:50)
+E eu sou o Marcos Santos.
+
+Cássio Batista Pereira (00:52)
+Muito bem-vindos a mais episódio do FCK Podcast. É o quinto episódio da sexta temporada. Vimos uma sequência boa de gravações. Temos três episódios na sequência. Episódios que deram bons retornos, inclusive, porque o feedback da audiência foi muito bom. O episódio que gente gravou com a Marília, por exemplo, bons comentários lá no YouTube, a galera engajou bastante. Então é isso que a gente espera que vocês...
+
+nos dêem audiência porque assim o cresce, pessoas ouvem mais e assim a vida vai. Tema legal hoje que gente não discutiu ainda, que é tema, eu diria, tanto quanto obrigatório, que é falar sobre arquitetura e especificamente sobre arquitetura Zero Trust ou a confiança zero, enfim, tem vários acrônomos como a viu pela internet, mas acho que o Zero Trust talvez seja o nome mais difundido.
+
+Eu já vou começar a pé no peito já. O que é Zero Trust? O que é a confiança zero para os senhores? E de cada vez, sem briga.
+
+Marcos Santos (02:01)
+pra mim, o zero tolérgeis é aquele princípio de nunca se confia, Sempre se verifica, vamos dizer assim também, que independente de onde o acesso seja sendo solicitado, ou dentro, fora da rede, ou de onde que seja, nenhuma entidade é confiável, né? Você ter esse princípio de não confiar nada e cada acesso deve ser autenticado, ser autorizado, criptografado.
+
+sempre de uma forma contínua Acho que resumidamente é isso né? pouquinho do 0.03 pra mim
+
+Cássio Batista Pereira (02:35)
+Boa, deu uma boa introduzida. Benhor, quer complementar, quer trazer mais insights?
+
+Ben-Hur Santos Ott (02:38)
+Para eu trazer mais insights?
+
+Para mim, Trust é saber que o ambiente que você está não define a sua confiança perante as outras pessoas, entidades, serviços, o que seja. Então não é porque você está numa rede que você é você. Não é porque você está dentro de uma VPN específica que você é você. Não é porque você...
+
+Você é serviço fazendo uma requeção para outro serviço dentro do mesmo cluster que você é você. Então para mim é isso aí.
+
+Cássio Batista Pereira (03:17)
+Boa, não é porque você é você que você é você.
+
+Marcos Santos (03:21)
+Boa!
+
+Cássio Batista Pereira (03:22)
+Muito boa. Eu gosto de pegar problema que eu sempre escuto dos devs, especialmente de desenvolvedor, e trazer para essa discussão aqui que é o seguinte, a gente sempre está falando pessoal, precisa escanear código, precisa fazer a Websec, modelagem ameaça, precisamos proteger a tua aplicação. Legal. E eu escuto muito dos devs falando assim, mas a minha aplicação é serviço interno.
+
+É serviço interno, não está exposto para a internet, tal. Então, beleza. É como se eles entendessem assim, se é algo interno, então tá seguro, ou nem precisa se preocupar. É pouco do... Eu tenho esse balanço. Alguns entendem que tem uma proteção menor ali, outros já falam com o tom de, não, não, não, tá interno, me deixa quieto, não preciso me preocupar com nada, fazer scan de código, nada disso aí. Autenticação, autorização, pouco do que a vai falar hoje. E acho que esse...
+
+Quando a fala de zero-trash é exatamente evitar o que eu diria que acontece quase todo ataque. Quase todo, porque nem todo ataque é igual, quase todo ataque tem o famoso escalado de privilégio, movimentação lateral. O cara entrou por SQL Injection, mas lá dentro ele vai fazer a movimentação lateral, ele vai chamar outro serviço, vai chegar outra máquina, outro servidor e assim escalando o seu acesso, tudo mais. E isso se dá justamente por autenticações falhas.
+
+Porque o serviço BenUR já confia no serviço Marcos, porque gente já está na mesma rede. Então ele não garante que eu sou eu, aquele que você falou, você é você mesmo, assim por diante. Então para a gente talvez atacar esse problema de, é uma aplicação interna, não é uma aplicação externa, talvez o Zerotrash seja uma das possíveis soluções. E eu queria fazer uma segunda pergunta agora. Seria uma bala de prata se eu garantir que assim, beleza, eu uma aplicação aqui interna, ela recebe talvez informações para processar e tudo mais.
+
+E como que eu garanto que essa aplicação vai conversar com outras aplicações de uma forma segura, uma forma viável, falar assim. Porque uma coisa é você fala assim, encripta tudo e resolve tudo. Resolve e vai lá da segurança, mas você caga com performance, caga com tudo. Essa seria a bala de prata, de fato. Mas isso não funciona. Então talvez, se o Trash resolve esse problema, o que vocês acham que vocês acham aí? Aí Marcos começou a primeira pergunta, então o Beyrut, se quiser começar essa agora.
+
+Ben-Hur Santos Ott (05:40)
+A clara para mim é não. Deixa eu explicar porque eles vão entregar exemplo. Eu tenho, digamos, duas entidades. Vamos dar duas entidades. Uma pessoa contra serviço, como acessar banco de dados, ou serviço contra outro serviço. Por exemplo, aplicação A faz request para a gente, seja interno ou externo. Quando a gente fala sobre essa autenticação, ou você, você, você não é você e tal,
+
+A gente está falando mecanismo de autenticação. A gente está falando de uma validação de identidade. E toda validação de identidade, ela depende algum determinado momento de uma credencial. Então eu preciso de uma... Vou dar exemplo. Se eu quero, se eu tenho uma aplicação e ela consome outra aplicação externa, ou serviço externo, o que garante a identidade é a posse de API key, por exemplo.
+
+ou a posse de uma credencial de OAuth que vai gerar token, correto? Bem, então isso garante que a pessoa é ela mesma porque ela tem uma chave. Agora, eu não consigo garantir que o outro lado está fazendo a gestão correta desta chave e que não é outro serviço ou outra entidade posse desta chave.
+
+ou até mesmo que não existiu compartilhamento indevido daquele outro lado. Então o Zero Trust é uma redução drástica, drástica do risco exposto. Agora não estou dizendo assim, está na minha rede significa que é uma pessoa legal, seja, eu não estou delegando
+
+a confiança para o ambiente externo, o ambiente onde eu estou, eu tomo a ownership disso, mas existem riscos residuais. Então não é porque eu estou implementando isso que eu não tenho que preocupar mais com nada na minha vida. Desconheça alguma coisa segurança que seja assim.
+
+Cássio Batista Pereira (07:55)
+Boa! Eu queria até incluir isso que você falou, essa questão da credencial é o que diz tudo. Porque quando você fala assim, legal pessoal, legal entidade número 1, quem é você? Eu tenho essa credencial aqui. Isso também não garante que ela é ela mesmo, é aquela história. Eu tenho a tua senha do banco e o teu cartão. Pro banco eu sou você, mas de fato eu não sou.
+
+Eu estou posse das credenciais que somente você deveria saber. Então o zero tranche, o que você falou muito bem, reduz drasticamente esse risco, ele não resolve. Ele reduz drasticamente esse risco, mas ele não resolve. Marcos, complementa aí, dá a tua pincelada aí.
+
+Marcos Santos (08:39)
+O Beurre falou bem pra caramba, só queria aproveitar pouquinho mais essa parte de verificação contínua, Quando a fala de multifator, falar pouquinho ali dos métodos utilizados para autodicação, né? Que por mais que a gente tenha zero trust, a gente tem que fazer monitoramento constante, né? E o seu Zouba é exemplo perfeito, cara. Eu tô com a credencial, tô com tudo ali na mão, pro sistema, eu sou outra pessoa.
+
+E como que a mitiga isso? Qual seria o jeito? Sei lá, uma verificação facial? Só que hoje dia o pessoal já tem o deep fake. Não sei até onde a gente consegue chegar com zero trust a passar além desse nível, sabe? Pra mim fica até difícil.
+
+Cássio Batista Pereira (09:21)
+E talvez com biometria você resolve uma parte do problema, mas se você parar para pensar na serviço com serviço, você não tem isso, já não se aplica mais. Como é você garante que o serviço A é o serviço A mesmo, o serviço B o serviço B mesmo? E não está rolando impersonation, serviço passando por outro, enfim, então tem uma série de tricks, tricks and tricks.
+
+Marcos Santos (09:30)
+Então...
+
+Sim.
+
+Ben-Hur Santos Ott (09:45)
+É, entra aquele ponto tipo serviço com serviço, né? Beleza, vamos fazer MTLS, né? Então agora tu tem que ter a credencial, mas tem que ter certificado os dois lados. Vamos fazer a restrição de IP, então não basta ter o negócio, tem que sair da mesma IP. Aí tu começa a colocar as capas, Que o objetivo dele é cada vez menos tu dificultar o risco. Mas a gente sabe que tá... Sempre tem aquela pergunta que tu fala, cara, a partir daqui a gente assume o risco.
+
+porque se não a vai gastar 90 % 95 % do budget que a gente tem para tentar imaginar. Agora a vai plugar aqui esquema de inteligência artificial para analisar request por request, é o padrão, sei o quê. Cara, não vai. Então o que tu vai é o ViroTrans, ele te ajuda a atingir certo nível de apetite de risco saudável.
+
+para aquele momento, olha, a partir daqui eu tô assumindo o Se o cara tem a credencial, tá no mesmo IP e tem o certificado, cara, a partir daqui eu assumo o risco, né? Porque eu acho que para chegar até aqui o cara não vai ser tão fácil assim.
+
+Marcos Santos (11:00)
+o que o pessoal não leva conta é que quanto mais camada de segurança você coloca fica muito mais caro colocar a próxima então você aumenta muito o custo ali para colocar uma camada extra cima da outra então muitas vezes o pessoal não leva conta esse ponto né só pensa não vou botar segurança mas tem o custo ali para você ir aumentando isso
+
+Ben-Hur Santos Ott (11:20)
+o cara caralho muito bom ponto porque assim vou dar exemplo padrão tá não mas então a faz a rotação de segredos né o de tempos tempos a faz uma rotação de segredos ali beleza todo mundo aqui já sabe quem implementou rotação de segredos tem alguma questão chamada downtime né então agora que você escolheu botar rotação de segredos tu tem que botar mecanismo de rotação de segredos que te mantenha
+
+os dois segredos vivos até tu baixar o segundo. Tu tem que implementar isso, né? Então tu começa, não é só ir lá e trocar o segredo, vai derrubar tudo se trocar o segredo, vai ficar offline. começa a ter que preparar o ambiente pra poder tomar ações de segurança.
+
+Marcos Santos (12:12)
+O menino falou tudo, cara. Falou muito bonito.
+
+Cássio Batista Pereira (12:12)
+E olha que
+
+legal essa discussão. Uma simples troca de segredo, uma simples vote, uma solução de vote que, teoria, não é tão difícil de você implementar. Mas quando você traz essas questões na arquitetura... Olha só, a está falando de arquitetura aqui, E discutindo segurança junto. Quando você traz essas questões, será que alguns... Eu imagino, né? Eu trabalhei como desenvolvedor há muito tempo como arquiteto...
+
+A gente tem essas discussões, mas não chegava no nível de segurança. Olha, preciso rotacionar o segredo. Tem segredo aí, o COF está gerenciando. Beleza, show. Mas aí vai vir requisito de segurança, que a gente diz que precisa rotacionar essa chave aí. Ou que tem mecanismo de trocar essa chave caso ela tenha vazado, a precisa de incidente, que quer que seja. Você vê que... Aí você traz problema. Vai ter downtime aí. Aplicação é toda cacheada. Então tem que matar os cache, trocar a chave, alimentar os cache... Olha só.
+
+Já virou parto de oriço, como meu ex-chefe falava. Então não é uma parada trivial de se fazer. Vai, tecnicamente é trivial, vamos, vai, é fácil. Mas é tão complexo a quantidade de pontos que isso se amarra que aí sim vira problema. preciso rotacionar o cache, beleza, preciso rotacionar chave, beleza. São atividades pequenas e simples de ser feitas. É uma das soluções que a tem hoje dia, comando. comando você faz essa porra. Agora quando você conecta tudo isso...
+
+Uma aplicação de 1 milhão de usuários mês. Começa a escalar o problema, você vê que não é só downtime, que não é só rotação na uma chave. Tem impacto, como que você gerencia esse impacto e tudo mais. Tudo isso para garantir a segurança. Então, às vezes eu sempre falo, talvez numa pitada aqui agora para o próximo tópico, eu sempre falo que aplicar a segurança no nível que a gente... Às vezes a gente discute aqui nível muito mais alto de segurança, nível mais baixo de segurança.
+
+O que vai digitar, o que você vai fazer, o que você vai investir, que você vai gastar? Lógico, você falou bem, né, Bayer? É o apetite de segurança daquela empresa. Mas muitas vezes você fala assim, o apetite da segurança da empresa é nível Tony Stark, o cara é o louco da segurança. Mas os caras têm sistema deles, é uma lista de ramais. Tipo, foda-se. Ou o outro cara é sistema industrial, controle industrial de uma usina, ou sei lá, banco. Então, o negócio por si só, a criticidade do negócio por si só,
+
+Vai editar essas regras. Lógico, talvez você tenha compliance ali por trás, uma normativa, tenha que responder alguma lei, coisa, alguma norma, lá que você tem que implementar algumas questões. Mas tem negócio, sou banco, a chance de eu tomar fraude, perder dinheiro, dano para os meus clientes é muito grande, então não dá para brincar, eu preciso aplicar. zero tranche da vida, por exemplo. Ou eu tenho e-commerce aqui que eu vendo, me sanga, eu faço minha arte, vez de vender na praia, eu vendo no meu e-commerce. Cara, eu preciso de uma arquitetura desse nível.
+
+precisa, faz sentido. Então, vezes, a crítica da natureza do negócio, ela dita pouco dessas regras, ainda que informal. Eu lembro que eu trabalhei na ABB muito tempo, sistemas de controle industrial. tinha preocupação assim, o software está embedado no hardware e o hardware está lá na fábrica do cliente. O cliente que é uma fábrica, sei lá, de vódica, de água, de peça de carro, de montadora, o que quer que seja.
+
+Então imagina se essa porra falha do teu lado, ou se tem ataque do teu lado e deu problema. eu como fornecedor desse hardware não dá pra falar, cara, não, eu vou confiar você pra você criar essa estrutura de Zero to Thread, exemplo. Mas não, o meu hardware lá com o meu software embedado já vai ter diversas políticas aplicadas que você não conecta de qualquer lugar, você só conecta basicamente com o Zero to Thread, só vem da tua rede, só dentro da VPN, com range de IP específico que ainda que você tenha naquela rede...
+
+Você só pode vir do servidor X ou Y, não é de qualquer Então você vai chegando a nível granular da parada porque a criticidade do negócio exigia. Eu estava vendendo para a usina, para a usina de energia, produção de energia, montadora de carro, enfim. Então veja que às vezes eu vejo muita gente numa discussão não tão rasa, mas a Zero Trust é a solução de tudo. Não, porque nem tudo precisa dessa solução. É igual falar, dieta é a solução...
+
+Cara, depende, dieta pra pode não ser mesmo dieta pra outro. Outro pode nem precisar de dieta. Outro precisa da dieta inversa, ganhar peso. Fisiculturista, fala pra que tem que comer alface por mês. Não, mano, tem que comer boi por mês. Então, as vezes a solução se aplica no sentido de... Ela é uma boa arquitetura, como a está falando, mas, as vezes, o negócio, muitas vezes, vai ditar essa regra do que tem que ser feito e tudo mais. Falei, Marcos.
+
+Marcos Santos (16:58)
+é
+
+não é só complementar você está falando de sistema bedada hardware e tudo mais é só para dar contexto pessoal antes de tudo aqui na Alemanha quando você passa radar o radar ele lê tua placa e tira uma foto tua para identificar se o carro é do motorista então ele faz isso que o pessoal descobriu que tinha como fazer mais que a injection
+
+Então o pessoal colocou literalmente, pegou no lugar da placa e escreveu uma consulta SQL e passava no radar a milhão e dava drop table dentro das tabelas ali de multas. Pode até procurar no Google isso, você vai ver monte de carro lá com... Você vai ver monte de carro que tava com consulta SQL no para-choque. isso mostra o poder de zero tranche.
+
+Ben-Hur Santos Ott (17:35)
+E do caralho,
+
+Cássio Batista Pereira (17:48)
+É Sameres, é Sameres.
+
+Ben-Hur Santos Ott (17:51)
+Cara, eu já vi os caras colocar
+
+isso aí, o payload do Log4j lá e tal nos nicknames, mas na placa de carro, essa foi genial.
+
+Cássio Batista Pereira (18:01)
+E
+
+Marcos Santos (18:02)
+na placa de carro porque alguns
+
+soldados aqui os mais antigos eles guardam e depois sobe pra nuvem e os mais modernos já é pra nuvem direto e tinha essa vulnerabilidade ninguém nunca se tocou porque quem vai colocar o SQA quem vai colocar o payload na placa?
+
+Cássio Batista Pereira (18:13)
+Errou!
+
+Ben-Hur Santos Ott (18:18)
+É isso.
+
+Cássio Batista Pereira (18:18)
+que pariu né
+
+bom é deixa eu ver aqui que estamos com o estúdio novo então tem muita coisa para mexer aqui ó vamos ver essa aqui ó
+
+Bonito cara, sentiu a transição? Essa transição é para falar de uma coisa que eu não esqueci, mas gente mudou, não vou falar mais no começo do episódio, mas falar sobre os nossos parceiros. Tem parceiro novo começando aqui com a gente, já tinha começado os episódios antes, mas gente já tinha gravado, então acabou não dando para divulgar. Mas vamos lembrar que deve ser que o AutoPodcast tem o apoio da Checkmarks e da Nova 8, que são especializadas segurança de sistemas e código seguro. O link da Nova 8 que é a distribuída da Checkmarks no Brasil está abaixo da descrição do episódio lá no YouTube.
+
+ou também ele deve ser caustrofotcage.com.br. Se você está buscando soluções de AppSec a DigitalWoo que tem portfólio completo para você, qualquer solução de AppSec os caras tem. E olha só, parceiro novo, Você já se perguntou se estou sobre ataque? Já fiz essa pergunta para você mesmo?
+
+Marcos Santos (19:15)
+Já, toda hora. Fico pensando isso tempo inteiro.
+
+Cássio Batista Pereira (19:17)
+Será que eu tô sendo atacado?
+
+Beyr, você já pensou assim, será que algum dado ou informação sensível foi roubado? Já aconteceu isso com você?
+
+Ben-Hur Santos Ott (19:25)
+Será que tem alguém interno roubando dinheiro?
+
+Cássio Batista Pereira (19:29)
+Olha só! E eu pergunto muitas vezes, ainda estou risco. São três perguntas simples que todo mundo faz no dia a dia. E a Purple Bird Security tem as respostas para você. Respostas a incidentes, forense... Cara, fale com o pessoal da Purple Bird que eles vão te ajudar a responder essas perguntas. Ou não necessariamente responder as perguntas, mas resolver os problemas que essas perguntas te trouxeram. Provavelmente você está perguntando isso porque teve algum problema. Então fale com o pessoal da Purple Bird.
+
+Marcos Santos (19:58)
+Topzera, mano! Topzera!
+
+Cássio Batista Pereira (20:06)
+Muito chique,
+
+Muito chique, esse estúdio é muito chique, cheio dos truque-truque aqui, eu tô testando aqui. Enquanto a gente testa e vai validando, a gente vai gravando porque é assim que funciona. Eu queria fazer uma outra pergunta aqui pra vocês e complementar também com a minha opinião. É com relação a... Porque a fala assim, zero trust na sua essência é basicamente você autenticar ou identificar, não só autenticar de fato, autenticar é como você faria isso, né? É você identificar todo mundo.
+
+Marcos Santos (20:12)
+E aí
+
+Vambora!
+
+Cássio Batista Pereira (20:37)
+na sua rede, todo mundo no teu contexto. Você fala, o serviço A está chamando o serviço B, o serviço B tem que quem é o serviço A. eu sou o serviço A, estou aqui na minha senha, eu posso fazer isso isso e Nessa requisição. E o serviço B, por sua vez, vai falar, beleza, você pode fazer isso ou você não pode fazer isso, vai restringir aquela operação. Eu já vi algumas técnicas, o pessoal fala de outserver, você tem servidor meio que centralizado, obviamente, com todas as questões de redundância e tal.
+
+que faz toda essa parte dessa gestão de autenticação e autorização. Porque numa arquitetura zero-trust você tem diversos, centenas, milhares de serviços e servidores, falando ao mesmo tempo você precisa de alguém que faça esse gerenciamento. Você não vai botar, imagina, a primeira linha de cada método, de cada serviço é if, usuário esse, esse pode, até dá, até dá.
+
+Marcos Santos (21:28)
+Pelo amor de Deus cara, nossa, dá até agonia aqui, só de pensar a coisa de IF que vai ter ali, nossa,
+
+até é negócio ruim.
+
+Cássio Batista Pereira (21:35)
+Até dá,
+
+mas não é a melhor senada. Dito isso, pergunto ou talvez comentem sobre isso. Qual seria a melhor estratégia para implementar isso? Vocês conhecem frameworks? Porque Zillow Trash nada mais é do framework. É guia de como fazer essas coisas. Mas vocês conhecem soluções, ferramentas, além das próprias Clouds que eu que oferecem esse serviço. Como que a gente faz isso na prática? Tem que começar pelo Benheur, pelo Marx. Discutam aí.
+
+Ben-Hur Santos Ott (22:03)
+Eu acho que tem que entender o teu tamanho, tua complexidade do teu ambiente antes de tomar essa solução porque ela pode ser canhão. Pode ser canhão. Porque por exemplo, uma coisa que você tem, sei lá, 10 serviços, 12 serviços dentro de aplicação de coisas que você resolveria com o Midor.
+
+com segredo e cada apenas teria uma chave do seu segredo e tal e colocaria isso seria o suficiente. Quando você tem 25 mil aplicações execução, isso já fica bem mais difícil você começar a ter esses segredos. aí o cara pensa, não, mas muitas vezes a aplicação não vai falar com todo mundo, O cara não vai ter 30 mil segredos. Talvez a API de usuários discorde pouco de você, né?
+
+Então ela talvez vai ser bastante nesse caso. Eu já vejo algumas estratégias diferentes que eu tenho visto no mercado pelo menos. Que é realmente cara que ele é centralizador disso. Então por exemplo as APIs todas as APIs elas só recebem a requisição de. centro. E quando elas enviam elas enviam para esse centro.
+
+E esse hub principal, essa essa aplicação de tráfego, esse gestor de tráfego, ele que é responsável por autenticar e. Redirecionar o tráfego. Então a gente está falando muito aí de de gateways, né? A está falando muito de API Gateway, por exemplo, né? Então na qual tu faz uma chamada para serviço. Tu não sabe qual que é a API de usuários, por exemplo, você não sabe qual é.
+
+mas você quer a page usuário então faz chamada para o serviço e esse serviço é responsável por autenticar verificar se você pode ou não pode fazer chamada para esse serviço e tal e ele que faz a chamada e o outro serviço vai receber a chamada com as informações necessárias sobre isso e ele vai devolver para a origem que é realmente o orquestrador e o orquestrador que devolve para o outro cara e aí todas as regras estão aí beleza agora tem uma centralização de regras no orquestrador.
+
+que é quem pode fazer request para quem agora tem o próximo nível disso que é quais são os endpoints ou funcionalidades dessa outra API que você pode fazer. Não significa que você ter acesso a uma API de usuário através da sua API que você pode oferecer. Você pode fazer operações de escritura na API de usuários.
+
+Pode ser que você só possa fazer operações de leitura na API de usuários. Então, que aí você entra no próximo nível e quer que tipo de operação pode fazer, a autenticação e a autorização para esse serviço.
+
+Cássio Batista Pereira (25:12)
+Uhum, boa, Marcos.
+
+Marcos Santos (25:14)
+Boa
+
+O Benio falou bem bonito. Fala aí da questão do endpoints, da arquitetura. O que eu consigo pensar, pouquinho mais distante, é pensando na questão de você ter framework, impervo, crowd strike da vida, pra te ajudar com isso. como eu falei, dependendo do seu tamanho, ganhão, não vai ajudar de porra nenhuma.
+
+tá botando uma coisa ali e vai gastar puta dinheiro que você poderia estar aplicando todos os lugares, né? Acho que o que o Ben Hur falou é muito mais bem visto do que você já tentar implementar algum software logo de cara tentar colocar milhão ali de barreiras implementar segurança network, database, microserviço e tudo mais sendo que você pode ter planejamento antes, pegar seu inventário ali do que você quer botar zero traste antes, tá? Acho que inventaria primeiro, acho que na minha visão
+
+Começando por ali você vai pensando no que você vai colocar ou não, né? Acho que eu começaria assim.
+
+Cássio Batista Pereira (26:17)
+Até porque
+
+o Bayer trouxe item aí e você falou agora também, né? Você imagina, você tem lá 25 mil apps, mas nem todo mundo fala com todo mundo. Exatamente, exatamente por isso que você precisa ter esse controle. Porque se a aplicação número 1 tá fazendo request pra 25 mil, que nem deveria, né? Como o Bayer falou, você tem API Gateway ali, orquestrador de serviço, enfim.
+
+A jamais deveria fazer request para 25 mil, por exemplo. E esse request está acontecendo. Se você tem isso mapeado, você falou muito bem agora, você está inventariado, você sabe que isso não deveria acontecer, não é uma operação normal? Algo anormal está acontecendo. É bug, uma falha ou tem alguém cavucando minha rede? Crawliano fazendo scan na minha rede, sniffando. Então quando você tem isso muito bem estruturado e aí soluções vão te ajudar a fazer isso.
+
+Acho que o seu próprio Cluster Kubernetes, bem configurado, bem agilizado, você consegue ter esse mapeamento e já saber, cara, isso deveria falar com isso, ou isso nem deveria ter nem rota pra cá. Então, se tá batendo, tá tentando fazer request ali, cara, é alguém fazendo sniff, por exemplo. O cara já chegou na rede, olha que interessante, cara vai atacar, ele vai chegar na rede, e aí ele vai ver onde mais eu consigo chegar aqui dentro. E a primeira coisa que ele vai fazer é mapeamento, né? Esse mapeamento que ele... Exato, exato, então...
+
+Marcos Santos (27:16)
+Sim.
+
+Começa a movimentação lateral, começa a tudo.
+
+Cássio Batista Pereira (27:37)
+Uma vez que você tem esse mapeamento, você que a aplicação número 1 não deveria falar com a 25 mil lá na frente. Então, vou bloquear esse request, mas isso tem que gerar uma alerta. Deu falar que tem negócio bem normal aqui que não deveria estar acontecendo. Está acontecendo. Aconteceu uma, aconteceu duas, aconteceu mil vezes. Então, toda essa estrutura, você falou muito bem, o inventário, esse orquestrador, normalmente a chama de api-gate e tal, que vão ajudar a gente a entender o que está acontecendo dentro da rede.
+
+nos ajudou também a não necessariamente só bloquear aquele request, não deixar passar, isso é legal, medida protetiva. Mas para a gente olhar para dedicar, já pingou alguém aqui na rede. Ainda que essa pessoa não conseguir escalar, fazer movimentação lateral e tudo mais, mas olha, já tem uma coisa normal acontecendo. Então veja, só de você ter isso bem estruturado, você já consegue de certo modo não necessariamente só se proteger, mas também ser avisado de que algo está acontecendo. Porque sem ter isso,
+
+O request poderia acontecer, ou ainda que ele não acontecesse se fosse bloqueado por uma política de fire, exemplo, da própria rota e tal, lá nos igrejas e igrejas da vida, não aconteceria o request, mas ainda tem alguém lá dentro que está varrendo. E ele pode conseguir chegar outros lugares, por exemplo. Então eu gosto muito dessa ideia de que quando você tem isso bem estruturado, não só te ajuda na proteção e real time, vamos falar assim, mas também na reação, ou até no tempo de você olhar outras coisas que podem ser...
+
+podem ser... risco também pra você. Fala, fala aí.
+
+Marcos Santos (29:11)
+Eu falar pra gente mudar pouquinho de tópico, pegar tópicozinho aí e falar pouquinho sobre a questão...
+
+Cássio Batista Pereira (29:16)
+manda topicozinho topicozinho
+
+novo no episódio de qual seria o topicozinho sugerido por vossa majestade valeu valeu
+
+Marcos Santos (29:23)
+Ai, meu caralho.
+
+A falou
+
+pouquinho das aplicações e workloads, né? Muitas vezes a gente acaba esquecendo esses carinhas aí, e querendo ou não, são uma fonte ali, são vetores de ataques para ameaça, Somente ali quando a pensa no internet e acesso remoto também, né? Então, eu acredito que falar pouquinho sobre como fazer, né? Como mitigar pouquinho mais, o zero-trash aplicações e workloads, acho que é tema legal.
+
+Cássio Batista Pereira (29:59)
+Boa! Quer começar já introduzindo o webmur? Fique à vontade aí!
+
+Ben-Hur Santos Ott (30:04)
+Quando eu estou falando workloads, Marco, só para entender, exemplo, eu quero ou preciso fazer acesso ao meu cluster Kubernetes, por exemplo. A questão é como que eu faço acesso, quem é que tem a permissão de fazer esse acesso? Porque o Zero Trust para mim
+
+Marcos Santos (30:17)
+Sim.
+
+Ben-Hur Santos Ott (30:29)
+tem uma característica dele que eu acho extremamente importante que é. Eu não é que eu te concedi o acesso. Que você pode fazer tudo. Então além de de cara controlar como é que o cara acessa ou entra dentro do cluster. Por exemplo aquele esquema o ideal é que você nunca precise nunca adentrar dentro de cluster.
+
+Então, porque se você precisa de entrar é porque você não tem logs, é porque você não tem observabilidade, você não tem monitoramento, você não tem nada, agora precisa usar CubeCitl lá para entrar no cluster e olhar os canseiros. Nunca isso, nunca deveria se passar. Quando esse cenário se passa, o que gente chama de Breaking Glass, Breaking Glass Role, Breaking Glass Profile, Breaking Glass User, etc.
+
+Cássio Batista Pereira (31:12)
+na unha.
+
+Ben-Hur Santos Ott (31:28)
+Então...
+
+Uma coisa que me ajuda muito hoje é definir bem esse role. O que que é role de Breaking Glass Viewer? O que é role de Breaking Glass Writer? Porque assim, a gente está preocupado cara, não quero ninguém com uma chance de entrar num cluster produtivo.
+
+com ação de escrita aqui porque tá tudo porra tudo terra forma tudo bonitinho e tal não quero que ninguém entre aqui. Beleza você pode falar isso num momento normal no café da manhã tranquilo mas quando tiver o CTO do teu lado te falar mas cara mas tá tudo offline. Tá tudo offline eu preciso que o cara entre e veja o está acontecendo porque a gente não sabe o que está acontecendo. Essa conversa não vai talvez seja a última vez que você vai falar isso pra ele dentro da empresa né. Então.
+
+Quando gente fala de zero trust. Pode definir muito bem as ações para entrar, por exemplo, vai ser federado essa entrada, ou seja, a gente tem login de AD e eu estou federando o cluster para que você só possa entrar através desse cluster. Ok, perfeito, com a restrição dos usuários específicos do AD. Só que se você não definir roleless.
+
+específicos para situações dentro da sua empresa. O cara precisa. Eu quero olhar uma coisinha lá no cluster para tirar uma dúvida para construir minha aplicação aqui. O que cara vai fazer? Vai dar acesso total para o Entendeu? Então tu acaba abrindo esse tipo de brecha e aí bem eu trabalho bastante com questão de criptomoedas.
+
+surgiu agora dos top 10 riscos mais impactantes o insider malicious insider subiu. Hardcore nisso. Então o zero trunch não é só para o cara de fora e tem esse risco do malicious insider também. Então tem que pensar da perspectiva que o cara do lado ele vai ganhar 500 mil dólares.
+
+Marcos Santos (33:36)
+Tá bom.
+
+Ben-Hur Santos Ott (33:53)
+só para rodar software na máquina dele ou Pegasus, o grupo norte-americano, norte-coreano, desculpa, ele trabalha assim, com esse objetivo. Então tem que mitigar esse tipo de risco também. Então Zero Trust não é só sobre ter uma credencial, mas quanto tempo fica essa credencial, quem é que está fazendo, o que que você precisa fazer quando você tem a credencial, isso também é importante.
+
+Marcos Santos (34:22)
+Bom... Não... Não, eu ia falar que eu já tive problema com essa questão de workload na empresa que eu passei aqui recentemente e a gente ali... A gente desenvolvia o sistema operacional, essa é a realidade e muita coisa rodava doquerizada ali dentro do SO e era uma construção nossa, a só usava o kernel Linux ali, uma versão defasada, né? Versão 6.2
+
+Cássio Batista Pereira (34:22)
+Pegasus!
+
+Marcos Santos (34:50)
+que tinha muitas vulnerabilidades nesse caso. E por acaso a gente tava rodando ali, não foi eu que rodei, foi o time de arquitetura mesmo que acabou executando lá e pegou muitos problemas, principalmente com a parte de controle de teste, tinha muita abertura, pessoal rodava teste, mas não tinha produção adequada por ser usuário de teste. E a gente teve que fazer implementação ali de...
+
+uma série de políticas para poder mitigar isso e até remover. E só executava esse teste ali dentro de pipelines ou dentro de ambiente bem controlado. Porque a teve casos de fazer subversão emergencial e tudo mais. Inclusive, uma das coisas que ajudou a gente foi a implementação do Cent, o da Microsoft. A pegou muitos problemas ali junto com a ferramenta. Então, foi caso bem crítico aqui para a gente.
+
+Cássio Batista Pereira (35:46)
+Boa, minha pitada de colaboração nesse tema é aquela do... Recentemente eu trabalhei numa empresa também que o pessoal tinha uma arquitetura muito bem definida, muito bem estruturada. Então essas questões de break in glass, exemplo, quando era necessário, você abria o ticket, self service, você abria o ticket e falava, eu preciso de acesso à produção por 15 minutos. Então você tinha o acesso, não era total, ainda era específico.
+
+ver logs e tal coisa, legal. Então você tinha acesso a aqueles logs como leitura. Por 10, 15 minutos. Ou num banco de dados e tal. E aí, automaticamente cortava o acesso depois. Então, você abre uma brecha controlada, por tempo controlado, com uma role, como o Benyur colocou, muito bem especificada, e que vai ser automaticamente revisto naquele período de 15 minutos. E obviamente, tinha uma aprovação para isso, para aquele tick tipo a frente, tal, tal, tal. Mas quando você fala de uma arquitetura bem definida, software, tudo...
+
+tudo como código, Everton e ESA Code, dá pra fazer tudo isso funcionar de uma forma. Agora a gente abre o ticket, alguém tem que abrir a plataforma, dá o acesso, fica esperando os 15 minutos, corta o acesso. Então, é beleza, já tirei a vela.
+
+Marcos Santos (36:53)
+é meu caso aqui por isso a gente chama por isso o meu adsonamento de teste né
+
+Ben-Hur Santos Ott (37:00)
+A
+
+pergunta é quem é faz a segurança do sistema de ticket?
+
+Marcos Santos (37:01)
+é é é boa pergunta
+
+Cássio Batista Pereira (37:04)
+Nossa,
+
+cara. Agora me bugou. Me bugou tanto que eu vou até... Quer ver se só vou fazer até negócio que eu não fiz hoje ainda. Não fiz, mas vou fazer agora. Quer ver? ó.
+
+Marcos Santos (37:08)
+Me bobeu?
+
+Cássio Batista Pereira (37:18)
+As coisas aqui funcionam. É... Os deuros é foda. É... Cara, quer...
+
+Marcos Santos (37:18)
+Boa! O Benhur vai na veia das perguntas né velho? Tem hora que ele pega ali...
+
+Ben-Hur Santos Ott (37:26)
+Eu confio
+
+pra você dizer que eu sou confiável pra outra pessoa. Entendeu?
+
+Cássio Batista Pereira (37:40)
+Nossa,
+
+cara. Estamos praticamente evangelizando aqui. É o evangelho, cara. Esse aqui é exemplo de 0-30 pra gente matar o episódio, acabar o episódio agora de fato. O Neymar voltou jogar no Santos, Para público brasileiro, até porque não é Brasil, mas enfim. O Neymar voltou a no Santos. E acho que dos jogos, dos trainers, alguma coisa assim. O cara, dos seguranças, alguém que estava ali, pediu a bad dele. Precisava validar a bad dele. Para ele entrar numa área lá e tudo mais.
+
+Marcos Santos (37:44)
+É, eu quero.
+
+Cássio Batista Pereira (38:08)
+E a galera na internet, nossa, mas ninguém sabe quem é o Neymar, não sei o quê. Cara, tudo bem, cara até sabe que é ele, mas assim, tem que validar, ele fez o trabalho dele. Então, validar que você é você. No começo do episódio, o Duiú falou sobre isso. Você é você, mas tem que provar que você é você. E esse exemplo é muito legal, porque é o Neymar. Tudo bem que ele tem sósia e tudo mais, que podia ser o cara, blá, blá, blá. Era o Neymar, e aí ele mostra a bad, cara. Só ele teria aquela bad. Não, beleza, então você pode passar, pode entrar.
+
+Marcos Santos (38:14)
+Hum?
+
+Cássio Batista Pereira (38:37)
+uma sala lá enfim no estádio tal cara o negócio assim exemplo clássico de Zero Trash é óbvio que ele era ele, acho que tinha chego de helicóptero pra fazer o treino e precisava entrar na C1 mano era ele mas assim beleza tô vendo que é tua cara aqui mas o policial na rua vai lá cara me dá teu RG, dá teu documento do carro, que quer que seja né então acho que é exemplo clássico talvez mais clássico que isso né Zero Trash que eu queria trazer aí pra gente caminhar por final na verdade estamos no final já né
+
+Vocês querem fazer considerações gerais, hoje a gente está com tempo apertado. Manda beijo, abraço.
+
+Marcos Santos (39:08)
+quero
+
+só fazer comentário porque isso aqui é algo que já aconteceu aconteceu aqui inclusive foi uma empresa depois adotou essa política que é por favor nunca coloque foto do seu crachá no link e de e nenhuma outra rede social aconteceu já de pessoas pegarem tirar uma foto de ou do QR code ou do próprio código de barras ali e conseguiu fazer a clonagem do cartão dando acesso a indevidos né
+
+Então não publique pelo amor de Deus, foi uma política da empresa que não podia mais tirar foto e bloquearam né, aquele kit doas ainda você não podia mais publicar por causa de imbecis que tiravam foto do crash aí publicavam. só aviso.
+
+Cássio Batista Pereira (39:50)
+pior que tirar foto do crachá
+
+é quando você deixa o crachá na mesa pra pegar comida no shopping, larga o crachá lá e depois você volta pra guardar o lugar tá ligado? aí... é, e aí tá lá... aqui nunca vi isso também não primeiro que não é lotado os lugares desse jeito né mas... e aí qualquer vai lá e passa e clona né
+
+Marcos Santos (39:55)
+Puta que faliu. É isso que acontece no Brasil, que é difícil.
+
+É.
+
+Ben-Hur Santos Ott (40:06)
+E aí qualquer vai dar passo pro
+
+Velho, o cara pensa assim, né? Não, porque ninguém vai querer fazer uma invasão física, né? Cara, tá bom, vamos lá, vamos, pra não só discordar, vamos jogar outro jogo, Beleza, ninguém vai fazer uma, ninguém, criminoso vai querer fazer uma invasão física. Pode ser que o criminoso não, meu querido.
+
+Mas a empresa vai contratar alguém de penteste para fazer uma invasão física para ver se é possível. E o cara vai ficar lá no refeitório do shopping para ver pessoas dessa empresa, para tirar uma foto do crachá para ir lá e fazer uma invasão física e voltar para o chefe. Olha só, consegui fazer uma invasão física. seja, não é nem só o criminoso. Vai contratar penteste e aí depois vai... De que funcionário? Desse.
+
+Cássio Batista Pereira (40:59)
+E aí, filhão?
+
+Ben-Hur Santos Ott (41:01)
+Cara, então assim, beleza? Aí cada tem o seu apetite delícia.
+
+Cássio Batista Pereira (41:06)
+Cada
+
+Marcos Santos (41:06)
+É, e o detalhe,
+
+Cássio Batista Pereira (41:07)
+deu seu apetite de risco.
+
+Marcos Santos (41:08)
+as vezes o pessoal pensa, pô, eu sou ninguém, não sou ninguém importante né, Freza, não tem pra que fazer isso. Você não, mas o seu acesso é muito importante. Então, pensa nisso.
+
+Cássio Batista Pereira (41:17)
+você já tem mais acesso
+
+com o atacante, independente de quem você seja. Você já tem mais acesso, porque você já trabalha lá, já tem email, já tem uma conta, você já está na rede, então assim. Se você é recepcionista ou CEO, tanto faz, você já tem mais acesso que ele, então você já é alvo natural.
+
+Marcos Santos (41:21)
+Exatamente.
+
+Ben-Hur Santos Ott (41:34)
+E sempre lembrar
+
+que tudo depende de alguém entrar e conectar USB.
+
+Cássio Batista Pereira (41:39)
+ou deixar
+
+Marcos Santos (41:40)
+Não, nem
+
+Cássio Batista Pereira (41:41)
+o SB pra alguém
+
+Marcos Santos (41:42)
+precisa disso, eu trabalhei uma empresa, caso que eu conheça essa empresa, trabalhei lá há mais de 4 anos, uma empresa, não sei nem se funciona ainda hoje dia, mas uma empresa que estava no seito São Paulo, perto da Cracolândia. Qual que era o BO? Eu tentei implementar a segurança lá por muito tempo, tentei contratar a Cassie e tudo mais, enfim, nunca tinha budget pra segurança. Qual que era o BO? A nossa rede Wi-Fi da empresa era totalmente ligada à rede enterprise da empresa como geral.
+
+Qual que era problema? O cara do estacionamento tinha a senha do wi-fi e logo ele passou a senha lá pro pessoal que ia ficar lá no estacionamento chegava muito cedo, a empresa abria às 8, a chegava às 7 lá cara, chegou uma hora que praticamente todo mundo tinha a senha do wi-fi e houve sim ataque ali onde a pessoa conseguiu chegar até o nosso banco de dados que conseguiu dar drop ali geral por conta da porra da senha do wi-fi que não tava sanitizado, não tinha duas redes, não era dividido
+
+Então acessando a rede Wifi o cara conseguiu entrar na nossa rede como todo. E é bagulho simples cara, é Wifi que o cara ia usar pra acessar o banco, fazer Pix e deu nisso. Isso é nem do acesso físico nesse caso.
+
+Cássio Batista Pereira (42:54)
+Bom,
+
+jovens, discutimos Zero Trust hoje, arquitetura Zero Trust e vários aspectos aqui como ela pode te ajudar, te proteger. Ou é uma canhão para matar uma formiga, Então, toma cuidado, nem tudo é tudo que parece, nem tudo é tudo que você precisa. E nem você não é você, né? Entendemos que você não é você, é que o Bayer ensinou para a gente hoje. Então, cuidado com... Com... excesso, né? Legal gente entender onde que tem que ser aplicado e por que que tem que ser aplicado.
+
+É isso, não se esqueçam da Nova 8, Checkmarks, DigitalWalk e a Purple Bird, nossos parceiros do que deve ser CosplayCast. Eu sou o Casper Pereira.
+
+Ben-Hur Santos Ott (43:31)
+Eu sou Benhor. E eu sou o Max Santos.
+
+Marcos Santos (43:32)
+E eu sou Marcos Santos.
+
+Cássio Batista Pereira (43:34)
+Beijos, a gente se vê na semana que vem.
+
+Ben-Hur Santos Ott (43:41)
+termina aqui
+
