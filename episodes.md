@@ -9,7 +9,7 @@ title: Episódios
 {% for post in site.posts %}    
     {% if post.type == "main" %}
         <li>
-            <a href="{{ post.url }}"> {{ post.title }} </a>
+            <a href="/devsecopspodcast/{{ post.url }}"> {{ post.title }} </a>
         </li>
     {% endif %}
 

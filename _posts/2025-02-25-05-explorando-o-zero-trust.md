@@ -6,8 +6,8 @@ description: "Neste episódio, discutimos o modelo de segurança Zero Trust, uma
 file: https://api.spreaker.com/v2/episodes/64558128/download.mp3
 length: 
 videoid: 
-cover: "../assets/img/605.png"
-transcription: "../assets/transcriptions/6/5/05.txt"
+cover: "../../assets/img/605.png"
+transcription: "../../assets/transcriptions/6/5/05.txt"
 ai: false
 resumo: ""
 capitulos: "<ul>
