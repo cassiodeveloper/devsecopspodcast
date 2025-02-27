@@ -2,8 +2,8 @@
 title: "DevSecOps Podcast"
 description: "O seu podcast sobre Segurança e Tecnologia"
 podcast-description: "O DevSecOps Podcast é uma jornada empolgante pelo mundo da cibersegurança, com um foco especial em Application Security e DevSecOps. Neste podcast cativante, exploramos as mais recentes tendências, melhores práticas e desafios que cercam a proteção de aplicações e a integração da segurança não somente desde o início do ciclo de desenvolvimento de software., mas em toda sua execução Junte-se a especialistas do setor e líderes visionários enquanto discutem estratégias, ferramentas e insights essenciais para garantir que sua organização esteja à frente das ameaças cibernéticas. Se você está interessado em manter suas aplicações seguras e atualizado com as práticas mais recentes em segurança de desenvolvimento, o DevSecOps Podcast é o seu guia confiável."
-url:  "https://cassiodeveloper.com.br/devsecopspodcast" # Actual base url of the website
-baseurl: "/devsecopspodcast/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
+url:  "https://cassiodeveloper.com.br" # Actual base url of the website
+baseurl: "/devsecopspodcast"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
   name: "Cássio Batista Pereira"
   email: "cassio@cassiobp.com.br"
