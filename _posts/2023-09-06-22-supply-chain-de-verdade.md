@@ -6,7 +6,7 @@ description: À medida que as organizações adotam abordagens DevOps e Agile pa
 file: https://api.spreaker.com/v2/episodes/56728802/download.mp3
 length: 45:00
 videoid: peN4UFxdYdc
-cover: "../assets/img/422.png"
+cover: "/devsecopspodcast/assets/img/422.png"
 transcription: "../assets/transcriptions/4/22/22.srt"
 ---
 

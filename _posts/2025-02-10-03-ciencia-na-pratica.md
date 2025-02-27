@@ -6,7 +6,7 @@ description: "Neste episódio, entrevistamos um cientista da área de Cyber Secu
 file: https://api.spreaker.com/v2/episodes/64299811/download.mp3
 length: 
 videoid: riGqXWGo_dw
-cover: "../assets/img/603.png"
+cover: "/devsecopspodcast/assets/img/603.png"
 transcription: "../assets/transcriptions/6/3/03.txt"
 ai: true
 resumo: "No podcast, os principais participantes foram o apresentador e o convidado, conhecido como Sushi. A discussão girou em torno da iniciação científica, a importância da pesquisa acadêmica e as diferenças entre mestrado e doutorado, especialmente na área de segurança da informação. O episódio ocorreu em 3 de fevereiro, com a publicação prevista para 5 de fevereiro de 2023.

@@ -6,7 +6,7 @@ description: Mergulhamos no emocionante mundo de Application Security (AppSec) e
 file: https://api.spreaker.com/v2/episodes/56639766/download.mp3
 length: 45:00
 videoid: L5_elC1Gs-8
-cover: "../assets/img/421.png"
+cover: "/devsecopspodcast/assets/img/421.png"
 transcription: "../assets/transcriptions/4/21/21.srt"
 ---
 

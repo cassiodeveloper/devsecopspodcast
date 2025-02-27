@@ -6,7 +6,7 @@ description: "No episódio de hoje abordamos o tema Product Security, destacando
 file: https://api.spreaker.com/v2/episodes/64558702/download.mp3
 length: 
 videoid: 
-cover: "../assets/img/606.png"
+cover: "/devsecopspodcast/assets/img/606.png"
 transcription: "../assets/transcriptions/6/6/06.txt"
 ai: false
 resumo: ""

@@ -6,7 +6,7 @@ description: É jovens, sem INDICADORES você não escala, não evolui, não cre
 file: https://api.spreaker.com/v2/episodes/48349399/download.mp3
 length: 46:11
 videoid: -eUWgQ7V4nw
-cover: "../assets/img/303.png"
+cover: "/devsecopspodcast/assets/img/303.png"
 ---
 
 É jovens, sem INDICADORES você não escala, não evolui, não cresce sua implementação, seja em qualquer área, em AppSec vamos entender que indicadores são esses.

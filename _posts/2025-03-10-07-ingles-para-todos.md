@@ -6,7 +6,7 @@ description: ""
 file: 
 length: 
 videoid: 
-cover: "../assets/img/607.png"
+cover: "/devsecopspodcast/assets/img/607.png"
 transcription: "../assets/transcriptions/6/7/07.txt"
 ai: false
 resumo: ""

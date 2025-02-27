@@ -6,7 +6,7 @@ description: Num episódio sem os caras chatos, discutimos três pilares não t�
 file: https://api.spreaker.com/v2/episodes/51481606/download.mp3
 length: 43:42
 videoid: sbfDfvdl0nM
-cover: "../assets/img/337.png"
+cover: "/devsecopspodcast/assets/img/337.png"
 ---
 
 Num episódio sem os caras chatos, discutimos três pilares não tão comuns em segurança. Abriu nossa mente inclusive sobre onde investir mais num projeto, vem conferir com a gente.

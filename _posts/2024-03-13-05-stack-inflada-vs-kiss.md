@@ -6,7 +6,7 @@ description: "Neste episódio intrigante do nosso podcast, mergulhamos fundo no 
 file: https://api.spreaker.com/v2/episodes/59033471/download.mp3
 length: 47:18
 videoid: bNCIINrF9w4
-cover: "../assets/img/505.png"
+cover: "/devsecopspodcast/assets/img/505.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HRW8NC28WSMS11S31XBAPN3X.srt"
 ai: true
 resumo: "O podcast discutiu a importância de manter a simplicidade e a segurança no desenvolvimento de sistemas de TI. Os palestrantes abordaram a necessidade de evitar a complexidade desnecessária e focar em soluções simples e eficazes. Eles destacaram a importância de entender as necessidades do negócio e priorizar a funcionalidade e a segurança. A discussão também incluiu exemplos de situações em que a simplicidade foi negligenciada, levando a problemas de segurança e desempenho. Os palestrantes enfatizaram a importância de evitar vulnerabilidades e pontos de falha ao criar sistemas de TI. A abordagem simples e eficiente foi destacada como essencial para garantir a segurança e o bom funcionamento dos sistemas. A discussão ocorreu em um episódio recente do podcast, onde os palestrantes compartilharam suas experiências e insights sobre o tema."

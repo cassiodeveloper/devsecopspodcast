@@ -6,7 +6,7 @@ description: "In this episode of the DevSecOps Podcast, our host engages in a fa
 file: https://api.spreaker.com/v2/episodes/60656402/download.mp3
 length: 43:53
 videoid: t77c_knqKkg
-cover: "../assets/img/514.png"
+cover: "/devsecopspodcast/assets/img/514.png"
 transcription: "../assets/transcriptions/5/14/14.txt"
 ai: false
 resumo: ""

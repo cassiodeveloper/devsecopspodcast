@@ -10,7 +10,7 @@ Whether you're a SaaS provider, a business relying on SaaS solutions, or simply 
 file: https://api.spreaker.com/v2/episodes/60382533/download.mp3
 length: 49:15
 videoid: LtvCyn8Y89A
-cover: "../assets/img/512.png"
+cover: "/devsecopspodcast/assets/img/512.png"
 transcription: "../assets/transcriptions/5/12/12.txt"
 ai: false
 resumo: ""

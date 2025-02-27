@@ -6,7 +6,7 @@ description: "No episódio de hoje, mergulhamos fundo no mundo da segurança cib
 file: https://api.spreaker.com/v2/episodes/58754007/download.mp3
 length: 53:17
 videoid: ezBZySLO-y0
-cover: "../assets/img/503.png"
+cover: "/devsecopspodcast/assets/img/503.png"
 transcription: "../assets/transcriptions/5/3/03.txt"
 guest: "https://www.linkedin.com/in/andersondadario/"
 ai: true

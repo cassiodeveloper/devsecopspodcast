@@ -6,7 +6,7 @@ description: Descubra como impulsionar a segurança e a agilidade no desenvolvim
 file: https://api.spreaker.com/v2/episodes/56004437/download.mp3
 length: 45:52
 videoid: _pPGlnowgSA
-cover: "../assets/img/418.png"
+cover: "/devsecopspodcast/assets/img/418.png"
 transcription: "../assets/transcriptions/4/18/18.srt"
 ---
 

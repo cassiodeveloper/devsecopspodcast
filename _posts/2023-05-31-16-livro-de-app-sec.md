@@ -11,7 +11,7 @@ Se você é um desenvolvedor, profissional de TI ou alguém preocupado com a seg
 file: https://api.spreaker.com/v2/episodes/54056140/download.mp3
 length: 41:37
 videoid: l7kGeT_xNB0
-cover: "../assets/img/416.png"
+cover: "/devsecopspodcast/assets/img/416.png"
 transcription: "../assets/transcriptions/4/16/16.srt"
 ---
 

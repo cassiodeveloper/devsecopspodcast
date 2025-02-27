@@ -6,7 +6,7 @@ description: "Neste episódio do DevSecOps Podcast, exploramos o processo de cri
 file: https://api.spreaker.com/v2/episodes/63610195/download.mp3
 length: 38:25
 videoid: DxZUPmXu2Y8
-cover: "../assets/img/601.png"
+cover: "/devsecopspodcast/assets/img/601.png"
 transcription: "../assets/transcriptions/6/01/01.txt"
 ai: true
 resumo: "No episódio do podcast, os palestrantes discutiram a implementação de um programa de 'Security Champion', que visa integrar práticas de segurança em equipes de desenvolvimento. O foco foi em como formar e reconhecer esses campeões de segurança, que atuarão como intermediários entre as equipes de desenvolvimento e o time de segurança. A conversa abordou a importância de um suporte executivo, destacando que a iniciativa deve ser uma política da empresa, com apoio do CISO e do CTO.

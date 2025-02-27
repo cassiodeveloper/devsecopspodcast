@@ -6,7 +6,7 @@ description: Imaginamos um mundo com dinheiro infinito e todo o poder nas nossas
 file: https://api.spreaker.com/v2/episodes/49255879/download.mp3
 length: 45:00
 videoid: uBrXakywzBU
-cover: "../assets/img/311.png"
+cover: "/devsecopspodcast/assets/img/311.png"
 ---
 
 Imaginamos um mundo com dinheiro infinito e todo o poder nas nossas mãos, o que faríamos para estarmos seguros?

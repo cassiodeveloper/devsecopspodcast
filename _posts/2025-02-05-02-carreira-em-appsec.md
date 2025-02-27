@@ -6,7 +6,7 @@ description: "Rapaz do céu... que episódio massa. A prova que este Podcast fun
 file: https://api.spreaker.com/v2/episodes/64213167/download.mp3
 length: 48:00
 videoid: LCqfgxc2tO8
-cover: "../assets/img/602.png"
+cover: "/devsecopspodcast/assets/img/602.png"
 transcription: "../assets/transcriptions/6/2/02.txt"
 ai: true
 resumo: "Os principais participantes foram Cássio Pereira, Benhur e a convidada Marília. A discussão girou em torno da trajetória profissional de Marília, que fez a transição de uma carreira em segurança da informação para oportunidades no exterior, destacando as diferenças nos processos seletivos entre o Brasil e o exterior. O episódio ocorreu em outubro de 2023, com lançamentos nos dias 23 e 29. 

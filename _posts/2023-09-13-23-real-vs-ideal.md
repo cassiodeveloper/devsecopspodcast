@@ -6,7 +6,7 @@ description: Não sei nem o que dizer para o episódio de hoje, só ter o elenco
 file: https://api.spreaker.com/v2/episodes/56728802/download.mp3
 length: 50:00
 videoid: 6hMG_W9dPNo
-cover: "../assets/img/423.png"
+cover: "/devsecopspodcast/assets/img/423.png"
 transcription: "../assets/transcriptions/4/23/23.srt"
 ---
 

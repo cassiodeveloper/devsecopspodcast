@@ -6,7 +6,7 @@ description: Com nossa primeira convidada internacional, falamos sobre a import�
 file: https://api.spreaker.com/v2/episodes/45953917/download.mp3
 length: 60:00
 videoid: gMSSl2x_cb0
-cover: "../assets/img/031.png"
+cover: "/devsecopspodcast/assets/img/031.png"
 ---
 
 Com nossa primeira convidada internacional, falamos sobre a importância da segurança em containers num nível técnico muito bom.

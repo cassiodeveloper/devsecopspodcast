@@ -6,7 +6,7 @@ description: "In this episode, our hosts delve into the dynamic interplay betwee
 file: https://api.spreaker.com/v2/episodes/58553729/download.mp3
 length: 52:03
 videoid: jdzkBkrXvF4
-cover: "../assets/img/501.png"
+cover: "/devsecopspodcast/assets/img/501.png"
 transcription: "../assets/transcriptions/5/1/01.txt"
 guest: "https://www.linkedin.com/in/raz-probstein-0b4763233/"
 ---

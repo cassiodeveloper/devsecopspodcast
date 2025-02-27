@@ -12,7 +12,7 @@ Não perca este episódio informativo e inspirador enquanto navegamos pelas águ
 file: https://api.spreaker.com/v2/episodes/57558017/download.mp3
 length: 53:00
 videoid: Katdivop5bc
-cover: "../assets/img/429.png"
+cover: "/devsecopspodcast/assets/img/429.png"
 transcription: "../assets/transcriptions/4/29/29.srt"
 ---
 

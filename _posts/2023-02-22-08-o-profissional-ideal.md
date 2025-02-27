@@ -6,7 +6,7 @@ description: Neste episódio eu faço uma reflexão sobre como podemos ser melho
 file: https://api.spreaker.com/v2/episodes/52814809/download.mp3
 length: 46:00
 videoid: 51OthXIWycQ
-cover: "../assets/img/408.png"
+cover: "/devsecopspodcast/assets/img/408.png"
 transcription: "../assets/transcriptions/4/8/08.srt"
 ---
 

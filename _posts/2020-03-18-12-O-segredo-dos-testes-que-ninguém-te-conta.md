@@ -6,7 +6,7 @@ description: Neste episódio contamos alguns segredos sobre o mundo dos testes �
 file: https://api.spreaker.com/download/episode/24028735/ep12.mp3
 length: 50:59
 videoid: _0c-5Y5ql2c
-cover: "../assets/img/12.png"
+cover: "/devsecopspodcast/assets/img/12.png"
 ---
 
 Neste episódio contamos alguns segredos sobre o mundo dos testes é importante você conhecer os bastidores, afinal, não te contam tudo!

@@ -6,7 +6,7 @@ description: Neste episódio especial, mergulhamos no emocionante mundo da segur
 file: https://api.spreaker.com/v2/episodes/53972211/download.mp3
 length: 50:58
 videoid: A3BeU79qKaI
-cover: "../assets/img/415.png"
+cover: "/devsecopspodcast/assets/img/415.png"
 transcription: "../assets/transcriptions/4/15/15.srt"
 ---
 

@@ -6,7 +6,7 @@ description: "Neste episódio do DevSecOps Podcast, exploramos um cenário real 
 file: https://api.spreaker.com/v2/episodes/61124084/download.mp3
 length: 48:00
 videoid: CFW6axDisu0
-cover: "../assets/img/516.png"
+cover: "/devsecopspodcast/assets/img/516.png"
 transcription: "../assets/transcriptions/5/16/16.txt"
 ai: true
 resumo: "O podcast discutiu a gestão de vulnerabilidades em sistemas de informação, com os participantes Benhur, Marcos e Beyer. Eles abordaram a importância de atualizações e mitigação de vulnerabilidades, destacando a necessidade de classificação e gestão adequada desses problemas. A conversa também mencionou a importância de envolver os desenvolvedores no processo de correção de vulnerabilidades e a necessidade de terceirizar responsabilidades para garantir a segurança dos sistemas. A discussão ressaltou a importância de manter registros de logs e ações de segurança para detectar possíveis ameaças. O episódio enfatizou a complexidade e a importância da gestão de vulnerabilidades em ambientes de TI, visando garantir a segurança e integridade dos sistemas. A troca de experiências e dicas práticas fornecidas pelos participantes contribuíram para uma visão abrangente sobre o tema."

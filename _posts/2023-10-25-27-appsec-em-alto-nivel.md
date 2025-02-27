@@ -11,7 +11,7 @@ Se você está interessado em fortalecer a segurança das suas aplicações ou d
 file: https://api.spreaker.com/v2/episodes/57382227/download.mp3
 length: 53:00
 videoid: RiiiTXCwMMw
-cover: "../assets/img/427.png"
+cover: "/devsecopspodcast/assets/img/427.png"
 transcription: "../assets/transcriptions/4/27/27.srt"
 ---
 

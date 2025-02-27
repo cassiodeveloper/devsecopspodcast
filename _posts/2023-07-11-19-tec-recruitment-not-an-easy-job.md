@@ -6,7 +6,7 @@ description: Our first talk with an IT / InfoSec recruiter in the whole history 
 file: https://api.spreaker.com/v2/episodes/56069267/download.mp3
 length: 47:19
 videoid: X-fe7yZNrnc
-cover: "../assets/img/419.png"
+cover: "/devsecopspodcast/assets/img/419.png"
 transcription: "../assets/transcriptions/4/19/19.srt"
 ---
 

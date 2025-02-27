@@ -6,7 +6,7 @@ description: "A emocionante jornada de migrar de outras áreas para a cibersegur
 file: https://api.spreaker.com/v2/episodes/59282334/download.mp3
 length: 48:35
 videoid: 0wJdK-E9PQM
-cover: "../assets/img/507.png"
+cover: "/devsecopspodcast/assets/img/507.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HTJMM4RRHKDVWW9CYW5S4RQ7.srt"
 ai: true
 resumo: "No podcast, os palestrantes discutiram sobre a transição para a área de segurança da informação, destacando a importância de buscar conhecimento e experiência prática. Eles enfatizaram a necessidade de entender as diferentes áreas dentro da segurança, como segurança ofensiva e forense, e a importância de se especializar em um campo específico. Os palestrantes também mencionaram a importância de investir em cursos e treinamentos para adquirir habilidades necessárias na área de segurança. Além disso, destacaram a importância de identificar e corrigir vulnerabilidades de segurança, ganhando experiência e conhecimento prático. A discussão ocorreu em um episódio recente do podcast e é relevante para aqueles que desejam ingressar ou se aprimorar na área de segurança da informação."

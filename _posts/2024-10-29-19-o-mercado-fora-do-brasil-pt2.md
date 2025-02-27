@@ -6,7 +6,7 @@ description: "Nesse episódio, os hosts compartilham suas experiências de viver
 file: https://api.spreaker.com/v2/episodes/62543562/download.mp3
 length: 01:32:21
 videoid: U8jgRLVLi5Y
-cover: "../assets/img/519.png"
+cover: "/devsecopspodcast/assets/img/519.png"
 transcription: "../assets/transcriptions/5/19/19.txt"
 ai: true
 resumo: "Os participantes do podcast discutiram sobre a experiência de morar fora do Brasil, abordando temas como a compra de casa, aluguel, financiamento, custo de vida, segurança, trabalho e adaptação. Eles compartilharam suas experiências pessoais, destacando diferenças e semelhanças entre o Brasil e o país onde residem. A importância do episódio reside na possibilidade de fornecer informações úteis para quem está considerando viver no exterior, abordando aspectos práticos e emocionais da mudança. Os participantes enfatizaram a necessidade de planejamento financeiro, adaptação cultural e a busca por oportunidades de trabalho. A discussão também incluiu questões relacionadas à segurança, custo de vida, transporte e qualidade de vida. Em resumo, o podcast oferece insights valiosos para quem está pensando em se mudar para outro país, destacando os desafios e benefícios dessa experiência."

@@ -6,7 +6,7 @@ description: "In this milestone episode, we dive deep into the ever-evolving lan
 file: https://api.spreaker.com/v2/episodes/57861856/download.mp3
 length: 0
 videoid: 
-cover: "../assets/img/430.png"
+cover: "/devsecopspodcast/assets/img/430.png"
 transcription: "../assets/transcriptions/4/30/30.txt"
 guest: "https://www.linkedin.com/in/simondprice/"
 ---

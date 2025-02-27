@@ -6,7 +6,7 @@ description: "Neste episódio, os anfitriões mergulham no fascinante mundo da i
 file: https://api.spreaker.com/v2/episodes/60196791/download.mp3
 length: 0
 videoid: PNuk93KpqiU
-cover: "../assets/img/511.png"
+cover: "/devsecopspodcast/assets/img/511.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HZ137Z4G8KKHTK8DC83C202F.srt"
 ai: true
 resumo: "Os palestrantes discutiram sobre segurança cibernética e automação de vulnerabilidades em projetos de desenvolvimento de software. A conversa aconteceu em um podcast com duração de aproximadamente uma hora. Eles abordaram a importância de ferramentas que identificam e corrigem vulnerabilidades de forma automatizada, facilitando o trabalho dos desenvolvedores e garantindo a segurança dos sistemas. Também mencionaram a necessidade de treinamento e personalização das soluções de segurança, visando a melhoria contínua e a prevenção de ataques cibernéticos. A discussão destacou a relevância da implementação de tecnologias que auxiliam na detecção e correção de falhas de segurança, visando a proteção dos dados e a integridade dos sistemas."

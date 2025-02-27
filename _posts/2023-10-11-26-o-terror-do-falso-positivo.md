@@ -6,7 +6,7 @@ description: "Neste episódio, mergulhamos fundo no desafiador mundo dos testes 
 file: https://api.spreaker.com/v2/episodes/57199969/download.mp3
 length: 40:00
 videoid: QZCOVaigFDE
-cover: "../assets/img/426.png"
+cover: "/devsecopspodcast/assets/img/426.png"
 transcription: "../assets/transcriptions/4/26/26.srt"
 ---
 

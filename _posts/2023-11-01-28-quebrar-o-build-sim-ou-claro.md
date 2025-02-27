@@ -12,7 +12,7 @@ Se você está interessado em aprender como a quebra de build se relaciona com a
 file: https://api.spreaker.com/v2/episodes/57471549/download.mp3
 length: 48:13
 videoid: lAfkWB1dJXM
-cover: "../assets/img/428.png"
+cover: "/devsecopspodcast/assets/img/428.png"
 transcription: "../assets/transcriptions/4/28/28.srt"
 ---
 

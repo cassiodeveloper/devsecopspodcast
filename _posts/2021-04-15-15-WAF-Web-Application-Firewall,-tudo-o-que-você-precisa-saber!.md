@@ -6,7 +6,7 @@ description: Tudo o que você precisa saber sobre Web Application Firewall o fam
 file: https://api.spreaker.com/download/episode/44352221/recording_2_postproductions_2021_04_15_t08_12_51pm_final_mix.mp3
 length: 55:29
 videoid: 3rpk5so02oM
-cover: "../assets/img/015.png"
+cover: "/devsecopspodcast/assets/img/015.png"
 ---
 
 Tudo o que você precisa saber sobre Web Application Firewall o famoso WAF neste episódio descontraido e informativo.

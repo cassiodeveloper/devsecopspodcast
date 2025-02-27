@@ -6,7 +6,7 @@ description: Você é dev? Sabe voar dev? Sabe? Pois é, o estilo capitão nasci
 file: https://api.spreaker.com/v2/episodes/53805098/download.mp3
 length: 45:24
 videoid: mU3yy5r3U5I
-cover: "../assets/img/414.png"
+cover: "/devsecopspodcast/assets/img/414.png"
 transcription: "../assets/transcriptions/4/14/14.srt"
 ---
 

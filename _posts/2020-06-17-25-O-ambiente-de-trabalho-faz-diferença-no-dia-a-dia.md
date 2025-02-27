@@ -6,7 +6,7 @@ description: será que limpeza, organização e até o cheiro do ambiente afeta 
 file: https://api.spreaker.com/download/episode/31352607/ep25.mp3
 length: 57:28
 videoid: Udmbtyazh78
-cover: "../assets/img/25-1.png"
+cover: "/devsecopspodcast/assets/img/25-1.png"
 ---
 
 será que limpeza, organização e até o cheiro do ambiente afeta o desempenho das pessoas? Nesse episódio polêmico e meio maluco discutimos sobre isso.

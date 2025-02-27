@@ -6,7 +6,7 @@ description: Scan de código parece ser um tema sem fim. Sempre há uma nova que
 file: https://api.spreaker.com/v2/episodes/56873500/download.mp3
 length: 39:00
 videoid: Z68S4TkatZw
-cover: "../assets/img/424.png"
+cover: "/devsecopspodcast/assets/img/424.png"
 transcription: "../assets/transcriptions/4/24/24.srt"
 ---
 

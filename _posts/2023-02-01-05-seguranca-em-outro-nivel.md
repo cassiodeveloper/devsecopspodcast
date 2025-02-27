@@ -6,7 +6,7 @@ description: Este episódio serve para mostrar que, sozinho eu toco a parada. Me
 file: https://api.spreaker.com/v2/episodes/52605694/download.mp3
 length: 44:07
 videoid: lEcWi2Drvgc
-cover: "../assets/img/405.png"
+cover: "/devsecopspodcast/assets/img/405.png"
 transcription: "../assets/transcriptions/4/5/05.srt"
 ---
 

@@ -6,7 +6,7 @@ description: "Neste episódio do DevSecOps Podcast, o host e seus convidados exp
 file: https://api.spreaker.com/v2/episodes/62285876/download.mp3
 length: 45:00
 videoid: BXAb3WlCfBs
-cover: "../assets/img/517.png"
+cover: "/devsecopspodcast/assets/img/517.png"
 transcription: "../assets/transcriptions/5/17/17.txt"
 ai: true
 resumo: "O episódio discutiu modelagem de ameaças com Benhur e Cássio, destacando a importância de considerar ameaças desde o início do desenvolvimento de software. Eles enfatizaram que a modelagem de ameaças deve acompanhar todo o ciclo de desenvolvimento, não apenas identificar ameaças, mas também avaliar o esforço necessário para mitigá-las. A necessidade de associar cada finding de ameaça a casos de teste foi ressaltada, garantindo a validação da segurança. Além disso, foi mencionado que o uso do Stride pode ajudar a identificar riscos e guiar a análise de vulnerabilidades. Os palestrantes destacaram a importância de pensar de forma abrangente e não se limitar a problemas específicos, buscando sempre chegar aos riscos reais. A discussão enfatizou a importância de considerar a segurança desde o início do desenvolvimento de software e a necessidade de uma abordagem abrangente na modelagem de ameaças."

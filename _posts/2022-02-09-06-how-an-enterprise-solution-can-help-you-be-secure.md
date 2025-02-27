@@ -6,7 +6,7 @@ description: In our first episode in English, we talked with a Solutions Archite
 file: https://api.spreaker.com/v2/episodes/48624907/download.mp3
 length: 47:27
 videoid: udVCFp8L2tY
-cover: "../assets/img/306.png"
+cover: "/devsecopspodcast/assets/img/306.png"
 ---
 
 In our first episode in English, we talked with a Solutions Architect from one of the biggest security companies in the world, Veracode. We discussed about how an enterprise tool can help developers to build secure software.

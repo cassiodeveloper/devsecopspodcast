@@ -6,7 +6,7 @@ description: With an amazing guest, we discussed the beauty of IaC and of course
 file: https://api.spreaker.com/v2/episodes/52415781/download.mp3
 length: 51:56
 videoid: gcpxhE6uB5w
-cover: "../assets/img/402.png"
+cover: "/devsecopspodcast/assets/img/402.png"
 extralink: https://www.cicd.run/
 guest: https://www.linkedin.com/in/pawelpiwosz/
 ---

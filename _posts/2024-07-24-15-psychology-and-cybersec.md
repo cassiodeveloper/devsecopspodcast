@@ -6,7 +6,7 @@ description: "In this insightful episode of the DevSecOps Podcast, hosts Cássio
 file: https://api.spreaker.com/v2/episodes/60801221/download.mp3
 length: 48:00
 videoid: _vjc6QWIccs
-cover: "../assets/img/515.png"
+cover: "/devsecopspodcast/assets/img/515.png"
 transcription: "../assets/transcriptions/5/15/15.txt"
 ai: false
 resumo: ""

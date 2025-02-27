@@ -6,7 +6,7 @@ description: Temas importantes tratamos neste episódio que é o último da sér
 file: https://api.spreaker.com/v2/episodes/53580096/download.mp3
 length: 46:42
 videoid: WvWrtRzdnM0
-cover: "../assets/img/412.png"
+cover: "/devsecopspodcast/assets/img/412.png"
 transcription: "../assets/transcriptions/4/12/12.srt"
 ---
 

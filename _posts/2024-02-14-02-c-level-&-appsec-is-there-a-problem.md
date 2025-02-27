@@ -6,7 +6,7 @@ description: "This episode aims to explore the dynamics and differences between 
 file: https://api.spreaker.com/v2/episodes/58554627/download.mp3
 length: 57:01
 videoid: 2Mt4gy6I6AM
-cover: "../assets/img/502.png"
+cover: "/devsecopspodcast/assets/img/502.png"
 transcription: "../assets/transcriptions/5/2/02.txt"
 guest: "https://www.linkedin.com/in/yoadfekete/"
 ---

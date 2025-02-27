@@ -6,7 +6,7 @@ description: "É isso mesmo, é o fim galera acabou. A IA vai dominar tudo, não
 file: https://api.spreaker.com/v2/episodes/64315222/download.mp3
 length: 
 videoid: rFjYP_icgFg
-cover: "../assets/img/604.png"
+cover: "/devsecopspodcast/assets/img/604.png"
 transcription: "../assets/transcriptions/6/4/04.txt"
 ai: false
 resumo: ""

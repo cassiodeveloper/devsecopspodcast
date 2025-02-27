@@ -12,7 +12,7 @@ Se você é um desenvolvedor interessado em elevar suas habilidades de seguranç
 file: https://api.spreaker.com/v2/episodes/57055396/download.mp3
 length: 45:02
 videoid: LA8vVBMpihg
-cover: "../assets/img/425.png"
+cover: "/devsecopspodcast/assets/img/425.png"
 transcription: "../assets/transcriptions/4/25/25.srt"
 transcription_txt: "_data/25.txt"
 ---

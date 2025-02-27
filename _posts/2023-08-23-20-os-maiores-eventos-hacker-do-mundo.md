@@ -6,7 +6,7 @@ description: Neste episódio do DevSecOps Podcast, Cássio e Rodrigo compartilha
 file: https://api.spreaker.com/v2/episodes/56569939/download.mp3
 length: 60:00
 videoid: Bi5B0aIGTuQ
-cover: "../assets/img/420.png"
+cover: "/devsecopspodcast/assets/img/420.png"
 transcription: "../assets/transcriptions/4/20/20.srt"
 ---
 

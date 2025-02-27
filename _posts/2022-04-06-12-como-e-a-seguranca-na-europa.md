@@ -6,7 +6,7 @@ description: No episódio em que invocaram o tinhoso, o Cássio fala um pouco so
 file: https://api.spreaker.com/v2/episodes/49344219/download.mp3
 length: 50:32
 videoid: RUsMRndTLs8
-cover: "../assets/img/312.png"
+cover: "/devsecopspodcast/assets/img/312.png"
 ---
 
 No episódio em que invocaram o tinhoso, o Cássio fala um pouco sobre as primeiras impressões de como é a Cyber Segurança na Europa, com algumas curiosidades.

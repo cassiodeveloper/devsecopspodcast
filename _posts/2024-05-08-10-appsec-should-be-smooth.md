@@ -6,7 +6,7 @@ description: "In this insightful episode of the DevSecOps Podcast, hosts dive de
 file: https://api.spreaker.com/v2/episodes/59867836/download.mp3
 length: 47:03
 videoid: XHZgQdsHSJo
-cover: "../assets/img/510.png"
+cover: "/devsecopspodcast/assets/img/510.png"
 transcription: "/transcriptions/5/10/10.txt"
 ai: false
 resumo: ""

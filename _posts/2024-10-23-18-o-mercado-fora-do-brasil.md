@@ -6,7 +6,7 @@ description: "Nesse episódio, os hosts compartilham suas experiências de viver
 file: https://api.spreaker.com/v2/episodes/62474186/download.mp3
 length: 01:21:24
 videoid: AlwPbhTrEAc
-cover: "../assets/img/518.png"
+cover: "/devsecopspodcast/assets/img/518.png"
 transcription: "../assets/transcriptions/5/18/18.txt"
 ai: true
 resumo: "O podcast discute a experiência de morar e trabalhar no exterior, com os participantes Cassio, Marcos e Benhur compartilhando suas vivências na Polônia e Alemanha. Eles abordam questões como preparação financeira, adaptação cultural, idioma local e diferenças no ambiente de trabalho. Destacam a importância de ter uma reserva financeira ao se mudar para o exterior, considerando custos extras como documentação de animais de estimação. Além disso, ressaltam a diferença na mentalidade profissional, com maior autonomia e menos pressão no trabalho em comparação ao Brasil. Discutem também a diferença de salários e poder de compra entre o Brasil e a Europa, enfatizando a qualidade de vida e satisfação pessoal. A conversa aborda aspectos práticos e culturais relevantes para quem considera viver fora do país de origem."

@@ -6,7 +6,7 @@ description: "No episódio de hoje do DevSecOps Podcast, mergulhamos no mundo di
 file: https://api.spreaker.com/v2/episodes/59185424/download.mp3
 length: 52:22
 videoid: YRG5x2AxlgY
-cover: "../assets/img/506.png"
+cover: "/devsecopspodcast/assets/img/506.png"
 transcription: "https://podcasts-embed.musixmatch.com/t/01HSZ1ZSNZVAW0990ZH8V0XTRB.srt"
 ai: true
 resumo: "O podcast apresentou uma discussão entre os palestrantes Cássio, Beno e Thiago sobre eventos de segurança e testes automatizados. Eles abordaram a saturação de eventos de segurança, a importância da configuração correta das ferramentas de teste e a necessidade de combinar testes automatizados com ajustes manuais. A questão dos falsos positivos e negativos foi destacada, assim como a importância de testar tanto a API quanto a interface do usuário. A interação entre diferentes ferramentas de segurança foi enfatizada como essencial para obter resultados eficazes. A discussão abordou a complexidade dos testes automatizados e a necessidade de complementaridade entre as ferramentas. A importância de manter a qualidade e a comunicação entre as ferramentas foi ressaltada, assim como a necessidade de abordar diferentes aspectos dos testes de segurança. O episódio terminou com a promessa de continuar a discussão no próximo episódio."

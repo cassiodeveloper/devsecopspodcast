@@ -6,7 +6,7 @@ description: "Hoje, temos o prazer de receber um convidado especialista no assun
 file: https://api.spreaker.com/v2/episodes/54652077/download.mp3
 length: 50:00
 videoid: Z9HN3CEqJgU
-cover: "../assets/img/417.png"
+cover: "/devsecopspodcast/assets/img/417.png"
 transcription: "../assets/transcriptions/4/17/17.srt"
 ---
 

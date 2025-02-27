@@ -6,7 +6,7 @@ description: Neste episódio repleto de numerologia, trouxemos 9 dicas experts p
 file: https://api.spreaker.com/v2/episodes/49416926/download.mp3
 length: 45:00
 videoid: rFXLfbowoyo
-cover: "../assets/img/313.png"
+cover: "/devsecopspodcast/assets/img/313.png"
 ---
 
 Neste episódio repleto de numerologia, trouxemos 9 dicas experts para você melhorar a segurança hoje mesmo. Cada um compilou dicas sensacionais exclusivas para você.

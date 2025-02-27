@@ -6,7 +6,7 @@ description: For the first time on the history of this podcast, we brought a rea
 file: https://api.spreaker.com/v2/episodes/52461925/download.mp3
 length: 48:44
 videoid: Hdx29PVAd7U
-cover: "../assets/img/403.png"
+cover: "/devsecopspodcast/assets/img/403.png"
 guest: https://www.linkedin.com/in/pkusik/
 ---
 

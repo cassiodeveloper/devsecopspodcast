@@ -6,7 +6,7 @@ description: Neste episódio você vai ouvir a respeito da responsabilidade corp
 file: https://api.spreaker.com/download/episode/21858507/t01ep04.mp3
 length: 53:13
 videoid: qksRIoAsJqI
-cover: "../assets/img/04.png"
+cover: "/devsecopspodcast/assets/img/04.png"
 ---
 
 Neste episódio você vai ouvir a respeito da responsabilidade corporativa sobre um software, quem responde pelos problemas? Incidentes? Melhorias? Quem de fato é o pai da criança?

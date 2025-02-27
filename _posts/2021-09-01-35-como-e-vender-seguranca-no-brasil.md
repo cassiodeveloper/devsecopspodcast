@@ -6,7 +6,7 @@ description: Com um convidado cheio de poderes, falamos sobre os desafios de ven
 file: https://api.spreaker.com/v2/episodes/46315638/download.mp3
 length: 60:00
 videoid: FLzs4YHDk7Y
-cover: "../assets/img/035.png"
+cover: "/devsecopspodcast/assets/img/035.png"
 ---
 
 Com um convidado cheio de poderes, falamos sobre os desafios de vender segurança no Brasil.
